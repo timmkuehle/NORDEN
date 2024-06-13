@@ -30,7 +30,7 @@
 		"clean-webpack-plugin": "^4.0.0",
 		"colors": "^1.4.0",
 		"css-loader": "^6.9.0",
-		"eslint": "^8.56.0",
+		"eslint": "^9.3.0",
 		"glob": "^10.3.10",
 		"mini-css-extract-plugin": "^2.7.7",
 		"prettier": "^3.2.1",
