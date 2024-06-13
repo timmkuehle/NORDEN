@@ -1,0 +1,92 @@
+// Jobs page styling
+
+body {
+	main {
+		.job-page-header {
+			display: flex;
+			justify-content: space-between;
+			gap: 3rem;
+			overflow: hidden;
+			margin-inline: calc(-1 * var(--main-padding-inline));
+			background-color: var(--color-light);
+
+			margin-bottom: -10rem;
+
+			@media screen and (max-width: 768px) {
+				flex-direction: column;
+				gap: 1rem;
+
+				.heading {
+					max-width: unset;
+				}
+			}
+
+			@media screen and (min-width: 768px) {
+				padding-top: 3rem;
+
+				.heading {
+					max-width: 14rem;
+				}
+			}
+		}
+
+		.job-offer {
+			display: flex;
+			flex-direction: column;
+			padding-inline: var(--main-padding-inline) !important;
+			padding-block: 6rem;
+
+			&.first {
+				padding-top: 10rem;
+			}
+
+			.content {
+				align-self: center;
+				max-width: 36rem;
+
+				@media screen and (min-width: 768px) {
+					& > *:not(.heading) {
+						margin-left: 4rem;
+					}
+				}
+
+				.heading {
+					font-size: 2.5em;
+				}
+
+				.subheading {
+					margin-bottom: 0.5rem;
+					text-transform: none;
+					font-size: 1.5em;
+				}
+
+				.subheading ~ .bullet-list {
+					margin-top: 0.5rem;
+				}
+
+				footer {
+					display: flex;
+					align-items: flex-start;
+					gap: 3rem;
+					margin-top: 3rem;
+
+					@media screen and (max-width: 768px) {
+						flex-direction: column;
+						gap: 1.5rem;
+						margin-top: 1.5rem;
+					}
+
+					p {
+						margin-block: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Import generic stylesheets
+@import "../../../../../assets/src/styles/bullet-list.scss";
+
+// Import component stylesheets
+@import "../../../../../../components/Button/Button.scss";

@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+content/**/assets/dist
+core/error/assets/dist
+common.config.json
+.DS_Store

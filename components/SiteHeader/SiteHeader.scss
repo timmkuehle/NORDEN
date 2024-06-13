@@ -1,0 +1,32 @@
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: var(--header-height);
+	padding-inline: var(--main-padding-inline);
+	background-color: rgba(var(--color-light-rgb), 0.7);
+	backdrop-filter: blur(0.75rem);
+	box-shadow: var(--box-shadow-bottom);
+
+	.slot {
+		display: flex;
+		align-items: center;
+		flex: 1 0 0;
+
+		&.center {
+			justify-content: center;
+		}
+
+		&.end {
+			justify-content: flex-end;
+		}
+	}
+}
+
+// Import component stylesheets
+@import "../HomeLink/HomeLink.scss";
+@import "../HeaderMenu/HeaderMenu.scss";
+@import "../ContactMenu/ContactMenu.scss";

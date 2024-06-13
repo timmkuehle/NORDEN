@@ -1,0 +1,15 @@
+.social-media-link {
+	display: inline-block;
+	transition: transform 0.1s ease-in-out;
+
+	@media screen and (hover: hover) {
+		&:hover {
+			transform: scale(1.07);
+		}
+	}
+
+	.social-media-icon {
+		width: 1.75rem;
+		fill: var(--color-primary);
+	}
+}

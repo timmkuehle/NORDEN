@@ -1,0 +1,948 @@
+// Project variables
+$color-soel-anthrazit: #24353f;
+$color-soel-orange: #fb6f50;
+$color-soel-red: #e51336;
+$color-soel-medium: #7f7f7f;
+$color-soel-cut-1: #275c79;
+$color-soel-cut-2: #6a98bf;
+$color-soel-cut-3: #a3c4e0;
+$color-soel-cool-gray: #eeeff1;
+
+// Import fonts
+@import "./fonts.scss";
+
+// Utility classes
+.color-orange {
+	color: $color-soel-orange;
+}
+
+.color-white {
+	color: white;
+}
+
+.color-cut-3 {
+	color: $color-soel-cut-3;
+}
+
+.bg-color-anthrazit {
+	background-color: $color-soel-anthrazit;
+}
+
+.bg-color-cool-gray {
+	background-color: $color-soel-cool-gray;
+}
+
+.bg-color-cut-1 {
+	background-color: $color-soel-cut-1;
+}
+
+.bg-color-cut-2 {
+	background-color: $color-soel-cut-2;
+}
+
+.bg-color-cut-3 {
+	background-color: $color-soel-cut-3;
+}
+
+.bg-color-orange {
+	background-color: $color-soel-orange;
+}
+
+.bg-color-red {
+	background-color: $color-soel-red;
+}
+
+// SOELDEN project styling
+.soel-side-note {
+	text-transform: uppercase;
+	font-size: 1rem;
+	color: $color-soel-medium;
+
+	@media screen and (min-width: 769px) {
+		transform: rotate(180deg);
+		margin: 0;
+		writing-mode: vertical-rl;
+	}
+}
+
+.soelden-text-block {
+	&:not(.no-max-width) {
+		max-width: 36rem;
+	}
+
+	&.full {
+		flex-grow: 1;
+	}
+
+	& > * {
+		&:first-child {
+			margin-top: 0 !important;
+		}
+
+		&:last-child {
+			margin-bottom: 0 !important;
+		}
+
+		@media screen and (min-width: 769px) {
+			&:not(.heading) {
+				margin-left: 3rem;
+			}
+		}
+	}
+
+	.slots {
+		display: flex;
+		gap: 5rem;
+
+		@media screen and (max-width: 768px) {
+			flex-direction: column;
+			gap: 1.5rem;
+		}
+
+		.slot {
+			& > *:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.heading {
+		font-size: 2em;
+		margin-block: 0 1em;
+	}
+
+	.subline {
+		margin-block: 1.25em 0.5em;
+		font-size: 1.25em;
+		color: $color-soel-cut-3;
+	}
+
+	p {
+		margin-block: 0.5em;
+	}
+}
+
+.image-with-lines {
+	position: relative;
+	max-width: 55rem;
+	margin-inline: auto;
+	padding-top: 3rem;
+	padding-right: 5rem;
+
+	&.left {
+		padding-right: 0;
+		padding-left: 5rem;
+		margin-inline: auto 0;
+
+		.lines {
+			right: unset;
+			left: 0;
+		}
+	}
+
+	.soelden-bag & {
+		max-width: 40rem;
+	}
+
+	@media screen and (max-width: 768px) {
+		padding-top: 1.5rem;
+		padding-right: 2.5rem;
+
+		&.left {
+			padding-right: 0;
+			padding-left: 2.5rem;
+		}
+	}
+
+	.image {
+		position: relative;
+		z-index: 1;
+	}
+
+	.lines {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 30%;
+		mix-blend-mode: difference;
+	}
+}
+
+body {
+	.site-header {
+		background: $color-soel-anthrazit;
+		box-shadow: none;
+
+		.header-menu,
+		.contact-menu {
+			&::before {
+				background-color: $color-soel-anthrazit;
+			}
+
+			.mobile-menu-button {
+				.menu-icon {
+					.menu-icon-stroke {
+						stroke: white;
+					}
+				}
+			}
+
+			.nav-menu {
+				background-color: $color-soel-anthrazit;
+
+				.menu-item {
+					.menu-item-link {
+						color: white;
+					}
+				}
+			}
+		}
+
+		.home-link {
+			.logo {
+				fill: white;
+			}
+		}
+	}
+
+	main {
+		padding-top: 0;
+		font-family:
+			AS Soelden,
+			Relevant,
+			Helvetica,
+			Arial,
+			Helvetica,
+			sans-serif;
+
+		h1 {
+			font-family:
+				AS Soelden Headline,
+				Relevant,
+				Helvetica,
+				Arial,
+				Helvetica,
+				sans-serif;
+			margin-block: 0;
+			font-size: min(13.5vw, 13.5rem);
+			color: white;
+		}
+
+		.soelden-intro {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+			padding-block: 2.5rem 0;
+			background-color: $color-soel-anthrazit;
+
+			header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				gap: 1.25rem;
+
+				@media screen and (max-width: 768px) {
+					flex-direction: column;
+
+					h1 {
+						font-size: 17.5vw;
+					}
+				}
+
+				@media screen and (min-width: 769px) {
+					margin: 0 3rem;
+				}
+
+				.quote {
+					margin-block: 0;
+					@media screen and (min-width: 768px) {
+						max-width: 12rem;
+					}
+				}
+
+				.own-line {
+					@media screen and (min-width: 768px) {
+						display: block;
+						max-width: 10rem;
+						margin-block: 1.5rem 0;
+					}
+				}
+			}
+
+			.content {
+				display: flex;
+				justify-content: stretch;
+				margin-bottom: -10rem;
+
+				@media screen and (max-width: 768px) {
+					flex-direction: column;
+
+					.slot.end {
+						display: none;
+					}
+				}
+
+				.slot {
+					&.start,
+					&.end {
+						flex: 0 0 3rem;
+					}
+
+					&.center {
+						flex-grow: 1;
+
+						.video-container {
+							.brand-clip {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.norden-intro {
+			padding: 12rem 1.5rem 2rem 1.5rem;
+			font-family: Relevant, Helvetica, Arial, Helvetica, sans-serif;
+
+			@media screen and (min-width: 769px) {
+				padding: 15rem 3rem 5rem 3rem;
+			}
+
+			p {
+				font-size: 1.5em;
+				max-width: 40rem;
+
+				&:first-child {
+					margin-top: 0;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		.services {
+			display: flex;
+			gap: 2rem;
+			overflow-x: scroll;
+			padding-block: 1rem;
+
+			@-moz-document url-prefix() {
+				& {
+					scrollbar-width: thin;
+					scrollbar-color: $color-soel-orange var(--color-light);
+				}
+			}
+
+			&::-webkit-scrollbar-track {
+				background: var(--color-light);
+			}
+
+			&::-webkit-scrollbar-thumb {
+				background: $color-soel-orange;
+			}
+
+			&::-webkit-scrollbar {
+				height: 0.25rem;
+			}
+
+			.service {
+				margin-block: 0;
+				white-space: nowrap;
+				font-size: 1em;
+				color: $color-soel-orange;
+			}
+		}
+
+		.soelden-section {
+			padding: 2rem 0;
+			font-family: Relevant, Helvetica, Arial, Helvetica, sans-serif;
+
+			@media screen and (min-width: 769px) {
+				padding: 5rem 3rem;
+			}
+
+			.heartbeat-claim {
+				&.web {
+					@media screen and (max-width: 768px) {
+						display: none;
+					}
+				}
+
+				&.mobile {
+					@media screen and (min-width: 769px) {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.soelden-gallery {
+			display: flex;
+			justify-content: stretch;
+			padding-block: 2rem;
+
+			@media screen and (min-width: 769px) {
+				padding-block: 5rem;
+			}
+
+			@media screen and (max-width: 768px) {
+				flex-direction: column;
+
+				.slot.side-note-end:not(.has-content),
+				.slot.empty {
+					display: none !important;
+				}
+
+				.slot.side-note-end {
+					margin-top: 2rem;
+					flex-direction: row !important;
+				}
+			}
+
+			&.typography-1 {
+				position: relative;
+				z-index: -1;
+				padding-block: 29rem 0;
+				background-color: $color-soel-anthrazit;
+
+				@media screen and (min-width: 769px) {
+					padding: 21rem 3rem 5rem 3rem;
+				}
+			}
+
+			&.graphic-elements-images {
+				margin-bottom: -16rem;
+
+				@media screen and (max-width: 768px) {
+					margin-bottom: -27rem;
+				}
+
+				@media screen and (min-width: 769px) {
+					.side-note-start {
+						padding-top: 2rem;
+					}
+				}
+			}
+
+			&.color-2 {
+				background: linear-gradient(
+					$color-soel-anthrazit 55%,
+					var(--color-light) 55%
+				);
+
+				@media screen and (max-width: 768px) {
+					background: linear-gradient(
+						$color-soel-anthrazit 85%,
+						var(--color-light) 85%
+					);
+				}
+
+				.side-note-start {
+					@media screen and (min-width: 769px) {
+						padding-top: 9rem;
+					}
+				}
+			}
+
+			&.social-media-4 {
+				background: linear-gradient(
+					$color-soel-anthrazit 73%,
+					var(--color-light) 73%
+				);
+			}
+
+			&.folder {
+				padding-top: 0;
+			}
+
+			&.photo-point {
+				background: linear-gradient(
+					var(--color-light) 40%,
+					$color-soel-anthrazit 40%
+				);
+			}
+
+			&.soelden-bag {
+				background: linear-gradient(
+					$color-soel-anthrazit 55%,
+					var(--color-light) 55%
+				);
+			}
+
+			&.skiwear {
+				@media screen and (min-width: 769px) {
+					.slot.side-note-start {
+						padding-top: 2rem;
+
+						.soel-side-note {
+							color: $color-soel-orange;
+						}
+					}
+				}
+			}
+
+			.slot {
+				&.side-note-start,
+				&.side-note-end {
+					display: flex;
+					flex-direction: column;
+					flex: 0 0 3rem;
+
+					&.align-end {
+						justify-content: flex-end;
+					}
+				}
+			}
+
+			.color-swatch {
+				display: flex;
+				align-items: flex-end;
+				aspect-ratio: 1/1;
+				padding: 1rem;
+				border: 0.0625rem solid;
+
+				&.mini {
+					aspect-ratio: 4/5;
+					border: none;
+					margin-right: calc(-1 * var(--main-padding-inline));
+
+					@media screen and (max-width: 768px) {
+						aspect-ratio: 3/1;
+						margin-right: calc(-1 * var(--main-padding-inline));
+					}
+				}
+
+				@media screen and (max-width: 768px) {
+					max-width: 15rem;
+				}
+
+				&.primary {
+					border-color: $color-soel-cool-gray;
+
+					@media screen and (min-width: 769px) {
+						margin-top: 9rem;
+					}
+				}
+
+				&.cuts {
+					flex-direction: column;
+					justify-content: stretch;
+					padding: 0;
+					border-color: transparent;
+					margin-left: auto;
+
+					@media screen and (max-width: 768px) {
+						margin-left: auto;
+					}
+
+					.color-swatch {
+						flex-grow: 1;
+						aspect-ratio: unset;
+						width: 100%;
+						border: none;
+
+						.color-value {
+							color: white;
+						}
+					}
+				}
+
+				&.white {
+					border-color: $color-soel-anthrazit;
+
+					@media screen and (min-width: 769px) {
+						margin-top: 4rem;
+					}
+
+					@media screen and (max-width: 768px) {
+						margin-inline: auto;
+					}
+				}
+
+				.color-value {
+					margin: 0;
+					font-size: 0.625em;
+				}
+			}
+
+			.content {
+				display: flex;
+				justify-content: stretch;
+				gap: 2.5rem;
+				flex-grow: 1;
+
+				@media screen and (max-width: 768px) {
+					flex-direction: column;
+				}
+
+				&.align-right {
+					justify-content: flex-end;
+				}
+
+				&.vert-align-center {
+					align-items: center;
+				}
+
+				.slot {
+					flex-grow: 1;
+				}
+
+				&.image-layout {
+					.col {
+						display: flex;
+						flex-direction: column;
+						justify-content: stretch;
+						gap: 3rem;
+
+						@media screen and (max-width: 768px) {
+							gap: 2rem;
+						}
+
+						&.stick {
+							flex-basis: 69%;
+
+							&.left {
+								@media screen and (min-width: 769px) {
+									margin-left: -4.375rem;
+								}
+							}
+						}
+					}
+				}
+
+				.image {
+					&.typography-animation {
+						max-width: min(30rem, 100%);
+					}
+
+					&.soelden-folder {
+						transform: translateX(var(--main-padding-inline));
+
+						@media screen and (min-width: 769px) {
+							transform: translateX(4.375rem);
+						}
+					}
+
+					&.photo-point {
+						max-width: min(50rem, 100%);
+						margin-inline: auto;
+					}
+
+					&.bike-box {
+						max-width: min(50rem, 100%);
+					}
+
+					&.world-cup-iphone {
+						max-width: min(40rem, 100%);
+					}
+
+					&.world-cup-skis {
+						aspect-ratio: 320/1400;
+					}
+				}
+
+				.svg {
+					&.lines-wide,
+					&.lines-medium,
+					&.lines-narrow {
+						mix-blend-mode: difference;
+
+						@media screen and (max-width: 768px) {
+							max-width: 15rem;
+							margin-inline: auto;
+						}
+					}
+
+					@media screen and (min-width: 769px) {
+						&.lines-wide {
+							margin-top: 2rem;
+						}
+
+						&.lines-medium {
+							@media screen and (min-width: 769px) {
+								margin-top: 6rem;
+							}
+						}
+					}
+				}
+
+				.typo-claim-animation {
+					max-width: min(40rem, 100%);
+				}
+
+				.headline-font-alphabet {
+					max-width: min(50rem, 100%);
+					margin-inline: auto;
+				}
+
+				.logo-animation {
+					max-width: min(35rem, 100%);
+				}
+
+				.logo-placement {
+					width: 28rem;
+
+					@media screen and (max-width: 768px) {
+						max-width: 15rem;
+					}
+				}
+
+				.world-cup-video {
+					max-width: min(40rem, 100%);
+				}
+
+				.soelden-icons {
+					display: flex;
+					flex-wrap: wrap;
+					gap: 2rem;
+					margin-top: 2rem;
+
+					@media screen and (max-width: 768px) {
+						justify-content: center;
+					}
+
+					.soelden-icon {
+						width: 7rem;
+						border: 0.0625rem solid white;
+
+						@media screen and (max-width: 768px) {
+							width: 5.5rem;
+						}
+					}
+				}
+
+				.soelden-gifs {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+					align-items: center;
+					gap: 2rem;
+					margin-top: 2rem;
+
+					.soelden-gif {
+						width: 13rem;
+
+						@media screen and (max-width: 768px) {
+							width: 9rem;
+						}
+					}
+				}
+
+				.soelden-feed-carousel {
+					margin-top: 2rem;
+				}
+			}
+		}
+
+		.full-width-image {
+			margin-inline: calc(-1 * var(--main-padding-inline));
+			max-width: min(1440px, calc(100% + 2 * var(--main-padding-inline)));
+
+			@media screen and (min-width: 769px) {
+				width: calc(100% + 2 * var(--main-padding-inline));
+			}
+
+			@media screen and (min-width: 1440px) {
+				margin-inline: auto;
+			}
+		}
+
+		.soelden-feed-carousel {
+			position: relative;
+			padding-bottom: 1.5rem;
+
+			&::before {
+				content: url("../../../../../resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_weit.svg");
+				display: block;
+				position: absolute;
+				width: 25%;
+				bottom: 0;
+				left: calc(-1 * var(--main-padding-inline));
+			}
+
+			@media screen and (min-width: 769px) {
+				padding-bottom: 7rem;
+
+				&::before {
+					left: -7.5rem;
+				}
+			}
+
+			img {
+				position: relative;
+				z-index: 1;
+			}
+		}
+
+		.soelden-so-me-examples {
+			width: 100%;
+		}
+
+		.soelden-feed-mockup {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+			margin-top: 2rem;
+
+			.feed-mockup-wrapper {
+				position: relative;
+
+				img {
+					max-width: min(22rem, 100%);
+				}
+
+				&::after {
+					content: "";
+					display: block;
+					position: absolute;
+					bottom: 0;
+					width: 100%;
+					height: 20%;
+					background: linear-gradient(
+						rgba(var(--color-light-rgb), 0),
+						var(--color-light)
+					);
+				}
+			}
+
+			.lines {
+				width: 20rem;
+				margin-right: calc(-1 * 4.25rem);
+				margin-bottom: 5rem;
+				mix-blend-mode: difference;
+
+				@media screen and (max-width: 768px) {
+					display: none;
+				}
+			}
+		}
+
+		.wc-products {
+			display: flex;
+			gap: 2rem;
+
+			@media screen and (min-width: 769px) {
+				gap: 4rem;
+			}
+
+			@media screen and (max-width: 768px) {
+				flex-direction: column;
+
+				.col {
+					.world-cup-skis {
+						transform: rotate(90deg);
+					}
+				}
+			}
+
+			.col {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 2rem;
+
+				@media screen and (min-width: 769px) {
+					gap: 4rem;
+				}
+			}
+		}
+
+		.events-intro {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+
+			header {
+				display: flex;
+				align-items: flex-end;
+				justify-content: space-between;
+				transform: translateY(-3.25rem);
+
+				@media screen and (min-width: 768px) {
+					padding-inline: 2rem;
+
+					.heading {
+						font-size: 2em;
+						max-width: 20rem;
+					}
+				}
+
+				.heading {
+					font-family:
+						AS Soelden HL,
+						AS Soelden,
+						Relevant,
+						Helvetica,
+						Arial,
+						Helvetica,
+						sans-serif;
+					font-size: 3em;
+					max-width: 24rem;
+					margin-block: 0;
+				}
+
+				.world-cup-icon {
+					width: 5rem;
+					border: 0.0625rem solid white;
+				}
+
+				@media screen and (max-width: 768px) {
+					.heading {
+						font-size: 2em;
+						max-width: 12rem;
+					}
+				}
+			}
+		}
+
+		.soelden-outro {
+			padding-block: 5rem 8rem;
+
+			.heading {
+				max-width: 25.125rem;
+				margin-left: auto;
+				font-family:
+					AS Soelden Headline,
+					Relevant,
+					Helvetica,
+					Arial,
+					Helvetica,
+					sans-serif;
+				font-size: 5em;
+			}
+
+			@media screen and (max-width: 768px) {
+				padding-block: 2rem 3.5rem;
+
+				.heading {
+					margin-top: 0;
+					font-size: 2.75em;
+				}
+			}
+
+			.image-with-lines {
+				max-width: unset;
+				margin-inline: 0 calc(-1 * var(--main-padding-inline));
+
+				@media screen and (min-width: 768px) {
+					padding-top: 2rem;
+
+					.lines {
+						top: -7rem;
+					}
+				}
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.site-footer {
+		background-color: $color-soel-anthrazit;
+	}
+}

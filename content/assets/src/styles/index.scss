@@ -1,0 +1,102 @@
+// Import variables
+@import "./variables.scss";
+
+// Import utility classes
+@import "./utils.scss";
+
+// Import fonts
+@import "./fonts.scss";
+
+// General styling
+* {
+	box-sizing: border-box;
+}
+
+svg,
+img,
+video {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+svg {
+	overflow: visible;
+	fill: var(--color-dark);
+}
+
+a {
+	font-size: 1.125em;
+	color: var(--color-dark);
+
+	@media screen and (hover: hover) {
+		&:hover {
+			color: var(--color-primary);
+		}
+	}
+
+	ul > li > & {
+		text-decoration: none;
+	}
+}
+
+#mobile-menu-checkbox {
+	display: none;
+}
+
+h1,
+h2 {
+	margin-block: 0.25em;
+	line-height: 1.05;
+	text-transform: uppercase;
+	font-size: 4em;
+
+	.has-error main & {
+		font-size: 3em;
+	}
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 1.75em;
+}
+
+p {
+	font-size: 1.125em;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	line-height: 1.15;
+	font-family: Relevant, Helvetica, Arial, sans-serif;
+	color: var(--color-dark);
+	background-color: var(--color-light);
+
+	main {
+		flex-grow: 1;
+		margin-top: var(--header-height);
+		padding: var(--main-padding);
+
+		& > * {
+			&:not(.full-width) {
+				max-width: var(--max-content-width);
+				margin-inline: auto;
+			}
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+// Import component stylesheets
+@import "../../../../components/SiteHeader/SiteHeader.scss";
+@import "../../../../components/SiteFooter/SiteFooter.scss";

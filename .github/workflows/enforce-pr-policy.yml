@@ -1,0 +1,25 @@
+name: Enforce Pull Request Policy
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  enforce-pr-policy:
+    name: Prevent pull requests from invalid branches
+    if: github.base_ref == 'main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check for valid pull request compare branch
+        id: check_pr_branch_validity
+        run: |
+          if [[ "${{ github.event.pull_request.head.ref }}" == "staging" ]]; then
+            echo "Branch check passed: Branch 'staging' can be merged into 'main'" >> $GITHUB_STEP_SUMMARY
+            echo "valid_branch=success" >> $GITHUB_OUTPUT
+            exit 0
+          else
+            echo "Branch check failed: Only branch 'staging' can be merged into 'main'" >> $GITHUB_STEP_SUMMARY
+            echo "valid_branch=failure" >> $GITHUB_OUTPUT
+            exit 1
+          fi

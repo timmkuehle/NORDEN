@@ -1,0 +1,22 @@
+.contact-menu {
+	display: flex;
+	align-items: center;
+
+	.nav-menu {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 1.75rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-transform: uppercase;
+
+		.menu-item {
+			.menu-item-link {
+				font-size: 0.9375rem;
+			}
+		}
+	}
+}

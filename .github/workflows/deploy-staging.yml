@@ -1,0 +1,62 @@
+name: Deploy Staging
+
+on: workflow_dispatch
+
+jobs:
+  build-and-deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+
+    env:
+      SSH_KEY: ${{ secrets.SSH_KEY_STAGING }}
+      SSH_HOST: ${{ secrets.SSH_HOST_STAGING }}
+      SSH_USER: ${{ secrets.SSH_USER_STAGING }}
+      SSH_DEST_DIR: ${{ secrets.SSH_DEST_DIR_STAGING }}
+      STAGING_HTACCESS: ${{ secrets.STAGING_HTACCESS }}
+
+    steps:
+      - name: Checkout staging branch
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+
+      - name: Set up NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm i
+
+      - name: Build project
+        run: npm run build
+
+      - name: Setup .htaccess
+        run: echo "$STAGING_HTACCESS" > .htaccess
+
+      - name: Configure SSH setup
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H $SSH_HOST > ~/.ssh/known_hosts
+
+      - name: Clear destination directory
+        run: ssh $SSH_USER@$SSH_HOST "shopt -s dotglob; rm -rf $SSH_DEST_DIR/*"
+
+      - name: Deploy to staging server
+        run: |
+          rsync -avz --delete --delete-excluded \
+          --exclude='.git*' \
+          --exclude='node_modules' \
+          --exclude='.babelrc' \
+          --exclude='.eslintrc.json' \
+          --exclude='.prettierrc' \
+          --exclude='tsconfig.json' \
+          --exclude='webpack.config.cjs' \
+          --exclude='scripts' \
+          --exclude='content/assets/src' \
+          --exclude='content/*/*/assets/src' \
+          --exclude='core/error/assets/src' \
+          ./ $SSH_USER@$SSH_HOST:$SSH_DEST_DIR

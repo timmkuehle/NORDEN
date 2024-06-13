@@ -1,0 +1,32 @@
+.bullet-list {
+	margin-block: 1.625rem;
+
+	.heading {
+		font-size: 2em;
+		margin-block: 0 0.75rem;
+	}
+
+	ul {
+		padding-left: 1.5rem;
+		margin-block: 0;
+		list-style: none;
+
+		li {
+			position: relative;
+			line-height: 1.25;
+
+			&::before {
+				content: "";
+				display: block;
+				position: absolute;
+				transform: translateY(-50%);
+				top: 0.65em;
+				left: -1rem;
+				width: 0.1875rem;
+				height: 0.1875rem;
+				border-radius: 5rem;
+				background-color: black;
+			}
+		}
+	}
+}

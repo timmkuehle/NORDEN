@@ -1,0 +1,11 @@
+RewriteEngine on
+
+# Rewrite all requests that do not match an existing file to index.php in root directory
+# Prevents directory browsing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1?%{QUERY_STRING} [L]
+
+# Rewrite all requests ending with ".php" or ".html" to index.php in root directory
+# Prevents direct access to PHP files and HTML templates
+# Allows accessing assets like scripts, stylesheets or images
+RewriteRule ^(.*).(php|html)$ index.php/$1?%{QUERY_STRING} [L]

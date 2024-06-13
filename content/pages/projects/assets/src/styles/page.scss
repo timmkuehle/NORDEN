@@ -1,0 +1,23 @@
+// Projects page styling
+body {
+	main {
+		height: calc(100vh - var(--header-height));
+		height: calc(100dvh - var(--header-height));
+		padding-top: 0;
+
+		.project-archive {
+			height: 100%;
+			padding-bottom: 0;
+
+			.site-footer {
+				width: calc(100% + var(--main-padding-inline) * 2);
+			}
+		}
+	}
+}
+
+// Import generic stylesheets
+@import "../../../../../assets/src/styles/content-card.scss";
+
+// Import component stylesheets
+@import "../../../../../../components/ProjectArchive/ProjectArchive.scss";

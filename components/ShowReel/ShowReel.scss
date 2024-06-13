@@ -1,0 +1,19 @@
+.showreel {
+	position: relative;
+	z-index: -1;
+	overflow: hidden;
+	max-width: unset !important;
+	margin-inline: calc(-1 * var(--main-padding-inline)) !important;
+
+	.showreel-video {
+		width: 100%;
+	}
+
+	&.overlap-header {
+		.showreel-video {
+			margin-top: calc(
+				-1 * var(--main-padding-inline) - var(--header-height)
+			);
+		}
+	}
+}

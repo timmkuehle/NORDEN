@@ -1,0 +1,63 @@
+.projects-preview {
+	margin-block: 6rem;
+
+	.subline {
+		margin-top: 0.5em;
+		text-align: center;
+		font-size: 1.375em;
+	}
+
+	.title {
+		margin-bottom: 1.5em;
+		text-transform: uppercase;
+		font-size: 2em;
+	}
+
+	.project-links {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		gap: 2rem;
+
+		.project {
+			display: block;
+			flex: 0 1 34rem;
+			position: relative;
+
+			@media screen and (hover: hover) {
+				&:hover {
+					.title {
+						color: var(--color-primary);
+					}
+				}
+			}
+
+			@media screen and (min-width: 1164px) {
+				&#project-1 {
+					margin-top: 8rem;
+				}
+			}
+
+			.title {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				margin-block: 0;
+				padding: 1rem;
+				text-align: center;
+				font-size: 1.5rem;
+				letter-spacing: 1rem;
+				transition: color 0.25s ease-out;
+			}
+		}
+
+		.project-archive-button {
+			margin: 4rem 2rem 0 2rem;
+		}
+	}
+}
+
+// Import component stylesheets
+@import "../Button/Button.scss";

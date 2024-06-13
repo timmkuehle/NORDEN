@@ -1,0 +1,48 @@
+.button {
+	display: inline-flex;
+	position: relative;
+	min-width: 11rem;
+	white-space: nowrap;
+	padding: 0.4375em 0.75em;
+	color: var(--color-dark);
+	border: 0.125rem solid;
+	transition: transform 0.1s ease-in-out;
+
+	&.primary {
+		color: var(--color-primary-contrast);
+		background: var(--color-primary);
+		border-color: var(--color-primary);
+
+		@media screen and (hover: hover) {
+			&:hover {
+				color: var(--color-light-tint);
+			}
+		}
+	}
+
+	&.secondary {
+		color: var(--color-primary);
+		border-color: var(--color-primary);
+
+		@media screen and (hover: hover) {
+			&:hover {
+				color: var(--color-primary-shade);
+			}
+		}
+	}
+
+	@media screen and (hover: hover) {
+		&:hover {
+			transform: scale(1.015);
+			color: var(--color-dark-shade);
+		}
+	}
+
+	&:active {
+		transform: scale(0.98);
+
+		&::before {
+			opacity: 1;
+		}
+	}
+}

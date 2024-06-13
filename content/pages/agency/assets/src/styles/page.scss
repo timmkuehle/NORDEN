@@ -1,0 +1,94 @@
+// Projects page styling
+
+body {
+	main {
+		.agency-intro {
+			display: flex;
+			gap: 4rem;
+			margin-top: 2rem;
+
+			@media screen and (max-width: 1024px) {
+				flex-direction: column;
+			}
+
+			.side-note {
+				margin-inline: 0 !important;
+				margin-block-start: 2.5rem !important;
+			}
+
+			.hidden {
+				opacity: 0;
+			}
+
+			.bullet-list {
+				margin-block: 0;
+			}
+
+			.copy {
+				margin-top: 0;
+			}
+
+			.image {
+				min-width: 23rem;
+
+				@media screen and (max-width: 1024px) {
+					max-width: 640px;
+				}
+			}
+
+			.slot {
+				display: flex;
+				gap: 1.5rem;
+
+				&.start {
+					flex-direction: column;
+					justify-content: space-between;
+				}
+
+				&.end {
+					align-items: flex-start;
+					justify-content: center;
+				}
+
+				.row {
+					display: flex;
+					align-items: flex-start;
+					gap: 1rem;
+
+					@media screen and (max-width: 768px) {
+						flex-direction: column;
+					}
+
+					&.top {
+						.col.start {
+							@media screen and (max-width: 1024px) {
+								display: none;
+							}
+						}
+					}
+				}
+
+				.col {
+					display: flex;
+					gap: 6rem;
+
+					@media screen and (max-width: 768px) {
+						justify-content: space-between;
+						gap: 2rem;
+					}
+				}
+			}
+		}
+	}
+
+	.site-footer {
+		background-color: var(--color-light-shade);
+	}
+}
+
+// Import generic stylesheets
+@import "../../../../../assets/src/styles/content-card.scss";
+@import "../../../../../assets/src/styles/bullet-list.scss";
+
+// Import component stylesheets
+@import "../../../../../../components/PeopleGallery/PeopleGallery.scss";

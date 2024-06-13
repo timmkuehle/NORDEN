@@ -1,0 +1,21 @@
+.home-link {
+	display: inline-block;
+	transition: transform 0.1s ease-out;
+
+	&:active {
+		transform: scale(0.96);
+	}
+
+	@media screen and (hover: hover) {
+		&:hover {
+			transform: scale(1.04);
+
+			.logo {
+				fill: var(--color-primary);
+			}
+		}
+	}
+}
+
+// Import component stylesheets
+@import "../Logo/Logo.scss";

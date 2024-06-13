@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .uuid-197cadde-a652-44f8-afec-6178064265b2, .uuid-ef1525fe-b431-474d-a113-54edda12ee6c {
+        fill: none;
+      }
+
+      .uuid-197cadde-a652-44f8-afec-6178064265b2, .uuid-3d052ab8-fc1f-48c3-b953-1b489c9e688b {
+        stroke-width: 0px;
+      }
+
+      .uuid-3d916640-d2c0-49e9-8980-aba56284b29a {
+        clip-path: url(#uuid-2bcc9f27-021f-4a61-83ef-dfb33f3790b2);
+      }
+
+      .uuid-284e1fa6-f93e-441b-a0d4-f9ff26f1b8dd, .uuid-7ca6dba3-d62b-47d2-81c2-ec76816a08c7 {
+        stroke-width: 22px;
+      }
+
+      .uuid-284e1fa6-f93e-441b-a0d4-f9ff26f1b8dd, .uuid-7ca6dba3-d62b-47d2-81c2-ec76816a08c7, .uuid-ef1525fe-b431-474d-a113-54edda12ee6c {
+        stroke-miterlimit: 10;
+      }
+
+      .uuid-284e1fa6-f93e-441b-a0d4-f9ff26f1b8dd, .uuid-7ca6dba3-d62b-47d2-81c2-ec76816a08c7, .uuid-3d052ab8-fc1f-48c3-b953-1b489c9e688b {
+        fill: #24353f;
+      }
+
+      .uuid-284e1fa6-f93e-441b-a0d4-f9ff26f1b8dd, .uuid-ef1525fe-b431-474d-a113-54edda12ee6c {
+        stroke: #fff;
+      }
+
+      .uuid-7ca6dba3-d62b-47d2-81c2-ec76816a08c7 {
+        stroke: #6a98bf;
+      }
+
+      .uuid-65a0eb27-9c5f-4a0a-b930-afe91b1064bd {
+        clip-path: url(#uuid-e3b65981-942b-4ff4-ae57-bd7e298be7ce);
+      }
+
+      .uuid-f9514731-1e68-4cb1-b756-de144f6d4c30 {
+        clip-path: url(#uuid-24c8f9c5-6a09-4220-8945-6b7e4433f185);
+      }
+
+      .uuid-6ed9dc32-02dd-4302-b9e3-1cc6b7db9469 {
+        clip-path: url(#uuid-5ed9fd20-877c-4caf-a26c-77ae5313dd6d);
+      }
+
+      .uuid-7a53a410-36b1-42de-9cee-39b518480880 {
+        clip-path: url(#uuid-b1b3b91e-19da-4bf5-89ab-f94409f83d0c);
+      }
+
+      .uuid-655f2ff3-be63-4545-acc4-14f8db99b52e {
+        clip-path: url(#uuid-be3d3ac0-e3a9-43b2-9d98-7384a4c150e6);
+      }
+
+      .uuid-eb22320a-fa29-473b-ad4e-823f2d9d17dd {
+        clip-path: url(#uuid-de876ec1-694e-4eca-b9bd-3f91f43fbd2f);
+      }
+
+      .uuid-189351fd-1b38-487e-9e4d-a08b36454de1 {
+        clip-path: url(#uuid-23b5b7c1-67af-4749-8788-ce756d79e4c6);
+      }
+
+      .uuid-7217bb01-a083-4c37-9ff9-e634977a15ad {
+        clip-path: url(#uuid-b01c0c57-f57c-4a98-93ae-c08888b69ecc);
+      }
+
+      .uuid-ef1525fe-b431-474d-a113-54edda12ee6c {
+        stroke-width: 4px;
+      }
+
+      .uuid-b624b460-4bd6-47a2-a719-592ed843e4d8 {
+        clip-path: url(#uuid-eb13c87c-a550-45f9-a8da-c6e299b1584d);
+      }
+
+      .uuid-1a53b25d-465f-4e29-a2b2-4f4401c8adad {
+        clip-path: url(#uuid-599f16dd-d9d5-402f-b8a0-247678a9fd95);
+      }
+
+      .uuid-1de3e58f-cbdc-4621-b60a-fb39f5229c46 {
+        clip-path: url(#uuid-3d17b241-d8ed-4572-b4aa-ee4571345621);
+      }
+    </style>
+    <clipPath id="uuid-2bcc9f27-021f-4a61-83ef-dfb33f3790b2">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="190.85" y="335.08" width="364.38" height="338.85"/>
+    </clipPath>
+    <clipPath id="uuid-be3d3ac0-e3a9-43b2-9d98-7384a4c150e6">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="1576.87" y="616.41" width="494.74" height="273.63"/>
+    </clipPath>
+    <clipPath id="uuid-eb13c87c-a550-45f9-a8da-c6e299b1584d">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="-1188" y="-289.96" width="466.2" height="189.96"/>
+    </clipPath>
+    <clipPath id="uuid-24c8f9c5-6a09-4220-8945-6b7e4433f185">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="190.25" y="-928.63" width="152.49" height="379.81"/>
+    </clipPath>
+    <clipPath id="uuid-23b5b7c1-67af-4749-8788-ce756d79e4c6">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="-4728" y="-289.96" width="764.59" height="189.96"/>
+    </clipPath>
+    <clipPath id="uuid-5ed9fd20-877c-4caf-a26c-77ae5313dd6d">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="-2144.57" y="653.02" width="390.4" height="182.31"/>
+    </clipPath>
+    <clipPath id="uuid-b01c0c57-f57c-4a98-93ae-c08888b69ecc">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="-494.73" y="303.97" width="205.97" height="276.92"/>
+    </clipPath>
+    <clipPath id="uuid-de876ec1-694e-4eca-b9bd-3f91f43fbd2f">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="-3121.55" y="190.17" width="411.09" height="273.63"/>
+    </clipPath>
+    <clipPath id="uuid-3d17b241-d8ed-4572-b4aa-ee4571345621">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="-1846.25" y="-1180" width="466.2" height="189.96"/>
+    </clipPath>
+    <clipPath id="uuid-b1b3b91e-19da-4bf5-89ab-f94409f83d0c">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="1100" y="-1180" width="507.54" height="189.96"/>
+    </clipPath>
+    <clipPath id="uuid-e3b65981-942b-4ff4-ae57-bd7e298be7ce">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="-3051.29" y="-289.06" width="533.23" height="189.96"/>
+    </clipPath>
+    <clipPath id="uuid-599f16dd-d9d5-402f-b8a0-247678a9fd95">
+      <rect class="uuid-197cadde-a652-44f8-afec-6178064265b2" x="-4670.47" width="867.77" height="189.96"/>
+    </clipPath>
+  </defs>
+  <g id="uuid-c7a57938-3f93-4fcf-b8b4-aa75e86ca0ce" data-name="Icon Background">
+    <rect class="uuid-3d052ab8-fc1f-48c3-b953-1b489c9e688b" width="1080" height="1080"/>
+  </g>
+  <g id="uuid-7b94dd65-8967-46db-832e-3f74907a9e4b" data-name="Strichgrafik">
+    <g class="uuid-3d916640-d2c0-49e9-8980-aba56284b29a">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3042.94" y1="5049.38" x2="4059.07" y2="-1765.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3092.52" y1="4966.01" x2="4009.49" y2="-1848.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3117.31" y1="4924.32" x2="3984.7" y2="-1890.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3142.1" y1="4882.63" x2="3959.91" y2="-1931.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3166.89" y1="4840.95" x2="3935.12" y2="-1973.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3191.68" y1="4799.26" x2="3910.33" y2="-2015.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3216.47" y1="4757.58" x2="3885.54" y2="-2056.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3241.26" y1="4715.89" x2="3860.75" y2="-2098.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3266.05" y1="4674.2" x2="3835.96" y2="-2140.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3290.84" y1="4632.52" x2="3811.17" y2="-2181.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3315.64" y1="4590.83" x2="3786.38" y2="-2223.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3340.43" y1="4549.14" x2="3761.59" y2="-2265.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3365.22" y1="4507.46" x2="3736.8" y2="-2306.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3390.01" y1="4465.77" x2="3712.01" y2="-2348.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3414.8" y1="4424.08" x2="3687.22" y2="-2390.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3439.59" y1="4382.4" x2="3662.42" y2="-2432"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3464.38" y1="4340.71" x2="3637.63" y2="-2473.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3489.17" y1="4299.02" x2="3612.84" y2="-2515.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3513.96" y1="4257.34" x2="3588.05" y2="-2557.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3538.75" y1="4215.65" x2="3563.26" y2="-2598.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3563.54" y1="4173.96" x2="3538.47" y2="-2640.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3588.33" y1="4132.28" x2="3513.68" y2="-2682.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3613.12" y1="4090.59" x2="3488.89" y2="-2723.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3637.91" y1="4048.9" x2="3464.1" y2="-2765.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3662.7" y1="4007.22" x2="3439.31" y2="-2807.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3687.49" y1="3965.53" x2="3414.52" y2="-2848.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3712.28" y1="3923.85" x2="3389.73" y2="-2890.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3737.08" y1="3882.16" x2="3364.94" y2="-2932.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3761.87" y1="3840.47" x2="3340.15" y2="-2973.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3786.66" y1="3798.79" x2="3315.36" y2="-3015.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3811.45" y1="3757.1" x2="3290.57" y2="-3057.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3836.24" y1="3715.41" x2="3265.77" y2="-3098.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3861.03" y1="3673.73" x2="3240.98" y2="-3140.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3885.82" y1="3632.04" x2="3216.19" y2="-3182.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3910.61" y1="3590.35" x2="3191.4" y2="-3224.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3935.4" y1="3548.67" x2="3166.61" y2="-3265.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3960.19" y1="3506.98" x2="3141.82" y2="-3307.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3984.98" y1="3465.29" x2="3117.03" y2="-3349.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4009.77" y1="3423.61" x2="3092.24" y2="-3390.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4034.56" y1="3381.92" x2="3067.45" y2="-3432.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3067.73" y1="5007.69" x2="4034.28" y2="-1806.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2943.78" y1="5216.13" x2="4158.24" y2="-1598.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2968.57" y1="5174.44" x2="4133.45" y2="-1639.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2993.36" y1="5132.75" x2="4108.66" y2="-1681.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3018.15" y1="5091.07" x2="4083.86" y2="-1723.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2918.99" y1="5257.81" x2="4183.03" y2="-1556.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4158.52" y1="3173.49" x2="2943.5" y2="-3640.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4208.1" y1="3090.12" x2="2893.92" y2="-3724.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4232.89" y1="3048.43" x2="2869.13" y2="-3765.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4257.68" y1="3006.74" x2="2844.33" y2="-3807.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4282.47" y1="2965.06" x2="2819.54" y2="-3849.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4307.26" y1="2923.37" x2="2794.75" y2="-3891.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4332.05" y1="2881.68" x2="2769.96" y2="-3932.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4356.84" y1="2840" x2="2745.17" y2="-3974.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4381.63" y1="2798.31" x2="2720.38" y2="-4016.08"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4406.42" y1="2756.62" x2="2695.59" y2="-4057.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4431.21" y1="2714.94" x2="2670.8" y2="-4099.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4456" y1="2673.25" x2="2646.01" y2="-4141.14"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4480.79" y1="2631.56" x2="2621.22" y2="-4182.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4505.58" y1="2589.88" x2="2596.43" y2="-4224.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4530.37" y1="2548.19" x2="2571.64" y2="-4266.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4555.17" y1="2506.5" x2="2546.85" y2="-4307.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4579.96" y1="2464.82" x2="2522.06" y2="-4349.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4604.75" y1="2423.13" x2="2497.27" y2="-4391.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4629.54" y1="2381.45" x2="2472.48" y2="-4432.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4654.33" y1="2339.76" x2="2447.68" y2="-4474.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4679.12" y1="2298.07" x2="2422.89" y2="-4516.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4703.91" y1="2256.39" x2="2398.1" y2="-4558.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4728.7" y1="2214.7" x2="2373.31" y2="-4599.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4753.49" y1="2173.01" x2="2348.52" y2="-4641.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4778.28" y1="2131.33" x2="2323.73" y2="-4683.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4803.07" y1="2089.64" x2="2298.94" y2="-4724.75"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4827.86" y1="2047.95" x2="2274.15" y2="-4766.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4852.65" y1="2006.27" x2="2249.36" y2="-4808.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4877.44" y1="1964.58" x2="2224.57" y2="-4849.81"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4902.23" y1="1922.89" x2="2199.78" y2="-4891.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4927.02" y1="1881.21" x2="2174.99" y2="-4933.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4951.82" y1="1839.52" x2="2150.2" y2="-4974.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4976.61" y1="1797.83" x2="2125.41" y2="-5016.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5001.4" y1="1756.15" x2="2100.62" y2="-5058.24"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5026.19" y1="1714.46" x2="2075.83" y2="-5099.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5050.98" y1="1672.78" x2="2051.04" y2="-5141.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5075.77" y1="1631.09" x2="2026.24" y2="-5183.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5100.56" y1="1589.4" x2="2001.45" y2="-5224.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5125.35" y1="1547.72" x2="1976.66" y2="-5266.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5150.14" y1="1506.03" x2="1951.87" y2="-5308.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4183.31" y1="3131.8" x2="2918.71" y2="-3682.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4059.35" y1="3340.23" x2="3042.66" y2="-3474.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4084.14" y1="3298.55" x2="3017.87" y2="-3515.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4108.93" y1="3256.86" x2="2993.08" y2="-3557.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4133.73" y1="3215.18" x2="2968.29" y2="-3599.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1946.19" y1="6943.34" x2="5193.48" y2="92.81"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1995.77" y1="6859.97" x2="5143.9" y2="9.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2020.56" y1="6818.28" x2="5119.11" y2="-32.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2045.35" y1="6776.59" x2="5094.32" y2="-73.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2070.14" y1="6734.91" x2="5069.53" y2="-115.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2094.94" y1="6693.22" x2="5044.74" y2="-157.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2119.73" y1="6651.54" x2="5019.95" y2="-198.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2144.52" y1="6609.85" x2="4995.16" y2="-240.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2169.31" y1="6568.16" x2="4970.37" y2="-282.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2194.1" y1="6526.48" x2="4945.58" y2="-324.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2218.89" y1="6484.79" x2="4920.79" y2="-365.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2243.68" y1="6443.1" x2="4895.99" y2="-407.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2268.47" y1="6401.42" x2="4871.2" y2="-449.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2293.26" y1="6359.73" x2="4846.41" y2="-490.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2318.05" y1="6318.04" x2="4821.62" y2="-532.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2342.84" y1="6276.36" x2="4796.83" y2="-574.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2367.63" y1="6234.67" x2="4772.04" y2="-615.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2392.42" y1="6192.98" x2="4747.25" y2="-657.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2417.21" y1="6151.3" x2="4722.46" y2="-699.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2442" y1="6109.61" x2="4697.67" y2="-740.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2466.79" y1="6067.92" x2="4672.88" y2="-782.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2491.59" y1="6026.24" x2="4648.09" y2="-824.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2516.38" y1="5984.55" x2="4623.3" y2="-865.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2541.17" y1="5942.86" x2="4598.51" y2="-907.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2565.96" y1="5901.18" x2="4573.72" y2="-949.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2590.75" y1="5859.49" x2="4548.93" y2="-991.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2615.54" y1="5817.81" x2="4524.14" y2="-1032.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2640.33" y1="5776.12" x2="4499.35" y2="-1074.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2665.12" y1="5734.43" x2="4474.55" y2="-1116.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2689.91" y1="5692.75" x2="4449.76" y2="-1157.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2714.7" y1="5651.06" x2="4424.97" y2="-1199.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2739.49" y1="5609.37" x2="4400.18" y2="-1241.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2764.28" y1="5567.69" x2="4375.39" y2="-1282.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2789.07" y1="5526" x2="4350.6" y2="-1324.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2813.86" y1="5484.31" x2="4325.81" y2="-1366.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2838.65" y1="5442.63" x2="4301.02" y2="-1407.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2863.44" y1="5400.94" x2="4276.23" y2="-1449.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2888.23" y1="5359.25" x2="4251.44" y2="-1491.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2913.03" y1="5317.57" x2="4226.65" y2="-1532.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1970.98" y1="6901.65" x2="5168.69" y2="51.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1847.03" y1="7110.09" x2="5292.64" y2="259.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1871.82" y1="7068.4" x2="5267.85" y2="217.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1896.61" y1="7026.71" x2="5243.06" y2="176.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1921.4" y1="6985.03" x2="5218.27" y2="134.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1822.24" y1="7151.77" x2="5317.44" y2="301.24"/>
+      </g>
+    </g>
+    <g class="uuid-655f2ff3-be63-4545-acc4-14f8db99b52e">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1656.92" y1="5330.72" x2="5445.1" y2="-1483.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1706.5" y1="5247.34" x2="5395.51" y2="-1567.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1731.29" y1="5205.66" x2="5370.72" y2="-1608.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1756.08" y1="5163.97" x2="5345.93" y2="-1650.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1780.87" y1="5122.28" x2="5321.14" y2="-1692.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1805.66" y1="5080.6" x2="5296.35" y2="-1733.79"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1830.45" y1="5038.91" x2="5271.56" y2="-1775.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1855.24" y1="4997.23" x2="5246.77" y2="-1817.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1880.03" y1="4955.54" x2="5221.98" y2="-1858.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1904.82" y1="4913.85" x2="5197.19" y2="-1900.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1929.61" y1="4872.17" x2="5172.4" y2="-1942.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1954.4" y1="4830.48" x2="5147.61" y2="-1983.91"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1979.19" y1="4788.79" x2="5122.82" y2="-2025.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2003.99" y1="4747.11" x2="5098.03" y2="-2067.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2028.78" y1="4705.42" x2="5073.24" y2="-2108.97"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2053.57" y1="4663.73" x2="5048.45" y2="-2150.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2078.36" y1="4622.05" x2="5023.66" y2="-2192.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2103.15" y1="4580.36" x2="4998.86" y2="-2234.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2127.94" y1="4538.67" x2="4974.07" y2="-2275.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2152.73" y1="4496.99" x2="4949.28" y2="-2317.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2177.52" y1="4455.3" x2="4924.49" y2="-2359.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2202.31" y1="4413.61" x2="4899.7" y2="-2400.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2227.1" y1="4371.93" x2="4874.91" y2="-2442.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2251.89" y1="4330.24" x2="4850.12" y2="-2484.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2276.68" y1="4288.56" x2="4825.33" y2="-2525.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2301.47" y1="4246.87" x2="4800.54" y2="-2567.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2326.26" y1="4205.18" x2="4775.75" y2="-2609.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2351.05" y1="4163.5" x2="4750.96" y2="-2650.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2375.84" y1="4121.81" x2="4726.17" y2="-2692.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2400.63" y1="4080.12" x2="4701.38" y2="-2734.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2425.43" y1="4038.44" x2="4676.59" y2="-2775.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2450.22" y1="3996.75" x2="4651.8" y2="-2817.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2475.01" y1="3955.06" x2="4627.01" y2="-2859.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2499.8" y1="3913.38" x2="4602.22" y2="-2901.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2524.59" y1="3871.69" x2="4577.42" y2="-2942.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2549.38" y1="3830" x2="4552.63" y2="-2984.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2574.17" y1="3788.32" x2="4527.84" y2="-3026.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2598.96" y1="3746.63" x2="4503.05" y2="-3067.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2623.75" y1="3704.94" x2="4478.26" y2="-3109.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2648.54" y1="3663.26" x2="4453.47" y2="-3151.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1681.71" y1="5289.03" x2="5420.31" y2="-1525.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1557.75" y1="5497.46" x2="5544.26" y2="-1316.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1582.54" y1="5455.78" x2="5519.47" y2="-1358.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1607.34" y1="5414.09" x2="5494.68" y2="-1400.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1632.13" y1="5372.4" x2="5469.89" y2="-1441.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1532.96" y1="5539.15" x2="5569.05" y2="-1275.24"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2772.49" y1="3454.83" x2="4329.52" y2="-3359.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2822.08" y1="3371.45" x2="4279.94" y2="-3442.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2846.87" y1="3329.77" x2="4255.15" y2="-3484.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2871.66" y1="3288.08" x2="4230.36" y2="-3526.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2896.45" y1="3246.39" x2="4205.57" y2="-3568"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2921.24" y1="3204.71" x2="4180.77" y2="-3609.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2946.03" y1="3163.02" x2="4155.98" y2="-3651.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2970.82" y1="3121.33" x2="4131.19" y2="-3693.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2995.61" y1="3079.65" x2="4106.4" y2="-3734.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3020.4" y1="3037.96" x2="4081.61" y2="-3776.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3045.19" y1="2996.27" x2="4056.82" y2="-3818.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3069.98" y1="2954.59" x2="4032.03" y2="-3859.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3094.77" y1="2912.9" x2="4007.24" y2="-3901.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3119.56" y1="2871.21" x2="3982.45" y2="-3943.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3144.35" y1="2829.53" x2="3957.66" y2="-3984.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3169.14" y1="2787.84" x2="3932.87" y2="-4026.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3193.93" y1="2746.16" x2="3908.08" y2="-4068.24"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3218.72" y1="2704.47" x2="3883.29" y2="-4109.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3243.52" y1="2662.78" x2="3858.5" y2="-4151.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3268.31" y1="2621.1" x2="3833.71" y2="-4193.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3293.1" y1="2579.41" x2="3808.92" y2="-4234.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3317.89" y1="2537.72" x2="3784.13" y2="-4276.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3342.68" y1="2496.04" x2="3759.33" y2="-4318.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3367.47" y1="2454.35" x2="3734.54" y2="-4360.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3392.26" y1="2412.66" x2="3709.75" y2="-4401.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3417.05" y1="2370.98" x2="3684.96" y2="-4443.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3441.84" y1="2329.29" x2="3660.17" y2="-4485.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3466.63" y1="2287.6" x2="3635.38" y2="-4526.79"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3491.42" y1="2245.92" x2="3610.59" y2="-4568.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3516.21" y1="2204.23" x2="3585.8" y2="-4610.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3541" y1="2162.54" x2="3561.01" y2="-4651.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3565.79" y1="2120.86" x2="3536.22" y2="-4693.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3590.58" y1="2079.17" x2="3511.43" y2="-4735.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3615.37" y1="2037.48" x2="3486.64" y2="-4776.91"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3640.17" y1="1995.8" x2="3461.85" y2="-4818.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3664.96" y1="1954.11" x2="3437.06" y2="-4860.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3689.75" y1="1912.43" x2="3412.27" y2="-4901.97"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3714.54" y1="1870.74" x2="3387.48" y2="-4943.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3739.33" y1="1829.05" x2="3362.68" y2="-4985.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3764.12" y1="1787.37" x2="3337.89" y2="-5027.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2797.28" y1="3413.14" x2="4304.73" y2="-3401.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2673.33" y1="3621.57" x2="4428.68" y2="-3192.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2698.12" y1="3579.88" x2="4403.89" y2="-3234.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2722.91" y1="3538.2" x2="4379.1" y2="-3276.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2747.7" y1="3496.51" x2="4354.31" y2="-3317.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-560.17" y1="7224.68" x2="6579.5" y2="374.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-609.75" y1="7141.3" x2="6529.92" y2="290.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-634.54" y1="7099.62" x2="6505.13" y2="249.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-659.33" y1="7057.93" x2="6480.34" y2="207.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-684.12" y1="7016.24" x2="6455.55" y2="165.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-708.91" y1="6974.56" x2="6430.76" y2="124.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-733.7" y1="6932.87" x2="6405.97" y2="82.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-758.5" y1="6891.19" x2="6381.18" y2="40.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-783.29" y1="6849.5" x2="6356.39" y2="-1.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-808.08" y1="6807.81" x2="6331.6" y2="-42.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-832.87" y1="6766.13" x2="6306.81" y2="-84.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-857.66" y1="6724.44" x2="6282.02" y2="-126.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-882.45" y1="6682.75" x2="6257.23" y2="-167.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-907.24" y1="6641.07" x2="6232.44" y2="-209.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-932.03" y1="6599.38" x2="6207.64" y2="-251.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-956.82" y1="6557.69" x2="6182.85" y2="-292.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-981.61" y1="6516.01" x2="6158.06" y2="-334.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1006.4" y1="6474.32" x2="6133.27" y2="-376.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1031.19" y1="6432.63" x2="6108.48" y2="-417.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1055.98" y1="6390.95" x2="6083.69" y2="-459.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1080.77" y1="6349.26" x2="6058.9" y2="-501.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1105.56" y1="6307.57" x2="6034.11" y2="-542.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1130.35" y1="6265.89" x2="6009.32" y2="-584.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1155.14" y1="6224.2" x2="5984.53" y2="-626.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1179.94" y1="6182.51" x2="5959.74" y2="-668.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1204.73" y1="6140.83" x2="5934.95" y2="-709.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1229.52" y1="6099.14" x2="5910.16" y2="-751.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1254.31" y1="6057.46" x2="5885.37" y2="-793.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1279.1" y1="6015.77" x2="5860.58" y2="-834.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1303.89" y1="5974.08" x2="5835.79" y2="-876.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1328.68" y1="5932.4" x2="5810.99" y2="-918.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1353.47" y1="5890.71" x2="5786.2" y2="-959.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1378.26" y1="5849.02" x2="5761.41" y2="-1001.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1403.05" y1="5807.34" x2="5736.62" y2="-1043.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1427.84" y1="5765.65" x2="5711.83" y2="-1084.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1452.63" y1="5723.96" x2="5687.04" y2="-1126.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1477.42" y1="5682.28" x2="5662.25" y2="-1168.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1502.21" y1="5640.59" x2="5637.46" y2="-1209.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1527" y1="5598.9" x2="5612.67" y2="-1251.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-584.96" y1="7182.99" x2="6554.71" y2="332.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-461.01" y1="7391.42" x2="6678.67" y2="540.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-485.8" y1="7349.74" x2="6653.88" y2="499.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-510.59" y1="7308.05" x2="6629.08" y2="457.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-535.38" y1="7266.36" x2="6604.29" y2="415.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-436.22" y1="7433.11" x2="6703.46" y2="582.58"/>
+      </g>
+    </g>
+    <g class="uuid-b624b460-4bd6-47a2-a719-592ed843e4d8">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4403.67" y1="4424.35" x2="2698.34" y2="-2390.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4453.25" y1="4340.97" x2="2648.76" y2="-2473.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4478.04" y1="4299.29" x2="2623.97" y2="-2515.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4502.83" y1="4257.6" x2="2599.18" y2="-2556.79"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4527.62" y1="4215.91" x2="2574.39" y2="-2598.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4552.41" y1="4174.23" x2="2549.6" y2="-2640.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4577.2" y1="4132.54" x2="2524.81" y2="-2681.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4601.99" y1="4090.85" x2="2500.02" y2="-2723.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4626.78" y1="4049.17" x2="2475.23" y2="-2765.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4651.58" y1="4007.48" x2="2450.44" y2="-2806.91"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4676.37" y1="3965.8" x2="2425.65" y2="-2848.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4701.16" y1="3924.11" x2="2400.86" y2="-2890.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4725.95" y1="3882.42" x2="2376.07" y2="-2931.97"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4750.74" y1="3840.74" x2="2351.28" y2="-2973.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4775.53" y1="3799.05" x2="2326.48" y2="-3015.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4800.32" y1="3757.36" x2="2301.69" y2="-3057.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4825.11" y1="3715.68" x2="2276.9" y2="-3098.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4849.9" y1="3673.99" x2="2252.11" y2="-3140.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4874.69" y1="3632.3" x2="2227.32" y2="-3182.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4899.48" y1="3590.62" x2="2202.53" y2="-3223.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4924.27" y1="3548.93" x2="2177.74" y2="-3265.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4949.06" y1="3507.24" x2="2152.95" y2="-3307.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4973.85" y1="3465.56" x2="2128.16" y2="-3348.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4998.64" y1="3423.87" x2="2103.37" y2="-3390.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5023.43" y1="3382.18" x2="2078.58" y2="-3432.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5048.22" y1="3340.5" x2="2053.79" y2="-3473.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5073.02" y1="3298.81" x2="2029" y2="-3515.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5097.81" y1="3257.12" x2="2004.21" y2="-3557.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5122.6" y1="3215.44" x2="1979.42" y2="-3598.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5147.39" y1="3173.75" x2="1954.63" y2="-3640.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5172.18" y1="3132.07" x2="1929.83" y2="-3682.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5196.97" y1="3090.38" x2="1905.04" y2="-3724.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5221.76" y1="3048.69" x2="1880.25" y2="-3765.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5246.55" y1="3007.01" x2="1855.46" y2="-3807.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5271.34" y1="2965.32" x2="1830.67" y2="-3849.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5296.13" y1="2923.63" x2="1805.88" y2="-3890.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5320.92" y1="2881.95" x2="1781.09" y2="-3932.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5345.71" y1="2840.26" x2="1756.3" y2="-3974.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5370.5" y1="2798.57" x2="1731.51" y2="-4015.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5395.29" y1="2756.89" x2="1706.72" y2="-4057.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4428.46" y1="4382.66" x2="2673.55" y2="-2431.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4304.51" y1="4591.09" x2="2797.51" y2="-2223.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4329.3" y1="4549.41" x2="2772.72" y2="-2264.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4354.09" y1="4507.72" x2="2747.92" y2="-2306.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4378.88" y1="4466.03" x2="2723.13" y2="-2348.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4279.72" y1="4632.78" x2="2822.3" y2="-2181.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5519.25" y1="2548.45" x2="1582.77" y2="-4265.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5568.83" y1="2465.08" x2="1533.19" y2="-4349.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5593.62" y1="2423.4" x2="1508.39" y2="-4391"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5618.41" y1="2381.71" x2="1483.6" y2="-4432.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5643.2" y1="2340.02" x2="1458.81" y2="-4474.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5667.99" y1="2298.34" x2="1434.02" y2="-4516.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5692.78" y1="2256.65" x2="1409.23" y2="-4557.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5717.57" y1="2214.96" x2="1384.44" y2="-4599.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5742.36" y1="2173.28" x2="1359.65" y2="-4641.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5767.15" y1="2131.59" x2="1334.86" y2="-4682.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5791.94" y1="2089.9" x2="1310.07" y2="-4724.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5816.73" y1="2048.22" x2="1285.28" y2="-4766.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5841.52" y1="2006.53" x2="1260.49" y2="-4807.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5866.31" y1="1964.84" x2="1235.7" y2="-4849.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5891.11" y1="1923.16" x2="1210.91" y2="-4891.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5915.9" y1="1881.47" x2="1186.12" y2="-4932.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5940.69" y1="1839.78" x2="1161.33" y2="-4974.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5965.48" y1="1798.1" x2="1136.54" y2="-5016.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5990.27" y1="1756.41" x2="1111.74" y2="-5057.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6015.06" y1="1714.72" x2="1086.95" y2="-5099.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6039.85" y1="1673.04" x2="1062.16" y2="-5141.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6064.64" y1="1631.35" x2="1037.37" y2="-5183.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6089.43" y1="1589.67" x2="1012.58" y2="-5224.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6114.22" y1="1547.98" x2="987.79" y2="-5266.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6139.01" y1="1506.29" x2="963" y2="-5308.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6163.8" y1="1464.61" x2="938.21" y2="-5349.79"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6188.59" y1="1422.92" x2="913.42" y2="-5391.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6213.38" y1="1381.23" x2="888.63" y2="-5433.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6238.17" y1="1339.55" x2="863.84" y2="-5474.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6262.96" y1="1297.86" x2="839.05" y2="-5516.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6287.76" y1="1256.17" x2="814.26" y2="-5558.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6312.55" y1="1214.49" x2="789.47" y2="-5599.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6337.34" y1="1172.8" x2="764.68" y2="-5641.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6362.13" y1="1131.11" x2="739.89" y2="-5683.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6386.92" y1="1089.43" x2="715.1" y2="-5724.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6411.71" y1="1047.74" x2="690.3" y2="-5766.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6436.5" y1="1006.05" x2="665.51" y2="-5808.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6461.29" y1="964.37" x2="640.72" y2="-5850.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6486.08" y1="922.68" x2="615.93" y2="-5891.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6510.87" y1="881" x2="591.14" y2="-5933.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5544.04" y1="2506.77" x2="1557.98" y2="-4307.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5420.08" y1="2715.2" x2="1681.93" y2="-4099.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5444.87" y1="2673.51" x2="1657.14" y2="-4140.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5469.67" y1="2631.83" x2="1632.35" y2="-4182.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5494.46" y1="2590.14" x2="1607.56" y2="-4224.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3306.92" y1="6318.31" x2="3832.75" y2="-532.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3356.5" y1="6234.93" x2="3783.17" y2="-615.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3381.29" y1="6193.25" x2="3758.38" y2="-657.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3406.08" y1="6151.56" x2="3733.59" y2="-698.97"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3430.88" y1="6109.87" x2="3708.8" y2="-740.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3455.67" y1="6068.19" x2="3684.01" y2="-782.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3480.46" y1="6026.5" x2="3659.22" y2="-824.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3505.25" y1="5984.81" x2="3634.43" y2="-865.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3530.04" y1="5943.13" x2="3609.64" y2="-907.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3554.83" y1="5901.44" x2="3584.85" y2="-949.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3579.62" y1="5859.75" x2="3560.05" y2="-990.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3604.41" y1="5818.07" x2="3535.26" y2="-1032.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3629.2" y1="5776.38" x2="3510.47" y2="-1074.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3653.99" y1="5734.7" x2="3485.68" y2="-1115.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3678.78" y1="5693.01" x2="3460.89" y2="-1157.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3703.57" y1="5651.32" x2="3436.1" y2="-1199.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3728.36" y1="5609.64" x2="3411.31" y2="-1240.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3753.15" y1="5567.95" x2="3386.52" y2="-1282.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3777.94" y1="5526.26" x2="3361.73" y2="-1324.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3802.73" y1="5484.58" x2="3336.94" y2="-1365.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3827.53" y1="5442.89" x2="3312.15" y2="-1407.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3852.32" y1="5401.2" x2="3287.36" y2="-1449.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3877.11" y1="5359.52" x2="3262.57" y2="-1491.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3901.9" y1="5317.83" x2="3237.78" y2="-1532.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3926.69" y1="5276.14" x2="3212.99" y2="-1574.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3951.48" y1="5234.46" x2="3188.2" y2="-1616.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3976.27" y1="5192.77" x2="3163.41" y2="-1657.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4001.06" y1="5151.08" x2="3138.61" y2="-1699.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4025.85" y1="5109.4" x2="3113.82" y2="-1741.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4050.64" y1="5067.71" x2="3089.03" y2="-1782.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4075.43" y1="5026.03" x2="3064.24" y2="-1824.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4100.22" y1="4984.34" x2="3039.45" y2="-1866.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4125.01" y1="4942.65" x2="3014.66" y2="-1907.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4149.8" y1="4900.97" x2="2989.87" y2="-1949.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4174.59" y1="4859.28" x2="2965.08" y2="-1991.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4199.38" y1="4817.59" x2="2940.29" y2="-2032.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4224.17" y1="4775.91" x2="2915.5" y2="-2074.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4248.97" y1="4734.22" x2="2890.71" y2="-2116.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4273.76" y1="4692.53" x2="2865.92" y2="-2157.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3331.71" y1="6276.62" x2="3807.96" y2="-573.91"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3207.76" y1="6485.05" x2="3931.91" y2="-365.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3232.55" y1="6443.37" x2="3907.12" y2="-407.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3257.34" y1="6401.68" x2="3882.33" y2="-448.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3282.13" y1="6359.99" x2="3857.54" y2="-490.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3182.97" y1="6526.74" x2="3956.7" y2="-323.79"/>
+      </g>
+    </g>
+    <g class="uuid-f9514731-1e68-4cb1-b756-de144f6d4c30">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3573.78" y1="3783.58" x2="3528.23" y2="-3030.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3623.36" y1="3700.2" x2="3478.65" y2="-3114.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3648.15" y1="3658.52" x2="3453.86" y2="-3155.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3672.94" y1="3616.83" x2="3429.07" y2="-3197.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3697.73" y1="3575.14" x2="3404.28" y2="-3239.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3722.52" y1="3533.46" x2="3379.49" y2="-3280.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3747.31" y1="3491.77" x2="3354.7" y2="-3322.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3772.1" y1="3450.09" x2="3329.91" y2="-3364.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3796.89" y1="3408.4" x2="3305.12" y2="-3405.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3821.68" y1="3366.71" x2="3280.33" y2="-3447.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3846.47" y1="3325.03" x2="3255.54" y2="-3489.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3871.27" y1="3283.34" x2="3230.75" y2="-3531.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3896.06" y1="3241.65" x2="3205.96" y2="-3572.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3920.85" y1="3199.97" x2="3181.17" y2="-3614.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3945.64" y1="3158.28" x2="3156.38" y2="-3656.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3970.43" y1="3116.59" x2="3131.59" y2="-3697.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3995.22" y1="3074.91" x2="3106.79" y2="-3739.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4020.01" y1="3033.22" x2="3082" y2="-3781.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4044.8" y1="2991.53" x2="3057.21" y2="-3822.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4069.59" y1="2949.85" x2="3032.42" y2="-3864.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4094.38" y1="2908.16" x2="3007.63" y2="-3906.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4119.17" y1="2866.47" x2="2982.84" y2="-3947.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4143.96" y1="2824.79" x2="2958.05" y2="-3989.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4168.75" y1="2783.1" x2="2933.26" y2="-4031.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4193.54" y1="2741.41" x2="2908.47" y2="-4072.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4218.33" y1="2699.73" x2="2883.68" y2="-4114.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4243.12" y1="2658.04" x2="2858.89" y2="-4156.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4267.91" y1="2616.36" x2="2834.1" y2="-4198.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4292.71" y1="2574.67" x2="2809.31" y2="-4239.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4317.5" y1="2532.98" x2="2784.52" y2="-4281.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4342.29" y1="2491.3" x2="2759.73" y2="-4323.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4367.08" y1="2449.61" x2="2734.94" y2="-4364.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4391.87" y1="2407.92" x2="2710.14" y2="-4406.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4416.66" y1="2366.24" x2="2685.35" y2="-4448.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4441.45" y1="2324.55" x2="2660.56" y2="-4489.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4466.24" y1="2282.86" x2="2635.77" y2="-4531.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4491.03" y1="2241.18" x2="2610.98" y2="-4573.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4515.82" y1="2199.49" x2="2586.19" y2="-4614.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4540.61" y1="2157.8" x2="2561.4" y2="-4656.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4565.4" y1="2116.12" x2="2536.61" y2="-4698.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3598.57" y1="3741.89" x2="3503.44" y2="-3072.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3474.62" y1="3950.32" x2="3627.4" y2="-2864.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3499.41" y1="3908.64" x2="3602.61" y2="-2905.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3524.2" y1="3866.95" x2="3577.82" y2="-2947.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3548.99" y1="3825.26" x2="3553.03" y2="-2989.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3449.82" y1="3992.01" x2="3652.19" y2="-2822.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4689.36" y1="1907.69" x2="2412.66" y2="-4906.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4738.94" y1="1824.31" x2="2363.08" y2="-4990.08"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4763.73" y1="1782.63" x2="2338.29" y2="-5031.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4788.52" y1="1740.94" x2="2313.5" y2="-5073.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4813.31" y1="1699.25" x2="2288.7" y2="-5115.14"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4838.1" y1="1657.57" x2="2263.91" y2="-5156.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4862.89" y1="1615.88" x2="2239.12" y2="-5198.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4887.68" y1="1574.19" x2="2214.33" y2="-5240.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4912.47" y1="1532.51" x2="2189.54" y2="-5281.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4937.26" y1="1490.82" x2="2164.75" y2="-5323.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4962.05" y1="1449.13" x2="2139.96" y2="-5365.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4986.84" y1="1407.45" x2="2115.17" y2="-5406.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5011.63" y1="1365.76" x2="2090.38" y2="-5448.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5036.42" y1="1324.07" x2="2065.59" y2="-5490.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5061.21" y1="1282.39" x2="2040.8" y2="-5532"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5086" y1="1240.7" x2="2016.01" y2="-5573.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5110.8" y1="1199.01" x2="1991.22" y2="-5615.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5135.59" y1="1157.33" x2="1966.43" y2="-5657.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5160.38" y1="1115.64" x2="1941.64" y2="-5698.75"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5185.17" y1="1073.96" x2="1916.85" y2="-5740.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5209.96" y1="1032.27" x2="1892.05" y2="-5782.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5234.75" y1="990.58" x2="1867.26" y2="-5823.81"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5259.54" y1="948.9" x2="1842.47" y2="-5865.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5284.33" y1="907.21" x2="1817.68" y2="-5907.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5309.12" y1="865.52" x2="1792.89" y2="-5948.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5333.91" y1="823.84" x2="1768.1" y2="-5990.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5358.7" y1="782.15" x2="1743.31" y2="-6032.24"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5383.49" y1="740.46" x2="1718.52" y2="-6073.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5408.28" y1="698.78" x2="1693.73" y2="-6115.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5433.07" y1="657.09" x2="1668.94" y2="-6157.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5457.86" y1="615.4" x2="1644.15" y2="-6198.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5482.65" y1="573.72" x2="1619.36" y2="-6240.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5507.44" y1="532.03" x2="1594.57" y2="-6282.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5532.24" y1="490.34" x2="1569.78" y2="-6324.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5557.03" y1="448.66" x2="1544.99" y2="-6365.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5581.82" y1="406.97" x2="1520.2" y2="-6407.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5606.61" y1="365.29" x2="1495.41" y2="-6449.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5631.4" y1="323.6" x2="1470.61" y2="-6490.79"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5656.19" y1="281.91" x2="1445.82" y2="-6532.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5680.98" y1="240.23" x2="1421.03" y2="-6574.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4714.15" y1="1866" x2="2387.87" y2="-4948.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4590.19" y1="2074.43" x2="2511.82" y2="-4739.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4614.98" y1="2032.74" x2="2487.03" y2="-4781.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4639.77" y1="1991.06" x2="2462.24" y2="-4823.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4664.56" y1="1949.37" x2="2437.45" y2="-4865.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2477.03" y1="5677.54" x2="4662.64" y2="-1172.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2526.61" y1="5594.16" x2="4613.06" y2="-1256.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2551.4" y1="5552.48" x2="4588.27" y2="-1298.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2576.19" y1="5510.79" x2="4563.48" y2="-1339.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2600.98" y1="5469.1" x2="4538.69" y2="-1381.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2625.77" y1="5427.42" x2="4513.9" y2="-1423.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2650.57" y1="5385.73" x2="4489.11" y2="-1464.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2675.36" y1="5344.04" x2="4464.32" y2="-1506.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2700.15" y1="5302.36" x2="4439.53" y2="-1548.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2724.94" y1="5260.67" x2="4414.74" y2="-1589.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2749.73" y1="5218.99" x2="4389.95" y2="-1631.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2774.52" y1="5177.3" x2="4365.16" y2="-1673.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2799.31" y1="5135.61" x2="4340.36" y2="-1714.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2824.1" y1="5093.93" x2="4315.57" y2="-1756.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2848.89" y1="5052.24" x2="4290.78" y2="-1798.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2873.68" y1="5010.55" x2="4265.99" y2="-1839.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2898.47" y1="4968.87" x2="4241.2" y2="-1881.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2923.26" y1="4927.18" x2="4216.41" y2="-1923.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2948.05" y1="4885.49" x2="4191.62" y2="-1965.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2972.84" y1="4843.81" x2="4166.83" y2="-2006.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2997.63" y1="4802.12" x2="4142.04" y2="-2048.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3022.42" y1="4760.43" x2="4117.25" y2="-2090.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3047.22" y1="4718.75" x2="4092.46" y2="-2131.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3072.01" y1="4677.06" x2="4067.67" y2="-2173.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3096.8" y1="4635.37" x2="4042.88" y2="-2215.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3121.59" y1="4593.69" x2="4018.09" y2="-2256.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3146.38" y1="4552" x2="3993.3" y2="-2298.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3171.17" y1="4510.32" x2="3968.51" y2="-2340.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3195.96" y1="4468.63" x2="3943.72" y2="-2381.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3220.75" y1="4426.94" x2="3918.92" y2="-2423.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3245.54" y1="4385.26" x2="3894.13" y2="-2465.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3270.33" y1="4343.57" x2="3869.34" y2="-2506.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3295.12" y1="4301.88" x2="3844.55" y2="-2548.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3319.91" y1="4260.2" x2="3819.76" y2="-2590.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3344.7" y1="4218.51" x2="3794.97" y2="-2632.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3369.49" y1="4176.82" x2="3770.18" y2="-2673.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3394.28" y1="4135.14" x2="3745.39" y2="-2715.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3419.07" y1="4093.45" x2="3720.6" y2="-2757.08"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3443.86" y1="4051.76" x2="3695.81" y2="-2798.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2501.82" y1="5635.85" x2="4637.85" y2="-1214.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2377.87" y1="5844.28" x2="4761.81" y2="-1006.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2402.66" y1="5802.6" x2="4737.01" y2="-1047.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2427.45" y1="5760.91" x2="4712.22" y2="-1089.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2452.24" y1="5719.22" x2="4687.43" y2="-1131.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2353.08" y1="5885.97" x2="4786.6" y2="-964.56"/>
+      </g>
+    </g>
+    <g class="uuid-189351fd-1b38-487e-9e4d-a08b36454de1">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6846.92" y1="6318.31" x2="292.75" y2="-532.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6896.5" y1="6234.93" x2="243.17" y2="-615.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6921.29" y1="6193.25" x2="218.38" y2="-657.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6946.08" y1="6151.56" x2="193.59" y2="-698.97"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6970.88" y1="6109.87" x2="168.8" y2="-740.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6995.67" y1="6068.19" x2="144.01" y2="-782.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7020.46" y1="6026.5" x2="119.22" y2="-824.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7045.25" y1="5984.81" x2="94.43" y2="-865.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7070.04" y1="5943.13" x2="69.64" y2="-907.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7094.83" y1="5901.44" x2="44.85" y2="-949.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7119.62" y1="5859.75" x2="20.05" y2="-990.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6871.71" y1="6276.62" x2="267.96" y2="-573.91"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6747.76" y1="6485.05" x2="391.91" y2="-365.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6772.55" y1="6443.37" x2="367.12" y2="-407.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6797.34" y1="6401.68" x2="342.33" y2="-448.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6822.13" y1="6359.99" x2="317.54" y2="-490.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6722.97" y1="6526.74" x2="416.7" y2="-323.79"/>
+      </g>
+    </g>
+    <g class="uuid-6ed9dc32-02dd-4302-b9e3-1cc6b7db9469">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5447.93" y1="5312.72" x2="1654.09" y2="-1501.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5497.51" y1="5229.34" x2="1604.51" y2="-1585.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5522.3" y1="5187.66" x2="1579.72" y2="-1626.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5547.09" y1="5145.97" x2="1554.93" y2="-1668.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5571.88" y1="5104.28" x2="1530.13" y2="-1710.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5596.67" y1="5062.6" x2="1505.34" y2="-1751.79"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5621.46" y1="5020.91" x2="1480.55" y2="-1793.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5646.25" y1="4979.23" x2="1455.76" y2="-1835.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5671.04" y1="4937.54" x2="1430.97" y2="-1876.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5695.83" y1="4895.85" x2="1406.18" y2="-1918.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5720.62" y1="4854.17" x2="1381.39" y2="-1960.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5745.41" y1="4812.48" x2="1356.6" y2="-2001.91"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5770.2" y1="4770.79" x2="1331.81" y2="-2043.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5794.99" y1="4729.11" x2="1307.02" y2="-2085.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5819.78" y1="4687.42" x2="1282.23" y2="-2126.97"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5844.57" y1="4645.73" x2="1257.44" y2="-2168.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5869.37" y1="4604.05" x2="1232.65" y2="-2210.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5894.16" y1="4562.36" x2="1207.86" y2="-2252.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5918.95" y1="4520.67" x2="1183.07" y2="-2293.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5943.74" y1="4478.99" x2="1158.28" y2="-2335.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5968.53" y1="4437.3" x2="1133.48" y2="-2377.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5993.32" y1="4395.61" x2="1108.69" y2="-2418.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6018.11" y1="4353.93" x2="1083.9" y2="-2460.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6042.9" y1="4312.24" x2="1059.11" y2="-2502.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6067.69" y1="4270.56" x2="1034.32" y2="-2543.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6092.48" y1="4228.87" x2="1009.53" y2="-2585.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6117.27" y1="4187.18" x2="984.74" y2="-2627.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6142.06" y1="4145.5" x2="959.95" y2="-2668.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6166.85" y1="4103.81" x2="935.16" y2="-2710.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6191.64" y1="4062.12" x2="910.37" y2="-2752.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6216.43" y1="4020.44" x2="885.58" y2="-2793.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6241.22" y1="3978.75" x2="860.79" y2="-2835.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6266.02" y1="3937.06" x2="836" y2="-2877.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6290.81" y1="3895.38" x2="811.21" y2="-2919.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6315.6" y1="3853.69" x2="786.42" y2="-2960.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6340.39" y1="3812" x2="761.63" y2="-3002.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6365.18" y1="3770.32" x2="736.84" y2="-3044.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6389.97" y1="3728.63" x2="712.04" y2="-3085.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6414.76" y1="3686.94" x2="687.25" y2="-3127.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6439.55" y1="3645.26" x2="662.46" y2="-3169.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5472.72" y1="5271.03" x2="1629.3" y2="-1543.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5348.76" y1="5479.46" x2="1753.25" y2="-1334.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5373.55" y1="5437.78" x2="1728.46" y2="-1376.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5398.34" y1="5396.09" x2="1703.67" y2="-1418.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5423.13" y1="5354.4" x2="1678.88" y2="-1459.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5323.97" y1="5521.15" x2="1778.04" y2="-1293.24"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6563.5" y1="3436.83" x2="538.51" y2="-3377.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6613.08" y1="3353.45" x2="488.93" y2="-3460.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6637.87" y1="3311.77" x2="464.14" y2="-3502.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6662.66" y1="3270.08" x2="439.35" y2="-3544.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6687.46" y1="3228.39" x2="414.56" y2="-3586"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6712.25" y1="3186.71" x2="389.77" y2="-3627.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6737.04" y1="3145.02" x2="364.98" y2="-3669.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6761.83" y1="3103.33" x2="340.19" y2="-3711.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6786.62" y1="3061.65" x2="315.39" y2="-3752.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6811.41" y1="3019.96" x2="290.6" y2="-3794.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6836.2" y1="2978.27" x2="265.81" y2="-3836.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6860.99" y1="2936.59" x2="241.02" y2="-3877.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6885.78" y1="2894.9" x2="216.23" y2="-3919.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6910.57" y1="2853.21" x2="191.44" y2="-3961.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6935.36" y1="2811.53" x2="166.65" y2="-4002.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6960.15" y1="2769.84" x2="141.86" y2="-4044.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6984.94" y1="2728.16" x2="117.07" y2="-4086.24"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7009.73" y1="2686.47" x2="92.28" y2="-4127.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7034.52" y1="2644.78" x2="67.49" y2="-4169.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7059.31" y1="2603.1" x2="42.7" y2="-4211.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7084.11" y1="2561.41" x2="17.91" y2="-4252.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6588.29" y1="3395.14" x2="513.72" y2="-3419.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6464.34" y1="3603.57" x2="637.67" y2="-3210.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6489.13" y1="3561.88" x2="612.88" y2="-3252.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6513.92" y1="3520.2" x2="588.09" y2="-3294.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6538.71" y1="3478.51" x2="563.3" y2="-3335.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4351.18" y1="7206.68" x2="2788.5" y2="356.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4400.76" y1="7123.3" x2="2738.91" y2="272.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4425.55" y1="7081.62" x2="2714.12" y2="231.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4450.34" y1="7039.93" x2="2689.33" y2="189.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4475.13" y1="6998.24" x2="2664.54" y2="147.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4499.92" y1="6956.56" x2="2639.75" y2="106.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4524.71" y1="6914.87" x2="2614.96" y2="64.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4549.5" y1="6873.19" x2="2590.17" y2="22.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4574.29" y1="6831.5" x2="2565.38" y2="-19.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4599.08" y1="6789.81" x2="2540.59" y2="-60.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4623.88" y1="6748.13" x2="2515.8" y2="-102.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4648.67" y1="6706.44" x2="2491.01" y2="-144.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4673.46" y1="6664.75" x2="2466.22" y2="-185.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4698.25" y1="6623.07" x2="2441.43" y2="-227.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4723.04" y1="6581.38" x2="2416.64" y2="-269.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4747.83" y1="6539.69" x2="2391.85" y2="-310.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4772.62" y1="6498.01" x2="2367.06" y2="-352.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4797.41" y1="6456.32" x2="2342.26" y2="-394.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4822.2" y1="6414.63" x2="2317.47" y2="-435.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4846.99" y1="6372.95" x2="2292.68" y2="-477.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4871.78" y1="6331.26" x2="2267.89" y2="-519.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4896.57" y1="6289.57" x2="2243.1" y2="-560.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4921.36" y1="6247.89" x2="2218.31" y2="-602.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4946.15" y1="6206.2" x2="2193.52" y2="-644.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4970.94" y1="6164.51" x2="2168.73" y2="-686.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4995.73" y1="6122.83" x2="2143.94" y2="-727.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5020.52" y1="6081.14" x2="2119.15" y2="-769.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5045.32" y1="6039.46" x2="2094.36" y2="-811.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5070.11" y1="5997.77" x2="2069.57" y2="-852.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5094.9" y1="5956.08" x2="2044.78" y2="-894.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5119.69" y1="5914.4" x2="2019.99" y2="-936.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5144.48" y1="5872.71" x2="1995.2" y2="-977.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5169.27" y1="5831.02" x2="1970.41" y2="-1019.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5194.06" y1="5789.34" x2="1945.61" y2="-1061.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5218.85" y1="5747.65" x2="1920.82" y2="-1102.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5243.64" y1="5705.96" x2="1896.03" y2="-1144.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5268.43" y1="5664.28" x2="1871.24" y2="-1186.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5293.22" y1="5622.59" x2="1846.45" y2="-1227.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5318.01" y1="5580.9" x2="1821.66" y2="-1269.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4375.97" y1="7164.99" x2="2763.7" y2="314.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4252.02" y1="7373.42" x2="2887.66" y2="522.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4276.81" y1="7331.74" x2="2862.87" y2="481.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4301.6" y1="7290.05" x2="2838.08" y2="439.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4326.39" y1="7248.36" x2="2813.29" y2="397.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4227.23" y1="7415.11" x2="2912.45" y2="564.58"/>
+      </g>
+    </g>
+    <g class="uuid-7217bb01-a083-4c37-9ff9-e634977a15ad">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3934.52" y1="5021.57" x2="3167.49" y2="-1792.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3984.1" y1="4938.19" x2="3117.91" y2="-1876.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4008.89" y1="4896.51" x2="3093.12" y2="-1917.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4033.68" y1="4854.82" x2="3068.33" y2="-1959.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4058.47" y1="4813.13" x2="3043.54" y2="-2001.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4083.26" y1="4771.45" x2="3018.75" y2="-2042.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4108.05" y1="4729.76" x2="2993.96" y2="-2084.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4132.84" y1="4688.07" x2="2969.17" y2="-2126.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4157.64" y1="4646.39" x2="2944.38" y2="-2168"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4182.43" y1="4604.7" x2="2919.59" y2="-2209.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4207.22" y1="4563.01" x2="2894.8" y2="-2251.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4232.01" y1="4521.33" x2="2870.01" y2="-2293.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4256.8" y1="4479.64" x2="2845.21" y2="-2334.75"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4281.59" y1="4437.96" x2="2820.42" y2="-2376.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4306.38" y1="4396.27" x2="2795.63" y2="-2418.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4331.17" y1="4354.58" x2="2770.84" y2="-2459.81"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4355.96" y1="4312.9" x2="2746.05" y2="-2501.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4380.75" y1="4271.21" x2="2721.26" y2="-2543.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4405.54" y1="4229.52" x2="2696.47" y2="-2584.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4430.33" y1="4187.84" x2="2671.68" y2="-2626.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4455.12" y1="4146.15" x2="2646.89" y2="-2668.24"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4479.91" y1="4104.46" x2="2622.1" y2="-2709.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4504.7" y1="4062.78" x2="2597.31" y2="-2751.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4529.49" y1="4021.09" x2="2572.52" y2="-2793.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4554.28" y1="3979.4" x2="2547.73" y2="-2834.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4579.08" y1="3937.72" x2="2522.94" y2="-2876.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4603.87" y1="3896.03" x2="2498.15" y2="-2918.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4628.66" y1="3854.34" x2="2473.36" y2="-2960.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4653.45" y1="3812.66" x2="2448.57" y2="-3001.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4678.24" y1="3770.97" x2="2423.77" y2="-3043.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4703.03" y1="3729.28" x2="2398.98" y2="-3085.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4727.82" y1="3687.6" x2="2374.19" y2="-3126.79"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4752.61" y1="3645.91" x2="2349.4" y2="-3168.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4777.4" y1="3604.23" x2="2324.61" y2="-3210.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4802.19" y1="3562.54" x2="2299.82" y2="-3251.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4826.98" y1="3520.85" x2="2275.03" y2="-3293.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4851.77" y1="3479.17" x2="2250.24" y2="-3335.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4876.56" y1="3437.48" x2="2225.45" y2="-3376.91"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4901.35" y1="3395.79" x2="2200.66" y2="-3418.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4926.14" y1="3354.11" x2="2175.87" y2="-3460.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3959.31" y1="4979.88" x2="3142.7" y2="-1834.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3835.36" y1="5188.31" x2="3266.66" y2="-1626.08"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3860.15" y1="5146.63" x2="3241.86" y2="-1667.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3884.94" y1="5104.94" x2="3217.07" y2="-1709.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3909.73" y1="5063.25" x2="3192.28" y2="-1751.14"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3810.57" y1="5230" x2="3291.45" y2="-1584.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5050.1" y1="3145.67" x2="2051.92" y2="-3668.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5099.68" y1="3062.3" x2="2002.33" y2="-3752.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5124.47" y1="3020.61" x2="1977.54" y2="-3793.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5149.26" y1="2978.93" x2="1952.75" y2="-3835.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5174.05" y1="2937.24" x2="1927.96" y2="-3877.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5198.84" y1="2895.56" x2="1903.17" y2="-3918.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5223.63" y1="2853.87" x2="1878.38" y2="-3960.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5248.42" y1="2812.18" x2="1853.59" y2="-4002.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5273.21" y1="2770.5" x2="1828.8" y2="-4043.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5298" y1="2728.81" x2="1804.01" y2="-4085.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5322.79" y1="2687.12" x2="1779.22" y2="-4127.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5347.58" y1="2645.44" x2="1754.43" y2="-4168.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5372.37" y1="2603.75" x2="1729.64" y2="-4210.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5397.17" y1="2562.06" x2="1704.85" y2="-4252.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5421.96" y1="2520.38" x2="1680.06" y2="-4294.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5446.75" y1="2478.69" x2="1655.27" y2="-4335.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5471.54" y1="2437" x2="1630.48" y2="-4377.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5496.33" y1="2395.32" x2="1605.68" y2="-4419.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5521.12" y1="2353.63" x2="1580.89" y2="-4460.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5545.91" y1="2311.94" x2="1556.1" y2="-4502.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5570.7" y1="2270.26" x2="1531.31" y2="-4544.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5595.49" y1="2228.57" x2="1506.52" y2="-4585.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5620.28" y1="2186.89" x2="1481.73" y2="-4627.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5645.07" y1="2145.2" x2="1456.94" y2="-4669.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5669.86" y1="2103.51" x2="1432.15" y2="-4710.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5694.65" y1="2061.83" x2="1407.36" y2="-4752.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5719.44" y1="2020.14" x2="1382.57" y2="-4794.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5744.23" y1="1978.45" x2="1357.78" y2="-4835.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5769.02" y1="1936.77" x2="1332.99" y2="-4877.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5793.82" y1="1895.08" x2="1308.2" y2="-4919.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5818.61" y1="1853.39" x2="1283.41" y2="-4961"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5843.4" y1="1811.71" x2="1258.62" y2="-5002.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5868.19" y1="1770.02" x2="1233.83" y2="-5044.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5892.98" y1="1728.33" x2="1209.03" y2="-5086.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5917.77" y1="1686.65" x2="1184.24" y2="-5127.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5942.56" y1="1644.96" x2="1159.45" y2="-5169.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5967.35" y1="1603.27" x2="1134.66" y2="-5211.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5992.14" y1="1561.59" x2="1109.87" y2="-5252.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6016.93" y1="1519.9" x2="1085.08" y2="-5294.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6041.72" y1="1478.21" x2="1060.29" y2="-5336.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5074.89" y1="3103.99" x2="2027.12" y2="-3710.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4950.93" y1="3312.42" x2="2151.08" y2="-3501.97"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4975.73" y1="3270.73" x2="2126.29" y2="-3543.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5000.52" y1="3229.05" x2="2101.5" y2="-3585.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5025.31" y1="3187.36" x2="2076.71" y2="-3627.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2837.77" y1="6915.53" x2="4301.9" y2="65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2887.35" y1="6832.15" x2="4252.32" y2="-18.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2912.15" y1="6790.47" x2="4227.53" y2="-60.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2936.94" y1="6748.78" x2="4202.74" y2="-101.75"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2961.73" y1="6707.09" x2="4177.95" y2="-143.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2986.52" y1="6665.41" x2="4153.16" y2="-185.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3011.31" y1="6623.72" x2="4128.37" y2="-226.81"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3036.1" y1="6582.03" x2="4103.58" y2="-268.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3060.89" y1="6540.35" x2="4078.79" y2="-310.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3085.68" y1="6498.66" x2="4053.99" y2="-351.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3110.47" y1="6456.97" x2="4029.2" y2="-393.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3135.26" y1="6415.29" x2="4004.41" y2="-435.24"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3160.05" y1="6373.6" x2="3979.62" y2="-476.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3184.84" y1="6331.92" x2="3954.83" y2="-518.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3209.63" y1="6290.23" x2="3930.04" y2="-560.3"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3234.42" y1="6248.54" x2="3905.25" y2="-601.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3259.21" y1="6206.86" x2="3880.46" y2="-643.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3284" y1="6165.17" x2="3855.67" y2="-685.36"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3308.79" y1="6123.48" x2="3830.88" y2="-727.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3333.59" y1="6081.8" x2="3806.09" y2="-768.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3358.38" y1="6040.11" x2="3781.3" y2="-810.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3383.17" y1="5998.42" x2="3756.51" y2="-852.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3407.96" y1="5956.74" x2="3731.72" y2="-893.79"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3432.75" y1="5915.05" x2="3706.93" y2="-935.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3457.54" y1="5873.36" x2="3682.14" y2="-977.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3482.33" y1="5831.68" x2="3657.34" y2="-1018.85"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3507.12" y1="5789.99" x2="3632.55" y2="-1060.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3531.91" y1="5748.3" x2="3607.76" y2="-1102.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3556.7" y1="5706.62" x2="3582.97" y2="-1143.91"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3581.49" y1="5664.93" x2="3558.18" y2="-1185.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3606.28" y1="5623.24" x2="3533.39" y2="-1227.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3631.07" y1="5581.56" x2="3508.6" y2="-1268.97"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3655.86" y1="5539.87" x2="3483.81" y2="-1310.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3680.65" y1="5498.19" x2="3459.02" y2="-1352.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3705.44" y1="5456.5" x2="3434.23" y2="-1394.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3730.24" y1="5414.81" x2="3409.44" y2="-1435.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3755.03" y1="5373.13" x2="3384.65" y2="-1477.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3779.82" y1="5331.44" x2="3359.86" y2="-1519.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3804.61" y1="5289.75" x2="3335.07" y2="-1560.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2862.56" y1="6873.84" x2="4277.11" y2="23.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2738.61" y1="7082.27" x2="4401.06" y2="231.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2763.4" y1="7040.59" x2="4376.27" y2="190.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2788.19" y1="6998.9" x2="4351.48" y2="148.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2812.98" y1="6957.21" x2="4326.69" y2="106.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2713.82" y1="7123.96" x2="4425.85" y2="273.43"/>
+      </g>
+    </g>
+    <g class="uuid-eb22320a-fa29-473b-ad4e-823f2d9d17dd">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6356.92" y1="4904.47" x2="745.1" y2="-1909.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6406.5" y1="4821.1" x2="695.51" y2="-1993.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6431.29" y1="4779.41" x2="670.72" y2="-2034.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6456.08" y1="4737.73" x2="645.93" y2="-2076.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6480.87" y1="4696.04" x2="621.14" y2="-2118.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6505.66" y1="4654.35" x2="596.35" y2="-2160.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6530.45" y1="4612.67" x2="571.56" y2="-2201.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6555.24" y1="4570.98" x2="546.77" y2="-2243.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6580.03" y1="4529.29" x2="521.98" y2="-2285.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6604.82" y1="4487.61" x2="497.19" y2="-2326.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6629.61" y1="4445.92" x2="472.4" y2="-2368.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6654.4" y1="4404.23" x2="447.61" y2="-2410.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6679.19" y1="4362.55" x2="422.82" y2="-2451.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6703.99" y1="4320.86" x2="398.03" y2="-2493.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6728.78" y1="4279.18" x2="373.24" y2="-2535.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6753.57" y1="4237.49" x2="348.45" y2="-2576.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6778.36" y1="4195.8" x2="323.66" y2="-2618.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6803.15" y1="4154.12" x2="298.86" y2="-2660.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6827.94" y1="4112.43" x2="274.07" y2="-2701.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6852.73" y1="4070.74" x2="249.28" y2="-2743.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6877.52" y1="4029.06" x2="224.49" y2="-2785.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6902.31" y1="3987.37" x2="199.7" y2="-2827.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6927.1" y1="3945.68" x2="174.91" y2="-2868.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6951.89" y1="3904" x2="150.12" y2="-2910.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6976.68" y1="3862.31" x2="125.33" y2="-2952.08"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7001.47" y1="3820.62" x2="100.54" y2="-2993.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7026.26" y1="3778.94" x2="75.75" y2="-3035.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7051.05" y1="3737.25" x2="50.96" y2="-3077.14"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7075.84" y1="3695.56" x2="26.17" y2="-3118.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7100.63" y1="3653.88" x2="1.38" y2="-3160.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6381.71" y1="4862.79" x2="720.31" y2="-1951.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6257.75" y1="5071.22" x2="844.26" y2="-1743.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6282.54" y1="5029.53" x2="819.47" y2="-1784.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6307.34" y1="4987.85" x2="794.68" y2="-1826.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6332.13" y1="4946.16" x2="769.89" y2="-1868.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6232.96" y1="5112.9" x2="869.05" y2="-1701.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5260.17" y1="6798.43" x2="1879.5" y2="-52.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5309.75" y1="6715.06" x2="1829.92" y2="-135.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5334.54" y1="6673.37" x2="1805.13" y2="-177.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5359.33" y1="6631.69" x2="1780.34" y2="-218.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5384.12" y1="6590" x2="1755.55" y2="-260.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5408.91" y1="6548.31" x2="1730.76" y2="-302.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5433.7" y1="6506.63" x2="1705.97" y2="-343.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5458.5" y1="6464.94" x2="1681.18" y2="-385.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5483.29" y1="6423.25" x2="1656.39" y2="-427.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5508.08" y1="6381.57" x2="1631.6" y2="-468.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5532.87" y1="6339.88" x2="1606.81" y2="-510.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5557.66" y1="6298.19" x2="1582.02" y2="-552.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5582.45" y1="6256.51" x2="1557.23" y2="-594.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5607.24" y1="6214.82" x2="1532.44" y2="-635.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5632.03" y1="6173.13" x2="1507.64" y2="-677.39"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5656.82" y1="6131.45" x2="1482.85" y2="-719.08"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5681.61" y1="6089.76" x2="1458.06" y2="-760.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5706.4" y1="6048.08" x2="1433.27" y2="-802.45"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5731.19" y1="6006.39" x2="1408.48" y2="-844.14"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5755.98" y1="5964.7" x2="1383.69" y2="-885.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5780.77" y1="5923.02" x2="1358.9" y2="-927.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5805.56" y1="5881.33" x2="1334.11" y2="-969.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5830.35" y1="5839.64" x2="1309.32" y2="-1010.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5855.14" y1="5797.96" x2="1284.53" y2="-1052.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5879.94" y1="5756.27" x2="1259.74" y2="-1094.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5904.73" y1="5714.58" x2="1234.95" y2="-1135.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5929.52" y1="5672.9" x2="1210.16" y2="-1177.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5954.31" y1="5631.21" x2="1185.37" y2="-1219.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5979.1" y1="5589.52" x2="1160.58" y2="-1261"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6003.89" y1="5547.84" x2="1135.79" y2="-1302.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6028.68" y1="5506.15" x2="1110.99" y2="-1344.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6053.47" y1="5464.46" x2="1086.2" y2="-1386.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6078.26" y1="5422.78" x2="1061.41" y2="-1427.75"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6103.05" y1="5381.09" x2="1036.62" y2="-1469.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6127.84" y1="5339.41" x2="1011.83" y2="-1511.12"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6152.63" y1="5297.72" x2="987.04" y2="-1552.81"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6177.42" y1="5256.03" x2="962.25" y2="-1594.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6202.21" y1="5214.35" x2="937.46" y2="-1636.18"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6227" y1="5172.66" x2="912.67" y2="-1677.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5284.96" y1="6756.75" x2="1854.71" y2="-93.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5161.01" y1="6965.18" x2="1978.67" y2="114.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5185.8" y1="6923.49" x2="1953.88" y2="72.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5210.59" y1="6881.81" x2="1929.08" y2="31.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5235.38" y1="6840.12" x2="1904.29" y2="-10.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5136.22" y1="7006.86" x2="2003.46" y2="156.34"/>
+      </g>
+    </g>
+    <g class="uuid-1de3e58f-cbdc-4621-b60a-fb39f5229c46">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5061.92" y1="3534.3" x2="2040.09" y2="-3280.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5111.5" y1="3450.93" x2="1990.51" y2="-3363.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5136.29" y1="3409.25" x2="1965.72" y2="-3405.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5161.09" y1="3367.56" x2="1940.93" y2="-3446.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5185.88" y1="3325.87" x2="1916.14" y2="-3488.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5210.67" y1="3284.19" x2="1891.35" y2="-3530.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5235.46" y1="3242.5" x2="1866.56" y2="-3571.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5260.25" y1="3200.81" x2="1841.77" y2="-3613.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5285.04" y1="3159.13" x2="1816.97" y2="-3655.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5309.83" y1="3117.44" x2="1792.18" y2="-3696.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5334.62" y1="3075.75" x2="1767.39" y2="-3738.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5359.41" y1="3034.07" x2="1742.6" y2="-3780.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5384.2" y1="2992.38" x2="1717.81" y2="-3822.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5408.99" y1="2950.69" x2="1693.02" y2="-3863.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5433.78" y1="2909.01" x2="1668.23" y2="-3905.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5458.57" y1="2867.32" x2="1643.44" y2="-3947.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5483.36" y1="2825.63" x2="1618.65" y2="-3988.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5508.15" y1="2783.95" x2="1593.86" y2="-4030.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5532.94" y1="2742.26" x2="1569.07" y2="-4072.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5557.73" y1="2700.57" x2="1544.28" y2="-4113.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5582.53" y1="2658.89" x2="1519.49" y2="-4155.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5607.32" y1="2617.2" x2="1494.7" y2="-4197.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5632.11" y1="2575.52" x2="1469.91" y2="-4238.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5656.9" y1="2533.83" x2="1445.12" y2="-4280.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5681.69" y1="2492.14" x2="1420.32" y2="-4322.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5706.48" y1="2450.46" x2="1395.53" y2="-4363.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5731.27" y1="2408.77" x2="1370.74" y2="-4405.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5756.06" y1="2367.08" x2="1345.95" y2="-4447.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5780.85" y1="2325.4" x2="1321.16" y2="-4489"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5805.64" y1="2283.71" x2="1296.37" y2="-4530.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5830.43" y1="2242.02" x2="1271.58" y2="-4572.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5855.22" y1="2200.34" x2="1246.79" y2="-4614.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5880.01" y1="2158.65" x2="1222" y2="-4655.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5904.8" y1="2116.96" x2="1197.21" y2="-4697.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5929.59" y1="2075.28" x2="1172.42" y2="-4739.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5954.38" y1="2033.59" x2="1147.63" y2="-4780.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5979.18" y1="1991.9" x2="1122.84" y2="-4822.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6003.97" y1="1950.22" x2="1098.05" y2="-4864.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6028.76" y1="1908.53" x2="1073.26" y2="-4905.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6053.55" y1="1866.85" x2="1048.47" y2="-4947.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5086.71" y1="3492.62" x2="2015.3" y2="-3321.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4962.76" y1="3701.05" x2="2139.25" y2="-3113.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4987.55" y1="3659.36" x2="2114.46" y2="-3155.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5012.34" y1="3617.68" x2="2089.67" y2="-3196.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5037.13" y1="3575.99" x2="2064.88" y2="-3238.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4937.97" y1="3742.74" x2="2164.04" y2="-3071.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6177.5" y1="1658.41" x2="924.51" y2="-5155.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6227.08" y1="1575.04" x2="874.93" y2="-5239.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6251.87" y1="1533.35" x2="850.14" y2="-5281.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6276.66" y1="1491.67" x2="825.35" y2="-5322.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6301.45" y1="1449.98" x2="800.56" y2="-5364.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6326.24" y1="1408.29" x2="775.77" y2="-5406.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6351.03" y1="1366.61" x2="750.98" y2="-5447.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6375.82" y1="1324.92" x2="726.19" y2="-5489.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6400.62" y1="1283.23" x2="701.4" y2="-5531.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6425.41" y1="1241.55" x2="676.61" y2="-5572.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6450.2" y1="1199.86" x2="651.82" y2="-5614.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6474.99" y1="1158.17" x2="627.03" y2="-5656.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6499.78" y1="1116.49" x2="602.23" y2="-5697.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6524.57" y1="1074.8" x2="577.44" y2="-5739.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6549.36" y1="1033.12" x2="552.65" y2="-5781.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6574.15" y1="991.43" x2="527.86" y2="-5822.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6598.94" y1="949.74" x2="503.07" y2="-5864.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6623.73" y1="908.06" x2="478.28" y2="-5906.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6648.52" y1="866.37" x2="453.49" y2="-5948.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6673.31" y1="824.68" x2="428.7" y2="-5989.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6698.1" y1="783" x2="403.91" y2="-6031.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6722.89" y1="741.31" x2="379.12" y2="-6073.08"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6747.68" y1="699.62" x2="354.33" y2="-6114.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6772.47" y1="657.94" x2="329.54" y2="-6156.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6797.27" y1="616.25" x2="304.75" y2="-6198.14"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6822.06" y1="574.56" x2="279.96" y2="-6239.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6846.85" y1="532.88" x2="255.17" y2="-6281.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6871.64" y1="491.19" x2="230.38" y2="-6323.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6896.43" y1="449.5" x2="205.59" y2="-6364.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6921.22" y1="407.82" x2="180.79" y2="-6406.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6946.01" y1="366.13" x2="156" y2="-6448.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6970.8" y1="324.45" x2="131.21" y2="-6489.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6995.59" y1="282.76" x2="106.42" y2="-6531.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7020.38" y1="241.07" x2="81.63" y2="-6573.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7045.17" y1="199.39" x2="56.84" y2="-6615.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7069.96" y1="157.7" x2="32.05" y2="-6656.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7094.75" y1="116.01" x2="7.26" y2="-6698.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6202.29" y1="1616.73" x2="899.72" y2="-5197.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6078.34" y1="1825.16" x2="1023.68" y2="-4989.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6103.13" y1="1783.47" x2="998.88" y2="-5030.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6127.92" y1="1741.79" x2="974.09" y2="-5072.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6152.71" y1="1700.1" x2="949.3" y2="-5114.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3965.18" y1="5428.26" x2="3174.5" y2="-1422.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4014.76" y1="5344.89" x2="3124.92" y2="-1505.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4039.55" y1="5303.2" x2="3100.13" y2="-1547.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4064.34" y1="5261.52" x2="3075.34" y2="-1589.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4089.13" y1="5219.83" x2="3050.54" y2="-1630.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4113.92" y1="5178.15" x2="3025.75" y2="-1672.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4138.71" y1="5136.46" x2="3000.96" y2="-1714.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4163.5" y1="5094.77" x2="2976.17" y2="-1755.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4188.29" y1="5053.09" x2="2951.38" y2="-1797.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4213.08" y1="5011.4" x2="2926.59" y2="-1839.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4237.87" y1="4969.71" x2="2901.8" y2="-1880.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4262.66" y1="4928.03" x2="2877.01" y2="-1922.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4287.45" y1="4886.34" x2="2852.22" y2="-1964.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4312.24" y1="4844.65" x2="2827.43" y2="-2005.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4337.04" y1="4802.97" x2="2802.64" y2="-2047.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4361.83" y1="4761.28" x2="2777.85" y2="-2089.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4386.62" y1="4719.59" x2="2753.06" y2="-2130.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4411.41" y1="4677.91" x2="2728.27" y2="-2172.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4436.2" y1="4636.22" x2="2703.48" y2="-2214.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4460.99" y1="4594.53" x2="2678.69" y2="-2255.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4485.78" y1="4552.85" x2="2653.9" y2="-2297.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4510.57" y1="4511.16" x2="2629.1" y2="-2339.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4535.36" y1="4469.48" x2="2604.31" y2="-2381.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4560.15" y1="4427.79" x2="2579.52" y2="-2422.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4584.94" y1="4386.1" x2="2554.73" y2="-2464.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4609.73" y1="4344.42" x2="2529.94" y2="-2506.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4634.52" y1="4302.73" x2="2505.15" y2="-2547.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4659.31" y1="4261.04" x2="2480.36" y2="-2589.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4684.1" y1="4219.36" x2="2455.57" y2="-2631.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4708.89" y1="4177.67" x2="2430.78" y2="-2672.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4733.68" y1="4135.98" x2="2405.99" y2="-2714.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4758.48" y1="4094.3" x2="2381.2" y2="-2756.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4783.27" y1="4052.61" x2="2356.41" y2="-2797.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4808.06" y1="4010.92" x2="2331.62" y2="-2839.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4832.85" y1="3969.24" x2="2306.83" y2="-2881.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4857.64" y1="3927.55" x2="2282.04" y2="-2922.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4882.43" y1="3885.86" x2="2257.25" y2="-2964.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4907.22" y1="3844.18" x2="2232.45" y2="-3006.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4932.01" y1="3802.49" x2="2207.66" y2="-3048.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3989.97" y1="5386.58" x2="3149.71" y2="-1463.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3866.01" y1="5595.01" x2="3273.66" y2="-1255.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3890.8" y1="5553.32" x2="3248.87" y2="-1297.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3915.59" y1="5511.64" x2="3224.08" y2="-1338.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3940.39" y1="5469.95" x2="3199.29" y2="-1380.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3841.22" y1="5636.7" x2="3298.45" y2="-1213.83"/>
+      </g>
+    </g>
+    <g class="uuid-7a53a410-36b1-42de-9cee-39b518480880">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1995.67" y1="3534.3" x2="5106.34" y2="-3280.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2045.25" y1="3450.93" x2="5056.76" y2="-3363.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2070.04" y1="3409.25" x2="5031.97" y2="-3405.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2094.83" y1="3367.56" x2="5007.18" y2="-3446.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2119.62" y1="3325.87" x2="4982.39" y2="-3488.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2144.41" y1="3284.19" x2="4957.6" y2="-3530.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2169.2" y1="3242.5" x2="4932.81" y2="-3571.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2193.99" y1="3200.81" x2="4908.02" y2="-3613.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2218.78" y1="3159.13" x2="4883.23" y2="-3655.27"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2243.58" y1="3117.44" x2="4858.44" y2="-3696.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2268.37" y1="3075.75" x2="4833.65" y2="-3738.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2293.16" y1="3034.07" x2="4808.86" y2="-3780.33"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2317.95" y1="2992.38" x2="4784.07" y2="-3822.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2342.74" y1="2950.69" x2="4759.28" y2="-3863.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2367.53" y1="2909.01" x2="4734.48" y2="-3905.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2392.32" y1="2867.32" x2="4709.69" y2="-3947.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2417.11" y1="2825.63" x2="4684.9" y2="-3988.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2441.9" y1="2783.95" x2="4660.11" y2="-4030.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2466.69" y1="2742.26" x2="4635.32" y2="-4072.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2491.48" y1="2700.57" x2="4610.53" y2="-4113.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2516.27" y1="2658.89" x2="4585.74" y2="-4155.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2541.06" y1="2617.2" x2="4560.95" y2="-4197.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2565.85" y1="2575.52" x2="4536.16" y2="-4238.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2590.64" y1="2533.83" x2="4511.37" y2="-4280.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2615.43" y1="2492.14" x2="4486.58" y2="-4322.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2640.22" y1="2450.46" x2="4461.79" y2="-4363.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2665.02" y1="2408.77" x2="4437" y2="-4405.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2689.81" y1="2367.08" x2="4412.21" y2="-4447.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2714.6" y1="2325.4" x2="4387.42" y2="-4489"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2739.39" y1="2283.71" x2="4362.63" y2="-4530.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2764.18" y1="2242.02" x2="4337.83" y2="-4572.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2788.97" y1="2200.34" x2="4313.04" y2="-4614.06"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2813.76" y1="2158.65" x2="4288.25" y2="-4655.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2838.55" y1="2116.96" x2="4263.46" y2="-4697.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2863.34" y1="2075.28" x2="4238.67" y2="-4739.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2888.13" y1="2033.59" x2="4213.88" y2="-4780.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2912.92" y1="1991.9" x2="4189.09" y2="-4822.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2937.71" y1="1950.22" x2="4164.3" y2="-4864.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2962.5" y1="1908.53" x2="4139.51" y2="-4905.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2987.29" y1="1866.85" x2="4114.72" y2="-4947.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-2020.46" y1="3492.62" x2="5081.55" y2="-3321.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1896.51" y1="3701.05" x2="5205.51" y2="-3113.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1921.3" y1="3659.36" x2="5180.72" y2="-3155.03"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1946.09" y1="3617.68" x2="5155.92" y2="-3196.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1970.88" y1="3575.99" x2="5131.13" y2="-3238.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1871.72" y1="3742.74" x2="5230.3" y2="-3071.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3111.25" y1="1658.41" x2="3990.77" y2="-5155.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3160.83" y1="1575.04" x2="3941.19" y2="-5239.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3185.62" y1="1533.35" x2="3916.39" y2="-5281.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3210.41" y1="1491.67" x2="3891.6" y2="-5322.73"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3235.2" y1="1449.98" x2="3866.81" y2="-5364.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3259.99" y1="1408.29" x2="3842.02" y2="-5406.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3284.78" y1="1366.61" x2="3817.23" y2="-5447.78"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3309.57" y1="1324.92" x2="3792.44" y2="-5489.47"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3334.36" y1="1283.23" x2="3767.65" y2="-5531.16"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3359.15" y1="1241.55" x2="3742.86" y2="-5572.84"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3383.94" y1="1199.86" x2="3718.07" y2="-5614.53"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3408.73" y1="1158.17" x2="3693.28" y2="-5656.22"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3433.52" y1="1116.49" x2="3668.49" y2="-5697.9"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3458.31" y1="1074.8" x2="3643.7" y2="-5739.59"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3483.11" y1="1033.12" x2="3618.91" y2="-5781.28"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3507.9" y1="991.43" x2="3594.12" y2="-5822.96"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3532.69" y1="949.74" x2="3569.33" y2="-5864.65"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3557.48" y1="908.06" x2="3544.54" y2="-5906.34"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3582.27" y1="866.37" x2="3519.74" y2="-5948.02"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3607.06" y1="824.68" x2="3494.95" y2="-5989.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3631.85" y1="783" x2="3470.16" y2="-6031.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3656.64" y1="741.31" x2="3445.37" y2="-6073.08"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3681.43" y1="699.62" x2="3420.58" y2="-6114.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3706.22" y1="657.94" x2="3395.79" y2="-6156.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3731.01" y1="616.25" x2="3371" y2="-6198.14"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3755.8" y1="574.56" x2="3346.21" y2="-6239.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3780.59" y1="532.88" x2="3321.42" y2="-6281.51"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3805.38" y1="491.19" x2="3296.63" y2="-6323.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3830.17" y1="449.5" x2="3271.84" y2="-6364.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3854.96" y1="407.82" x2="3247.05" y2="-6406.57"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3879.76" y1="366.13" x2="3222.26" y2="-6448.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3904.55" y1="324.45" x2="3197.47" y2="-6489.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3929.34" y1="282.76" x2="3172.68" y2="-6531.63"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3954.13" y1="241.07" x2="3147.89" y2="-6573.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3978.92" y1="199.39" x2="3123.1" y2="-6615.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4003.71" y1="157.7" x2="3098.3" y2="-6656.69"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4028.5" y1="116.01" x2="3073.51" y2="-6698.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4053.29" y1="74.33" x2="3048.72" y2="-6740.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4078.08" y1="32.64" x2="3023.93" y2="-6781.75"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3136.04" y1="1616.73" x2="3965.98" y2="-5197.67"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3012.08" y1="1825.16" x2="4089.93" y2="-4989.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3036.87" y1="1783.47" x2="4065.14" y2="-5030.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3061.67" y1="1741.79" x2="4040.35" y2="-5072.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-3086.46" y1="1700.1" x2="4015.56" y2="-5114.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-898.92" y1="5428.26" x2="6240.75" y2="-1422.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-948.5" y1="5344.89" x2="6191.17" y2="-1505.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-973.29" y1="5303.2" x2="6166.38" y2="-1547.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-998.08" y1="5261.52" x2="6141.59" y2="-1589.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1022.88" y1="5219.83" x2="6116.8" y2="-1630.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1047.67" y1="5178.15" x2="6092.01" y2="-1672.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1072.46" y1="5136.46" x2="6067.22" y2="-1714.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1097.25" y1="5094.77" x2="6042.43" y2="-1755.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1122.04" y1="5053.09" x2="6017.64" y2="-1797.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1146.83" y1="5011.4" x2="5992.85" y2="-1839.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1171.62" y1="4969.71" x2="5968.05" y2="-1880.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1196.41" y1="4928.03" x2="5943.26" y2="-1922.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1221.2" y1="4886.34" x2="5918.47" y2="-1964.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1245.99" y1="4844.65" x2="5893.68" y2="-2005.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1270.78" y1="4802.97" x2="5868.89" y2="-2047.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1295.57" y1="4761.28" x2="5844.1" y2="-2089.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1320.36" y1="4719.59" x2="5819.31" y2="-2130.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1345.15" y1="4677.91" x2="5794.52" y2="-2172.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1369.94" y1="4636.22" x2="5769.73" y2="-2214.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1394.73" y1="4594.53" x2="5744.94" y2="-2255.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1419.53" y1="4552.85" x2="5720.15" y2="-2297.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1444.32" y1="4511.16" x2="5695.36" y2="-2339.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1469.11" y1="4469.48" x2="5670.57" y2="-2381.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1493.9" y1="4427.79" x2="5645.78" y2="-2422.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1518.69" y1="4386.1" x2="5620.99" y2="-2464.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1543.48" y1="4344.42" x2="5596.2" y2="-2506.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1568.27" y1="4302.73" x2="5571.41" y2="-2547.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1593.06" y1="4261.04" x2="5546.61" y2="-2589.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1617.85" y1="4219.36" x2="5521.82" y2="-2631.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1642.64" y1="4177.67" x2="5497.03" y2="-2672.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1667.43" y1="4135.98" x2="5472.24" y2="-2714.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1692.22" y1="4094.3" x2="5447.45" y2="-2756.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1717.01" y1="4052.61" x2="5422.66" y2="-2797.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1741.8" y1="4010.92" x2="5397.87" y2="-2839.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1766.59" y1="3969.24" x2="5373.08" y2="-2881.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1791.38" y1="3927.55" x2="5348.29" y2="-2922.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1816.17" y1="3885.86" x2="5323.5" y2="-2964.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1840.97" y1="3844.18" x2="5298.71" y2="-3006.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-1865.76" y1="3802.49" x2="5273.92" y2="-3048.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-923.71" y1="5386.58" x2="6215.96" y2="-1463.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-799.76" y1="5595.01" x2="6339.91" y2="-1255.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-824.55" y1="5553.32" x2="6315.12" y2="-1297.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-849.34" y1="5511.64" x2="6290.33" y2="-1338.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-874.13" y1="5469.95" x2="6265.54" y2="-1380.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-774.97" y1="5636.7" x2="6364.7" y2="-1213.83"/>
+      </g>
+    </g>
+    <g class="uuid-65a0eb27-9c5f-4a0a-b930-afe91b1064bd">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6002.6" y1="4425.25" x2="1099.41" y2="-2389.15"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6052.18" y1="4341.87" x2="1049.83" y2="-2472.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6076.97" y1="4300.19" x2="1025.04" y2="-2514.21"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6101.76" y1="4258.5" x2="1000.25" y2="-2555.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6126.55" y1="4216.81" x2="975.46" y2="-2597.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6151.34" y1="4175.13" x2="950.67" y2="-2639.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6176.13" y1="4133.44" x2="925.88" y2="-2680.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6200.93" y1="4091.75" x2="901.09" y2="-2722.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6225.72" y1="4050.07" x2="876.3" y2="-2764.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6250.51" y1="4008.38" x2="851.51" y2="-2806.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6275.3" y1="3966.69" x2="826.72" y2="-2847.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6300.09" y1="3925.01" x2="801.93" y2="-2889.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6324.88" y1="3883.32" x2="777.13" y2="-2931.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6349.67" y1="3841.64" x2="752.34" y2="-2972.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6374.46" y1="3799.95" x2="727.55" y2="-3014.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6399.25" y1="3758.26" x2="702.76" y2="-3056.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6424.04" y1="3716.58" x2="677.97" y2="-3097.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6448.83" y1="3674.89" x2="653.18" y2="-3139.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6473.62" y1="3633.2" x2="628.39" y2="-3181.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6498.41" y1="3591.52" x2="603.6" y2="-3222.88"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6523.2" y1="3549.83" x2="578.81" y2="-3264.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6547.99" y1="3508.14" x2="554.02" y2="-3306.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6572.78" y1="3466.46" x2="529.23" y2="-3347.94"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6597.57" y1="3424.77" x2="504.44" y2="-3389.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6622.37" y1="3383.08" x2="479.65" y2="-3431.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6647.16" y1="3341.4" x2="454.86" y2="-3472.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6671.95" y1="3299.71" x2="430.07" y2="-3514.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6696.74" y1="3258.02" x2="405.28" y2="-3556.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6721.53" y1="3216.34" x2="380.48" y2="-3598.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6746.32" y1="3174.65" x2="355.69" y2="-3639.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6771.11" y1="3132.96" x2="330.9" y2="-3681.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6795.9" y1="3091.28" x2="306.11" y2="-3723.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6820.69" y1="3049.59" x2="281.32" y2="-3764.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6845.48" y1="3007.91" x2="256.53" y2="-3806.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6870.27" y1="2966.22" x2="231.74" y2="-3848.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6895.06" y1="2924.53" x2="206.95" y2="-3889.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6919.85" y1="2882.85" x2="182.16" y2="-3931.55"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6944.64" y1="2841.16" x2="157.37" y2="-3973.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6969.43" y1="2799.47" x2="132.58" y2="-4014.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6994.22" y1="2757.79" x2="107.79" y2="-4056.61"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6027.39" y1="4383.56" x2="1074.62" y2="-2430.83"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5903.44" y1="4591.99" x2="1198.57" y2="-2222.4"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5928.23" y1="4550.31" x2="1173.78" y2="-2264.09"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5953.02" y1="4508.62" x2="1148.99" y2="-2305.77"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5977.81" y1="4466.93" x2="1124.2" y2="-2347.46"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5878.65" y1="4633.68" x2="1223.37" y2="-2180.71"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7019.02" y1="2716.1" x2="83" y2="-4098.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7043.81" y1="2674.41" x2="58.21" y2="-4139.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7068.6" y1="2632.73" x2="33.42" y2="-4181.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7093.39" y1="2591.04" x2="8.63" y2="-4223.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4905.85" y1="6319.21" x2="2233.82" y2="-531.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4955.43" y1="6235.83" x2="2184.24" y2="-614.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4980.23" y1="6194.15" x2="2159.45" y2="-656.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5005.02" y1="6152.46" x2="2134.66" y2="-698.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5029.81" y1="6110.77" x2="2109.87" y2="-739.75"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5054.6" y1="6069.09" x2="2085.08" y2="-781.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5079.39" y1="6027.4" x2="2060.29" y2="-823.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5104.18" y1="5985.71" x2="2035.5" y2="-864.81"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5128.97" y1="5944.03" x2="2010.7" y2="-906.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5153.76" y1="5902.34" x2="1985.91" y2="-948.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5178.55" y1="5860.65" x2="1961.12" y2="-989.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5203.34" y1="5818.97" x2="1936.33" y2="-1031.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5228.13" y1="5777.28" x2="1911.54" y2="-1073.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5252.92" y1="5735.6" x2="1886.75" y2="-1114.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5277.71" y1="5693.91" x2="1861.96" y2="-1156.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5302.5" y1="5652.22" x2="1837.17" y2="-1198.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5327.29" y1="5610.54" x2="1812.38" y2="-1239.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5352.08" y1="5568.85" x2="1787.59" y2="-1281.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5376.88" y1="5527.16" x2="1762.8" y2="-1323.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5401.67" y1="5485.48" x2="1738.01" y2="-1365.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5426.46" y1="5443.79" x2="1713.22" y2="-1406.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5451.25" y1="5402.1" x2="1688.43" y2="-1448.42"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5476.04" y1="5360.42" x2="1663.64" y2="-1490.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5500.83" y1="5318.73" x2="1638.85" y2="-1531.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5525.62" y1="5277.04" x2="1614.06" y2="-1573.48"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5550.41" y1="5235.36" x2="1589.26" y2="-1615.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5575.2" y1="5193.67" x2="1564.47" y2="-1656.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5599.99" y1="5151.98" x2="1539.68" y2="-1698.54"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5624.78" y1="5110.3" x2="1514.89" y2="-1740.23"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5649.57" y1="5068.61" x2="1490.1" y2="-1781.92"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5674.36" y1="5026.92" x2="1465.31" y2="-1823.6"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5699.15" y1="4985.24" x2="1440.52" y2="-1865.29"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5723.94" y1="4943.55" x2="1415.73" y2="-1906.98"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5748.73" y1="4901.87" x2="1390.94" y2="-1948.66"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5773.52" y1="4860.18" x2="1366.15" y2="-1990.35"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5798.32" y1="4818.49" x2="1341.36" y2="-2032.04"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5823.11" y1="4776.81" x2="1316.57" y2="-2073.72"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5847.9" y1="4735.12" x2="1291.78" y2="-2115.41"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-5872.69" y1="4693.43" x2="1266.99" y2="-2157.1"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4930.64" y1="6277.52" x2="2209.03" y2="-573.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4806.69" y1="6485.95" x2="2332.98" y2="-364.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4831.48" y1="6444.27" x2="2308.19" y2="-406.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4856.27" y1="6402.58" x2="2283.4" y2="-447.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4881.06" y1="6360.89" x2="2258.61" y2="-489.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-4781.9" y1="6527.64" x2="2357.77" y2="-322.89"/>
+      </g>
+    </g>
+    <g class="uuid-1a53b25d-465f-4e29-a2b2-4f4401c8adad">
+      <g>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6385.18" y1="6608.26" x2="754.5" y2="-242.26"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6434.76" y1="6524.89" x2="704.92" y2="-325.64"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6459.55" y1="6483.2" x2="680.13" y2="-367.32"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6484.34" y1="6441.52" x2="655.34" y2="-409.01"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6509.13" y1="6399.83" x2="630.54" y2="-450.7"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6533.92" y1="6358.15" x2="605.75" y2="-492.38"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6558.71" y1="6316.46" x2="580.96" y2="-534.07"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6583.5" y1="6274.77" x2="556.17" y2="-575.76"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6608.29" y1="6233.09" x2="531.38" y2="-617.44"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6633.08" y1="6191.4" x2="506.59" y2="-659.13"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6657.87" y1="6149.71" x2="481.8" y2="-700.82"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6682.66" y1="6108.03" x2="457.01" y2="-742.5"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6707.45" y1="6066.34" x2="432.22" y2="-784.19"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6732.24" y1="6024.65" x2="407.43" y2="-825.87"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6757.04" y1="5982.97" x2="382.64" y2="-867.56"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6781.83" y1="5941.28" x2="357.85" y2="-909.25"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6806.62" y1="5899.59" x2="333.06" y2="-950.93"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6831.41" y1="5857.91" x2="308.27" y2="-992.62"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6856.2" y1="5816.22" x2="283.48" y2="-1034.31"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6880.99" y1="5774.53" x2="258.69" y2="-1075.99"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6905.78" y1="5732.85" x2="233.9" y2="-1117.68"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6930.57" y1="5691.16" x2="209.1" y2="-1159.37"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6955.36" y1="5649.48" x2="184.31" y2="-1201.05"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6980.15" y1="5607.79" x2="159.52" y2="-1242.74"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7004.94" y1="5566.1" x2="134.73" y2="-1284.43"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7029.73" y1="5524.42" x2="109.94" y2="-1326.11"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7054.52" y1="5482.73" x2="85.15" y2="-1367.8"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7079.31" y1="5441.04" x2="60.36" y2="-1409.49"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7104.1" y1="5399.36" x2="35.57" y2="-1451.17"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-7128.89" y1="5357.67" x2="10.78" y2="-1492.86"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6409.97" y1="6566.58" x2="729.71" y2="-283.95"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6286.01" y1="6775.01" x2="853.66" y2="-75.52"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6310.8" y1="6733.32" x2="828.87" y2="-117.2"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6335.59" y1="6691.64" x2="804.08" y2="-158.89"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6360.39" y1="6649.95" x2="779.29" y2="-200.58"/>
+        <line class="uuid-ef1525fe-b431-474d-a113-54edda12ee6c" x1="-6261.22" y1="6816.7" x2="878.45" y2="-33.83"/>
+      </g>
+    </g>
+  </g>
+  <g id="uuid-3fc79f7b-bccd-4d41-91e1-847477ef8001" data-name="Icons">
+    <g>
+      <circle class="uuid-284e1fa6-f93e-441b-a0d4-f9ff26f1b8dd" cx="540" cy="540" r="280.72"/>
+      <line class="uuid-7ca6dba3-d62b-47d2-81c2-ec76816a08c7" x1="458.88" y1="386.79" x2="458.88" y2="491.34"/>
+      <line class="uuid-7ca6dba3-d62b-47d2-81c2-ec76816a08c7" x1="645.83" y1="402.87" x2="570.39" y2="475.26"/>
+      <path class="uuid-7ca6dba3-d62b-47d2-81c2-ec76816a08c7" d="M686.95,575.71s0,130.23-145.01,130.23c-155.52,0-145.01-130.23-145.01-130.23"/>
+      <line class="uuid-7ca6dba3-d62b-47d2-81c2-ec76816a08c7" x1="571.92" y1="401.35" x2="644.3" y2="476.78"/>
+    </g>
+  </g>
+</svg>
