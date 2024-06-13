@@ -1,18 +1,18 @@
-name: Enforce Pull Request Policy
+name: Enforce Merge Policy
 
 on:
   pull_request:
     types: [opened, synchronize, reopened]
 
 jobs:
-  enforce-pr-policy:
-    name: Prevent pull requests from invalid branches
+  enforce-merge-policy:
+    name: Prevent merge of invalid branch
     if: github.base_ref == 'main'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check for valid pull request compare branch
-        id: check_pr_branch_validity
+      - name: Check for valid merge branch
+        id: check_merge_branch_validity
         run: |
           if [[ "${{ github.event.pull_request.head.ref }}" == "staging" ]]; then
             echo "Branch check passed: Branch 'staging' can be merged into 'main'" >> $GITHUB_STEP_SUMMARY
