@@ -18,8 +18,8 @@ define('BASE_DIR', dirname(__FILE__, 2));
  */
 define(
 	'PACKAGE_INFO',
-	file_exists(BASE_DIR . './package.json')
-		? json_decode(file_get_contents(BASE_DIR . './package.json'), true)
+	file_exists(BASE_DIR . '/package.json')
+		? json_decode(file_get_contents(BASE_DIR . '/package.json'), true)
 		: []
 );
 
