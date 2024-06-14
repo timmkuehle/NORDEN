@@ -31,8 +31,6 @@ export default (env, argv) => {
 		port: devServerPort
 	} = getCommonConfig("common.config.json").webpackDevServer;
 
-	console.log(devServerConfig);
-
 	const proxy = [
 		{
 			context: "*",
