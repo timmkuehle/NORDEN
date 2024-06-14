@@ -1,10 +1,11 @@
 import path from "path";
+import { fileURLToPath } from "url";
 import { glob } from "glob";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import getCommonConfig from "./scripts/getCommonConfig/index.js";
 import setPHPEnv from "./scripts/setPHPEnv/index.js";
 import HashOutputWebpackPlugin from "./scripts/hashOutputWebpackPlugin/index.js";
-import { fileURLToPath } from "url";
 
 /**
  * @typedef {import('webpack').Configuration} WebpackConfiguration
