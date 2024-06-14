@@ -1,26 +1,21 @@
 {
-	"include": ["**/*"],
-	"exclude": [
-		"node_modules",
-		"content/assets/dist",
-		"content/**/assets/dist",
-		"core/error/assets/dist"
-	],
+	"include": ["**/*.ts"],
+	"exclude": ["node_modules"],
 	"compilerOptions": {
+		"noEmit": true,
 		"strict": true,
 		"target": "ES5",
 		"lib": ["DOM", "DOM.Iterable", "ESNext"],
-		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
 		"module": "ESNext",
-		"moduleResolution": "node",
+		"moduleResolution": "Bundler",
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-		"strictPropertyInitialization": false,
+		"strictPropertyInitialization": true,
 		"noFallthroughCasesInSwitch": true,
 		"jsx": "react-jsx",
-		"allowJs": true,
-		"noEmit": true
+		"allowJs": true
 	}
 }
