@@ -21,6 +21,9 @@ export default (env, argv) => {
 	const { mode } = argv;
 	const isProduction = mode === "production";
 	const devtool = isProduction ? false : "source-map";
+	const cleanPatterns = isProduction
+		? ["./@(core|content)/**/assets/dist/*.@(style.js|map)"]
+		: ["./@(core|content)/**/assets/dist/*.style.@(js|js.map)"];
 	const {
 		host: devServerHost,
 		subDir: devServerSubDir,
@@ -97,13 +100,18 @@ export default (env, argv) => {
 		resolve: { extensions: ["", ".js", ".ts", ".jsx", ".tsx"] },
 		output: {
 			path: path.resolve(__dirname),
-			filename: "[name].js",
-			clean: { dry: true }
+			filename: "[name].js"
 		},
 		plugins: [
 			new MiniCssExtractPlugin({
 				filename: (pathInfo) =>
 					`${(pathInfo.chunk?.name || path.resolve(__dirname, "unresolved")).replace(/\.style$/, "")}.css`
+			}),
+			new CleanWebpackPlugin({
+				protectWebpackAssets: false,
+				cleanOnceBeforeBuildPatterns: cleanPatterns,
+				cleanAfterEveryBuildPatterns: cleanPatterns,
+				verbose: isProduction
 			}),
 			new HashOutputWebpackPlugin({
 				outputFormat: "php",
