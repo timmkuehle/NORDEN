@@ -1,9 +1,13 @@
-const { generateFileContent } = require("./content.cjs");
-const { writeFile } = require("./files.cjs");
+import { generateFileContent } from "./content.js";
+import { writeFile } from "./files.js";
+
+/** @typedef {{outputFormat: "json" | "php", outputPath: string, outputFilename: string, algorithm: "sha256" | "sha512" | "sha1" | "md5", emitOnSubsequentBuilds: boolean}} PluginOptions */
 
 class HashOutputWebpackPlugin {
+	/** @type {boolean} */
 	static initialBuild;
 
+	/** @type {PluginOptions} */
 	static defaultOptions = {
 		outputFormat: "json",
 		outputPath: "./",
@@ -12,6 +16,16 @@ class HashOutputWebpackPlugin {
 		emitOnSubsequentBuilds: false
 	};
 
+	/**
+	 * Constructor method
+	 *
+	 * @param {object} options Plugin options
+	 * @param {"json" | "php"} [options.outputFormat] File format of hash file
+	 * @param {string} [options.outputPath] Hash file output directory
+	 * @param {string} [options.outputFilename] Hash file output filename without filetype suffix
+	 * @param {"sha256" | "sha512" | "sha1" | "md5"} [options.algorithm] Hashing algorithm to use
+	 * @param {boolean} [options.emitOnSubsequentBuilds] If set to true, emits new hashfile for each "watch" or "devServer" build
+	 */
 	constructor(options = {}) {
 		this.initialBuild = true;
 
@@ -21,6 +35,7 @@ class HashOutputWebpackPlugin {
 		};
 	}
 
+	/** @param {import('webpack').Compiler} compiler */
 	apply(compiler) {
 		compiler.hooks.emit.tapAsync(
 			"HashOutputWebpackPlugin",
@@ -60,4 +75,4 @@ class HashOutputWebpackPlugin {
 	}
 }
 
-module.exports = HashOutputWebpackPlugin;
+export default HashOutputWebpackPlugin;
