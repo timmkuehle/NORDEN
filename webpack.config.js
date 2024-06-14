@@ -1,29 +1,40 @@
-const path = require("path");
-const glob = require("glob");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const getCommonConfig = require("./scripts/getCommonConfig");
-const setPHPEnv = require("./scripts/setPHPEnv");
-const HashOutputWebpackPlugin = require("./scripts/hashOutputWebpackPlugin");
+import path from "path";
+import { glob } from "glob";
+import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import getCommonConfig from "./scripts/getCommonConfig/index.js";
+import setPHPEnv from "./scripts/setPHPEnv/index.js";
+import HashOutputWebpackPlugin from "./scripts/hashOutputWebpackPlugin/index.js";
+import { fileURLToPath } from "url";
 
-module.exports = (env, argv) => {
+/**
+ * @typedef {import('webpack').Configuration} WebpackConfiguration
+ * @typedef {import('webpack-dev-server').Configuration} WebpackDevServerConfiguration
+ * @typedef {WebpackConfiguration & {devServer?: WebpackConfiguration}} WebpackConfigurationWithDevServer
+ * @typedef {WebpackConfigurationWithDevServer | WebpackConfigurationWithDevServer[]} FullWebpackConfiguration
+ */
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+/** @type {(env: any, argv: any) => FullWebpackConfiguration} */
+export default (env, argv) => {
 	const { mode } = argv;
 	const isProduction = mode === "production";
 	const devtool = isProduction ? false : "source-map";
-	const cleanPatterns = isProduction
-		? ["./@(core|content)/**/assets/dist/*.@(style.js|map)"]
-		: ["./@(core|content)/**/assets/dist/*.style.@(js|js.map)"];
 	const {
 		host: devServerHost,
 		subDir: devServerSubDir,
 		config: devServerConfig,
 		port: devServerPort
-	} = (webpackDevServer =
-		getCommonConfig("common.config.json").webpackDevServer);
-	const proxy = {
-		"*": `${devServerConfig.type}://${devServerHost + devServerSubDir.replace(/^\/{0,1}(?=.)/, "/")}`
-	};
+	} = getCommonConfig("common.config.json").webpackDevServer;
 
+	console.log(devServerConfig);
+
+	const proxy = [
+		{
+			context: "*",
+			target: `${devServerConfig.type}://${devServerHost + devServerSubDir.replace(/^\/{0,1}(?=.)/, "/")}`
+		}
+	];
 	setPHPEnv({
 		env: mode,
 		path: path.resolve(".", "config"),
@@ -33,14 +44,13 @@ module.exports = (env, argv) => {
 	return {
 		mode,
 		devtool,
+		/** @type {{[name: string]: string}} */
 		entry: glob
 			.sync([
 				"./content/assets/src/scripts/index.@(js|ts)",
 				"./content/assets/src/styles/index.@(css|scss|sass)",
-				"./content/pages/*/assets/src/scripts/page.@(js|ts)",
-				"./content/pages/*/assets/src/styles/page.@(css|scss|sass)",
-				"./content/projects/*/assets/src/scripts/project.@(js|ts)",
-				"./content/projects/*/assets/src/styles/project.@(css|scss|sass)",
+				"./content/*/*/assets/src/scripts/page.@(js|ts)",
+				"./content/*/*/assets/src/styles/page.@(css|scss|sass)",
 				"./core/error/assets/src/scripts/error.@(js|ts)",
 				"./core/error/assets/src/styles/error.@(css|scss|sass)"
 			])
@@ -53,8 +63,7 @@ module.exports = (env, argv) => {
 					(/s{0,1}(c|a)ss$/.test(filePathArray.slice(-1)[0])
 						? ".style"
 						: ".bundle");
-				entry[name] = `./${filePath}`;
-				return entry;
+				return { ...entry, [name]: `./${filePath}` };
 			}, {}),
 		module: {
 			rules: [
@@ -87,18 +96,13 @@ module.exports = (env, argv) => {
 		resolve: { extensions: ["", ".js", ".ts", ".jsx", ".tsx"] },
 		output: {
 			path: path.resolve(__dirname),
-			filename: "[name].js"
+			filename: "[name].js",
+			clean: { dry: true }
 		},
 		plugins: [
 			new MiniCssExtractPlugin({
 				filename: (pathInfo) =>
-					`${pathInfo.chunk.name.replace(/\.style$/, "")}.css`
-			}),
-			new CleanWebpackPlugin({
-				protectWebpackAssets: false,
-				cleanOnceBeforeBuildPatterns: cleanPatterns,
-				cleanAfterEveryBuildPatterns: cleanPatterns,
-				verbose: isProduction
+					`${(pathInfo.chunk?.name || path.resolve(__dirname, "unresolved")).replace(/\.style$/, "")}.css`
 			}),
 			new HashOutputWebpackPlugin({
 				outputFormat: "php",
@@ -114,7 +118,10 @@ module.exports = (env, argv) => {
 			},
 			proxy,
 			watchFiles: ["**/*.php", "**/*.@(css|scss|sass)"],
-			hot: true
+			hot: true,
+			static: {
+				directory: path.resolve(__dirname)
+			}
 		}
 	};
 };
