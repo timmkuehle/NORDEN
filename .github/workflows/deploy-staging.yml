@@ -53,6 +53,7 @@ jobs:
           rsync -avz --delete --delete-excluded \
           --exclude='.git*' \
           --exclude='node_modules' \
+          --exclude='package-lock.json' \
           --exclude='babel.config.js' \
           --exclude='eslint.config.js' \
           --exclude='prettier.config.js' \
