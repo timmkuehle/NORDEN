@@ -46,11 +46,11 @@ jobs:
           rsync -avz --delete --delete-excluded \
           --exclude='.git*' \
           --exclude='node_modules' \
-          --exclude='.babelrc' \
-          --exclude='.eslintrc.json' \
-          --exclude='.prettierrc' \
+          --exclude='babel.config.js' \
+          --exclude='eslint.config.js' \
+          --exclude='prettier.config.js' \
           --exclude='tsconfig.json' \
-          --exclude='webpack.config.cjs' \
+          --exclude='webpack.config.js' \
           --exclude='scripts' \
           --exclude='content/assets/src' \
           --exclude='content/*/*/assets/src' \
