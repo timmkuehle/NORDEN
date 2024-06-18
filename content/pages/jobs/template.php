@@ -3,7 +3,7 @@
 		<?php new Image(
   	null,
   	null,
-  	'/content/resources/media/NRDN_Jobs_Opener.webp',
+  	'/content/resources/media/agency/NRDN_Jobs_Opener.jpg',
   	'Work with Us!'
   ); ?>
 </header>
