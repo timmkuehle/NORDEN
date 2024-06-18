@@ -622,11 +622,15 @@ body {
 					}
 
 					&.world-cup-iphone {
-						max-width: min(40rem, 100%);
+						max-width: 100%;
 					}
 
-					&.world-cup-skis {
-						aspect-ratio: 320/1400;
+					&.world-cup-ski {
+						aspect-ratio: 1400/320;
+
+						@media screen and (min-width: 769px) {
+							transform: rotate(-90deg) scale(4.375);
+						}
 					}
 				}
 
@@ -677,7 +681,7 @@ body {
 				}
 
 				.world-cup-video {
-					max-width: min(40rem, 100%);
+					max-width: 100%;
 				}
 
 				.soelden-icons {
