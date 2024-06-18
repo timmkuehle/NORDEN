@@ -18,7 +18,7 @@ const files = getFiles();
 
 		let width;
 		try {
-			width = (await sharp(file).metadata()).width;
+			width = (await sharp(file).metadata()).width || 1920;
 
 			logSuccess();
 		} catch (err) {
@@ -50,7 +50,11 @@ const files = getFiles();
 
 				logSuccess();
 			} catch (err) {
-				logError(err.message);
+				logError(
+					err instanceof Error
+						? err.message
+						: "Unknown Error: Unable to resize image"
+				);
 
 				continue;
 			}

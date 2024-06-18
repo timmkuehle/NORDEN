@@ -11,6 +11,7 @@ import {
 	logResizedImageSave
 } from "./logFunctions.js";
 
+/** Gets all resource files to be processed */
 export const getFiles = () => {
 	if (process.argv.length < 3) {
 		logMissingDirAttrError();
@@ -41,6 +42,13 @@ export const getFiles = () => {
 	return files;
 };
 
+/**
+ * Retuns the filename of individual processed image in specified size
+ *
+ * @param {string} originalFilename Original filename
+ * @param {string} size Specified image size name
+ * @returns {string} Parsed filename
+ */
 export const getFilename = (originalFilename, size) => {
 	const fileExt = path.parse(originalFilename).ext;
 
@@ -50,6 +58,13 @@ export const getFilename = (originalFilename, size) => {
 	);
 };
 
+/**
+ * Saves resized image to specified file path
+ *
+ * @param {import('sharp').Sharp} resizedImage Sharp image instance
+ * @param {string} outputPath Path to save image to
+ * @param {'jpg'|'jpeg'|'png'|'webp'} format File format of saved image
+ */
 export const saveResizedImage = async (resizedImage, outputPath, format) => {
 	logResizedImageSave(outputPath.replace(process.cwd(), ""));
 
