@@ -32,6 +32,34 @@ class Image extends PHTMLComponent {
 		return 'src="' . BASE_URL . $this->src . '"';
 	}
 
+	private function getSrcsetAttribute() {
+		$path = BASE_DIR . $this->src;
+		$path_parts = pathinfo($path);
+
+		return 'srcset="' .
+			implode(
+				', ',
+				array_map(
+					fn($src) => str_replace(BASE_DIR, BASE_URL, $src) .
+						(preg_match(
+							'/[0-9]{2,}(w|h)(?=\.\w{2,}$)/',
+							$src,
+							$matches
+						)
+							? ' ' . $matches[0]
+							: ''),
+
+					glob(
+						$path_parts['dirname'] .
+							'/' .
+							$path_parts['filename'] .
+							'*'
+					)
+				)
+			) .
+			'"';
+	}
+
 	private function getDimensionsAttributes(): string {
 		return getimagesize(BASE_DIR . $this->src)[3] ?? '';
 	}
@@ -46,6 +74,8 @@ class Image extends PHTMLComponent {
 
 	private function renderImageAttributes() {
 		echo $this->getSrcAttribute() .
+			' ' .
+			$this->getSrcsetAttribute() .
 			' ' .
 			$this->getDimensionsAttributes() .
 			($this->getAltAttribute() ? ' ' . $this->getAltAttribute() : '');
