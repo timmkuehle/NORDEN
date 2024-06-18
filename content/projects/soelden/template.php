@@ -430,25 +430,25 @@
 				<?php new Image(
     	null,
     	'soelden-gif',
-    	'/content/resources/media/soelden/gifs/SOEL_Claim_1.gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF1_Claim.gif',
     	'Heartbeat of the Alps'
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-gif',
-    	'/content/resources/media/soelden/gifs/SOEL_Lines.gif',
+    	'content/resources/media/soelden/gifs/SOEL_GIF2_Linien.gif',
     	'Sölden'
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-gif',
-    	'/content/resources/media/soelden/gifs/SOEL_My_Happy_Place.gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF3_HappyPlace.gif',
     	'My Happy Place'
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-gif',
-    	'/content/resources/media/soelden/gifs/SOEL_Ski_You_Later.gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF4_SkiYouLater.gif',
     	'Ski you later'
     ); ?>
 				</div>
