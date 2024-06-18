@@ -478,7 +478,7 @@ body {
 						padding-top: 2rem;
 
 						.soel-side-note {
-							color: $color-soel-orange;
+							//color: $color-soel-orange;
 						}
 					}
 				}
@@ -599,16 +599,6 @@ body {
 
 						@media screen and (max-width: 768px) {
 							gap: 2rem;
-						}
-
-						&.stick {
-							flex-basis: 69%;
-
-							&.left {
-								@media screen and (min-width: 769px) {
-									margin-left: -4.375rem;
-								}
-							}
 						}
 					}
 				}
