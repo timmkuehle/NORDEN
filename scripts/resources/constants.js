@@ -1,8 +1,8 @@
 /** Width versions of processed images */
 export const IMAGE_SIZES = {
-	small: 400,
-	medium: 800,
-	large: 1200,
+	small: 360,
+	medium: 720,
+	large: 1280,
 	xlarge: 1600
 };
 
