@@ -6,9 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"start": "webpack serve --mode development",
-		"build": "webpack --mode production",
-		"deploy": "node scripts/deploy/index.cjs",
-		"createComponent": "node scripts/createComponent/index.cjs"
+		"build": "webpack --mode production"
 	},
 	"repository": {
 		"type": "git",
