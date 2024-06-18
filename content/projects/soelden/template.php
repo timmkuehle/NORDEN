@@ -628,7 +628,7 @@
 	<div class="slot side-note-start empty"></div>
 		<div class="content">
 			<div class="wc-products">
-				<div class="col start">
+				<div class="col start" style="flex-basis: 75%;">
 					<video class="world-cup-video" alt="Soelden Ski Weltcup Highlights" muted autoplay loop>
 						<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9.mp4">
 					</video>
@@ -639,7 +639,7 @@
      	'Sölden Ski Weltcup Social Media Posting'
      ); ?>
 				</div>
-				<div class="col end">
+				<div class="col end" style="flex-basis: 25%;">
 					<img class="world-cup-ski" alt="Sölden Ski Weltcup Skier" src="<?php echo BASE_URL; ?>/content/resources/media/soelden/world_cup/04_SOEL_Skiweltcup_Ski_quer.png" srcset="<?php echo BASE_URL; ?>/content/resources/media/soelden/world_cup/04_SOEL_Skiweltcup_Ski_quer.png 768w, <?php echo BASE_URL; ?>/content/resources/media/soelden/world_cup/04_SOEL_Skiweltcup_Ski.png">
 				</div>
 			</div>
