@@ -77,7 +77,7 @@ $people = [
 				<?php new Image(
     	null,
     	null,
-    	'content/resources/media/Fotos_Agentur_1.webp',
+    	'content/resources/media/agency/Fotos_Agentur_1.jpg',
     	'Einblock in die Agentur'
     ); ?>
 			</div>
