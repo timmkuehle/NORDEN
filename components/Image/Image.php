@@ -10,6 +10,7 @@ declare(strict_types=1);
 class Image extends PHTMLComponent {
 	private string $src;
 	private ?string $alt;
+	private bool $lazyLoaded;
 	private ?string $mobileSrc;
 	private int $breakpoint;
 
@@ -18,6 +19,7 @@ class Image extends PHTMLComponent {
 		?string $class_name,
 		string $src,
 		string $alt = null,
+		bool $lazy_loaded = false,
 		string $mobile_src = null,
 		int $breakpoint = 768
 	) {
@@ -29,6 +31,8 @@ class Image extends PHTMLComponent {
 
 		$this->alt = $alt;
 
+		$this->lazyLoaded = $lazy_loaded;
+
 		$this->mobileSrc = $mobile_src ? sanitize_uri($mobile_src) : null;
 
 		$this->breakpoint = $breakpoint;
@@ -37,7 +41,11 @@ class Image extends PHTMLComponent {
 	}
 
 	private function getSrcAttribute(): string {
-		return 'src="' . BASE_URL . $this->src . '"';
+		return ($this->lazyLoaded ? 'data-src' : 'src') .
+			'="' .
+			BASE_URL .
+			$this->src .
+			'"';
 	}
 
 	private function getSrcset(
@@ -83,7 +91,8 @@ class Image extends PHTMLComponent {
 			: [];
 
 		$srcset_string =
-			'srcset="' .
+			($this->lazyLoaded ? 'data-srcset' : 'srcset') .
+			'="' .
 			($this->mobileSrc && empty($mobile_srcset)
 				? BASE_URL .
 					$this->src .
