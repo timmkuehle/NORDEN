@@ -9,7 +9,7 @@
 		</div>
 		<div class="slot center">
 			<div class="video-container">
-				<video class="brand-clip" alt="Sölden Brand Clip" muted autoplay loop>
+				<video class="brand-clip" alt="Sölden Brand Clip" muted autoplay loo width="1080" height="1080">
 					<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Mobile.mp4" type="video/mp4" media="(max-width: 600px)">
 					<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Web.mp4" type="video/mp4">
 				</video>
@@ -78,7 +78,7 @@
 		<p class="soel-side-note">Typography</p>
 	</div>
 	<div class="content align-right">
-		<video class="typo-claim-animation" alt="Typografie Animation" muted autoplay loop>
+		<video class="typo-claim-animation" alt="Typografie Animation" muted autoplay loop width="1920" height="1080">
 			<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/typo/01_TypoClaimAnimation.mp4" type="video/mp4">
 		</video>
 	</div>
@@ -678,7 +678,7 @@
 		<div class="content">
 			<div class="wc-products">
 				<div class="col start" style="flex-basis: 72%;">
-					<video class="world-cup-video" alt="Soelden Ski Weltcup Highlights" muted autoplay loop>
+					<video class="world-cup-video" alt="Soelden Ski Weltcup Highlights" muted autoplay loop width="1920" height="1920">
 						<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9.mp4">
 					</video>
 					<?php new Image(
