@@ -1,1 +1,5 @@
-console.log("Hello world");
+import setupLazyLoader from "./components/lazyLoader";
+
+document.addEventListener("DOMContentLoaded", () => {
+	setupLazyLoader();
+});
