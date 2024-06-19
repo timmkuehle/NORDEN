@@ -37,7 +37,7 @@ class Image extends PHTMLComponent {
 
 		$this->breakpoint = $breakpoint;
 
-		parent::__construct($id, $class_name);
+		parent::__construct($id, $class_name . ($lazy_loaded ? ' lazy' : ''));
 	}
 
 	private function getSrcAttribute(): string {
