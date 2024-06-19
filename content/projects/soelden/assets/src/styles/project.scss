@@ -600,6 +600,29 @@ body {
 				}
 
 				.image {
+					&.lines-wide,
+					&.lines-medium,
+					&.lines-narrow {
+						mix-blend-mode: difference;
+
+						@media screen and (max-width: 768px) {
+							max-width: 15rem;
+							margin-inline: auto;
+						}
+					}
+
+					@media screen and (min-width: 769px) {
+						&.lines-wide {
+							margin-top: 2rem;
+						}
+
+						&.lines-medium {
+							@media screen and (min-width: 769px) {
+								margin-top: 6rem;
+							}
+						}
+					}
+
 					&.typography-animation {
 						max-width: min(30rem, 100%);
 					}
@@ -630,31 +653,6 @@ body {
 
 						@media screen and (min-width: 769px) {
 							transform: rotate(-90deg) scale(4.375);
-						}
-					}
-				}
-
-				.svg {
-					&.lines-wide,
-					&.lines-medium,
-					&.lines-narrow {
-						mix-blend-mode: difference;
-
-						@media screen and (max-width: 768px) {
-							max-width: 15rem;
-							margin-inline: auto;
-						}
-					}
-
-					@media screen and (min-width: 769px) {
-						&.lines-wide {
-							margin-top: 2rem;
-						}
-
-						&.lines-medium {
-							@media screen and (min-width: 769px) {
-								margin-top: 6rem;
-							}
 						}
 					}
 				}
@@ -925,7 +923,7 @@ body {
 					}
 				}
 
-				img {
+				img:not(.lines) {
 					width: 100%;
 				}
 			}
