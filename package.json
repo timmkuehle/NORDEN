@@ -7,8 +7,7 @@
 	"scripts": {
 		"start": "webpack serve --mode development",
 		"build": "webpack --mode production",
-		"deploy": "node scripts/deploy/index.cjs",
-		"createComponent": "node scripts/createComponent/index.cjs"
+		"resources": "node scripts/resources/index.js content/resources/media"
 	},
 	"repository": {
 		"type": "git",
@@ -44,5 +43,8 @@
 		"webpack": "^5.92.0",
 		"webpack-cli": "^5.1.4",
 		"webpack-dev-server": "^5.0.4"
+	},
+	"dependencies": {
+		"sharp": "^0.33.4"
 	}
 }

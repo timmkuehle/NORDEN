@@ -16,35 +16,39 @@ class ProjectModel {
 			'slug' => '/projekte/soelden',
 			'content_path' => '/content/projects/soelden',
 			'title' => 'Sölden',
-			'thumbnail' => '/content/resources/media/SOEL_Thumbnail.webp',
+			'thumbnail' =>
+				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
 			'archive_layer' => 'middle'
 		],
 		[
 			'slug' => '/content/resources/media/Thumbnail_ARANEA.jpg',
 			'content_path' => '/content/projects/aranea',
 			'title' => 'Aranea',
-			'thumbnail' => '/content/resources/media/ARANEA_Thumbnail.webp',
+			'thumbnail' =>
+				'/content/resources/media/aranea/ARANEA_Thumbnail.webp',
 			'archive_layer' => 'front'
 		],
 		[
 			'slug' => '/projekte/seefeld',
 			'content_path' => '/content/projects/seefeld',
 			'title' => 'Seefeld',
-			'thumbnail' => '/content/resources/media/SFLD_Thumbnail.webp',
+			'thumbnail' =>
+				'/content/resources/media/seefeld/SFLD_Thumbnail.webp',
 			'archive_layer' => 'front'
 		],
 		[
 			'slug' => '/projekte/gurgl',
 			'content_path' => '/content/projects/gurgl',
 			'title' => 'Gurgl',
-			'thumbnail' => '/content/resources/media/GRGL_Thumbnail.webp',
+			'thumbnail' => '/content/resources/media/gurgl/GRGL_Thumbnail.webp',
 			'archive_layer' => 'back'
 		],
 		[
 			'slug' => '/projekte/alpachtal',
 			'content_path' => '/content/projects/alpachtal',
 			'title' => 'Alpachtal',
-			'thumbnail' => '/content/resources/media/ABT_Thumbnail.webp',
+			'thumbnail' =>
+				'/content/resources/media/alpbachtal/ABT_Thumbnail.webp',
 			'archive_layer' => 'front'
 		]
 	];
