@@ -98,7 +98,8 @@
    	null,
    	'typography-animation',
    	'/content/resources/media/soelden/typo/02_SOEL_Letter_R.gif',
-   	'Typographie Animation'
+   	'Typographie Animation',
+   	true
    ); ?>
 		</div>
 	</div>
@@ -203,7 +204,8 @@
 	null,
 	'full-width-image',
 	'/content/resources/media/soelden/06_SOEL_Trennerbild.jpg',
-	'Alpenpanorama'
+	'Alpenpanorama',
+	true
 ); ?>
 <section class="soelden-gallery layout-1 bg-color-anthrazit full-width">
 	<div class="slot side-note-start">
@@ -226,7 +228,8 @@
      	null,
      	'logo-placement',
      	'/content/resources/media/soelden/layout/01_SOEL_Logo_Platzierung.png',
-     	'Logo-Platzierung'
+     	'Logo-Platzierung',
+     	true
      ); ?>
 				</div>
 			</div>
@@ -246,7 +249,8 @@
   	null,
   	'layout-example',
   	'/content/resources/media/soelden/layout/03_SOEL_HikeMap.jpg',
-  	'Layout-Beispiel'
+  	'Layout-Beispiel',
+  	true
   ); ?>
 	</div>
 </section>
@@ -358,7 +362,8 @@
      	null,
      	'story-mockup',
      	'/content/resources/media/soelden/social/SOEL_SM_Carousel_mockup.png',
-     	'Social Media Carousel'
+     	'Social Media Carousel',
+     	true
      ); ?>
 				</div>
 			</div>
@@ -375,6 +380,7 @@
    	'soelden-so-me-examples',
    	'/content/resources/media/soelden/social/SOEL_SM_Postings_Web.png',
    	'Sölden Social Media Postings',
+   	true,
    	'/content/resources/media/soelden/social/SOEL_SM_Postings_Mobile.png'
    ); ?>
 		</div>
@@ -392,7 +398,8 @@
       	null,
       	'feed-mockup',
       	'/content/resources/media/soelden/social/SOEL_SM_Feed_mockup.png',
-      	'Social Media Carousel'
+      	'Social Media Carousel',
+      	true
       ); ?>
 	  				</div>
 						<?php new Svg(
@@ -432,13 +439,15 @@
     	null,
     	'soelden-gif',
     	'/content/resources/media/soelden/gifs/SOEL_GIF1_Claim.gif',
-    	'Heartbeat of the Alps'
+    	'Heartbeat of the Alps',
+    	true
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-gif',
     	'content/resources/media/soelden/gifs/SOEL_GIF2_Linien.gif',
-    	'Sölden'
+    	'Sölden',
+    	true
     ); ?>
 				<?php new Image(
     	null,
@@ -450,7 +459,8 @@
     	null,
     	'soelden-gif',
     	'/content/resources/media/soelden/gifs/SOEL_GIF4_SkiYouLater.gif',
-    	'Ski you later'
+    	'Ski you later',
+    	true
     ); ?>
 				</div>
 			</div>
@@ -462,7 +472,8 @@
 	null,
 	'full-width-image',
 	'/content/resources/media/soelden/branding/SOEL_GondelBranding.jpg',
-	'Anwendungsbeispiel Gondeln'
+	'Anwendungsbeispiel Gondeln',
+	true
 ); ?>
 <section class="full-width">
 	<div class="soelden-gallery website">
@@ -484,7 +495,8 @@
    	null,
    	'soelden-folder',
    	'/content/resources/media/soelden/branding/01_SOEL_Folder_Winter.png',
-   	'Sölden Folder'
+   	'Sölden Folder',
+   	true
    ); ?>
 		</div>
 		<div class="slot side-note-end"></div>
@@ -501,7 +513,8 @@
      	null,
      	null,
      	'/content/resources/media/soelden/branding/03_SOEL_Skibootbag.jpg',
-     	'Sölden Skiboot Bag'
+     	'Sölden Skiboot Bag',
+     	true
      ); ?>
 				</div>
 			</div>
@@ -519,7 +532,8 @@
      	null,
      	null,
      	'/content/resources/media/soelden/branding/SOEL_Buff.png',
-     	'Sölden Buff'
+     	'Sölden Buff',
+     	true
      ); ?>
 				</div>
 			</div>
@@ -536,7 +550,8 @@
   	null,
   	'photo-point',
   	'/content/resources/media/soelden/branding/06_SOEL_Photopoint.jpg',
-  	'Sölden Photo Point'
+  	'Sölden Photo Point',
+  	true
   ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -550,7 +565,8 @@
   	null,
   	'tram',
   	'/content/resources/media/soelden/branding/07_SOEL_Tram_Beklebung.png',
-  	'Sölden Tram Marketing'
+  	'Sölden Tram Marketing',
+  	true
   ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -564,7 +580,8 @@
   	null,
   	'bike-box',
   	'/content/resources/media/soelden/branding/08_SOEL_BikeBox.jpg',
-  	'Sölden Bike Box'
+  	'Sölden Bike Box',
+  	true
   ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -585,7 +602,8 @@
    	null,
    	'soelden-bag',
    	'/content/resources/media/soelden/branding/SOEL_Bag.jpg',
-   	'Layout-Beispiel'
+   	'Layout-Beispiel',
+   	true
    ); ?>
 		</div>
 	</div>
@@ -597,7 +615,8 @@
  	null,
  	'full-width-image',
  	'/content/resources/media/soelden/12_SOEL_Trenner_Bild.jpg',
- 	'Sölden Snow Park'
+ 	'Sölden Snow Park',
+ 	true
  ); ?>
 	<header>
 		<h2 class="heading">Sport, Action & Enter<wbr>tainment</h2>
@@ -605,7 +624,8 @@
   	null,
   	'world-cup-icon',
   	'/content/resources/media/soelden/world_cup/01_SOEL_Skiweltcup_Icon.png',
-  	'Weltcup Icon'
+  	'Weltcup Icon',
+  	true
   ); ?>
 	</header>
 </section>
@@ -626,7 +646,8 @@
   	null,
   	'full-width-image',
   	'/content/resources/media/soelden/12_SOEL_Trenner_Bild.jpg',
-  	'Sölden Snow Park'
+  	'Sölden Snow Park',
+  	true
   ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -643,7 +664,8 @@
      	null,
      	'world-cup-iphone',
      	'/content/resources/media/soelden/world_cup/05_SOEL_Skiweltcup_Iphone.png',
-     	'Sölden Ski Weltcup Social Media Posting'
+     	'Sölden Ski Weltcup Social Media Posting',
+     	true
      ); ?>
 				</div>
 				<div class="col end" style="flex-basis: 28%;">
@@ -651,7 +673,8 @@
      	null,
      	'world-cup-ski',
      	'/content/resources/media/soelden/world_cup/04_SOEL_Skiweltcup_Ski_quer.png',
-     	'Sölden Ski Weltcup Skier'
+     	'Sölden Ski Weltcup Skier',
+     	true
      ); ?>
 				</div>
 			</div>
@@ -672,7 +695,8 @@
   	null,
   	'soelden-bag',
   	'/content/resources/media/soelden/branding/SOEL_Snoggle_Mockup.jpg',
-  	'Layout-Beispiel'
+  	'Layout-Beispiel',
+  	true
   ); ?>
 	</div>
 </section>
