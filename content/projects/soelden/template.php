@@ -601,11 +601,11 @@
  ); ?>
 	<header>
 		<h2 class="heading">Sport, Action & Enter<wbr>tainment</h2>
-		<?php new Svg(
+		<?php new Image(
   	null,
   	'world-cup-icon',
-  	'/content/resources/media/soelden/world_cup/01_SOEL_Skiweltcup_Icon.svg',
-  	'Strichgrafik'
+  	'/content/resources/media/soelden/world_cup/01_SOEL_Skiweltcup_Icon.png',
+  	'Weltcup Icon'
   ); ?>
 	</header>
 </section>
