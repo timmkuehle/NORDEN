@@ -3,27 +3,27 @@
 $people = [
 	[
 		'name' => 'Julian',
-		'image' => '/content/resources/media/TeamFoto_Elaine.jpg'
+		'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
 	],
 	[
 		'name' => 'Lisa',
-		'image' => '/content/resources/media/TeamFoto_Lisa.jpg'
+		'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
 	],
 	[
 		'name' => 'Elaine',
-		'image' => '/content/resources/media/TeamFoto_Elaine.jpg'
+		'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
 	],
 	[
 		'name' => 'Lena',
-		'image' => '/content/resources/media/TeamFoto_Lisa.jpg'
+		'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
 	],
 	[
 		'name' => 'Elena',
-		'image' => '/content/resources/media/TeamFoto_Elaine.jpg'
+		'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
 	],
 	[
 		'name' => 'You?',
-		'image' => '/content/resources/media/TeamFoto_You.png'
+		'image' => '/content/resources/media/agency/TeamFoto_You.png'
 	]
 ]; ?>
 <section class="content-card">
@@ -77,8 +77,8 @@ $people = [
 				<?php new Image(
     	null,
     	null,
-    	'content/resources/media/Fotos_Agentur_1.webp',
-    	'Einblock in die Agentur'
+    	'content/resources/media/agency/Fotos_Agentur_1.jpg',
+    	'Einblick in die Agentur'
     ); ?>
 			</div>
 		</div>

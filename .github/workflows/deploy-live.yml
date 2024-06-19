@@ -30,6 +30,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Process resources
+        run: npm run resources
+
       - name: Configure SSH setup
         run: |
           mkdir -p ~/.ssh

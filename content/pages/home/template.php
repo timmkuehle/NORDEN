@@ -6,7 +6,7 @@ new SiteHeader(null, null, true, null, null, null, [], []);
 ?>
 <main>
 	<?php new ShowReel(null, 'overlap-header', [
- 	'/content/resources/media/Norden_Showreel_Web.mp4'
+ 	'/content/resources/media/agency/Norden_Showreel_Web.mp4'
  ]); ?>
 	<section class="content-card full-width bg-col-light-shade">
 		<header>

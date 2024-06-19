@@ -476,10 +476,6 @@ body {
 				@media screen and (min-width: 769px) {
 					.slot.side-note-start {
 						padding-top: 2rem;
-
-						.soel-side-note {
-							color: $color-soel-orange;
-						}
 					}
 				}
 			}
@@ -600,16 +596,6 @@ body {
 						@media screen and (max-width: 768px) {
 							gap: 2rem;
 						}
-
-						&.stick {
-							flex-basis: 69%;
-
-							&.left {
-								@media screen and (min-width: 769px) {
-									margin-left: -4.375rem;
-								}
-							}
-						}
 					}
 				}
 
@@ -636,11 +622,15 @@ body {
 					}
 
 					&.world-cup-iphone {
-						max-width: min(40rem, 100%);
+						max-width: 100%;
 					}
 
-					&.world-cup-skis {
-						aspect-ratio: 320/1400;
+					&.world-cup-ski {
+						aspect-ratio: 1400/320;
+
+						@media screen and (min-width: 769px) {
+							transform: rotate(-90deg) scale(4.375);
+						}
 					}
 				}
 
@@ -691,7 +681,7 @@ body {
 				}
 
 				.world-cup-video {
-					max-width: min(40rem, 100%);
+					max-width: 100%;
 				}
 
 				.soelden-icons {
@@ -755,7 +745,7 @@ body {
 			padding-bottom: 1.5rem;
 
 			&::before {
-				content: url("../../../../../resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_weit.svg");
+				content: url("../../../../../resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_weit.svg");
 				display: block;
 				position: absolute;
 				width: 25%;
