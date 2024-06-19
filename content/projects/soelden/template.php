@@ -222,10 +222,11 @@
 					<p class="color-white">1. Abstand Rand = 7 x<br>2. Breite Logo = 13 x</p>
 				</div>
 				<div class="slot">
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'logo-placement',
-     	'/content/resources/media/soelden/layout/01_SOEL_Logo_Platzierung.svg'
+     	'/content/resources/media/soelden/layout/01_SOEL_Logo_Platzierung.png',
+     	'Logo-Platzierung'
      ); ?>
 				</div>
 			</div>
