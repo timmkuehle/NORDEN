@@ -29,7 +29,9 @@ class ProjectController extends BaseController {
 		new BaseView(
 			$this->getHttpHeaders(),
 			$this->currentProject['language'] ?? LANG_CODE,
-			$this->currentProject['title'] ?? SITE_TITLE,
+			$this->currentProject['title']
+				? $this->currentProject['title'] . ' | NORDEN Projekte'
+				: SITE_TITLE,
 			$this->currentProject['description'] ?? SITE_DESC,
 			BASE_DIR . $this->contentPath . '/template.php',
 			$this->getScripts(),

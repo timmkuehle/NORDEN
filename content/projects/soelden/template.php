@@ -10,8 +10,8 @@
 		<div class="slot center">
 			<div class="video-container">
 				<video class="brand-clip" alt="Sölden Brand Clip" muted autoplay loop>
-					<source src="<?php echo BASE_URL; ?>/content/resources/media/01_SOEL_Brandclip_Mobile.mp4" type="video/mp4" media="(max-width: 600px)">
-					<source src="<?php echo BASE_URL; ?>/content/resources/media/01_SOEL_Brandclip_Web.mp4" type="video/mp4">
+					<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Mobile.mp4" type="video/mp4" media="(max-width: 600px)">
+					<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Web.mp4" type="video/mp4">
 				</video>
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 			<?php new Svg(
    	null,
    	'lines-wide',
-   	'/content/resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_eng.svg',
+   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_eng.svg',
    	'Strichgrafiken weit'
    ); ?>
 		</div>
@@ -55,7 +55,7 @@
 			<?php new Svg(
    	null,
    	'lines-medium',
-   	'/content/resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
    	'Strichgrafiken mittel'
    ); ?>
 		</div>
@@ -63,7 +63,7 @@
 			<?php new Svg(
    	null,
    	'lines-narrow',
-   	'/content/resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_weit.svg',
+   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_weit.svg',
    	'Strichgrafiken eng'
    ); ?>
 		</div>
@@ -76,7 +76,7 @@
 	</div>
 	<div class="content align-right">
 		<video class="typo-claim-animation" alt="Typografie Animation" muted autoplay loop>
-			<source src="<?php echo BASE_URL; ?>/content/resources/media/01_TypoClaimAnimation.mp4" type="video/mp4">
+			<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/typo/01_TypoClaimAnimation.mp4" type="video/mp4">
 		</video>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -97,7 +97,7 @@
 			<?php new Image(
    	null,
    	'typography-animation',
-   	'/content/resources/media/02_SOEL_Letter_R.gif',
+   	'/content/resources/media/soelden/typo/02_SOEL_Letter_R.gif',
    	'Typographie Animation'
    ); ?>
 		</div>
@@ -110,7 +110,7 @@
 		<?php new SVG(
   	null,
   	'headline-font-alphabet',
-  	'/content/resources/media/03_HeadlineFont.svg',
+  	'/content/resources/media/soelden/typo/03_HeadlineFont.svg',
   	'AS Soelden Headline'
   ); ?>
 	</div>
@@ -172,13 +172,13 @@
 	<?php new Svg(
  	null,
  	'heartbeat-claim web',
- 	'/content/resources/media/SOEL_Claim_Linien_Web.svg',
+ 	'/content/resources/media/soelden/claim/SOEL_Claim_Linien_Web.svg',
  	'Heartbeat of the Alps'
  ); ?>
  	<?php new Svg(
   	null,
   	'heartbeat-claim mobile',
-  	'/content/resources/media/SOEL_Claim_Linien_Mobile.svg',
+  	'/content/resources/media/soelden/claim/SOEL_Claim_Linien_Mobile.svg',
   	'Heartbeat of the Alps'
   ); ?>	
 </section>
@@ -191,8 +191,8 @@
 			<h2 class="heading">Logo Animation</h2>
 			<h3 class="subline">Extended Logo Animation</h3>
 			<video class="logo-animation" alt="Sölden Logo Animation" muted autoplay loop>
-				<source src="<?php echo BASE_URL; ?>/content/resources/media/SOEL_Logo_Animation_Long_1-1.mp4" type="video/mp4" media="(max-width: 600px)">
-				<source src="<?php echo BASE_URL; ?>/content/resources/media/SOEL_Logo_Animation_Long_16-9.mp4" type="video/mp4">
+				<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_1-1.mp4" type="video/mp4" media="(max-width: 600px)">
+				<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_16-9.mp4" type="video/mp4">
 			</video>
 		</div>
 	</div>
@@ -202,7 +202,7 @@
 <?php new Image(
 	null,
 	'full-width-image',
-	'/content/resources/media/06_SOEL_Trennerbild.webp',
+	'/content/resources/media/soelden/06_SOEL_Trennerbild.jpg',
 	'Alpenpanorama'
 ); ?>
 <section class="soelden-gallery layout-1 bg-color-anthrazit full-width">
@@ -222,10 +222,11 @@
 					<p class="color-white">1. Abstand Rand = 7 x<br>2. Breite Logo = 13 x</p>
 				</div>
 				<div class="slot">
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'logo-placement',
-     	'/content/resources/media/01_SOEL_Logo_Platzierung.svg'
+     	'/content/resources/media/soelden/layout/01_SOEL_Logo_Platzierung.png',
+     	'Logo-Platzierung'
      ); ?>
 				</div>
 			</div>
@@ -238,13 +239,13 @@
 		<?php new Svg(
   	null,
   	'lines',
-  	'/content/resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+  	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
   	'Strichgrafik'
   ); ?>
 		<?php new Image(
   	null,
   	'layout-example',
-  	'/content/resources/media/03_SOEL_HikeMap.webp',
+  	'/content/resources/media/soelden/layout/03_SOEL_HikeMap.jpg',
   	'Layout-Beispiel'
   ); ?>
 	</div>
@@ -272,73 +273,73 @@
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-1.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-1.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-2.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-2.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-3.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-3.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-4.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-4.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-5.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-5.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-6.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-6.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-7.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-7.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-8.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-8.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-9.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-9.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-10.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-10.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-11.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-11.svg',
      	'Social Media Story Icon'
      ); ?>
 					<?php new Svg(
      	null,
      	'soelden-icon',
-     	'/content/resources/media/SOEL_SocialMedia_StoryIcons_RZ-12.svg',
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-12.svg',
      	'Social Media Story Icon'
      ); ?>
 				</div>
@@ -356,7 +357,7 @@
 					<?php new Image(
      	null,
      	'story-mockup',
-     	'/content/resources/media/SOEL_SM_Carousel_mockup.webp',
+     	'/content/resources/media/soelden/social/SOEL_SM_Carousel_mockup.png',
      	'Social Media Carousel'
      ); ?>
 				</div>
@@ -369,7 +370,13 @@
 	<div class="slot side-note-start empty"></div>
 	<div class="content">
 		<div class="soelden-text-block no-max-width">
-			<img class="soelden-so-me-examples" alt="Sölden Social Media Postings" src="<?php echo BASE_URL; ?>/content/resources/media/SOEL_SM_Postings_Mobile.webp" srcset="<?php echo BASE_URL; ?>/content/resources/media/SOEL_SM_Postings_Mobile.webp 768w, <?php echo BASE_URL; ?>/content/resources/media/SOEL_SM_Postings_Web.webp">
+			<?php new Image(
+   	null,
+   	'soelden-so-me-examples',
+   	'/content/resources/media/soelden/social/SOEL_SM_Postings_Web.png',
+   	'Sölden Social Media Postings',
+   	'/content/resources/media/soelden/social/SOEL_SM_Postings_Mobile.png'
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -384,14 +391,14 @@
 						<?php new Image(
       	null,
       	'feed-mockup',
-      	'/content/resources/media/SOEL_SM_Feed_mockup.webp',
+      	'/content/resources/media/soelden/social/SOEL_SM_Feed_mockup.png',
       	'Social Media Carousel'
       ); ?>
 	  				</div>
 						<?php new Svg(
       	null,
       	'lines',
-      	'/content/resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+      	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
       	'Strichgrafik'
       ); ?>
 				</div>
@@ -406,7 +413,7 @@
 	</div>
 		<div class="content">
 			<video class="website-clip" alt="Sölden Website" muted autoplay loop>
-				<source src="<?php echo BASE_URL; ?>/content/resources/media/SOEL_Website_Screendesign.mp4" type="video/mp4">
+				<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/layout/SOEL_Website_Screendesign.mp4" type="video/mp4">
 			</video>
 		</div>
 	</div>
@@ -424,25 +431,25 @@
 				<?php new Image(
     	null,
     	'soelden-gif',
-    	'/content/resources/media/SOEL_Claim_1.gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF1_Claim.gif',
     	'Heartbeat of the Alps'
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-gif',
-    	'/content/resources/media/SOEL_Lines.gif',
+    	'content/resources/media/soelden/gifs/SOEL_GIF2_Linien.gif',
     	'Sölden'
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-gif',
-    	'/content/resources/media/SOEL_My_Happy_Place.gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF3_HappyPlace.gif',
     	'My Happy Place'
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-gif',
-    	'/content/resources/media/SOEL_Ski_You_Later.gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF4_SkiYouLater.gif',
     	'Ski you later'
     ); ?>
 				</div>
@@ -454,7 +461,7 @@
 <?php new Image(
 	null,
 	'full-width-image',
-	'/content/resources/media/SOEL_GondelBranding.webp',
+	'/content/resources/media/soelden/branding/SOEL_GondelBranding.jpg',
 	'Anwendungsbeispiel Gondeln'
 ); ?>
 <section class="full-width">
@@ -476,7 +483,7 @@
 			<?php new Image(
    	null,
    	'soelden-folder',
-   	'/content/resources/media/01_SOEL_Folder_Winter.webp',
+   	'/content/resources/media/soelden/branding/01_SOEL_Folder_Winter.png',
    	'Sölden Folder'
    ); ?>
 		</div>
@@ -488,22 +495,22 @@
 		<p class="soel-side-note">Ski Helmet • Skiboot Bag • Neckwarmer</p>
 	</div>
 		<div class="content image-layout">
-			<div class="col stick left">
+			<div class="col" style="flex-basis: 53%;">
 				<div class="row">
 					<?php new Image(
      	null,
      	null,
-     	'/content/resources/media/03_SOEL_Skibootbag.webp',
+     	'/content/resources/media/soelden/branding/03_SOEL_Skibootbag.jpg',
      	'Sölden Skiboot Bag'
      ); ?>
 				</div>
 			</div>
-			<div class="col">
+			<div class="col" style="flex-basis: 47%;">
 				<div class="row">
 					<?php new Image(
      	null,
      	null,
-     	'/content/resources/media/04_SOEL_Helmbranding.webp',
+     	'/content/resources/media/soelden/branding/04_SOEL_Helmbranding.png',
      	'Sölden Skihelm'
      ); ?>
 				</div>
@@ -511,7 +518,7 @@
 					<?php new Image(
      	null,
      	null,
-     	'/content/resources/media/SOEL_Buff.webp',
+     	'/content/resources/media/soelden/branding/SOEL_Buff.png',
      	'Sölden Buff'
      ); ?>
 				</div>
@@ -528,7 +535,7 @@
 		<?php new Image(
   	null,
   	'photo-point',
-  	'/content/resources/media/06_SOEL_Photopoint.webp',
+  	'/content/resources/media/soelden/branding/06_SOEL_Photopoint.jpg',
   	'Sölden Photo Point'
   ); ?>
 	</div>
@@ -542,7 +549,7 @@
 		<?php new Image(
   	null,
   	'tram',
-  	'/content/resources/media/07_SOEL_Tram_Beklebung.webp',
+  	'/content/resources/media/soelden/branding/07_SOEL_Tram_Beklebung.png',
   	'Sölden Tram Marketing'
   ); ?>
 	</div>
@@ -556,7 +563,7 @@
 		<?php new Image(
   	null,
   	'bike-box',
-  	'/content/resources/media/08_SOEL_BikeBox.webp',
+  	'/content/resources/media/soelden/branding/08_SOEL_BikeBox.jpg',
   	'Sölden Bike Box'
   ); ?>
 	</div>
@@ -571,13 +578,13 @@
 			<?php new Svg(
    	null,
    	'lines',
-   	'/content/resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
    	'Strichgrafik'
    ); ?>
 			<?php new Image(
    	null,
    	'soelden-bag',
-   	'/content/resources/media/SOEL_Bag.webp',
+   	'/content/resources/media/soelden/branding/SOEL_Bag.jpg',
    	'Layout-Beispiel'
    ); ?>
 		</div>
@@ -589,16 +596,16 @@
 	<?php new Image(
  	null,
  	'full-width-image',
- 	'/content/resources/media/12_SOEL_Trenner_Bild.webp',
+ 	'/content/resources/media/soelden/12_SOEL_Trenner_Bild.jpg',
  	'Sölden Snow Park'
  ); ?>
 	<header>
 		<h2 class="heading">Sport, Action & Enter<wbr>tainment</h2>
-		<?php new Svg(
+		<?php new Image(
   	null,
   	'world-cup-icon',
-  	'/content/resources/media/01_SOEL_Skiweltcup_Icon.svg',
-  	'Strichgrafik'
+  	'/content/resources/media/soelden/world_cup/01_SOEL_Skiweltcup_Icon.png',
+  	'Weltcup Icon'
   ); ?>
 	</header>
 </section>
@@ -618,7 +625,7 @@
 		<?php new Image(
   	null,
   	'full-width-image',
-  	'/content/resources/media/12_SOEL_Trenner_Bild.webp',
+  	'/content/resources/media/soelden/12_SOEL_Trenner_Bild.jpg',
   	'Sölden Snow Park'
   ); ?>
 	</div>
@@ -628,19 +635,24 @@
 	<div class="slot side-note-start empty"></div>
 		<div class="content">
 			<div class="wc-products">
-				<div class="col start">
+				<div class="col start" style="flex-basis: 72%;">
 					<video class="world-cup-video" alt="Soelden Ski Weltcup Highlights" muted autoplay loop>
-						<source src="<?php echo BASE_URL; ?>/content/resources/media/SOEL_Weltcup_2023_16-9.mp4">
+						<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9.mp4">
 					</video>
 					<?php new Image(
      	null,
      	'world-cup-iphone',
-     	'/content/resources/media/05_SOEL_Skiweltcup_Iphone.webp',
+     	'/content/resources/media/soelden/world_cup/05_SOEL_Skiweltcup_Iphone.png',
      	'Sölden Ski Weltcup Social Media Posting'
      ); ?>
 				</div>
-				<div class="col end">
-					<img class="world-cup-ski" alt="Sölden Ski Weltcup Skier" src="<?php echo BASE_URL; ?>/content/resources/media/04_SOEL_Skiweltcup_Ski_mobile.webp" srcset="<?php echo BASE_URL; ?>/content/resources/media/04_SOEL_Skiweltcup_Ski_mobile.webp 768w, <?php echo BASE_URL; ?>/content/resources/media/04_SOEL_Skiweltcup_Ski.webp">
+				<div class="col end" style="flex-basis: 28%;">
+					<?php new Image(
+     	null,
+     	'world-cup-ski',
+     	'/content/resources/media/soelden/world_cup/04_SOEL_Skiweltcup_Ski_quer.png',
+     	'Sölden Ski Weltcup Skier'
+     ); ?>
 				</div>
 			</div>
 		</div>
@@ -653,13 +665,13 @@
 		<?php new Svg(
   	null,
   	'lines',
-  	'/content/resources/media/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+  	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
   	'Strichgrafik'
   ); ?>
 		<?php new Image(
   	null,
   	'soelden-bag',
-  	'/content/resources/media/SOEL_Snoggle_Mockup.webp',
+  	'/content/resources/media/soelden/branding/SOEL_Snoggle_Mockup.jpg',
   	'Layout-Beispiel'
   ); ?>
 	</div>
