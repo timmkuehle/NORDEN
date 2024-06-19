@@ -130,6 +130,31 @@ class Image extends PHTMLComponent {
 	}
 
 	private function getDimensionsAttributes(): string {
+		if (pathinfo(BASE_DIR . $this->src, PATHINFO_EXTENSION) === 'svg') {
+			$attributes = simplexml_load_file(
+				BASE_URL . $this->src
+			)->attributes();
+			$viewbox_parts = explode(' ', (string) $attributes->viewBox);
+
+			if ($attributes->width) {
+				$width = (string) $attributes->width;
+			} else {
+				$width =
+					(string) ((int) $viewbox_parts[2] -
+						(int) $viewbox_parts[0]);
+			}
+
+			if ($attributes->height) {
+				$height = (string) $attributes->height;
+			} else {
+				$height =
+					(string) ((int) $viewbox_parts[3] -
+						(int) $viewbox_parts[1]);
+			}
+
+			return 'width="' . $width . '" height="' . $height . '"';
+		}
+
 		return getimagesize(BASE_DIR . $this->src)[3] ?? '';
 	}
 
