@@ -44,27 +44,30 @@
 	</div>
 	<div class="content">
 		<div class="slot start">
-			<?php new Svg(
+			<?php new Image(
    	null,
    	'lines-wide',
    	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_eng.svg',
-   	'Strichgrafiken weit'
+   	'Strichgrafiken weit',
+   	true
    ); ?>
 		</div>
 		<div class="slot center">
-			<?php new Svg(
+			<?php new Image(
    	null,
    	'lines-medium',
    	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-   	'Strichgrafiken mittel'
+   	'Strichgrafiken mittel',
+   	true
    ); ?>
 		</div>
 		<div class="slot end">
-			<?php new Svg(
+			<?php new Image(
    	null,
    	'lines-narrow',
    	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_weit.svg',
-   	'Strichgrafiken eng'
+   	'Strichgrafiken eng',
+   	true
    ); ?>
 		</div>
 	</div>
@@ -108,11 +111,12 @@
 <section class="soelden-gallery typography-3 full-width bg-color-anthrazit">
 	<div class="slot side-note-start empty"></div>
 	<div class="content">
-		<?php new SVG(
+		<?php new Image(
   	null,
   	'headline-font-alphabet',
   	'/content/resources/media/soelden/typo/03_HeadlineFont.svg',
-  	'AS Soelden Headline'
+  	'AS Soelden Headline',
+  	true
   ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -170,17 +174,19 @@
 	</div>
 </section>
 <section class="soelden-section heartbeat">
-	<?php new Svg(
+	<?php new Image(
  	null,
  	'heartbeat-claim web',
  	'/content/resources/media/soelden/claim/SOEL_Claim_Linien_Web.svg',
- 	'Heartbeat of the Alps'
+ 	'Heartbeat of the Alps',
+ 	true
  ); ?>
- 	<?php new Svg(
+ 	<?php new Image(
   	null,
   	'heartbeat-claim mobile',
   	'/content/resources/media/soelden/claim/SOEL_Claim_Linien_Mobile.svg',
-  	'Heartbeat of the Alps'
+  	'Heartbeat of the Alps',
+  	true
   ); ?>	
 </section>
 <section class="soelden-gallery logo-animation">
@@ -239,11 +245,12 @@
 </section>
 <section class="soelden-section layout-2 bg-color-anthrazit full-width">
 	<div class="image-with-lines">
-		<?php new Svg(
+		<?php new Image(
   	null,
   	'lines',
   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-  	'Strichgrafik'
+  	'Strichgrafik',
+  	true
   ); ?>
 		<?php new Image(
   	null,
@@ -274,77 +281,89 @@
 		<div class="soelden-text-block no-max-width">
 				<h3 class="subline">Icons</h3>
 				<div class="soelden-icons">
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-1.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-2.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-3.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-4.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-5.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-6.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-7.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-8.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-9.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-10.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-11.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
-					<?php new Svg(
+					<?php new Image(
      	null,
      	'soelden-icon',
      	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-12.svg',
-     	'Social Media Story Icon'
+     	'Social Media Story Icon',
+     	true
      ); ?>
 				</div>
 			</div>
@@ -402,11 +421,12 @@
       	true
       ); ?>
 	  				</div>
-						<?php new Svg(
+						<?php new Image(
       	null,
       	'lines',
       	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-      	'Strichgrafik'
+      	'Strichgrafik',
+      	true
       ); ?>
 				</div>
 			</div>
@@ -592,11 +612,12 @@
 	</div>
 	<div class="content">
 		<div class="image-with-lines left">
-			<?php new Svg(
+			<?php new Image(
    	null,
    	'lines',
    	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-   	'Strichgrafik'
+   	'Strichgrafik',
+   	true
    ); ?>
 			<?php new Image(
    	null,
@@ -685,11 +706,12 @@
 <section class="soelden-outro bg-color-anthrazit full-width">
 	<h2 class="heading color-white">This is Sölden</h2>
 	<div class="image-with-lines left">
-		<?php new Svg(
+		<?php new Image(
   	null,
   	'lines',
   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-  	'Strichgrafik'
+  	'Strichgrafik',
+  	true
   ); ?>
 		<?php new Image(
   	null,
