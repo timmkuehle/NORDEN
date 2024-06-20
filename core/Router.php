@@ -44,7 +44,7 @@ class Router {
 			if ($route['uri'] === $req_uri) {
 				self::$currentRoute = $route;
 
-				if (ENV === 'production' && self::routeIsCached()) {
+				if (self::routeIsCached()) {
 					self::renderCachedContent();
 				}
 
@@ -158,6 +158,10 @@ class Router {
 	 * Method to render cached content for current route
 	 */
 	private static function renderCachedContent() {
+		if (ENV === 'development') {
+			return;
+		}
+
 		echo file_get_contents(
 			BASE_DIR . '/cache' . self::getCurrentRoute('uri') . '/index.html'
 		);
