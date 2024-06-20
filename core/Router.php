@@ -151,7 +151,12 @@ class Router {
 	 * @return bool True, if current route is cached
 	 */
 	private static function routeIsCached(): bool {
-		return file_exists(BASE_DIR . '/cache' . self::getCurrentRoute('uri'));
+		return file_exists(
+			BASE_DIR .
+				'/cache' .
+				rtrim(self::getCurrentRoute('uri'), '\/') .
+				'index.html'
+		);
 	}
 
 	/**
