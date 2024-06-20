@@ -137,16 +137,18 @@ class Router {
 			$cur_dir = BASE_DIR . $cur_uri;
 
 			if (!file_exists($cur_dir) || !is_dir($cur_dir)) {
-				try {
-					mkdir($cur_dir);
-				} catch (Throwable $e) {
-					return;
-				}
+				mkdir($cur_dir);
 			}
 		}
 
+		$minified_content = preg_replace(
+			['/\s+/', '/>\s+</'],
+			[' ', '><'],
+			$content
+		);
+
 		$cache_file = fopen($cache_dir . '/index.html', 'w');
-		fwrite($cache_file, $content);
+		fwrite($cache_file, $minified_content);
 		fclose($cache_file);
 	}
 
