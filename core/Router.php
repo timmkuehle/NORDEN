@@ -163,7 +163,10 @@ class Router {
 		}
 
 		echo file_get_contents(
-			BASE_DIR . '/cache' . self::getCurrentRoute('uri') . '/index.html'
+			BASE_DIR .
+				'/cache' .
+				rtrim(self::getCurrentRoute('uri'), '\/') .
+				'/index.html'
 		);
 
 		exit();
