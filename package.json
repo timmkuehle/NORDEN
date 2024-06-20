@@ -5,9 +5,9 @@
 	"main": "index.php",
 	"type": "module",
 	"scripts": {
-		"start": "webpack serve --mode development",
-		"build": "webpack --mode production",
-		"resources": "node scripts/resources/index.js content/resources/media",
+		"start": "npm run clearCache && webpack serve --mode development",
+		"build": "npm run clearCache && webpack --mode production",
+		"resources": "npm run clearCache && node scripts/resources/index.js content/resources/media",
 		"clearCache": "node scripts/clearCache/index.js cache"
 	},
 	"repository": {
