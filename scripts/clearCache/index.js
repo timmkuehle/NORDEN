@@ -13,3 +13,5 @@ try {
 }
 
 logSuccess(cacheDir.relative);
+
+process.exit(0);
