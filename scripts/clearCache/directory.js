@@ -18,7 +18,7 @@ export const getCacheDir = () => {
 	if (!existsSync(resDir)) {
 		logAlreadyCleared(`.${dir}`);
 
-		process.exit(1);
+		process.exit(0);
 	}
 
 	return { relative: `.${dir}`, absolute: resDir };
