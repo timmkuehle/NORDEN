@@ -7,7 +7,8 @@
 	"scripts": {
 		"start": "webpack serve --mode development",
 		"build": "webpack --mode production",
-		"resources": "node scripts/resources/index.js content/resources/media"
+		"resources": "node scripts/resources/index.js content/resources/media",
+		"clearCache": "node scripts/clearCache/index.js cache"
 	},
 	"repository": {
 		"type": "git",
@@ -36,6 +37,7 @@
 		"globals": "^15.4.0",
 		"mini-css-extract-plugin": "^2.9.0",
 		"prettier": "^3.3.2",
+		"rimraf": "^5.0.7",
 		"sass": "^1.77.0",
 		"sass-loader": "^14.2.1",
 		"typescript": "^5.4.5",
