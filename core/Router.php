@@ -45,14 +45,7 @@ class Router {
 				self::$currentRoute = $route;
 
 				if (ENV === 'production' && self::routeIsCached()) {
-					echo file_get_contents(
-						BASE_DIR .
-							'/cache' .
-							self::getCurrentRoute('uri') .
-							'/index.html'
-					);
-
-					return;
+					self::renderCachedContent();
 				}
 
 				ob_start();
@@ -159,5 +152,16 @@ class Router {
 	 */
 	private static function routeIsCached(): bool {
 		return file_exists(BASE_DIR . '/cache' . self::getCurrentRoute('uri'));
+	}
+
+	/**
+	 * Method to render cached content for current route
+	 */
+	private static function renderCachedContent() {
+		echo file_get_contents(
+			BASE_DIR . '/cache' . self::getCurrentRoute('uri') . '/index.html'
+		);
+
+		exit();
 	}
 }
