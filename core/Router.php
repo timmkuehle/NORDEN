@@ -44,6 +44,17 @@ class Router {
 			if ($route['uri'] === $req_uri) {
 				self::$currentRoute = $route;
 
+				if (self::routeIsCached()) {
+					echo file_get_contents(
+						BASE_DIR .
+							'/cache' .
+							self::getCurrentRoute('uri') .
+							'/index.html'
+					);
+
+					return;
+				}
+
 				ob_start();
 
 				try {
@@ -57,7 +68,14 @@ class Router {
 					);
 				}
 
-				echo ob_get_clean();
+				$content = ob_get_contents();
+				ob_end_flush();
+
+				try {
+					self::cacheOutput($content);
+				} catch (Throwable $e) {
+					return;
+				}
 
 				return;
 			}
@@ -96,5 +114,44 @@ class Router {
 	 */
 	public static function getCurrentRoute(?string $key = null): string|array {
 		return $key ? self::$currentRoute[$key] : self::$currentRoute;
+	}
+
+	/**
+	 * Ouput caching method
+	 *
+	 * Creates the necessary directories and saves provided output to HTML file
+	 *
+	 * @param string $content HTML output to cache
+	 */
+	private static function cacheOutput(string $content) {
+		$cache_uri = '/cache' . self::getCurrentRoute('uri');
+		$cache_dir = BASE_DIR . $cache_uri;
+
+		$cur_uri = '';
+		foreach (explode('/', ltrim($cache_uri, '\/')) as $uri) {
+			$cur_uri .= '/' . $uri;
+			$cur_dir = BASE_DIR . $cur_uri;
+
+			if (!file_exists($cur_dir) || !is_dir($cur_dir)) {
+				try {
+					mkdir($cur_dir);
+				} catch (Throwable $e) {
+					return;
+				}
+			}
+		}
+
+		$cache_file = fopen($cache_dir . '/index.html', 'w');
+		fwrite($cache_file, $content);
+		fclose($cache_file);
+	}
+
+	/**
+	 * Method to check if current Route is cached
+	 *
+	 * @return bool True, if current route is cached
+	 */
+	private static function routeIsCached(): bool {
+		return file_exists(BASE_DIR . '/cache' . self::getCurrentRoute('uri'));
 	}
 }

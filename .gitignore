@@ -2,5 +2,6 @@ node_modules
 package-lock.json
 content/**/assets/dist
 core/error/assets/dist
+cache
 common.config.json
 .DS_Store
