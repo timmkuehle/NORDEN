@@ -43,7 +43,7 @@ class HtmlStart extends PHTMLComponent {
 			<?php endif; ?>
             <?php
             foreach ($this->scripts as $handle => $script) {
-            	include_script($handle, $script['src'], $script['hash'], true);
+            	include_script($handle, $script['src'], $script['hash']);
             }
             foreach ($this->styles as $handle => $path) {
             	include_style($handle, $path);

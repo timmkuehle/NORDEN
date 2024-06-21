@@ -65,7 +65,7 @@ class ErrorView extends BaseView {
 	 */
 	private function renderScriptTags(): void {
 		foreach ($this->scripts as $handle => $script) {
-			include_script($handle, $script['src'], $script['hash'], true);
+			include_script($handle, $script['src'], $script['hash']);
 		}
 	}
 
