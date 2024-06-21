@@ -124,7 +124,7 @@ class BaseController {
 	 * @return array Stylesheet paths, relative to base URL
 	 */
 	protected function getStyles(string $filename): array {
-		$styles = ['site' => '/content/assets/dist/index.css'];
+		$styles = [];
 
 		if (
 			!empty(
