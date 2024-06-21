@@ -97,7 +97,14 @@ export default (env, argv) => {
 				}
 			]
 		},
-		resolve: { extensions: ["", ".js", ".ts", ".jsx", ".tsx"] },
+		resolve: {
+			extensions: ["", ".js", ".ts", ".jsx", ".tsx"],
+			alias: {
+				"@styles": path.resolve(__dirname, "content/assets/src/styles"),
+				"@fonts": path.resolve(__dirname, "content/resources/fonts"),
+				"@components": path.resolve(__dirname, "components")
+			}
+		},
 		output: {
 			path: path.resolve(__dirname),
 			filename: "[name].js"
