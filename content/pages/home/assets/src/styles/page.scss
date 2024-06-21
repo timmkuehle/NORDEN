@@ -1,14 +1,14 @@
 // Import fonts
-@import "../../../../../assets/src/styles/base-fonts.scss";
+@import "@styles/base-fonts.scss";
 
 // Home page styling
 
 // Import generic stylesheets
-@import "../../../../../assets/src/styles/content-card.scss";
+@import "@styles/content-card.scss";
 
 // Import component stylesheets
-@import "../../../../../../components/ShowReel/ShowReel.scss";
-@import "../../../../../../components/ProjectsPreview/ProjectsPreview.scss";
-@import "../../../../../../components/ClientList/ClientList.scss";
-@import "../../../../../../components/ClientLogoStrip/ClientLogoStrip.scss";
-@import "../../../../../../components/MinimalFooter/MinimalFooter.scss";
+@import "@components/ShowReel/ShowReel.scss";
+@import "@components/ProjectsPreview/ProjectsPreview.scss";
+@import "@components/ClientList/ClientList.scss";
+@import "@components/ClientLogoStrip/ClientLogoStrip.scss";
+@import "@components/MinimalFooter/MinimalFooter.scss";

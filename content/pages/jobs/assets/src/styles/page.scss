@@ -1,5 +1,5 @@
 // Import fonts
-@import "../../../../../assets/src/styles/base-fonts.scss";
+@import "@styles/base-fonts.scss";
 
 // Jobs page styling
 body {
@@ -88,7 +88,7 @@ body {
 }
 
 // Import generic stylesheets
-@import "../../../../../assets/src/styles/bullet-list.scss";
+@import "@styles/bullet-list.scss";
 
 // Import component stylesheets
-@import "../../../../../../components/Button/Button.scss";
+@import "@components/Button/Button.scss";

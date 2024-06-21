@@ -1,5 +1,5 @@
 // Import fonts
-@import "../../../../../assets/src/styles/base-fonts.scss";
+@import "@styles/base-fonts.scss";
 
 // Projects page styling
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 // Import generic stylesheets
-@import "../../../../../assets/src/styles/content-card.scss";
+@import "@styles/content-card.scss";
 
 // Import component stylesheets
-@import "../../../../../../components/ProjectArchive/ProjectArchive.scss";
+@import "@components/ProjectArchive/ProjectArchive.scss";
