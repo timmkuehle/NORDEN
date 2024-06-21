@@ -8,13 +8,13 @@ declare(strict_types=1);
  * @param string $name Unique script identifier, will be prepended with "-script" to form script tag id attribute
  * @param string $path Path to script file, relative to root URL
  * @param string $hash Hash of script file to ensure its integrity
- * @param ?boolean $defer If set to true, "defer" attribute is added to script tag
+ * @param ?boolean $defer If set to false, "defer" attribute is omitted from script tag
  */
 function include_script(
 	string $handle,
 	string $path,
 	string $hash,
-	bool $defer = false
+	bool $defer = true
 ): void {
 	$sanitized_path = sanitize_uri($path);
 	$dev_path = preg_replace(
