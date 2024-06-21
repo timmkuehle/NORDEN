@@ -18,7 +18,7 @@ class HtmlEnd extends PHTMLComponent {
 
 	protected function render() {
 		foreach ($this->scripts as $handle => $asset) {
-			include_script($handle, $asset['src'], $asset['hash']);
+			include_script($handle, $asset['src'], $asset['hash'], true);
 		} ?>
     </body>
 	</html>
