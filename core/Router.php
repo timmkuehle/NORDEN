@@ -44,6 +44,8 @@ class Router {
 			if ($route['uri'] === $req_uri) {
 				self::$currentRoute = $route;
 
+				error_log('Should serve cache');
+
 				if (self::routeIsCached()) {
 					self::renderCachedContent();
 				}
@@ -140,8 +142,34 @@ class Router {
 			$content
 		);
 
+		$inlined_content = preg_replace_callback(
+			'/<link\s+id="[^"]+"\srel="stylesheet"[^>]*href="([^"]+)"[^>]*>/',
+			function ($link_tag) {
+				$css_file = str_replace(
+					BASE_URL,
+					BASE_DIR,
+					preg_replace('/\?ver=.*$/', '', $link_tag[1])
+				);
+
+				if (!file_exists($css_file)) {
+					return $link_tag[0];
+				}
+
+				$style_tag = '';
+				try {
+					$style_tag =
+						'<style>' . file_get_contents($css_file) . '</style>';
+				} catch (Throwable $e) {
+					return $link_tag[0];
+				}
+
+				return $style_tag;
+			},
+			$minified_content
+		);
+
 		$cache_file = fopen($cache_dir . '/index.html', 'w');
-		fwrite($cache_file, $minified_content);
+		fwrite($cache_file, $inlined_content);
 		fclose($cache_file);
 	}
 
@@ -155,7 +183,7 @@ class Router {
 			BASE_DIR .
 				'/cache' .
 				rtrim(self::getCurrentRoute('uri'), '\/') .
-				'index.html'
+				'/index.html'
 		);
 	}
 
