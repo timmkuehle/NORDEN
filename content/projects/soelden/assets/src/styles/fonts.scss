@@ -1,7 +1,7 @@
 // Include SOELDEN fonts
 @font-face {
 	font-family: "AS Soelden Headline";
-	src: url("../../../../../../content/resources/fonts/ASSoeldenHL/ASSoeldenHLWEB-HeavyFlex.woff")
+	src: url("@fonts/ASSoeldenHL/ASSoeldenHLWEB-HeavyFlex.woff")
 		format("truetype");
 	font-weight: 800;
 	font-style: normal;
@@ -9,17 +9,8 @@
 }
 
 @font-face {
-	font-family: "AS Soelden";
-	src: url("../../../../../../content/resources/fonts/ASSoelden/ASSoelden-Regular.woff")
-		format("truetype");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "AS Soelden";
-	src: url("../../../../../../content/resources/fonts/ASSoelden/ASSoelden-Bold.woff")
+	font-family: "AS Soelden Headline";
+	src: url("@fonts/ASSoeldenHL/ASSoeldenHLWEB-HeavyFlex.woff")
 		format("truetype");
 	font-weight: 700;
 	font-style: normal;
@@ -27,9 +18,16 @@
 }
 
 @font-face {
-	font-family: "AS Soelden HL";
-	src: url("../../../../../../content/resources/fonts/ASSoeldenHL/ASSoeldenHLWEB-HeavyFlex.woff")
-		format("truetype");
+	font-family: "AS Soelden";
+	src: url("@fonts/ASSoelden/ASSoelden-Regular.woff") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AS Soelden";
+	src: url("@fonts/ASSoelden/ASSoelden-Bold.woff") format("truetype");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;

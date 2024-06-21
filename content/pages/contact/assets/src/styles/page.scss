@@ -1,5 +1,5 @@
 // Import fonts
-@import "../../../../../assets/src/styles/base-fonts.scss";
+@import "@styles/base-fonts.scss";
 
 // Contact page styling
 body {
@@ -92,4 +92,4 @@ body {
 }
 
 // Import component stylesheets
-@import "../../../../../../components/MinimalFooter/MinimalFooter.scss";
+@import "@components/MinimalFooter/MinimalFooter.scss";

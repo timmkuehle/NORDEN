@@ -1,5 +1,5 @@
 // Import fonts
-@import "../../../../../assets/src/styles/base-fonts.scss";
+@import "@styles/base-fonts.scss";
 
 // Agency page styling
 body {
@@ -89,8 +89,8 @@ body {
 }
 
 // Import generic stylesheets
-@import "../../../../../assets/src/styles/content-card.scss";
-@import "../../../../../assets/src/styles/bullet-list.scss";
+@import "@styles/content-card.scss";
+@import "@styles/bullet-list.scss";
 
 // Import component stylesheets
-@import "../../../../../../components/PeopleGallery/PeopleGallery.scss";
+@import "@components/PeopleGallery/PeopleGallery.scss";
