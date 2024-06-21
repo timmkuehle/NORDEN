@@ -82,7 +82,31 @@ export default (env, argv) => {
 					use: [
 						MiniCssExtractPlugin.loader,
 						"css-loader",
-						"sass-loader"
+						{
+							loader: "sass-loader",
+							options: {
+								additionalData: (content, loaderContext) => {
+									const { resourcePath, rootContext } =
+										loaderContext;
+									const relativePath = path.relative(
+										rootContext,
+										resourcePath
+									);
+
+									if (
+										relativePath !==
+										"content/assets/src/styles/index.scss"
+									) {
+										return (
+											'@import "@styles/index.scss";' +
+											content
+										);
+									}
+
+									return content;
+								}
+							}
+						}
 					]
 				},
 				{
