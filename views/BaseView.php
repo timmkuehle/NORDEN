@@ -24,7 +24,8 @@ class BaseView {
 	 * @param array $headers HTTP headers
 	 * @param string $language Language set in "lang" attribute of <html> tag
 	 * @param string $title Resource title set in HTML <title> tag, defaults to uppercase package name
-	 * @param string $template Path to resource template file
+	 * @param ?string $description Resource description set in HTML <meta name="description"> tag
+	 * @param ?string $template Path to resource template file
 	 * @param ?array $scripts Array of scripts information (directory and content hash)
 	 * @param ?array $styles Resource stylesheet paths, relative to base URL
 	 * @param bool $use_default_structure If set to false, render method will not render site header and footer
@@ -38,7 +39,7 @@ class BaseView {
 		?string $template = null,
 		?array $scripts = [],
 		?array $styles = [],
-		?bool $use_default_structure = true
+		bool $use_default_structure = true
 	) {
 		$this->language = $language;
 		$this->title = $title;
