@@ -1,8 +1,7 @@
 // Include SOELDEN fonts
 @font-face {
 	font-family: "AS Soelden Headline";
-	src: url("@fonts/ASSoeldenHL/ASSoeldenHLWEB-HeavyFlex.woff")
-		format("truetype");
+	src: url("@fonts/ASSoeldenHL/ASSoeldenHLWEB-HeavyFlex.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -10,7 +9,7 @@
 
 @font-face {
 	font-family: "AS Soelden";
-	src: url("@fonts/ASSoelden/ASSoelden-Regular.woff") format("truetype");
+	src: url("@fonts/ASSoelden/ASSoelden-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -18,7 +17,7 @@
 
 @font-face {
 	font-family: "AS Soelden";
-	src: url("@fonts/ASSoelden/ASSoelden-Bold.woff") format("truetype");
+	src: url("@fonts/ASSoelden/ASSoelden-Bold.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
