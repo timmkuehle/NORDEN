@@ -9,3 +9,4 @@ require_once dirname(__FILE__) . '/matches_current_route.php';
 require_once dirname(__FILE__) . '/include_libs.php';
 require_once dirname(__FILE__) . '/include_script.php';
 require_once dirname(__FILE__) . '/include_style.php';
+require_once dirname(__FILE__) . '/minify_html.php';
