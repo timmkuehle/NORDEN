@@ -132,7 +132,7 @@ class Image extends PHTMLComponent {
 	private function getDimensionsAttributes(): string {
 		if (pathinfo(BASE_DIR . $this->src, PATHINFO_EXTENSION) === 'svg') {
 			$attributes = simplexml_load_file(
-				BASE_URL . $this->src
+				BASE_DIR . $this->src
 			)->attributes();
 			$viewbox_parts = explode(' ', (string) $attributes->viewBox);
 
