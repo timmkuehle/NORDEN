@@ -1,6 +1,6 @@
 import { FontFace } from "@scripts/types";
 
-const fonts: FontFace[] = [
+const baseFonts: FontFace[] = [
 	{
 		fontFamily: "Relevant",
 		filePath: "/content/resources/fonts/Relevant/Relevant-Normal.woff2",
@@ -19,4 +19,4 @@ const fonts: FontFace[] = [
 	}
 ];
 
-export default fonts;
+export default baseFonts;
