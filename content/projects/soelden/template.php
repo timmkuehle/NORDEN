@@ -1,6 +1,12 @@
 <section class="soelden-intro full-width">
 	<header>
-		<h1>Sölden</h1>
+		<h1>
+			<?php new Svg(
+   	'soelden_logo',
+   	null,
+   	'/content/resources/media/soelden/SOEL_Logo.svg'
+   ); ?>
+   		</h1>
 		<quote class="quote color-orange">„This is where your heartbeat is turning up. This is where you belong. <span class="own-line"><span class=" bold">THIS is Sölden</span>.“</span></quote>
 	</header>
 	<div class="content">
