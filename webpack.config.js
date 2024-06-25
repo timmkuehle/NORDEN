@@ -21,9 +21,6 @@ export default (env, argv) => {
 	const { mode } = argv;
 	const isProduction = mode === "production";
 	const devtool = isProduction ? false : "source-map";
-	const cleanPatterns = isProduction
-		? ["./@(core|content)/**/assets/dist/*.@(style.js|map)"]
-		: ["./@(core|content)/**/assets/dist/*.style.@(js|js.map)"];
 	const {
 		host: devServerHost,
 		subDir: devServerSubDir,
@@ -148,8 +145,13 @@ export default (env, argv) => {
 			}),
 			new CleanWebpackPlugin({
 				protectWebpackAssets: false,
-				cleanOnceBeforeBuildPatterns: cleanPatterns,
-				cleanAfterEveryBuildPatterns: cleanPatterns,
+				cleanOnceBeforeBuildPatterns: [
+					"./@(core|content)/**/assets/dist/*"
+				],
+				cleanAfterEveryBuildPatterns: [
+					"./@(core|content)/**/assets/dist/*.style.@(js|js.map)",
+					"./@(core|content)/**/assets/dist/*.js.LICENSE.txt"
+				],
 				verbose: isProduction
 			}),
 			new HashOutputWebpackPlugin({
