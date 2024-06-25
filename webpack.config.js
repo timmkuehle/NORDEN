@@ -124,6 +124,10 @@ export default (env, argv) => {
 		resolve: {
 			extensions: ["", ".js", ".ts", ".jsx", ".tsx"],
 			alias: {
+				"@scripts": path.resolve(
+					__dirname,
+					"content/assets/src/scripts"
+				),
 				"@styles": path.resolve(__dirname, "content/assets/src/styles"),
 				"@fonts": path.resolve(__dirname, "content/resources/fonts"),
 				"@components": path.resolve(__dirname, "components")
