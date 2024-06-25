@@ -12,6 +12,7 @@ jobs:
       SSH_HOST: ${{ secrets.SSH_HOST_LIVE }}
       SSH_USER: ${{ secrets.SSH_USER_LIVE }}
       SSH_DEST_DIR: ${{ secrets.SSH_DEST_DIR_LIVE }}
+      LIVE_COMMON_CONFIG: ${{secrets.LIVE_COMMON_CONFIG}}
 
     steps:
       - name: Checkout main branch
@@ -32,6 +33,9 @@ jobs:
 
       - name: Process resources
         run: npm run resources
+
+      - name: Setup common.config.json
+        run: echo "$LIVE_COMMON_CONFIG" > common.config.json
 
       - name: Configure SSH setup
         run: |
