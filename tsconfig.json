@@ -17,6 +17,9 @@
 		"noFallthroughCasesInSwitch": true,
 		"jsx": "react-jsx",
 		"allowJs": true,
-		"paths": { "@scripts/*": ["./content/assets/src/scripts/*"] }
+		"paths": {
+			"@scripts/*": ["./content/assets/src/scripts/*"],
+			"@constants/*": ["./content/assets/src/scripts/constants/*"]
+		}
 	}
 }
