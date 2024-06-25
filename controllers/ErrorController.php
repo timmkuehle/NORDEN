@@ -27,7 +27,7 @@ class ErrorController extends BaseController {
 
 		$this->currentError = $this->model->getCurrentError();
 
-		$this->contentPath = '/core/error';
+		$this->contentPath = '/content/error';
 
 		$language = ENV === 'development' ? 'en' : LANG_CODE;
 
