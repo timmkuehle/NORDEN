@@ -1,3 +1,5 @@
+type FontFilePath = `/${string}`;
+
 type FontFormat = "truetype" | "opentype" | "woff" | "woff2" | "svg";
 
 type FontWeight =
@@ -21,7 +23,7 @@ type VerticalMetricsOverrideValue = "normal" | `${number}%`;
 
 export interface FontFace {
 	fontFamily: string;
-	filePath: string;
+	filePath: FontFilePath;
 	format: FontFormat;
 	fontStyle?: FontStyle;
 	fontWeight?: FontWeight;
