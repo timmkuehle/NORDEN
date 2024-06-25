@@ -16,6 +16,7 @@ jobs:
       SSH_USER: ${{ secrets.SSH_USER_STAGING }}
       SSH_DEST_DIR: ${{ secrets.SSH_DEST_DIR_STAGING }}
       STAGING_HTACCESS: ${{ secrets.STAGING_HTACCESS }}
+      STAGING_COMMON_CONFIG: ${{secrets.STAGING_COMMON_CONFIG}}
 
     steps:
       - name: Checkout staging branch
@@ -39,6 +40,9 @@ jobs:
 
       - name: Setup .htaccess
         run: echo "$STAGING_HTACCESS" > .htaccess
+
+      - name: Setup common.config.json
+        run: echo "$STAGING_COMMON_CONFIG" > common.config.json
 
       - name: Configure SSH setup
         run: |
