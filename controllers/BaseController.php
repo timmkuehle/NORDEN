@@ -74,22 +74,6 @@ class BaseController {
 			$sanitized_path = preg_replace('/^\//', '', $path);
 
 			if (
-				ENV === 'development' &&
-				file_exists(BASE_DIR . $path) &&
-				!(file_exists($src_file_js) || file_exists($src_file_ts)) &&
-				get_called_class() !== 'ErrorController'
-			) {
-				throw new Error(
-					'Stray Bundle File: [' .
-						$sanitized_path .
-						'] is missing corresponding source file at [' .
-						str_replace(BASE_DIR . '/', '', $src_dir) .
-						']: This will throw an error in production environment, because webpack cannot generate the necessary content hash',
-					500
-				);
-			}
-
-			if (
 				(ENV === 'development' &&
 					(file_exists($src_file_js) || file_exists($src_file_ts))) ||
 				(ENV === 'production' && file_exists(BASE_DIR . $path))
