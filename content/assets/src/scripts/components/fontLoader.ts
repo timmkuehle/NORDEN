@@ -30,7 +30,8 @@ const parseFontFaceRules = (fonts: FontFace[]) => {
 
 		return (
 			rules +
-			`@font-face{font-family:${fontFamily};src:url(\"${filePath}\")format(\"${format}\");` +
+			`@font-face{font-family:${fontFamily};` +
+			`src:url(\"${filePath.replace(/^\.*\/*/, "/")}\")format(\"${format}\");` +
 			`font-style:${fontStyle || "normal"};` +
 			(fontWeight ? `font-weight:${fontWeight};` : "") +
 			(ascentOverride ? `ascent-override:${ascentOverride};` : "") +
