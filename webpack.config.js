@@ -128,6 +128,10 @@ export default (env, argv) => {
 					__dirname,
 					"content/assets/src/scripts"
 				),
+				"@constants": path.resolve(
+					__dirname,
+					"content/assets/src/scripts/constants"
+				),
 				"@styles": path.resolve(__dirname, "content/assets/src/styles"),
 				"@fonts": path.resolve(__dirname, "content/resources/fonts"),
 				"@components": path.resolve(__dirname, "components")
