@@ -48,14 +48,14 @@ const loadFonts = (fonts: FontFace[]) => {
 	styleTag.innerHTML = parseFontFaceRules(fonts);
 
 	if ("requestIdleCallback" in window) {
-		requestIdleCallback(() => {
+		requestIdleCallback(async () => {
 			document.head.append(styleTag);
 		});
 
 		return;
 	}
 
-	setTimeout(() => {
+	setTimeout(async () => {
 		document.head.append(styleTag);
 	}, 0);
 };
