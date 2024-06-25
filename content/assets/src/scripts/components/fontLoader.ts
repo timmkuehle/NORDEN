@@ -1,5 +1,21 @@
 import { FontFace } from "../types";
 
+const preloadFonts = (fonts: FontFace[]) => {
+	fonts.map((font) => {
+		const linkTag = document.createElement("link");
+
+		const { filePath, format } = font;
+
+		linkTag.rel = "preload";
+		linkTag.href = filePath.replace(/^\.*\/*/, "/");
+		linkTag.as = "font";
+		linkTag.type = `font/${format}`;
+		linkTag.crossOrigin = "anonymous";
+
+		document.head.append(linkTag);
+	});
+};
+
 const parseFontFaceRules = (fonts: FontFace[]) => {
 	return fonts.reduce((rules, curFont) => {
 		const {
@@ -25,6 +41,8 @@ const parseFontFaceRules = (fonts: FontFace[]) => {
 };
 
 const loadFonts = (fonts: FontFace[]) => {
+	preloadFonts(fonts);
+
 	const styleTag = document.createElement("style");
 	styleTag.innerHTML = parseFontFaceRules(fonts);
 
