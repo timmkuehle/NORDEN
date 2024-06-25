@@ -1,5 +1,25 @@
 // Include fonts used on error page
 @font-face {
+	font-family: "Relevant";
+	src: url("@fonts/Relevant/Relevant-Normal.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	ascent-override: 95%;
+	descent-override: 20%;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Relevant";
+	src: url("@fonts/Relevant/Relevant-Black.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	ascent-override: 95%;
+	descent-override: 20%;
+	font-display: swap;
+}
+
+@font-face {
 	font-family: "JetBrainsMono";
 	src: url("@fonts/JetBrainsMono/JetBrainsMono-Light.woff2") format("woff2");
 	font-weight: 300;
