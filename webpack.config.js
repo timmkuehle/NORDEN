@@ -52,8 +52,8 @@ export default (env, argv) => {
 				"./content/pages/*/assets/src/styles/page.@(css|scss|sass)",
 				"./content/projects/*/assets/src/scripts/project.@(js|ts)",
 				"./content/projects/*/assets/src/styles/project.@(css|scss|sass)",
-				"./core/error/assets/src/scripts/error.@(js|ts)",
-				"./core/error/assets/src/styles/error.@(css|scss|sass)"
+				"./content/error/assets/src/scripts/error.@(js|ts)",
+				"./content/error/assets/src/styles/error.@(css|scss|sass)"
 			])
 			.reduce((entry, filePath) => {
 				const filePathArray = filePath.split(/[/.]/);
