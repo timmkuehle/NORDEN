@@ -9,9 +9,8 @@ import colors from "colors";
  *
  * @param {string} fileContent String to write to file
  * @param {PluginOptions} options HashOutputWebpackPlugin options
- * @param {boolean} isDevServer Set to true, if runs on webpack DevServer
  */
-export const writeFile = (fileContent, options, isDevServer = false) => {
+export const writeFile = (fileContent, options) => {
 	const { outputPath, outputFilename, outputFormat } = options;
 
 	const filename =
@@ -25,7 +24,7 @@ export const writeFile = (fileContent, options, isDevServer = false) => {
 
 	if (!existsSync(resolve(outputPath))) {
 		process.stdout.write(
-			`${isDevServer ? "\n" : ""}<i> ` +
+			`\n<i> ` +
 				colors.bold.green("[hash-output-webpack-plugin]") +
 				` Creating output directory '${colors.bold.cyan(outputPath)}' ... `
 		);
@@ -43,9 +42,9 @@ export const writeFile = (fileContent, options, isDevServer = false) => {
 	}
 
 	process.stdout.write(
-		`${isDevServer && !hasOutput ? "\n" : ""}<i> ` +
+		`${!hasOutput ? "\n" : ""}<i> ` +
 			colors.bold.green("[hash-output-webpack-plugin]") +
-			` Saving assets file to '${colors.bold.cyan(filename)}' ... `
+			` Saving assets file to ${colors.bold.cyan(filename)} ... `
 	);
 
 	try {
