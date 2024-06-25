@@ -63,11 +63,7 @@ class HashOutputWebpackPlugin {
 					this.options.algorithm
 				);
 
-				writeFile(
-					fileContent,
-					this.options,
-					process.argv.includes("serve")
-				);
+				writeFile(fileContent, this.options);
 
 				callback();
 			}
