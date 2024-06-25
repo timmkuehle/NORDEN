@@ -16,6 +16,7 @@
 		"strictPropertyInitialization": true,
 		"noFallthroughCasesInSwitch": true,
 		"jsx": "react-jsx",
-		"allowJs": true
+		"allowJs": true,
+		"paths": { "@scripts/*": ["./content/assets/src/scripts/*"] }
 	}
 }
