@@ -13,4 +13,10 @@
 		height: 100%;
 		object-fit: cover;
 	}
+
+	&.can-play {
+		.video-placeholder {
+			display: none;
+		}
+	}
 }
