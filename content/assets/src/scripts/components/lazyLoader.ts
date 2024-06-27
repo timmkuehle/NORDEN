@@ -1,6 +1,11 @@
 const loadLazyResource = (resource: HTMLImageElement | HTMLSourceElement) => {
-	resource.setAttribute("src", resource.dataset?.src || "");
-	resource.setAttribute("srcset", resource.dataset?.srcset || "");
+	if (resource.dataset.src) {
+		resource.setAttribute("src", resource.dataset.src);
+	}
+
+	if (resource.dataset.srcset) {
+		resource.setAttribute("srcset", resource.dataset.srcset);
+	}
 
 	resource.classList.remove("lazy");
 	delete resource.dataset?.src;
