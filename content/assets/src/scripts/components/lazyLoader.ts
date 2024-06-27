@@ -1,6 +1,15 @@
+const loadLazyResource = (resource: HTMLImageElement | HTMLSourceElement) => {
+	resource.setAttribute("src", resource.dataset?.src || "");
+	resource.setAttribute("srcset", resource.dataset?.srcset || "");
+
+	resource.classList.remove("lazy");
+	delete resource.dataset?.src;
+	delete resource.dataset?.srcset;
+};
+
 const setupLazyLoader = () => {
 	const lazyResources: NodeListOf<HTMLImageElement> =
-		document.querySelectorAll("img.lazy");
+		document.querySelectorAll("img.lazy, video.lazy, .video.lazy>video");
 
 	if ("IntersectionObserver" in window) {
 		const lazyLoadingOberver = new IntersectionObserver(
@@ -9,20 +18,22 @@ const setupLazyLoader = () => {
 					if (entry.isIntersecting) {
 						const lazyResource = entry.target;
 
-						if (!(lazyResource instanceof HTMLImageElement)) return;
+						if (lazyResource instanceof HTMLImageElement)
+							loadLazyResource(lazyResource);
 
-						lazyResource.setAttribute(
-							"src",
-							lazyResource.dataset?.src || ""
-						);
-						lazyResource.setAttribute(
-							"srcset",
-							lazyResource.dataset?.srcset || ""
-						);
+						if (lazyResource instanceof HTMLVideoElement) {
+							console.log("Lazy video found", lazyResource);
 
-						lazyResource.classList.remove("lazy");
-						delete lazyResource.dataset?.src;
-						delete lazyResource.dataset?.srcset;
+							[].slice
+								.call(
+									lazyResource.getElementsByTagName("source")
+								)
+								.forEach((source) => {
+									loadLazyResource(source);
+								});
+
+							lazyResource.load();
+						}
 
 						observer.unobserve(lazyResource);
 					}
