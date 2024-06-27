@@ -19,7 +19,7 @@ export default [
 		}
 	},
 	{
-		files: ["scripts/**/*.@(t|j)s"],
+		files: ["*.config.js", "scripts/**/*.@(t|j)s"],
 		languageOptions: {
 			globals: globals.node
 		}
