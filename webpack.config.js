@@ -21,19 +21,20 @@ export default (env, argv) => {
 	const { mode } = argv;
 	const isProduction = mode === "production";
 	const devtool = isProduction ? false : "source-map";
+
 	const {
 		host: devServerHost,
 		subDir: devServerSubDir,
 		config: devServerConfig,
 		port: devServerPort
 	} = getCommonConfig("common.config.json").webpackDevServer;
-
 	const proxy = [
 		{
 			context: "*",
 			target: `${devServerConfig.type}://${devServerHost + devServerSubDir.replace(/^\/{0,1}(?=.)/, "/")}`
 		}
 	];
+
 	setPHPEnv({
 		env: mode,
 		path: path.resolve(".", "config"),
