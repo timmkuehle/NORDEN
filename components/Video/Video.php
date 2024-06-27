@@ -98,12 +98,10 @@ class Video extends PHTMLComponent {
 				]
 				: [];
 
-		if ($this->mobileSrc && file_exists(BASE_DIR . $this->mobileSrc)) {
-			array_push($sources, [
-				'src' => $this->src,
-				'type' => mime_content_type(BASE_DIR . $this->src)
-			]);
-		}
+		array_push($sources, [
+			'src' => $this->src,
+			'type' => mime_content_type(BASE_DIR . $this->src)
+		]);
 
 		foreach ($sources as $source) { ?>
             <source <?php echo ($this->lazyLoaded ? 'data-src' : 'src') .
