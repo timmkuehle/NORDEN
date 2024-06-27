@@ -27,15 +27,11 @@ const setupLazyLoader = () => {
 							loadLazyResource(lazyResource);
 
 						if (lazyResource instanceof HTMLVideoElement) {
-							console.log("Lazy video found", lazyResource);
-
-							[].slice
-								.call(
-									lazyResource.getElementsByTagName("source")
-								)
-								.forEach((source) => {
-									loadLazyResource(source);
-								});
+							Array.from(
+								lazyResource.getElementsByTagName("source")
+							).forEach((source) => {
+								loadLazyResource(source);
+							});
 
 							lazyResource.load();
 						}
