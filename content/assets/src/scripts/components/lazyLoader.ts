@@ -40,7 +40,7 @@ const setupLazyLoader = () => {
 					}
 				});
 			},
-			{ rootMargin: "0px 0px 100% 0px" }
+			{ rootMargin: "100% 0px 100% 0px" }
 		);
 
 		lazyResources.forEach((resource) => {
