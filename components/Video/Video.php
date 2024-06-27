@@ -14,7 +14,6 @@ class Video extends PHTMLComponent {
 	private ?string $mobileSrc;
 	private ?string $alt;
 	private bool $lazyLoaded;
-	private bool $autoplay;
 	private bool $muted;
 	private bool $loop;
 	private bool $controls;
@@ -55,7 +54,6 @@ class Video extends PHTMLComponent {
 
 		$this->lazyLoaded = $lazy_loaded;
 
-		$this->autoplay = $autoplay;
 		$this->muted = $muted;
 		$this->loop = $loop;
 		$this->controls = $controls;
