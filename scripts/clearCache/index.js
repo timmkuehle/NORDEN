@@ -10,6 +10,8 @@ try {
 	rimrafSync(cacheDir.absolute);
 } catch (err) {
 	logError(err instanceof Error ? err.message : null);
+
+	process.exit(1);
 }
 
 logSuccess(cacheDir.relative);
