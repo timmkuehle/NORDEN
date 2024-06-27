@@ -7,6 +7,12 @@ const loadVideos = () => {
 
 		if (!placeholder) return;
 
+		if (video.readyState >= 3) {
+			video.parentElement?.classList.add("can-play");
+
+			return;
+		}
+
 		const hidePlaceholder = () => {
 			video.parentElement?.classList.add("can-play");
 
