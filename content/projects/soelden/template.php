@@ -21,7 +21,7 @@
     	'16/9',
     	'content/resources/media/soelden/brandclip/Brandclip_SOEL_Still_Web.jpg',
     	'Sölden Brandclip',
-    	true,
+    	false,
     	true,
     	true,
     	true,
