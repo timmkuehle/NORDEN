@@ -52,12 +52,8 @@ export default (env, argv) => {
 			.sync([
 				"./content/assets/src/scripts/index.@(js|ts)",
 				"./content/assets/src/styles/index.@(css|scss|sass)",
-				"./content/pages/*/assets/src/scripts/page.@(js|ts)",
-				"./content/pages/*/assets/src/styles/page.@(css|scss|sass)",
-				"./content/projects/*/assets/src/scripts/project.@(js|ts)",
-				"./content/projects/*/assets/src/styles/project.@(css|scss|sass)",
-				"./content/error/assets/src/scripts/error.@(js|ts)",
-				"./content/error/assets/src/styles/error.@(css|scss|sass)"
+				"./content/*/**/assets/src/scripts/main.@(js|ts)",
+				"./content/*/**/assets/src/styles/main.@(css|scss|sass)"
 			])
 			.reduce((entry, filePath) => {
 				const filePathArray = filePath.split(/[/.]/);
