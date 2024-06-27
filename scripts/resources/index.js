@@ -11,7 +11,7 @@ import {
 } from "./logFunctions.js";
 import { getFiles, saveResizedImage, getFilename } from "./fileHandling.js";
 
-clearCache(process.argv[3]);
+if (process.argv.length >= 4) clearCache(process.argv[3]);
 
 const files = getFiles();
 
