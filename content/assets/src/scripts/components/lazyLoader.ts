@@ -19,7 +19,11 @@ const setupLazyLoader = () => {
 							"srcset",
 							lazyResource.dataset?.srcset || ""
 						);
+
 						lazyResource.classList.remove("lazy");
+						delete lazyResource.dataset?.src;
+						delete lazyResource.dataset?.srcset;
+
 						observer.unobserve(lazyResource);
 					}
 				});
