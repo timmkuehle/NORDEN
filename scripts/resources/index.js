@@ -1,5 +1,6 @@
 import sharp from "sharp";
 import { existsSync } from "fs";
+import clearCache from "../clearCache/clearCache.js";
 import { IMAGE_SIZES, OUTPUT_FORMAT } from "./constants.js";
 import {
 	logFileProcessing,
@@ -9,6 +10,8 @@ import {
 	logImageVersionExists
 } from "./logFunctions.js";
 import { getFiles, saveResizedImage, getFilename } from "./fileHandling.js";
+
+clearCache(process.argv[3]);
 
 const files = getFiles();
 
