@@ -30,7 +30,8 @@ class ProjectsPreview extends PHTMLComponent {
       	null,
       	'project-thumbnail',
       	$project['thumbnail'],
-      	'Prokjekt ansehen: ' . $project['title']
+      	'Prokjekt ansehen: ' . $project['title'],
+      	true
       ); ?>
 	  					<h3 class="title"><?php echo $project['title'] ?? 'Untitled'; ?></h3>
 					</a>
