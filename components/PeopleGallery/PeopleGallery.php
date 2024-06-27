@@ -22,7 +22,8 @@ class PeopleGallery extends PHTMLComponent {
     	null,
     	'person-image',
     	$person['image'],
-    	'Bild von ' . $person['name']
+    	'Bild von ' . $person['name'],
+    	true
     ); ?>
 				<h3 class="person-name"><?php echo $person['name']; ?></h3>
 			</article>

@@ -27,7 +27,8 @@ class ProjectArchive extends PHTMLComponent {
     	null,
     	'project-thumbnail',
     	$project['thumbnail'],
-    	'Projekt-Thumbnail: ' . $project['title']
+    	'Projekt-Thumbnail: ' . $project['title'],
+    	true
     ); ?>
             	<h3 class="project-title"><?php echo $project['title'] ??
              	'Untitled'; ?></h3>

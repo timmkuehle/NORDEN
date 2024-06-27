@@ -78,7 +78,8 @@ $people = [
     	null,
     	null,
     	'content/resources/media/agency/Fotos_Agentur_1.jpg',
-    	'Einblick in die Agentur'
+    	'Einblick in die Agentur',
+    	true
     ); ?>
 			</div>
 		</div>

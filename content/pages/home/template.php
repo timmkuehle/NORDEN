@@ -5,9 +5,20 @@ $projects = ['/projekte/soelden', '/projekte/seefeld', 'projekte/gurgl'];
 new SiteHeader(null, null, true, null, null, null, [], []);
 ?>
 <main>
-	<?php new ShowReel(null, 'overlap-header', [
- 	'/content/resources/media/agency/Norden_Showreel_Web.mp4'
- ]); ?>
+	<section class="showreel overlap-header">
+		<?php new Video(
+  	'showreel-video',
+  	'/content/resources/media/agency/Norden_Showreel_Web.mp4',
+  	'16/9',
+  	'/content/resources/media/agency/Norden_Showreel_Web_Still.png',
+  	'NORDEN Showreel',
+  	false,
+  	true,
+  	true,
+  	true,
+  	false
+  ); ?>
+	</section>
 	<section class="content-card full-width bg-col-light-shade">
 		<header>
 			<p class="text-style-subline vertical-text color-primary">Hi</p>
