@@ -67,6 +67,10 @@ $color-soel-cool-gray: #eeeff1;
 		max-width: 36rem;
 	}
 
+	&.no-max-width {
+		width: calc(100%);
+	}
+
 	&.full {
 		flex-grow: 1;
 	}
@@ -565,7 +569,15 @@ body {
 				justify-content: stretch;
 				gap: 2.5rem;
 				flex-grow: 1;
-				max-width: 100%;
+				width: 100%;
+
+				@media screen and (min-width: 769px) {
+					width: calc(100% - 8rem);
+				}
+
+				& > .video {
+					width: 100%;
+				}
 
 				@media screen and (max-width: 768px) {
 					flex-direction: column;
@@ -582,6 +594,10 @@ body {
 				.slot {
 					flex-grow: 1;
 					max-width: 100%;
+
+					@media screen and (min-width: 769px) {
+						max-width: 50%;
+					}
 				}
 
 				&.image-layout {
@@ -594,6 +610,10 @@ body {
 						@media screen and (max-width: 768px) {
 							gap: 2rem;
 						}
+
+						.image {
+							width: 100%;
+						}
 					}
 				}
 
@@ -601,6 +621,7 @@ body {
 					&.lines-wide,
 					&.lines-medium,
 					&.lines-narrow {
+						width: 100%;
 						mix-blend-mode: difference;
 
 						@media screen and (max-width: 768px) {
@@ -627,10 +648,15 @@ body {
 
 					&.soelden-folder {
 						transform: translateX(var(--main-padding-inline));
+						width: 100%;
 
 						@media screen and (min-width: 769px) {
 							transform: translateX(4.375rem);
 						}
+					}
+
+					&.tram {
+						width: 100%;
 					}
 
 					&.photo-point {
@@ -764,7 +790,9 @@ body {
 		}
 
 		.soelden-so-me-examples {
-			width: 100%;
+			@media screen and (min-width: 768px) {
+				width: calc(100% - 3rem);
+			}
 		}
 
 		.soelden-feed-mockup {
@@ -810,6 +838,8 @@ body {
 		.wc-products {
 			display: flex;
 			gap: 2rem;
+			width: min(60rem, 100%);
+			margin-inline: auto;
 
 			@media screen and (min-width: 769px) {
 				gap: 4rem;
@@ -833,6 +863,10 @@ body {
 
 				@media screen and (min-width: 769px) {
 					gap: 4rem;
+				}
+
+				.image {
+					width: 100%;
 				}
 			}
 		}
