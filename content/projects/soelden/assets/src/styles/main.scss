@@ -565,6 +565,7 @@ body {
 				justify-content: stretch;
 				gap: 2.5rem;
 				flex-grow: 1;
+				max-width: 100%;
 
 				@media screen and (max-width: 768px) {
 					flex-direction: column;
