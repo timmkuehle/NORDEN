@@ -1,10 +1,10 @@
 import path from "path";
 import { fileURLToPath } from "url";
 import { glob } from "glob";
-import childProcess from "child_process";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import getCommonConfig from "./scripts/getCommonConfig/index.js";
+import clearCache from "./scripts/clearCache/clearCache.js";
 import setPHPEnv from "./scripts/setPHPEnv/index.js";
 import HashOutputWebpackPlugin from "./scripts/hashOutputWebpackPlugin/index.js";
 
@@ -36,16 +36,7 @@ export default (env, argv) => {
 		}
 	];
 
-	if (isProduction) {
-		childProcess
-			.fork(path.resolve(__dirname, "scripts/clearCache"), ["cache"])
-			.on("error", () => {
-				process.exit(1);
-			})
-			.on("exit", (code) => {
-				if (code !== 0) process.exit(1);
-			});
-	}
+	if (isProduction) clearCache("cache");
 
 	setPHPEnv({
 		env: mode,
