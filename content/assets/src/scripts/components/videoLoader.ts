@@ -7,7 +7,13 @@ const loadVideos = () => {
 
 		if (!placeholder) return;
 
-		video.parentElement.classList.add("can-play");
+		const hidePlaceholder = () => {
+			video.parentElement?.classList.add("can-play");
+
+			video.removeEventListener("canplay", hidePlaceholder);
+		};
+
+		video.addEventListener("canplay", hidePlaceholder);
 	});
 };
 
