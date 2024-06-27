@@ -479,7 +479,8 @@
     	null,
     	'soelden-gif',
     	'/content/resources/media/soelden/gifs/SOEL_GIF3_HappyPlace.gif',
-    	'My Happy Place'
+    	'My Happy Place',
+    	true
     ); ?>
 				<?php new Image(
     	null,
@@ -550,7 +551,8 @@
      	null,
      	null,
      	'/content/resources/media/soelden/branding/04_SOEL_Helmbranding.png',
-     	'Sölden Skihelm'
+     	'Sölden Skihelm',
+     	true
      ); ?>
 				</div>
 				<div class="row">
