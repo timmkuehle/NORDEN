@@ -95,9 +95,21 @@
 		<p class="soel-side-note">Typography</p>
 	</div>
 	<div class="content align-right">
-		<video class="typo-claim-animation" alt="Typografie Animation" muted autoplay loop width="1920" height="1080">
-			<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/typo/01_TypoClaimAnimation.mp4" type="video/mp4">
-		</video>
+		<?php new Video(
+  	'typo-claim-animation',
+  	'/content/resources/media/soelden/typo/SOEL_TypoAnimation_Web.mp4',
+  	'16/9',
+  	'/content/resources/media/soelden/typo/SOEL_TypoAnimation_Web.png',
+  	'Typografie Animation',
+  	true,
+  	true,
+  	true,
+  	true,
+  	false,
+  	'/content/resources/media/soelden/typo/SOEL_TypoAnimation_Mobile.mp4',
+  	'1/1',
+  	'/content/resources/media/soelden/typo/SOEL_TypoAnimation_Mobile.png'
+  ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
@@ -214,10 +226,21 @@
 		<div class="soelden-text-block no-max-width">
 			<h2 class="heading">Logo Animation</h2>
 			<h3 class="subline">Extended Logo Animation</h3>
-			<video class="logo-animation" alt="Sölden Logo Animation" muted autoplay loop>
-				<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_1-1.mp4" type="video/mp4" media="(max-width: 600px)">
-				<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_16-9.mp4" type="video/mp4">
-			</video>
+			<?php new Video(
+   	'logo-animation',
+   	'/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_16-9.mp4',
+   	'16/9',
+   	'/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_16-9_Still.jpg',
+   	'Sölden Logo Animation',
+   	true,
+   	true,
+   	true,
+   	true,
+   	false,
+   	'/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_1-1.mp4',
+   	'1/1',
+   	'/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_1-1_Still.jpg'
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end">
@@ -456,9 +479,18 @@
 		<p class="soel-side-note">Layout</p>
 	</div>
 		<div class="content">
-			<video class="website-clip" alt="Sölden Website" muted autoplay loop>
-				<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/layout/SOEL_Website_Screendesign.mp4" type="video/mp4">
-			</video>
+			<?php new Video(
+   	'website-clip',
+   	'/content/resources/media/soelden/layout/SOEL_Website_Screendesign.mp4',
+   	'1600/1020',
+   	'/content/resources/media/soelden/layout/SOEL_Website_New_Still.jpg',
+   	'Sölden Website',
+   	true,
+   	true,
+   	true,
+   	true,
+   	false
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -697,9 +729,18 @@
 		<div class="content">
 			<div class="wc-products">
 				<div class="col start" style="flex-basis: 72%;">
-					<video class="world-cup-video" alt="Soelden Ski Weltcup Highlights" muted autoplay loop width="1920" height="1920">
-						<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9.mp4">
-					</video>
+					<?php new Video(
+     	'world-cup-video',
+     	'/content/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9 copy.mp4',
+     	'16/9',
+     	'/content/resources/media/soelden/world_cup/SOEL_Weltcup_Still.jpg',
+     	'Soelden Ski Weltcup Highlights',
+     	true,
+     	true,
+     	true,
+     	true,
+     	false
+     ); ?>
 					<?php new Image(
      	null,
      	'world-cup-iphone',
