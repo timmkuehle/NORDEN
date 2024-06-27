@@ -79,7 +79,9 @@ class Video extends PHTMLComponent {
 
 		parent::__construct(
 			$this->id,
-			$class_name . ($lazy_loaded ? ' lazy' : '')
+			$class_name .
+				($lazy_loaded ? ' lazy' : '') .
+				($autoplay ? ' autoplay' : '')
 		);
 	}
 
@@ -122,7 +124,6 @@ class Video extends PHTMLComponent {
 		echo 'alt="' .
 			($this->alt ?? 'Video') .
 			'" ' .
-			($this->autoplay ? 'autoplay ' : '') .
 			($this->muted ? 'muted ' : '') .
 			($this->loop ? 'loop ' : '') .
 			($this->controls ? ' controls' : '');
