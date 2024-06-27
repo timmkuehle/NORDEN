@@ -1,19 +1,5 @@
-import { rimrafSync } from "rimraf";
-import { logError, logStart, logSuccess } from "./logFunctions.js";
-import { getCacheDir } from "./directory.js";
+import clearCache from "./clearCache.js";
 
-logStart();
-
-const cacheDir = getCacheDir();
-
-try {
-	rimrafSync(cacheDir.absolute);
-} catch (err) {
-	logError(err instanceof Error ? err.message : null);
-
-	process.exit(1);
-}
-
-logSuccess(cacheDir.relative);
+clearCache(process.argv[2]);
 
 process.exit(0);
