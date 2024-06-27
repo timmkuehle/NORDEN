@@ -16,15 +16,17 @@
 		<div class="slot center">
 			<div class="video-container">
 				<?php new Video(
-    	null,
     	'brand-clip',
     	'/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Web.mp4',
+    	'16/9',
     	true,
     	true,
     	true,
     	true,
     	false,
-    	'/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Mobile.mp4'
+    	null,
+    	'/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Mobile.mp4',
+    	'1/1'
     ); ?>
 			</div>
 		</div>

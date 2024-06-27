@@ -9,6 +9,7 @@ declare(strict_types=1);
  */
 class Video extends PHTMLComponent {
 	private string $src;
+	private string $aspectRatio;
 	private ?string $mobileSrc;
 	private bool $lazyLoaded;
 	private bool $autoplay;
@@ -17,29 +18,31 @@ class Video extends PHTMLComponent {
 	private bool $controls;
 	private ?string $placeholder;
 	private ?string $mobilePlaceholder;
+	private ?string $mobileAspectRatio;
 	private int $breakpoint;
 
 	public function __construct(
-		?string $id,
 		?string $class_name,
 		string $src,
+		string $aspect_ratio,
 		bool $lazy_loaded = false,
 		bool $autoplay = false,
 		bool $muted = false,
 		bool $loop = false,
 		bool $controls = true,
-		string $mobile_src = null,
 		string $placeholder = null,
+		string $mobile_src = null,
+		string $mobile_aspect_ratio = null,
 		string $mobile_placeholder = null,
 		int $breakpoint = 600
 	) {
+		$this->id = 'video-' . rand(1000000, 9999999);
+
 		$this->src = sanitize_uri($src);
 
 		if (!file_exists(BASE_DIR . $this->src)) {
 			return;
 		}
-
-		$this->mobileSrc = $mobile_src ? sanitize_uri($mobile_src) : null;
 
 		$this->lazyLoaded = $lazy_loaded;
 
@@ -48,15 +51,32 @@ class Video extends PHTMLComponent {
 		$this->loop = $loop;
 		$this->controls = $controls;
 
-		$this->placeholder = $placeholder ? sanitize_uri($placeholder) : null;
+		$this->placeholder =
+			$placeholder && file_exists(BASE_DIR . $placeholder)
+				? sanitize_uri($placeholder)
+				: null;
 
-		$this->mobilePlaceholder = $mobile_placeholder
-			? sanitize_uri($mobile_placeholder)
-			: null;
+		$this->aspectRatio = $aspect_ratio;
+
+		$this->mobileSrc =
+			$mobile_src && file_exists(BASE_DIR . sanitize_uri($mobile_src))
+				? sanitize_uri($mobile_src)
+				: null;
+
+		$this->mobileAspectRatio = $mobile_aspect_ratio;
+
+		$this->mobilePlaceholder =
+			$mobile_placeholder &&
+			file_exists(BASE_DIR . sanitize_uri($mobile_placeholder))
+				? sanitize_uri($mobile_placeholder)
+				: null;
 
 		$this->breakpoint = $breakpoint;
 
-		parent::__construct($id, $class_name . ($lazy_loaded ? ' lazy' : ''));
+		parent::__construct(
+			$this->id,
+			$class_name . ($lazy_loaded ? ' lazy' : '')
+		);
 	}
 
 	private function renderSourceElements() {
@@ -101,12 +121,31 @@ class Video extends PHTMLComponent {
 			($this->controls ? ' controls' : '');
 	}
 
+	private function renderStyleTag() {
+		echo '<style>#' .
+			$this->id .
+			'>video{aspect-ratio:' .
+			$this->aspectRatio .
+			';}' .
+			($this->mobileAspectRatio
+				? '@media screen and (max-width: ' .
+					$this->breakpoint .
+					'px){#' .
+					$this->id .
+					'>video{aspect-ratio:' .
+					$this->mobileAspectRatio .
+					';}'
+				: '') .
+			'</style>';
+	}
+
 	protected function render() {
 		?>
         <div <?php $this->renderHTMLAttributes(); ?>>
             <video <?php $this->renderVideoAttributes(); ?>>
                 <?php $this->renderSourceElements(); ?>
             </video>
+            <?php $this->renderStyleTag(); ?>
         </div>
     <?php
 	}
