@@ -59,9 +59,7 @@ class BaseController {
 
 		$script_paths = [
 			'site' => '/content/assets/dist/index.bundle.js',
-			'page' => $this->contentPath . '/assets/dist/page.bundle.js',
-			'project' => $this->contentPath . '/assets/dist/project.bundle.js',
-			'error' => $this->contentPath . '/assets/dist/error.bundle.js'
+			'main' => $this->contentPath . '/assets/dist/main.bundle.js'
 		];
 
 		foreach ($script_paths as $handle => $path) {
@@ -104,10 +102,9 @@ class BaseController {
 	/**
 	 * Get stylesheet paths method
 	 *
-	 * @param string $filename Stylesheet filename convention without filetype extension
 	 * @return array Stylesheet paths, relative to base URL
 	 */
-	protected function getStyles(string $filename): array {
+	protected function getStyles(): array {
 		$styles = [];
 
 		if (
@@ -115,22 +112,15 @@ class BaseController {
 				glob(
 					BASE_DIR .
 						$this->contentPath .
-						'/assets/src/styles/' .
-						$filename .
-						'.*[ac]ss'
+						'/assets/src/styles/main.*[ac]ss'
 				)
 			) ||
 			(ENV === 'production' &&
 				file_exists(
-					BASE_DIR .
-						$this->contentPath .
-						'/assets/dist/' .
-						$filename .
-						'.css'
+					BASE_DIR . $this->contentPath . '/assets/dist/main.css'
 				))
 		) {
-			$styles[$filename] =
-				$this->contentPath . '/assets/dist/' . $filename . '.css';
+			$styles['main'] = $this->contentPath . '/assets/dist/main.css';
 		}
 
 		return $styles;
