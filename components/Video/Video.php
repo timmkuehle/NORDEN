@@ -10,13 +10,14 @@ declare(strict_types=1);
 class Video extends PHTMLComponent {
 	private string $src;
 	private string $aspectRatio;
+	private ?string $placeholder;
 	private ?string $mobileSrc;
+	private ?string $alt;
 	private bool $lazyLoaded;
 	private bool $autoplay;
 	private bool $muted;
 	private bool $loop;
 	private bool $controls;
-	private ?string $placeholder;
 	private ?string $mobilePlaceholder;
 	private ?string $mobileAspectRatio;
 	private int $breakpoint;
@@ -25,12 +26,13 @@ class Video extends PHTMLComponent {
 		?string $class_name,
 		string $src,
 		string $aspect_ratio,
+		string $placeholder,
+		string $alt = null,
 		bool $lazy_loaded = false,
 		bool $autoplay = false,
 		bool $muted = false,
 		bool $loop = false,
 		bool $controls = true,
-		string $placeholder = null,
 		string $mobile_src = null,
 		string $mobile_aspect_ratio = null,
 		string $mobile_placeholder = null,
@@ -40,9 +42,16 @@ class Video extends PHTMLComponent {
 
 		$this->src = sanitize_uri($src);
 
-		if (!file_exists(BASE_DIR . $this->src)) {
+		$this->placeholder = sanitize_uri($placeholder);
+
+		if (
+			!file_exists(BASE_DIR . $this->src) ||
+			!file_exists(BASE_DIR . $this->placeholder)
+		) {
 			return;
 		}
+
+		$this->alt = $alt;
 
 		$this->lazyLoaded = $lazy_loaded;
 
@@ -50,11 +59,6 @@ class Video extends PHTMLComponent {
 		$this->muted = $muted;
 		$this->loop = $loop;
 		$this->controls = $controls;
-
-		$this->placeholder =
-			$placeholder && file_exists(BASE_DIR . $placeholder)
-				? sanitize_uri($placeholder)
-				: null;
 
 		$this->aspectRatio = $aspect_ratio;
 
@@ -115,7 +119,10 @@ class Video extends PHTMLComponent {
 	}
 
 	private function renderVideoAttributes() {
-		echo ($this->autoplay ? 'autoplay ' : '') .
+		echo 'alt="' .
+			($this->alt ?? 'Video') .
+			'" ' .
+			($this->autoplay ? 'autoplay ' : '') .
 			($this->muted ? 'muted ' : '') .
 			($this->loop ? 'loop ' : '') .
 			($this->controls ? ' controls' : '');
@@ -145,6 +152,14 @@ class Video extends PHTMLComponent {
             <video <?php $this->renderVideoAttributes(); ?>>
                 <?php $this->renderSourceElements(); ?>
             </video>
+			<?php new Image(
+   	null,
+   	'video-placeholder',
+   	$this->placeholder,
+   	($this->alt ? $this->alt . ' ' : '') . 'Placeholder Image',
+   	$this->lazyLoaded,
+   	$this->mobilePlaceholder
+   ); ?>
             <?php $this->renderStyleTag(); ?>
         </div>
     <?php
