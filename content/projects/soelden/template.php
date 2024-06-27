@@ -19,14 +19,16 @@
     	'brand-clip',
     	'/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Web.mp4',
     	'16/9',
+    	'content/resources/media/soelden/brandclip/Brandclip_SOEL_Still_Web.jpg',
+    	'Sölden Brandclip',
     	true,
     	true,
     	true,
     	true,
     	false,
-    	null,
     	'/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Mobile.mp4',
-    	'1/1'
+    	'1/1',
+    	'content/resources/media/soelden/brandclip/Brandclip_SOEL_Still_Mobile.jpg'
     ); ?>
 			</div>
 		</div>
