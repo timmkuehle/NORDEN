@@ -931,3 +931,6 @@ body {
 		background-color: $color-soel-anthrazit;
 	}
 }
+
+// Import component stylesheets
+@import "../../../../../../components/Video/Video.scss";

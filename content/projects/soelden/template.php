@@ -15,10 +15,17 @@
 		</div>
 		<div class="slot center">
 			<div class="video-container">
-				<video class="brand-clip" alt="Sölden Brand Clip" muted autoplay loop width="1080" height="1080">
-					<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Mobile.mp4" type="video/mp4" media="(max-width: 600px)">
-					<source src="<?php echo BASE_URL; ?>/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Web.mp4" type="video/mp4">
-				</video>
+				<?php new Video(
+    	null,
+    	'brand-clip',
+    	'/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Web.mp4',
+    	true,
+    	true,
+    	true,
+    	true,
+    	false,
+    	'/content/resources/media/soelden/brandclip/01_SOEL_Brandclip_Mobile.mp4'
+    ); ?>
 			</div>
 		</div>
 		<div class="slot end"></div>
