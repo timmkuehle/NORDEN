@@ -60,18 +60,24 @@ class Video extends PHTMLComponent {
 	}
 
 	private function renderSourceElements() {
-		$sources = [
-			[
-				'src' => $this->src,
-				'type' => mime_content_type(BASE_DIR . $this->src)
-			]
-		];
+		$sources =
+			$this->mobileSrc && file_exists(BASE_DIR . $this->mobileSrc)
+				? [
+					[
+						'src' => $this->mobileSrc,
+						'type' => mime_content_type(
+							BASE_DIR . $this->mobileSrc
+						),
+						'media' =>
+							'media="(max-width: ' . $this->breakpoint . 'px)"'
+					]
+				]
+				: [];
 
 		if ($this->mobileSrc && file_exists(BASE_DIR . $this->mobileSrc)) {
 			array_push($sources, [
-				'src' => $this->mobileSrc,
-				'type' => mime_content_type(BASE_DIR . $this->mobileSrc),
-				'media' => 'media="(max-width: ' . $this->breakpoint . 'px)"'
+				'src' => $this->src,
+				'type' => mime_content_type(BASE_DIR . $this->src)
 			]);
 		}
 
