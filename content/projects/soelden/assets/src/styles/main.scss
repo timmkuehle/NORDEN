@@ -52,7 +52,7 @@ $color-soel-cool-gray: #eeeff1;
 // SOELDEN project styling
 .soel-side-note {
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: max(1rem, 0.875vw);
 	color: $color-soel-medium;
 
 	@media screen and (min-width: 769px) {
@@ -65,6 +65,10 @@ $color-soel-cool-gray: #eeeff1;
 .soelden-text-block {
 	&:not(.no-max-width) {
 		max-width: 36rem;
+
+		@media screen and (min-width: 1440px) {
+			max-width: 70rem;
+		}
 	}
 
 	&.no-max-width {
@@ -108,13 +112,13 @@ $color-soel-cool-gray: #eeeff1;
 	}
 
 	.heading {
-		font-size: 2em;
+		font-size: max(2em, 2vw);
 		margin-block: 0 1em;
 	}
 
 	.subline {
 		margin-block: 1.25em 0.5em;
-		font-size: 1.25em;
+		font-size: max(1.25em, 1.25vw);
 		color: $color-soel-cut-3;
 	}
 
@@ -129,6 +133,10 @@ $color-soel-cool-gray: #eeeff1;
 	margin-inline: auto;
 	padding-top: 3rem;
 	padding-right: 5rem;
+
+	@media screen and (min-width: 1440px) {
+		max-width: 65rem !important;
+	}
 
 	&.left {
 		padding-right: 0;
@@ -264,8 +272,14 @@ body {
 
 				.quote {
 					margin-block: 0;
+
 					@media screen and (min-width: 768px) {
+						font-size: max(1em, 1.25vw);
 						max-width: 12rem;
+					}
+
+					@media screen and (min-width: 1440px) {
+						max-width: 20%;
 					}
 				}
 
@@ -318,8 +332,12 @@ body {
 			}
 
 			p {
-				font-size: 1.5em;
+				font-size: max(1.5em, 1.3vw);
 				max-width: 40rem;
+
+				@media screen and (min-width: 1440px) {
+					max-width: 70rem;
+				}
 
 				&:first-child {
 					margin-top: 0;
@@ -336,6 +354,10 @@ body {
 			gap: 2rem;
 			overflow-x: scroll;
 			padding-block: 1rem;
+
+			@media screen and (min-width: 1800px) {
+				justify-content: center;
+			}
 
 			@-moz-document url-prefix() {
 				& {
@@ -359,7 +381,7 @@ body {
 			.service {
 				margin-block: 0;
 				white-space: nowrap;
-				font-size: 1em;
+				font-size: max(1em, 1.1vw);
 				color: $color-soel-orange;
 			}
 		}
@@ -372,6 +394,8 @@ body {
 			}
 
 			.heartbeat-claim {
+				margin-inline: auto;
+
 				&.web {
 					@media screen and (max-width: 768px) {
 						display: none;
@@ -485,6 +509,11 @@ body {
 						padding-top: 2rem;
 					}
 				}
+
+				.content {
+					max-width: 100rem;
+					margin-inline: auto;
+				}
 			}
 
 			.slot {
@@ -584,6 +613,11 @@ body {
 
 				& > .video {
 					width: 100%;
+					max-width: 100rem;
+
+					@media screen and (min-width: 1440px) {
+						margin-inline: auto;
+					}
 				}
 
 				@media screen and (max-width: 768px) {
@@ -630,6 +664,8 @@ body {
 					&.lines-narrow {
 						width: 100%;
 						mix-blend-mode: difference;
+						max-width: 35rem;
+						margin-inline: auto;
 
 						@media screen and (max-width: 768px) {
 							max-width: 15rem;
@@ -667,12 +703,12 @@ body {
 					}
 
 					&.photo-point {
-						max-width: min(50rem, 100%);
+						max-width: min(65rem, 100%);
 						margin-inline: auto;
 					}
 
 					&.bike-box {
-						max-width: min(50rem, 100%);
+						max-width: min(70rem, 100%);
 					}
 
 					&.world-cup-iphone {
@@ -690,15 +726,28 @@ body {
 
 				.typo-claim-animation {
 					max-width: min(40rem, 100%);
+
+					@media screen and (min-width: 1440px) {
+						max-width: 60rem;
+					}
 				}
 
 				.headline-font-alphabet {
 					max-width: min(50rem, 100%);
 					margin-inline: auto;
+
+					@media screen and (min-width: 1440px) {
+						width: 100%;
+						max-width: 75rem;
+					}
 				}
 
 				.logo-animation {
 					max-width: min(35rem, 100%);
+
+					@media screen and (min-width: 1440px) {
+						max-width: 60rem;
+					}
 				}
 
 				.logo-placement {
@@ -724,7 +773,7 @@ body {
 					}
 
 					.soelden-icon {
-						width: 7rem;
+						width: max(7rem, 10%);
 						border: 0.0625rem solid white;
 
 						@media screen and (max-width: 768px) {
@@ -742,7 +791,7 @@ body {
 					margin-top: 2rem;
 
 					.soelden-gif {
-						width: 13rem;
+						width: max(13rem, 20%);
 
 						@media screen and (max-width: 768px) {
 							width: 9rem;
@@ -758,14 +807,10 @@ body {
 
 		.full-width-image {
 			margin-inline: calc(-1 * var(--main-padding-inline));
-			max-width: min(1440px, calc(100% + 2 * var(--main-padding-inline)));
 
 			@media screen and (min-width: 769px) {
 				width: calc(100% + 2 * var(--main-padding-inline));
-			}
-
-			@media screen and (min-width: 1440px) {
-				margin-inline: auto;
+				max-width: unset;
 			}
 		}
 
@@ -814,6 +859,10 @@ body {
 
 				img {
 					max-width: min(22rem, 100%);
+
+					@media screen and (min-width: 1440px) {
+						max-width: 26rem;
+					}
 				}
 
 				&::after {
@@ -845,7 +894,7 @@ body {
 		.wc-products {
 			display: flex;
 			gap: 2rem;
-			width: min(60rem, 100%);
+			width: min(75rem, 100%);
 			margin-inline: auto;
 
 			@media screen and (min-width: 769px) {
@@ -893,8 +942,8 @@ body {
 					padding-inline: 2rem;
 
 					.heading {
-						font-size: 2em;
-						max-width: 20rem;
+						font-size: max(2em, 2vw);
+						max-width: max(20rem, 20%);
 					}
 				}
 
@@ -906,20 +955,20 @@ body {
 						Arial,
 						Helvetica,
 						sans-serif;
-					font-size: 3em;
-					max-width: 24rem;
+					font-size: max(3em, 3vw);
+					max-width: max(24rem, 24%);
 					margin-block: 0;
 				}
 
 				.world-cup-icon {
-					width: 5rem;
+					width: max(5rem, 5vw);
 					border: 0.0625rem solid white;
 				}
 
 				@media screen and (max-width: 768px) {
 					.heading {
-						font-size: 2em;
-						max-width: 12rem;
+						font-size: max(2em, 2vw);
+						max-width: max(12rem, 12%);
 					}
 				}
 			}
@@ -929,8 +978,11 @@ body {
 			padding-block: 5rem 8rem;
 
 			.heading {
-				max-width: 25.125rem;
+				position: relative;
+				z-index: 100;
+				max-width: max(36rem, 36%);
 				margin-left: auto;
+				margin-bottom: -10%;
 				font-family:
 					AS Soelden Headline,
 					AS Soelden,
@@ -938,7 +990,8 @@ body {
 					Arial,
 					Helvetica,
 					sans-serif;
-				font-size: 5em;
+				font-size: max(7em, 7vw);
+				line-height: 1.25;
 			}
 
 			@media screen and (max-width: 768px) {
@@ -951,7 +1004,7 @@ body {
 			}
 
 			.image-with-lines {
-				max-width: unset;
+				max-width: unset !important;
 				margin-inline: 0 calc(-1 * var(--main-padding-inline));
 
 				@media screen and (min-width: 768px) {
