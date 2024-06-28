@@ -5,7 +5,7 @@
 	white-space: nowrap;
 	padding: 0.4375em 0.75em;
 	color: var(--color-dark);
-	border: 0.125rem solid;
+	border: max(0.125rem, 0.125vw) solid;
 	transition: transform 0.1s ease-in-out;
 
 	&.primary {

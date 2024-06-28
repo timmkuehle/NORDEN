@@ -30,10 +30,10 @@
 			}
 
 			.header-text {
-				flex: 0 1 35rem;
+				flex: 0 1 55rem;
 
 				&.long {
-					flex-basis: 50rem;
+					flex-basis: 100rem;
 				}
 
 				.heading,
@@ -59,6 +59,11 @@
 	.subtitle {
 		max-width: 15rem;
 		margin-block: 2.5em 1.5em;
+
+		@media screen and (min-width: 1440px) {
+			max-width: 30rem;
+			margin-block: 5em 3em;
+		}
 	}
 
 	.content {

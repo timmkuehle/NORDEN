@@ -27,7 +27,7 @@ svg {
 }
 
 a {
-	font-size: 1.125em;
+	font-size: max(1.125em, 1.25vw);
 	color: var(--color-dark);
 
 	@media screen and (hover: hover) {
@@ -50,7 +50,7 @@ h2 {
 	margin-block: 0.25em;
 	line-height: 1.05;
 	text-transform: uppercase;
-	font-size: 4em;
+	font-size: max(4em, 5vw);
 
 	.has-error main & {
 		font-size: 3em;
@@ -59,11 +59,11 @@ h2 {
 
 h3 {
 	text-transform: uppercase;
-	font-size: 1.75em;
+	font-size: max(1.75em, 2.25vw);
 }
 
 p {
-	font-size: 1.125em;
+	font-size: max(1.125em, 1.25vw);
 }
 
 body {
@@ -82,11 +82,6 @@ body {
 		padding: var(--main-padding);
 
 		& > * {
-			&:not(.full-width) {
-				max-width: var(--max-content-width);
-				margin-inline: auto;
-			}
-
 			&:first-child {
 				margin-top: 0;
 			}

@@ -113,7 +113,7 @@
 
 		.menu-item {
 			.menu-item-link {
-				font-size: 0.9375rem;
+				font-size: max(0.9375rem, 0.75vw);
 			}
 		}
 	}
