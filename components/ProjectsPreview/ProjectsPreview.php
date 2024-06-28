@@ -19,9 +19,7 @@ class ProjectsPreview extends PHTMLComponent {
 	protected function render() {
 		?>
         <section <?php $this->renderHTMLAttributes(); ?>>
-			<p class="text-style-subline vertical-text color-primary">Work</p>
-			<p class="subline">Ein bisschen was von allem worauf wir stolz sind</p>
-			<h2 class="title">Our Projects</h2>
+			<p class="text-style-subline vertical-text color-primary">Our Projects</p>
 			<div class="project-links">
 				<?php foreach ($this->projects ?? [] as $index => $project): ?>
 					<a id="project-<?php echo $index + 1; ?>" class="project"

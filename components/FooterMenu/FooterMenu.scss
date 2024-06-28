@@ -18,7 +18,7 @@
 
 			.menu-item-link {
 				text-transform: uppercase;
-				font-size: 0.875em;
+				font-size: max(0.875em, 0.75vw);
 			}
 		}
 	}

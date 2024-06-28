@@ -18,12 +18,6 @@
 
 	&:not(.no-padding) {
 		padding-inline: var(--main-padding-inline) !important;
-
-		@media screen and (min-width: 1440px) {
-			padding-inline: calc(
-				(100vw - var(--max-content-width)) / 2
-			) !important;
-		}
 	}
 }
 
@@ -47,7 +41,7 @@
 .text-style-subline {
 	margin-bottom: 0.5em !important;
 	text-transform: uppercase !important;
-	font-size: 1.125rem !important;
+	font-size: max(1.125rem, 0.875vw) !important;
 	font-weight: normal !important;
 	letter-spacing: 0.0625em !important;
 }
@@ -55,12 +49,12 @@
 .text-style-button {
 	text-transform: uppercase !important;
 	text-decoration: none !important;
-	font-size: 0.9375em !important;
+	font-size: max(0.9375em, 0.825vw) !important;
 	letter-spacing: 0.0625em !important;
 }
 
 .text-style-big {
-	font-size: 1.625em !important;
+	font-size: max(1.625em, 2vw) !important;
 }
 
 .vertical-text {
