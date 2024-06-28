@@ -7,14 +7,17 @@
 	width: 100%;
 	height: var(--header-height);
 	padding-inline: var(--main-padding-inline);
-	background-color: rgba(var(--color-light-rgb), 0.7);
-	backdrop-filter: blur(0.75rem);
+	background-color: rgba(var(--color-light-rgb), 0.5);
+	backdrop-filter: blur(0.5rem);
 	box-shadow: var(--box-shadow-bottom);
+	transition: all 0.35s ease-in-out;
 
 	.slot {
 		display: flex;
 		align-items: center;
 		flex: 1 0 0;
+		position: relative;
+		transition: all 0.35s ease-in-out;
 
 		&.center {
 			justify-content: center;
@@ -22,6 +25,20 @@
 
 		&.end {
 			justify-content: flex-end;
+		}
+	}
+
+	&.hidden {
+		background-color: rgba(var(--color-light-rgb), 0);
+		backdrop-filter: blur(0rem);
+		box-shadow: var(--no-box-shadow-bottom);
+
+		.slot {
+			&.start,
+			&.end {
+				transform: translateY(calc(-1 * var(--header-height)));
+				opacity: 0;
+			}
 		}
 	}
 }
