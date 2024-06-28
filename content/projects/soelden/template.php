@@ -717,8 +717,8 @@
 		<?php new Image(
   	null,
   	'full-width-image',
-  	'/content/resources/media/soelden/12_SOEL_Trenner_Bild.jpg',
-  	'Sölden Snow Park',
+  	'/content/resources/media/soelden/world_cup/02_Skiweltcup_Mockup.jpg',
+  	'Sölden Ski-Weltcup Mockup',
   	true
   ); ?>
 	</div>
