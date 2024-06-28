@@ -1,19 +1,32 @@
 .home-link {
 	display: inline-block;
-	transition: transform 0.1s ease-out;
+	position: relative;
+	transform-origin: center;
+	transition: transform 0.15s ease-in-out 0s;
 
-	&:active {
-		transform: scale(0.96);
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		right: -5%;
+		bottom: -60%;
+		width: 0.09375rem;
+		height: 1.125rem;
+		transform: rotate(45deg);
+		background-color: var(--color-primary);
 	}
 
 	@media screen and (hover: hover) {
 		&:hover {
-			transform: scale(1.04);
-
 			.logo {
 				fill: var(--color-primary);
 			}
 		}
+	}
+
+	.site-header.hidden & {
+		transform: scale(1.5) translateY(0.5rem);
+		transition: transform 0.15s ease-in-out 0.25s;
 	}
 }
 
