@@ -53,7 +53,7 @@ class SiteHeader extends PHTMLComponent {
 				<?php new HeaderMenu(null, null); ?>
 			</div>
 			<div class="slot center">
-				<?php new HomeLink(null, null, '6.75rem', 'Zur Startseite'); ?>
+				<?php new HomeLink(null, null, 'auto', 'Zur Startseite'); ?>
 			</div>
 			<div class="slot end">
 				<?php new ContactMenu(null, null); ?>
