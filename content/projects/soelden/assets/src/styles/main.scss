@@ -195,6 +195,13 @@ body {
 					.menu-item-link {
 						color: white;
 					}
+
+					&.active-menu-item,
+					&.has-active-menu-item {
+						.menu-item-link {
+							color: $color-soel-orange;
+						}
+					}
 				}
 			}
 		}
