@@ -8,12 +8,13 @@
 		content: "";
 		display: block;
 		position: absolute;
-		right: -5%;
-		bottom: -60%;
+		right: -4%;
+		bottom: -58%;
 		width: 0.09375rem;
 		height: 1.125rem;
 		transform: rotate(45deg);
 		background-color: var(--color-primary);
+		transition: transform 0.3s ease-in-out 0.08s;
 	}
 
 	@media screen and (hover: hover) {
@@ -27,6 +28,11 @@
 	.site-header.hidden & {
 		transform: scale(1.5) translateY(0.5rem);
 		transition: transform 0.15s ease-in-out 0.25s;
+
+		&::after {
+			transform: translateX(-3250%) rotate(45deg);
+			transition: transform 0.3s ease-in-out 0s;
+		}
 	}
 }
 
