@@ -1,3 +1,9 @@
+declare global {
+	interface Location {
+		relativeBaseDir: string;
+	}
+}
+
 type FontFilePath = `/${string}`;
 
 type FontFormat = "truetype" | "opentype" | "woff" | "woff2" | "svg";
