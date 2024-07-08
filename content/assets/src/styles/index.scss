@@ -27,7 +27,7 @@ svg {
 }
 
 a {
-	font-size: max(1.125em, 1.25vw);
+	font-size: max(1.125rem, 1.25vw);
 	color: var(--color-dark);
 
 	@media screen and (hover: hover) {
@@ -63,7 +63,7 @@ h3 {
 }
 
 p {
-	font-size: max(1.125em, 1.25vw);
+	font-size: max(1.125rem, 1.25vw);
 }
 
 body {
