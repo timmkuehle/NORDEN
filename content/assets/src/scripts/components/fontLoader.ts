@@ -7,7 +7,10 @@ const preloadFonts = (fonts: FontFace[]) => {
 		const { filePath, format } = font;
 
 		linkTag.rel = "preload";
-		linkTag.href = filePath.replace(/^\.*\/*/, "/");
+		linkTag.href = filePath.replace(
+			/^\.*\/*/,
+			window.location.relativeBaseDir
+		);
 		linkTag.as = "font";
 		linkTag.type = `font/${format}`;
 		linkTag.crossOrigin = "anonymous";
@@ -31,7 +34,7 @@ const parseFontFaceRules = (fonts: FontFace[]) => {
 		return (
 			rules +
 			`@font-face{font-family:${fontFamily};` +
-			`src:url(\"${filePath.replace(/^\.*\/*/, "/")}\")format(\"${format}\");` +
+			`src:url(\"${filePath.replace(/^\.*\/*/, window.location.relativeBaseDir)}\")format(\"${format}\");` +
 			`font-style:${fontStyle || "normal"};` +
 			(fontWeight ? `font-weight:${fontWeight};` : "") +
 			(ascentOverride ? `ascent-override:${ascentOverride};` : "") +
