@@ -22,17 +22,25 @@ new SiteHeader(null, null, true, null, null, null, [], []);
 			<div class="slot center">
 				<p class="intro"><span class="bold">NORDEN</span> — wo Visionen lebendig werden und Marken zu Leben erweckt werden. Mit einem starken Fokus auf strategische Markenberatung, Region Branding und der Gestaltung plattformübergreifender Kommunikationslösungen setzen wir Trends und schaffen unvergessliche Markenerlebnisse. Bist du bereit dafür, dass deine Marke nicht nur gesehen, sondern gefordert wird?</p>
 				<div class="awards">
-					<h2 class="awards-heading">Awards</h2>
+					<h2 class="awards-heading"><span class="highlight-circle">Awards</span></h2>
 					<div class="award">
-						<a href="https://test.de" rel="noopener noreferrer">2020 German Design Award Winner:</a>
+						<p class="bold">2024 German Brand Award Winner:</p>
+						<p>Sölden – Winner in Brand Design - Corporate Brand<p>
+					</div>
+					<div class="award">
+						<p class="bold">2024 German Brand Award Winner:</p>
+						<p>Electric Mountain Festival – Winner in Brand Communication - Brand Events<p>
+					</div>
+					<div class="award">
+						<p class="bold">2020 German Design Award Winner:</p>
 						<p>Ötztal Tourismus – Excellent Communication Design<p>
 					</div>
 					<div class="award">
-						<a href="https://test.de" rel="noopener noreferrer">2020 German Design Award Winner</a>
+						<p class="bold">2020 German Design Award Winner</p>
 						<p>Ötztal Magazin – Excellent in Brand Stratey and Creation<p>
 					</div>
 					<div class="award">
-						<a href="https://test.de">2019 German Brand Award Special:</a>
+						<p class="bold">2019 German Brand Award Special:</p>
 						<p>Ötztal Tourismus – Excellent in Brand Stratey and Creation<p>
 					</div>
 				</div>
