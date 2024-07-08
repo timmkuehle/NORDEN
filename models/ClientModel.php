@@ -37,7 +37,7 @@ class ClientModel {
 		],
 		[
 			'name' => 'alpachtal',
-			'nicename' => 'Alpachtal',
+			'nicename' => 'Alpbachtal',
 			'link' => 'https://www.alpbachtal.at/',
 			'logo' => '/content/resources/clientLogos/Alpbachtal.svg'
 		],

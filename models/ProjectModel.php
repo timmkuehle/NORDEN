@@ -46,7 +46,7 @@ class ProjectModel {
 		[
 			'slug' => '/projekte/alpachtal',
 			'content_path' => '/content/projects/alpachtal',
-			'title' => 'Alpachtal',
+			'title' => 'Alpbachtal',
 			'thumbnail' =>
 				'/content/resources/media/alpbachtal/ABT_Thumbnail.webp',
 			'archive_layer' => 'front'
