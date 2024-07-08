@@ -1,11 +1,15 @@
 .client-logo-strip {
 	display: flex;
-	gap: 2rem;
+	gap: 4rem;
 	overflow-x: auto;
 	padding-block: max(2rem, 5%);
 
 	@media screen and (min-width: 1900px) {
 		justify-content: center;
+	}
+
+	@media screen and (max-width: 768px) {
+		gap: 3rem;
 	}
 
 	@-moz-document url-prefix() {
@@ -43,9 +47,9 @@
 			max-width: 9rem;
 			max-height: 5rem;
 
-			@media screen and (min-width: 1200px) {
-				max-width: 12rem;
-				max-height: 7.5rem;
+			@media screen and (max-width: 768px) {
+				max-width: 6rem;
+				max-height: 3.33rem;
 			}
 		}
 	}
