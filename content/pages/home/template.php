@@ -29,7 +29,7 @@ new SiteHeader(null, null, true, null, null, null, [], []);
 			</div>
 		</header>
 		<div class="content align-right">
-			<p class="text-style-big">mit unserem scharfen Blick für Kommunikation, <span class="bold uppercase">Markenentwicklung</span> und <span class="bold uppercase">Beratung</span> bringen wir deine Marke auf ein ganz neues Level. Hier treffen <span class="bold uppercase">Kreativität</span> und Digital aufeinander, um die Grenzen des Designs zu sprengen. Willkommen bei <span class="bold uppercase">NORDEN</span>, wo Ideen Wirklichkeit werden!</p>
+			<p class="text-style-big">mit unserem scharfen Blick für Kommunikation, <span class="bold uppercase">Markenentwicklung</span> und <span class="bold uppercase">Beratung</span> bringen wir deine Marke auf ein ganz neues Level. Hier treffen <span class="bold uppercase"><span class="highlight-circle blue">Kreativität</span></span> und Digital aufeinander, um die Grenzen des Designs zu sprengen. Willkommen bei <span class="bold uppercase">NORDEN</span>, wo Ideen Wirklichkeit werden!</p>
 		</div>
 	</section>
 	<?php new ProjectsPreview(null, null, $projects); ?>
