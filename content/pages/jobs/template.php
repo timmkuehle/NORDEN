@@ -37,11 +37,11 @@
    	'Jetzt bewerben',
    	'mailto:mail@norden.co'
    ); ?>
-			<p>Bitte schicke Dein Portfolio, sowie Bewerbungsunterlagen an:<br><a href="mail@norden.co">mail@norden.co</a></p>
+			<p>Bitte schicke Dein <span class="highlight-circle">Portfolio,</span> sowie Bewerbungsunterlagen an:<br><a href="mail@norden.co">mail@norden.co</a></p>
 		</footer>
 	</div>
 </article>
-<article class="job-offer full-width">
+<!-- <article class="job-offer full-width">
 	<div class="content">
 		<h2 class="heading">Praktikant:in</h2>
 		<div class="bullet-list">
@@ -64,13 +64,15 @@
 		<p>Das Praktikum wird vergütet.</p>
 		<p class="bold">Wir freuen uns, Dich bald kennen zu lernen. </p>
 		<footer>
-			<?php new Button(
+			<?php
+/* new Button(
    	null,
    	'no-min-width',
    	'Jetzt bewerben',
    	'mailto:mail@norden.co'
-   ); ?>
+   ); */
+?>
 			<p>Bitte schicke Dein Portfolio, sowie Bewerbungsunterlagen an:<br><a href="mail@norden.co">mail@norden.co</a></p>
 		</footer>
 	</div>
-</article>
+</article> -->
