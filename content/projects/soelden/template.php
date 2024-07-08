@@ -48,6 +48,7 @@
 	<p class="service">Social Media</p>
 	<p class="service">Anpassung aller Events / Submarken</p>
 </section>
+<div class="spacer"></div>
 <section class="soelden-section graphic-elements-text">
 	<div class="soelden-text-block">
 		<h2 class="heading">Live Dynamic</h2>
@@ -202,6 +203,7 @@
 		</div>
 	</div>
 </section>
+<div class="spacer"></div>
 <section class="soelden-section heartbeat">
 	<?php new Image(
  	null,
@@ -218,6 +220,7 @@
   	true
   ); ?>	
 </section>
+<div class="spacer"></div>
 <section class="soelden-gallery logo-animation">
 	<div class="slot side-note-start align-end">
 		<p class="soel-side-note">Logo Animation</p>
@@ -246,6 +249,7 @@
 	<div class="slot side-note-end">
 	</div>
 </section>
+<div class="mobile-spacer"></div>
 <?php new Image(
 	null,
 	'full-width-image',
@@ -495,7 +499,7 @@
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
-<section class="soelden-gallery full-width">
+<section class="soelden-gallery full-width huge-space">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Social Media</p>
 	</div>
@@ -627,7 +631,7 @@
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
-<section class="soelden-gallery full-width tram bg-color-anthrazit">
+<section class="soelden-gallery full-width tram bg-color-anthrazit huge-space">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Tram</p>
 	</div>
@@ -642,7 +646,7 @@
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
-<section class="soelden-gallery full-width tram bg-color-anthrazit">
+<section class="soelden-gallery full-width tram bg-color-anthrazit huge-space">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Bike Box</p>
 	</div>
@@ -711,7 +715,7 @@
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
-<section class="soelden-gallery full-width world-cup-2">
+<section class="soelden-gallery full-width world-cup-2 huge-space">
 	<div class="slot side-note-start empty"></div>
 	<div class="content">
 		<?php new Image(
@@ -724,7 +728,7 @@
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
-<section class="soelden-gallery full-width world-cup-3">
+<section class="soelden-gallery full-width world-cup-3 huge-space">
 	<div class="slot side-note-start empty"></div>
 		<div class="content">
 			<div class="wc-products">
