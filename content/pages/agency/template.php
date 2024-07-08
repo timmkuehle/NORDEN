@@ -31,7 +31,7 @@ $people = [
 		<div class="header-content has-side-note">
 			<h1 class="text-style-subline vertical-text color-primary side-note no-inline-margin">This is NORDEN</h1>
 			<div class="header-text long">
-				<p class="text-style-big">Mit strategischer Kompetenz und hohem Designanspruch bieten wir erstklassigen Service in den Bereichen <span class="uppercase bold">Corporate Design, Film, Motion Design</span> und <span class="uppercase bold">crossmedialen Konzepten.</span></p>
+				<p class="text-style-big">Mit strategischer Kompetenz und hohem Designanspruch bieten wir erstklassigen Service in den Bereichen <span class="uppercase bold">Corporate Design, Film, Motion Design</span> und <span class="uppercase bold">crossmedialen <span class="highlight-circle">Konzepten.</span></span></p>
 			</div>
 		</div>
 	</header>
