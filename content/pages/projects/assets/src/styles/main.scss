@@ -9,8 +9,13 @@ body {
 			height: 100%;
 			padding-bottom: 0;
 
-			.site-footer {
+			.minimal-footer {
 				width: calc(100% + var(--main-padding-inline) * 2);
+				padding-block: 1rem;
+
+				.footer-menu {
+					justify-content: center;
+				}
 			}
 		}
 	}
