@@ -40,6 +40,7 @@ class HtmlStart extends PHTMLComponent {
             <title><?php echo $this->title; ?></title>
 			<?php if ($this->description): ?>
 			<meta name="description" content="<?php echo $this->description; ?>">
+			<meta name="relativeBaseDir" content="<?php echo ROOT_PATH; ?>/">
 			<?php endif; ?>
             <?php
             foreach ($this->scripts as $handle => $script) {
