@@ -41,7 +41,7 @@ class ProjectArchive extends PHTMLComponent {
 		?>
         <section <?php $this->renderHTMLAttributes(); ?>>
             <?php $this->renderProjects(); ?>
-			<?php new SiteFooter(null, 'layer-front full-width no-padding', true, []); ?>
+			<?php new MinimalFooter(null, 'layer-front full-width no-padding'); ?>
         </section>
     <?php
 	}
