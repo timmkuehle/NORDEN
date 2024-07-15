@@ -1,6 +1,8 @@
 const setupHeaderAnimation = () => {
 	const siteHeader = document.querySelector("header.site-header");
-	const siteLogo = siteHeader?.querySelector(".logo");
+	const menuCheckbox = <HTMLInputElement | null>(
+		document.querySelector("#mobile-menu-checkbox")
+	);
 
 	if (!siteHeader) return;
 
@@ -12,18 +14,16 @@ const setupHeaderAnimation = () => {
 			window.pageYOffset || document.documentElement.scrollTop;
 		const scrollAmount = Math.abs(curScrollTop - lastScrollTop);
 
-		if (scrollAmount > 30) {
-			if (curScrollTop > lastScrollTop) {
-				siteHeader.classList.add("hidden");
+		if (!menuCheckbox?.checked) {
+			if (scrollAmount > 30) {
+				if (curScrollTop > lastScrollTop) {
+					siteHeader.classList.add("hidden");
+				} else {
+					siteHeader.classList.remove("hidden");
+				}
 
-				if (!siteLogo || !(siteLogo instanceof SVGElement)) return;
-			} else {
-				siteHeader.classList.remove("hidden");
-
-				if (!siteLogo || !(siteLogo instanceof SVGElement)) return;
+				lastScrollTop = curScrollTop;
 			}
-
-			lastScrollTop = curScrollTop;
 		}
 	});
 };
