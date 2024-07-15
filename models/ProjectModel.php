@@ -21,7 +21,7 @@ class ProjectModel {
 			'archive_layer' => 'middle'
 		],
 		[
-			'slug' => '/content/resources/media/Thumbnail_ARANEA.jpg',
+			'slug' => '/projekte/aranea',
 			'content_path' => '/content/projects/aranea',
 			'title' => 'Aranea',
 			'thumbnail' =>
