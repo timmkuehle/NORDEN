@@ -30,7 +30,7 @@
 		transition: transform 0.15s ease-in-out 0.25s;
 
 		&::after {
-			transform: translateX(-3250%) rotate(45deg);
+			transform: translateX(-3rem) rotate(45deg);
 			transition: transform 0.3s ease-in-out 0s;
 		}
 	}
