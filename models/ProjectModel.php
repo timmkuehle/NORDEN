@@ -25,7 +25,7 @@ class ProjectModel {
 			'content_path' => '/content/projects/aranea',
 			'title' => 'ARANEA',
 			'thumbnail' =>
-				'/content/resources/media/aranea/ARANEA_Thumbnail.webp',
+				'/content/resources/media/aranea/02_ARANEA_Startbild.jpg',
 			'archive_layer' => 'front'
 		],
 		[
