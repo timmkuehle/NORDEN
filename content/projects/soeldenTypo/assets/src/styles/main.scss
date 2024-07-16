@@ -1,0 +1,189 @@
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@components/Video/Video.scss";
+@import "@styles/side-note.scss";
+
+// Project variables
+$color-soel-anthrazit: #24353f;
+$color-soel-orange: #fb6f50;
+$color-soel-red: #e51336;
+$color-soel-medium: #7f7f7f;
+$color-soel-cut-1: #275c79;
+$color-soel-cut-2: #6a98bf;
+$color-soel-cut-3: #a3c4e0;
+$color-soel-cool-gray: #eeeff1;
+
+// Utility classes
+.col-orange {
+	color: $color-soel-orange;
+}
+.col-white {
+	color: white;
+}
+.col-cut-3 {
+	color: $color-soel-cut-3;
+}
+.bg-col-anthrazit {
+	background-color: $color-soel-anthrazit;
+}
+.bg-col-cool-gray {
+	background-color: $color-soel-cool-gray;
+}
+.text-large {
+	font-size: max(1.5em, 1.3vw);
+}
+.no-padding-top {
+	padding-top: 0 !important;
+}
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	background-color: white;
+
+	.site-header {
+		background-color: $color-soel-cool-gray;
+		box-shadow: unset;
+
+		.home-link::after {
+			background-color: $color-soel-orange;
+		}
+
+		.header-menu {
+			.menu-item {
+				.menu-item-link {
+					@media screen and (hover: hover) {
+						&:hover {
+							color: $color-soel-orange;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-soel-orange;
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		padding: 0;
+		font-family:
+			AS Soelden,
+			Relevant,
+			Arial,
+			Helvetica,
+			sans-serif;
+
+		h2 {
+			margin-block: 2.25vw;
+			font-size: max(1.75rem, 2.75vw);
+			color: $color-soel-cut-3;
+		}
+
+		h3 {
+			margin-block: 1.8vw;
+			font-size: max(1.375rem, 1.7vw);
+			color: $color-soel-cut-1;
+		}
+
+		p {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+		}
+
+		.highlight-circle {
+			&::after {
+				transform: translate(-50%, -50%) rotate(-3deg);
+				left: 50%;
+				width: 105%;
+				height: 110%;
+				border-color: $color-soel-orange;
+
+				@media screen and (max-width: 768px) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.site-footer {
+		background-color: $color-soel-anthrazit;
+	}
+}
+
+// Component styling
+.soelden-text-section {
+	@media screen and (min-width: 769px) {
+		& > *:not(:first-child) {
+			margin-left: 7vw;
+		}
+	}
+}
+.side-note {
+	color: white;
+}
+
+// Project styling
+#st-live-dynamic-section {
+	.soelden-text-section {
+		@media screen and (min-width: 769px) {
+			width: 85%;
+		}
+	}
+}
+
+#st-typo-animation-section {
+	.video {
+		border: 0.125rem solid $color-soel-anthrazit;
+
+		@media screen and (min-width: 769px) {
+			width: 70%;
+			margin-left: 30%;
+		}
+	}
+}
+
+#st-typo-letter-r {
+	padding: 5%;
+	background-color: $color-soel-anthrazit;
+
+	@media screen and (min-width: 769px) {
+		width: 45vw;
+		margin-inline: 7vw;
+	}
+}
+
+#soelden-kkk {
+	width: calc(100% - var(--main-padding-inline) * 2);
+	margin-inline: var(--main-padding-inline);
+}
+
+#st-alphabet-section {
+	padding-block: 16%;
+}
+
+#st-alpha-letters-section-1 {
+	.side-note {
+		color: $color-soel-medium;
+	}
+}
+
+#st-and-sign-section {
+	padding-block: 16%;
+}
