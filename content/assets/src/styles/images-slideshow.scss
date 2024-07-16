@@ -1,0 +1,56 @@
+.image-slideshow {
+	display: flex;
+	flex-direction: column;
+	gap: 4vw;
+	width: 100%;
+
+	.controls-container {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-end;
+
+		.button {
+			min-width: unset;
+			width: 3rem;
+			height: 3rem;
+			border: none;
+			cursor: pointer;
+
+			@media screen and (hover: hover) {
+				&:hover {
+					transform: scale(1.15);
+					color: unset;
+				}
+			}
+
+			&:active {
+				transform: scale(0.85);
+			}
+		}
+	}
+	.images-container {
+		display: flex;
+		align-items: flex-end;
+		overflow-x: hidden;
+		cursor: ew-resize;
+
+		img {
+			width: 100%;
+			height: auto;
+			transition: opacity 0.3s ease-in-out;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		flex-direction: row;
+
+		.controls-container {
+			justify-content: space-between;
+			flex: 0 0 12%;
+		}
+
+		.images-container {
+			flex: 0 0 88%;
+		}
+	}
+}
