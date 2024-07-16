@@ -2,7 +2,7 @@
 	display: flex;
 	gap: 2rem;
 	overflow-x: scroll;
-	padding: 6% var(--main-padding-inline) 2% var(--main-padding-inline);
+	padding: 6% var(--main-padding-inline) 1rem var(--main-padding-inline);
 
 	@media screen and (min-width: 1800px) {
 		justify-content: center;
@@ -21,5 +21,6 @@
 	.service {
 		margin-block: 0;
 		white-space: nowrap;
+		font-size: max(1em, 1.1vw);
 	}
 }
