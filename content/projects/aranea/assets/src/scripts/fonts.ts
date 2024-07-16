@@ -2,23 +2,16 @@ import { FontFace } from "@scripts/types";
 
 const fonts: FontFace[] = [
 	{
-		fontFamily: "AS Soelden Headline",
-		filePath:
-			"/content/resources/fonts/ASSoeldenHL/ASSoeldenHLWEB-HeavyFlex.woff",
-		format: "woff",
+		fontFamily: "Inter",
+		filePath: "/content/resources/fonts/Inter/Inter-Bold.woff2",
+		format: "woff2",
 		fontWeight: 700
 	},
 	{
-		fontFamily: "AS Soelden",
-		filePath: "/content/resources/fonts/ASSoelden/ASSoelden-Regular.woff",
-		format: "woff",
+		fontFamily: "Inter",
+		filePath: "/content/resources/fonts/Inter/Inter-Regular.woff2",
+		format: "woff2",
 		fontWeight: 400
-	},
-	{
-		fontFamily: "AS Soelden",
-		filePath: "/content/resources/fonts/ASSoelden/ASSoelden-Bold.woff",
-		format: "woff",
-		fontWeight: 700
 	}
 ];
 
