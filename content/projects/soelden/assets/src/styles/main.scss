@@ -194,6 +194,10 @@ body {
 		background: $color-soel-anthrazit;
 		box-shadow: none;
 
+		.home-link::after {
+			background-color: $color-soel-orange;
+		}
+
 		.header-menu,
 		.contact-menu {
 			&::before {
