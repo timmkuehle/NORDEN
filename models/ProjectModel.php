@@ -23,7 +23,7 @@ class ProjectModel {
 		[
 			'slug' => '/projekte/aranea',
 			'content_path' => '/content/projects/aranea',
-			'title' => 'Aranea',
+			'title' => 'ARANEA',
 			'thumbnail' =>
 				'/content/resources/media/aranea/ARANEA_Thumbnail.webp',
 			'archive_layer' => 'front'
