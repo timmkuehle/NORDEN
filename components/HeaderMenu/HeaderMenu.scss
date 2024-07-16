@@ -32,16 +32,6 @@
 			display: block;
 		}
 
-		@media screen and (hover: hover) {
-			&:hover {
-				.menu-icon {
-					.menu-icon-stroke {
-						stroke: var(--color-primary);
-					}
-				}
-			}
-		}
-
 		&:active {
 			.menu-icon {
 				.menu-icon-stroke {
