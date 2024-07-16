@@ -12,6 +12,8 @@ Router::addRoute('/kontakt', 'PageController');
 
 Router::addRoute('/projekte/soelden', 'ProjectController');
 
+Router::addRoute('/projekte/soelden/typografie', 'ProjectController');
+
 Router::addRoute('/projekte/aranea', 'ProjectController');
 
 Router::addRoute('/impressum', 'PageController');
