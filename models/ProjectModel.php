@@ -21,6 +21,14 @@ class ProjectModel {
 			'archive_layer' => 'middle'
 		],
 		[
+			'slug' => '/projekte/soelden/typografie',
+			'content_path' => '/content/projects/soeldenTypo',
+			'title' => 'Sölden Typo X Norden',
+			'thumbnail' =>
+				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
+			'archive_layer' => 'back'
+		],
+		[
 			'slug' => '/projekte/aranea',
 			'content_path' => '/content/projects/aranea',
 			'title' => 'ARANEA',
