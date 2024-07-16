@@ -1,0 +1,244 @@
+// Stylesheet imports
+@import "@styles/project-section.scss";
+@import "@styles/side-note.scss";
+@import "@styles/services.scss";
+@import "@styles/images-slideshow.scss";
+
+// Project variables
+$color-light: #ebe9e9;
+$color-dark-green: #004842;
+$color-orange: #ff5700;
+$color-medium-gray: #7f8080;
+$color-light-green: #2f797c;
+$color-off-green: #22544f;
+$color-cyan: #317a7c;
+$color-acid: #a6fca3;
+
+// Utility classes
+.bg-col-dark-green {
+	background-color: $color-dark-green !important;
+}
+.bg-col-off-green {
+	background-color: $color-off-green !important;
+}
+.bg-col-cyan {
+	background-color: $color-cyan !important;
+}
+.bg-col-orange {
+	background-color: $color-orange !important;
+}
+.bg-col-acid {
+	background-color: $color-acid !important;
+}
+.col-light-green {
+	color: $color-light-green !important;
+}
+.no-padding-top {
+	padding-top: 0 !important;
+}
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
+.no-padding-bottom-mobile {
+	@media screen and (max-width: 768px) {
+		padding-bottom: 0 !important;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+
+// Styling of generic elements
+body {
+	background-color: $color-light;
+
+	main {
+		padding: 0;
+	}
+}
+
+.site-header {
+	background-color: $color-dark-green;
+
+	.menu-item {
+		.menu-item-link {
+			color: white;
+		}
+
+		.has-active-menu-item .menu-item-link {
+			color: $color-orange;
+		}
+	}
+
+	.has-active-menu-item .menu-item-link {
+		color: $color-orange;
+	}
+
+	.home-link::after {
+		background-color: $color-orange;
+	}
+
+	.logo {
+		fill: white;
+	}
+}
+
+.site-footer {
+	background-color: $color-orange;
+}
+
+h2 {
+	margin-block: 2.25vw;
+	font-size: max(1.75rem, 2.75vw);
+}
+
+p {
+	margin-block: 1.75vw;
+	font-size: max(1.375rem, 1.7vw);
+	line-height: 1.4;
+}
+
+// Project styling
+.aranea-intro {
+	padding-block: 8%;
+}
+
+#aranea-logo {
+	margin-bottom: 8%;
+	padding-inline: var(--main-padding-inline);
+}
+
+#aranea-intro-image {
+	width: 100%;
+	padding-inline: var(--main-padding-inline);
+
+	@media screen and (min-width: 769px) {
+		width: 80%;
+	}
+}
+
+.side-note {
+	color: $color-medium-gray;
+}
+
+#aranea-claim {
+	@media screen and (min-width: 769px) {
+		margin-left: 25%;
+	}
+}
+
+.services {
+	@-moz-document url-prefix() {
+		& {
+			scrollbar-color: $color-orange $color-dark-green;
+		}
+	}
+
+	&::-webkit-scrollbar-track {
+		background: $color-dark-green;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $color-orange;
+	}
+
+	.service {
+		color: $color-orange;
+	}
+}
+
+#aranea-logo-variants {
+	width: 100%;
+}
+
+#aranea-logo-dev {
+	@media screen and (min-width: 769px) {
+		width: 65%;
+	}
+	margin-inline: auto;
+}
+
+#aranea-graphic-elements-desktop {
+	width: 90%;
+	margin-inline: auto;
+}
+
+#aranea-graphic-elements-mobile {
+	max-width: 17rem;
+	margin-inline: auto;
+}
+
+#aranea-typo-section {
+	background: linear-gradient($color-dark-green 85%, $color-light 85%);
+}
+
+#aranea-social-media-section {
+	background: linear-gradient($color-orange 40%, $color-light 40%);
+
+	.image {
+		@media screen and (min-width: 769px) {
+			width: 90%;
+			margin-left: 10%;
+			background: linear-gradient($color-orange 50%, $color-light 50%);
+		}
+	}
+}
+
+#aranea-flyer-section {
+	background: linear-gradient($color-light 50%, $color-acid 50%);
+
+	.image {
+		max-width: 80%;
+		margin-inline: auto;
+	}
+}
+
+#aranea-bag-section {
+	background: linear-gradient($color-acid 30%, $color-off-green 30%);
+
+	.image {
+		@media screen and (min-width: 769px) {
+			width: 70%;
+			margin-right: 30%;
+		}
+	}
+}
+
+#aranea-sticker-section {
+	background: linear-gradient($color-off-green 67%, $color-light 67%);
+
+	.image {
+		@media screen and (min-width: 769px) {
+			width: 80%;
+			margin-left: 20%;
+		}
+	}
+}
+
+#aranea-shirt-section {
+	background: linear-gradient($color-light 70%, $color-dark-green 70%);
+
+	.image {
+		@media screen and (min-width: 769px) {
+			width: 60%;
+			margin-right: 40%;
+		}
+	}
+}
+
+#aranea-agency-section {
+	background: linear-gradient($color-dark-green 87.75%, $color-orange 87.75%);
+}
+
+.image-slideshow {
+	.button {
+		fill: $color-orange;
+	}
+}
