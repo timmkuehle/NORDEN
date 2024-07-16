@@ -12,7 +12,7 @@
  	'ARANEA Mood-Bild'
  ); ?>
 </div>
-<section class="project-section bg-col-dark-green">
+<section id="aranea-intro-text-section" class="project-section bg-col-dark-green">
 	<div class="slot start">
 		<p class="side-note">What we stand for</p>
 	</div>
@@ -53,7 +53,7 @@
 	<div class="slot start"></div>
 	<div class="content">
 		<div class="column">
-			<h2>Bold, Versatil & Unique</h2>
+			<h2>Bold, Versatile & Unique</h2>
 			<p>That's the new logo for ARANEA which exudes a sense of freedom and flexibility.</p>
 			<p>With the letter "A" appearing three times in the name, it takes on a special significance and can even be used as a standalone design element. Crafted from the font, we modified the "A" to give the logo its own distinctive touch. We also made slight adjustments to the "E" ensuring every detail reflects ARANEA's individuality.</p>
 		</div>
@@ -362,7 +362,7 @@
 		<?php new Image(
   	null,
   	null,
-  	'/content/resources/media/aranea/08_ARANEA_T-Shirt.jpg',
+  	'/content/resources/media/aranea/10_ARANEA_T-Shirt.jpg',
   	'ARANEA Flyer',
   	true
   ); ?>
