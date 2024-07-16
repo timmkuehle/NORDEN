@@ -117,10 +117,14 @@ const setupImageSlideshows = () => {
 				slideOnDrag(imagesContainer, e.screenX);
 			});
 
-			imagesContainer?.addEventListener("touchstart", (e) => {
-				e.preventDefault();
-				slideOnDrag(imagesContainer, e.touches[0].screenX);
-			});
+			imagesContainer?.addEventListener(
+				"touchstart",
+				(e) => {
+					e.preventDefault();
+					slideOnDrag(imagesContainer, e.touches[0].screenX);
+				},
+				{ passive: true }
+			);
 		}
 	});
 };
