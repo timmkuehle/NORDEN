@@ -29,6 +29,14 @@ class ProjectModel {
 			'archive_layer' => 'back'
 		],
 		[
+			'slug' => '/projekte/soelden/electric-mountain-festival',
+			'content_path' => '/content/projects/soeldenEmf',
+			'title' => 'Electric Mountain Festival',
+			'thumbnail' =>
+				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
+			'archive_layer' => 'middle'
+		],
+		[
 			'slug' => '/projekte/aranea',
 			'content_path' => '/content/projects/aranea',
 			'title' => 'ARANEA',
