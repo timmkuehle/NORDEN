@@ -25,7 +25,7 @@ class ProjectModel {
 			'content_path' => '/content/projects/soeldenTypo',
 			'title' => 'Sölden Headline Font',
 			'thumbnail' =>
-				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
+				'/content/resources/media/soelden/00_soel_headline_Startbild.jpg',
 			'archive_layer' => 'back'
 		],
 		[
