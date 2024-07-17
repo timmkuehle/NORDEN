@@ -23,7 +23,7 @@ class ProjectModel {
 		[
 			'slug' => '/projekte/soelden/typografie',
 			'content_path' => '/content/projects/soeldenTypo',
-			'title' => 'Sölden Typo X Norden',
+			'title' => 'Sölden Headline Font',
 			'thumbnail' =>
 				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
 			'archive_layer' => 'back'
