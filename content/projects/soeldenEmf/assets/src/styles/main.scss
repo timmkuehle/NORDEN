@@ -1,0 +1,546 @@
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@components/Video/Video.scss";
+@import "@styles/side-note.scss";
+@import "@styles/services.scss";
+@import "@styles/bg-image-container.scss";
+@import "@styles/images-slideshow.scss";
+
+// Project variables
+$color-soel-anthrazit: #24353f;
+$color-soel-orange: #fb6f50;
+$color-soel-red: #e51336;
+$color-soel-medium: #7f7f7f;
+$color-soel-cut-1: #275c79;
+$color-soel-cut-2: #6a98bf;
+$color-soel-cut-3: #a3c4e0;
+$color-soel-cool-gray: #eeeff1;
+$color-soel-light-blue: #40ffff;
+$color-soel-mid-blue: #006d93;
+
+// Utility classes
+.col-orange {
+	color: $color-soel-orange;
+}
+.col-red {
+	color: $color-soel-red;
+}
+.col-white {
+	color: white;
+}
+.col-cut-3 {
+	color: $color-soel-cut-3;
+}
+.col-light-blue {
+	color: $color-soel-light-blue;
+}
+.col-mid-blue {
+	color: $color-soel-mid-blue;
+}
+.bg-col-anthrazit {
+	background-color: $color-soel-anthrazit;
+}
+.bg-col-mid-blue {
+	background-color: $color-soel-mid-blue;
+}
+.bg-col-light-blue {
+	background-color: $color-soel-light-blue;
+}
+.bg-col-white {
+	background-color: white;
+}
+.bg-col-red {
+	background-color: $color-soel-red;
+}
+.bg-col-cool-gray {
+	background-color: $color-soel-cool-gray;
+}
+.text-large {
+	font-size: max(1.5em, 1.3vw);
+}
+.no-padding-top {
+	padding-top: 0 !important;
+}
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
+.no-inline-padding-mobile {
+	@media screen and (max-width: 768px) {
+		padding-inline: 0 !important;
+	}
+}
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	background-color: $color-soel-cool-gray;
+
+	.site-header {
+		background-color: unset;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+		box-shadow: unset;
+
+		&.hidden {
+			background-image: unset;
+		}
+
+		.home-link::after {
+			background-color: $color-soel-red;
+		}
+
+		.logo {
+			fill: white;
+
+			@media screen and (hover: hover) {
+				&:hover {
+					fill: $color-soel-red;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: white;
+				}
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: white;
+
+					@media screen and (hover: hover) {
+						&:hover {
+							color: $color-soel-red;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-soel-red;
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		padding: 0;
+		font-family:
+			AS Soelden,
+			Relevant,
+			Arial,
+			Helvetica,
+			sans-serif;
+
+		h2 {
+			margin-block: 2.25vw;
+			font-size: max(1.75rem, 2.75vw);
+			color: $color-soel-anthrazit;
+		}
+
+		h3 {
+			margin-block: 1.8vw;
+			font-size: max(1.375rem, 1.7vw);
+			color: $color-soel-mid-blue;
+		}
+
+		p {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+		}
+
+		.highlight-circle {
+			&::after {
+				transform: translate(-50%, -50%) rotate(-3deg);
+				left: 50%;
+				width: 105%;
+				height: 110%;
+				border-color: $color-soel-light-blue;
+
+				@media screen and (max-width: 768px) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.image-slideshow {
+		.button {
+			fill: $color-soel-red;
+		}
+	}
+
+	.site-footer {
+		padding-top: 0;
+		background-color: $color-soel-anthrazit;
+	}
+}
+
+video,
+img,
+svg {
+	width: 100%;
+}
+
+// Component styling
+.soelden-text-section {
+	@media screen and (min-width: 769px) {
+		& > *:not(h2) {
+			margin-left: 7vw;
+		}
+
+		p {
+			width: 40vw;
+		}
+
+		& > .image:not(:first-child) {
+			width: calc(100% - 7vw);
+		}
+	}
+
+	& > .image:not(:first-child) {
+		margin-top: 5%;
+	}
+}
+.side-note {
+	color: $color-soel-medium;
+}
+.soelden-button {
+	background-color: $color-soel-red !important;
+	border-color: $color-soel-red !important;
+}
+
+// Project styling
+.services {
+	padding-top: 1%;
+
+	@-moz-document url-prefix() {
+		& {
+			scrollbar-color: $color-soel-orange $color-soel-red;
+		}
+	}
+
+	&::-webkit-scrollbar-track {
+		background: $color-soel-cool-gray;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $color-soel-red;
+	}
+
+	.service {
+		color: $color-soel-red;
+	}
+}
+
+#emf-intro-video-section {
+	margin-top: calc(-1 * var(--header-height));
+
+	@media screen and (max-width: 768px) {
+		.content {
+			padding: 0;
+		}
+	}
+}
+
+#emf-intro-text-section {
+	@media screen and (max-width: 768px) {
+		.accent-image {
+			width: 40%;
+			margin-left: 60%;
+			margin-top: -2rem;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		.accent-image {
+			margin-bottom: -30%;
+		}
+	}
+}
+
+#emf-typo-section {
+	@media screen and (min-width: 769px) {
+		align-items: flex-end;
+
+		.soelden-button {
+			margin-top: 10%;
+		}
+	}
+}
+
+#emf-spacing-section-1 {
+	padding-right: var(--main-padding-inline);
+	margin-bottom: var(--main-padding-inline);
+
+	.accent-image {
+		width: max(20%, 10rem);
+	}
+}
+
+#emf-logo-animation-section {
+	@media screen and (max-width: 768px) {
+		.content {
+			gap: 1rem;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		align-items: flex-end;
+
+		.video {
+			width: 100%;
+			padding-inline: 7vw;
+		}
+	}
+}
+
+#emf-logo-dev-section {
+	@media screen and (min-width: 769px) {
+		align-items: flex-end;
+
+		.svg {
+			width: 70%;
+			padding-inline: 7vw;
+		}
+	}
+}
+
+.color-swatches {
+	display: flex;
+	width: 100%;
+
+	& > * {
+		flex: 0 0 22%;
+		padding: max(1vw, 1rem) max(1vw, 1rem) max(2vw, 2rem) max(1vw, 1rem);
+
+		&.anthrazit {
+			color: white;
+			border: 0.0625rem solid white;
+		}
+
+		&.red {
+			color: white;
+			flex-basis: 12%;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		flex-wrap: wrap;
+
+		& > * {
+			flex: 0 0 50%;
+
+			&.red {
+				flex-basis: 28%;
+			}
+		}
+	}
+}
+
+.emf-gifs {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	flex-wrap: wrap;
+
+	.emf-gif {
+		width: calc(50% - 3rem);
+	}
+
+	@media screen and (min-width: 769px) {
+		gap: 10%;
+
+		.emf-gif {
+			width: 17.5%;
+		}
+	}
+}
+
+.project-section {
+	.has-background-image {
+		.background-image {
+			object-fit: contain;
+		}
+	}
+}
+
+#emf-layout-section {
+	.emf-layout-media {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 2rem;
+		margin-top: 6%;
+	}
+
+	@media screen and (min-width: 769px) {
+		.emf-layout-media {
+			flex-direction: row;
+			gap: 10%;
+
+			#emf-layout-animation {
+				width: 37.2%;
+			}
+
+			#emf-layout-example {
+				width: 52.8%;
+			}
+		}
+	}
+}
+
+.side-style-image {
+	display: none;
+
+	@media screen and (min-width: 769px) {
+		display: block;
+		width: calc(100% - 1rem);
+		margin-inline: 0.5rem;
+		margin-bottom: 100%;
+	}
+}
+
+#emf-some-feed-section {
+	#some-feed-media {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		margin-top: 6%;
+		align-items: flex-start;
+
+		@media screen and (min-width: 769px) {
+			gap: 20%;
+			flex-direction: row;
+
+			img {
+				width: 40%;
+			}
+		}
+	}
+
+	.side-style-image {
+		margin-bottom: 300%;
+	}
+}
+
+.soelden-icons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5vw;
+	margin-top: 6%;
+	justify-content: flex-start !important;
+
+	@media screen and (max-width: 768px) {
+		justify-content: center;
+	}
+
+	.soelden-icon {
+		width: calc(20% - 5vw);
+		border: 0.0625rem solid white;
+
+		@media screen and (max-width: 768px) {
+			width: calc(33.33% - 5vw);
+		}
+	}
+}
+
+#emf-website-section,
+#emf-lineup-section,
+#emf-stage-section-1,
+#emf-stage-section-2,
+#emf-bully-section,
+#photopoint-section {
+	@media screen and (min-width: 769px) {
+		.image,
+		.video {
+			width: calc(100% - 9vw);
+			margin-inline: auto;
+		}
+	}
+}
+
+#emf-stage-section-1 {
+	background: linear-gradient(
+		$color-soel-anthrazit 30%,
+		$color-soel-cool-gray 30%
+	);
+}
+
+#emf-spacer-section-2 {
+	.content {
+		padding: var(--main-padding-inline);
+
+		.image {
+			width: 10rem;
+
+			@media screen and (min-width: 769px) {
+				width: 20vw;
+			}
+		}
+	}
+}
+
+#how-we-dance-section {
+	padding-bottom: 25%;
+
+	.svg {
+		width: 60%;
+	}
+
+	@media screen and (min-width: 769px) {
+		.svg {
+			width: 40%;
+		}
+	}
+
+	.background-image {
+		object-position: bottom;
+	}
+}
+
+#merch-section,
+#stage-spacer-section {
+	.content {
+		.image {
+			width: 100%;
+		}
+	}
+}
+
+#stage-spacer-section {
+	background: linear-gradient(
+		$color-soel-cool-gray 30%,
+		$color-soel-mid-blue 30%
+	);
+}
+
+#container-section {
+	@media screen and (min-width: 769px) {
+		.image-slideshow {
+			width: calc(100% - 9vw);
+			margin-inline: auto;
+		}
+	}
+}
+
+#outro-section {
+	.content {
+		padding-inline: var(--main-padding-block);
+	}
+}
