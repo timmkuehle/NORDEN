@@ -16,56 +16,48 @@ class ProjectModel {
 			'slug' => '/projekte/soelden',
 			'content_path' => '/content/projects/soelden',
 			'title' => 'Sölden',
-			'thumbnail' =>
-				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
-			'archive_layer' => 'middle'
+			'thumbnail' => '/content/resources/media/soelden/SOEL_Thumbnail.jpg'
 		],
 		[
 			'slug' => '/projekte/soelden/typografie',
 			'content_path' => '/content/projects/soeldenTypo',
 			'title' => 'Sölden Headline Font',
 			'thumbnail' =>
-				'/content/resources/media/soelden/00_soel_headline_Startbild.jpg',
-			'archive_layer' => 'back'
+				'/content/resources/media/soelden/00_soel_headline_Startbild.jpg'
 		],
 		[
 			'slug' => '/projekte/soelden/electric-mountain-festival',
 			'content_path' => '/content/projects/soeldenEmf',
 			'title' => 'Electric Mountain Festival',
 			'thumbnail' =>
-				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
-			'archive_layer' => 'middle'
+				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg'
 		],
 		[
 			'slug' => '/projekte/aranea',
 			'content_path' => '/content/projects/aranea',
 			'title' => 'ARANEA',
 			'thumbnail' =>
-				'/content/resources/media/aranea/02_ARANEA_Startbild.jpg',
-			'archive_layer' => 'front'
+				'/content/resources/media/aranea/02_ARANEA_Startbild.jpg'
 		],
 		[
 			'slug' => '/projekte/seefeld',
 			'content_path' => '/content/projects/seefeld',
 			'title' => 'Seefeld',
 			'thumbnail' =>
-				'/content/resources/media/seefeld/SFLD_Thumbnail.webp',
-			'archive_layer' => 'front'
+				'/content/resources/media/seefeld/SFLD_Thumbnail.webp'
 		],
 		[
 			'slug' => '/projekte/gurgl',
 			'content_path' => '/content/projects/gurgl',
 			'title' => 'Gurgl',
-			'thumbnail' => '/content/resources/media/gurgl/GRGL_Thumbnail.webp',
-			'archive_layer' => 'back'
+			'thumbnail' => '/content/resources/media/gurgl/GRGL_Thumbnail.webp'
 		],
 		[
 			'slug' => '/projekte/alpachtal',
 			'content_path' => '/content/projects/alpachtal',
 			'title' => 'Alpbachtal',
 			'thumbnail' =>
-				'/content/resources/media/alpbachtal/ABT_Thumbnail.webp',
-			'archive_layer' => 'front'
+				'/content/resources/media/alpbachtal/ABT_Thumbnail.webp'
 		]
 	];
 	private array $currentProject;
