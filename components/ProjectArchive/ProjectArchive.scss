@@ -72,8 +72,10 @@ $project-archive-gap: 19vw;
 					}
 				}
 			}
+		}
 
-			&.active {
+		&.active {
+			.project-link {
 				.project-header {
 					opacity: 1;
 
