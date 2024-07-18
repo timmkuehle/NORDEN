@@ -383,56 +383,56 @@
 				<?php new Image(
     	null,
     	'soelden-icon',
-    	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-1.svg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_1.svg',
     	'Social Media Story Icon',
     	true
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-icon',
-    	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-2.svg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_2.svg',
     	'Social Media Story Icon',
     	true
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-icon',
-    	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-3.svg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_3.svg',
     	'Social Media Story Icon',
     	true
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-icon',
-    	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-4.svg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_4.svg',
     	'Social Media Story Icon',
     	true
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-icon',
-    	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-5.svg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_5.svg',
     	'Social Media Story Icon',
     	true
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-icon',
-    	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-6.svg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_6.svg',
     	'Social Media Story Icon',
     	true
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-icon',
-    	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-7.svg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_7.svg',
     	'Social Media Story Icon',
     	true
     ); ?>
 				<?php new Image(
     	null,
     	'soelden-icon',
-    	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_RZ-8.svg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_8.svg',
     	'Social Media Story Icon',
     	true
     ); ?>
