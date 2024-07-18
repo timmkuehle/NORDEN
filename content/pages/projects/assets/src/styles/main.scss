@@ -3,20 +3,11 @@ body {
 	main {
 		height: calc(100vh - var(--header-height));
 		height: calc(100dvh - var(--header-height));
-		padding-top: 0;
+		padding: 0;
 
 		.project-archive {
+			width: 100%;
 			height: 100%;
-			padding-bottom: 0;
-
-			.minimal-footer {
-				width: calc(100% + var(--main-padding-inline) * 2);
-				padding-block: 1rem;
-
-				.footer-menu {
-					justify-content: center;
-				}
-			}
 		}
 	}
 }
