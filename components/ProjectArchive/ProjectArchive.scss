@@ -15,6 +15,10 @@ $project-archive-gap: 19vw;
 	.project {
 		width: 100%;
 
+		&:first-child {
+			margin-top: var(--header-height);
+		}
+
 		.project-link {
 			display: block;
 			position: relative;
