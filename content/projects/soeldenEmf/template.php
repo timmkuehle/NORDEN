@@ -333,7 +333,8 @@
             	'/content/resources/media/soeldenEmf/SOEL_SM_Postings_Web.png',
             	'EMF Social Media Content',
             	true,
-            	'/content/resources/media/soeldenEmf/SOEL_SM_Postings_Mobile.png'
+            	'/content/resources/media/soeldenEmf/SOEL_SM_Postings_Mobile.png',
+            	680
             ); ?>
         </div>
     </div>
