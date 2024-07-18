@@ -3,15 +3,18 @@ const setupHeaderAnimation = () => {
 	const menuCheckbox = <HTMLInputElement | null>(
 		document.querySelector("#mobile-menu-checkbox")
 	);
+	const projectArchive = document.querySelector(".project-archive");
 
 	if (!siteHeader) return;
 
 	let lastScrollTop =
 		window.pageYOffset || document.documentElement.scrollTop;
 
-	document.addEventListener("scroll", () => {
+	const animateHeaderOnScroll = () => {
 		const curScrollTop =
-			window.pageYOffset || document.documentElement.scrollTop;
+			projectArchive?.scrollTop ||
+			window.pageYOffset ||
+			document.documentElement.scrollTop;
 		const scrollAmount = Math.abs(curScrollTop - lastScrollTop);
 
 		if (!menuCheckbox?.checked) {
@@ -25,7 +28,14 @@ const setupHeaderAnimation = () => {
 				lastScrollTop = curScrollTop;
 			}
 		}
-	});
+	};
+
+	if (projectArchive) {
+		projectArchive.addEventListener("scroll", animateHeaderOnScroll);
+		return;
+	}
+
+	document.addEventListener("scroll", animateHeaderOnScroll);
 };
 
 export default setupHeaderAnimation;
