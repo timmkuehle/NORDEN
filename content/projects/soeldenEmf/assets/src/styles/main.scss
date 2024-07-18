@@ -464,8 +464,7 @@ svg {
 #emf-lineup-section,
 #emf-stage-section-1,
 #emf-stage-section-2,
-#emf-bully-section,
-#photopoint-section {
+#emf-bully-section {
 	@media screen and (min-width: 769px) {
 		.image,
 		.video {
@@ -542,5 +541,14 @@ svg {
 #outro-section {
 	.content {
 		padding-inline: var(--main-padding-block);
+	}
+}
+
+#photopoint-section {
+	@media screen and (min-width: 769px) {
+		.image {
+			width: 80%;
+			margin-left: 4.5vw;
+		}
 	}
 }
