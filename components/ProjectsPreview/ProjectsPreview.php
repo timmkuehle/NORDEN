@@ -20,28 +20,34 @@ class ProjectsPreview extends PHTMLComponent {
 		?>
         <section <?php $this->renderHTMLAttributes(); ?>>
 			<p class="text-style-subline vertical-text color-primary">Our Projects</p>
-			<div class="project-links">
+			<section class="projects">
 				<?php foreach ($this->projects ?? [] as $index => $project): ?>
-					<a id="project-<?php echo $index + 1; ?>" class="project"
-					href="<?php echo BASE_URL . $project['slug']; ?>">
-						<?php new Image(
-      	null,
-      	'project-thumbnail',
-      	$project['thumbnail'],
-      	'Prokjekt ansehen: ' . $project['title'],
-      	true
-      ); ?>
-	  					<h3 class="title"><?php echo $project['title'] ?? 'Untitled'; ?></h3>
-					</a>
-				<?php endforeach; ?>
-    			<?php new Button(
+					<article class="project">
+						<a id="project-<?php echo $index + 1; ?>" class="project-link"
+						href="<?php echo BASE_URL . $project['slug']; ?>">
+							<header class="project-header">
+								<h3 class="project-title"><?php echo $project['title']; ?></h3>
+							</header>
+							<?php new Image(
        	null,
-       	'project-archive-button no-min-width',
-       	'Alle Projekte',
-       	'/projekte',
-       	'secondary'
+       	'project-thumbnail',
+       	$project['thumbnail'],
+       	'Prokjekt ansehen: ' . $project['title'],
+       	true
        ); ?>
-			</div>
+						</a>
+					</article>
+				<?php endforeach; ?>
+				<div class="project-archive-button-container">
+					<?php new Button(
+     	null,
+     	'project-archive-button no-min-width',
+     	'Alle Projekte',
+     	'/projekte',
+     	'secondary'
+     ); ?>
+				</div>
+			</section>
         </section>
 	<?php
 	}
