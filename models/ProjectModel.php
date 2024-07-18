@@ -33,7 +33,7 @@ class ProjectModel {
 			'content_path' => '/content/projects/soeldenEmf',
 			'title' => 'Electric Mountain Festival',
 			'thumbnail' =>
-				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
+				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
 			'archive_layer' => 'middle'
 		],
 		[
