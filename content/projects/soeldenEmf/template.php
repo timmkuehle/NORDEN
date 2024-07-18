@@ -572,6 +572,22 @@
     </div>
     <div class="slot end"></div>
 </section>
+<section id="emf-chillout-lounge-section" class="project-section no-padding-top" style="align-items: flex-end;">
+    <div class="slot start">
+        <p class="side-note">Branding — Chill-Out-Lounge, Sitzkissen, Fassade</p>
+    </div>
+    <div class="content">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/soeldenEmf/EMF_Brandings_ChilloutArea_Web.png',
+        	'EMF Chillout-Lounge',
+        	true,
+        	'/content/resources/media/soeldenEmf/EMF_Brandings_ChilloutArea_Mobile.png'
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
 <section id="how-we-dance-section" class="project-section has-background-image">
     <div class="slot start"></div>
     <div class="content" style="align-items: flex-start;">
