@@ -19,10 +19,12 @@ class ProjectArchive extends PHTMLComponent {
 
 	private function renderProjects(): void {
 		foreach ($this->projects as $project) { ?>
-        <article class="project layer-<?php echo $project['archive_layer'] ??
-        	'middle'; ?>">
+        <article class="project">
             <a class="project-link"
             href="<?php echo BASE_URL . sanitize_uri($project['slug']); ?>">
+				<header class="project-header">
+					<h2 class="project-title"><?php echo $project['title'] ?? 'Untitled'; ?></h2>
+				</header>
 				<?php new Image(
     	null,
     	'project-thumbnail',
@@ -30,8 +32,6 @@ class ProjectArchive extends PHTMLComponent {
     	'Projekt-Thumbnail: ' . $project['title'],
     	true
     ); ?>
-            	<h3 class="project-title"><?php echo $project['title'] ??
-             	'Untitled'; ?></h3>
             </a>
         </article>
         <?php }
@@ -41,7 +41,7 @@ class ProjectArchive extends PHTMLComponent {
 		?>
         <section <?php $this->renderHTMLAttributes(); ?>>
             <?php $this->renderProjects(); ?>
-			<?php new MinimalFooter(null, 'layer-front full-width no-padding'); ?>
+			<?php new SiteFooter(null, 'layer-front'); ?>
         </section>
     <?php
 	}
