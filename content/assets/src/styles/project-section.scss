@@ -17,8 +17,16 @@
 		padding-block: 5%;
 	}
 
+	&.no-padding-top {
+		padding-top: 0 !important;
+	}
+
 	&.large-padding-bottom {
 		padding-bottom: 20%;
+	}
+
+	&.no-padding-bottom {
+		padding-bottom: 0 !important;
 	}
 
 	&.full-width-new {
@@ -47,6 +55,12 @@
 		width: 100%;
 		padding-inline: var(--main-padding-inline);
 
+		&.no-inline-padding-mobile {
+			@media screen and (max-width: 768px) {
+				padding-inline: 0 !important;
+			}
+		}
+
 		& *:first-child {
 			margin-top: 0;
 		}
@@ -56,6 +70,13 @@
 		}
 
 		.column {
+			width: 100%;
+		}
+
+		h1,
+		.image,
+		.svg,
+		.video {
 			width: 100%;
 		}
 	}
