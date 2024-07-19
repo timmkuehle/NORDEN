@@ -1,0 +1,160 @@
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@components/Video/Video.scss";
+@import "@styles/side-note.scss";
+@import "@styles/services.scss";
+@import "@styles/bg-image-container.scss";
+@import "@styles/images-slideshow.scss";
+
+// Project variables
+$color-beige: #ecd7a3;
+$color-mid-beige: #fdf5d7;
+$color-light-beige: #fefaf1;
+$color-medium: #7f7f7f;
+
+// Utility classes
+.col-beige {
+	color: $color-beige;
+}
+.col-medium {
+	color: $color-medium;
+}
+.col-white {
+	color: white;
+}
+
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.bg-col-mid-beige {
+	background-color: $color-mid-beige;
+}
+.bg-col-light-beige {
+	background-color: $color-light-beige;
+}
+.bg-col-medium {
+	background-color: $color-medium;
+}
+.bg-col-white {
+	background-color: white;
+}
+
+.text-large {
+	font-size: max(1.5em, 1.3vw);
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	background-color: white;
+
+	.site-header {
+		background-color: unset;
+		background-image: linear-gradient(
+			rgba(255, 255, 255, 0.3),
+			rgba(255, 255, 255, 0)
+		);
+		box-shadow: unset;
+
+		&.hidden {
+			background-image: unset;
+		}
+	}
+
+	main {
+		padding: 0;
+		font-family: "Fedra Sans", Relevant, Arial, Helvetica, sans-serif;
+
+		h1,
+		h2,
+		h3 {
+			margin-block: 2.25vw;
+			font-family: "Fedra Serif", Cambria, Cochin, Georgia, Times,
+				"Times New Roman", serif;
+			font-size: max(1.75rem, 2.75vw);
+			color: black;
+		}
+
+		p {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+		}
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-medium;
+}
+
+// Project styling
+.services {
+	padding-block: 6vw;
+
+	@-moz-document url-prefix() {
+		& {
+			scrollbar-color: white $color-beige;
+		}
+	}
+
+	&::-webkit-scrollbar-track {
+		background: white;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $color-beige;
+	}
+
+	.service {
+		color: $color-beige;
+	}
+}
+
+// Project styling
+#intro-video-section {
+	margin-top: calc(-1 * var(--header-height));
+
+	@media screen and (max-width: 768px) {
+		.content {
+			padding: 0;
+		}
+	}
+}
+
+#intro-text-section {
+	@media screen and (min-width: 769px) {
+		h1 {
+			width: 60%;
+		}
+	}
+}
+
+#logo-text-section {
+	@media screen and (min-width: 769px) {
+		h2 {
+			width: 80%;
+		}
+	}
+}
+
+#design-principle-section {
+	@media screen and (min-width: 769px) {
+		.content {
+			justify-content: center;
+
+			p {
+				width: 50%;
+			}
+		}
+	}
+}

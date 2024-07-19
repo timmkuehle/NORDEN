@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1205">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-family: FedraSerifAStdDemi, 'Fedra Serif A Std';
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        font-family: FedraSerifAStdBook, 'Fedra Serif A Std';
+      }
+
+      .cls-9 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-10, .cls-11 {
+        font-family: FedraSerifAStdBold, 'Fedra Serif A Std';
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        font-family: FedraSerifAStdMedium, 'Fedra Serif A Std';
+      }
+
+      .cls-11, .cls-7, .cls-8, .cls-14 {
+        fill: #000;
+      }
+
+      .cls-11, .cls-8, .cls-14 {
+        font-size: 64.02px;
+      }
+
+      .cls-7 {
+        font-size: 528.16px;
+      }
+    </style>
+  </defs>
+  <text class="cls-11" transform="translate(61.89 129.19)"><tspan x="0" y="0">Hausschrift 1</tspan></text>
+  <text class="cls-14" transform="translate(61.89 473.3)"><tspan class="cls-6"><tspan x="0" y="0">Bo</tspan><tspan class="cls-5" x="80.47" y="0">o</tspan><tspan x="117.28" y="0">k</tspan></tspan><tspan class="cls-3"><tspan x="0" y="82.69">Demi</tspan></tspan><tspan class="cls-13"><tspan class="cls-12" x="0" y="165.38">M</tspan><tspan class="cls-1" x="66.96" y="165.38">ed</tspan><tspan class="cls-12" x="144.56" y="165.38">i</tspan><tspan x="167.48" y="165.38">um</tspan></tspan><tspan class="cls-10"><tspan x="0" y="248.08">B</tspan><tspan class="cls-4" x="46.93" y="248.08">o</tspan><tspan class="cls-1" x="86.55" y="248.08">ld</tspan></tspan></text>
+  <text class="cls-7" transform="translate(465.12 814.83)"><tspan x="0" y="0">Aa</tspan></text>
+  <text class="cls-8" transform="translate(61.95 1062.82)"><tspan x="0" y="0">ABC</tspan><tspan class="cls-9" x="130.28" y="0">D</tspan><tspan x="179.9" y="0">EFGHIJKLM</tspan><tspan class="cls-2" x="555.17" y="0">N</tspan><tspan class="cls-9" x="607.86" y="0">O</tspan><tspan x="658.63" y="0">P</tspan><tspan class="cls-9" x="699.09" y="0">Q</tspan><tspan x="749.86" y="0">RSTUVWXYZ</tspan><tspan x="0" y="82.69">ab</tspan><tspan class="cls-12" x="73.75" y="82.69">c</tspan><tspan x="105.76" y="82.69">defghijklmnopqrst</tspan><tspan class="cls-9" x="694.48" y="82.69">u</tspan><tspan x="736.34" y="82.69">vwxyz</tspan></text>
+</svg>
