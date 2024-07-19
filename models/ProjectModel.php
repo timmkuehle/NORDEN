@@ -44,7 +44,7 @@ class ProjectModel {
 			'content_path' => '/content/projects/oetztaler',
 			'title' => 'Ötztaler Radmarathon',
 			'thumbnail' =>
-				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg'
+				'/content/resources/media/oetztaler/OERM_Beachflags_updated.jpg'
 		],
 		[
 			'slug' => '/projekte/gurgl',
