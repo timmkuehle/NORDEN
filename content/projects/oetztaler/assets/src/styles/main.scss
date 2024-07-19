@@ -2,6 +2,8 @@
 @import "@styles/project-section.scss";
 @import "@components/Video/Video.scss";
 @import "@styles/side-note.scss";
+@import "@styles/services.scss";
+@import "@styles/images-slideshow.scss";
 
 // Project variables
 $color-oetz-anthrazit: #24353f;
@@ -115,7 +117,7 @@ body {
 		h3 {
 			margin-block: 1.8vw;
 			font-size: max(1.375rem, 1.7vw);
-			color: $color-oetz-anthrazit;
+			color: $color-oetz-blue;
 		}
 
 		p {
@@ -177,3 +179,81 @@ body {
 }
 
 // Project styling
+#logo-section {
+	@media screen and (min-width: 769px) {
+		h1 {
+			width: 85%;
+		}
+	}
+}
+
+#outro-video-section {
+	.video {
+		border: 0.0625rem solid $color-oetz-medium-gray;
+	}
+}
+
+#intro-text-section {
+	p {
+		@media screen and (max-width: 768px) {
+			margin-right: var(--main-padding-inline);
+		}
+	}
+
+	.style-icon {
+		@media screen and (min-width: 769px) {
+			position: relative;
+			transform: translateX(-1.5vw);
+		}
+	}
+
+	#intro-graphic {
+		width: 45%;
+		margin-left: 55%;
+	}
+}
+
+#movement-section {
+	margin-top: max(2rem, 6vw);
+
+	.background-image {
+		width: max(8vw, 6rem);
+		height: auto;
+		left: unset;
+		right: 3vw;
+	}
+
+	@media screen and (max-width: 768px) {
+		padding-top: 5rem;
+
+		.background-image {
+			right: var(--main-padding-inline);
+		}
+	}
+}
+
+.oetztaler-animation-toolbox-video {
+	@media screen and (min-width: 769px) {
+		width: 80%;
+		margin-left: 20%;
+	}
+}
+
+#slideshow-section {
+	.image-slideshow {
+		.controls-container {
+			.button {
+				fill: $color-oetz-anthrazit;
+			}
+		}
+
+		@media screen and (min-width: 769px) {
+			flex-direction: row-reverse;
+			width: 70%;
+
+			.controls-container {
+				margin-bottom: 5vw;
+			}
+		}
+	}
+}
