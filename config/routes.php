@@ -26,6 +26,8 @@ Router::addRoute(
 	'ProjectController'
 );
 
+Router::addRoute('/projekte/alpbachtal', 'ProjectController');
+
 Router::addRoute('/impressum', 'PageController');
 
 Router::addRoute('/datenschutz', 'PageController');
