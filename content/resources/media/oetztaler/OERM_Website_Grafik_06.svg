@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1600 1573.4" style="enable-background:new 0 0 1600 1573.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000052063748769474394540000007292853931328928931_);}
+	.st1{clip-path:url(#SVGID_00000134943580375085416100000013081498963076224940_);}
+	.st2{fill:#112F54;}
+	.st3{fill:#6A98BF;}
+</style>
+<g id="_Muster_Handtuch_klein_">
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="904.1,193.7 1748.1,193.7 1748.1,-161.3 903.9,-161.3 			"/>
+		</defs>
+		<clipPath id="SVGID_00000034780016479323627130000011776447619390722729_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000034780016479323627130000011776447619390722729_);">
+			<g>
+				<defs>
+					<rect id="SVGID_00000006672556783820272960000008411672527986492568_" x="547" y="-91.5" width="769.2" height="643.7"/>
+				</defs>
+				<clipPath id="SVGID_00000093869570805298575470000001152957831925861543_">
+					<use xlink:href="#SVGID_00000006672556783820272960000008411672527986492568_"  style="overflow:visible;"/>
+				</clipPath>
+				<g style="clip-path:url(#SVGID_00000093869570805298575470000001152957831925861543_);">
+					<polygon class="st2" points="760.9,592.7 896.5,835.4 816.9,812.9 681.3,570.1 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="917.1" class="st3" width="224.4" height="224.7"/>
+		<rect x="1375.6" class="st3" width="224.4" height="224.7"/>
+		<rect x="458.5" y="449.6" class="st3" width="224.4" height="224.7"/>
+		<rect x="1375.6" y="449.6" class="st3" width="224.4" height="224.7"/>
+		<rect x="917.1" y="449.6" class="st3" width="224.4" height="224.7"/>
+		<rect x="1375.6" y="1348.7" class="st3" width="224.4" height="224.7"/>
+		<rect x="917.1" y="915.4" class="st3" width="224.4" height="224.7"/>
+		<rect x="1375.6" y="915.4" class="st3" width="224.4" height="224.7"/>
+	</g>
+</g>
+</svg>
