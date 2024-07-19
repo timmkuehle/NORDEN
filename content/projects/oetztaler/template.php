@@ -148,7 +148,8 @@
     <div class="slot start">
         <p class="side-note">Sujets 2023 & 2024</p>
     </div>
-    <div class="content narrow">
+    <div class="content narrow" style="flex-direction: column; align-items: flex-start">
+        <h2 class="col-white">Through the years</h2>
         <div class="image-slideshow">
 			<div class="controls-container">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="button prev">
