@@ -1,0 +1,133 @@
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@components/Video/Video.scss";
+@import "@styles/side-note.scss";
+
+// Project variables
+$color-oetz-anthrazit: #24353f;
+$color-oetz-blue: #a3c4df;
+$color-oetz-red: #e51336;
+$color-oetz-cool-gray: #eeeff1;
+$color-oetz-medium-gray: #7f7f7f;
+
+// Utility classes
+.col-anthrazit {
+	color: $color-oetz-anthrazit;
+}
+.col-blue {
+	color: $color-oetz-blue;
+}
+.col-red {
+	color: $color-oetz-red;
+}
+.col-cool-gray {
+	color: $color-oetz-cool-gray;
+}
+.col-medium-gray {
+	color: $color-oetz-medium-gray;
+}
+
+.bg-col-anthrazit {
+	background-color: $color-oetz-anthrazit;
+}
+.bg-col-blue {
+	background-color: $color-oetz-blue;
+}
+.bg-col-red {
+	background-color: $color-oetz-red;
+}
+.bg-col-cool-gray {
+	background-color: $color-oetz-cool-gray;
+}
+.bg-col-medium-gray {
+	background-color: $color-oetz-medium-gray;
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	background-color: $color-oetz-cool-gray;
+
+	.site-header {
+		background-color: $color-oetz-anthrazit;
+		box-shadow: unset;
+
+		.home-link {
+			&::after {
+				background-color: $color-oetz-blue;
+			}
+
+			.logo {
+				fill: white;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: white;
+
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-oetz-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-oetz-blue;
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		padding: 0;
+		font-family:
+			AS Soelden,
+			Relevant,
+			Arial,
+			Helvetica,
+			sans-serif;
+
+		h2,
+		h3 {
+			margin-block: 1.8vw;
+			font-size: max(1.375rem, 1.7vw);
+			color: $color-oetz-anthrazit;
+		}
+
+		p {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+		}
+	}
+}
+
+// Component styling
+.soelden-text-section {
+	@media screen and (min-width: 769px) {
+		& > *:not(:first-child) {
+			margin-left: 7vw;
+		}
+	}
+}
+.side-note {
+	color: white;
+}
+
+// Project styling
