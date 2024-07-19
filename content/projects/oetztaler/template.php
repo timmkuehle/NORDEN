@@ -178,3 +178,229 @@
     </div>
     <div class="slot end"></div>
 </section>
+<section id="event-section" class="project-section bg-col-anthrazit has-background-image">
+    <div class="slot start">
+        <p class="side-note">Event Branding</p>
+    </div>
+    <div class="content narrow">
+        <div class="image-layout">
+            <?php new Image(
+            	null,
+            	null,
+            	'/content/resources/media/oetztaler/OERM_Transparent_kurz_updated.jpg',
+            	'Ötztaler Event Branding – Transparent (kurz)',
+            	true
+            ); ?>
+            <?php new Image(
+            	null,
+            	null,
+            	'/content/resources/media/oetztaler/OERM_Beachflags_updated.jpg',
+            	'Ötztaler Event Branding – Beachflags',
+            	true
+            ); ?>
+            <?php new Image(
+            	null,
+            	null,
+            	'/content/resources/media/oetztaler/OERM_Transparent_lang_updated.jpg',
+            	'Ötztaler Event Branding – Transparent (lang)',
+            	true
+            ); ?>
+        </div>
+    </div>
+    <div class="slot end"></div>
+    <?php new Image(
+    	null,
+    	'background-image',
+    	'/content/resources/media/oetztaler/OERM_Website_Grafik_05.svg',
+    	true,
+    	'Grafikelement'
+    ); ?>
+</section>
+<section id="shop-section" class="project-section bg-col-anthrazit has-background-image" style="align-items: flex-end;">
+    <div class="slot start">
+        <p class="side-note">Branding Event shop</p>
+    </div>
+    <div class="content narrow">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/oetztaler/OERM_Branding_Shop_updated.png',
+        	'Ötztaler Event Branding – Shop',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+    <?php new Image(
+    	null,
+    	'background-image',
+    	'/content/resources/media/oetztaler/OERM_Website_Grafik_06.svg',
+    	true,
+    	'Grafikelement'
+    ); ?>
+</section>
+<section id="shop-section" class="project-section bg-col-blue full-width-new no-padding-top">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/oetztaler/OERM_Website_Grafik_07.svg',
+        	'Style-Icon'
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="bib-section" class="project-section bg-col-blue">
+    <div class="slot start">
+        <p class="side-note">Branding Trikots</p>
+    </div>
+    <div class="content narrow">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/oetztaler/08_OERM_Trikots_Desktop.png',
+        	'Oetztaler Radmarathon Trikots',
+        	true,
+        	'/content/resources/media/oetztaler/08_OERM_Trikots_Mobile.png'
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="bib-text-section" class="project-section bg-col-blue small-padding">
+    <div class="slot start"></div>
+    <div class="content narrow" style="align-items: flex-start;">
+        <div class="column">
+            <h2 class="col-anthrazit">Uniform, but not</h2>
+            <p>Um die Radfahrer:innen perfekt für deren großen Tag einzukleiden, wurde auch für sämtliche Trikots das Gestaltungskonzept weitergeführt. Das Design ändert sich jedes Jahr und spiegelt so die Vielfalt des Gestaltungskonzepts wider.</p>
+        </div>
+        <div class="column">
+            <?php new Svg(
+            	null,
+            	'style-icon',
+            	'/content/resources/media/oetztaler/OERM_Website_Grafik_03.svg'
+            ); ?>
+        </div>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="bib-photo-section" class="project-section bg-col-blue has-background-image">
+    <div class="slot start"></div>
+    <div class="content narrow" style="align-items: flex-start;">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/oetztaler/08_OERM_Gesamt_Trikots.png',
+        	'Oetztaler Radmarathon Trikots',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+    <?php new Svg(
+    	null,
+    	'background-image',
+    	'/content/resources/media/oetztaler/OERM_Website_Grafik_04.svg'
+    ); ?>
+</section>
+<section class="project-section no-padding-top full-width-new">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	'design-concept-image',
+        	null,
+        	'/content/resources/media/oetztaler/09_OERM_Trennerbild_1920x700.jpg',
+        	'Trennerbild',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section">
+    <div class="slot start">
+        <p class="side-note">Website</p>
+    </div>
+    <div class="content narrow">
+        <?php new Video(
+        	null,
+        	'/content/resources/media/oetztaler/OERM_Website.mp4',
+        	'16/9',
+        	'/content/resources/media/oetztaler/OERM_Website_Still.jpg',
+        	'Ötztaler Radmarathon Website',
+        	true,
+        	true,
+        	true,
+        	true,
+        	false
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="some-section" class="project-section has-background-image no-padding-bottom">
+    <div class="slot start">
+        <p class="side-note">Social media</p>
+    </div>
+    <div class="content narrow" style="align-items: flex-start;">
+        <div class="column" style="width: 60%;">
+            <?php new Image(
+            	null,
+            	null,
+            	'/content/resources/media/oetztaler/OERM_Gesamt_SocialMedia.png',
+            	'Ötztaler Social Media Auftritt'
+            ); ?>
+        </div>
+        <div class="column" style="width: 40%;">
+            <p>Egal ob auf der Website oder den Social Media Kanälen, ob als Standbild oder Bewegtbild: Die grafischen Elemente schaffen eine markante Formensprache und einen hohen Wiedererkennungswert auf allen Plattformen.</p>
+        </div>
+    </div>
+    <div class="slot end"></div>
+    <?php new Image(
+    	null,
+    	'background-image',
+    	'/content/resources/media/oetztaler/OERM_Website_Grafik_03.svg',
+    	'Grafikelement'
+    ); ?>
+</section>
+<section id="gif-section" class="project-section has-background-image" style="align-items: center;">
+    <div class="slot start">
+        <p class="side-note">GIFs</p>
+    </div>
+    <div class="content" style="align-items: flex-start;">
+        <?php new Image(
+        	null,
+        	'oerm-gif',
+        	'/content/resources/media/oetztaler/OERM_GIF1.gif',
+        	'Ötztaler GIF 1'
+        ); ?>
+        <?php new Image(
+        	null,
+        	'oerm-gif',
+        	'/content/resources/media/oetztaler/OERM_GIF2.gif',
+        	'Ötztaler GIF 1'
+        ); ?>
+        <?php new Image(
+        	null,
+        	'oerm-gif',
+        	'/content/resources/media/oetztaler/OERM_GIF3.gif',
+        	'Ötztaler GIF 1'
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+    <?php new Image(
+    	null,
+    	'background-image',
+    	'/content/resources/media/oetztaler/OERM_Website_Grafik_02.svg',
+    	'Grafikelement'
+    ); ?>
+</section>
+<section class="project-section no-padding-bottom full-width-new">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	'design-concept-image',
+        	null,
+        	'/content/resources/media/oetztaler/03_OERM_Trennerbild_extended_updated.png',
+        	'Trennerbild',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
