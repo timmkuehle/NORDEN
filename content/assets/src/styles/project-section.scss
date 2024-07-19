@@ -117,6 +117,10 @@
 			gap: 10%;
 			padding-inline: 0;
 
+			&.narrow {
+				padding-inline: 4.5vw;
+			}
+
 			.column {
 				width: 45%;
 			}
