@@ -55,12 +55,6 @@
 		width: 100%;
 		padding-inline: var(--main-padding-inline);
 
-		&.no-inline-padding-mobile {
-			@media screen and (max-width: 768px) {
-				padding-inline: 0 !important;
-			}
-		}
-
 		& *:first-child {
 			margin-top: 0;
 		}
@@ -98,6 +92,10 @@
 		}
 
 		.content {
+			&.no-inline-padding-mobile {
+				padding-inline: 0 !important;
+			}
+
 			.column {
 				width: 100% !important;
 			}
