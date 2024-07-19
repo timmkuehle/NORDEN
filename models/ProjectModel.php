@@ -26,13 +26,6 @@ class ProjectModel {
 				'/content/resources/media/soelden/00_soel_headline_Startbild.jpg'
 		],
 		[
-			'slug' => '/projekte/soelden/electric-mountain-festival',
-			'content_path' => '/content/projects/soeldenEmf',
-			'title' => 'Electric Mountain Festival',
-			'thumbnail' =>
-				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg'
-		],
-		[
 			'slug' => '/projekte/aranea',
 			'content_path' => '/content/projects/aranea',
 			'title' => 'ARANEA',
@@ -40,11 +33,18 @@ class ProjectModel {
 				'/content/resources/media/aranea/02_ARANEA_Startbild.jpg'
 		],
 		[
-			'slug' => '/projekte/seefeld',
-			'content_path' => '/content/projects/seefeld',
-			'title' => 'Seefeld',
+			'slug' => '/projekte/soelden/electric-mountain-festival',
+			'content_path' => '/content/projects/soeldenEmf',
+			'title' => 'Electric Mountain Festival',
 			'thumbnail' =>
-				'/content/resources/media/seefeld/SFLD_Thumbnail.webp'
+				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg'
+		],
+		[
+			'slug' => '/projekte/soelden/oetztaler-radmarathon',
+			'content_path' => '/content/projects/oetztaler',
+			'title' => 'Ötztaler Radmarathon',
+			'thumbnail' =>
+				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg'
 		],
 		[
 			'slug' => '/projekte/gurgl',
@@ -58,6 +58,13 @@ class ProjectModel {
 			'title' => 'Alpbachtal',
 			'thumbnail' =>
 				'/content/resources/media/alpbachtal/ABT_Thumbnail.webp'
+		],
+		[
+			'slug' => '/projekte/seefeld',
+			'content_path' => '/content/projects/seefeld',
+			'title' => 'Seefeld',
+			'thumbnail' =>
+				'/content/resources/media/seefeld/SFLD_Thumbnail.webp'
 		]
 	];
 	private array $currentProject;
