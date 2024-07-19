@@ -407,6 +407,7 @@ body {
 
 #gif-section {
 	.content {
+		flex-direction: row !important;
 		gap: 5%;
 
 		.oerm-gif {
@@ -428,4 +429,60 @@ body {
 			display: none;
 		}
 	}
+}
+
+#merch-text-section {
+	.background-image {
+		right: 0;
+		left: unset;
+		width: auto;
+		height: 100%;
+	}
+
+	@media screen and (max-width: 768px) {
+		p {
+			width: 80%;
+		}
+
+		.background-image {
+			right: 0;
+			left: unset;
+			width: auto;
+			height: 70%;
+		}
+	}
+}
+
+.merch-image-section {
+	.background-image {
+		top: unset;
+		bottom: 0;
+		left: var(--main-padding-inline);
+		width: 8%;
+		height: auto;
+	}
+
+	@media screen and (max-width: 768px) {
+		.background-image {
+			display: none;
+		}
+	}
+}
+
+#merch-outro-section {
+	.background-image {
+		top: unset;
+		right: 0;
+		bottom: 0;
+		left: unset;
+		width: auto;
+		height: 40%;
+	}
+}
+
+#outro-section {
+	background-image: linear-gradient(
+		$color-oetz-blue 77%,
+		$color-oetz-cool-gray 70%
+	);
 }
