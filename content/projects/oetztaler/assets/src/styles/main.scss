@@ -122,6 +122,28 @@ body {
 			margin-block: 1.75vw;
 			font-size: max(1.125rem, 1.25vw);
 		}
+
+		.services {
+			padding-top: 1rem;
+
+			@-moz-document url-prefix() {
+				& {
+					scrollbar-color: $color-oetz-red $color-oetz-cool-gray;
+				}
+			}
+
+			&::-webkit-scrollbar-track {
+				background: $color-oetz-cool-gray;
+			}
+
+			&::-webkit-scrollbar-thumb {
+				background: $color-oetz-red;
+			}
+
+			.service {
+				color: $color-oetz-red;
+			}
+		}
 	}
 }
 
