@@ -26,6 +26,9 @@ $color-oetz-medium-gray: #7f7f7f;
 .col-medium-gray {
 	color: $color-oetz-medium-gray;
 }
+.col-white {
+	color: white;
+}
 
 .bg-col-anthrazit {
 	background-color: $color-oetz-anthrazit;
@@ -52,6 +55,10 @@ $color-oetz-medium-gray: #7f7f7f;
 	@media screen and (max-width: 768px) {
 		display: none;
 	}
+}
+
+.text-large {
+	font-size: max(1.5em, 1.3vw);
 }
 
 // General styling
