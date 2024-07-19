@@ -53,11 +53,11 @@ class ProjectModel {
 			'thumbnail' => '/content/resources/media/gurgl/GRGL_Thumbnail.webp'
 		],
 		[
-			'slug' => '/projekte/alpachtal',
-			'content_path' => '/content/projects/alpachtal',
+			'slug' => '/projekte/alpbachtal',
+			'content_path' => '/content/projects/alpbachtal',
 			'title' => 'Alpbachtal',
 			'thumbnail' =>
-				'/content/resources/media/alpbachtal/ABT_Thumbnail.webp'
+				'/content/resources/media/alpbachtal/ALPACH_Logoaniamtion_16zu9_Still.jpg'
 		],
 		[
 			'slug' => '/projekte/seefeld',
