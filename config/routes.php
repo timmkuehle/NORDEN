@@ -21,6 +21,11 @@ Router::addRoute(
 
 Router::addRoute('/projekte/aranea', 'ProjectController');
 
+Router::addRoute(
+	'/projekte/soelden/oetztaler-radmarathon',
+	'ProjectController'
+);
+
 Router::addRoute('/impressum', 'PageController');
 
 Router::addRoute('/datenschutz', 'PageController');
