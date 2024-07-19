@@ -259,7 +259,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="design-principle-section" class="project-section small-padding" style="align-items: flex-start;">
+<section id="design-principle-section" class="project-section" style="align-items: flex-start;">
     <div class="slot start">
         <p class="side-note">Gestaltungsprinzip</p>
     </div>
