@@ -156,7 +156,24 @@ body {
 	}
 }
 .side-note {
-	color: white;
+	color: $color-oetz-medium-gray;
+}
+.style-icon {
+	width: max(8vw, 6rem) !important;
+}
+.spacer-section {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+.spacer-headline {
+	width: 0px;
+	overflow: hidden;
+	opacity: 0;
+
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
 }
 
 // Project styling
