@@ -9,6 +9,7 @@
 // Project variables
 $color-beige: #ecd7a3;
 $color-mid-beige: #fdf5d7;
+$color-deep-beige: #fde6b6;
 $color-light-beige: #fefaf1;
 $color-medium: #7f7f7f;
 
@@ -28,6 +29,9 @@ $color-medium: #7f7f7f;
 }
 .bg-col-mid-beige {
 	background-color: $color-mid-beige;
+}
+.bg-col-deep-beige {
+	background-color: $color-deep-beige;
 }
 .bg-col-light-beige {
 	background-color: $color-light-beige;
@@ -89,6 +93,10 @@ body {
 			margin-block: 1.75vw;
 			font-size: max(1.125rem, 1.25vw);
 		}
+	}
+
+	.site-footer {
+		padding-top: 0;
 	}
 }
 
@@ -156,5 +164,32 @@ body {
 				width: 50%;
 			}
 		}
+	}
+}
+
+#poster-section {
+	.background-image {
+		height: auto;
+		object-fit: unset;
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			padding-inline: 15vw;
+
+			.image-slideshow {
+				flex-direction: row-reverse;
+
+				.button {
+					margin-bottom: 10vw;
+				}
+			}
+		}
+	}
+}
+
+#outro-section {
+	@media screen and (min-width: 769px) {
+		padding-inline: var(--main-padding-block);
 	}
 }
