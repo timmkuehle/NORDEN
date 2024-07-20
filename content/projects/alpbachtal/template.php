@@ -293,3 +293,192 @@
     </div>
     <div class="slot end"></div>
 </section>
+<section class="project-section">
+    <div class="slot start">
+        <p class="side-note">Animationen</p>
+    </div>
+    <div class="content">
+        <?php new Video(
+        	'emf-header-video',
+        	'/content/resources/media/alpbachtal/ALPACH_Logoaniamtion_16zu9.mp4',
+        	'16/9',
+        	'/content/resources/media/alpbachtal/ALPACH_Logoaniamtion_16zu9.jpg',
+        	'Alpbachtal Animationen',
+        	true,
+        	true,
+        	true,
+        	true,
+        	false,
+        	'/content/resources/media/alpbachtal/ALPACH_Logoaniamtion_1zu1.mp4',
+        	'1/1',
+        	'/content/resources/media/alpbachtal/ALPACH_Logoaniamtion_1zu1.jpg'
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section small-padding no-padding-bottom">
+    <div class="slot start">
+        <p class="side-note">Website und Social Media</p>
+    </div>
+    <div class="content">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Website_Social Media.png',
+        	'Alpbachtal Website',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section no-padding-top no-padding-bottom full-width-new bg-col-light-beige" style="align-items: flex-start; position: relative; z-index: 50; height: 0;" aria-hidden="true">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Gestaltungselement_Overlay_weiss.svg',
+        	'Gestaltungselement',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section full-width-new no-padding-bottom">
+    <div class="slot start"></div>
+    <div class="content">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Hand_HoldingiPhone.jpg',
+        	'Alpbachtal Website',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section full-width-new no-padding-top">
+    <div class="slot start"></div>
+    <div class="content">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_MagazinAd-Mockup_colorcorrected.jpg',
+        	'Alpbachtal Website',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section no-padding-top no-padding-bottom full-width-new" aria-hidden="true" style="position: relative; z-index: -1; transform: translateY(2%);">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile" style="transform: rotate(180deg);">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Gestaltungselement_Overlay_beige2.svg',
+        	'Gestaltungselement',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="poster-section" class="project-section bg-col-deep-beige no-padding-top no-padding-bottom">
+    <div class="slot start"></div>
+    <div class="content">
+        <div class="image-slideshow">
+			<div class="controls-container">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="button prev">
+					<path d="M7.4 273.4C2.7 268.8 0 262.6 0 256s2.7-12.8 7.4-17.4l176-168c9.6-9.2 24.8-8.8 33.9 .8s8.8 24.8-.8 33.9L83.9 232 424 232c13.3 0 24 10.7 24 24s-10.7 24-24 24L83.9 280 216.6 406.6c9.6 9.2 9.9 24.3 .8 33.9s-24.3 9.9-33.9 .8l-176-168z"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="button next">
+					<path d="M440.6 273.4c4.7-4.5 7.4-10.8 7.4-17.4s-2.7-12.8-7.4-17.4l-176-168c-9.6-9.2-24.8-8.8-33.9 .8s-8.8 24.8 .8 33.9L364.2 232 24 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l340.1 0L231.4 406.6c-9.6 9.2-9.9 24.3-.8 33.9s24.3 9.9 33.9 .8l176-168z"/>
+				</svg>
+			</div>
+			<div class="images-container">
+                <?php new Image(
+                	null,
+                	null,
+                	'/content/resources/media/alpbachtal/ALPBA_Plakat_1.jpg',
+                	'Alpbachtal Plakat 1',
+                	true
+                ); ?>
+                <?php new Image(
+                	null,
+                	null,
+                	'/content/resources/media/alpbachtal/ALPBA_Plakat_2.jpg',
+                	'Alpbachtal Plakat 2',
+                	true
+                ); ?>
+                <?php new Image(
+                	null,
+                	null,
+                	'/content/resources/media/alpbachtal/ALPBA_Plakat_3.jpg',
+                	'Alpbachtal Plakat 3',
+                	true
+                ); ?>
+                <?php new Image(
+                	null,
+                	null,
+                	'/content/resources/media/alpbachtal/ALPBA_Plakat_4.jpg',
+                	'Alpbachtal Plakat 4',
+                	true
+                ); ?>
+                <?php new Image(
+                	null,
+                	null,
+                	'/content/resources/media/alpbachtal/ALPBA_Plakat_5.jpg',
+                	'Alpbachtal Plakat 5',
+                	true
+                ); ?>
+                <?php new Image(
+                	null,
+                	null,
+                	'/content/resources/media/alpbachtal/ALPBA_Plakat_6.jpg',
+                	'Alpbachtal Plakat 6',
+                	true
+                ); ?>
+			</div>
+		</div>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section no-padding-top no-padding-bottom full-width-new" aria-hidden="true" style="position: relative; z-index: -1; transform: translateY(-2%);">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Gestaltungselement_Overlay_beige2.svg',
+        	'Gestaltungselement',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section">
+    <div class="slot start"></div>
+    <div class="content">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Gesamt_Merchandise.jpg',
+        	'Alpbachtal Merch',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="outro-section" class="project-section full-width-new no-padding-bottom">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Maedchen_rz.jpg',
+        	'Alpbachtal Outro',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
