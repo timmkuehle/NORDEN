@@ -211,6 +211,10 @@ body {
 			}
 		}
 	}
+
+	.site-footer {
+		background-color: $color-gray-5;
+	}
 }
 
 // Component styling
@@ -252,8 +256,6 @@ body {
 }
 
 #claim-section {
-	padding-bottom: 35vw;
-
 	.background-image {
 		transform: rotate(73deg);
 		top: 30vw;
@@ -261,6 +263,7 @@ body {
 	}
 
 	@media screen and (min-width: 769px) {
+		padding-bottom: 35vw;
 		.video {
 			width: 70%;
 		}
@@ -371,6 +374,7 @@ body {
 
 #standup-section {
 	h2 {
+		width: 70%;
 		margin-bottom: 10vw;
 	}
 
@@ -408,6 +412,35 @@ body {
 	@media screen and (min-width: 769px) {
 		p {
 			width: 70%;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		h2 {
+			.svg {
+				width: 60%;
+			}
+		}
+	}
+}
+
+#alpine-auszeit-section {
+	.svg {
+		width: 70%;
+	}
+
+	.background-image {
+		transform: scale(1, -1);
+		top: -15vw;
+		height: auto;
+	}
+}
+
+#aa-folder-section {
+	@media screen and (min-width: 769px) {
+		.image {
+			width: 85%;
+			margin-left: 15%;
 		}
 	}
 }
