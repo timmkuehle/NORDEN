@@ -88,7 +88,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section small-padding bg-col-light-beige">
+<section id="places-section" class="project-section small-padding bg-col-light-beige">
     <div class="slot start">
         <p class="side-note">Ortsbezeichnungen</p>
     </div>
@@ -105,7 +105,7 @@
         </div>
         <div class="column">
             <?php new Image(
-            	null,
+            	'places-logos',
             	null,
             	'/content/resources/media/alpbachtal/ALPBA_Logo_Ortsbezeichnungen.svg',
             	'Alpbachtal Ortslogos',
@@ -320,7 +320,7 @@
     <div class="slot start">
         <p class="side-note">Website und Social Media</p>
     </div>
-    <div class="content">
+    <div class="content narrow">
         <?php new Image(
         	null,
         	null,
@@ -344,27 +344,53 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section full-width-new no-padding-bottom">
+<section class="project-section full-width-new">
     <div class="slot start"></div>
     <div class="content">
         <?php new Image(
         	null,
         	null,
         	'/content/resources/media/alpbachtal/ALPBA_Hand_HoldingiPhone.jpg',
-        	'Alpbachtal Website',
+        	'Alpbachtal Social Media',
         	true
         ); ?>
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section full-width-new no-padding-top">
+<section class="project-section">
+    <div class="slot start"></div>
+    <div class="content narrow">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Geschaeftsausstattung.jpg',
+        	'Alpbachtal Intern',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section full-width-new">
     <div class="slot start"></div>
     <div class="content">
         <?php new Image(
         	null,
         	null,
         	'/content/resources/media/alpbachtal/ALPBA_MagazinAd-Mockup_colorcorrected.jpg',
-        	'Alpbachtal Website',
+        	'Alpbachtal Magazin',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section">
+    <div class="slot start"></div>
+    <div class="content narrow">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Alpbachtal_Intern.jpg',
+        	'Alpbachtal Intern',
         	true
         ); ?>
     </div>
@@ -458,7 +484,7 @@
 </section>
 <section class="project-section">
     <div class="slot start"></div>
-    <div class="content">
+    <div class="content narrow">
         <?php new Image(
         	null,
         	null,
