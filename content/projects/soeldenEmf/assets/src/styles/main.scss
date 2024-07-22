@@ -360,14 +360,14 @@ svg {
 	flex-wrap: wrap;
 
 	.emf-gif {
-		width: calc(50% - 3rem);
+		width: calc(50% - 3rem) !important;
 	}
 
 	@media screen and (min-width: 769px) {
 		gap: 10%;
 
 		.emf-gif {
-			width: 17.5%;
+			width: 17.5% !important;
 		}
 	}
 }
@@ -451,11 +451,11 @@ svg {
 	}
 
 	.soelden-icon {
-		width: calc(20% - 5vw);
+		width: calc(20% - 5vw) !important;
 		border: 0.0625rem solid white;
 
 		@media screen and (max-width: 768px) {
-			width: calc(33.33% - 5vw);
+			width: calc(33.33% - 5vw) !important;
 		}
 	}
 }
@@ -533,7 +533,8 @@ svg {
 #container-section {
 	@media screen and (min-width: 769px) {
 		.image-slideshow {
-			width: calc(100% - 9vw);
+			flex-direction: column;
+			width: calc(100% - 30vw);
 			margin-inline: auto;
 		}
 	}
