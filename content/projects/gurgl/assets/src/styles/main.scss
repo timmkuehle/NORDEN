@@ -161,7 +161,8 @@ body {
 	main {
 		width: 100vw;
 		overflow-x: hidden;
-		padding: 0;
+		margin-top: 0;
+		padding: var(--header-height) 0 0 0;
 		font-family:
 			Adelle Sans Gurgl,
 			Relevant,
@@ -275,7 +276,7 @@ body {
 }
 
 #font-development-section {
-	.svg {
+	.image {
 		width: 40%;
 		margin-inline: auto;
 	}
@@ -284,5 +285,129 @@ body {
 		margin-top: 3vw;
 		background-color: $color-blue;
 		border-color: $color-blue;
+	}
+}
+
+#claim-headline-section {
+	@media screen and (min-width: 769px) {
+		.svg {
+			width: 85%;
+		}
+	}
+
+	.background-image {
+		transform: scale(1, -1);
+		top: -15vw;
+		height: auto;
+	}
+}
+
+#colors-section {
+	overflow: visible;
+	background-image: linear-gradient($color-gray-5 60%, $color-gray-2 60%);
+
+	.background-image {
+		transform: scale(-1, -1);
+		top: -10vw;
+		left: unset;
+		right: -20vw;
+		width: 80%;
+		height: auto;
+	}
+
+	@media screen and (min-width: 769px) {
+		.svg {
+			margin-top: 10vw;
+		}
+	}
+}
+
+#some-section {
+	.background-image {
+		top: unset;
+		left: -20%;
+		bottom: 0;
+		width: 70%;
+		height: auto;
+	}
+
+	@media screen and (min-width: 769px) {
+		.column:first-child {
+			margin-top: 10vw;
+
+			img {
+				margin-top: 15vw;
+			}
+		}
+	}
+}
+
+#website-section {
+	@media screen and (min-width: 769px) {
+		.image {
+			width: 70%;
+			margin-left: 30%;
+		}
+	}
+}
+
+#magazine-section {
+	.background-image {
+		top: -2px;
+		left: 0;
+		transform: scale(-1, -1);
+		height: auto;
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			.image {
+				width: 70%;
+				margin-left: 30%;
+			}
+		}
+	}
+}
+
+#standup-section {
+	h2 {
+		margin-bottom: 10vw;
+	}
+
+	@media screen and (min-width: 769px) {
+		.column:first-child {
+			position: relative;
+			z-index: 1;
+
+			h2 {
+				width: calc(100% + 16vw);
+			}
+
+			p {
+				width: 80%;
+			}
+		}
+
+		.column:not(:first-child) {
+			width: calc(45% + 10vw);
+			margin-left: -10vw;
+		}
+	}
+}
+
+#folder-section {
+	.background-image {
+		top: unset;
+		bottom: -30vw;
+		left: 0;
+		height: auto;
+	}
+}
+
+#worldcup-text-section {
+	@media screen and (min-width: 769px) {
+		p {
+			width: 70%;
+		}
 	}
 }
