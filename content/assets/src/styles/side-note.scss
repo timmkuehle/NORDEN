@@ -1,7 +1,7 @@
 .side-note {
 	margin-block: 1.25em;
 	text-transform: uppercase;
-	font-size: max(0.9375rem, 0.75vw);
+	font-size: max(0.9375rem, 0.75vw) !important;
 
 	@media screen and (min-width: 769px) {
 		transform: rotate(180deg) !important;
