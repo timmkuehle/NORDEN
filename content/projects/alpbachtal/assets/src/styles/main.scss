@@ -12,6 +12,7 @@ $color-mid-beige: #fdf5d7;
 $color-deep-beige: #fde6b6;
 $color-light-beige: #fefaf1;
 $color-medium: #7f7f7f;
+$color-green: #4c8155;
 
 // Utility classes
 .col-beige {
@@ -73,6 +74,32 @@ body {
 		&.hidden {
 			background-image: unset;
 		}
+
+		.home-link {
+			&::after {
+				background-color: $color-green;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-green;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-green;
+					}
+				}
+			}
+		}
 	}
 
 	main {
@@ -127,6 +154,15 @@ body {
 		color: $color-beige;
 	}
 }
+.project-section {
+	@media screen and (min-width: 769px) {
+		.content {
+			&.narrow {
+				padding-inline: 9vw;
+			}
+		}
+	}
+}
 
 // Project styling
 #intro-video-section {
@@ -155,6 +191,15 @@ body {
 	}
 }
 
+#places-section {
+	#places-logos {
+		@media screen and (min-width: 769px) {
+			width: 70%;
+			margin-inline: auto;
+		}
+	}
+}
+
 #design-principle-section {
 	@media screen and (min-width: 769px) {
 		.content {
@@ -175,7 +220,7 @@ body {
 
 	@media screen and (min-width: 769px) {
 		.content {
-			padding-inline: 15vw;
+			padding-inline: 25vw;
 
 			.image-slideshow {
 				flex-direction: row-reverse;
