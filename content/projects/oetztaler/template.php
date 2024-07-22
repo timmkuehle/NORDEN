@@ -63,12 +63,8 @@
 	<p class="service">Corporate Design</p>
 	<p class="service">Branding & Implementierung</p>
 	<p class="service">Online & Offline Kommunikationskonzept</p>
-	<p class="service">Kommunikationkonzept</p>
-	<p class="service">Fontdesign</p>
-	<p class="service">Brandclip</p>
 	<p class="service">Motion Design</p>
 	<p class="service">Social Media Konzept</p>
-	<p class="service">Anpassung aller Events / Submarken</p>
 </section>
 <section id="movement-section" class="project-section has-background-image">
     <div class="slot start"></div>
@@ -160,18 +156,18 @@
 				</svg>
 			</div>
 			<div class="images-container">
+                <?php new Image(
+                	null,
+                	null,
+                	'/content/resources/media/oetztaler/05_OERM_Sujet2024.jpg',
+                	'Oetztaler Sujet 2024',
+                	true
+                ); ?>
 				<?php new Image(
     	null,
     	null,
     	'/content/resources/media/oetztaler/05_OERM_Sujet2023.jpg',
     	'Oetztaler Sujet 2023',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	null,
-    	'/content/resources/media/oetztaler/05_OERM_Sujet2024.jpg',
-    	'Oetztaler Sujet 2024',
     	true
     ); ?>
 			</div>

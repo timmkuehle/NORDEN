@@ -164,8 +164,6 @@ body {
 		}
 
 		.services {
-			padding-top: 1rem;
-
 			@-moz-document url-prefix() {
 				& {
 					scrollbar-color: $color-oetz-red $color-oetz-cool-gray;
@@ -305,7 +303,7 @@ body {
 
 		@media screen and (min-width: 769px) {
 			flex-direction: row-reverse;
-			width: 70%;
+			width: 55%;
 
 			.controls-container {
 				margin-bottom: 5vw;
