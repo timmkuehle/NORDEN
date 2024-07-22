@@ -1,0 +1,288 @@
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@components/Video/Video.scss";
+@import "@styles/side-note.scss";
+@import "@styles/services.scss";
+@import "@styles/bg-image-container.scss";
+
+// Project variables
+$color-white: white;
+$color-off-white: #d0d0ce;
+$color-gray-1: #c8c9c7;
+$color-gray-2: #bbbcbc;
+$color-gray-3: #b1b3b3;
+$color-gray-4: #97999b;
+$color-gray-5: #75787b;
+$color-blue: #004af0;
+
+// Utility classes
+.col-white {
+	color: $color-white;
+}
+.col-off-white {
+	color: $color-off-white;
+}
+.col-gray-1 {
+	color: $color-gray-1;
+}
+.col-gray-2 {
+	color: $color-gray-2;
+}
+.col-gray-3 {
+	color: $color-gray-3;
+}
+.col-gray-4 {
+	color: $color-gray-4;
+}
+.col-gray-5 {
+	color: $color-gray-5;
+}
+.col-blue {
+	color: $color-blue;
+}
+
+.bg-col-white {
+	background-color: $color-white;
+}
+.bg-col-off-white {
+	background-color: $color-off-white;
+}
+.bg-col-gray-1 {
+	background-color: $color-gray-1;
+}
+.bg-col-gray-2 {
+	background-color: $color-gray-2;
+}
+.bg-col-gray-3 {
+	background-color: $color-gray-3;
+}
+.bg-col-gray-4 {
+	background-color: $color-gray-4;
+}
+.bg-col-gray-5 {
+	background-color: $color-gray-5;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+.text-large {
+	font-size: max(1.5em, 1.3vw);
+}
+
+// General styling
+body {
+	background-color: $color-gray-2;
+
+	.site-header {
+		background-color: $color-gray-2;
+		box-shadow: unset;
+
+		/* START: Fix for weird header background-behavior */
+		&::before {
+			content: "";
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: $color-gray-2;
+			transition: opacity 0.35s ease-in-out;
+		}
+
+		&.hidden {
+			&:before {
+				opacity: 0;
+			}
+		}
+		/* END: Fix for weird header background-behavior */
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: white;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: white;
+
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-gray-2;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: white;
+				}
+			}
+		}
+	}
+
+	main {
+		width: 100vw;
+		overflow-x: hidden;
+		padding: 0;
+		font-family:
+			Adelle Sans Gurgl,
+			Relevant,
+			Arial,
+			Helvetica,
+			sans-serif;
+
+		h2 {
+			margin-block: 1.8vw;
+			font-family:
+				Adelle Sans Gurgl HL,
+				Relevant,
+				Arial,
+				Helvetica,
+				sans-serif;
+			font-weight: 300;
+			font-size: max(1.75rem, 2.75vw);
+		}
+
+		h3,
+		p {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+			font-weight: 400;
+		}
+
+		.services {
+			padding-top: 1rem;
+
+			@-moz-document url-prefix() {
+				& {
+					scrollbar-color: $color-blue $color-gray-2;
+				}
+			}
+
+			&::-webkit-scrollbar-track {
+				background: $color-gray-2;
+			}
+
+			&::-webkit-scrollbar-thumb {
+				background: $color-blue;
+			}
+
+			.service {
+				color: $color-blue;
+			}
+		}
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-blue;
+}
+.project-section {
+	overflow: hidden;
+}
+
+// Project styling
+#intro-bg-image-container {
+	.bg-image {
+		z-index: 101;
+		transform: rotate(180deg);
+		top: -25vw;
+		right: -20vw;
+		left: unset;
+	}
+}
+
+#logo-section {
+	@media screen and (min-width: 769px) {
+		.svg {
+			width: 60%;
+		}
+	}
+}
+
+#intro-text-section {
+	background-image: linear-gradient($color-gray-2 50%, $color-gray-5 50%);
+
+	.background-image {
+		transform: scale(-1, -1);
+		height: auto;
+		top: unset;
+		bottom: 0;
+	}
+}
+
+#claim-section {
+	padding-bottom: 35vw;
+
+	.background-image {
+		transform: rotate(73deg);
+		top: 30vw;
+		left: -40vw;
+	}
+
+	@media screen and (min-width: 769px) {
+		.video {
+			width: 70%;
+		}
+	}
+}
+
+#logo-animation-section {
+	.background-image {
+		height: auto;
+		top: unset;
+		bottom: -15vw;
+	}
+}
+
+#font-development-section {
+	.svg {
+		width: 40%;
+		margin-inline: auto;
+	}
+
+	.button {
+		margin-top: 3vw;
+		background-color: $color-blue;
+		border-color: $color-blue;
+	}
+}
