@@ -16,7 +16,9 @@ class ProjectModel {
 			'slug' => '/projekte/soelden',
 			'content_path' => '/content/projects/soelden',
 			'title' => 'Sölden',
-			'thumbnail' => '/content/resources/media/soelden/SOEL_Thumbnail.jpg'
+			'thumbnail' =>
+				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
+			'category' => ''
 		],
 		[
 			'slug' => '/projekte/soelden/typografie',
