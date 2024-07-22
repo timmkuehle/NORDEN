@@ -173,6 +173,7 @@ p {
 
 #aranea-claim {
 	@media screen and (min-width: 769px) {
+		width: 75%;
 		margin-left: 25%;
 	}
 }
@@ -223,13 +224,12 @@ p {
 }
 
 #aranea-social-media-section {
-	background: linear-gradient($color-orange 40%, $color-light 40%);
+	background: linear-gradient($color-orange 45%, $color-light 45%);
 
 	.image {
 		@media screen and (min-width: 769px) {
 			width: 90%;
 			margin-left: 10%;
-			background: linear-gradient($color-orange 50%, $color-light 50%);
 		}
 	}
 }

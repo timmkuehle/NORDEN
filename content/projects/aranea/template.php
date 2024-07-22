@@ -33,14 +33,12 @@
 	<div class="slot end"></div>
 </section>
 <section class="services bg-col-dark-green">
-	<p class="service">Markenstrategie</p>
 	<p class="service">Corporate Design</p>
 	<p class="service">Branding & Implementierung</p>
-	<p class="service">Online & Offline Kommunikationskonzept</p>
-	<p class="service">Brandclip</p>
-	<p class="service">Animationen</p>
+	<p class="service">Print</p>
 	<p class="service">Social Media</p>
-	<p class="service">Anpassung aller Events / Submarken</p>
+	<p class="service">Fassadenbeklebeung</p>
+	<p class="service">Merchandise</p>
 </section>
 <section class="project-section small-padding no-padding-bottom-mobile">
 	<div class="slot start">
@@ -148,9 +146,9 @@
 	</div>
 	<div class="slot end"></div>
 </section>
-<section class="project-section small-padding">
+<section class="project-section small-padding no-padding-top">
 	<div class="slot start">
-		<p class="side-note">Logo Entwicklung</p>
+		<p class="side-note">Colors</p>
 	</div>
 	<div class="content"></div>
 	<div class="slot end"></div>
