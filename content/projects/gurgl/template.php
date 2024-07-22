@@ -443,3 +443,83 @@
     </div>
     <div class="slot end"></div>
 </section>
+<section id="alpine-auszeit-section" class="project-section has-background-image bg-col-gray-5">
+    <div class="slot start"></div>
+    <div class="content" style="align-items: flex-start;">
+        <?php new Svg(
+        	null,
+        	null,
+        	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_Title.svg',
+        	'Alpine Auszeit'
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+    <?php new Image(
+    	null,
+    	'background-image',
+    	'/content/resources/media/gurgl/Gurgl_Hintergrundelement_hell.svg',
+    	'Gestaltungselement',
+    	true
+    ); ?>
+</section>
+<section id="aa-image-section" class="project-section bg-col-gray-5">
+    <div class="slot start"></div>
+    <div class="content narrow">
+        <div class="column" style="width: 40%;">
+            <h2 class="col-white">The diamond of the Alps</h2>
+            <h3 class="col-white">AS Gurgl headline font:</h3>
+            <p class="col-white">Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungsation</p>
+        </div>
+        <div class="column">
+            <?php new Image(
+            	null,
+            	null,
+            	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_PanoramaCloseup.png',
+            	'Panorama / Close Up',
+            	true
+            ); ?>
+        </div>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="aa-folder-section" class="project-section bg-col-gray-5 small-padding no-padding-bottom">
+    <div class="slot start"></div>
+    <div class="content narrow">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_Folder_Desktop.png',
+        	'Alpine Auszeit - Folder',
+        	true,
+        	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_Folder_Mobile.png'
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="aa-outro-section" class="project-section bg-col-gray-5 no-padding-top no-padding-bottom full-width-new">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_HoechsterGenuss.png',
+        	'Höchster Genuss',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section id="aa-outro-section" class="project-section bg-col-gray-5 full-width-new">
+    <div class="slot start"></div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/gurgl/GURGL_Merchandise_Desktop.png',
+        	'GURGL Merch',
+        	true,
+        	'/content/resources/media/gurgl/GURGL_Merchandise_Mobile.png'
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
