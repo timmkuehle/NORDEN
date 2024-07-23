@@ -215,6 +215,12 @@ body {
 
 // Project styling
 #logo-section {
+	background-image: linear-gradient($color-mid-blue 50%, white 50%);
+
+	.side-note {
+		color: $color-blue;
+	}
+
 	#seefeld-logo {
 		position: relative;
 		width: 60%;
@@ -222,6 +228,12 @@ body {
 	}
 
 	@media screen and (min-width: 769px) {
+		background-image: linear-gradient($color-mid-blue 37%, white 37%);
+
+		.side-note {
+			color: $color-gold;
+		}
+
 		#seefeld-logo {
 			margin-bottom: -14.5%;
 		}
