@@ -17,7 +17,7 @@ class ProjectModel {
 			'content_path' => '/content/projects/soelden',
 			'title' => 'Sölden',
 			'thumbnail' =>
-				'/content/resources/media/soelden/SOEL_Thumbnail.jpg',
+				'/content/resources/media/soelden/00_SOEL_Thumbnail2.jpg',
 			'category' => ''
 		],
 		[
@@ -46,26 +46,28 @@ class ProjectModel {
 			'content_path' => '/content/projects/oetztaler',
 			'title' => 'Ötztaler Radmarathon',
 			'thumbnail' =>
-				'/content/resources/media/oetztaler/OERM_Beachflags_updated.jpg'
+				'/content/resources/media/oetztaler/00_OERM_Thumbnail.jpg'
 		],
 		[
 			'slug' => '/projekte/gurgl',
 			'content_path' => '/content/projects/gurgl',
 			'title' => 'Gurgl',
-			'thumbnail' => '/content/resources/media/gurgl/GRGL_Thumbnail.webp'
+			'thumbnail' =>
+				'/content/resources/media/gurgl/00_Gurgl_Thumbnail.jpg'
 		],
 		[
 			'slug' => '/projekte/alpbachtal',
 			'content_path' => '/content/projects/alpbachtal',
 			'title' => 'Alpbachtal',
 			'thumbnail' =>
-				'/content/resources/media/alpbachtal/ALPACH_Logoaniamtion_16zu9_Still.jpg'
+				'/content/resources/media/alpbachtal/00_ALPACH_Thumbnail.jpg'
 		],
 		[
 			'slug' => '/projekte/seefeld',
 			'content_path' => '/content/projects/seefeld',
 			'title' => 'Seefeld',
-			'thumbnail' => '/content/resources/media/seefeld/01_SFLD_Header.jpg'
+			'thumbnail' =>
+				'/content/resources/media/seefeld/01_SFLD_Thumbnail.jpg'
 		]
 	];
 	private array $currentProject;
