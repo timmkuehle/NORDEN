@@ -163,6 +163,8 @@ body {
 			font-family: Relevant, Arial, Helvetica, sans-serif;
 			font-weight: 300;
 			font-size: max(1.75rem, 2.75vw);
+			letter-spacing: 0.1875em;
+			color: $color-mid-blue;
 		}
 
 		h3 {
@@ -182,7 +184,7 @@ body {
 
 			@-moz-document url-prefix() {
 				& {
-					scrollbar-color: $color-gray-blue white;
+					scrollbar-color: $color-mid-blue white;
 				}
 			}
 
@@ -237,5 +239,108 @@ body {
 		#seefeld-logo {
 			margin-bottom: -14.5%;
 		}
+	}
+}
+
+#font-section {
+	background-image: linear-gradient($color-light-blue 85%, white 85%);
+}
+
+#hochplateau-section {
+	background-image: linear-gradient(white 65%, $color-light-blue 65%);
+
+	.svg {
+		width: 80%;
+	}
+
+	@media screen and (min-width: 769px) {
+		background-image: linear-gradient(white 63%, $color-light-blue 63%);
+
+		.svg {
+			width: 50%;
+		}
+	}
+}
+
+#digital-section {
+	background-image: linear-gradient($color-light-blue 15%, white 15%);
+
+	.content {
+		flex-direction: column;
+		margin-top: 5vw;
+		padding-inline: 3vw;
+		background-color: $color-gray-blue;
+
+		#seefeld-website {
+			margin-top: -5vw;
+		}
+
+		#digital-text {
+			margin-block: 7vw 3vw;
+		}
+
+		#seefeld-social-media {
+			margin-bottom: -7vw;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			margin-block: 0;
+
+			#digital-text {
+				width: 30%;
+				margin-left: 8vw;
+			}
+
+			#seefeld-social-media {
+				width: 70%;
+				margin-inline: auto;
+			}
+		}
+	}
+}
+
+#icons-section {
+	.background-image {
+		transform: scaleX(-1);
+		top: unset;
+		right: -6%;
+		bottom: 10%;
+		left: unset;
+		width: auto;
+		height: 37%;
+	}
+
+	@media screen and (min-width: 769px) {
+		.background-image {
+			height: 48%;
+		}
+	}
+}
+
+#papers-section {
+	.image {
+		width: 50%;
+		margin-inline: auto;
+	}
+}
+
+#branding-section-1 {
+	background-image: linear-gradient($color-light-blue 37%, $color-blue 37%);
+
+	@media screen and (min-width: 769px) {
+		background-image: linear-gradient(
+			$color-light-blue 25%,
+			$color-blue 25%
+		);
+	}
+}
+
+#branding-section-2 {
+	background-image: linear-gradient($color-blue 92%, white 92%);
+
+	@media screen and (min-width: 769px) {
+		background-image: linear-gradient($color-blue 75%, white 75%);
 	}
 }
