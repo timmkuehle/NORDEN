@@ -1,0 +1,229 @@
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@components/Video/Video.scss";
+@import "@styles/side-note.scss";
+@import "@styles/services.scss";
+@import "@styles/bg-image-container.scss";
+
+// Project variables
+$color-blue: #005587;
+$color-gray-blue: #658eb4;
+$color-mid-blue: #9dbad7;
+$color-light-blue: #e5eef7;
+$color-gold: #d7b072;
+
+// Utility classes
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.col-mid-blue {
+	color: $color-mid-blue;
+}
+.col-light-blue {
+	color: $color-light-blue;
+}
+.col-gold {
+	color: $color-gold;
+}
+
+.bg-col-white {
+	background-color: white;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+.bg-col-mid-blue {
+	background-color: $color-mid-blue;
+}
+.bg-col-light-blue {
+	background-color: $color-light-blue;
+}
+.bg-col-gold {
+	background-color: $color-gold;
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+.text-large {
+	font-size: max(1.5em, 1.3vw);
+}
+
+// General styling
+body {
+	background-color: white;
+
+	.site-header {
+		background-color: $color-mid-blue;
+		box-shadow: unset;
+
+		/* START: Fix for weird header background-behavior */
+		&::before {
+			content: "";
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: $color-mid-blue;
+			transition: opacity 0.35s ease-in-out;
+		}
+
+		&.hidden {
+			&:before {
+				opacity: 0;
+			}
+		}
+		/* END: Fix for weird header background-behavior */
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: white;
+				transition:
+					transform 0.3s ease-in-out 0.08s,
+					fill 0.3s ease-out;
+			}
+		}
+
+		&.hidden {
+			.home-link {
+				.logo {
+					fill: $color-blue;
+					transition:
+						transform 0.3s ease-in-out 0s,
+						fill 0.3s ease-out;
+				}
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: white;
+
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-mid-blue;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: white;
+				}
+			}
+		}
+	}
+
+	main {
+		width: 100vw;
+		overflow-x: hidden;
+		margin-top: 0;
+		padding: var(--header-height) 0 0 0;
+		font-family: "Kitsch Text", Relevant, Arial, Helvetica, sans-serif;
+
+		h2 {
+			margin-block: 1.8vw;
+			font-family: Relevant, Arial, Helvetica, sans-serif;
+			font-weight: 300;
+			font-size: max(1.75rem, 2.75vw);
+		}
+
+		h3 {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+			font-weight: 300;
+		}
+
+		p {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+			font-weight: 400;
+		}
+
+		.services {
+			padding-top: 1rem;
+
+			@-moz-document url-prefix() {
+				& {
+					scrollbar-color: $color-gray-blue white;
+				}
+			}
+
+			&::-webkit-scrollbar-track {
+				background: white;
+			}
+
+			&::-webkit-scrollbar-thumb {
+				background: $color-gray-blue;
+			}
+
+			.service {
+				text-transform: uppercase;
+				font-family: Relevant, Arial, Helvetica, sans-serif;
+				font-weight: 300;
+				color: $color-gray-blue;
+			}
+		}
+	}
+
+	.site-footer {
+		background-color: white;
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-gold;
+}
+
+// Project styling
+#logo-section {
+	#seefeld-logo {
+		position: relative;
+		width: 60%;
+		margin-bottom: -27%;
+	}
+
+	@media screen and (min-width: 769px) {
+		#seefeld-logo {
+			margin-bottom: -14.5%;
+		}
+	}
+}
