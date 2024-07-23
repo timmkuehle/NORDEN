@@ -231,7 +231,7 @@
     	'Gestaltungselement'
     ); ?>
 </section>
-<section id="animation-section" class="project-section" style="align-items: flex-end;">
+<section id="animation-section" class="project-section large-padding-bottom" style="align-items: flex-end;">
     <div class="slot start">
         <p class="side-note">Sommerkampagne</p>
     </div>
@@ -302,7 +302,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="magazine-section" class="project-section overhang-right has-background-image bg-col-gray-5" style="align-items: flex-end;">
+<section id="magazine-section" class="project-section overhang-right has-background-image bg-col-gray-5 large-padding-bottom" style="align-items: flex-end;">
     <div class="slot start">
         <p class="side-note">Print</p>
     </div>
