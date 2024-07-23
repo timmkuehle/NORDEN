@@ -29,7 +29,7 @@ class ProjectArchive extends PHTMLComponent {
     	null,
     	'project-thumbnail',
     	$project['thumbnail'],
-    	'Projekt-Thumbnail: ' . $project['title'],
+    	'NORDEN Projekt: ' . $project['title'],
     	true
     ); ?>
             </a>
