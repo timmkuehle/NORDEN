@@ -123,15 +123,18 @@
     <div class="content">
         <?php new Video(
         	null,
-        	'/content/resources/media/gurgl/Gurgl_Claim.mp4',
+        	'/content/resources/media/gurgl/Gurgl_Logoanimation_Web.mp4',
         	'16/9',
-        	'/content/resources/media/gurgl/Gurgl_Claim_Still.jpg',
+        	'/content/resources/media/gurgl/Gurgl_Logoanimation_Still_Web.jpg',
         	'Gurgl Intro-Video',
         	true,
         	true,
         	true,
         	true,
-        	false
+        	false,
+        	'/content/resources/media/gurgl/Gurgl_Logoanimation_Mobile.mp4',
+        	'1/1',
+        	'/content/resources/media/gurgl/Gurgl_Logoanimation_Still_Mobile.jpg'
         ); ?>
     </div>
     <div class="slot end"></div>
