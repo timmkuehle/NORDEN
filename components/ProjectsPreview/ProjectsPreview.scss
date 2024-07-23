@@ -35,6 +35,9 @@ $projects-gap: 10vw;
 				width: 100%;
 
 				.project-header {
+					/** --- START: Not displaying header, project title already in thumbnail --- **/
+					display: none;
+					/** --- END --- **/
 					position: absolute;
 					top: 0;
 					left: 0;
