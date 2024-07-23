@@ -65,8 +65,7 @@ class ProjectModel {
 			'slug' => '/projekte/seefeld',
 			'content_path' => '/content/projects/seefeld',
 			'title' => 'Seefeld',
-			'thumbnail' =>
-				'/content/resources/media/seefeld/SFLD_Thumbnail.webp'
+			'thumbnail' => '/content/resources/media/seefeld/01_SFLD_Header.jpg'
 		]
 	];
 	private array $currentProject;
