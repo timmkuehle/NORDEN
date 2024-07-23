@@ -30,6 +30,8 @@ Router::addRoute('/projekte/gurgl', 'ProjectController');
 
 Router::addRoute('/projekte/alpbachtal', 'ProjectController');
 
+Router::addRoute('/projekte/seefeld', 'ProjectController');
+
 Router::addRoute('/impressum', 'PageController');
 
 Router::addRoute('/datenschutz', 'PageController');
