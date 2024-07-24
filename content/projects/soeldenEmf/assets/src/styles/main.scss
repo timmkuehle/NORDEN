@@ -289,7 +289,7 @@ svg {
 	margin-bottom: var(--main-padding-inline);
 
 	.accent-image {
-		width: max(20%, 10rem);
+		width: max(13%, 7rem);
 	}
 }
 
@@ -403,6 +403,12 @@ svg {
 			}
 		}
 	}
+
+	.background-image {
+		@media screen and (min-width: 1200px) {
+			display: none;
+		}
+	}
 }
 
 .side-style-image {
@@ -460,6 +466,20 @@ svg {
 		.video {
 			width: calc(100% - 9vw);
 			margin-inline: auto;
+		}
+	}
+}
+
+#emf-chillout-lounge-section {
+	.background-image {
+		left: 10%;
+		width: 15%;
+		height: auto;
+	}
+
+	@media screen and (max-width: 768px) {
+		.background-image {
+			display: none;
 		}
 	}
 }

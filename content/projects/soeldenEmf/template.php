@@ -477,7 +477,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="emf-stage-section-2" class="project-section no-padding-bottom" style="align-items: flex-end;">
+<section id="emf-stage-section-2" class="project-section" style="align-items: flex-end;">
     <div class="slot start">
         <p class="side-note">Bühnenanimation</p>
     </div>
@@ -497,19 +497,6 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="emf-spacer-section-2" class="project-section no-padding-top no-padding-bottom full-width-new">
-    <div class="slot start"></div>
-    <div class="content" style="align-items: flex-start;">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/03_EMF_Background_Grafik_7.png',
-        	'Styling-Icon',
-        	true
-        ); ?>
-    </div>
-    <div class="slot end"></div>
-</section>
 <section id="emf-bully-section" class="project-section no-padding-top" style="align-items: flex-end;">
     <div class="slot start">
         <p class="side-note">Pistenbully</p>
@@ -525,7 +512,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="emf-chillout-lounge-section" class="project-section no-padding-top" style="align-items: flex-end;">
+<section id="emf-chillout-lounge-section" class="project-section no-padding-top has-background-image" style="align-items: flex-end;">
     <div class="slot start">
         <p class="side-note">Branding — Chill-Out-Lounge, Sitzkissen, Fassade</p>
     </div>
@@ -540,6 +527,13 @@
         ); ?>
     </div>
     <div class="slot end"></div>
+    <?php new Image(
+    	null,
+    	'background-image',
+    	'/content/resources/media/soeldenEmf/03_EMF_Background_Grafik_7.png',
+    	'Styling-Icon',
+    	true
+    ); ?>
 </section>
 <section id="how-we-dance-section" class="project-section has-background-image">
     <div class="slot start"></div>
