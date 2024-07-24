@@ -1,0 +1,232 @@
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@components/Video/Video.scss";
+@import "@styles/side-note.scss";
+@import "@styles/services.scss";
+@import "@styles/bg-image-container.scss";
+@import "@styles/images-slideshow.scss";
+
+// Project variables
+$color-beige: #c09b57;
+$color-brown: #503b21;
+$color-green: #9ec540;
+$color-medium: #7f7f7f;
+
+// Utility classes
+.col-beige {
+	color: $color-beige;
+}
+.col-brown {
+	color: $color-brown;
+}
+.col-green {
+	color: $color-green;
+}
+.col-white {
+	color: white;
+}
+
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.bg-col-brown {
+	background-color: $color-brown;
+}
+.bg-col-green {
+	background-color: $color-green;
+}
+.bg-col-white {
+	background-color: white;
+}
+
+.text-large {
+	font-size: max(1.5em, 1.3vw);
+	font-weight: 700;
+	color: $color-brown;
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	background-color: white;
+
+	.site-header {
+		background-color: unset;
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.25),
+			rgba(0, 0, 0, 0)
+		);
+		box-shadow: unset;
+
+		&.hidden {
+			background-image: unset;
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-green;
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: white;
+				}
+			}
+		}
+
+		.logo {
+			fill: white;
+			transition:
+				transform 0.3s ease-in-out 0.08s,
+				fill 0.3s ease-out;
+		}
+
+		&.hidden {
+			.home-link {
+				.logo {
+					fill: $color-brown;
+					transition:
+						transform 0.3s ease-in-out 0s,
+						fill 0.3s ease-out;
+				}
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: white;
+
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-green;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-green;
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		padding: 0;
+		font-family: "Officina Sans", Relevant, Arial, Helvetica, sans-serif;
+
+		h1,
+		h2,
+		h3 {
+			margin-block: 2.25vw;
+			text-transform: none;
+			font-size: max(1.75rem, 2.75vw);
+			color: $color-brown;
+		}
+
+		p {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+		}
+	}
+
+	.site-footer {
+		padding-top: 0;
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-medium;
+}
+
+// Project styling
+.services {
+	padding-block: 1rem;
+
+	@-moz-document url-prefix() {
+		& {
+			scrollbar-color: white $color-brown;
+		}
+	}
+
+	&::-webkit-scrollbar-track {
+		background: white;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $color-brown;
+	}
+
+	.service {
+		color: $color-brown;
+	}
+}
+
+// Project styling
+#intro-video-section {
+	margin-top: calc(-1 * var(--header-height));
+
+	.content {
+		position: relative;
+
+		#page-title {
+			position: absolute;
+			top: 18%;
+			left: var(--main-padding-inline);
+			width: 60%;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			#page-title {
+				left: calc(var(--main-padding-inline) + 4.375rem);
+				width: 39%;
+			}
+		}
+	}
+}
+
+#logo-text-section {
+	@media screen and (min-width: 769px) {
+		h2 {
+			width: 80%;
+		}
+	}
+}
+
+#logo-animation-section {
+	.video {
+		border: 0.0625rem solid $color-brown;
+	}
+}
+
+#colors-section {
+	@media screen and (min-width: 769px) {
+		.content {
+			align-items: flex-start;
+			gap: 5vw;
+
+			p {
+				width: 40%;
+			}
+		}
+	}
+}
