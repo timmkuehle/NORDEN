@@ -14,7 +14,7 @@
 			height: 100%;
 			background-color: var(--color-light);
 			opacity: 0;
-			transition: opacity 0.1s linear 0.45s;
+			transition: opacity 0.1s linear 0.3s;
 
 			#mobile-menu-checkbox:checked ~ .site-header & {
 				opacity: 1;
