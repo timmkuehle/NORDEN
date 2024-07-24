@@ -54,8 +54,12 @@ body {
 	background-color: white;
 
 	.site-header {
-		background-color: $color-soel-cool-gray;
-		box-shadow: unset;
+		box-shadow: var(--no-box-shadow-bottom);
+
+		&:before {
+			background-color: $color-soel-cool-gray;
+			backdrop-filter: blur(0rem);
+		}
 
 		.home-link::after {
 			background-color: $color-soel-orange;

@@ -86,28 +86,12 @@ body {
 	background-color: $color-gray-2;
 
 	.site-header {
-		background-color: $color-gray-2;
-		box-shadow: unset;
+		box-shadow: var(--no-box-shadow-bottom);
 
-		/* START: Fix for weird header background-behavior */
 		&::before {
-			content: "";
-			position: absolute;
-			display: block;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
 			background-color: $color-gray-2;
-			transition: opacity 0.35s ease-in-out;
+			backdrop-filter: blur(0rem);
 		}
-
-		&.hidden {
-			&:before {
-				opacity: 0;
-			}
-		}
-		/* END: Fix for weird header background-behavior */
 
 		.home-link {
 			&::after {
@@ -233,6 +217,12 @@ body {
 		top: -25vw;
 		right: -20vw;
 		left: unset;
+	}
+
+	#mobile-menu-checkbox:checked ~ .site-header ~ main & {
+		.bg-image {
+			display: none;
+		}
 	}
 }
 

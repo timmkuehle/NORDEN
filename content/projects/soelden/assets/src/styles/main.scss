@@ -191,8 +191,12 @@ $color-soel-cool-gray: #eeeff1;
 
 body {
 	.site-header {
-		background: $color-soel-anthrazit;
-		box-shadow: none;
+		box-shadow: var(--no-box-shadow-bottom);
+
+		&::before {
+			background-color: $color-soel-anthrazit;
+			backdrop-filter: blur(0rem);
+		}
 
 		.home-link::after {
 			background-color: $color-soel-orange;

@@ -64,15 +64,20 @@ body {
 	background-color: white;
 
 	.site-header {
-		background-color: unset;
-		background-image: linear-gradient(
-			rgba(255, 255, 255, 0.3),
-			rgba(255, 255, 255, 0)
-		);
-		box-shadow: unset;
+		box-shadow: var(--no-box-shadow-bottom);
+
+		&::before {
+			background-color: unset;
+			background-image: linear-gradient(
+				rgba(255, 255, 255, 0.3),
+				rgba(255, 255, 255, 0)
+			);
+		}
 
 		&.hidden {
-			background-image: unset;
+			&::before {
+				background-image: unset;
+			}
 		}
 
 		.home-link {
