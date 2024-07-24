@@ -18,63 +18,71 @@ class ProjectModel {
 			'title' => 'Sölden',
 			'thumbnail' =>
 				'/content/resources/media/soelden/00_SOEL_Thumbnail2.jpg',
-			'category' => ''
+			'category' => 'Corporate Design'
 		],
 		[
 			'slug' => '/projekte/soelden/typografie',
 			'content_path' => '/content/projects/soeldenTypo',
 			'title' => 'Sölden Headline Font',
 			'thumbnail' =>
-				'/content/resources/media/soelden/00_soel_headline_Startbild.jpg'
-		],
-		[
-			'slug' => '/projekte/aranea',
-			'content_path' => '/content/projects/aranea',
-			'title' => 'ARANEA',
-			'thumbnail' =>
-				'/content/resources/media/aranea/02_ARANEA_Startbild.jpg'
+				'/content/resources/media/soeldenTypo/00_soel_font_thumbnail_RZ.jpg',
+			'category' => 'Font Design'
 		],
 		[
 			'slug' => '/projekte/soelden/electric-mountain-festival',
 			'content_path' => '/content/projects/soeldenEmf',
 			'title' => 'Electric Mountain Festival',
 			'thumbnail' =>
-				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg'
+				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
+			'category' => 'Event Branding'
 		],
 		[
-			'slug' => '/projekte/soelden/oetztaler-radmarathon',
-			'content_path' => '/content/projects/oetztaler',
-			'title' => 'Ötztaler Radmarathon',
+			'slug' => '/projekte/aranea',
+			'content_path' => '/content/projects/aranea',
+			'title' => 'ARANEA',
 			'thumbnail' =>
-				'/content/resources/media/oetztaler/00_OERM_Thumbnail.jpg'
+				'/content/resources/media/aranea/02_ARANEA_Startbild.jpg',
+			'category' => 'Corporate Design'
 		],
 		[
 			'slug' => '/projekte/gurgl',
 			'content_path' => '/content/projects/gurgl',
 			'title' => 'Gurgl',
 			'thumbnail' =>
-				'/content/resources/media/gurgl/00_Gurgl_Thumbnail.jpg'
+				'/content/resources/media/gurgl/00_Gurgl_Thumbnail.jpg',
+			'category' => 'Corporate Design'
 		],
 		[
 			'slug' => '/projekte/alpbachtal',
 			'content_path' => '/content/projects/alpbachtal',
 			'title' => 'Alpbachtal',
 			'thumbnail' =>
-				'/content/resources/media/alpbachtal/00_ALPACH_Thumbnail.jpg'
+				'/content/resources/media/alpbachtal/00_ALPACH_Thumbnail.jpg',
+			'category' => 'Corporate Design'
 		],
 		[
 			'slug' => '/projekte/seefeld',
 			'content_path' => '/content/projects/seefeld',
 			'title' => 'Seefeld',
 			'thumbnail' =>
-				'/content/resources/media/seefeld/01_SFLD_Thumbnail.jpg'
+				'/content/resources/media/seefeld/01_SFLD_Thumbnail.jpg',
+			'category' => 'Corporate Design'
+		],
+		[
+			'slug' => '/projekte/soelden/oetztaler-radmarathon',
+			'content_path' => '/content/projects/oetztaler',
+			'title' => 'Ötztaler Radmarathon',
+			'thumbnail' =>
+				'/content/resources/media/oetztaler/00_OERM_Thumbnail.jpg',
+			'category' => 'Event Branding'
 		],
 		[
 			'slug' => '/projekte/holtmeyer',
 			'content_path' => '/content/projects/holtmeyer',
 			'title' => 'Holtmeyer',
 			'thumbnail' =>
-				'/content/resources/media/holtmeyer/00_HOLT_Thumbnail_.jpg'
+				'/content/resources/media/holtmeyer/00_HOLT_Thumbnail_.jpg',
+			'category' => 'Corporate Design'
 		]
 	];
 	private array $currentProject;
