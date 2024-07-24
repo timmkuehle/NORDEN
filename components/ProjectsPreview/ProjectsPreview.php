@@ -26,7 +26,8 @@ class ProjectsPreview extends PHTMLComponent {
 						<a id="project-<?php echo $index + 1; ?>" class="project-link"
 						href="<?php echo BASE_URL . $project['slug']; ?>">
 							<header class="project-header">
-								<h3 class="project-title"><?php echo $project['title']; ?></h3>
+								<h3 class="project-category"><?php echo $project['category'] ??
+        	'Uncategorized'; ?></h3>
 							</header>
 							<?php new Image(
        	null,
