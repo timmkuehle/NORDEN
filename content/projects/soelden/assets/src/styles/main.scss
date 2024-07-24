@@ -1058,5 +1058,12 @@ body {
 	}
 }
 
+#typo-button {
+	margin-top: 7%;
+	color: $color-soel-anthrazit;
+	background-color: $color-soel-orange;
+	border-color: $color-soel-orange;
+}
+
 // Import component stylesheets
 @import "../../../../../../components/Video/Video.scss";
