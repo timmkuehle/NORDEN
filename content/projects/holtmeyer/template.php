@@ -242,10 +242,26 @@
             <?php new Image(
             	null,
             	null,
-            	'/content/resources/media/holtmeyer/15_Honig_Tasse.jpg',
-            	'HOLTMEYER Stellenausschreibung'
+            	'/content/resources/media/holtmeyer/14_HOLT_Jacke_Halle.jpg',
+            	'HOLTMEYER Jacke'
             ); ?>
         </div>
+    </div>
+    <div class="slot end"></div>
+</section>
+<section class="project-section" style="align-items: flex-end;">
+    <div class="slot start">
+        <p class="side-note">Merchandise + Kleidung</p>
+    </div>
+    <div class="content no-inline-padding-mobile">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/holtmeyer/14_HOLT_Arbeitskleidung.png',
+        	'HOLTMEYER Merchandise und Kleidung',
+        	true,
+        	'/content/resources/media/holtmeyer/10_HOLT_LKW_Branding_Mobile.jpg'
+        ); ?>
     </div>
     <div class="slot end"></div>
 </section>
