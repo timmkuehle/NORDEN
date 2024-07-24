@@ -68,6 +68,13 @@ class ProjectModel {
 			'title' => 'Seefeld',
 			'thumbnail' =>
 				'/content/resources/media/seefeld/01_SFLD_Thumbnail.jpg'
+		],
+		[
+			'slug' => '/projekte/holtmeyer',
+			'content_path' => '/content/projects/holtmeyer',
+			'title' => 'Holtmeyer',
+			'thumbnail' =>
+				'/content/resources/media/holtmeyer/00_HOLT_Thumbnail_.jpg'
 		]
 	];
 	private array $currentProject;
