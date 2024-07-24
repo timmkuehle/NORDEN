@@ -83,8 +83,8 @@
 		@media screen and (max-width: 1024px) {
 			flex-direction: column;
 			position: fixed !important;
-			transform: translateY(calc(-100% - var(--header-height)));
-			top: 100%;
+			transform: translateY(-120%);
+			top: calc(var(--header-height));
 			left: 0;
 			z-index: -50;
 			width: 100%;
