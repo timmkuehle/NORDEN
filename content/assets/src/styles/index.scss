@@ -91,6 +91,12 @@ body {
 			}
 		}
 	}
+
+	@media screen and (max-width: 768px) {
+		main {
+			max-width: 100vw;
+		}
+	}
 }
 
 .menu-item.active-menu-item,
