@@ -59,7 +59,17 @@
     	true
     ); ?>
 </section>
-<section id="claim-section" class="project-section bg-col-gray-5 no-padding-top has-background-image">
+<section class="services">
+	<p class="service">Markenstrategie</p>
+	<p class="service">Corporate Design</p>
+	<p class="service">Branding & Implementierung</p>
+	<p class="service">Online & Offline Kommunikationskonzept</p>
+	<p class="service">Brandclip</p>
+	<p class="service">Animationen</p>
+	<p class="service">Social Media</p>
+	<p class="service">Anpassung aller Events / Submarken</p>
+</section>
+<section id="claim-section" class="project-section bg-col-gray-5 has-background-image">
     <div class="slot start">
         <p class="side-note">Claim</p>
     </div>
@@ -333,7 +343,7 @@
                 	null,
                 	null,
                 	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_Headline.svg',
-                	'Alpine Auszeit'
+                	'Alpine Artzeit'
                 ); ?>
             </h2>
             <p class="col-white">ci qui rerum assi omnis dolo volum eum quid quis et id et faciatis sam as eossuntist, te est et et rero issi aliquas eiunt. stia nat quosanistrum rem illuptiume sectiur? Ignam aut ommiquatem doluptatis es re inciant otatis est ut acepe cusam, c scon ni tem eario bla exped molorum qui nescips untibus,tausam doluptum rempos digenient voluptam et aped quis cum qui</p>
@@ -446,7 +456,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="alpine-auszeit-section" class="project-section has-background-image bg-col-gray-5">
+<section id="alpine-auszeit-section" class="project-section has-background-image large-padding-top bg-col-gray-5">
     <div class="slot start"></div>
     <div class="content" style="align-items: flex-start;">
         <?php new Svg(

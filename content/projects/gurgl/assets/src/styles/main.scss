@@ -190,16 +190,16 @@ body {
 		}
 
 		.services {
-			padding-top: 1rem;
+			background-color: $color-gray-5;
 
 			@-moz-document url-prefix() {
 				& {
-					scrollbar-color: $color-blue $color-gray-2;
+					scrollbar-color: $color-blue $color-gray-5;
 				}
 			}
 
 			&::-webkit-scrollbar-track {
-				background: $color-gray-2;
+				background: $color-gray-5;
 			}
 
 			&::-webkit-scrollbar-thumb {
