@@ -228,7 +228,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section" style="align-items: center;">
+<section id="flyer-section" class="project-section" style="align-items: center;">
     <div class="slot start">
         <p class="side-note">Print</p>
     </div>
