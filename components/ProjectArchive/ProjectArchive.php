@@ -23,7 +23,8 @@ class ProjectArchive extends PHTMLComponent {
             <a class="project-link"
             href="<?php echo BASE_URL . sanitize_uri($project['slug']); ?>">
 				<header class="project-header">
-					<h2 class="project-title"><?php echo $project['title'] ?? 'Untitled'; ?></h2>
+					<h2 class="project-category"><?php echo $project['category'] ??
+     	'Uncategorized'; ?></h2>
 				</header>
 				<?php new Image(
     	null,
