@@ -21,7 +21,8 @@
             	null,
             	null,
             	'/content/resources/media/holtmeyer/Holtmeyer_Holding_Logo_weiß.svg',
-            	'HOLTMEYER'
+            	'HOLTMEYER',
+            	true
             ); ?>
         </h1>
     </div>
