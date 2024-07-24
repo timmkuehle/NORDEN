@@ -207,8 +207,10 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section bg-col-mid-beige">
-    <div class="slot start"></div>
+<section class="project-section bg-col-mid-beige" style="align-items: center;">
+    <div class="slot start">
+        <p class="side-note">Typografie</p>
+    </div>
     <div class="content">
         <?php new Image(
         	null,
@@ -358,7 +360,9 @@
     <div class="slot end"></div>
 </section>
 <section class="project-section">
-    <div class="slot start"></div>
+    <div class="slot start">
+        <p class="side-note">Geschäftsausstattung</p>
+    </div>
     <div class="content narrow">
         <?php new Image(
         	null,
@@ -384,7 +388,9 @@
     <div class="slot end"></div>
 </section>
 <section class="project-section">
-    <div class="slot start"></div>
+    <div class="slot start">
+        <p class="side-note">Print</p>
+    </div>
     <div class="content narrow">
         <?php new Image(
         	null,
@@ -410,7 +416,9 @@
     <div class="slot end"></div>
 </section>
 <section id="poster-section" class="project-section bg-col-deep-beige no-padding-top no-padding-bottom">
-    <div class="slot start"></div>
+    <div class="slot start">
+        <p class="side-note">Retro Poster Designs</p>
+    </div>
     <div class="content">
         <div class="image-slideshow">
 			<div class="controls-container">
@@ -483,7 +491,9 @@
     <div class="slot end"></div>
 </section>
 <section class="project-section">
-    <div class="slot start"></div>
+    <div class="slot start">
+        <p class="side-note">Merch</p>
+    </div>
     <div class="content narrow">
         <?php new Image(
         	null,
