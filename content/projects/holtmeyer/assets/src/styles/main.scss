@@ -144,6 +144,15 @@ body {
 			margin-block: 1.75vw;
 			font-size: max(1.125rem, 1.25vw);
 		}
+
+		@media screen and (max-width: 768px) {
+			h1,
+			h2,
+			h3,
+			p {
+				margin-left: 0 !important;
+			}
+		}
 	}
 
 	.site-footer {
@@ -227,6 +236,48 @@ body {
 			p {
 				width: 40%;
 			}
+		}
+	}
+}
+
+#design-principle-section {
+	.content {
+		position: relative;
+		padding-bottom: 20%;
+
+		#design-principle-text {
+			position: absolute;
+			bottom: 0%;
+			left: var(--main-padding-inline);
+			width: 70%;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			padding-bottom: 0;
+
+			#design-principle-text {
+				bottom: 25%;
+				left: 0;
+				width: 45%;
+			}
+		}
+	}
+}
+
+#design-use-case-section {
+	@media screen and (min-width: 769px) {
+		position: relative;
+		margin-top: -20%;
+	}
+}
+
+#merch-section {
+	@media screen and (min-width: 769px) {
+		.image {
+			width: 85%;
+			margin-left: 15%;
 		}
 	}
 }
