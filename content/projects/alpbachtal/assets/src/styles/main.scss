@@ -110,6 +110,7 @@ body {
 		h2,
 		h3 {
 			margin-block: 2.25vw;
+			text-transform: none;
 			font-family: "Fedra Serif", Cambria, Cochin, Georgia, Times,
 				"Times New Roman", serif;
 			font-size: max(1.75rem, 2.75vw);
@@ -134,7 +135,7 @@ body {
 
 // Project styling
 .services {
-	padding-block: 6vw;
+	padding-top: 6vw;
 
 	@-moz-document url-prefix() {
 		& {
