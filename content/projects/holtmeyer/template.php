@@ -17,7 +17,7 @@
         	'/content/resources/media/holtmeyer/Holtmeyer_startseite_Mobile_Still.jpg'
         ); ?>
         <h1 id="page-title">
-            <?php new Svg(
+            <?php new Image(
             	null,
             	null,
             	'/content/resources/media/holtmeyer/Holtmeyer_Holding_Logo_weiß.svg',
