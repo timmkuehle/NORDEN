@@ -17,7 +17,7 @@ class ProjectModel {
 			'content_path' => '/content/projects/soelden',
 			'title' => 'Sölden',
 			'thumbnail' =>
-				'/content/resources/media/soelden/00_SOEL_Thumbnail2.jpg',
+				'/content/resources/media/soelden/00_SOEL_Thumbnail.jpg',
 			'category' => 'Corporate Design'
 		],
 		[
@@ -27,14 +27,6 @@ class ProjectModel {
 			'thumbnail' =>
 				'/content/resources/media/soeldenTypo/00_soel_font_thumbnail_RZ.jpg',
 			'category' => 'Font Design'
-		],
-		[
-			'slug' => '/projekte/soelden/electric-mountain-festival',
-			'content_path' => '/content/projects/soeldenEmf',
-			'title' => 'Electric Mountain Festival',
-			'thumbnail' =>
-				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
-			'category' => 'Event Branding'
 		],
 		[
 			'slug' => '/projekte/aranea',
@@ -51,6 +43,14 @@ class ProjectModel {
 			'thumbnail' =>
 				'/content/resources/media/gurgl/00_Gurgl_Thumbnail.jpg',
 			'category' => 'Corporate Design'
+		],
+		[
+			'slug' => '/projekte/soelden/electric-mountain-festival',
+			'content_path' => '/content/projects/soeldenEmf',
+			'title' => 'Electric Mountain Festival',
+			'thumbnail' =>
+				'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
+			'category' => 'Event Branding'
 		],
 		[
 			'slug' => '/projekte/alpbachtal',
