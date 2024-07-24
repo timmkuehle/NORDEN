@@ -124,6 +124,12 @@
 				<p class="color-white">Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungswert. Wir haben eine variable Headline-Font entwickelt, die Söldens prägnanten Charakter visualisiert. Verwendet wird sie ausschließlich bei den Headlines, bei allen Subbrands – vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.</p>
 				<p class="color-white">Die AS Sölden ist mit 10 unterschiedlichen Schriftschnitten ausgestattet. Wir bevorzugen die Schriftschnitte von Regular – Extrabold. Verwendet wird sie für Fließtexte und Sublines.</p>
 				<p class="color-white">— Font creation in cooperation with <span class="color-orange">TypeTogether</span></p>
+				<?php new Button(
+    	'typo-button',
+    	null,
+    	'Mehr zur Typografie',
+    	'/projekte/soelden/typografie'
+    ); ?>
 			</div>
 		</div>
 		<div class="slot end">
@@ -135,19 +141,6 @@
    	true
    ); ?>
 		</div>
-	</div>
-	<div class="slot side-note-end"></div>
-</section>
-<section class="soelden-gallery typography-3 full-width bg-color-anthrazit">
-	<div class="slot side-note-start empty"></div>
-	<div class="content">
-		<?php new Image(
-  	null,
-  	'headline-font-alphabet',
-  	'/content/resources/media/soelden/typo/03_HeadlineFont.svg',
-  	'AS Soelden Headline',
-  	true
-  ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
