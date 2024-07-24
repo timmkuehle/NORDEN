@@ -383,59 +383,11 @@
             <div class="soelden-icons">
 				<?php new Image(
     	null,
-    	'soelden-icon',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_1.svg',
-    	'Social Media Story Icon',
-    	true
-    ); ?>
-				<?php new Image(
     	null,
-    	'soelden-icon',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_2.svg',
-    	'Social Media Story Icon',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	'soelden-icon',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_3.svg',
-    	'Social Media Story Icon',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	'soelden-icon',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_4.svg',
-    	'Social Media Story Icon',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	'soelden-icon',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_5.svg',
-    	'Social Media Story Icon',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	'soelden-icon',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_6.svg',
-    	'Social Media Story Icon',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	'soelden-icon',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_7.svg',
-    	'Social Media Story Icon',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	'soelden-icon',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Social_Media_StoryIcon_8.svg',
-    	'Social Media Story Icon',
-    	true
+    	'/content/resources/media/soeldenEmf/EMF_SocialMedia_StoryIcons_Web.svg',
+    	'Social Media Story Icons',
+    	true,
+    	'/content/resources/media/soeldenEmf/EMF_SocialMedia_StoryIcons_Mobile.svg'
     ); ?>
                 </div>			
             </div>

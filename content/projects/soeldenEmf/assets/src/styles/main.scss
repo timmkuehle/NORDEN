@@ -439,23 +439,12 @@ svg {
 	}
 }
 
-.soelden-icons {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 5vw;
-	margin-top: 6%;
-	justify-content: flex-start !important;
+#emf-some-icons-section {
+	.soelden-text-section {
+		width: 100%;
 
-	@media screen and (max-width: 768px) {
-		justify-content: center;
-	}
-
-	.soelden-icon {
-		width: calc(20% - 5vw) !important;
-		border: 0.0625rem solid white;
-
-		@media screen and (max-width: 768px) {
-			width: calc(33.33% - 5vw) !important;
+		.soelden-icons {
+			margin-top: 6%;
 		}
 	}
 }
