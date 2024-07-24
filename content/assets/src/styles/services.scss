@@ -1,12 +1,9 @@
 .services {
 	display: flex;
+	justify-content: space-between;
 	gap: 2rem;
 	overflow-x: scroll;
 	padding: 6% var(--main-padding-inline) 1rem var(--main-padding-inline);
-
-	@media screen and (min-width: 1800px) {
-		justify-content: center;
-	}
 
 	@-moz-document url-prefix() {
 		& {
