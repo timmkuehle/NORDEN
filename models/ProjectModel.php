@@ -83,6 +83,14 @@ class ProjectModel {
 			'thumbnail' =>
 				'/content/resources/media/holtmeyer/00_HOLT_Thumbnail_.jpg',
 			'category' => 'Corporate Design'
+		],
+		[
+			'slug' => '/projekte/soelden/test-fest',
+			'content_path' => '/content/projects/testFest',
+			'title' => 'Test Fest Sölden',
+			'thumbnail' =>
+				'/content/resources/media/testFest/00_TestFest_Thumbnail.jpg',
+			'category' => 'Corporate Design'
 		]
 	];
 	private array $currentProject;
