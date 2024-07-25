@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-863692af-6d69-4b7d-ba0d-51e6f7a36138" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda {
+        fill: none;
+        stroke: #bebebe;
+      }
+
+      .uuid-d3da1700-6781-4019-8cb4-3388589f1c88 {
+        fill: #b09690;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="uuid-d3da1700-6781-4019-8cb4-3388589f1c88" d="M605.95,917v-78.01l82.05-9-36.03-103.99h-248.01l-35.02,103.99,79.03,9v78.01H168.94v-78.01l43.97-10.99c12.01-3.01,21.01-7,25.04-19.01L456.97,192.93h177l218.04,618.05c3.99,12.01,12.01,14.01,23.98,17.02l46.01,10.99v78.01h-316.05ZM532.95,345.94h-5.99l-92.02,272.03h187.05l-89.05-272.03Z"/>
+  <g>
+    <circle class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" cx="885.12" cy="774.33" r="44.5" transform="translate(-288.29 852.67) rotate(-45)"/>
+    <circle class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" cx="209.63" cy="798.42" r="30.5" transform="translate(-388.45 229.45) rotate(-31.72)"/>
+    <circle class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" cx="821.05" cy="793.26" r="136.18" transform="translate(-15.24 16.08) rotate(-1.11)"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" x1="168.5" x2="168.5" y2="1080"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" x1="448.58" x2="448.58" y2="1080"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" x1="636" x2="636" y2="1080"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" y1="917.33" x2="1080" y2="917.33"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" y1="342.04" x2="1080" y2="342.04"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" y1="929.81" x2="1080" y2="929.81"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" y1="192.16" x2="1080" y2="192.16"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" y1="617.16" x2="1080" y2="617.16"/>
+    <line class="uuid-454cf58a-4855-4748-bbf4-4a13d4c90eda" y1="726.58" x2="1080" y2="726.58"/>
+  </g>
+</svg>
