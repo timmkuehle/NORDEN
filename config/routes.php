@@ -36,6 +36,8 @@ Router::addRoute('/projekte/holtmeyer', 'ProjectController');
 
 Router::addRoute('/projekte/soelden/test-fest', 'ProjectController');
 
+Router::addRoute('/projekte/oetztal/font', 'ProjectController');
+
 Router::addRoute('/impressum', 'PageController');
 
 Router::addRoute('/datenschutz', 'PageController');
