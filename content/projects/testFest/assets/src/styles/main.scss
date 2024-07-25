@@ -1,12 +1,13 @@
 // Stylesheet import
 @import "@styles/project-section.scss";
-@import "@components/Video/Video.scss";
 @import "@styles/side-note.scss";
+@import "@styles/services.scss";
 
 // Project variables
 $color-anthrazit: #24353f;
 $color-beige: #fedcab;
 $color-light-blue: #cfe3f5;
+$color-medium-gray: #7f7f7f;
 
 // Utility classes
 .col-anthrazit {
@@ -35,6 +36,10 @@ $color-light-blue: #cfe3f5;
 	background-color: white;
 }
 
+.text-large {
+	font-size: max(1.5em, 1.3vw);
+}
+
 .mobile-only {
 	@media screen and (min-width: 768px) {
 		display: none;
@@ -54,13 +59,13 @@ body {
 		box-shadow: var(--no-box-shadow-bottom);
 
 		&:before {
-			background-color: $color-beige;
+			background-color: $color-anthrazit;
 			backdrop-filter: blur(0rem);
 		}
 
 		.home-link {
 			&::after {
-				background-color: $color-anthrazit;
+				background-color: $color-light-blue;
 			}
 
 			.logo {
@@ -69,7 +74,7 @@ body {
 		}
 
 		.header-menu,
-		.nav-menu {
+		.contact-menu {
 			.menu-item {
 				.menu-item-link {
 					color: white;
@@ -84,7 +89,15 @@ body {
 				&.active-menu-item,
 				&.has-active-menu-item {
 					.menu-item-link {
-						color: $color-anthrazit;
+						color: $color-light-blue;
+					}
+				}
+			}
+
+			.mobile-menu-button {
+				.menu-icon {
+					.menu-icon-stroke {
+						stroke: white;
 					}
 				}
 			}
@@ -136,5 +149,32 @@ body {
 
 	.site-footer {
 		background-color: $color-anthrazit;
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-medium-gray;
+}
+.services {
+	padding-top: 4%;
+	margin-bottom: 8%;
+
+	@-moz-document url-prefix() {
+		& {
+			scrollbar-color: $color-beige $color-anthrazit;
+		}
+	}
+
+	&::-webkit-scrollbar-track {
+		background: $color-beige;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $color-anthrazit;
+	}
+
+	.service {
+		color: $color-anthrazit;
 	}
 }
