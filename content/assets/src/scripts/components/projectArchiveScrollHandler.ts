@@ -2,7 +2,9 @@ const handleProjectArchiveScroll = () => {
 	if (!window.matchMedia("(hover: none) and (pointer: coarse)").matches)
 		return;
 
-	const projectArchive = document.querySelector(".project-archive");
+	const projectArchive =
+		document.querySelector(".projects-preview") ||
+		document.querySelector(".project-archive");
 	const projects = projectArchive?.querySelectorAll(".project") || [];
 
 	if ("IntersectionObserver" in window) {
@@ -20,7 +22,7 @@ const handleProjectArchiveScroll = () => {
 					}
 				});
 			},
-			{ rootMargin: "-35% 0px -65% 0px" }
+			{ rootMargin: "-30% 0px -70% 0px" }
 		);
 
 		projects.forEach((project) => {
