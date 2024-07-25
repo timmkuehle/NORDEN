@@ -91,6 +91,14 @@ class ProjectModel {
 			'thumbnail' =>
 				'/content/resources/media/testFest/00_TestFest_Thumbnail.jpg',
 			'category' => 'Corporate Design'
+		],
+		[
+			'slug' => '/projekte/oetztal/font',
+			'content_path' => '/content/projects/oetztalTypo',
+			'title' => 'Ötztal Font',
+			'thumbnail' =>
+				'/content/resources/media/oetztalTypo/01_Header_Video_Still.jpg',
+			'category' => 'Font Design'
 		]
 	];
 	private array $currentProject;
