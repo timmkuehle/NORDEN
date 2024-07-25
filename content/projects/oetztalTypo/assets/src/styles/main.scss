@@ -1,11 +1,13 @@
 // Stylesheet import
 @import "@styles/project-section.scss";
 @import "@styles/side-note.scss";
+@import "@components/Video/Video.scss";
 
 // Project variables
 $color-red: #b20933;
 $color-light-red: #7d5753;
 $color-dark-red: #3e0505;
+$color-light-pink: #b09690;
 $color-beige: #f3ebe4;
 $color-gold: #f7a600;
 $color-medium-gray: #7f7f7f;
@@ -19,6 +21,9 @@ $color-medium-gray: #7f7f7f;
 }
 .col-dark-red {
 	color: $color-dark-red;
+}
+.col-light-pink {
+	color: $color-light-pink;
 }
 .col-beige {
 	color: $color-beige;
@@ -38,6 +43,9 @@ $color-medium-gray: #7f7f7f;
 }
 .bg-col-dark-red {
 	background-color: $color-dark-red;
+}
+.bg-col-light-pink {
+	background-color: $color-light-pink;
 }
 .bg-col-beige {
 	background-color: $color-beige;
@@ -82,6 +90,14 @@ body {
 			&::after {
 				background-color: $color-red;
 			}
+
+			@media screen and (hover: hover) and (pointer: fine) {
+				&:hover {
+					.logo {
+						fill: $color-red;
+					}
+				}
+			}
 		}
 
 		.header-menu,
@@ -116,7 +132,12 @@ body {
 			sans-serif;
 
 		h1,
-		h2,
+		h2 {
+			margin-block: 2.25vw;
+			font-size: max(1.75rem, 2.75vw);
+			color: $color-light-pink;
+		}
+
 		h3 {
 			margin-block: 1.75vw;
 			font-size: max(1.125rem, 1.25vw);
@@ -154,5 +175,83 @@ body {
 .side-note {
 	color: $color-medium-gray;
 }
+.soelden-text-block {
+	@media screen and (min-width: 769px) {
+		& > *:not(h2) {
+			margin-left: 7vw;
+
+			&.image,
+			&.video,
+			&.svg {
+				width: calc(100% - 7vw);
+			}
+		}
+	}
+}
 
 // Project styling
+#modification-section {
+	.column:first-child {
+		position: relative;
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 2;
+			width: 50%;
+			height: 100%;
+			object-fit: cover;
+			object-position: 100%;
+		}
+	}
+}
+
+#typo-animation-section {
+	.video {
+		border: 0.0625rem solid $color-beige;
+	}
+}
+
+#big-a-section {
+	.content {
+		overflow-x: hidden;
+
+		.image {
+			width: 70%;
+			margin-top: -1%;
+			margin-left: -1.1%;
+		}
+	}
+
+	.background-image {
+		top: unset;
+		right: var(--main-padding-inline);
+		bottom: 32%;
+		left: unset;
+		width: 38%;
+		height: auto;
+	}
+}
+
+#overview-section {
+	.content {
+		.column:first-child {
+			display: flex;
+			align-items: space-between;
+			justify-content: space-between;
+
+			& > * {
+				margin: 0;
+			}
+
+			@media screen and (min-width: 769px) {
+				flex-direction: column;
+
+				& > *:first-child {
+					margin-top: 30%;
+				}
+			}
+		}
+	}
+}
