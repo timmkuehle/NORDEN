@@ -12,6 +12,13 @@ const fonts: FontFace[] = [
 		filePath: "/content/resources/fonts/ASSoelden/ASSoelden-Extrabold.woff",
 		format: "woff",
 		fontWeight: 700
+	},
+	{
+		fontFamily: "AS Soelden HL",
+		filePath:
+			"/content/resources/fonts/ASSoeldenHL/ASSoeldenHLWEB-HeavyFlex.woff",
+		format: "woff",
+		fontWeight: 700
 	}
 ];
 
