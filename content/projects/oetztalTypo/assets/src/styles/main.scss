@@ -1,0 +1,158 @@
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@styles/side-note.scss";
+
+// Project variables
+$color-red: #b20933;
+$color-light-red: #7d5753;
+$color-dark-red: #3e0505;
+$color-beige: #f3ebe4;
+$color-gold: #f7a600;
+$color-medium-gray: #7f7f7f;
+
+// Utility classes
+.col-red {
+	color: $color-red;
+}
+.col-light-red {
+	color: $color-light-red;
+}
+.col-dark-red {
+	color: $color-dark-red;
+}
+.col-beige {
+	color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-white {
+	color: white;
+}
+
+.bg-col-red {
+	background-color: $color-red;
+}
+.bg-col-light-red {
+	background-color: $color-light-red;
+}
+.bg-col-dark-red {
+	background-color: $color-dark-red;
+}
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.bg-col-gold {
+	background-color: $color-gold;
+}
+.bg-col-white {
+	background-color: white;
+}
+
+.text-large {
+	font-size: max(1.5em, 1.3vw);
+	font-weight: 400;
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+
+		&:before {
+			background-color: var(--color-light);
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-red;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-red;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-red;
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		overflow-x: hidden;
+		padding: 0;
+		font-family:
+			AS Oetztal,
+			Relevant,
+			Arial,
+			Helvetica,
+			sans-serif;
+
+		h1,
+		h2,
+		h3 {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+			color: $color-light-red;
+		}
+
+		p {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+			font-weight: 300;
+		}
+
+		.highlight-circle {
+			&::after {
+				transform: translate(-50%, -50%) rotate(-3deg);
+				left: 50%;
+				width: 105%;
+				height: 110%;
+				border-color: $color-gold;
+
+				@media screen and (max-width: 768px) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.site-footer {
+		padding-top: 0;
+		background-color: $color-dark-red;
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-medium-gray;
+}
+
+// Project styling
