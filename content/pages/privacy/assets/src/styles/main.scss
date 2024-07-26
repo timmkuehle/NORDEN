@@ -1,1 +1,36 @@
-// Privacy page styling
+// Stylesheet import
+@import "@styles/project-section.scss";
+@import "@styles/side-note.scss";
+
+// General styling
+body {
+	main {
+		padding: 0;
+
+		h2 {
+			margin-block: 2.25vw;
+			font-size: max(1.75rem, 2.75vw);
+		}
+
+		h3,
+		p,
+		a,
+		h4 {
+			margin-block: 1.75vw;
+			font-size: max(1.125rem, 1.25vw);
+		}
+	}
+}
+
+// Component styling
+.side-note {
+	color: var(--color-primary);
+}
+
+.project-section {
+	align-items: flex-end;
+
+	.content {
+		display: block;
+	}
+}
