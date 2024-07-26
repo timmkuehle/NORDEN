@@ -41,3 +41,5 @@ Router::addRoute('/projekte/oetztal/font', 'ProjectController');
 Router::addRoute('/impressum', 'PageController');
 
 Router::addRoute('/datenschutz', 'PageController');
+
+Router::addRoute('/allgemeine-geschaeftsbedingungen', 'PageController');
