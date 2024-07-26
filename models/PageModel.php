@@ -51,6 +51,11 @@ class PageModel {
 			'slug' => '/datenschutz',
 			'content_path' => '/content/pages/privacy',
 			'title' => 'NORDEN | Datenschutz'
+		],
+		[
+			'slug' => '/allgemeine-geschaeftsbedingungen',
+			'content_path' => '/content/pages/terms',
+			'title' => 'NORDEN | Allgemeine Geschäftsbedingungen'
 		]
 	];
 	private array $currentPage;
