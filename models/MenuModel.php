@@ -42,7 +42,7 @@ class MenuModel {
 			],
 			[
 				'title' => 'AGB',
-				'link' => '/agb'
+				'link' => '/allgemeine-geschaeftsbedingungen'
 			]
 		]
 	];
