@@ -18,9 +18,9 @@ class Image extends PHTMLComponent {
 		?string $id,
 		?string $class_name,
 		string $src,
-		string $alt = null,
+		?string $alt = null,
 		bool $lazy_loaded = false,
-		string $mobile_src = null,
+		?string $mobile_src = null,
 		int $breakpoint = 768
 	) {
 		$this->src = sanitize_uri($src);
@@ -50,7 +50,7 @@ class Image extends PHTMLComponent {
 
 	private function getSrcset(
 		string $path,
-		float $max_size = null,
+		?float $max_size = null,
 		float $min_size = 0
 	) {
 		$path_parts = pathinfo($path);
