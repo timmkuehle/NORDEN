@@ -14,8 +14,9 @@ jobs:
       SSH_KEY: ${{ secrets.SSH_KEY_LIVE }}
       SSH_HOST: ${{ secrets.SSH_HOST_LIVE }}
       SSH_USER: ${{ secrets.SSH_USER_LIVE }}
-      SSH_DEST_DIR: ${{ secrets.SSH_DEST_DIR_LIVE }}
-      LIVE_COMMON_CONFIG: ${{secrets.LIVE_COMMON_CONFIG}}
+      SSH_DEST_DIR: ${{ vars.SSH_DEST_DIR_LIVE }}
+      LIVE_HTACCESS: ${{ vars.LIVE_HTACCESS }}
+      LIVE_COMMON_CONFIG: ${{ vars.LIVE_COMMON_CONFIG }}
 
     steps:
       - name: Checkout main branch
@@ -36,6 +37,9 @@ jobs:
 
       - name: Process resources
         run: npm run resources
+
+      - name: Setup .htaccess
+        run: echo "$LIVE_HTACCESS" > .htaccess
 
       - name: Setup common.config.json
         run: echo "$LIVE_COMMON_CONFIG" > common.config.json
