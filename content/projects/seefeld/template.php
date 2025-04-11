@@ -60,8 +60,8 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 30%;">
-            <h2>Headline</h2>
-            <p>Pis quo comnis qui nus molestem nos ad unt liquunt isciet lab iuriberrum nobis aut quis et et aut voluptio. It doloriae quam fugiat reium exped ut repra coriatem</p>
+            <h2>Logo</h2>
+            <p>Das Logo wurde im Zuge des neuen CDs ebenfalls angepasst. Es wurde insgesamt cleaner, moderner und hat dennoch seine Individualität behalten. In leuchtendem Blau oder Weiß gehalten, vermittelt es eine frische und einladende Atmosphäre, die die Naturverbundenheit und das alpine Flair des Ortes widerspiegelt.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -189,8 +189,7 @@
         	true
         ); ?>
         <div id="digital-text">
-            <h2>Headline</h2>
-            <p class="col-white">Pis quo comnis qui nus molestem nos ad unt liquunt isciet lab iuriberrum nobis aut quis et et aut voluptio. It doloriae quam fugiat reium exped ut repra coriatem</p>
+            <h2>Web and Social Media</h2>
         </div>
         <?php new Image(
         	'seefeld-social-media',
@@ -260,8 +259,8 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
-            <h2>Headline</h2>
-            <p>Pis quo comnis qui nus molestem nos ad unt liquunt isciet lab iuriberrum nobis aut quis et et aut voluptio. It doloriae quam fugiat reium exped ut repra coriatem</p>
+            <h2>Icons</h2>
+            <p>Die neu gestalteten Icons erstrahlen ebenfalls in den definierten CD-Farben und nehmen gestalterische Elemente des Schriftzugs des Logos auf. Dadurch wird eine harmonische Verbindung zwischen den Icons und der Marke geschaffen, die die visuelle Identität des Corporate Designs unterstreicht.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -327,8 +326,7 @@
             	'Branding Running',
             	true
             ); ?>
-            <h2>Headline</h2>
-            <p class="col-white">Pis quo comnis qui nus molestem nos ad unt liquunt isciet lab iuriberrum nobis aut quis et et aut voluptio. It doloriae quam fugiat reium exped ut repra coriatem</p>
+            <h2>Logo <br> in use</h2>
         </div>
         <div class="column">
             <?php new Image(
