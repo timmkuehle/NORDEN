@@ -627,7 +627,7 @@
 	<div class="content">
 		<div class="soelden-text-block">
 			<h3 class="subline">Skiweltcup</h3>
-			<p>XXXXXXXXX XXXXXXXX XXXXXXXX XXXXX XXXXX XXXXXX XXXXXXXXX XXXX XXXXXXX XXXXXXX XXXXXXXXXXXXXXXX XXXXXX XXXX XXXXXXX XXXXX XXXXX XXXXXXX XXXXXXX XXXXXXXXX XXXXXXXX XXXX XXXXXX</p>
+			<p>Der Skiweltcup in Sölden ist eines der spektakulärsten Auftaktrennen der alpinen Skisaison und zieht jedes Jahr zahlreiche Top-Athleten sowie begeisterte Zuschauer an. Die Veranstaltung findet auf dem Gletscher der Ötztaler Alpen statt und bietet sowohl spannende Wettkämpfe als auch eine einzigartige Atmosphäre inmitten einer atemberaubenden Bergkulisse. Wir haben das Design für dieses Event entwickelt, um die einzigartige Atmosphäre und Energie des Weltcups visuell zu unterstreichen.</p>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -679,6 +679,20 @@
      	true
      ); ?>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slot side-note-end"></div>
+</section>
+<section class="soelden-gallery full-width project-links huge-space">
+	<div class="slot side-note-start empty"></div>
+	<div class="content">
+		<div class="soelden-text-block no-max-width">
+			<h3 class="subline">More Sölden Events</h3>
+			<div class="buttons">
+				<?php new Button(null, 'project-button', 'Electric Mountain Festival', '/projekte/soelden/electric-mountain-festival'); ?>
+				<?php new Button(null, 'project-button', 'Ötztaler Radmarathon', '/projekte/soelden/oetztaler-radmarathon'); ?>
+				<?php new Button(null, 'project-button', 'Test Fest', '/projekte/soelden/test-fest'); ?>
 			</div>
 		</div>
 	</div>

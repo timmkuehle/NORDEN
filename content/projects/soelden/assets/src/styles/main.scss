@@ -1054,6 +1054,21 @@ body {
 				}
 			}
 		}
+
+		.project-links {
+			.buttons {
+				display: flex;
+				justify-content: space-between;
+				gap: 2rem;
+
+				.project-button {
+					margin-top: 4%;
+					color: $color-soel-anthrazit;
+					background-color: $color-soel-orange;
+					border-color: $color-soel-orange;
+				}
+			}
+		}
 	}
 
 	.site-footer {
