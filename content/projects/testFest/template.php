@@ -56,7 +56,7 @@
             <div class="wrapper">
                 <h2 class="col-light-blue">Logo</h2>
                 <h3>Font:</h3>
-                <p class="col-white">Adelle Sans Sölden als verbindendes Corporate Element zum Sölden Auftritt.</p>
+                <p class="col-white">Die Adelle Sans Sölden Headline als verbindendes Corporate Element zum Sölden Auftritt.</p>
             </div>
             <div class="wrapper">
                 <h3>Flexibles Logosystem:</h3>
@@ -84,7 +84,7 @@
     <div class="content" style="align-items: flex-start;">
         <div class="column" style="width: 30%;">
             <h2 class="col-light-blue">Colors</h2>
-            <p class="col-white">Adelle Sans Sölden als verbindendes Corporate Element zum Sölden  Auftritt.</p>
+            <p class="col-white">Poppige Farben gemischt mit den CD-Farben der Marke Sölden ergeben den individuellen TEST FEST Look.</p>
         </div>
         <div class="column" style="width: 50;">
             <?php new Image(
