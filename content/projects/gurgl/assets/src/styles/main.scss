@@ -14,6 +14,7 @@ $color-gray-3: #b1b3b3;
 $color-gray-4: #97999b;
 $color-gray-5: #75787b;
 $color-blue: #004af0;
+$color-dark-blue: #0000e1;
 
 // Utility classes
 .col-white {
@@ -277,8 +278,8 @@ body {
 
 	.button {
 		margin-top: 3vw;
-		background-color: $color-blue;
-		border-color: $color-blue;
+		background-color: $color-dark-blue;
+		border-color: $color-dark-blue;
 	}
 }
 
@@ -424,6 +425,12 @@ body {
 		transform: scale(1, -1);
 		top: -15vw;
 		height: auto;
+	}
+}
+
+#aa-image-section {
+	.content {
+		align-items: flex-end;
 	}
 }
 

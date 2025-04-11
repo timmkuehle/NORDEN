@@ -47,7 +47,7 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 80%;">
-            <p class="text-large">Gurgl, Ici qui rerum assi omnis dolo volum eum quid quis et id et faciatis sam as eossuntist, te est et et rero issi aliquas eiunt. Lestia nat quosanistrum rem illuptiume sectiur? Ignam aut ommiquatem doluptatis es re inciant otatis est ut acepe cusam, c scon ni tem eario bla exped molorum qui nescips untibus,tausam doluptum rempos digenient voluptam et aped quis cum qui</p>
+            <p class="text-large">Gurgl ist der Diamant der Alpen. Die Premium-Destination bietet Urlaub auf höchstem Niveau. Das Kommunikationskonzept unterstützen den Markenkern. Der Claim ist ein Versprechen! Gurgl bietet – umgeben von majestätischen Gletschern – Urlaub auf höchstem Niveau. Neue Liftanlagen, sonnige Skipisten, futuristisch anmutende Architektur, Ski in - Ski out und Kulinarik vom feinsten garantieren einen hochkarätigen Urlaub im Diamant der Alpen.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -102,9 +102,9 @@
     <div class="content" style="align-items: stretch;">
         <div class="column" style="display: flex; flex-direction: column; justify-content: space-between;">
             <div class="text">
-                <h2 class="col-white">Gestaltungselement</h2>
+                <h2 class="col-white">Graphicelement</h2>
                 <h3 class="col-gray-3">Gurgl. Der Diamant der Alpen</h3>
-                <p class="col-white">ci qui rerum assi omnis dolo volum eum quid quis et id et faciatis sam as eossuntist, te est et et rero issi aliquas eiunt. Lestia nat quosanistrum rem illuptiume sectiur? Ignam aut ommiquatem doluptatis es re inciant otatis est ut acepe cusam, c scon ni tem eario bla exped molorum qui nescips untibus,tausam doluptum rempos digenient voluptam et aped quis cum qui</p>
+                <p class="col-white">Wir wollen auch in dem Gestaltungselement den Claim und die Markenwerte von Gurgl transportieren. Kein Element eignet sich besser hierfür als ein Diamant. Durch Verläufe und divere, variablen Ausschnitte kann der Diamant jeder Zeit subtil im Hintergrund mittransportiert werden.</p>
             </div>
             <?php new Image(
             	null,
@@ -160,11 +160,10 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
-            <h2>The diamond of the Alps</h2>
-            <h3 class="col-white">AS Gurgl headline font</h3>
-            <p>Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungswert. Wir haben eine variable Headline-Font entwickelt, die Söldens prägnanten Charakter visualisiert. Verwendet wird sie ausschließlich bei den Headlines, bei allen Subbrands – vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.</p>
-            <p>Die AS Sölden ist mit 10 unterschiedlichen Schriftschnitten ausgestattet. Wir bevorzugen die Schriftschnitte von Regular – Extrabold. Verwendet wird sie für Fließtexte und Sublines.</p>
-            <p>— Font creation in cooperation with <span class="col-blue">TypeTogether</span></p>
+            <h2>Adelle Sans Gurgl Headline</h2>
+            <h3 class="col-white">Customized Headline Font:</h3>
+            <p class="col-white">Um zusätzlich zu dem Diamant Element noch einen weiteren Key-Brand-Identifyer zu defineiren. Kreierten wir einen customized Font für die Destination Gurgl. Dieser leietet sich aus der Fließtext Font ab und wurde bei einigen Buchstaben modifiziert. So bekommt die Schrift an den richtigen Stellen harte Kanten udn Schrägen, wie ein Diamant. Eine weitere Gemeinsamkeit ist die Eleganz die bei der Schrift durch den Condensed und Light Schnitt kommt.</p>
+            <p class="col-white">— Font creation in cooperation with <span class="col-blue">TypeTogether</span></p>
             <?php new Button(null, null, 'Mehr zur Typografie', '/'); ?>
         </div>
         <div class="column">
@@ -346,7 +345,7 @@
                 	'Alpine Artzeit'
                 ); ?>
             </h2>
-            <p class="col-white">ci qui rerum assi omnis dolo volum eum quid quis et id et faciatis sam as eossuntist, te est et et rero issi aliquas eiunt. stia nat quosanistrum rem illuptiume sectiur? Ignam aut ommiquatem doluptatis es re inciant otatis est ut acepe cusam, c scon ni tem eario bla exped molorum qui nescips untibus,tausam doluptum rempos digenient voluptam et aped quis cum qui</p>
+            <p class="col-white">Die Alpine Artzeit in Gurgl ist ein einzigartiges Kunst- und Kulturfestival, das die alpine Bergwelt mit modernen Kunstformen verbindet und Besucher in eine inspirierende Atmosphäre eintauchen lässt. Hier treffen zeitgenössische Kunst und die majestätische Natur aufeinander, um außergewöhnliche Erlebnisse zu schaffen.</p>
         </div>
         <div class="column">
             <?php new Image(
@@ -394,9 +393,7 @@
             </h2>
         </div>
         <div class="column">
-            <h2 class="col-white">The Diamond of the Alps</h2>
-            <h3 class="col-white">AS Gurgl Headline Font:</h3>
-            <p class="col-white">Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungsation</p>
+            <p class="col-white">Der Skiweltcup in Gurgl ist ein spektakuläres Event im alpinen Skisport, das jährlich Top-Athleten und begeisterte Zuschauer in die Tiroler Alpen zieht. Für dieses Event haben wir das komplette plattformübergreifende Design entwickelt, das sowohl die digitale Präsenz als auch die visuelle Kommunikation nahtlos miteinander verbindet.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -479,9 +476,7 @@
     <div class="slot start"></div>
     <div class="content narrow">
         <div class="column" style="width: 40%;">
-            <h2 class="col-white">The diamond of the Alps</h2>
-            <h3 class="col-white">AS Gurgl headline font:</h3>
-            <p class="col-white">Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungsation</p>
+            <p class="col-white">Die Alpine Auszeit in Gurgl ist ein exklusives Event, das Gästen die Möglichkeit bietet, inmitten der atemberaubenden Berglandschaft Ruhe und Erholung zu finden. Es kombiniert Wellness, Naturerlebnisse und Entspannung zu einem unvergesslichen Aufenthalt in den Tiroler Alpen.</p>
         </div>
         <div class="column">
             <?php new Image(
