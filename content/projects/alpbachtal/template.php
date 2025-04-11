@@ -88,6 +88,18 @@
     </div>
     <div class="slot end"></div>
 </section>
+<section class="project-section no-padding-top large-padding-bottom bg-col-light-beige">
+    <div class="slot start"></div>
+    <div class="content" style="align-items: flex-start;">
+        <div class="column">
+            <p>Die Vielschichtigkeit der Region spiegelt sich bereits im Namen wieder: Alp, Bach und Tal. Diese Diversität hat NORDEN in ein plattformübergreifendes Corporate Design übertragen.</p>
+        </div>
+        <div class="column">
+            <p>Durch die getrennte Schreibweise des Begriffs „Alp-bach-tal“ bekommen die einzelnen Kompo-nenten mehr Gewicht. Außerdem entsteht eine kompakte Wortmarke. Die Bildmarke leitet sich direkt aus der Wortmarke ab und trägt somit dieselbe Formensprache. Die Punze des Buchstaben „a“ wird zur Bildmarke.</p>
+        </div>
+    </div>
+    <div class="slot end"></div>
+</section>
 <section id="places-section" class="project-section small-padding bg-col-light-beige">
     <div class="slot start">
         <p class="side-note">Ortsbezeichnungen</p>
@@ -162,7 +174,7 @@
             	true
             ); ?>
         </div>
-        <div class="column">
+        <div class="column" style="align-self: flex-start;">
             <p>Die Farben des Corporate Designs leiten sich aus der Landschaft der Region Alpbachtal ab. Die Markenfarbe ist ein warmer, heller Holzton. Die Akzent-farben werden stets in farblicher Anlehnung an das jeweilige Bildmotiv eingesetzt.</p>
         </div>
     </div>
