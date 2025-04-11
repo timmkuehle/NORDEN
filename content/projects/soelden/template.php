@@ -466,7 +466,7 @@
 	'Anwendungsbeispiel Gondeln',
 	true
 ); ?>
-<section class="full-width">
+<section class="full-width bg-color-white">
 	<div class="soelden-gallery website">
 		<div class="slot side-note-start empty"></div>
 			<div class="content">
@@ -493,7 +493,7 @@
 		<div class="slot side-note-end"></div>
 	</div>
 </section>
-<section class="soelden-gallery full-width skiwear">
+<section class="soelden-gallery full-width skiwear bg-color-white">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Ski Helmet • Skiboot Bag • Neckwarmer</p>
 	</div>
@@ -708,12 +708,16 @@
   	'Strichgrafik',
   	true
   ); ?>
-		<?php new Image(
-  	null,
-  	'soelden-bag',
-  	'/content/resources/media/soelden/branding/SOEL_Snoggle_Mockup.jpg',
-  	'Layout-Beispiel',
-  	true
-  ); ?>
+  	<?php new Video(
+		'outro-video',
+     	'/content/resources/media/soelden/Schlussvideo_16x9.mp4',
+     	'16/9',
+     	'/content/resources/media/soelden/Schlussvideo_Still.jpg',
+     	'Soelden Outro Video',
+     	true,
+     	true,
+     	true,
+     	true,
+     	false); ?>	
 	</div>
 </section>
