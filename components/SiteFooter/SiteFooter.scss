@@ -1,3 +1,9 @@
+// Import component stylesheets
+@use "../HomeLink/HomeLink.scss";
+@use "../SocialMediaLink/SocialMediaLink.scss";
+@use "../FooterMenu/FooterMenu.scss";
+@use "../Button/Button.scss";
+
 .site-footer {
 	align-items: center;
 	min-height: var(--footer-min-height);
@@ -76,9 +82,3 @@
 		}
 	}
 }
-
-// Import component stylesheets
-@import "../HomeLink/HomeLink.scss";
-@import "../SocialMediaLink/SocialMediaLink.scss";
-@import "../FooterMenu/FooterMenu.scss";
-@import "../Button/Button.scss";

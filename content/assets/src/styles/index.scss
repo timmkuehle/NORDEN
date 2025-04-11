@@ -1,8 +1,12 @@
 // Import variables
-@import "./variables.scss";
+@use "./variables.scss";
 
 // Import utility classes
-@import "./utils.scss";
+@use "./utils.scss";
+
+// Import component stylesheets
+@use "../../../../components/SiteHeader/SiteHeader.scss";
+@use "../../../../components/SiteFooter/SiteFooter.scss";
 
 // General styling
 * {
@@ -127,7 +131,3 @@ body {
 		border-color: var(--color-primary);
 	}
 }
-
-// Import component stylesheets
-@import "../../../../components/SiteHeader/SiteHeader.scss";
-@import "../../../../components/SiteFooter/SiteFooter.scss";

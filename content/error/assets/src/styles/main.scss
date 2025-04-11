@@ -1,5 +1,8 @@
 // Import fonts
-@import "./fonts.scss";
+@use "./fonts.scss";
+
+// Import component stylesheets
+@use "../../../../../components/Button/Button.scss";
 
 body {
 	main {
@@ -89,5 +92,3 @@ body {
 		}
 	}
 }
-
-@import "../../../../../components/Button/Button.scss";

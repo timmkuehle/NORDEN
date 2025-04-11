@@ -1,3 +1,10 @@
+// Import generic stylesheets
+@use "@styles/content-card.scss";
+@use "@styles/bullet-list.scss";
+
+// Import component stylesheets
+@use "@components/PeopleGallery/PeopleGallery.scss";
+
 // Agency page styling
 body {
 	main {
@@ -84,10 +91,3 @@ body {
 		background-color: var(--color-light-shade);
 	}
 }
-
-// Import generic stylesheets
-@import "@styles/content-card.scss";
-@import "@styles/bullet-list.scss";
-
-// Import component stylesheets
-@import "@components/PeopleGallery/PeopleGallery.scss";

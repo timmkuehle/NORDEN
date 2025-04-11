@@ -1,3 +1,6 @@
+// Import component stylesheets
+@use "../../../../../../components/Video/Video.scss";
+
 // Project variables
 $color-soel-anthrazit: #24353f;
 $color-soel-orange: #fb6f50;
@@ -1064,6 +1067,3 @@ body {
 	background-color: $color-soel-orange;
 	border-color: $color-soel-orange;
 }
-
-// Import component stylesheets
-@import "../../../../../../components/Video/Video.scss";

@@ -1,3 +1,6 @@
+// Import component stylesheets
+@use "../Button/Button.scss";
+
 $projects-gap: 10vw;
 
 .projects-preview {
@@ -118,6 +121,3 @@ $projects-gap: 10vw;
 		}
 	}
 }
-
-// Import component stylesheets
-@import "../Button/Button.scss";
