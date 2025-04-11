@@ -19,10 +19,10 @@
     <div class="content">
         <?php new Video(
         	'oetztaler-outro-video',
-        	'/content/resources/media/oetztaler/OETZT_OERM_Outro_Web.mp4',
+        	'/content/resources/media/oetztaler/OETZT_OERM_Intro_Web.mp4',
         	'16/9',
-        	'/content/resources/media/oetztaler/OETZT_OERM_Outro_Web.jpg',
-        	'Oetztaler Outro-Video',
+        	'/content/resources/media/oetztaler/OETZT_OERM_Intro_Still_Web.png',
+        	'Oetztaler Intro-Video',
         	true,
         	true,
         	true,
@@ -30,7 +30,7 @@
         	false,
         	'/content/resources/media/oetztaler/OETZT_OERM_Outro_Mobile.mp4',
         	'1/1',
-        	'/content/resources/media/oetztaler/OETZT_OERM_Outro_Mobile.jpg'
+        	'/content/resources/media/oetztaler/OETZT_OERM_Intro_Still_Mobile.png'
         ); ?>
     </div>
     <div class="slot end"></div>
