@@ -1,12 +1,12 @@
 // Home page styling
 
 // Import generic stylesheets
-@import "@styles/content-card.scss";
+@use "@styles/content-card.scss";
 
 // Import component stylesheets
-@import "@components/ShowReel/ShowReel.scss";
-@import "@components/Video/Video.scss";
-@import "@components/ProjectsPreview/ProjectsPreview.scss";
-@import "@components/ClientList/ClientList.scss";
-@import "@components/ClientLogoStrip/ClientLogoStrip.scss";
-@import "@components/MinimalFooter/MinimalFooter.scss";
+@use "@components/ShowReel/ShowReel.scss";
+@use "@components/Video/Video.scss";
+@use "@components/ProjectsPreview/ProjectsPreview.scss";
+@use "@components/ClientList/ClientList.scss";
+@use "@components/ClientLogoStrip/ClientLogoStrip.scss";
+@use "@components/MinimalFooter/MinimalFooter.scss";

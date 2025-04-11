@@ -1,8 +1,8 @@
 // Stylesheet imports
-@import "@styles/project-section.scss";
-@import "@styles/side-note.scss";
-@import "@styles/services.scss";
-@import "@styles/images-slideshow.scss";
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@styles/services.scss";
+@use "@styles/images-slideshow.scss";
 
 // Project variables
 $color-light: #ebe9e9;

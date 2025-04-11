@@ -1,3 +1,6 @@
+// Import component stylesheets
+@use "../Logo/Logo.scss";
+
 .home-link {
 	display: inline-block;
 	position: relative;
@@ -35,6 +38,3 @@
 		}
 	}
 }
-
-// Import component stylesheets
-@import "../Logo/Logo.scss";

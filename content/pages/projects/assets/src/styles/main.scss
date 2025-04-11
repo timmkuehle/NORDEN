@@ -1,3 +1,9 @@
+// Import generic stylesheets
+@use "@styles/content-card.scss";
+
+// Import component stylesheets
+@use "@components/ProjectArchive/ProjectArchive.scss";
+
 // Projects page styling
 body {
 	main {
@@ -12,9 +18,3 @@ body {
 		}
 	}
 }
-
-// Import generic stylesheets
-@import "@styles/content-card.scss";
-
-// Import component stylesheets
-@import "@components/ProjectArchive/ProjectArchive.scss";

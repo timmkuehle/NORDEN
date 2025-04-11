@@ -1,3 +1,6 @@
+// Import component stylesheets
+@use "@components/MinimalFooter/MinimalFooter.scss";
+
 // Contact page styling
 body {
 	main {
@@ -91,6 +94,3 @@ body {
 		}
 	}
 }
-
-// Import component stylesheets
-@import "@components/MinimalFooter/MinimalFooter.scss";

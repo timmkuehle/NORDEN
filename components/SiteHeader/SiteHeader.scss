@@ -1,3 +1,8 @@
+// Import component stylesheets
+@use "../HomeLink/HomeLink.scss";
+@use "../HeaderMenu/HeaderMenu.scss";
+@use "../ContactMenu/ContactMenu.scss";
+
 .site-header {
 	display: flex;
 	justify-content: space-between;
@@ -72,8 +77,3 @@
 		}
 	}
 }
-
-// Import component stylesheets
-@import "../HomeLink/HomeLink.scss";
-@import "../HeaderMenu/HeaderMenu.scss";
-@import "../ContactMenu/ContactMenu.scss";

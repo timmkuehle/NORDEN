@@ -1,10 +1,10 @@
 // Stylesheet import
-@import "@styles/project-section.scss";
-@import "@components/Video/Video.scss";
-@import "@styles/side-note.scss";
-@import "@styles/services.scss";
-@import "@styles/bg-image-container.scss";
-@import "@styles/images-slideshow.scss";
+@use "@styles/project-section.scss";
+@use "@components/Video/Video.scss";
+@use "@styles/side-note.scss";
+@use "@styles/services.scss";
+@use "@styles/bg-image-container.scss";
+@use "@styles/images-slideshow.scss";
 
 // Project variables
 $color-beige: #c09b57;
