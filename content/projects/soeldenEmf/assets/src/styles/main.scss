@@ -256,6 +256,14 @@ svg {
 	}
 }
 
+#emf-website-header-section {
+	@media screen and (min-width: 769px) {
+		.content {
+			padding-inline: 7vw;
+		}
+	}
+}
+
 #emf-intro-video-section {
 	margin-top: calc(-1 * var(--header-height));
 

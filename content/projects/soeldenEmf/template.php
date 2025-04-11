@@ -55,9 +55,9 @@
     <div class="content" style="align-items: flex-end;">
     <?php new Video(
     	'emf-website-header-animation',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Website_Header_1680x700.mp4',
-    	'1680/700',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Website_Header_Still.jpg',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Website_Header_16x9.mp4',
+    	'16/9',
+    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Website_Header_16x9_Still.png',
     	'EMF Website Header Animation',
     	true,
     	true,
