@@ -20,7 +20,7 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 60%;">
-            <p class="text-large col-white">Im Falle des Ötztals soll sich die Schrift, als Ausdruck von Sprache, auf die Eigenständigkeit und Eigenwilligkeit des Ötztaler Dialekts beziehen. Schließlich gehört die Ötztaler Mundart zum Kulturerbe der UNESCO.</p>
+            <p class="text-large col-white">Im Falle des Ötztals soll sich die Schrift, als Ausdruck von Sprache, auf die Eigenständigkeit und Eigenwilligkeit des <span class="highlight-circle">Ötztaler Dialekts</span> beziehen. Schließlich gehört die Ötztaler Mundart zum Kulturerbe der UNESCO.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -32,8 +32,8 @@
             <div class="soelden-text-block">
                 <h2>Ein Corporate Font für das Ötztal</h2>
                 <h3>Leitidee:</h3>
-                <p class="col-white">In einer immer komplexer erscheinenden Welt ist es für Marken wichtiger denn je, eine klare Markenidentität zu schaffen. Kunden, Besucher und Fans sollten jederzeit in der Lage sein, alles zu erkennen, was die Marke ausmacht. Sowohl in Printmedien als auch in digitalen Medien. Einer der effektivsten Wege um dies zu erreichen, ist eine konstante, nach Maß gefertigte Schrift. Ein sogenannter Corporate Font.</p>
-                <p class="col-white">Die Eigenwilligkeit der Ötztaler Mundart spiegelt sich in geänderten Punktierungen, modifizierte Buchstaben und spezifische Ligaturen und Sonderzeichen wider. Ausgangsschrift für den Corporate Font des Ötztals war die „Adelle“ des Fontbüros „TypeTogether“.</p>
+                <p class="col-white">In einer immer komplexer erscheinenden Welt ist es für Marken wichtiger denn je, eine klare Markenidentität zu schaffen. Kunden, Besucher und Fans sollten jederzeit in der Lage sein, alles zu erkennen, was die Marke ausmacht – und das über alle Kommunikationskanäle hinweg. Einer der effektivsten Wege um dies zu erreichen, ist eine konstante, nach Maß gefertigte Schrift. Ein sogenannter Corporate Font.</p>
+                <p class="col-white">Die Eigenwilligkeit der Ötztaler Mundart spiegelt sich in geänderten Punktierungen, modifizierte Buchstaben und spezifische Ligaturen und Sonderzeichen wieder. Ausgangsschrift für den Corporate Font des Ötztals war die „Adelle“ des Fontbüros „TypeTogether“.</p>
                 <p class="col-white">— Font creation in cooperation with <span class="col-gold">TypeTogether</span></p>
             </div>
         </div>
@@ -124,7 +124,8 @@
         <div class="column" style="width: 60%;">
             <div class="soelden-text-block">
                 <h3>Typo Animations Konzept:</h3>
-                <p class="col-white">Die Individualisierung der Schrift fand ihren Ausgangspunkt in den signifikanten „Ö“-Strichen des Ötztal-Logos. Das „Ö“ spielt im Ötztaler Dialekt ohnehin eine ganz besondere Rolle. So wird vieles statt mit einem „O“ des Öfteren mit einem „Ö“ gesprochen und nicht selten wird im Ötztal zum Satzende ein „Ö“ angehängt. Dieser Dialekt mit Ecken und Kanten zeigt sich auch optisch: in einer eckigen Punktierung.</p>
+                <p class="col-white">Auch in den Animationen macht die Adelle Ötztal eine gute Figur.</p>
+                <p class="col-white">– Mehr zum Corporate Design der Marke Ötztal hier</p>
             </div>
         </div>
     </div>
