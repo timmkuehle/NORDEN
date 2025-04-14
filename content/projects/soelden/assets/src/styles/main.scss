@@ -465,22 +465,17 @@ body {
 				}
 			}
 
-			&.graphic-elements-cols {
-				position: relative;
-				z-index: -1;
-				padding-block: 29rem 0;
-				background-color: $color-soel-anthrazit;
-
-				@media screen and (min-width: 769px) {
-					padding: 21rem 3rem 5rem 3rem;
-				}
-			}
-
 			&.graphic-elements-images {
-				margin-bottom: -16rem;
+				background: linear-gradient(
+					var(--color-light) 58%,
+					$color-soel-anthrazit 58%
+				);
 
 				@media screen and (max-width: 768px) {
-					margin-bottom: -27rem;
+					background: linear-gradient(
+						var(--color-light) 53%,
+						$color-soel-anthrazit 53%
+					);
 				}
 
 				@media screen and (min-width: 769px) {
