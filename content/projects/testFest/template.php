@@ -16,8 +16,8 @@
     <div class="slot start"></div>
     <div class="content" style="justify-content: flex-end;">
         <div class="column" style="width: 60%; text-align: right;">
-            <p class="text-large bold uppercase">Shoppen, Testen, Ausprobieren</p>
-            <p class="text-large">Zahlreiche Marken präsentieren beim TEST FEST die neuesten Trends, während abwechslungs-reiche Side-Events mit heimischer Kulinarik, feinsten Beats und einer Afterparty der Extra-klasse Lust auf den neuen Skiwinter machen.</p>
+            <p class="text-large bold uppercase">Shoppen, Testen, Entertainment</p>
+            <p class="text-large">Zahlreiche Marken präsentieren beim TEST FEST die <span class="highlight-circle">neuesten Trends</span>, während abwechslungs-reiche Side-Events mit heimischer Kulinarik, feinsten Beats und einer <span class="highlight-circle">Afterparty</span> der Extra-Klasse Lust auf den neuen Skiwinter machen.</p>
         </div>
     </div>
     <div class="slot end"></div>
