@@ -116,7 +116,7 @@
 <section class="project-section small-padding full-width-new bg-col-blue">
     <div class="slot start"></div>
     <div class="content" style="padding-inline: var(--main-padding-inline); align-items: flex-start;">
-        <h2 class="col-anthrazit">Animationstoolbox</h2>
+        <h2 class="col-anthrazit">Animation Toolbox</h2>
     </div>
     <div class="slot end"></div>
 </section>
