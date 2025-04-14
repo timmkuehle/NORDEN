@@ -21,9 +21,9 @@
 </section>
 <section id="intro-text-section" class="project-section">
     <div class="slot start"></div>
-    <div class="content" style="justify-content: center;">
-        <div class="column" style="width: 70%;">
-            <p class="text-large" style="text-align: center;">Die Region Seefeld liegt auf einem Hochplateau zwischen Wettersteingebirge und Karwendel und ist für seine Langlaufloipen bekannt. 2021 wurde entschieden, sich von dem Namen “Olympiaregion Seefeld” zu trennen und die Region anhand von ihren geografischen Besonderheit – dem Hochplateau – zu beschreiben. Dieses Alleinstellungsmerkmal durften wir in einem Logorelaunch, sowie einem neuen Corporate Design grafisch interpretieren und umsetzten.</p>
+    <div class="content">
+        <div class="column" style="width: 100%;">
+            <p class="text-large">Die Region Seefeld liegt auf einem Hochplateau zwischen Wettersteingebirge und Karwendel und ist für seine Langlaufloipen bekannt. 2021 wurde entschieden, sich von dem Namen “Olympiaregion Seefeld” zu trennen und die Region anhand von ihren geografischen Besonderheit – dem Hochplateau – zu beschreiben. Dieses Alleinstellungsmerkmal durften wir in einem Logorelaunch, sowie einem neuen Corporate Design grafisch interpretieren und umsetzten.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -129,7 +129,7 @@
     </div>
     <div class="content" style="align-items: flex-end; gap: 3vw;">
         <div class="column" style="width: 30%;">
-            <p style="text-align: right;">Die Farbwelt leitet sich aus der Natur um Seefeld ab. Kühle Blauabstufungen, kombiniert mit warmen Ockertönen runden die Farbwelt perfekt ab und bieten genügend Spielraum in allen Anwendungen.</p>
+            <p>Die Farbwelt leitet sich aus der Natur um Seefeld ab. Kühle Blauabstufungen, kombiniert mit warmen Ockertönen runden die Farbwelt perfekt ab und bieten genügend Spielraum in allen Anwendungen.</p>
         </div>
         <div class="column" style="width: 70%;">
             <?php new Image(
