@@ -674,7 +674,7 @@
 					<?php new Image(
      	null,
      	'world-cup-ski',
-     	'/content/resources/media/soelden/world_cup/04_SOEL_Skiweltcup_Ski_quer.png',
+     	'/content/resources/media/soelden/world_cup/Skiweltcup_Ski_quer.png',
      	'Sölden Ski Weltcup Skier',
      	true
      ); ?>
