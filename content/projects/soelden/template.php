@@ -91,29 +91,6 @@
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
-<section class="soelden-gallery typography-1 full-width bg-color-anthrazit">
-	<div class="slot side-note-start">
-		<p class="soel-side-note">Typography</p>
-	</div>
-	<div class="content align-right">
-		<?php new Video(
-  	'typo-claim-animation',
-  	'/content/resources/media/soelden/typo/SOEL_TypoAnimation_Web.mp4',
-  	'16/9',
-  	'/content/resources/media/soelden/typo/SOEL_TypoAnimation_Web.png',
-  	'Typografie Animation',
-  	true,
-  	true,
-  	true,
-  	true,
-  	false,
-  	'/content/resources/media/soelden/typo/SOEL_TypoAnimation_Mobile.mp4',
-  	'1/1',
-  	'/content/resources/media/soelden/typo/SOEL_TypoAnimation_Mobile.png'
-  ); ?>
-	</div>
-	<div class="slot side-note-end"></div>
-</section>
 <section class="soelden-gallery graphic-elements-cols bg-color-anthrazit full-width">
 	<div class="slot side-note-start empty"></div>
 	<div class="content vert-align-center">
