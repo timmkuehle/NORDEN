@@ -82,6 +82,17 @@ $color-dark-blue: #0000e1;
 	font-size: max(1.5em, 1.3vw);
 }
 
+.highlight-circle {
+	&::after {
+		transform: translate(-50%, -50%) rotate(-2deg);
+		top: 50%;
+		left: 50%;
+		width: 105%;
+		height: 100%;
+		border-color: $color-blue;
+	}
+}
+
 // General styling
 body {
 	background-color: $color-gray-2;

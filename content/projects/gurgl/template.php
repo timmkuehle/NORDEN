@@ -47,7 +47,7 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 80%;">
-            <p class="text-large">Gurgl ist der Diamant der Alpen. Die Premium-Destination bietet Urlaub auf höchstem Niveau. Das Kommunikationskonzept unterstützen den Markenkern. Der Claim ist ein Versprechen! Gurgl bietet – umgeben von majestätischen Gletschern – Urlaub auf höchstem Niveau. Neue Liftanlagen, sonnige Skipisten, futuristisch anmutende Architektur, Ski in - Ski out und Kulinarik vom feinsten garantieren einen hochkarätigen Urlaub im Diamant der Alpen.</p>
+            <p class="text-large">Gurgl ist der Diamant der Alpen. Die <span class="highlight-circle">Premium-</span>Destination bietet Urlaub auf höchstem Niveau. Das Kommunikationskonzept unterstützen den Markenkern. Der Claim ist ein Versprechen! Gurgl bietet – umgeben von majestätischen Gletschern – Urlaub auf höchstem Niveau. Neue Liftanlagen, sonnige Skipisten, futuristisch anmutende Architektur, Ski in - Ski out und Kulinarik vom feinsten garantieren einen hochkarätigen Urlaub im <span class="highlight-circle">Diamant der Alpen</span>.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -214,13 +214,13 @@
     </div>
     <div class="content" style="align-items: flex-start;">
         <div class="column">
-            <h2 class="col-white">Corporate colors</h2>
-            <h3 class="col-gray-1">Primary colors</h3>
+            <h2 class="col-white">Corporate Colors</h2>
+            <h3 class="col-gray-1">Primary Colors:</h3>
             <p class="col-white">Ein feiner und eleganter Grauton bildet die Primärfarbe des neuen Corporate Designs. Die spiegelt sowohl die</p>
-            <h3 class="col-gray-1">Secondary colors</h3>
+            <h3 class="col-gray-1">Secondary Colors:</h3>
             <p class="col-white">Ausghend von der Primärfarbe wurden weitere Abstufungen 
             definiert, um maximale Flexibilität in allen Anwendungen zu gewährleisten.</p>
-            <h3 class="col-gray-1">Tertiary colors</h3>
+            <h3 class="col-gray-1">Tertiary Colors:</h3>
             <p class="col-white">Der knallige Blauton wird bei Hervorhebungen, sowie Call-To-Action Anwendugen  eingesetzt und garantiert  größstmöglichen Kontrast und Aufmerksamkeit.</p>
         </div>
         <div class="column">
