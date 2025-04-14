@@ -1,7 +1,7 @@
 .people-gallery {
 	display: flex;
 	gap: 4rem;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	max-width: 70rem;
 	margin: 6rem auto;
@@ -37,6 +37,14 @@
 				font-size: 1em;
 				font-weight: bold;
 			}
+		}
+
+		@media screen and (min-width: 575px) {
+			max-width: calc(50% - 2rem);
+		}
+
+		@media screen and (min-width: 892px) {
+			max-width: calc(33% - 2.5rem);
 		}
 	}
 }
