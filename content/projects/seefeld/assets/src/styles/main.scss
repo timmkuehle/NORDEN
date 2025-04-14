@@ -57,7 +57,11 @@ $color-gold: #d7b072;
 }
 
 .text-large {
-	font-size: max(1.5em, 1.3vw);
+	font-size: max(1.875rem, 1.875vw);
+
+	@media screen and (max-width: 768px) {
+		font-size: max(1.5em, 1.3vw);
+	}
 }
 
 // General styling
