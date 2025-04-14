@@ -164,3 +164,18 @@
     </div>
     <div class="slot end"></div>
 </section>
+<section id="st-project-links-section" class="project-section bg-col-anthrazit">
+	<div class="slot side-note-start empty"></div>
+	<div class="content">
+		<div class="soelden-text-block no-max-width">
+			<h3 class="subline">Projects – Fonts in Use</h3>
+			<div class="buttons">
+                <?php new Button(null, 'project-button', 'Sölden Corporate Design', '/projekte/soelden'); ?>
+                <?php new Button(null, 'project-button', 'Electric Mountain Festival', '/projekte/soelden/electric-mountain-festival'); ?>
+                <?php new Button(null, 'project-button', 'Test Fest', '/projekte/soelden/test-fest'); ?>
+                <?php new Button(null, 'project-button', 'Ötztaler Radmarathon', '/projekte/soelden/oetztaler-radmarathon'); ?>
+			</div>
+		</div>
+	</div>
+	<div class="slot side-note-end"></div>
+</section>
