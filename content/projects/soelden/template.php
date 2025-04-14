@@ -652,7 +652,7 @@
 				<div class="col start" style="flex-basis: 72%;">
 					<?php new Video(
      	'world-cup-video',
-     	'/content/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9 copy.mp4',
+     	'/ccontent/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9.mp4',
      	'16/9',
      	'/content/resources/media/soelden/world_cup/SOEL_Weltcup_Still.jpg',
      	'Soelden Ski Weltcup Highlights',
