@@ -112,6 +112,7 @@ body {
 
 .highlight-circle {
 	position: relative;
+	white-space: nowrap;
 
 	&::after {
 		content: "";
@@ -123,7 +124,7 @@ body {
 		width: 130%;
 		height: 130%;
 		border-radius: 100%;
-		border: 2px solid var(--color-dark);
+		border: 2px solid var(--color-primary);
 		transform-origin: 50% 0;
 	}
 
