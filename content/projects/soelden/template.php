@@ -36,7 +36,7 @@
 	</div>
 </section>
 <section class="norden-intro">
-	<p class="norden-intro-text">Sölden, im Herzen des Tiroler Ötztals gelegen, ist einer der beliebtesten Tourismusorte der Alpen. Hier findet man im Winter wie im Sommer alles – und davon reichlich: Sport & Entertainment, Action & Ruhe. Sölden ist jung und Sölden ist urban. Anspruch ist es, in allen Bereichen neue, kreative Maßstäbe zu setzen – bei den Events und der Infrastruktur, beim Markenauftritt und in der Kommunikation.</p>
+	<p class="norden-intro-text">Sölden, im Herzen des Tiroler Ötztals gelegen, ist einer der beliebtesten Tourismusorte der Alpen. Hier findet man im Winter wie im Sommer alles – und davon reichlich: Sport & Entertainment, Action & Ruhe. Sölden ist jung und Sölden ist urban. Anspruch ist es, in allen Bereichen neue, <span class="highlight-circle">kreative Maßstäbe</span> zu setzen – bei den Events und der Infrastruktur, beim Markenauftritt und in der Kommunikation.</p>
 </section>
 <section class="services full-width">
 	<p class="service">Markenstrategie</p>
@@ -98,8 +98,8 @@
 			<div class="soelden-text-block no-max-width">
 				<h2 class="heading color-white">We like to move it</h2>
 				<h3 class="subline">AS Soelden Headline Font</h3>
-				<p class="color-white">Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungswert. Wir haben eine variable Headline-Font entwickelt, die Söldens prägnanten Charakter visualisiert. Verwendet wird sie ausschließlich bei den Headlines, bei allen Subbrands – vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.</p>
-				<p class="color-white">Die AS Sölden ist mit 10 unterschiedlichen Schriftschnitten ausgestattet. Wir bevorzugen die Schriftschnitte von Regular – Extrabold. Verwendet wird sie für Fließtexte und Sublines.</p>
+				<p class="color-white">Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungswert. Wir haben eine variable Headline-Font entwickelt, die Söldens prägnanten Charakter visualisiert. Verwendet wird sie ausschließlich bei den Headlines, bei allen Subbrands – vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.r</p>
+				<p class="color-white">Die AS Sölden ist mit 10 unterschiedlichen Schriftschnitten ausgestattet. Wir bevorzugen die Schriftschnitte von Regular – Extrabold. Verwendet wird sie für Fließtexte und Sublines</p>
 				<p class="color-white">— Font creation in cooperation with <span class="color-orange">TypeTogether</span></p>
 				<?php new Button(
     	'typo-button',
@@ -281,7 +281,7 @@
 		<div class="soelden-text-block">
 			<h2 class="heading color-white">Follow me, but I'm Lost too</h2>
 				<h3 class="subline">Social Media Styleguide</h3>
-				<p class="color-white">The layout principles from print are seamlessly integrated into the digital realm. With swipe postings, we convey more images, giving the posts a magazine-like quality and making them more captivating. Even in social media, typography takes on a bold and eye-catching character. The graphic lines in the background reintroduce dynamism. Compared to before, the overall social media feed now appears more modern, distinctive, and diverse.</p>
+				<p class="color-white">Die Layout-Prinzipien aus dem Printbereich werden nahtlos in den digitalen Raum übertragen. Mit Swipe-Postings vermitteln wir mehr Bilder, wodurch die Beiträge eine magazinartige Qualität erhalten und noch ansprechender wirken. Auch in den sozialen Medien nimmt die Typografie eine markante und auffällige Rolle ein. Die grafischen Linien im Hintergrund bringen wieder Dynamik ins Spiel. Im Vergleich zu zuvor wirkt der gesamte Social-Media-Feed nun moderner, markanter und vielfältiger.</p>
 			</div>
 		</div>
 	</div>

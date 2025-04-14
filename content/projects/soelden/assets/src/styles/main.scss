@@ -81,6 +81,17 @@ $color-soel-cool-gray: #eeeff1;
 	}
 }
 
+.highlight-circle {
+	&::after {
+		transform: translate(-50%, -50%) rotate(-2deg);
+		top: 50%;
+		left: 50%;
+		width: 105%;
+		height: 100%;
+		border-color: $color-soel-red;
+	}
+}
+
 .soelden-text-block {
 	&:not(.no-max-width) {
 		max-width: 36rem;
@@ -389,7 +400,7 @@ body {
 			@-moz-document url-prefix() {
 				& {
 					scrollbar-width: thin;
-					scrollbar-color: $color-soel-orange var(--color-light);
+					scrollbar-color: $color-soel-red var(--color-light);
 				}
 			}
 
@@ -398,7 +409,7 @@ body {
 			}
 
 			&::-webkit-scrollbar-thumb {
-				background: $color-soel-orange;
+				background: $color-soel-red;
 			}
 
 			&::-webkit-scrollbar {
@@ -409,7 +420,7 @@ body {
 				margin-block: 0;
 				white-space: nowrap;
 				font-size: max(1em, 1.1vw);
-				color: $color-soel-orange;
+				color: $color-soel-red;
 			}
 		}
 
