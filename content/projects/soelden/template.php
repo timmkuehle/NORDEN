@@ -56,7 +56,7 @@
 		<p>Die Strichgrafiken stehen für Dynamik und Individualität. Sie wirken leicht und locker, drängen sich nicht den Vordergrund und geben den Bildern den nötigen Raum. Abgeleitet sind die 46° schrägen Linien von dem Breitengrad, auf dem Sölden zu finden ist.</p>
 	</div>
 </section>
-<section class="soelden-gallery graphic-elements-images">
+<section class="soelden-gallery graphic-elements-images full-width">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Graphic Elements</p>
 	</div>
