@@ -6,20 +6,16 @@ $people = [
 		'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
 	],
 	[
-		'name' => 'Lisa',
-		'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
-	],
-	[
 		'name' => 'Elaine',
 		'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
 	],
 	[
-		'name' => 'Lena',
+		'name' => 'Mira',
 		'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
 	],
 	[
-		'name' => 'Elena',
-		'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
+		'name' => 'Julia',
+		'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
 	],
 	[
 		'name' => 'You?',
