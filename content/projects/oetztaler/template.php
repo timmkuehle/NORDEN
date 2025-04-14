@@ -159,14 +159,14 @@
                 <?php new Image(
                 	null,
                 	null,
-                	'/content/resources/media/oetztaler/05_OERM_Sujet2024.jpg',
+                	'/content/resources/media/oetztaler/05_OERM_Sujet2024_1.jpg',
                 	'Oetztaler Sujet 2024',
                 	true
                 ); ?>
 				<?php new Image(
     	null,
     	null,
-    	'/content/resources/media/oetztaler/05_OERM_Sujet2023.jpg',
+    	'/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
     	'Oetztaler Sujet 2023',
     	true
     ); ?>
@@ -184,21 +184,21 @@
             <?php new Image(
             	null,
             	null,
-            	'/content/resources/media/oetztaler/OERM_Transparent_kurz_updated.jpg',
+            	'/content/resources/media/oetztaler/OERM_Transparent_kurz_updated_1.jpg',
             	'Ötztaler Event Branding – Transparent (kurz)',
             	true
             ); ?>
             <?php new Image(
             	null,
             	null,
-            	'/content/resources/media/oetztaler/OERM_Beachflags_updated.jpg',
+            	'/content/resources/media/oetztaler/OERM_Beachflags_updated_1.jpg',
             	'Ötztaler Event Branding – Beachflags',
             	true
             ); ?>
             <?php new Image(
             	null,
             	null,
-            	'/content/resources/media/oetztaler/OERM_Transparent_lang_updated.jpg',
+            	'/content/resources/media/oetztaler/OERM_Transparent_lang_updated_1.jpg',
             	'Ötztaler Event Branding – Transparent (lang)',
             	true
             ); ?>
@@ -221,7 +221,7 @@
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/oetztaler/OERM_Branding_Shop_updated.png',
+        	'/content/resources/media/oetztaler/OERM_Branding_Shop_updated_1.png',
         	'Ötztaler Event Branding – Shop',
         	true
         ); ?>
@@ -256,10 +256,10 @@
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/oetztaler/08_OERM_Trikots_Desktop.png',
+        	'/content/resources/media/oetztaler/08_OERM_Trikots_Desktop_1.png',
         	'Oetztaler Radmarathon Trikots',
         	true,
-        	'/content/resources/media/oetztaler/08_OERM_Trikots_Mobile.png'
+        	'/content/resources/media/oetztaler/08_OERM_Trikots_Mobile_1.png'
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -287,7 +287,7 @@
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/oetztaler/08_OERM_Gesamt_Trikots.png',
+        	'/content/resources/media/oetztaler/08_OERM_Gesamt_Trikots_1.png',
         	'Oetztaler Radmarathon Trikots',
         	true
         ); ?>
@@ -319,9 +319,9 @@
     <div class="content narrow">
         <?php new Video(
         	null,
-        	'/content/resources/media/oetztaler/OERM_Website.mp4',
+        	'/content/resources/media/oetztaler/OERM_Website_1.mp4',
         	'16/9',
-        	'/content/resources/media/oetztaler/OERM_Website_Still.jpg',
+        	'/content/resources/media/oetztaler/OERM_Website_Still_1.jpg',
         	'Ötztaler Radmarathon Website',
         	true,
         	true,
@@ -367,23 +367,23 @@
         <?php new Image(
         	null,
         	'oerm-gif',
-        	'/content/resources/media/oetztaler/OERM_GIF1.gif',
+        	'/content/resources/media/oetztaler/OERM_GIF1_2.gif',
         	'Ötztaler GIF 1',
         	true
         ); ?>
         <?php new Image(
-        	null,
-        	'oerm-gif',
-        	'/content/resources/media/oetztaler/OERM_GIF2.gif',
-        	'Ötztaler GIF 1',
-        	true
-        ); ?>
-        <?php new Image(
-        	null,
+            null,
         	'oerm-gif',
         	'/content/resources/media/oetztaler/OERM_GIF3.gif',
-        	'Ötztaler GIF 1',
+        	'Ötztaler GIF 2',
         	true
+        ); ?>
+        <?php new Image(
+            null,
+            'oerm-gif',
+            '/content/resources/media/oetztaler/OETZT_OERM_GIF2.gif',
+            'Ötztaler GIF 3',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -427,15 +427,31 @@
 </section>
 <section class="merch-image-section project-section bg-col-blue has-background-image">
     <div class="slot start">
+        <p class="side-note">Verkaufsshirt</p>
+    </div>
+    <div class="content narrow">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/oetztaler/01_OERM_Verkaufsshirt.png',
+        	'Verkaufsshirt',
+        	true
+        ); ?>
+    </div>
+    <div class="col end"></div>
+</section>
+<section class="merch-image-section project-section bg-col-blue has-background-image">
+    <div class="slot start">
         <p class="side-note">Merchandise</p>
     </div>
     <div class="content narrow">
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/oetztaler/OERM_Merch1_Web.png',
+        	'/content/resources/media/oetztaler/OERM_Merch1_Web_1.png',
         	'Merch',
-        	true
+        	true,
+            '/content/resources/media/oetztaler/OERM_Merch1_Mobile_1.png'
         ); ?>
     </div>
     <div class="col end"></div>
@@ -453,7 +469,7 @@
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/oetztaler/OERM_Merch2.png',
+        	'/content/resources/media/oetztaler/OERM_Merch2_1.png',
         	'Merch',
         	true
         ); ?>
