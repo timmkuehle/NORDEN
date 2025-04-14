@@ -351,7 +351,7 @@
             <?php new Image(
             	null,
             	null,
-            	'/content/resources/media/gurgl/GURGL_Print_AlpineArtzeit_Aufsteller.jpg',
+            	'/content/resources/media/gurgl/GURGL_Print_AlpineArtzeit_Aufsteller_1.jpg',
             	'Gurgl Aufsteller Alpine Auszeit',
             	false
             ); ?>
@@ -365,7 +365,7 @@
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/gurgl/GURGL_Print_AlpineArtzeit_Folder.png',
+        	'/content/resources/media/gurgl/GURGL_Print_AlpineArtzeit_Folder_1.png',
         	'Gurgl Aufsteller Alpine Auszeit',
         	false
         ); ?>
@@ -419,7 +419,7 @@
             <?php new Image(
             	null,
             	null,
-            	'/content/resources/media/gurgl/GURGL_Skiweltcup_2023_DINA3_hoch_neue_Sponsoren_screen2.jpg',
+            	'/content/resources/media/gurgl/GURGL_Skiweltcup_2023_DINA3_hoch_neue_Sponsoren_screen2_1.jpg',
             	'Ski-Weltcup Poster',
             	true
             ); ?>
@@ -433,7 +433,7 @@
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/gurgl/GURGL_SWC_Citylight.jpg',
+        	'/content/resources/media/gurgl/GURGL_SWC_Citylight_1.jpg',
         	'Ski-Weltcup Citylight',
         	true
         ); ?>
@@ -446,7 +446,7 @@
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/gurgl/GURGL__SWC2023_Eventuebersicht_Mockup.jpg',
+        	'/content/resources/media/gurgl/GURGL__SWC2023_Eventuebersicht_Mockup_1.jpg',
         	'Ski-Weltcup Event-Übersicht',
         	true
         ); ?>
