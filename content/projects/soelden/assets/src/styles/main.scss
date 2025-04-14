@@ -465,7 +465,7 @@ body {
 				}
 			}
 
-			&.typography-1 {
+			&.graphic-elements-cols {
 				position: relative;
 				z-index: -1;
 				padding-block: 29rem 0;
@@ -1072,9 +1072,9 @@ body {
 
 				.project-button {
 					margin-top: 4%;
-					color: $color-soel-anthrazit;
-					background-color: $color-soel-orange;
-					border-color: $color-soel-orange;
+					color: white;
+					background-color: $color-soel-red;
+					border-color: $color-soel-red;
 				}
 			}
 		}
