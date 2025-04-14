@@ -26,8 +26,8 @@
   ); ?>
 		</div>
 		<div class="column col-light-green">
-			<p class="uppercase bold">ARANEA provides a space for girls* and young women* where they experience appreciation, education, reflection on femininity, and breaking down patriarchal structures.</p>
-			<p class="uppercase bold">The organization aims to reach people of all genders and age groups, working towards societal change and antidiscrimination through awareness-building.</p>
+			<p class="uppercase bold">ARANEA bietet Mädchen* und jungen Frauen* einen Raum, in dem sie Wertschätzung, Bildung, Reflexion über Weiblichkeit sowie den Abbau patriarchaler Strukturen erfahren können.</p>
+			<p class="uppercase bold">Die Organisation richtet sich an Menschen aller Geschlechter und Altersgruppen und arbeitet auf gesellschaftlichen Wandel und Antidiskriminierung hin, indem sie Bewusstsein schafft.</p>
 		</div>
 	</div>
 	<div class="slot end"></div>
@@ -51,9 +51,8 @@
 	<div class="slot start"></div>
 	<div class="content">
 		<div class="column">
-			<h2>Bold, Versatile & Unique</h2>
-			<p>That's the new logo for ARANEA which exudes a sense of freedom and flexibility.</p>
-			<p>With the letter "A" appearing three times in the name, it takes on a special significance and can even be used as a standalone design element. Crafted from the font, we modified the "A" to give the logo its own distinctive touch. We also made slight adjustments to the "E" ensuring every detail reflects ARANEA's individuality.</p>
+			<h2>Bold, Mutig, Vielseitig & Einzigartig</h2>
+			<p>Das neue Logo von ARANEA vermittelt das ein Gefühl von Freiheit und Flexibilität. Da der Buchstabe „A“ dreimal im Namen vorkommt, erhält er eine besondere Bedeutung und kann sogar als eigenständiges Designelement verwendet werden. Ausgehend von der Schriftart haben wir das „A“ modifiziert, um dem Logo eine unverwechselbare Note zu verleihen. Auch das „E“ wurde leicht angepasst, um sicherzustellen, dass jedes Detail die Einzigartigkeit von ARANEA widerspiegelt.</p>
 		</div>
 		<div class="column">
 			<?php new Image(
@@ -95,10 +94,9 @@
 	<div class="slot start"></div>
 	<div class="content">
 		<div class="column">
-			<h2>Female body types</h2>
-			<p class="bold">“Each individual woman's body demands to be accepted on its own terms.”</p>
-			<p>Abstract forms, deduced from the different female body types, are used for backgrounddesign elements.
-			These abstract graphics capture the spirit of ARANEA celebrating individuality and inclusivity.</p>
+			<h2>Weibliche KörperFormen</h2>
+			<p class="bold">„Jeder einzelne Frauenkörper verlangt, zu seinen eigenen Bedingungen akzeptiert zu werden.“”</p>
+			<p>Abstrakte Formen, die aus den unterschiedlichen weiblichen Körpertypen abgeleitet wurden, dienen als Gestaltungselemente im Hintergrund. Diese abstrakten Grafiken spiegeln den Geist von ARANEA wider: Individualität und Inklusivität.</p>
 		</div>
 	</div>
 	<div class="slot end"></div>
@@ -127,9 +125,8 @@
 	<div class="slot start"></div>
 	<div class="content" style="justify-content: flex-end;">
 		<div class="column">
-			<h2>Typeface</h2>
-			<p>We chose a unique headline font. The typeface offers an endless glyph set, and can be anything you want it to be.</p>
-			<p>To the playful headline font, we choose a sans-serif typeface designed for user interfaces.</p>
+			<h2>Schrift</h2>
+			<p>Die einzigartige Headline-Schrift bietet eine unendliche Auswahl an Glyphen und kann alles sein, was man sich wünscht. Zur verspielten Headline-Schrift kombinieren wir eine serifenlose Schriftart, die speziell für Benutzeroberflächen entworfen wurde.</p>
 		</div>
 	</div>
 	<div class="slot end"></div>
@@ -148,7 +145,7 @@
 </section>
 <section class="project-section small-padding no-padding-top">
 	<div class="slot start">
-		<p class="side-note">Colors</p>
+		<p class="side-note">Farben</p>
 	</div>
 	<div class="content"></div>
 	<div class="slot end"></div>
@@ -158,8 +155,7 @@
 	<div class="content">
 		<div class="column">
 			<h2>Colors</h2>
-			<p>Abstract forms, deduced from the different female body types, are used for backgrounddesign elements.
-			These abstract graphics capture the spirit of ARANEA celebrating individuality and inclusivity.</p>
+			<p>Poppige, kontrastreiche Farben und Kombinationsmöglichkeiten bringen die Vielfalt, Lässigkeit und Modernität von ARANEA zum Ausdruck.</p>
 		</div>
 	</div>
 	<div class="slot end"></div>
