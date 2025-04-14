@@ -45,7 +45,7 @@
     <div class="content">
         <div class="column">
             <h2>Entstehungsprozess und Logo-Entwicklung</h2>
-            <p class="text-large">Tradition und Moderne. Schroffer Fels und sanfte Hügellandschaft. Diese Gegensätze charakterisiert nicht nur das Alpbachtal im Allgemeinen, sondern gelten auch für das neue Corporate Design der Marke Alpbachtal.</p>
+            <p class="text-large">Wenn man durch die Region Alpbachtal fährt, fallen einem vielerorts die alten Schriftzüge an Häusern und Wegen auf. Dies war für NORDEN einer der Ausgangspunkte für das neue Erscheinungsbild der Destination Alpbachtal.</p>
         </div>
         <div class="column">
             <?php new Image(
