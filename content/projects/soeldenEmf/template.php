@@ -34,7 +34,7 @@
         <div class="column" style="width: 85%">
             <div class="text">
                 <p class="text-large">Berge voller Beats: Das <span class="bold col-mid-blue">ELECTRIC MOUNTAIN FESTIVAL</span> liefert fünf Tage lang den ultimativen Remix aus Ski-Fun, Dance-Music und Top-Kulinarik. Und das in einer atemberaubenden Kulisse inmitten des Skigebiets von Sölden.</p>
-                <p class="text-large">Side-Events sorgen für das Warm-Up, bevor tausende Tanz-wütige das Giggijoch-Areal an den beiden Maindays in einen riesigen, schneebedeckten <span class="highlight-circle"> Dancefloor</span> verwandeln.</p>
+                <p class="text-large">Side-Events sorgen für das Warm-Up, bevor tausende Tanz-wütige das Giggijoch-Areal an den beiden Maindays in einen riesigen, <span class="highlight-circle"> schneebedeckten Dancefloor</span> verwandeln.</p>
             </div>
         </div>
         <div class="column" style="width: 15%;">
@@ -77,7 +77,7 @@
             <div class="soelden-text-section" >
                 <h2>WE LIKE TO MOVE IT</h2>
                 <h3>AS SOELDEN HEADLINE FONT:</h3>
-                <p>Wir haben eine variable Headline-Font entwickelt, die Söldens prägnanten Charakter visualisiert. Verwendet wird sie ausschließlich bei den Headlines, bei allen Subbrands – vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.</p>
+                <p>Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungswert. Vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.</p>
                 <p>— Font creation in cooperation with <span class="col-red">TypeTogether</span></p>
                 <?php new Button(
                 	null,
