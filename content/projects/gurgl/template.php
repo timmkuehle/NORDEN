@@ -148,13 +148,17 @@
         ); ?>
     </div>
     <div class="slot end"></div>
-    <?php new Image(
-    	null,
-    	'background-image',
-    	'/content/resources/media/gurgl/Gurgl_Hintergrundelement_hell.svg',
-    	'Gestaltungselement',
-    	true
-    ); ?>
+</section>
+<section id="mood-image-section">
+    <div class="content">
+        <?php new Image(
+    	    null,
+    	    'background-image',
+    	    '/content/resources/media/gurgl/04_Trennerbild.jpg',
+    	    'Trennerbild',
+    	    true
+        ); ?> 
+    </div>
 </section>
 <section id="font-development-section" class="project-section">
     <div class="slot start"></div>
