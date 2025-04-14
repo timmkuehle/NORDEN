@@ -52,7 +52,7 @@
     <div class="content">
         <div class="column">
             <h2 style="margin-left: 2vw;">Seit mehr als 100 Jahren auf dem Holzweg</h2>
-            <p style="margin-left: 2vw;">Vor mehr als 100 Jahren als Sägewerk gegründet, vereint Holtmeyer heute unter dem Dach einer Holding drei Unternehmen: Sägewerk und Holzhandel, Pellets und Energie. Diese gewachsene Dach-markenstrategie spiegelt sich auch im neuen Erscheinungsbild der Marke Holtmeyer wider.</p>
+            <p style="margin-left: 2vw;">Vor mehr als 100 Jahren als Sägewerk gegründet, vereint Holtmeyer heute unter dem Dach einer Holding drei Unternehmen: Sägewerk und Holzhandel, Pellets und Energie. Diese gewachsene Dachmarkenstrategie spiegelt sich auch im neuen Erscheinungsbild der Marke Holtmeyer wieder.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -91,7 +91,7 @@
         	'/content/resources/media/holtmeyer/04_HOLT_Farben.svg',
         	'HOLTMEYER Farbwelt'
         ); ?>
-        <p>Die Struktur der Dachmarke Holtmeyer offenbart sich nicht nur im Logo, sondern ist auch die Grundlage für die Farbgebung der einzelnen Marken. Die Farbpalette der Unternehmens-identität wird aus den spezifischen Wirkungsbereichen der Firmen abgeleitet, ohne dabei ein bestimmtes Tätigkeitsfeld übermäßig zu betonen.</p>
+        <p>Die Struktur der Dachmarke Holtmeyer offenbart sich nicht nur im Logo, sondern ist auch die Grundlage für die Farbgebung der einzelnen Marken. Die Farbpalette der Unternehmensidentität wird aus den spezifischen Wirkungsbereichen der Firmen abgeleitet, ohne dabei ein bestimmtes Tätigkeitsfeld übermäßig zu betonen.</p>
     </div>
     <div class="slot end"></div>
 </section>
@@ -142,7 +142,7 @@
         	'HOLTMEYER Gestaltungselement',
         	true
         ); ?>
-        <p id="design-principle-text" class="col-white">Das Gestaltungselement der Holding wurde von einem Sägeblatt inspiriert, einem der wichtigsten Werkzeuge von Holtmeyer. Dieses wird oft prominent platziert, jedoch kann es sowohl schlicht als auch äußerst kreativ eingesetzt werden. Diese Vielseitigkeit erlaubt es, das Symbol auf verschiedenste Weise einzubinden und dem Design so eine besondere Note zu verleihen.</p>
+        <p id="design-principle-text" class="col-white" style="display: none;">Das Gestaltungselement der Holding wurde von einem Sägeblatt inspiriert, einem der wichtigsten Werkzeuge von Holtmeyer. Dieses wird oft prominent platziert, jedoch kann es sowohl schlicht als auch äußerst kreativ eingesetzt werden. Diese Vielseitigkeit erlaubt es, das Symbol auf verschiedenste Weise einzubinden und dem Design so eine besondere Note zu verleihen.</p>
     </div>
     <div class="slot end"></div>
 </section>
@@ -180,7 +180,7 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
-            <p>Das Erscheinungsbild von Holtmeyer lässt sich mühelos auf alle Kanäle übertragen, sei es auf der Website oder in Social-Media-Beiträgen. Die Inhalte der Submarken werden dabei in einem schlichten Design präsentiert und behalten stets ihre charak-teristische Farbgebung bei.</p>
+            <p>Das Erscheinungsbild von Holtmeyer lässt sich mühelos auf alle Kanäle übertragen, sei es auf der Website oder in Social-Media-Beiträgen. Die Inhalte der Submarken werden dabei in einem schlichten Design präsentiert und behalten stets ihre charakteristische Farbgebung bei.</p>
         </div>
     </div>
     <div class="slot end"></div>
