@@ -34,12 +34,13 @@
 </section>
 <section id="st-move-section" class="project-section">
     <div class="slot start"></div>
-    <div class="content" style="align-items: flex-end;">
+    <div class="content">
         <div class="column" style="width: 57%;">
             <div class="soelden-text-section" >
                 <h2>WE LIKE TO MOVE IT</h2>
                 <h3>AS SOELDEN HEADLINE FONT:</h3>
-                <p>Wir haben eine variable Headline-Font entwickelt, die Söldens prägnanten Charakter visualisiert. Verwendet wird sie ausschließlich bei den Headlines, bei allen Subbrands – vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.</p>
+                <p>Wir haben eine variable Headline-Font entwickelt, die Söldens Charakter visualisiert. Sie kommt bei allen Überschriften der Marke, sowie bei allen Produkten und Subbrands zur Anwendung. Vor allem in Animationen entfaltet sie ihren vollen Charakter.</p>
+                <p>Die AS Sölden für den Fließtext ist mit 10 unterschiedlichen Schriftschnitten ausgestattet. Wir bevorzugen die Schriftschnitte von Regular – Extrabold. Verwendet wird sie für Fließtexte und Sublines.</p>
                 <p>— Font creation in cooperation with <span class="col-orange">TypeTogether</span></p>
             </div>
         </div>
