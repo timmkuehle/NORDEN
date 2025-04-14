@@ -127,9 +127,9 @@
     <div class="content">
         <?php new Video(
         	'oetztaler-animation-toolbox-video',
-        	'/content/resources/media/oetztaler/OETZT_Animationstoolbox.mp4',
+        	'/content/resources/media/oetztaler/OETZT_OERM_Outro_Web.mp4',
         	'16/9',
-        	'/content/resources/media/oetztaler/OETZT_Animationstoolbox_Still.jpg',
+        	'/content/resources/media/oetztaler/OETZT_OERM_Animationstoolbox.jpg',
         	'Oetztaler Animation-Toolbox Video',
         	true,
         	true,
