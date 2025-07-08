@@ -8,9 +8,9 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 	<section class="showreel overlap-header">
 		<?php new \Video(
 		    'showreel-video',
-		    '/content/resources/media/agency/Norden_Showreel_Web.mp4',
+		    '/content/resources/media/agency/Startseitenvideo_Fruehling.mp4',
 		    '16/9',
-		    '/content/resources/media/agency/Norden_Showreel_Web_Still.png',
+		    '/content/resources/media/agency/Startseitenvideo_Fruehling_Still.png',
 		    'NORDEN Showreel',
 		    false,
 		    true,
