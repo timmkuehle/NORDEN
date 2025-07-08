@@ -13,13 +13,6 @@ declare(strict_types=1);
 class ProjectModel {
     private array $projects = [
         [
-            'slug' => '/projekte/soelden/typografie',
-            'content_path' => '/content/projects/soeldenTypo',
-            'title' => 'Sölden Headline Font',
-            'thumbnail' => '/content/resources/media/soeldenTypo/00_soel_font_thumbnail_RZ.jpg',
-            'category' => 'Font Design'
-        ],
-        [
             'slug' => '/projekte/gurgl',
             'content_path' => '/content/projects/gurgl',
             'title' => 'Gurgl',
@@ -30,7 +23,7 @@ class ProjectModel {
             'slug' => '/projekte/aranea',
             'content_path' => '/content/projects/aranea',
             'title' => 'ARANEA',
-            'thumbnail' => '/content/resources/media/aranea/02_ARANEA_Startbild.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviews/03_ARANEA.jpg',
             'category' => 'Corporate Design'
         ],
         [
@@ -45,28 +38,28 @@ class ProjectModel {
             'slug' => '/projekte/soelden/test-fest',
             'content_path' => '/content/projects/testFest',
             'title' => 'Test Fest Sölden',
-            'thumbnail' => '/content/resources/media/testFest/00_TestFest_Thumbnail.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviews/05_Test_Fest.jpg',
             'category' => 'Corporate Design'
         ],
         [
             'slug' => '/projekte/soelden/typografie',
             'content_path' => '/content/projects/soeldenTypo',
             'title' => 'Corporate Font Sölden',
-            'thumbnail' => '/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviews/06_SOEL_Font_Startseite.gif',
             'category' => 'Typography'
         ],
         [
             'slug' => '/projekte/holtmeyer',
             'content_path' => '/content/projects/holtmeyer',
             'title' => 'Holtmeyer',
-            'thumbnail' => '/content/resources/media/holtmeyer/00_HOLT_Thumbnail_.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviews/07_Holtmeyer.jpg',
             'category' => 'Corporate Design'
         ],
         [
             'slug' => '/projekte/soelden/oetztaler-radmarathon',
             'content_path' => '/content/projects/oetztaler',
             'title' => 'Ötztaler Radmarathon',
-            'thumbnail' => '/content/resources/media/oetztaler/00_OERM_Thumbnail.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviews/08_Radmarathon.jpg',
             'category' => 'Event Branding'
         ],
         [
@@ -80,7 +73,7 @@ class ProjectModel {
             'slug' => '/projekte/soelden/electric-mountain-festival',
             'content_path' => '/content/projects/soeldenEmf',
             'title' => 'Electric Mountain Festival',
-            'thumbnail' => '/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviews/12_EMF_Startseite.gif',
             'category' => 'Event Branding'
         ],
         [
@@ -88,13 +81,13 @@ class ProjectModel {
             'content_path' => '/content/projects/oetztalTypo',
             'title' => 'Ötztal Font',
             'thumbnail' => '/content/resources/media/projectPreviews/09_Seefeld_Startseite.gif',
-            'category' => 'Font Design'
+            'category' => 'Typography'
         ],
         [
             'slug' => '/projekte/alpbachtal',
             'content_path' => '/content/projects/alpbachtal',
             'title' => 'Alpbachtal',
-            'thumbnail' => '/content/resources/media/alpbachtal/00_ALPACH_Thumbnail.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviews/21_Alpbachtal_Startseite.gif',
             'category' => 'Corporate Design'
         ],
     ];
