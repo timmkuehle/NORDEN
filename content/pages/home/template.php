@@ -2,24 +2,24 @@
 
 $projects = ['/projekte/soelden', '/projekte/seefeld', 'projekte/gurgl'];
 
-new SiteHeader(null, null, true, null, null, null, [], []);
+new \SiteHeader(null, null, true, null, null, null, [], []);
 ?>
 <main>
 	<section class="showreel overlap-header">
-		<?php new Video(
-  	'showreel-video',
-  	'/content/resources/media/agency/Norden_Showreel_Web.mp4',
-  	'16/9',
-  	'/content/resources/media/agency/Norden_Showreel_Web_Still.png',
-  	'NORDEN Showreel',
-  	false,
-  	true,
-  	true,
-  	true,
-  	false
-  ); ?>
+		<?php new \Video(
+		    'showreel-video',
+		    '/content/resources/media/agency/Norden_Showreel_Web.mp4',
+		    '16/9',
+		    '/content/resources/media/agency/Norden_Showreel_Web_Still.png',
+		    'NORDEN Showreel',
+		    false,
+		    true,
+		    true,
+		    true,
+		    false
+		); ?>
 	</section>
-	<section class="content-card full-width bg-col-light-shade">
+	<section class="content-card full-width">
 		<header>
 			<p class="text-style-subline vertical-text color-primary">Hi</p>
 			<div class="header-content">
@@ -28,35 +28,40 @@ new SiteHeader(null, null, true, null, null, null, [], []);
 				</div>
 			</div>
 		</header>
-		<div class="content align-right">
-			<p class="text-style-big">mit unserem scharfen Blick für Kommunikation, <span class="bold uppercase">Markenentwicklung</span> und <span class="bold uppercase">Beratung</span> bringen wir deine Marke auf ein ganz neues Level. Hier treffen <span class="bold uppercase"><span class="highlight-circle blue">Kreativität</span></span> und Digital aufeinander, um die Grenzen des Designs zu sprengen. Willkommen bei <span class="bold uppercase">NORDEN</span>, wo Ideen Wirklichkeit werden!</p>
-		</div>
-	</section>
-	<?php new ProjectsPreview(null, null, $projects); ?>
-	<section class="content-card full-width bg-col-light-shade">
-		<header>
-			<p class="text-style-subline vertical-text color-primary">Kunden</p>
-			<div class="header-content">
-				<div class="header-text">
-					<h2 class="heading">Let's work together</h2>			
-				</div>
-				<div class="buttons">
-					<?php new Button(null, null, 'Say hi', 'mailto:mail@norden.co'); ?>
-						<?php new Button(
-      	null,
-      	null,
-      	'Give us a call',
-      	'tel:+43512935681',
-      	'secondary'
-      ); ?>
-				</div>
+		<div class="content align-right intro-wrapper">
+  			<div class="intro-entry outside-timeline">
+				<p class="text-style-big">Wir sind <span class="bold">NORDEN</span></p>
+				<p class="text-style-big bold">Eine Agentur mitten in den Tiroler Alpen – mit großem Gespür für Menschen, Orte und Identität.</p>
 			</div>
-		</header>
-		<p class="subtitle">Kunden, die uns bereits ihr Vertrauen schenken:</p>
-		<div class="content align-center">
-			<?php new ClientList(null, null); ?>
+			<div class="intro-timeline-wrapper">
+				<div class="timeline-strip"></div>
+				<div>
+					<div class="intro-entry">
+						<p class="text-style-big">Was wir machen?</p>
+						<div>
+							<p>Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Unser Herz schlägt für gutes Design, klare Kommunikation und Projekte, die etwas bewegen. Ob Tourismus, Branding, Konzeption, Animation,... – wir gestalten, animieren, denken mit. Und manchmal auch quer.</p>
+							<p style="margin-top: 1.25em;">Kreativität ohne Schublade. Alles, was gute Kommunikation 	braucht – 	von Anfang an.</p>
+							<a class="button text-style-button secondary" href="/agentur">Mehr zu uns</a>
+						</div>
+					</div>
+					<div class="intro-entry big-margin">
+						<p>Kunden, die uns bereits ihr Vertrauen schenken:</p>
+						<?php new \ClientList(null, null); ?>
+					</div>	
+					<div class="intro-entry huge-margin">
+						<p class="text-style-big">Ein kleiner Teaser an Projekten ...</p>
+						<div class="all-projects-wrapper">
+							<p class="text-style-big">oder doch gleich mehr?</p>
+							<a class="button text-style-button primary" href="/agentur">Alle Projeckte</a>
+						</div>
+					</div>
+			</div>
+			</div>
 		</div>
 	</section>
-	<?php new ClientLogoStrip(null, 'full-width bg-col-light-shade'); ?>
+	<?php new \ProjectsPreview(null, 'full-width', $projects); ?>
+	<?php new \ClientLogoStrip(null, 'full-width'); ?>
+	<div class="spacer full-width" style="height: 6rem; background-color: #eceff0;"></div>
 </main>
-<?php new MinimalFooter(null, null); ?>
+<?php new \SiteFooter(null, null); ?>
+
