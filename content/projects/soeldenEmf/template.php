@@ -1,20 +1,20 @@
 <section id="emf-intro-video-section" class="project-section full-width-new no-padding-top">
     <div class="slot start"></div>
     <div class="content">
-        <?php new Video(
-        	'emf-header-video',
-        	'/content/resources/media/soeldenEmf/EMF_Opener_Web.mp4',
-        	'16/9',
-        	'/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
-        	'Electric Mountain Festival Video',
-        	true,
-        	true,
-        	true,
-        	true,
-        	false,
-        	'/content/resources/media/soeldenEmf/EMF_Opener_Mobile.mp4',
-        	'1920/1366',
-        	'/content/resources/media/soeldenEmf/EMF_Opener_Mobile_Still.jpg'
+        <?php new \Video(
+            'emf-header-video',
+            '/content/resources/media/soeldenEmf/EMF_Opener_Web.mp4',
+            '16/9',
+            '/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
+            'Electric Mountain Festival Video',
+            true,
+            true,
+            true,
+            true,
+            false,
+            '/content/resources/media/soeldenEmf/EMF_Opener_Mobile.mp4',
+            '1920/1366',
+            '/content/resources/media/soeldenEmf/EMF_Opener_Mobile_Still.jpg'
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -38,11 +38,11 @@
             </div>
         </div>
         <div class="column" style="width: 15%;">
-            <?php new Image(
-            	null,
-            	'accent-image',
-            	'/content/resources/media/soeldenEmf/01_EMF_Background_Grafik_1.png',
-            	'EMF Background-Grafik'
+            <?php new \Image(
+                null,
+                'accent-image',
+                '/content/resources/media/soeldenEmf/01_EMF_Background_Grafik_1.png',
+                'EMF Background-Grafik'
             ); ?>
         </div>
     </div>
@@ -53,17 +53,17 @@
         <p class="side-note">Website Header animation</p>
     </div>
     <div class="content" style="align-items: flex-end;">
-    <?php new Video(
-    	'emf-website-header-animation',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Website_Header_16x9.mp4',
-    	'16/9',
-    	'/content/resources/media/soeldenEmf/SOEL_EMF2023_Website_Header_16x9_Still.png',
-    	'EMF Website Header Animation',
-    	true,
-    	true,
-    	true,
-    	true,
-    	false
+    <?php new \Video(
+        'emf-website-header-animation',
+        '/content/resources/media/soeldenEmf/SOEL_EMF2023_Website_Header_16x9.mp4',
+        '16/9',
+        '/content/resources/media/soeldenEmf/SOEL_EMF2023_Website_Header_16x9_Still.png',
+        'EMF Website Header Animation',
+        true,
+        true,
+        true,
+        true,
+        false
     ); ?>
     </div>
     <div class="slot end"></div>
@@ -79,21 +79,21 @@
                 <h3>AS SOELDEN HEADLINE FONT:</h3>
                 <p>Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungswert. Vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.</p>
                 <p>— Font creation in cooperation with <span class="col-red">TypeTogether</span></p>
-                <?php new Button(
-                	null,
-                	'soelden-button',
-                	'Mehr zur Typographie',
-                	'/projekte/soelden/typografie'
+                <?php new \Button(
+                    null,
+                    'soelden-button',
+                    'Mehr zur Typographie',
+                    '/projekte/soelden/typografie'
                 ); ?>
             </div>
         </div>
         <div class="column">
-            <?php new Image(
-            	'letter-r',
-            	null,
-            	'/content/resources/media/soeldenEmf/03_EMF_Letter_R.png',
-            	'EMF Background-Grafik',
-            	true
+            <?php new \Image(
+                'letter-r',
+                null,
+                '/content/resources/media/soeldenEmf/03_EMF_Letter_R.png',
+                'EMF Background-Grafik',
+                true
             ); ?>
         </div>
     </div>
@@ -102,12 +102,12 @@
 <section id="emf-spacing-section-1" class="project-section no-padding-bottom no-padding-top full-width-new">
     <div class="slot start"></div>
     <div class="content" style="justify-content: flex-end; align-items: flex-end;">
-        <?php new Image(
-        	null,
-        	'accent-image',
-        	'/content/resources/media/soeldenEmf/03_EMF_Background_Grafik_2.png',
-        	'EMF Background-Grafik',
-        	true
+        <?php new \Image(
+            null,
+            'accent-image',
+            '/content/resources/media/soeldenEmf/03_EMF_Background_Grafik_2.png',
+            'EMF Background-Grafik',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -118,20 +118,20 @@
     </div>
     <div class="content" style="flex-direction: column; align-items: flex-start">
         <h3 class="col-white">This is how we dance</h3>
-        <?php new Video(
-        	'emf-logo-animation',
-        	'/content/resources/media/soeldenEmf/EMF_Logo_Animation_16-9_Web.mp4',
-        	'16/9',
-        	'/content/resources/media/soeldenEmf/EMF_Logo_Animation_16-9_Still_Web.jpg',
-        	'EMF Logo Animation',
-        	true,
-        	true,
-        	true,
-        	true,
-        	false,
-        	'/content/resources/media/soeldenEmf/EMF_Logo_Animation_1-1_Still_Mobile.mp4',
-        	'1/1',
-        	'/content/resources/media/soeldenEmf/EMF_Logo_Animation_1-1_Still_Mobile.jpg'
+        <?php new \Video(
+            'emf-logo-animation',
+            '/content/resources/media/soeldenEmf/EMF_Logo_Animation_16-9_Web.mp4',
+            '16/9',
+            '/content/resources/media/soeldenEmf/EMF_Logo_Animation_16-9_Still_Web.jpg',
+            'EMF Logo Animation',
+            true,
+            true,
+            true,
+            true,
+            false,
+            '/content/resources/media/soeldenEmf/EMF_Logo_Animation_1-1_Still_Mobile.mp4',
+            '1/1',
+            '/content/resources/media/soeldenEmf/EMF_Logo_Animation_1-1_Still_Mobile.jpg'
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -141,11 +141,11 @@
         <p class="side-note">Logo as a flexible lettering</p>
     </div>
     <div class="content">
-        <?php new Svg(
-        	null,
-        	null,
-        	'content/resources/media/soeldenEmf/EMF_Logoentwicklung.svg',
-        	'EMF Logo-Entwicklung'
+        <?php new \Svg(
+            null,
+            null,
+            'content/resources/media/soeldenEmf/EMF_Logoentwicklung.svg',
+            'EMF Logo-Entwicklung'
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -208,24 +208,24 @@
         <p class="side-note">Graphic elements</p>
     </div>
     <div class="content" style="align-items: flex-start;">
-        <?php new Image(
-        	null,
-        	'emf-graphics',
-        	'/content/resources/media/soeldenEmf/EMF_Grafik-Elemente_Web.png',
-        	'Hintergrundbild',
-        	true,
-        	'/content/resources/media/soeldenEmf/EMF_Grafik-Elemente_Mobile.png'
+        <?php new \Image(
+            null,
+            'emf-graphics',
+            '/content/resources/media/soeldenEmf/EMF_Grafik-Elemente_Web.png',
+            'Hintergrundbild',
+            true,
+            '/content/resources/media/soeldenEmf/EMF_Grafik-Elemente_Mobile.png'
         ); ?>
     </div>
     <div class="slot end"></div>
 </section>
-<?php new Image(
-	null,
-	'bg-image',
-	'/content/resources/media/soeldenEmf/EMF_Grafik-Background_Web.jpg',
-	'Hintergrundbild',
-	true,
-	'/content/resources/media/soeldenEmf/EMF_Grafik-Background_Mobile.jpg'
+<?php new \Image(
+    null,
+    'bg-image',
+    '/content/resources/media/soeldenEmf/EMF_Grafik-Background_Web.jpg',
+    'Hintergrundbild',
+    true,
+    '/content/resources/media/soeldenEmf/EMF_Grafik-Background_Mobile.jpg'
 ); ?>
 </div>
 <section id="emf-graphics-section" class="project-section bg-col-mid-blue no-padding-bottom">
@@ -241,33 +241,33 @@
     </div>
     <div class="content" style="align-items: flex-start;">
         <div class="emf-gifs">
-            <?php new Image(
-            	'emf-gif-1',
-            	'emf-gif',
-            	'/content/resources/media/soeldenEmf/EMF_GIF_1.gif',
-            	'Electric Mountain Festival GIF',
-            	true
+            <?php new \Image(
+                'emf-gif-1',
+                'emf-gif',
+                '/content/resources/media/soeldenEmf/EMF_GIF_1.gif',
+                'Electric Mountain Festival GIF',
+                true
             ); ?>
-            <?php new Image(
-            	'emf-gif-2',
-            	'emf-gif',
-            	'/content/resources/media/soeldenEmf/EMF_GIF_2.gif',
-            	'Electric Mountain Festival GIF',
-            	true
+            <?php new \Image(
+                'emf-gif-2',
+                'emf-gif',
+                '/content/resources/media/soeldenEmf/EMF_GIF_2.gif',
+                'Electric Mountain Festival GIF',
+                true
             ); ?>
-            <?php new Image(
-            	'emf-gif-3',
-            	'emf-gif',
-            	'/content/resources/media/soeldenEmf/EMF_GIF_3.gif',
-            	'Electric Mountain Festival GIF',
-            	true
+            <?php new \Image(
+                'emf-gif-3',
+                'emf-gif',
+                '/content/resources/media/soeldenEmf/EMF_GIF_3.gif',
+                'Electric Mountain Festival GIF',
+                true
             ); ?>
-            <?php new Image(
-            	'emf-gif-4',
-            	'emf-gif',
-            	'/content/resources/media/soeldenEmf/EMF_GIF_4.gif',
-            	'Electric Mountain Festival GIF',
-            	true
+            <?php new \Image(
+                'emf-gif-4',
+                'emf-gif',
+                '/content/resources/media/soeldenEmf/EMF_GIF_4.gif',
+                'Electric Mountain Festival GIF',
+                true
             ); ?>
         </div>
     </div>
@@ -282,41 +282,41 @@
             <h2 class="col-white"><span class="col-light-blue">(</span>Don't<span class="col-light-blue">)</span> break the rules</h2>
             <p class="col-white">Um ein einheitliches Erscheinungsbild zu gewährleisten, wurde ein allgemeines Rastersytem entwickelt. Der grundliegende Aufbau bleibt dabei immer gleich.</p>
             <div class="emf-layout-media">
-                <?php new Image(
-                	'emf-layout-animation',
-                	null,
-                	'/content/resources/media/soeldenEmf/EMF_Layout_Raster.gif',
-                	'EMF Layout Animation',
-                	true
+                <?php new \Image(
+                    'emf-layout-animation',
+                    null,
+                    '/content/resources/media/soeldenEmf/EMF_Layout_Raster.gif',
+                    'EMF Layout Animation',
+                    true
                 ); ?>
-                <?php new Image(
-                	'emf-layout-example',
-                	null,
-                	'/content/resources/media/soeldenEmf/EMF_Layout_Bsp.jpg',
-                	'EMF Layout Beispiel',
-                	true
+                <?php new \Image(
+                    'emf-layout-example',
+                    null,
+                    '/content/resources/media/soeldenEmf/EMF_Layout_Bsp.jpg',
+                    'EMF Layout Beispiel',
+                    true
                 ); ?>
             </div>
         </div>
     </div>
     <div class="slot end"></div>
-    <?php new Image(
-    	null,
-    	'background-image',
-    	'/content/resources/media/soeldenEmf/00_EMF_Background_Grafiken.png',
-    	'Hintergrundbild',
-    	true
+    <?php new \Image(
+        null,
+        'background-image',
+        '/content/resources/media/soeldenEmf/00_EMF_Background_Grafiken.png',
+        'Hintergrundbild',
+        true
     ); ?>
 </section>
 <section id="emf-graphics-section" class="project-section no-padding-top full-width-new">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile" style="align-items: flex-start;">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/08_Trennerbild.jpg',
-        	'Hintergrundbild',
-        	true
+        <?php new \Image(
+            null,
+            null,
+            '/content/resources/media/soeldenEmf/08_Trennerbild.jpg',
+            'Hintergrundbild',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -327,14 +327,14 @@
         <div class="soelden-text-section col-anthrazit">
             <h2 class="col-anthrazit">Follow me, but I'm lost too</h2>
             <h3>Postings + Stories</h3>
-            <?php new Image(
-            	'emf-some-postings',
-            	null,
-            	'/content/resources/media/soeldenEmf/SOEL_SM_Postings_Web.png',
-            	'EMF Social Media Content',
-            	true,
-            	'/content/resources/media/soeldenEmf/SOEL_SM_Postings_Mobile.png',
-            	680
+            <?php new \Image(
+                'emf-some-postings',
+                null,
+                '/content/resources/media/soeldenEmf/SOEL_SM_Postings_Web.png',
+                'EMF Social Media Content',
+                true,
+                '/content/resources/media/soeldenEmf/SOEL_SM_Postings_Mobile.png',
+                680
             ); ?>
         </div>
     </div>
@@ -348,30 +348,30 @@
         <div class="soelden-text-section col-anthrazit">
             <h3>Social Media Feed</h3>
             <div id="some-feed-media">
-                <?php new Image(
-                	'emf-some-feed',
-                	null,
-                	'/content/resources/media/soeldenEmf/02_EMF_SM_Feed.png',
-                	'EMF Social Media Feed',
-                	true
+                <?php new \Image(
+                    'emf-some-feed',
+                    null,
+                    '/content/resources/media/soeldenEmf/02_EMF_SM_Feed.png',
+                    'EMF Social Media Feed',
+                    true
                 ); ?>
-                <?php new Image(
-                	'emf-some-story',
-                	null,
-                	'/content/resources/media/soeldenEmf/02_EMF_SM_Story.png',
-                	'EMF Social Media Story',
-                	true
+                <?php new \Image(
+                    'emf-some-story',
+                    null,
+                    '/content/resources/media/soeldenEmf/02_EMF_SM_Story.png',
+                    'EMF Social Media Story',
+                    true
                 ); ?>
             </div>
         </div>
     </div>
     <div class="slot end">
-        <?php new Image(
-        	null,
-        	'side-style-image',
-        	'/content/resources/media/soeldenEmf/09_EMF_Background_Grafik_5.png',
-        	'Side Style Image',
-        	true
+        <?php new \Image(
+            null,
+            'side-style-image',
+            '/content/resources/media/soeldenEmf/09_EMF_Background_Grafik_5.png',
+            'Side Style Image',
+            true
         ); ?>
     </div>
 </section>
@@ -381,14 +381,14 @@
         <div class="soelden-text-section col-anthrazit">
             <h3>Social Media – Icons</h3>
             <div class="soelden-icons">
-				<?php new Image(
-    	null,
-    	null,
-    	'/content/resources/media/soeldenEmf/EMF_SocialMedia_StoryIcons_Web.svg',
-    	'Social Media Story Icons',
-    	true,
-    	'/content/resources/media/soeldenEmf/EMF_SocialMedia_StoryIcons_Mobile.svg'
-    ); ?>
+				<?php new \Image(
+				    null,
+				    null,
+				    '/content/resources/media/soeldenEmf/EMF_SocialMedia_StoryIcons_Web.svg',
+				    'Social Media Story Icons',
+				    true,
+				    '/content/resources/media/soeldenEmf/EMF_SocialMedia_StoryIcons_Mobile.svg'
+				); ?>
                 </div>			
             </div>
         </div>
@@ -400,12 +400,12 @@
         <p class="side-note">Screendesign</p>
     </div>
     <div class="content" style="align-items: flex-start;">
-        <?php new Image(
-        	null,
-        	'soelden-icon',
-        	'/content/resources/media/soeldenEmf/EMF_Website_New.png',
-        	'EMF Website',
-        	true
+        <?php new \Image(
+            null,
+            'soelden-icon',
+            '/content/resources/media/soeldenEmf/EMF_Website_New.png',
+            'EMF Website',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -415,17 +415,17 @@
         <p class="side-note">Screendesign</p>
     </div>
     <div class="content" style="align-items: flex-start;">
-        <?php new Video(
-        	null,
-        	'/content/resources/media/soeldenEmf/EMF_Artist_Aniamtion.mp4',
-        	'16/9',
-        	'/content/resources/media/soeldenEmf/EMF_LineUp_Animation_Screen.jpg',
-        	'EMF Artist LineUp Screen',
-        	true,
-        	true,
-        	true,
-        	true,
-        	false
+        <?php new \Video(
+            null,
+            '/content/resources/media/soeldenEmf/EMF_Artist_Aniamtion.mp4',
+            '16/9',
+            '/content/resources/media/soeldenEmf/EMF_LineUp_Animation_Screen.jpg',
+            'EMF Artist LineUp Screen',
+            true,
+            true,
+            true,
+            true,
+            false
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -433,17 +433,17 @@
 <section id="emf-we-dance-section-1" class="project-section bg-col-anthrazit full-width-new no-padding-bottom">
     <div class="slot start"></div>
     <div class="content">
-        <?php new Svg(
-        	null,
-        	'desktop-only',
-        	'/content/resources/media/soeldenEmf/EMF_WeDance_Trenner_Web.svg',
-        	'We dance at 2283 hm'
+        <?php new \Svg(
+            null,
+            'desktop-only',
+            '/content/resources/media/soeldenEmf/EMF_WeDance_Trenner_Web.svg',
+            'We dance at 2283 hm'
         ); ?>
-        <?php new Svg(
-        	null,
-        	'mobile-only',
-        	'/content/resources/media/soeldenEmf/EMF_WeDance_Trenner_Mobile.svg',
-        	'We dance at 2283 hm'
+        <?php new \Svg(
+            null,
+            'mobile-only',
+            '/content/resources/media/soeldenEmf/EMF_WeDance_Trenner_Mobile.svg',
+            'We dance at 2283 hm'
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -451,12 +451,12 @@
 <section id="emf-we-dance-section-2" class="project-section bg-col-anthrazit full-width-new no-padding-top">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/13_EMF_GondelBranding.jpg',
-        	'EMF Gondel-Branding',
-        	true
+        <?php new \Image(
+            null,
+            null,
+            '/content/resources/media/soeldenEmf/13_EMF_GondelBranding.jpg',
+            'EMF Gondel-Branding',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -466,13 +466,13 @@
         <p class="side-note">Branding — Bühne</p>
     </div>
     <div class="content ">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/EMF_Buehne_Branding_Web.png',
-        	'EMF Bühnen Vergleich',
-        	true,
-        	'/content/resources/media/soeldenEmf/EMF_Buehne_Branding_Mobile.png'
+        <?php new \Image(
+            null,
+            null,
+            '/content/resources/media/soeldenEmf/EMF_Buehne_Branding_Web.png',
+            'EMF Bühnen Vergleich',
+            true,
+            '/content/resources/media/soeldenEmf/EMF_Buehne_Branding_Mobile.png'
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -482,17 +482,17 @@
         <p class="side-note">Bühnenanimation</p>
     </div>
     <div class="content">
-        <?php new Video(
-        	null,
-        	'/content/resources/media/soeldenEmf/EMF_Buehnen_Animation.mp4',
-        	'16/9',
-        	'/content/resources/media/soeldenEmf/EMF_Buehnen_Animation_Still.png',
-        	'Bühnen-Animation',
-        	true,
-        	true,
-        	true,
-        	true,
-        	false
+        <?php new \Video(
+            null,
+            '/content/resources/media/soeldenEmf/EMF_Buehnen_Animation.mp4',
+            '16/9',
+            '/content/resources/media/soeldenEmf/EMF_Buehnen_Animation_Still.png',
+            'Bühnen-Animation',
+            true,
+            true,
+            true,
+            true,
+            false
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -502,12 +502,12 @@
         <p class="side-note">Pistenbully</p>
     </div>
     <div class="content">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/01_EMF_Pistenbully.jpg',
-        	'EMF Bühnen-Animation',
-        	true
+        <?php new \Image(
+            null,
+            null,
+            '/content/resources/media/soeldenEmf/01_EMF_Pistenbully.jpg',
+            'EMF Bühnen-Animation',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -517,41 +517,41 @@
         <p class="side-note">Branding — Chill-Out-Lounge, Sitzkissen, Fassade</p>
     </div>
     <div class="content">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/EMF_Brandings_ChilloutArea_Web.png',
-        	'EMF Chillout-Lounge',
-        	true,
-        	'/content/resources/media/soeldenEmf/EMF_Brandings_ChilloutArea_Mobile.png'
+        <?php new \Image(
+            null,
+            null,
+            '/content/resources/media/soeldenEmf/EMF_Brandings_ChilloutArea_Web.png',
+            'EMF Chillout-Lounge',
+            true,
+            '/content/resources/media/soeldenEmf/EMF_Brandings_ChilloutArea_Mobile.png'
         ); ?>
     </div>
     <div class="slot end"></div>
-    <?php new Image(
-    	null,
-    	'background-image',
-    	'/content/resources/media/soeldenEmf/03_EMF_Background_Grafik_7.png',
-    	'Styling-Icon',
-    	true
+    <?php new \Image(
+        null,
+        'background-image',
+        '/content/resources/media/soeldenEmf/03_EMF_Background_Grafik_7.png',
+        'Styling-Icon',
+        true
     ); ?>
 </section>
 <section id="how-we-dance-section" class="project-section has-background-image">
     <div class="slot start"></div>
     <div class="content" style="align-items: flex-start;">
-        <?php new Svg(
-        	'how-we-dance',
-        	null,
-        	'/content/resources/media/soeldenEmf/This_is_how_we_dance.svg',
-        	'This is how we dance'
+        <?php new \Svg(
+            'how-we-dance',
+            null,
+            '/content/resources/media/soeldenEmf/This_is_how_we_dance.svg',
+            'This is how we dance'
         ); ?>
     </div>
     <div class="slot end"></div>
-    <?php new Image(
-    	null,
-    	'background-image',
-    	'/content/resources/media/soeldenEmf/04_EMF_How_We_Dance_Bild.jpg',
-    	'Trennerbild',
-    	true
+    <?php new \Image(
+        null,
+        'background-image',
+        '/content/resources/media/soeldenEmf/04_EMF_How_We_Dance_Bild.jpg',
+        'Trennerbild',
+        true
     ); ?>
 </section>
 <section id="merch-section" class="project-section" style="align-items: flex-end;">
@@ -559,13 +559,19 @@
         <p class="side-note">Merch</p>
     </div>
     <div class="content">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/01_EMF_Merch_Web.png',
-        	'EMF Merch',
-        	true,
-        	'/content/resources/media/soeldenEmf/01_EMF_Merch_Mobile.png'
+        <?php new \Image(
+            null,
+            'emf-merch-image',
+            '/content/resources/media/soeldenEmf/soel_emf_merch_01.jpg',
+            'EMF Merch Front',
+            true
+        ); ?>
+        <?php new \Image(
+            null,
+            'emf-merch-image',
+            '/content/resources/media/soeldenEmf/soel_emf_merch_02.jpg',
+            'EMF Merch Back',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -573,12 +579,12 @@
 <section id="stage-spacer-section" class="project-section" style="align-items: flex-end;">
     <div class="slot start"></div>
     <div class="content">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/06_EMF_Buehne_1.jpg',
-        	'Trennerbild',
-        	true
+        <?php new \Image(
+            null,
+            null,
+            '/content/resources/media/soeldenEmf/06_EMF_Buehne_1.jpg',
+            'Trennerbild',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -599,38 +605,38 @@
 				</svg>
 			</div>
 			<div class="images-container" style="gap: 10rem">
-				<?php new Image(
-    	null,
-    	null,
-    	'/content/resources/media/soeldenEmf/EMF_PopUpStore1.png',
-    	'EMF Pop-Up-Store 1',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	null,
-    	'/content/resources/media/soeldenEmf/EMF_PopUpStore2.png',
-    	'EMF Pop-Up-Store 2',
-    	true
-    ); ?>
-				<?php new Image(
-    	null,
-    	null,
-    	'/content/resources/media/soeldenEmf/EMF_PopUpStore3.png',
-    	'EMF Pop-Up-Store 3',
-    	true
-    ); ?>
+				<?php new \Image(
+				    null,
+				    null,
+				    '/content/resources/media/soeldenEmf/EMF_PopUpStore1.png',
+				    'EMF Pop-Up-Store 1',
+				    true
+				); ?>
+				<?php new \Image(
+				    null,
+				    null,
+				    '/content/resources/media/soeldenEmf/EMF_PopUpStore2.png',
+				    'EMF Pop-Up-Store 2',
+				    true
+				); ?>
+				<?php new \Image(
+				    null,
+				    null,
+				    '/content/resources/media/soeldenEmf/EMF_PopUpStore3.png',
+				    'EMF Pop-Up-Store 3',
+				    true
+				); ?>
 				
             </div>
 		</div>
     </div>
     <div class="slot end">
-        <?php new Image(
-        	null,
-        	'side-style-image',
-        	'/content/resources/media/soeldenEmf/08_EMF_Background_Grafik_10.png',
-        	'Side Style Image',
-        	true
+        <?php new \Image(
+            null,
+            'side-style-image',
+            '/content/resources/media/soeldenEmf/08_EMF_Background_Grafik_10.png',
+            'Side Style Image',
+            true
         ); ?>
     </div>
 </section>
@@ -639,33 +645,33 @@
         <p class="side-note">Photopoint</p>
     </div>
     <div class="content">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/08_EMF_Fotopoint.jpg',
-        	'EMF Photopoint',
-        	true
+        <?php new \Image(
+            null,
+            null,
+            '/content/resources/media/soeldenEmf/08_EMF_Fotopoint_NEU.jpg',
+            'EMF Photopoint',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
 </section>
-<?php new Image(
-	null,
-	'bg-image',
-	'/content/resources/media/soeldenEmf/10_EMF_Background_Verlauf_RZ.png',
-	'Hintergrundbild',
-	true
+<?php new \Image(
+    null,
+    'bg-image',
+    '/content/resources/media/soeldenEmf/10_EMF_Background_Verlauf_RZ.png',
+    'Hintergrundbild',
+    true
 ); ?>
 </div>
 <section id="outro-section" class="project-section bg-col-anthrazit full-width-new no-padding-bottom" style="align-items: flex-end;">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/soeldenEmf/09_EMF_Ortsbranding_RZ.jpg',
-        	'Trennerbild',
-        	true
+        <?php new \Image(
+            null,
+            null,
+            '/content/resources/media/soeldenEmf/09_EMF_Ortsbranding_RZ.jpg',
+            'Trennerbild',
+            true
         ); ?>
     </div>
     <div class="slot end"></div>
