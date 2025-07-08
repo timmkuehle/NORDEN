@@ -1,5 +1,5 @@
-import handleProjectArchiveScroll from "@scripts/components/projectArchiveScrollHandler";
+import { ProjectArchiveFilter } from "@scripts/components/projectArchiveFilter";
 
 document.addEventListener("DOMContentLoaded", () => {
-	handleProjectArchiveScroll();
+	new ProjectArchiveFilter();
 });
