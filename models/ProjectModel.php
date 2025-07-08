@@ -13,26 +13,11 @@ declare(strict_types=1);
 class ProjectModel {
     private array $projects = [
         [
-            'slug' => '/projekte/soelden',
-            'content_path' => '/content/projects/soelden',
-            'title' => 'Sölden',
-            'thumbnail' => '/content/resources/media/projectPreviews/04_Soelden.jpg',
-            'category' => 'Corporate Design',
-            'preview_title' => 'Marke Sölden'
-        ],
-        [
             'slug' => '/projekte/soelden/typografie',
             'content_path' => '/content/projects/soeldenTypo',
             'title' => 'Sölden Headline Font',
             'thumbnail' => '/content/resources/media/soeldenTypo/00_soel_font_thumbnail_RZ.jpg',
             'category' => 'Font Design'
-        ],
-        [
-            'slug' => '/projekte/aranea',
-            'content_path' => '/content/projects/aranea',
-            'title' => 'ARANEA',
-            'thumbnail' => '/content/resources/media/aranea/02_ARANEA_Startbild.jpg',
-            'category' => 'Corporate Design'
         ],
         [
             'slug' => '/projekte/gurgl',
@@ -42,24 +27,39 @@ class ProjectModel {
             'category' => 'Corporate Design'
         ],
         [
-            'slug' => '/projekte/soelden/electric-mountain-festival',
-            'content_path' => '/content/projects/soeldenEmf',
-            'title' => 'Electric Mountain Festival',
-            'thumbnail' => '/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
-            'category' => 'Event Branding'
-        ],
-        [
-            'slug' => '/projekte/alpbachtal',
-            'content_path' => '/content/projects/alpbachtal',
-            'title' => 'Alpbachtal',
-            'thumbnail' => '/content/resources/media/alpbachtal/00_ALPACH_Thumbnail.jpg',
+            'slug' => '/projekte/aranea',
+            'content_path' => '/content/projects/aranea',
+            'title' => 'ARANEA',
+            'thumbnail' => '/content/resources/media/aranea/02_ARANEA_Startbild.jpg',
             'category' => 'Corporate Design'
         ],
         [
-            'slug' => '/projekte/seefeld',
-            'content_path' => '/content/projects/seefeld',
-            'title' => 'Seefeld',
-            'thumbnail' => '/content/resources/media/projectPreviews/09_Seefeld_Startseite.gif',
+            'slug' => '/projekte/soelden',
+            'content_path' => '/content/projects/soelden',
+            'title' => 'Sölden',
+            'thumbnail' => '/content/resources/media/projectPreviews/04_Soelden.jpg',
+            'category' => 'Corporate Design',
+            'preview_title' => 'Marke Sölden'
+        ],
+        [
+            'slug' => '/projekte/soelden/test-fest',
+            'content_path' => '/content/projects/testFest',
+            'title' => 'Test Fest Sölden',
+            'thumbnail' => '/content/resources/media/testFest/00_TestFest_Thumbnail.jpg',
+            'category' => 'Corporate Design'
+        ],
+        [
+            'slug' => '/projekte/soelden/typografie',
+            'content_path' => '/content/projects/soeldenTypo',
+            'title' => 'Corporate Font Sölden',
+            'thumbnail' => '/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
+            'category' => 'Typography'
+        ],
+        [
+            'slug' => '/projekte/holtmeyer',
+            'content_path' => '/content/projects/holtmeyer',
+            'title' => 'Holtmeyer',
+            'thumbnail' => '/content/resources/media/holtmeyer/00_HOLT_Thumbnail_.jpg',
             'category' => 'Corporate Design'
         ],
         [
@@ -70,18 +70,18 @@ class ProjectModel {
             'category' => 'Event Branding'
         ],
         [
-            'slug' => '/projekte/holtmeyer',
-            'content_path' => '/content/projects/holtmeyer',
-            'title' => 'Holtmeyer',
-            'thumbnail' => '/content/resources/media/holtmeyer/00_HOLT_Thumbnail_.jpg',
+            'slug' => '/projekte/seefeld',
+            'content_path' => '/content/projects/seefeld',
+            'title' => 'Seefeld',
+            'thumbnail' => '/content/resources/media/projectPreviews/09_Seefeld_Startseite.gif',
             'category' => 'Corporate Design'
         ],
         [
-            'slug' => '/projekte/soelden/test-fest',
-            'content_path' => '/content/projects/testFest',
-            'title' => 'Test Fest Sölden',
-            'thumbnail' => '/content/resources/media/testFest/00_TestFest_Thumbnail.jpg',
-            'category' => 'Corporate Design'
+            'slug' => '/projekte/soelden/electric-mountain-festival',
+            'content_path' => '/content/projects/soeldenEmf',
+            'title' => 'Electric Mountain Festival',
+            'thumbnail' => '/content/resources/media/soeldenEmf/EMF_Opener_Web_Still.jpg',
+            'category' => 'Event Branding'
         ],
         [
             'slug' => '/projekte/oetztal/font',
@@ -89,7 +89,14 @@ class ProjectModel {
             'title' => 'Ötztal Font',
             'thumbnail' => '/content/resources/media/projectPreviews/09_Seefeld_Startseite.gif',
             'category' => 'Font Design'
-        ]
+        ],
+        [
+            'slug' => '/projekte/alpbachtal',
+            'content_path' => '/content/projects/alpbachtal',
+            'title' => 'Alpbachtal',
+            'thumbnail' => '/content/resources/media/alpbachtal/00_ALPACH_Thumbnail.jpg',
+            'category' => 'Corporate Design'
+        ],
     ];
     private array $currentProject;
 
