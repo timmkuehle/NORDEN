@@ -1,4 +1,5 @@
-<?php new SiteHeader(null, null, true, null, null, null, [], []); ?>
+<?php new \SiteHeader(null, null, true, null, null, null, [], []); ?>
 <main>
-	<?php new ProjectArchive(null, null); ?>
+	<?php new \ProjectArchive(null, null); ?>
 </main>
+<?php new \SiteFooter(null, null); ?>
