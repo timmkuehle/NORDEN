@@ -539,7 +539,16 @@ svg {
 	}
 }
 
-#merch-section,
+#merch-section {
+	.content {
+		.image {
+			@media screen and (min-width: 769px) {
+				width: 45%;
+			}
+		}
+	}
+}
+
 #stage-spacer-section {
 	.content {
 		.image {
