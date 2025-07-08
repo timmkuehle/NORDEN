@@ -1,121 +1,41 @@
-// Import component stylesheets
-@use "../Button/Button.scss";
-
-$projects-gap: 10vw;
+$projects-gap: 3rem;
 
 .projects-preview {
-	width: 100%;
-	margin-block: 6rem;
-
-	.subline {
-		margin-top: 0.5em;
-		text-align: center;
-		font-size: 1.375em;
-	}
-
-	.title {
-		margin-bottom: 1.5em;
-		text-transform: uppercase;
-		font-size: max(2em, 3vw);
-	}
+	padding-block: 1.375rem 6rem;
+	background-color: #eceff0;
 
 	.projects {
 		display: flex;
-		flex-direction: column;
 		gap: $projects-gap;
-		align-items: center;
 		flex-wrap: wrap;
 		width: 100%;
-		margin-top: 4vw;
-		perspective: 60px;
 
 		.project {
-			width: 100%;
+			flex: 1 0 calc(33.333% - 2rem);
+			min-width: 20rem;
 
 			.project-link {
 				display: block;
 				position: relative;
 				width: 100%;
+				text-decoration: none;
 
-				.project-header {
-					position: absolute;
-					top: 0;
-					left: 0;
-					z-index: 2;
+				.project-thumbnail {
 					width: 100%;
-					height: 40%;
-					padding: 0.625rem 0.75rem;
-					background-image: linear-gradient(
-						rgba(255, 255, 255, 0.35),
-						rgba(255, 255, 255, 0)
-					);
+				}
+
+				.project-footer {
+					margin-top: 1.5vw;
+
+					.project-title {
+						font-size: max(1.125rem, 1.25vw);
+					}
 
 					.project-category {
 						margin: 0;
-						font-size: 1.125rem;
+						font-size: max(1rem, 1.125vw);
 						color: var(--color-primary);
 					}
-				}
-			}
-
-			.project-thumbnail {
-				width: 100%;
-				filter: saturate(0);
-				transition: filter 0.5s ease-out;
-			}
-
-			@media screen and (hover: hover) and (pointer: fine) {
-				&:hover {
-					.project-thumbnail {
-						filter: saturate(1);
-					}
-				}
-			}
-
-			&.active {
-				.project-link {
-					.project-thumbnail {
-						filter: saturate(1);
-					}
-				}
-			}
-		}
-
-		.project-archive-button-container {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			width: 100%;
-		}
-
-		@media screen and (min-width: 769px) {
-			flex-direction: row;
-
-			.project {
-				flex: 0 0 calc(50% - ($projects-gap / 2));
-
-				.project-link {
-					.project-header {
-						padding: 1.375vw 1.5vw;
-
-						.project-category {
-							font-size: 1.125vw;
-						}
-					}
-				}
-
-				&:nth-child(4n + 2),
-				&:nth-child(4n + 3) {
-					transform: translateZ(-15px) scale(1.25);
-				}
-			}
-
-			.project-archive-button-container {
-				flex: 0 0 100%;
-
-				&:not(:nth-child(odd)) {
-					flex: 0 0 calc(50% - ($projects-gap / 2));
-					transform: translateZ(-15px) scale(1.25);
 				}
 			}
 		}
