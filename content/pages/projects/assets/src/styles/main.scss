@@ -3,18 +3,3 @@
 
 // Import component stylesheets
 @use "@components/ProjectArchive/ProjectArchive.scss";
-
-// Projects page styling
-body {
-	main {
-		height: 100vh;
-		height: 100dvh;
-		margin-top: 0;
-		padding: 0;
-
-		.project-archive {
-			width: 100%;
-			height: 100%;
-		}
-	}
-}
