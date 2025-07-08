@@ -30,7 +30,7 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 		</header>
 		<div class="content align-right intro-wrapper">
   			<div class="intro-entry outside-timeline">
-				<p class="text-style-big">Wir sind <span class="bold">NORDEN</span></p>
+				<p class="text-style-big">Wir sind <span class="bold highlight-circle">NORDEN</span></p>
 				<p class="text-style-big bold">Eine Agentur mitten in den Tiroler Alpen – mit großem Gespür für Menschen, Orte und Identität.</p>
 			</div>
 			<div class="intro-timeline-wrapper">
@@ -39,7 +39,7 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 					<div class="intro-entry">
 						<p class="text-style-big">Was wir machen?</p>
 						<div>
-							<p>Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Unser Herz schlägt für gutes Design, klare Kommunikation und Projekte, die etwas bewegen. Ob Tourismus, Branding, Konzeption, Animation,... – wir gestalten, animieren, denken mit. Und manchmal auch quer.</p>
+							<p>Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Unser Herz schlägt für gutes Design, klare Kommunikation und Projekte, die <span class="highlight-circle">etwas bewegen.</span> Ob Tourismus, Branding, Konzeption, Animation,... – wir gestalten, animieren, <span class="highlight-circle">denken mit.</span> Und manchmal auch quer.</p>
 							<p style="margin-top: 1.25em;">Kreativität ohne Schublade. Alles, was gute Kommunikation 	braucht – 	von Anfang an.</p>
 							<a class="button text-style-button secondary" href="/agentur">Mehr zu uns</a>
 						</div>
