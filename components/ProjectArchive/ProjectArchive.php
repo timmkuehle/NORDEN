@@ -18,8 +18,8 @@ class ProjectArchive extends \PHTMLComponent {
     }
 
     private function renderProjects(): void {
-        foreach ($this->projects as $project) { ?>
-        <article class="project">
+        foreach ($this->projects as $index => $project) { ?>
+        <article class="project" data-category="<?= $project['category'] ?? 'Uncategorized'; ?>" data-order="<?= $index; ?>">
             <a class="project-link"
             href="<?= BASE_URL . sanitize_uri($project['slug']); ?>">
 				<?php new \Image(
@@ -47,7 +47,7 @@ class ProjectArchive extends \PHTMLComponent {
 				<div class="filter-list">
 					<a class="filter-link">Corporate Design</a>
 					<a class="filter-link">Typography</a>
-					<a class="filter-link">Event-Branding</a>
+					<a class="filter-link">Event Branding</a>
 				</div>
 			</div>
 		</header>

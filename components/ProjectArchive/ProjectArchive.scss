@@ -7,6 +7,7 @@
 		line-height: 0.75;
 		margin: 0;
 		font-size: max(6rem, 10vw);
+		cursor: pointer;
 	}
 
 	.project-filter-wrapper {
@@ -20,12 +21,26 @@
 		}
 
 		.filter-toggle {
-			margin-block: 0.25rem 0;
+			margin-block: 0.3125rem 0;
+
+			&.active {
+				color: var(--color-primary);
+			}
 		}
 
 		.filter-list {
-			display: flex;
+			display: none;
 			gap: 1.5rem;
+
+			&.active {
+				display: flex;
+			}
+
+			.filter-link {
+				&.active {
+					color: var(--color-primary);
+				}
+			}
 		}
 	}
 
