@@ -22,10 +22,6 @@ class ProjectArchive extends \PHTMLComponent {
         <article class="project">
             <a class="project-link"
             href="<?= BASE_URL . sanitize_uri($project['slug']); ?>">
-				<header class="project-header">
-					<h2 class="project-category"><?= $project['category']
-         ?? 'Uncategorized'; ?></h2>
-				</header>
 				<?php new \Image(
 				    null,
 				    'project-thumbnail',
@@ -33,6 +29,10 @@ class ProjectArchive extends \PHTMLComponent {
 				    'NORDEN Projekt: ' . $project['title'],
 				    true
 				); ?>
+				<footer class="project-footer">
+					<h2 class="project-title"><?= $project['preview_title'] ?? $project['title']; ?></h2>
+					<p class="project-category"><?= $project['category'] ?? 'Uncategorized'; ?></p>
+				</footer>
             </a>
         </article>
         <?php }
@@ -40,9 +40,20 @@ class ProjectArchive extends \PHTMLComponent {
 
     public function render() {
         ?>
+		<header class="projects-header">
+			<h1>WORK</h1>
+			<div class="project-filter-wrapper">
+				<a class="filter-toggle">Filter here</a>
+				<div class="filter-list">
+					<a class="filter-link">Corporate Design</a>
+					<a class="filter-link">Typography</a>
+					<a class="filter-link">Event-Branding</a>
+				</div>
+			</div>
+		</header>
         <section <?php $this->renderHTMLAttributes(); ?>>
+			
             <?php $this->renderProjects(); ?>
-			<?php new \SiteFooter(null, 'layer-front'); ?>
         </section>
     <?php
     }
