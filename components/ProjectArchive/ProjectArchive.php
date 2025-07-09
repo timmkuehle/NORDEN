@@ -45,8 +45,12 @@ class ProjectArchive extends \PHTMLComponent {
 				<a class="filter-toggle">Filter here</a>
 				<div class="filter-list">
 					<a class="filter-link">Corporate Design</a>
+					<a class="filter-link">Editorial Design</a>
 					<a class="filter-link">Typography</a>
+					<a class="filter-link">Grafik Support</a>
 					<a class="filter-link">Event Branding</a>
+					<a class="filter-link">Packaging Design</a>
+					<a class="filter-link">Logo Design</a>
 				</div>
 			</div>
 		</header>
