@@ -20,8 +20,7 @@ class ProjectArchive extends \PHTMLComponent {
     private function renderProjects(): void {
         foreach ($this->projects as $index => $project) { ?>
         <article class="project" data-category="<?= $project['category'] ?? 'Uncategorized'; ?>" data-order="<?= $index; ?>">
-            <a class="project-link"
-            href="<?= BASE_URL . sanitize_uri($project['slug']); ?>">
+            <a class="project-link" <?= $project['slug'] !== '/' ? 'href="' . BASE_URL . sanitize_uri($project['slug']) . '"' : ''; ?>">
 				<?php new \Image(
 				    null,
 				    'project-thumbnail',
