@@ -13,6 +13,14 @@ declare(strict_types=1);
 class ProjectModel {
     private array $projects = [
         [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Ötztal',
+            'thumbnail' => '/content/resources/media/projectPreviews/01_Oetztal_CD_Startseite.gif',
+            'category' => 'Corporate Design',
+            'preview_title' => 'Marke Ötztal'
+        ],
+        [
             'slug' => '/projekte/gurgl',
             'content_path' => '/content/projects/gurgl',
             'title' => 'Gurgl',
@@ -70,6 +78,21 @@ class ProjectModel {
             'category' => 'Corporate Design'
         ],
         [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Ötztal Magazin',
+            'thumbnail' => '/content/resources/media/projectPreviews/10_Oetztal_Magazin.jpg',
+            'category' => 'Editorial Design'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Garda Trentino',
+            'thumbnail' => '/content/resources/media/projectPreviews/11_Garda_CD.jpg',
+            'category' => 'Corporate Design',
+            'preview_title' => 'Marke Garda Trentino'
+        ],
+        [
             'slug' => '/projekte/soelden/electric-mountain-festival',
             'content_path' => '/content/projects/soeldenEmf',
             'title' => 'Electric Mountain Festival',
@@ -77,17 +100,103 @@ class ProjectModel {
             'category' => 'Event Branding'
         ],
         [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Bike Republic Sölden',
+            'thumbnail' => '/content/resources/media/projectPreviews/13_BRS_Startseite.gif',
+            'category' => 'Editorial Design',
+            'preview_title' => 'Corporate Design'
+        ],
+        [
             'slug' => '/projekte/oetztal/font',
             'content_path' => '/content/projects/oetztalTypo',
             'title' => 'Ötztal Font',
-            'thumbnail' => '/content/resources/media/projectPreviews/09_Seefeld_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviews/14_Oetztal_Font.jpg',
             'category' => 'Typography'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Florian Manz',
+            'thumbnail' => '/content/resources/media/projectPreviews/15_FlorianManz.jpg',
+            'category' => 'Logo Design'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Burton',
+            'thumbnail' => '/content/resources/media/projectPreviews/16_Burton.jpg',
+            'category' => 'Grafik Support'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Kaiserweis Kids Käsebox',
+            'thumbnail' => '/content/resources/media/projectPreviews/17_Kaiserweis_Käasebox_Kids.jpg',
+            'category' => 'Packaging Design'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Corporate Font Gurgl',
+            'thumbnail' => '/content/resources/media/projectPreviews/18_GurgL_Font_Startseite.gif',
+            'category' => 'Typography'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Rock Master',
+            'thumbnail' => '/content/resources/media/projectPreviews/19_Rock_Master.jpg',
+            'category' => 'Event Branding'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Pleasure Snowboard Magazin',
+            'thumbnail' => '/content/resources/media/projectPreviews/20_Pleasure.jpg',
+            'category' => 'Editorial Design'
         ],
         [
             'slug' => '/projekte/alpbachtal',
             'content_path' => '/content/projects/alpbachtal',
             'title' => 'Alpbachtal',
             'thumbnail' => '/content/resources/media/projectPreviews/21_Alpbachtal_Startseite.gif',
+            'category' => 'Corporate Design',
+            'preview_title' => 'Marke Alpbachtal'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Congress Centrum Alpbach',
+            'thumbnail' => '/content/resources/media/projectPreviews/22_CCA.jpg',
+            'category' => 'Corporate Design',
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Kaiserweis Premium Käsebox',
+            'thumbnail' => '/content/resources/media/projectPreviews/23_Kaiserweis_Käsebox_premium.jpg',
+            'category' => 'Packaging Design'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Corporate Font Garda Trentino',
+            'thumbnail' => '/content/resources/media/projectPreviews/24_Garda_Font_Startseite.gif',
+            'category' => 'Typography'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Ötztal WIDI-(Kids)font',
+            'thumbnail' => '/content/resources/media/projectPreviews/25_WidiFont.jpg',
+            'category' => 'Typography'
+        ],
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Tirols Hochplateau',
+            'thumbnail' => '/content/resources/media/projectPreviews/26_TirolsHochplateau_Startseite.gif',
             'category' => 'Corporate Design'
         ],
     ];
