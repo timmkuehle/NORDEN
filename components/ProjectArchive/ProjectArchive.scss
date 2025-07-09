@@ -30,7 +30,8 @@
 
 		.filter-list {
 			display: none;
-			gap: 1.5rem;
+			flex-wrap: wrap;
+			gap: 1.25rem;
 
 			&.active {
 				display: flex;
