@@ -52,7 +52,7 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 						<p class="text-style-big">Ein kleiner Teaser an Projekten ...</p>
 						<div class="all-projects-wrapper">
 							<p class="text-style-big">oder doch gleich mehr?</p>
-							<a class="button text-style-button primary" href="/work">Alle Projeckte</a>
+							<a class="button text-style-button primary" href="/work">Alle Projekte</a>
 						</div>
 					</div>
 			</div>
