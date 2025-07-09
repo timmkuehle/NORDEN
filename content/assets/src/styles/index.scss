@@ -31,7 +31,7 @@ svg {
 }
 
 a {
-	font-size: max(1.125rem, 1.25vw);
+	font-size: clamp(1rem, 1.25vw, 1.328125rem);
 	color: var(--color-dark);
 
 	@media screen and (hover: hover) {
@@ -54,7 +54,7 @@ h2 {
 	margin-block: 0.25em;
 	line-height: 1.05;
 	text-transform: uppercase;
-	font-size: max(4em, 5vw);
+	font-size: clamp(4em, 5vw, 5.3125rem);
 
 	.has-error main & {
 		font-size: 3em;
@@ -63,11 +63,11 @@ h2 {
 
 h3 {
 	text-transform: uppercase;
-	font-size: max(1.75em, 2.25vw);
+	font-size: clamp(1.75em, 2.25vw, 2.390625rem);
 }
 
 p {
-	font-size: max(1.125rem, 1.25vw);
+	font-size: clamp(1rem, 1.25vw, 1.328125rem);
 }
 
 body {
@@ -82,7 +82,11 @@ body {
 
 	main {
 		flex-grow: 1;
+		width: 100%;
+		max-width: 1700px;
+		overflow-x: hidden;
 		margin-top: var(--header-height);
+		margin-inline: auto;
 		padding: var(--main-padding);
 
 		& > * {
@@ -131,4 +135,8 @@ body {
 	&.blue::after {
 		border-color: var(--color-primary);
 	}
+}
+
+.text-large {
+	font-size: clamp(1.125rem, 1.375vw, 1.4609375rem);
 }

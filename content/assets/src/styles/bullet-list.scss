@@ -2,7 +2,7 @@
 	margin-block: 1.625rem;
 
 	.heading {
-		font-size: max(2em, 2vw);
+		font-size: clamp(2em, 2vw, 2.125em);
 		margin-block: 0 0.75rem;
 	}
 
@@ -14,7 +14,7 @@
 		li {
 			position: relative;
 			line-height: 1.25;
-			font-size: max(1em, 0.875vw);
+			font-size: clamp(1rem, 1.25vw, 1.328125rem);
 
 			&::before {
 				content: "";

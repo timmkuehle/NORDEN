@@ -36,7 +36,7 @@
 	</div>
 </section>
 <section class="norden-intro">
-	<p class="norden-intro-text">Sölden, im Herzen des Tiroler Ötztals gelegen, ist einer der beliebtesten Tourismusorte der Alpen. Hier findet man im Winter wie im Sommer alles – und davon reichlich: Sport & Entertainment, Action & Ruhe. Sölden ist jung und Sölden ist urban. Anspruch ist es, in allen Bereichen neue, <span class="highlight-circle">kreative Maßstäbe</span> zu setzen – bei den Events und der Infrastruktur, beim Markenauftritt und in der Kommunikation.</p>
+	<p class="norden-intro-text text-large">Sölden, im Herzen des Tiroler Ötztals gelegen, ist einer der beliebtesten Tourismusorte der Alpen. Hier findet man im Winter wie im Sommer alles – und davon reichlich: Sport & Entertainment, Action & Ruhe. Sölden ist jung und Sölden ist urban. Anspruch ist es, in allen Bereichen neue, <span class="highlight-circle">kreative Maßstäbe</span> zu setzen – bei den Events und der Infrastruktur, beim Markenauftritt und in der Kommunikation.</p>
 </section>
 <section class="services full-width">
 	<p class="service">Markenstrategie</p>

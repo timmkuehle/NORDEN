@@ -71,7 +71,7 @@ $color-soel-cool-gray: #eeeff1;
 // SOELDEN project styling
 .soel-side-note {
 	text-transform: uppercase;
-	font-size: max(0.9375rem, 0.75vw);
+	font-size: 0.9375rem;
 	color: $color-soel-medium;
 
 	@media screen and (min-width: 769px) {
@@ -142,13 +142,13 @@ $color-soel-cool-gray: #eeeff1;
 	}
 
 	.heading {
-		font-size: max(2em, 2vw);
+		font-size: clamp(2em, 2vw, 2.125em);
 		margin-block: 0 1em;
 	}
 
 	.subline {
 		margin-block: 1.25em 0.5em;
-		font-size: max(1.125rem, 1.25vw);
+		font-size: clamp(1rem, 1.25vw, 1.328125rem);
 		color: $color-soel-cut-3;
 	}
 
@@ -312,7 +312,7 @@ body {
 					margin-block: 0;
 
 					@media screen and (min-width: 768px) {
-						font-size: max(1em, 1.25vw);
+						font-size: max(1.25em, 1.25vw);
 						max-width: 12rem;
 					}
 
@@ -370,7 +370,6 @@ body {
 			}
 
 			p {
-				font-size: max(1.5em, 1.3vw);
 				max-width: 40rem;
 
 				@media screen and (min-width: 1440px) {
@@ -419,7 +418,6 @@ body {
 			.service {
 				margin-block: 0;
 				white-space: nowrap;
-				font-size: max(1em, 1.1vw);
 				color: $color-soel-red;
 			}
 		}
@@ -1025,7 +1023,7 @@ body {
 			.heading {
 				position: relative;
 				z-index: 100;
-				max-width: max(36rem, 36%);
+				max-width: max(36rem, 40%);
 				margin-left: auto;
 				margin-bottom: -10%;
 				font-family:
@@ -1035,7 +1033,7 @@ body {
 					Arial,
 					Helvetica,
 					sans-serif;
-				font-size: max(7em, 7vw);
+				font-size: clamp(7em, 7vw, 8rem);
 				line-height: 1.25;
 			}
 

@@ -44,10 +44,6 @@ $color-green: #4c8155;
 	background-color: white;
 }
 
-.text-large {
-	font-size: max(1.5em, 1.3vw);
-}
-
 .mobile-only {
 	@media screen and (min-width: 768px) {
 		display: none;
@@ -61,8 +57,6 @@ $color-green: #4c8155;
 
 // General styling
 body {
-	background-color: white;
-
 	.site-header {
 		box-shadow: var(--no-box-shadow-bottom);
 
@@ -108,8 +102,10 @@ body {
 	}
 
 	main {
+		margin-top: 0;
 		padding: 0;
 		font-family: "Fedra Sans", Relevant, Arial, Helvetica, sans-serif;
+		background-color: white;
 
 		h1,
 		h2,
@@ -119,13 +115,12 @@ body {
 			font-family:
 				"Fedra Serif", Cambria, Cochin, Georgia, Times,
 				"Times New Roman", serif;
-			font-size: max(1.75rem, 2.75vw);
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
 			color: black;
 		}
 
 		p {
 			margin-block: 1.75vw;
-			font-size: max(1.125rem, 1.25vw);
 		}
 	}
 

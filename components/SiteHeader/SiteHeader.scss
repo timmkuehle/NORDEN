@@ -10,9 +10,15 @@
 	position: fixed;
 	z-index: 100;
 	width: 100%;
+	max-width: 1700px;
+
 	height: var(--header-height);
 	padding-inline: var(--main-padding-inline);
 	box-shadow: var(--box-shadow-bottom);
+
+	@media screen and (min-width: 1400px) {
+		margin-inline: calc((100% - 1700px) / 2);
+	}
 
 	&::before {
 		content: "";
