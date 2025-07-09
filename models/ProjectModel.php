@@ -197,7 +197,7 @@ class ProjectModel {
             'content_path' => '/',
             'title' => 'Tirols Hochplateau',
             'thumbnail' => '/content/resources/media/projectPreviews/26_TirolsHochplateau_Startseite.gif',
-            'category' => 'Corporate Design'
+            'category' => 'Logo Design'
         ],
     ];
     private array $currentProject;
