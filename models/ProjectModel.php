@@ -30,7 +30,7 @@ class ProjectModel {
             'slug' => '/projekte/soelden',
             'content_path' => '/content/projects/soelden',
             'title' => 'Sölden',
-            'thumbnail' => '/content/resources/media/projectPreviews/04_Soelden.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviews/04_Soelden_NEU.jpg',
             'category' => 'Corporate Design',
             'preview_title' => 'Marke Sölden'
         ],
