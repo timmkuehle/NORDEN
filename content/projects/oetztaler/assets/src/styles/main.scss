@@ -61,10 +61,6 @@ $image-layout-gap: 3vw;
 	}
 }
 
-.text-large {
-	font-size: max(1.5em, 1.3vw);
-}
-
 // General styling
 body {
 	background-color: $color-oetz-cool-gray;
@@ -138,13 +134,12 @@ body {
 		h2,
 		h3 {
 			margin-block: 1.8vw;
-			font-size: max(1.75rem, 2.75vw);
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
 			color: $color-oetz-blue;
 		}
 
 		p {
 			margin-block: 1.75vw;
-			font-size: max(1.125rem, 1.25vw);
 		}
 
 		.services {

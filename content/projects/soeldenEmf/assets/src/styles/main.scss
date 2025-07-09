@@ -55,9 +55,6 @@ $color-soel-mid-blue: #006d93;
 .bg-col-cool-gray {
 	background-color: $color-soel-cool-gray;
 }
-.text-large {
-	font-size: max(1.5em, 1.3vw);
-}
 .no-padding-top {
 	padding-top: 0 !important;
 }
@@ -82,8 +79,6 @@ $color-soel-mid-blue: #006d93;
 
 // General styling
 body {
-	background-color: $color-soel-cool-gray;
-
 	.site-header {
 		box-shadow: var(--no-box-shadow-bottom);
 
@@ -147,6 +142,7 @@ body {
 	}
 
 	main {
+		margin-top: 0;
 		padding: 0;
 		font-family:
 			AS Soelden,
@@ -154,22 +150,22 @@ body {
 			Arial,
 			Helvetica,
 			sans-serif;
+		background-color: $color-soel-cool-gray;
 
 		h2 {
 			margin-block: 2.25vw;
-			font-size: max(1.75rem, 2.75vw);
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
 			color: $color-soel-anthrazit;
 		}
 
 		h3 {
 			margin-block: 1.8vw;
-			font-size: max(1.125rem, 1.25vw);
+			font-size: clamp(1rem, 1.25vw, 1.328125rem);
 			color: $color-soel-mid-blue;
 		}
 
 		p {
 			margin-block: 1.75vw;
-			font-size: max(1.125rem, 1.25vw);
 		}
 
 		.highlight-circle {

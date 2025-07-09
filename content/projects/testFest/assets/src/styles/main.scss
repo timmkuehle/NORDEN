@@ -36,10 +36,6 @@ $color-medium-gray: #7f7f7f;
 	background-color: white;
 }
 
-.text-large {
-	font-size: max(1.5em, 1.3vw);
-}
-
 .mobile-only {
 	@media screen and (min-width: 768px) {
 		display: none;
@@ -53,8 +49,6 @@ $color-medium-gray: #7f7f7f;
 
 // General styling
 body {
-	background-color: $color-beige;
-
 	.site-header {
 		box-shadow: var(--no-box-shadow-bottom);
 
@@ -113,6 +107,7 @@ body {
 			Arial,
 			Helvetica,
 			sans-serif;
+		background-color: $color-beige;
 
 		h1,
 		h2 {
@@ -123,19 +118,18 @@ body {
 				Arial,
 				Helvetica,
 				sans-serif;
-			font-size: max(1.75rem, 2.75vw);
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
 			color: $color-anthrazit;
 		}
 
 		h3 {
 			margin-block: 1.75vw;
-			font-size: max(1.125rem, 1.25vw);
+			font-size: clamp(1rem, 1.25vw, 1.328125rem);
 			color: $color-beige;
 		}
 
 		p {
 			margin-block: 1.75vw;
-			font-size: max(1.125rem, 1.25vw);
 		}
 
 		.highlight-circle {

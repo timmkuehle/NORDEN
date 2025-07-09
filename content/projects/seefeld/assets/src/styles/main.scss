@@ -56,18 +56,8 @@ $color-gold: #d7b072;
 	}
 }
 
-.text-large {
-	font-size: max(1.875rem, 1.875vw);
-
-	@media screen and (max-width: 768px) {
-		font-size: max(1.5em, 1.3vw);
-	}
-}
-
 // General styling
 body {
-	background-color: white;
-
 	.site-header {
 		box-shadow: var(--no-box-shadow-bottom);
 
@@ -145,25 +135,25 @@ body {
 		margin-top: 0;
 		padding: var(--header-height) 0 0 0;
 		font-family: "Kitsch Text", Relevant, Arial, Helvetica, sans-serif;
+		background-color: white;
 
 		h2 {
 			margin-block: 1.8vw;
 			font-family: Relevant, Arial, Helvetica, sans-serif;
 			font-weight: 300;
-			font-size: max(1.75rem, 2.75vw);
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
 			letter-spacing: 0.1875em;
 			color: $color-mid-blue;
 		}
 
 		h3 {
 			margin-block: 1.75vw;
-			font-size: max(1.125rem, 1.25vw);
+			font-size: clamp(1rem, 1.25vw, 1.328125rem);
 			font-weight: 300;
 		}
 
 		p {
 			margin-block: 1.75vw;
-			font-size: max(1.125rem, 1.25vw);
 			font-weight: 400;
 		}
 

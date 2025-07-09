@@ -6,7 +6,7 @@
 	h1 {
 		line-height: 0.75;
 		margin: 0;
-		font-size: max(6rem, 10vw);
+		font-size: clamp(6rem, 10vw, 10.625rem);
 		cursor: pointer;
 	}
 
@@ -77,12 +77,12 @@
 				margin-top: 1.5vw;
 
 				.project-title {
-					font-size: max(1.125rem, 1.25vw);
+					font-size: clamp(1rem, 1.25vw, 1.328125rem);
 				}
 
 				.project-category {
 					margin: 0;
-					font-size: max(1rem, 1.125vw);
+					font-size: clamp(0.9375rem, 1.125vw, 1.1953125rem);
 					color: var(--color-primary);
 				}
 			}
