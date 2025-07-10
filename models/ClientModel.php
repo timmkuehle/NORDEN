@@ -18,34 +18,28 @@ class ClientModel {
             'logo' => '/content/resources/clientLogos/Oetztal.svg'
         ],
         [
-            'name' => 'soelden',
-            'nicename' => 'Sölden',
-            'link' => 'https://www.soelden.com/',
-            'logo' => '/content/resources/clientLogos/Soelden.svg'
+            'name' => 'bystronic',
+            'nicename' => 'Bystronic',
+            'link' => 'https://www.bystronic.com/',
+            'logo' => '/content/resources/clientLogos/Bystronic.svg'
         ],
         [
-            'name' => 'gurgl',
-            'nicename' => 'Gurgl',
-            'link' => 'https://www.gurgl.com/',
-            'logo' => '/content/resources/clientLogos/Gurgl.svg'
-        ],
-        [
-            'name' => 'garda-trentino',
-            'nicename' => 'Garda Trentino',
-            'link' => 'https://www.gardatrentino.it/de',
-            'logo' => '/content/resources/clientLogos/Garda_Logowhite.svg'
-        ],
-        [
-            'name' => 'seefeld',
-            'nicename' => 'Seefeld',
-            'link' => 'https://www.seefeld.com/',
-            'logo' => '/content/resources/clientLogos/Seefeld.svg'
+            'name' => 'burton',
+            'nicename' => 'Burton',
+            'link' => 'https://www.burton.com/',
+            'logo' => '/content/resources/clientLogos/BURTON_Logo.svg'
         ],
         [
             'name' => 'alpachtal',
             'nicename' => 'Alpbachtal',
             'link' => 'https://www.alpbachtal.at/',
             'logo' => '/content/resources/clientLogos/Alpbachtal.svg'
+        ],
+        [
+            'name' => 'aranea',
+            'nicename' => 'Aranea',
+            'link' => 'https://aranea.or.at/',
+            'logo' => '/content/resources/clientLogos/ARANEA.svg'
         ],
         [
             'name' => 'bike-republic',
@@ -60,16 +54,28 @@ class ClientModel {
             'logo' => '/content/resources/clientLogos/Oetztaler_Radmarathon.svg'
         ],
         [
-            'name' => 'plansee',
-            'nicename' => 'Plansee',
-            'link' => 'https://www.alpbachtal.at/',
-            'logo' => '/content/resources/clientLogos/Plansee_Group.svg'
+            'name' => 'fabian-manz',
+            'nicename' => 'Fabian Manz',
+            'link' => '/',
+            'logo' => '/content/resources/clientLogos/Manz_Logo.svg'
         ],
         [
-            'name' => 'bystronic',
-            'nicename' => 'Bystronic',
-            'link' => 'https://www.bystronic.com/',
-            'logo' => '/content/resources/clientLogos/Bystronic.svg'
+            'name' => 'seefeld',
+            'nicename' => 'Seefeld',
+            'link' => 'https://www.seefeld.com/',
+            'logo' => '/content/resources/clientLogos/Seefeld.svg'
+        ],
+        [
+            'name' => 'emf',
+            'nicename' => 'Electric Mountain Festival',
+            'link' => 'https://www.soelden.com/de/events-freizeittipps/events/electric-mountain-festival',
+            'logo' => '/content/resources/clientLogos/Electric_Mountain_Festival_2.svg'
+        ],
+        [
+            'name' => 'garda-trentino',
+            'nicename' => 'Garda Trentino',
+            'link' => 'https://www.gardatrentino.it/de',
+            'logo' => '/content/resources/clientLogos/Garda_Logowhite.svg'
         ],
         [
             'name' => 'pleasure',
@@ -78,22 +84,10 @@ class ClientModel {
             'logo' => '/content/resources/clientLogos/PLEASURE.svg'
         ],
         [
-            'name' => 'aranea',
-            'nicename' => 'Aranea',
-            'link' => 'https://aranea.or.at/',
-            'logo' => '/content/resources/clientLogos/ARANEA.svg'
-        ],
-        [
-            'name' => 'burton',
-            'nicename' => 'Burton',
-            'link' => 'https://www.burton.com/',
-            'logo' => '/content/resources/clientLogos/BURTON_Logo.svg'
-        ],
-        [
-            'name' => 'emf',
-            'nicename' => 'Electric Mountain Festival',
-            'link' => 'https://www.soelden.com/de/events-freizeittipps/events/electric-mountain-festival',
-            'logo' => '/content/resources/clientLogos/Electric_Mountain_Festival_1.svg'
+            'name' => 'saac',
+            'nicename' => 'SAAC',
+            'link' => 'https://www.saac.at/',
+            'logo' => '/content/resources/clientLogos/SAAC.svg'
         ],
         [
             'name' => 'waldorf-innsbruck',
@@ -102,10 +96,34 @@ class ClientModel {
             'logo' => '/content/resources/clientLogos/Freie_Waldorfschule_Innsbruck.svg'
         ],
         [
+            'name' => 'soelden',
+            'nicename' => 'Sölden',
+            'link' => 'https://www.soelden.com/',
+            'logo' => '/content/resources/clientLogos/Soelden.svg'
+        ],
+        [
+            'name' => 'gurgl',
+            'nicename' => 'Gurgl',
+            'link' => 'https://www.gurgl.com/',
+            'logo' => '/content/resources/clientLogos/Gurgl.svg'
+        ],
+        [
+            'name' => 'plansee',
+            'nicename' => 'Plansee',
+            'link' => 'https://www.alpbachtal.at/',
+            'logo' => '/content/resources/clientLogos/Plansee_Group.svg'
+        ],
+        [
             'name' => 'holtmeyer',
             'nicename' => 'Holtmeyer',
             'link' => 'https://holtmeyer.net/',
             'logo' => '/content/resources/clientLogos/Holtmeyer.svg'
+        ],
+        [
+            'name' => 'imark',
+            'nicename' => 'IMARK',
+            'link' => 'https://imark.at/',
+            'logo' => '/content/resources/clientLogos/IMARK.svg'
         ],
         [
             'name' => 'muri',
@@ -113,12 +131,6 @@ class ClientModel {
             'link' => 'https://www.etsy.com/shop/MURIhandcraftedgoods/',
             'logo' => '/content/resources/clientLogos/Muri.svg'
         ],
-        [
-            'name' => 'saac',
-            'nicename' => 'SAAC',
-            'link' => 'https://www.saac.at/',
-            'logo' => '/content/resources/clientLogos/SAAC.svg'
-        ]
     ];
 
     /**
