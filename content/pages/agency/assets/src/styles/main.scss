@@ -11,6 +11,10 @@ body {
 		margin-top: 0;
 		padding-top: calc(var(--main-padding-block) + var(--header-height));
 
+		.header-text {
+			max-width: 45rem;
+		}
+
 		.agency-intro {
 			display: flex;
 			gap: 4rem;

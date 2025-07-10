@@ -26,8 +26,8 @@ $people = [
 	<header>
 		<div class="header-content has-side-note">
 			<h1 class="text-style-subline vertical-text color-primary side-note no-inline-margin">This is NORDEN</h1>
-			<div class="header-text long">
-				<p class="text-style-big">Mit strategischer Kompetenz und hohem Designanspruch bieten wir erstklassigen Service in den Bereichen <span class="uppercase bold">Corporate Design, Film, Motion Design</span> und <span class="uppercase bold">crossmedialen <span class="highlight-circle">Konzepten.</span></span></p>
+			<div class="header-text">
+				<p class="text-style-big">Mit strategischer Kompetenz und hohem Designanspruch bieten wir erstklassigen Service in den Bereichen <span class="uppercase bold">Corporate Design, Film, Motion Design</span> und <span class="uppercase bold">crossmedialen <span class="highlight-circle">Konzepten.</span></span> und vielem mehr.</p>
 			</div>
 		</div>
 	</header>
@@ -39,7 +39,7 @@ $people = [
 						<p class="hidden text-style-subline vertical-text side-note" aria-hidden="true">hidden content</p>
 					</div>
 					<div class="col end">
-						<p class="copy"><span class="bold">NORDEN</span> ist eine aufstrebende Agentur, die bereits zahlreiche Auszeichnungen für ihre herausragende Arbeit in den Bereichen visuelle Kommunikation, Markenentwicklung und Beratung erhalten hat. Unser Fokus liegt auf strategischer Markenberatung, Region Branding und der kreativen Entwicklung sowie Umsetzung von Kommunikationslösungen, die sämtliche Plattformen überspannen.</p>
+						<p class="copy"><span class="bold">NORDEN — Stratey and Design Agency</span><br>Every remarkable brand experience is fueled by the power of thoughtful strategy and bold design. We do both.<br><br>Mit einem starken Fokus auf strategische Markenberatung, Region Branding und der Gestaltung plattformübergreifender Kommunikationslösungen setzen wir Trends und schaffen unvergessliche Markenerlebnisse. Bist du bereit dafür, dass deine Marke nicht nur gesehen, sondern gefordert wird?</p>
 					</div>
 				</div>
 				<div class="row bottom">
