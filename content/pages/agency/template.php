@@ -81,6 +81,43 @@ $people = [
 		</div>
 	</div>
 </section>
+<section class="content-card full-width awards-section">
+	<header>
+		<div class="header-content has-side-note">
+			<p class="text-style-subline vertical-text color-primary side-note no-inline-margin">We are good :)</p>
+			<div class="header-text">
+				<div class="awards">
+					<h2 class="awards-heading"><span class="highlight-circle">Awards</span></h2>
+					<div class="award">
+						<p class="bold">2025 German Brand Award Winner:</p>
+						<p>Ötztaler Radmarathon – Excellence in Brand Strategy and Creation – Winner in Brand Communication - Brand Events<p>
+					</div>
+					<div class="award">
+						<p class="bold">2024 German Brand Award Winner:</p>
+						<p>Sölden – Winner in Brand Design - Corporate Brand<p>
+					</div>
+					<div class="award">
+						<p class="bold">2024 German Brand Award Winner:</p>
+						<p>Electric Mountain Festival – Winner in Brand Communication - Brand Events<p>
+					</div>
+					<div class="award">
+						<p class="bold">2020 German Design Award Winner:</p>
+						<p>Ötztal Tourismus – Excellent Communication Design<p>
+					</div>
+					<div class="award">
+						<p class="bold">2020 German Design Award Winner</p>
+						<p>Ötztal Magazin – Excellent in Brand Stratey and Creation<p>
+					</div>
+					<div class="award">
+						<p class="bold">2019 German Brand Award Special:</p>
+						<p>Ötztal Tourismus – Excellent in Brand Stratey and Creation<p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="content"></div>
+</section>
 <!-- <section class="content-card full-width bg-col-light-shade">
 	<header>
 		<div class="header-content">
