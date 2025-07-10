@@ -3,10 +3,10 @@
 
 // Contact page styling
 body {
-	@media screen and (hover: hover) {
-		a {
-			text-decoration: none;
+	a {
+		text-decoration: none;
 
+		@media screen and (hover: hover) {
 			&:hover {
 				color: white;
 				text-decoration: underline !important;
@@ -15,8 +15,10 @@ body {
 	}
 
 	.site-header {
+		box-shadow: unset;
+
 		&::before {
-			background-color: #3b6df4;
+			background-color: unset;
 		}
 
 		.menu-item.active-menu-item .menu-item-link {
@@ -36,6 +38,8 @@ body {
 		margin-top: 0;
 		padding-top: calc(var(--main-padding-block) + var(--header-height));
 		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 
 		* {
 			color: white;
@@ -66,7 +70,8 @@ body {
 
 	.contact-footer {
 		justify-content: space-between;
-		background-color: #3b6df4;
+		padding-inline: 0;
+		background-color: unset;
 
 		@media screen and (max-width: 640px) {
 			gap: 1rem;
