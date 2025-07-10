@@ -8,6 +8,9 @@
 // Agency page styling
 body {
 	main {
+		margin-top: 0;
+		padding-top: calc(var(--main-padding-block) + var(--header-height));
+
 		.agency-intro {
 			display: flex;
 			gap: 4rem;
@@ -87,7 +90,7 @@ body {
 		}
 	}
 
-	.site-footer {
+	/* .site-footer {
 		background-color: var(--color-light-shade);
-	}
+	} */
 }

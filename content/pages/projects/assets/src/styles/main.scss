@@ -3,3 +3,10 @@
 
 // Import component stylesheets
 @use "@components/ProjectArchive/ProjectArchive.scss";
+
+body {
+	main {
+		margin-top: 0;
+		padding-top: calc(var(--main-padding-block) + var(--header-height));
+	}
+}

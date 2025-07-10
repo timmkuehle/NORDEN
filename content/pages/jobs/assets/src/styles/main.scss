@@ -7,13 +7,16 @@
 // Jobs page styling
 body {
 	main {
+		margin-top: 0;
+		padding-top: var(--header-height);
+		background-color: var(--color-light);
+
 		.job-page-header {
 			display: flex;
 			justify-content: space-between;
 			gap: 3rem;
 			overflow: hidden;
 			margin-inline: calc(-1 * var(--main-padding-inline));
-			background-color: var(--color-light);
 
 			margin-bottom: -10rem;
 
