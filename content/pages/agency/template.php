@@ -1,26 +1,26 @@
 <?php
 
 $people = [
-	[
-		'name' => 'Julian',
-		'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
-	],
-	[
-		'name' => 'Elaine',
-		'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
-	],
-	[
-		'name' => 'Mira',
-		'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
-	],
-	[
-		'name' => 'Julia',
-		'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
-	],
-	[
-		'name' => 'You?',
-		'image' => '/content/resources/media/agency/TeamFoto_You.png'
-	]
+    [
+        'name' => 'Julian',
+        'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
+    ],
+    [
+        'name' => 'Elaine',
+        'image' => '/content/resources/media/agency/TeamFoto_Elaine.jpg'
+    ],
+    [
+        'name' => 'Mira',
+        'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
+    ],
+    [
+        'name' => 'Julia',
+        'image' => '/content/resources/media/agency/TeamFoto_Lisa.jpg'
+    ],
+    [
+        'name' => 'You?',
+        'image' => '/content/resources/media/agency/TeamFoto_You.png'
+    ]
 ]; ?>
 <section class="content-card">
 	<header>
@@ -70,18 +70,18 @@ $people = [
 				</div>
 			</div>
 			<div class="slot end">
-				<?php new Image(
-    	null,
-    	null,
-    	'content/resources/media/agency/Fotos_Agentur_1.jpg',
-    	'Einblick in die Agentur',
-    	true
-    ); ?>
+				<?php new \Image(
+				    null,
+				    null,
+				    'content/resources/media/agency/Fotos_Agentur_1.jpg',
+				    'Einblick in die Agentur',
+				    true
+				); ?>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="content-card full-width bg-col-light-shade">
+<!-- <section class="content-card full-width bg-col-light-shade">
 	<header>
 		<div class="header-content">
 			<p class="text-style-subline vertical-text color-primary side-note">What we look like</p>	
@@ -90,13 +90,13 @@ $people = [
 			</div>
 			<div class="buttons">
 				<h3 class="heading">Join our team!</h3>
-				<?php new Button(null, null, 'Jobs', '/jobs', 'secondary'); ?>
+				<?php new \Button(null, null, 'Jobs', '/jobs', 'secondary'); ?>
 			</div>
 		</div>
 		
 	</header>
 	<div class="content">
-		<?php new PeopleGallery(null, null, $people); ?>
+		<?php new \PeopleGallery(null, null, $people); ?>
 	</div>
-</section>
+</section> -->
 	
