@@ -18,7 +18,7 @@ const setupHeaderAnimation = () => {
 		const scrollAmount = Math.abs(curScrollTop - lastScrollTop);
 
 		if (!menuCheckbox?.checked) {
-			if (scrollAmount > 30) {
+			if (scrollAmount > 30 && curScrollTop > 0) {
 				if (curScrollTop > lastScrollTop) {
 					siteHeader.classList.add("hidden");
 				} else {
