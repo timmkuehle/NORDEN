@@ -3,93 +3,92 @@
 
 // Contact page styling
 body {
-	main {
-		.logo {
-			height: auto;
+	@media screen and (hover: hover) {
+		a {
+			text-decoration: none;
+
+			&:hover {
+				color: white;
+				text-decoration: underline !important;
+			}
+		}
+	}
+
+	.site-header {
+		&::before {
+			background-color: #3b6df4;
 		}
 
-		.contact-info {
-			margin-top: 2rem;
+		.menu-item.active-menu-item .menu-item-link {
+			color: white;
+			text-decoration: underline;
+		}
 
-			@media screen and (min-width: 768px) {
-				margin-block: 4rem var(--main-padding-inline);
+		.home-link::after {
+			background-color: white;
+		}
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 0;
+		padding-top: calc(var(--main-padding-block) + var(--header-height));
+		background-image: url("/content/resources/media/contact/NORDEN_Kontakt_Bild.jpg");
+		background-size: cover;
+
+		* {
+			color: white;
+		}
+
+		.page-title {
+			margin-top: 2.5rem;
+		}
+
+		.contact-data {
+			margin-bottom: 4rem;
+
+			.row.links {
+				a {
+					display: block;
+
+					.prefix {
+						padding-right: 1rem;
+					}
+
+					.text {
+						text-decoration: underline;
+					}
+				}
 			}
+		}
+	}
 
-			.content {
-				display: flex;
-				gap: 3rem;
-				padding: 3rem 2rem;
+	.contact-footer {
+		justify-content: space-between;
+		background-color: #3b6df4;
 
-				@media screen and (min-width: 768px) {
-					gap: 10rem;
-				}
+		@media screen and (max-width: 640px) {
+			gap: 1rem;
+			flex-direction: column;
+		}
 
-				@media screen and (max-width: 768px) {
-					flex-direction: column;
-					margin-inline: calc(-1 * var(--main-padding-inline));
-				}
+		.contact-links {
+			display: flex;
+			gap: 3rem;
+			a {
+				text-transform: uppercase;
+				color: white;
+			}
+		}
 
-				.slot {
-					max-width: 35rem;
+		.some-links {
+			display: flex;
+			gap: 1.5rem;
 
-					&.start {
-						display: flex;
-						justify-content: space-between;
-						align-items: center;
-						gap: 2rem;
-						flex-wrap: wrap;
-
-						@media screen and (min-width: 768px) {
-							flex-direction: column;
-						}
-					}
-				}
-
-				.so-me-links {
-					display: flex;
-					gap: 1rem;
-
-					@media screen and (min-width: 768px) {
-						flex-direction: column;
-					}
-				}
-
-				.contact-link {
-					white-space: nowrap;
-					text-decoration: none;
-					margin: 0 !important;
-				}
-
-				.intro {
-					margin-block: 0;
-				}
-
-				.awards {
-					margin-top: 3rem;
-
-					.awards-heading {
-						margin-block: 0;
-						font-size: clamp(1rem, 1.25vw, 1.328125rem);
-					}
-				}
-
-				.contact-data,
-				.awards {
-					display: flex;
-					flex-direction: column;
-					gap: 1rem;
-
-					.row,
-					.award {
-						display: flex;
-						flex-direction: column;
-						gap: 0.25rem;
-
-						& > * {
-							margin-block: 0;
-						}
-					}
-				}
+			.social-media-icon {
+				fill: black;
 			}
 		}
 	}
