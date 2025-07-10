@@ -6,7 +6,7 @@ $ig_link = 'https://www.instagram.com/norden_werbeagentur/';
 
 new \SiteHeader(null, null, true, null, null, null, [], []);
 ?>
-<main>
+<main style="background-image: url('<?= BASE_URL; ?>/content/resources/media/contact/NORDEN_Kontakt_Bild.jpg');">
 	<h1 class="page-title">NORDEN</h1>
 	<section class="contact-data">
 		<div class="row">
