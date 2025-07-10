@@ -78,16 +78,16 @@ body {
 	line-height: 1.15;
 	font-family: Relevant, Helvetica, Arial, sans-serif;
 	color: var(--color-dark);
-	background-color: var(--color-light);
+	background-color: black;
 
 	main {
 		flex-grow: 1;
 		width: 100%;
 		max-width: 1700px;
-		overflow-x: hidden;
 		margin-top: var(--header-height);
 		margin-inline: auto;
 		padding: var(--main-padding);
+		background-color: white;
 
 		& > * {
 			&:first-child {

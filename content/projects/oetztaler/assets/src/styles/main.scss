@@ -63,8 +63,6 @@ $image-layout-gap: 3vw;
 
 // General styling
 body {
-	background-color: $color-oetz-cool-gray;
-
 	.site-header {
 		box-shadow: var(--no-box-shadow-bottom);
 
@@ -161,6 +159,10 @@ body {
 				color: $color-oetz-red;
 			}
 		}
+	}
+
+	.site-footer {
+		background-color: #eeeff1;
 	}
 }
 
