@@ -82,6 +82,10 @@ export default (env, argv) => {
 						{
 							loader: "sass-loader",
 							options: {
+								api: "modern",
+								sassOptions: {
+									silenceDeprecations: ["import"]
+								},
 								additionalData: (content, loaderContext) => {
 									const { resourcePath, rootContext } =
 										loaderContext;
