@@ -44,7 +44,7 @@ define('ROOT_PATH', get_root_path());
  */
 define(
 	'BASE_URL',
-	($_SERVER['HTTPS'] === 'on' ? 'https' : 'http') .
+	(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') .
 		'://' .
 		$_SERVER['HTTP_HOST'] .
 		sanitize_uri(ROOT_PATH, true)
