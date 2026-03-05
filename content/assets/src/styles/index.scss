@@ -1,5 +1,6 @@
-// Import variables
+// Import variables (and forward so project stylesheets get mixins/breakpoints)
 @use "./variables.scss";
+@forward "./variables.scss";
 
 // Import utility classes
 @use "./utils.scss";
@@ -140,3 +141,7 @@ body {
 .text-large {
 	font-size: clamp(1.125rem, 1.375vw, 1.4609375rem);
 }
+
+
+
+

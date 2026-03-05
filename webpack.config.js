@@ -99,7 +99,7 @@ export default (env, argv) => {
 										"content/assets/src/styles/index.scss"
 									) {
 										return (
-											'@use "@styles/index.scss";' +
+											'@use "@styles/index.scss" as *;' +
 											content
 										);
 									}
