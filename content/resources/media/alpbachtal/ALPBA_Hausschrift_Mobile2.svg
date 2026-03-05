@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1205">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        font-family: FedraSansStd-Book, 'Fedra Sans Std';
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #000;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        font-size: 64.02px;
+      }
+
+      .cls-6 {
+        font-family: FedraSansStd-Medium, 'Fedra Sans Std';
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        font-size: 528.16px;
+      }
+
+      .cls-7, .cls-5 {
+        font-family: FedraSansStd-Bold, 'Fedra Sans Std';
+        font-weight: 700;
+      }
+
+      .cls-8 {
+        font-family: FedraSansStd-Demi, 'Fedra Sans Std';
+      }
+
+      .cls-8, .cls-9 {
+        font-weight: 300;
+      }
+
+      .cls-9 {
+        font-family: FedraSansStd-Light, 'Fedra Sans Std';
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(468.07 814.83)"><tspan x="0" y="0">Aa</tspan></text>
+  <text class="cls-2" transform="translate(67.51 1062.82)"><tspan x="0" y="0">ABCDEFGHIJKLMNOPQRSTUVWXYZ</tspan><tspan x="0" y="82.69">abcdefghijklmnopqrstuvwxyz</tspan></text>
+  <text class="cls-4" transform="translate(67.51 473.3)"><tspan class="cls-9"><tspan x="0" y="0">Light</tspan></tspan><tspan class="cls-1"><tspan x="0" y="82.69">Book</tspan></tspan><tspan class="cls-8"><tspan x="0" y="165.38">Demi</tspan></tspan><tspan class="cls-6"><tspan x="0" y="248.08">Medium</tspan></tspan><tspan class="cls-7"><tspan x="0" y="330.77">Bold</tspan></tspan></text>
+  <text class="cls-5" transform="translate(67.51 129.19)"><tspan x="0" y="0">Hausschrift 2</tspan></text>
+</svg>

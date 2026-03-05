@@ -14,7 +14,7 @@
 			height: 100%;
 			background-color: var(--color-light);
 			opacity: 0;
-			transition: opacity 0.1s linear 0.45s;
+			transition: opacity 0.1s linear 0.3s;
 
 			#mobile-menu-checkbox:checked ~ .site-header & {
 				opacity: 1;
@@ -30,16 +30,6 @@
 
 		@media screen and (max-width: 1024px) {
 			display: block;
-		}
-
-		@media screen and (hover: hover) {
-			&:hover {
-				.menu-icon {
-					.menu-icon-stroke {
-						stroke: var(--color-primary);
-					}
-				}
-			}
 		}
 
 		&:active {
@@ -93,8 +83,8 @@
 		@media screen and (max-width: 1024px) {
 			flex-direction: column;
 			position: fixed !important;
-			transform: translateY(calc(-100% - var(--header-height)));
-			top: 100%;
+			transform: translateY(-120%);
+			top: calc(var(--header-height));
 			left: 0;
 			z-index: -50;
 			width: 100%;
@@ -113,7 +103,7 @@
 
 		.menu-item {
 			.menu-item-link {
-				font-size: max(0.9375rem, 0.75vw);
+				font-size: 0.9375rem;
 			}
 		}
 	}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1600 1579.4" style="enable-background:new 0 0 1600 1579.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000105393814228103032720000008438784417587768241_);}
+	.st1{clip-path:url(#SVGID_00000013898776492318259080000016847884407024631209_);}
+	.st2{fill:#112F54;}
+	.st3{fill:#6A98BF;}
+	.st4{clip-path:url(#SVGID_00000070836734481736566350000014264727690523066243_);}
+	.st5{fill:none;}
+	.st6{fill:#275C79;}
+</style>
+<g id="_Muster_Handtuch_klein_">
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="786.1,315.8 1630.2,315.8 1630.2,-39.2 786,-39.2 			"/>
+		</defs>
+		<clipPath id="SVGID_00000031892667672714935360000000566486516131415427_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000031892667672714935360000000566486516131415427_);">
+			<g>
+				<defs>
+					<rect id="SVGID_00000128443102784888517970000015608076579754622610_" x="429" y="30.5" width="769.2" height="643.7"/>
+				</defs>
+				<clipPath id="SVGID_00000155117235173652079650000004027391687822266799_">
+					<use xlink:href="#SVGID_00000128443102784888517970000015608076579754622610_"  style="overflow:visible;"/>
+				</clipPath>
+				<g style="clip-path:url(#SVGID_00000155117235173652079650000004027391687822266799_);">
+					<polygon class="st2" points="643,714.7 778.6,957.4 699,934.9 563.3,692.2 					"/>
+					<g>
+						<polygon class="st3" points="1032.4,549.2 665.2,339.3 550.6,384.9 549,550.3 						"/>
+						<g>
+							<defs>
+								<polygon id="SVGID_00000134948816001812166860000008059092903777735358_" points="1032.4,549.2 665.2,339.3 550.6,384.9 
+									549,550.3 								"/>
+							</defs>
+							<clipPath id="SVGID_00000005233722528283483170000001913957182496094648_">
+								<use xlink:href="#SVGID_00000134948816001812166860000008059092903777735358_"  style="overflow:visible;"/>
+							</clipPath>
+							<g style="clip-path:url(#SVGID_00000005233722528283483170000001913957182496094648_);">
+								<line class="st5" x1="988.6" y1="528.8" x2="844.7" y2="780.7"/>
+								<line class="st5" x1="981.3" y1="525.4" x2="837.4" y2="777.3"/>
+								<line class="st5" x1="973.3" y1="521.7" x2="829.3" y2="773.6"/>
+								<line class="st5" x1="964.5" y1="517.6" x2="820.5" y2="769.5"/>
+								<line class="st5" x1="954.8" y1="513.1" x2="810.8" y2="765"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<rect x="454.2" class="st6" width="225.3" height="225.6"/>
+	<rect class="st6" width="225.3" height="225.6"/>
+	<rect x="1374.7" class="st6" width="225.3" height="225.6"/>
+	<rect x="454.2" y="451.3" class="st6" width="225.3" height="225.6"/>
+	<rect x="1374.7" y="451.3" class="st6" width="225.3" height="225.6"/>
+	<rect x="454.2" y="1353.8" class="st6" width="225.3" height="225.6"/>
+	<rect x="914.5" y="454.5" class="st6" width="225.3" height="225.6"/>
+	<rect x="1374.7" y="918.9" class="st6" width="225.3" height="225.6"/>
+</g>
+</svg>

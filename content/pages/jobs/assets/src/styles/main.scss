@@ -1,13 +1,22 @@
+// Import generic stylesheets
+@use "@styles/bullet-list.scss";
+
+// Import component stylesheets
+@use "@components/Button/Button.scss";
+
 // Jobs page styling
 body {
 	main {
+		margin-top: 0;
+		padding-top: var(--header-height);
+		background-color: var(--color-light);
+
 		.job-page-header {
 			display: flex;
 			justify-content: space-between;
 			gap: 3rem;
 			overflow: hidden;
 			margin-inline: calc(-1 * var(--main-padding-inline));
-			background-color: var(--color-light);
 
 			margin-bottom: -10rem;
 
@@ -85,7 +94,7 @@ body {
 
 					p,
 					a {
-						font-size: max(1em, 0.875vw);
+						font-size: clamp(1rem, 1.25vw, 1.328125rem);
 						margin-block: 0;
 					}
 				}
@@ -97,9 +106,3 @@ body {
 .site-footer {
 	background-color: var(--color-light-shade);
 }
-
-// Import generic stylesheets
-@import "@styles/bullet-list.scss";
-
-// Import component stylesheets
-@import "@components/Button/Button.scss";

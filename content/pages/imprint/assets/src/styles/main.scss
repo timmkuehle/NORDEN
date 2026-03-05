@@ -1,1 +1,36 @@
-// Imprint page styling
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+
+// General styling
+body {
+	main {
+		padding: 0;
+
+		h2 {
+			margin-block: 2.25vw;
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
+		}
+
+		h3,
+		p,
+		a,
+		h4 {
+			margin-block: 1.75vw;
+			font-size: clamp(1rem, 1.25vw, 1.328125rem);
+		}
+	}
+}
+
+// Component styling
+.side-note {
+	color: var(--color-primary);
+}
+
+.project-section {
+	align-items: flex-end;
+
+	.content {
+		display: block;
+	}
+}

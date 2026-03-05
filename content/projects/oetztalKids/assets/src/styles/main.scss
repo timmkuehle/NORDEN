@@ -1,0 +1,511 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+
+// Project variables
+$color-red: #b20933;
+$color-light-red: #7d5753;
+$color-dark-red: #3e0505;
+$color-light-pink: #b09690;
+$color-beige: #f3ebe4;
+$color-gold: #f7a600;
+$color-medium-gray: #7f7f7f;
+
+// Utility classes
+.col-red {
+	color: $color-red;
+}
+.col-light-red {
+	color: $color-light-red;
+}
+.col-dark-red {
+	color: $color-dark-red;
+}
+.col-light-pink {
+	color: $color-light-pink;
+}
+.col-beige {
+	color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-white {
+	color: white;
+}
+
+.bg-col-red {
+	background-color: $color-red;
+}
+.bg-col-light-red {
+	background-color: $color-light-red;
+}
+.bg-col-dark-red {
+	background-color: $color-dark-red;
+}
+.bg-col-light-pink {
+	background-color: $color-light-pink;
+}
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.bg-col-gold {
+	background-color: $color-gold;
+}
+.bg-col-white {
+	background-color: white;
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		padding: 0;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+
+		&:before {
+			background-color: white;
+			backdrop-filter: blur(0rem);
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: #bac755;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $color-gold;
+
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.oetztal-kids) {
+	font-family: "AS Oetztal", sans-serif;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-size: $font-size-big;
+	margin-bottom: 0;
+	color: $color-light-red;
+	font-weight: 700;
+}
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+}
+.is-text {
+	font-size: $font-size-big;
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 300;
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-family: "Adelle Oetztal", sans-serif;
+		font-weight: 350;
+		color: rgba(black, 0.25);
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+
+	@include minquery($screen-l) {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}
+
+// Project styling
+
+.hero-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2.5rem 0 0;
+	padding-bottom: 0;
+	position: relative;
+	z-index: 3;
+
+	.project-headline {
+		font-family: "AS Oetztal Widi Kids", sans-serif;
+		font-size: clamp(3rem, 6vw + 2.5rem, 10rem);
+		line-height: 1.1;
+		text-transform: none;
+	}
+
+	.hero-image {
+		align-self: center;
+		margin-bottom: -4rem;
+
+		@include minquery($screen-m) {
+			margin-bottom: -5rem;
+		}
+		@include minquery($screen-l) {
+			margin-bottom: -6rem;
+		}
+		@include minquery($screen-xl) {
+			margin-bottom: -7rem;
+		}
+	}
+	.text-absolute {
+		position: absolute;
+		top: 3rem;
+		right: 1rem;
+
+		.hero-subtitle {
+			font-family: "AS Oetztal Widi Kids", sans-serif;
+			font-size: $font-size-big;
+			letter-spacing: 0.21em;
+
+			@include minquery($screen-m) {
+				font-size: $font-size-large;
+			}
+			@include minquery($screen-l) {
+				font-size: $font-size-larger;
+			}
+		}
+	}
+	img {
+		height: 100%;
+	}
+}
+
+.section-1 {
+	position: relative;
+	// Top padding accommodates hero image overlap (4–7rem)
+	padding: 6rem 0.75rem 8.5rem;
+
+	@include minquery($screen-m) {
+		padding: 7rem 0.75rem 8.5rem;
+	}
+	@include minquery($screen-l) {
+		padding: 8rem 0.75rem 12rem;
+	}
+	@include minquery($screen-xl) {
+		padding: 9rem 0.75rem 12rem;
+	}
+	.image-absolute {
+		position: absolute;
+		bottom: -2.1rem;
+		left: 0;
+		width: 12.5rem;
+
+		object-fit: cover;
+		z-index: 3;
+	}
+}
+.section-2 {
+	position: relative;
+	display: block;
+	margin-top: 5rem;
+
+	@include minquery($screen-m) {
+		margin-top: 2.5;
+	}
+
+	.meta-headline {
+		margin-bottom: 1.375rem;
+		color: $color-light-pink;
+	}
+
+	.image-subtitle {
+		font-size: $font-size-big;
+		color: $color-red;
+		margin-top: 3.25rem;
+	}
+	img {
+		width: 100%;
+		overflow: visible;
+	}
+
+	.col {
+		@include mquery($screen-m) {
+			margin-bottom: 3.5rem;
+		}
+	}
+}
+.section-3 {
+	position: relative;
+	display: block;
+	padding-bottom: 7.5rem;
+
+	@include minquery($screen-m) {
+		padding-bottom: 7.5rem;
+	}
+
+	.section-name {
+		margin-top: 2.5rem;
+	}
+
+	.meta-headline {
+		margin-bottom: 1.375rem;
+		color: $color-light-pink;
+	}
+	.image-subtitle {
+		font-size: $font-size-big;
+		color: $color-red;
+		margin-top: 3.25rem;
+	}
+	img {
+		width: 100%;
+	}
+	.image-absolute {
+		position: absolute;
+		bottom: -1.75rem;
+		right: 2rem;
+		width: 10rem;
+
+		@include minquery($screen-m) {
+			width: 12.75rem;
+			bottom: -2rem;
+		}
+		@include minquery($screen-l) {
+			width: 15rem;
+			bottom: -2.5rem;
+		}
+		@include minquery($screen-xl) {
+			width: 18.75rem;
+			bottom: -3rem;
+		}
+		object-fit: cover;
+		z-index: 3;
+	}
+}
+.section-4 {
+	position: relative;
+
+	.row {
+		width: 100%;
+	}
+	.meta-headline {
+		margin-bottom: 4.25rem;
+	}
+
+	img {
+		width: 100%;
+		padding-bottom: 3.5rem;
+	}
+	.image-absolute {
+		position: absolute;
+		left: 35%;
+		transform: translateX(-50%);
+		width: 10rem;
+		bottom: -7rem;
+
+		object-fit: cover;
+		z-index: 3;
+
+		@include minquery($screen-m) {
+			width: 12.75rem;
+			bottom: -10rem;
+		}
+		@include minquery($screen-l) {
+			width: 15rem;
+		}
+		@include minquery($screen-xl) {
+			width: 18.75rem;
+			bottom: -12rem;
+		}
+	}
+}
+
+.section-5 {
+	position: relative;
+	margin: 7.5rem 0 0;
+	padding-bottom: 0;
+
+	.section-name {
+		bottom: 0%;
+	}
+
+	.image-desktop {
+		display: none;
+	}
+	.image-mobile {
+		display: block;
+	}
+
+	@include minquery($screen-l) {
+		.image-desktop {
+			display: block;
+		}
+		.image-mobile {
+			display: none;
+		}
+	}
+}
+
+.section-6 {
+	padding-bottom: 0;
+	margin-bottom: -3.35rem;
+	z-index: 3;
+	position: relative;
+
+	@include minquery($screen-m) {
+		margin-bottom: -4.5rem;
+	}
+	@include minquery($screen-l) {
+		margin-bottom: -7.5rem;
+	}
+	@include minquery($screen-xl) {
+		margin-bottom: -10rem;
+	}
+
+	img {
+		width: 100%;
+
+		@include mquery($screen-l) {
+			height: 500px;
+			object-fit: cover;
+			object-position: left left;
+			margin-bottom: -1rem;
+		}
+	}
+
+	.section-name {
+		top: 40%;
+		transform: translateY(-50%) rotate(180deg);
+		color: rgba(white, 0.25);
+
+		@include minquery($screen-l) {
+			top: 45%;
+		}
+		@include minquery($screen-xl) {
+			top: 40%;
+		}
+	}
+
+	.buttons {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		bottom: 4rem;
+		left: 0.75rem;
+
+		@include minquery($screen-m) {
+			bottom: 5rem;
+			left: 0.75rem;
+		}
+
+		@include minquery($screen-l) {
+			gap: 1.25rem;
+			bottom: 8rem;
+			left: 70px;
+		}
+		@include minquery($screen-lg) {
+			gap: 1.25rem;
+			bottom: 11rem;
+			left: 70px;
+		}
+		@include minquery($screen-xl) {
+			gap: 1.75rem;
+			bottom: 14.5rem;
+			left: 70px;
+		}
+		.button {
+			background-color: $color-gold;
+			border-color: $color-gold;
+			text-decoration: none;
+			display: flex;
+			justify-content: center;
+
+			span {
+				font-size: $font-size-smaller;
+				font-weight: 400;
+				color: $color-dark-red;
+				text-decoration: none;
+				text-transform: uppercase;
+
+				@include minquery($screen-l) {
+					font-size: $font-size-small;
+				}
+				@include minquery($screen-xl) {
+					font-size: $font-size-big;
+				}
+			}
+		}
+	}
+}
+
+.section-7 {
+	position: relative;
+	display: block;
+	padding: 0;
+
+	img {
+		width: 100%;
+
+		@include mquery($screen-l) {
+			height: 400px;
+			object-fit: cover;
+			object-position: 10% 50%;
+		}
+	}
+}

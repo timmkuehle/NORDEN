@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1600 668.4" style="enable-background:new 0 0 1600 668.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000121984451900224581080000012408867478688671649_);}
+	.st1{fill:#275C79;}
+	.st2{clip-path:url(#SVGID_00000142886714506916295270000017094673537937541005_);}
+	.st3{fill:#EA0B34;}
+	.st4{fill:#6A98BF;}
+	.st5{fill:#A3C4E0;}
+	.st6{fill:#24353F;}
+</style>
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="1600,3.4 1600,668.4 0,668.4 0,3.5 		"/>
+	</defs>
+	<clipPath id="SVGID_00000028313645108724839130000013406250199475160714_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000028313645108724839130000013406250199475160714_);">
+		<polygon class="st1" points="1181.7,491.4 1011.3,672.5 383.5,155.7 705.6,158.5 		"/>
+		<g>
+			<defs>
+				<polygon id="SVGID_00000145045631529400794440000009482658557669186965_" points="-454.4,2027.6 -602,-953.8 1491.7,-905.6 
+					1770.6,835.9 1483.8,2994 				"/>
+			</defs>
+			<clipPath id="SVGID_00000085970328653526051850000000469776413223524760_">
+				<use xlink:href="#SVGID_00000145045631529400794440000009482658557669186965_"  style="overflow:visible;"/>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_00000085970328653526051850000000469776413223524760_);">
+				<polygon class="st3" points="384.1,463.8 1012.9,914.8 665.6,925.6 19.5,466.7 				"/>
+				<polygon class="st4" points="383.5,155.7 2861.2,1929.6 2936.5,2297.4 384.1,463.8 				"/>
+				<polygon class="st1" points="993.9,906.3 2330.5,1684.6 2329.9,347 1718.4,11.2 1000,597.2 				"/>
+				<polygon class="st5" points="1810.7,616.5 981.9,33 705.6,158.5 1737,887.2 				"/>
+				<polygon class="st3" points="947.7,469.7 1540.4,902.6 1418.6,908.2 824.6,471.2 				"/>
+			</g>
+		</g>
+		<g>
+			<rect x="1528.8" y="504.4" class="st6" width="42" height="42"/>
+			<rect x="1528.8" y="590.2" class="st6" width="42" height="42"/>
+			<rect x="1444.8" y="590.2" class="st6" width="42" height="42"/>
+			<rect x="1360.8" y="504.4" class="st6" width="42" height="42"/>
+			<rect x="1360.8" y="590.2" class="st6" width="42" height="42"/>
+			<rect x="1276.8" y="590.2" class="st6" width="42" height="42"/>
+			<rect x="1192.9" y="504.4" class="st6" width="42" height="42"/>
+		</g>
+	</g>
+</g>
+</svg>

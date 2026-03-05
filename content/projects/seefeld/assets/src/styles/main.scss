@@ -1,0 +1,324 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@components/Video/Video.scss";
+@use "@styles/side-note.scss";
+@use "@styles/services.scss";
+@use "@styles/bg-image-container.scss";
+
+// Project variables
+$color-blue: #005587;
+$color-gray-blue: #658eb4;
+$color-mid-blue: #9dbad7;
+$color-light-blue: #e5eef7;
+$color-gold: #d7b072;
+
+// Utility classes
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.col-mid-blue {
+	color: $color-mid-blue;
+}
+.col-light-blue {
+	color: $color-light-blue;
+}
+.col-gold {
+	color: $color-gold;
+}
+
+.bg-col-white {
+	background-color: white;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+.bg-col-mid-blue {
+	background-color: $color-mid-blue;
+}
+.bg-col-light-blue {
+	background-color: $color-light-blue;
+}
+.bg-col-gold {
+	background-color: $color-gold;
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+
+		&::before {
+			background-color: $color-mid-blue;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: white;
+				transition:
+					transform 0.3s ease-in-out 0.08s,
+					fill 0.3s ease-out;
+			}
+		}
+
+		&.hidden {
+			.home-link {
+				.logo {
+					fill: $color-blue;
+					transition:
+						transform 0.3s ease-in-out 0s,
+						fill 0.3s ease-out;
+				}
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: white;
+
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-mid-blue;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: white;
+				}
+			}
+		}
+	}
+
+	main {
+		width: 100vw;
+		overflow-x: hidden;
+		margin-top: 0;
+		padding: var(--header-height) 0 0 0;
+		font-family: "Kitsch Text", Relevant, Arial, Helvetica, sans-serif;
+		background-color: white;
+
+		h2 {
+			margin-block: 1.8vw;
+			font-family: Relevant, Arial, Helvetica, sans-serif;
+			font-weight: 300;
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
+			letter-spacing: 0.1875em;
+			color: $color-mid-blue;
+		}
+
+		h3 {
+			margin-block: 1.75vw;
+			font-size: clamp(1rem, 1.25vw, 1.328125rem);
+			font-weight: 300;
+		}
+
+		p {
+			margin-block: 1.75vw;
+			font-weight: 400;
+		}
+
+		.services {
+			padding-top: 1rem;
+
+			@-moz-document url-prefix() {
+				& {
+					scrollbar-color: $color-mid-blue white;
+				}
+			}
+
+			&::-webkit-scrollbar-track {
+				background: white;
+			}
+
+			&::-webkit-scrollbar-thumb {
+				background: $color-gray-blue;
+			}
+
+			.service {
+				text-transform: uppercase;
+				font-family: Relevant, Arial, Helvetica, sans-serif;
+				font-weight: 300;
+				color: $color-gray-blue;
+			}
+		}
+	}
+
+	.site-footer {
+		background-color: white;
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-gold;
+}
+
+// Project styling
+#logo-section {
+	background-image: linear-gradient($color-mid-blue 50%, white 50%);
+
+	.side-note {
+		color: $color-blue;
+	}
+
+	#seefeld-logo {
+		position: relative;
+		width: 60%;
+		margin-bottom: -27%;
+	}
+
+	@media screen and (min-width: 769px) {
+		background-image: linear-gradient($color-mid-blue 37%, white 37%);
+
+		.side-note {
+			color: $color-gold;
+		}
+
+		#seefeld-logo {
+			margin-bottom: -14.5%;
+		}
+	}
+}
+
+#font-section {
+	background-image: linear-gradient($color-light-blue 85%, white 85%);
+}
+
+#hochplateau-section {
+	background-image: linear-gradient(white 65%, $color-light-blue 65%);
+
+	.svg {
+		width: 80%;
+	}
+
+	@media screen and (min-width: 769px) {
+		background-image: linear-gradient(white 63%, $color-light-blue 63%);
+
+		.svg {
+			width: 50%;
+		}
+	}
+}
+
+#digital-section {
+	background-image: linear-gradient($color-light-blue 15%, white 15%);
+
+	.content {
+		flex-direction: column;
+		margin-top: 5vw;
+		padding-inline: 3vw;
+		background-color: $color-gray-blue;
+
+		#seefeld-website {
+			margin-top: -5vw;
+		}
+
+		#digital-text {
+			margin-block: 7vw 3vw;
+		}
+
+		#seefeld-social-media {
+			margin-bottom: -7vw;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			margin-block: 0;
+
+			#digital-text {
+				width: 30%;
+				margin-left: 8vw;
+			}
+
+			#seefeld-social-media {
+				width: 70%;
+				margin-inline: auto;
+			}
+		}
+	}
+}
+
+#icons-section {
+	.background-image {
+		transform: scaleX(-1);
+		top: unset;
+		right: -6%;
+		bottom: 10%;
+		left: unset;
+		width: auto;
+		height: 37%;
+	}
+
+	@media screen and (min-width: 769px) {
+		.background-image {
+			height: 48%;
+		}
+	}
+}
+
+#papers-section {
+	.image {
+		width: 50%;
+		margin-inline: auto;
+	}
+}
+
+#branding-section-1 {
+	background-image: linear-gradient($color-light-blue 37%, $color-blue 37%);
+
+	@media screen and (min-width: 769px) {
+		background-image: linear-gradient(
+			$color-light-blue 25%,
+			$color-blue 25%
+		);
+	}
+}
+
+#branding-section-2 {
+	background-image: linear-gradient($color-blue 92%, white 92%);
+
+	@media screen and (min-width: 769px) {
+		background-image: linear-gradient($color-blue 75%, white 75%);
+	}
+}

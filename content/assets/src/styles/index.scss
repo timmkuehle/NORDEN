@@ -1,8 +1,13 @@
-// Import variables
-@import "./variables.scss";
+// Import variables (and forward so project stylesheets get mixins/breakpoints)
+@use "./variables.scss";
+@forward "./variables.scss";
 
 // Import utility classes
-@import "./utils.scss";
+@use "./utils.scss";
+
+// Import component stylesheets
+@use "../../../../components/SiteHeader/SiteHeader.scss";
+@use "../../../../components/SiteFooter/SiteFooter.scss";
 
 // General styling
 * {
@@ -27,7 +32,7 @@ svg {
 }
 
 a {
-	font-size: max(1.125rem, 1.25vw);
+	font-size: clamp(1rem, 1.25vw, 1.328125rem);
 	color: var(--color-dark);
 
 	@media screen and (hover: hover) {
@@ -50,7 +55,7 @@ h2 {
 	margin-block: 0.25em;
 	line-height: 1.05;
 	text-transform: uppercase;
-	font-size: max(4em, 5vw);
+	font-size: clamp(4em, 5vw, 5.3125rem);
 
 	.has-error main & {
 		font-size: 3em;
@@ -59,11 +64,11 @@ h2 {
 
 h3 {
 	text-transform: uppercase;
-	font-size: max(1.75em, 2.25vw);
+	font-size: clamp(1.75em, 2.25vw, 2.390625rem);
 }
 
 p {
-	font-size: max(1.125rem, 1.25vw);
+	font-size: clamp(1rem, 1.25vw, 1.328125rem);
 }
 
 body {
@@ -74,12 +79,16 @@ body {
 	line-height: 1.15;
 	font-family: Relevant, Helvetica, Arial, sans-serif;
 	color: var(--color-dark);
-	background-color: var(--color-light);
+	background-color: black;
 
 	main {
 		flex-grow: 1;
+		width: 100%;
+		max-width: 1700px;
 		margin-top: var(--header-height);
+		margin-inline: auto;
 		padding: var(--main-padding);
+		background-color: white;
 
 		& > * {
 			&:first-child {
@@ -89,6 +98,12 @@ body {
 			&:last-child {
 				margin-bottom: 0;
 			}
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		main {
+			max-width: 100vw;
 		}
 	}
 }
@@ -102,18 +117,19 @@ body {
 
 .highlight-circle {
 	position: relative;
+	white-space: nowrap;
 
 	&::after {
 		content: "";
 		display: block;
 		position: absolute;
-		transform: translate(-50%, -50%) rotate(-4deg);
+		transform: translate(-50%, -50%) rotate(-3.5deg);
 		top: 50%;
-		left: 53%;
-		width: 130%;
+		left: 51%;
+		width: 115%;
 		height: 130%;
 		border-radius: 100%;
-		border: 2px solid var(--color-dark);
+		border: 2px solid var(--color-primary);
 		transform-origin: 50% 0;
 	}
 
@@ -122,6 +138,10 @@ body {
 	}
 }
 
-// Import component stylesheets
-@import "../../../../components/SiteHeader/SiteHeader.scss";
-@import "../../../../components/SiteFooter/SiteFooter.scss";
+.text-large {
+	font-size: clamp(1.125rem, 1.375vw, 1.4609375rem);
+}
+
+
+
+

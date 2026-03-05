@@ -1,0 +1,286 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@components/Video/Video.scss";
+@use "@styles/side-note.scss";
+@use "@styles/services.scss";
+@use "@styles/bg-image-container.scss";
+@use "@styles/images-slideshow.scss";
+
+// Project variables
+$color-beige: #c09b57;
+$color-brown: #503b21;
+$color-green: #9ec540;
+$color-medium: #7f7f7f;
+
+// Utility classes
+.col-beige {
+	color: $color-beige;
+}
+.col-brown {
+	color: $color-brown;
+}
+.col-green {
+	color: $color-green;
+}
+.col-white {
+	color: white;
+}
+
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.bg-col-brown {
+	background-color: $color-brown;
+}
+.bg-col-green {
+	background-color: $color-green;
+}
+.bg-col-white {
+	background-color: white;
+}
+
+.text-large {
+	font-weight: 700;
+	color: $color-brown;
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+
+		&::before {
+			background-color: unset;
+			background-image: linear-gradient(
+				rgba(0, 0, 0, 0.25),
+				rgba(0, 0, 0, 0)
+			);
+		}
+
+		&.hidden {
+			&::before {
+				background-image: unset;
+			}
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-green;
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: white;
+				}
+			}
+		}
+
+		.logo {
+			fill: white;
+			transition:
+				transform 0.3s ease-in-out 0.08s,
+				fill 0.3s ease-out;
+		}
+
+		&.hidden {
+			.home-link {
+				.logo {
+					fill: $color-brown;
+					transition:
+						transform 0.3s ease-in-out 0s,
+						fill 0.3s ease-out;
+				}
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: white;
+
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-green;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-green;
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		margin-top: 0;
+		padding: 0;
+		font-family: "Officina Sans", Relevant, Arial, Helvetica, sans-serif;
+		background-color: white;
+
+		h1,
+		h2,
+		h3 {
+			margin-block: 2.25vw;
+			text-transform: none;
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
+			color: $color-brown;
+		}
+
+		p {
+			margin-block: 1.75vw;
+		}
+
+		@media screen and (max-width: 768px) {
+			h1,
+			h2,
+			h3,
+			p {
+				margin-left: 0 !important;
+			}
+		}
+	}
+
+	.site-footer {
+		padding-top: 0;
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-medium;
+}
+
+// Project styling
+.services {
+	padding-block: 1rem;
+
+	@-moz-document url-prefix() {
+		& {
+			scrollbar-color: white $color-brown;
+		}
+	}
+
+	&::-webkit-scrollbar-track {
+		background: white;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $color-brown;
+	}
+
+	.service {
+		color: $color-brown;
+	}
+}
+
+// Project styling
+#intro-video-section {
+	margin-top: calc(-1 * var(--header-height));
+
+	.content {
+		position: relative;
+
+		#page-title {
+			position: absolute;
+			top: 18%;
+			left: var(--main-padding-inline);
+			width: 60%;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			#page-title {
+				left: calc(var(--main-padding-inline) + 4.375rem);
+				width: 39%;
+			}
+		}
+	}
+}
+
+#logo-text-section {
+	@media screen and (min-width: 769px) {
+		h2 {
+			width: 80%;
+		}
+	}
+}
+
+#logo-animation-section {
+	.video {
+		border: 0.0625rem solid $color-brown;
+	}
+}
+
+#colors-section {
+	@media screen and (min-width: 769px) {
+		.content {
+			align-items: flex-start;
+			gap: 5vw;
+
+			p {
+				width: 40%;
+			}
+		}
+	}
+}
+
+#design-principle-section {
+	.content {
+		position: relative;
+		padding-bottom: 20%;
+
+		#design-principle-text {
+			position: absolute;
+			bottom: 0%;
+			left: var(--main-padding-inline);
+			width: 70%;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			padding-bottom: 0;
+
+			#design-principle-text {
+				bottom: 25%;
+				left: 0;
+				width: 45%;
+			}
+		}
+	}
+}
+
+#design-use-case-section {
+	@media screen and (min-width: 769px) {
+		position: relative;
+		margin-top: -20%;
+	}
+}
+
+#merch-section {
+	@media screen and (min-width: 769px) {
+		.image {
+			width: 85%;
+			margin-left: 15%;
+		}
+	}
+}

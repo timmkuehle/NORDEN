@@ -1,67 +1,43 @@
+$projects-gap: 3rem;
+
 .projects-preview {
-	margin-block: 6rem;
+	padding-block: 1.375rem 6rem;
+	background-color: #eceff0;
 
-	.subline {
-		margin-top: 0.5em;
-		text-align: center;
-		font-size: 1.375em;
-	}
-
-	.title {
-		margin-bottom: 1.5em;
-		text-transform: uppercase;
-		font-size: max(2em, 3vw);
-	}
-
-	.project-links {
+	.projects {
 		display: flex;
-		justify-content: center;
-		align-items: flex-start;
+		gap: $projects-gap;
 		flex-wrap: wrap;
-		gap: 2rem;
+		width: 100%;
 
 		.project {
-			display: block;
-			flex: 0 1 55rem;
-			position: relative;
+			flex: 1 0 calc(33.333% - 2rem);
+			min-width: 20rem;
 
-			@media screen and (hover: hover) {
-				&:hover {
-					.title {
+			.project-link {
+				display: block;
+				position: relative;
+				width: 100%;
+				text-decoration: none;
+
+				.project-thumbnail {
+					width: 100%;
+				}
+
+				.project-footer {
+					margin-top: 1.5vw;
+
+					.project-title {
+						font-size: clamp(1rem, 1.25vw, 1.328125rem);
+					}
+
+					.project-category {
+						margin: 0;
+						font-size: clamp(1rem, 1.125vw, 1.1953125rem);
 						color: var(--color-primary);
 					}
 				}
 			}
-
-			@media screen and (min-width: 1164px) {
-				&#project-1 {
-					margin-top: 8rem;
-				}
-			}
-
-			.title {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				margin-block: 0;
-				padding: 1rem;
-				text-align: center;
-				font-size: max(1.5rem, 2vw);
-				letter-spacing: 1rem;
-				transition: color 0.25s ease-out;
-			}
-
-			.project-thumbnail {
-				width: 100%;
-			}
-		}
-
-		.project-archive-button {
-			margin: 4rem 2rem 0 2rem;
 		}
 	}
 }
-
-// Import component stylesheets
-@import "../Button/Button.scss";

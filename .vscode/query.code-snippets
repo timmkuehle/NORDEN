@@ -1,0 +1,7 @@
+{
+    "SCSS | Minquery": {
+        "prefix": "minquery",
+        "body": ["@include minquery(\\$screen-${1|m,l,xl,xxl|}) {", "    ", "}"],
+        "description": "SCSS | Minquery"
+    }
+}

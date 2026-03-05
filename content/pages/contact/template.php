@@ -4,65 +4,42 @@ $in_link = 'https://at.linkedin.com/company/norden-werbeagentur';
 $fb_link = 'https://www.facebook.com/norden.agency/';
 $ig_link = 'https://www.instagram.com/norden_werbeagentur/';
 
-new SiteHeader(null, null, true, null, null, null, [], []);
+new \SiteHeader(null, null, true, null, null, null, [], []);
 ?>
-<main>
-	<?php new Logo(null, null, '100%'); ?>
-	<section class="contact-info">
-		<div class="content bg-col-light-shade">
-			<div class="slot start">
-				<a href="tel:+43512935681" class="contact-link text-style-subline vertical-text color-primary">Give us a call</a>
-				<a href="mailto:mail@norden.co" class="contact-link text-style-subline vertical-text color-primary">Say hi</a>
-				<div class="so-me-links">
-					<?php new SocialMediaLink(null, null, 'linkedin', $in_link); ?>
-		 			<?php new SocialMediaLink(null, null, 'facebook', $fb_link); ?>
-		 			<?php new SocialMediaLink(null, null, 'instagram', $ig_link); ?>
-				</div>
+<main style="background-image: url('<?= BASE_URL; ?>/content/resources/media/contact/NORDEN_Kontakt_Bild.jpg');">
+	<h1 class="page-title">NORDEN</h1>
+	<div class="bottom-wrapper">
+		<section class="contact-data">
+			<div class="row">
+				<p>Visuelle Kommunication, <br>Markenentwicklung & Beratung<p>
 			</div>
-			<div class="slot center">
-				<p class="intro"><span class="bold">NORDEN</span> — wo Visionen lebendig werden und Marken zu Leben erweckt werden. Mit einem starken Fokus auf strategische Markenberatung, Region Branding und der Gestaltung plattformübergreifender Kommunikationslösungen setzen wir Trends und schaffen unvergessliche Markenerlebnisse. Bist du bereit dafür, dass deine Marke nicht nur gesehen, sondern gefordert wird?</p>
-				<div class="awards">
-					<h2 class="awards-heading"><span class="highlight-circle">Awards</span></h2>
-					<div class="award">
-						<p class="bold">2024 German Brand Award Winner:</p>
-						<p>Sölden – Winner in Brand Design - Corporate Brand<p>
-					</div>
-					<div class="award">
-						<p class="bold">2024 German Brand Award Winner:</p>
-						<p>Electric Mountain Festival – Winner in Brand Communication - Brand Events<p>
-					</div>
-					<div class="award">
-						<p class="bold">2020 German Design Award Winner:</p>
-						<p>Ötztal Tourismus – Excellent Communication Design<p>
-					</div>
-					<div class="award">
-						<p class="bold">2020 German Design Award Winner</p>
-						<p>Ötztal Magazin – Excellent in Brand Stratey and Creation<p>
-					</div>
-					<div class="award">
-						<p class="bold">2019 German Brand Award Special:</p>
-						<p>Ötztal Tourismus – Excellent in Brand Stratey and Creation<p>
-					</div>
-				</div>
+			<div class="row address">
+				<a href="https://maps.app.goo.gl/12PomVjPgj3omDMZ8" rel="noopenernoreferrer">Kaiser-Franz-Joseph-Str. 10<br>6020 Innsbruck / Austria</a>
 			</div>
-			<div class="slot end">
-				<div class="contact-data">
-					<div class="row">
-						<p><span class="bold color-primary">NORDEN</span><br>Visuell Communication<p>
-						<a href="<?php echo BASE_URL; ?>">www.norden.co</a>
-					</div>
-					<div class="row">
-						<a href="https://maps.app.goo.gl/12PomVjPgj3omDMZ8" rel="noopener noreferrer">Kaiser-Franz-Joseph-Str. 10<br>6020 Innsbruck / Austria</a>
-					</div>
-					<div class="row">
-						<a href="tel:+43 512935681">+43 512935681</a>
-					</div>
-					<div class="row">
-						<a href="mailto:mail@norden.co">mail@norden.co</a>
-					</div>
-				</div>
+			<span class="row">+43 512935681</span>
+			<p class="row links">
+				<a href="mailto:mail@norden.co">
+					<span class="prefix">></span>
+					<span class="text">mail@norden.co</span>
+				</a>
+				<a href="tel:+43512935681">
+					<span class="prefix">></span>
+					<span class="text">www.norden.co</span>
+				</a>
+			</p>
+		</section>
+		<footer class="contact-footer minimal-footer">
+			<div class="contact-links">
+				<a href="mailto:mail@norden.co" class="contact-link">Say hi</a>
+				<a href="tel:+43512935681" class="contact-link">Give us a call</a>
 			</div>
-		</div>
-	</section>
+			<?php new \FooterMenu(null, null); ?>
+			<div class="some-links">
+				<?php new \SocialMediaLink(null, null, 'linkedin', $in_link); ?>
+				<?php new \SocialMediaLink(null, null, 'facebook', $fb_link); ?>
+				<?php new \SocialMediaLink(null, null, 'instagram', $ig_link); ?>
+			</div>
+		</footer>
+	</div>
 </main>
-<?php new MinimalFooter(null, null); ?>
+

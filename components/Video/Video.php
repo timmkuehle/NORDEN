@@ -19,6 +19,7 @@ class Video extends PHTMLComponent {
 	private bool $controls;
 	private ?string $mobilePlaceholder;
 	private ?string $mobileAspectRatio;
+	private bool $setPoster;
 	private int $breakpoint;
 
 	public function __construct(
@@ -35,6 +36,7 @@ class Video extends PHTMLComponent {
 		string $mobile_src = null,
 		string $mobile_aspect_ratio = null,
 		string $mobile_placeholder = null,
+		bool $set_poster = false,
 		int $breakpoint = 600
 	) {
 		$this->id = 'video-' . rand(1000000, 9999999);
@@ -72,6 +74,8 @@ class Video extends PHTMLComponent {
 			file_exists(BASE_DIR . sanitize_uri($mobile_placeholder))
 				? sanitize_uri($mobile_placeholder)
 				: null;
+
+		$this->setPoster = $set_poster;
 
 		$this->breakpoint = $breakpoint;
 
@@ -122,7 +126,8 @@ class Video extends PHTMLComponent {
 			'" ' .
 			($this->muted ? 'muted ' : '') .
 			($this->loop ? 'loop ' : '') .
-			($this->controls ? ' controls' : '');
+			($this->controls ? ' controls' : '') .
+			($this->setPoster ? ' poster="' . $this->placeholder . '"' : '');
 	}
 
 	private function renderStyleTag() {

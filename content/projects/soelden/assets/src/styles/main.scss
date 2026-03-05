@@ -1,3 +1,6 @@
+// Import component stylesheets
+@use "../../../../../../components/Video/Video.scss";
+
 // Project variables
 $color-soel-anthrazit: #24353f;
 $color-soel-orange: #fb6f50;
@@ -49,6 +52,10 @@ $color-soel-cool-gray: #eeeff1;
 	background-color: $color-soel-red;
 }
 
+.bg-color-white {
+	background-color: white;
+}
+
 .spacer {
 	@media screen and (min-width: 769px) {
 		height: 4rem;
@@ -64,13 +71,24 @@ $color-soel-cool-gray: #eeeff1;
 // SOELDEN project styling
 .soel-side-note {
 	text-transform: uppercase;
-	font-size: max(0.9375rem, 0.75vw);
+	font-size: 0.9375rem;
 	color: $color-soel-medium;
 
 	@media screen and (min-width: 769px) {
 		transform: rotate(180deg);
 		margin: 0;
 		writing-mode: vertical-rl;
+	}
+}
+
+.highlight-circle {
+	&::after {
+		transform: translate(-50%, -50%) rotate(-2deg);
+		top: 50%;
+		left: 50%;
+		width: 105%;
+		height: 100%;
+		border-color: $color-soel-red;
 	}
 }
 
@@ -124,13 +142,13 @@ $color-soel-cool-gray: #eeeff1;
 	}
 
 	.heading {
-		font-size: max(2em, 2vw);
+		font-size: clamp(2em, 2vw, 2.125em);
 		margin-block: 0 1em;
 	}
 
 	.subline {
 		margin-block: 1.25em 0.5em;
-		font-size: max(1.25em, 1.25vw);
+		font-size: clamp(1rem, 1.25vw, 1.328125rem);
 		color: $color-soel-cut-3;
 	}
 
@@ -191,8 +209,16 @@ $color-soel-cool-gray: #eeeff1;
 
 body {
 	.site-header {
-		background: $color-soel-anthrazit;
-		box-shadow: none;
+		box-shadow: var(--no-box-shadow-bottom);
+
+		&::before {
+			background-color: $color-soel-anthrazit;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link::after {
+			background-color: $color-soel-orange;
+		}
 
 		.header-menu,
 		.contact-menu {
@@ -286,7 +312,7 @@ body {
 					margin-block: 0;
 
 					@media screen and (min-width: 768px) {
-						font-size: max(1em, 1.25vw);
+						font-size: max(1.25em, 1.25vw);
 						max-width: 12rem;
 					}
 
@@ -344,7 +370,6 @@ body {
 			}
 
 			p {
-				font-size: max(1.5em, 1.3vw);
 				max-width: 40rem;
 
 				@media screen and (min-width: 1440px) {
@@ -374,7 +399,7 @@ body {
 			@-moz-document url-prefix() {
 				& {
 					scrollbar-width: thin;
-					scrollbar-color: $color-soel-orange var(--color-light);
+					scrollbar-color: $color-soel-red var(--color-light);
 				}
 			}
 
@@ -383,7 +408,7 @@ body {
 			}
 
 			&::-webkit-scrollbar-thumb {
-				background: $color-soel-orange;
+				background: $color-soel-red;
 			}
 
 			&::-webkit-scrollbar {
@@ -393,8 +418,7 @@ body {
 			.service {
 				margin-block: 0;
 				white-space: nowrap;
-				font-size: max(1em, 1.1vw);
-				color: $color-soel-orange;
+				color: $color-soel-red;
 			}
 		}
 
@@ -450,22 +474,17 @@ body {
 				}
 			}
 
-			&.typography-1 {
-				position: relative;
-				z-index: -1;
-				padding-block: 29rem 0;
-				background-color: $color-soel-anthrazit;
-
-				@media screen and (min-width: 769px) {
-					padding: 21rem 3rem 5rem 3rem;
-				}
-			}
-
 			&.graphic-elements-images {
-				margin-bottom: -16rem;
+				background: linear-gradient(
+					var(--color-light) 58%,
+					$color-soel-anthrazit 58%
+				);
 
 				@media screen and (max-width: 768px) {
-					margin-bottom: -27rem;
+					background: linear-gradient(
+						var(--color-light) 53%,
+						$color-soel-anthrazit 53%
+					);
 				}
 
 				@media screen and (min-width: 769px) {
@@ -508,7 +527,7 @@ body {
 
 			&.photo-point {
 				background: linear-gradient(
-					var(--color-light) 40%,
+					white 40%,
 					$color-soel-anthrazit 40%
 				);
 			}
@@ -516,7 +535,7 @@ body {
 			&.soelden-bag {
 				background: linear-gradient(
 					$color-soel-anthrazit 55%,
-					var(--color-light) 55%
+					white 55%
 				);
 			}
 
@@ -950,6 +969,7 @@ body {
 			display: flex;
 			flex-direction: column;
 			gap: 1rem;
+			background: linear-gradient(white 40%, var(--color-light) 20%);
 
 			@media screen and (min-width: 769px) {
 				padding-top: max(10rem, 10vw) !important;
@@ -1003,7 +1023,7 @@ body {
 			.heading {
 				position: relative;
 				z-index: 100;
-				max-width: max(36rem, 36%);
+				max-width: max(36rem, 40%);
 				margin-left: auto;
 				margin-bottom: -10%;
 				font-family:
@@ -1013,7 +1033,7 @@ body {
 					Arial,
 					Helvetica,
 					sans-serif;
-				font-size: max(7em, 7vw);
+				font-size: clamp(7em, 7vw, 8rem);
 				line-height: 1.25;
 			}
 
@@ -1038,8 +1058,27 @@ body {
 					}
 				}
 
-				img:not(.lines) {
+				img:not(.lines),
+				video {
+					position: relative;
+					z-index: 1;
 					width: 100%;
+				}
+			}
+		}
+
+		.project-links {
+			.buttons {
+				display: flex;
+				justify-content: space-between;
+				gap: 2rem;
+				flex-wrap: wrap;
+
+				.project-button {
+					margin-top: 4%;
+					color: white;
+					background-color: $color-soel-red;
+					border-color: $color-soel-red;
 				}
 			}
 		}
@@ -1050,5 +1089,9 @@ body {
 	}
 }
 
-// Import component stylesheets
-@import "../../../../../../components/Video/Video.scss";
+#typo-button {
+	margin-top: 7%;
+	color: $color-soel-anthrazit;
+	background-color: $color-soel-orange;
+	border-color: $color-soel-orange;
+}

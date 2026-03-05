@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-54f93769-48a1-4ed5-beb8-fbc59ee1d745" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e {
+        fill: none;
+        stroke: #bebebe;
+      }
+
+      .uuid-e75ffc53-2a0b-4857-826c-a3553643518c {
+        opacity: .9;
+      }
+
+      .uuid-6aa97f78-4ec7-4fba-bbb5-425518209b85 {
+        fill: #b20933;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" cx="885.12" cy="774.33" r="44.5" transform="translate(-288.29 852.67) rotate(-45)"/>
+    <circle class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" cx="209.63" cy="798.42" r="30.5" transform="translate(-388.45 229.45) rotate(-31.72)"/>
+    <circle class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" cx="821.05" cy="793.26" r="136.18" transform="translate(-15.24 16.08) rotate(-1.11)"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" x1="168.5" x2="168.5" y2="1080"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" x1="448.58" x2="448.58" y2="1080"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" x1="636" x2="636" y2="1080"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" y1="917.33" x2="1080" y2="917.33"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" y1="342.04" x2="1080" y2="342.04"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" y1="929.81" x2="1080" y2="929.81"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" y1="192.16" x2="1080" y2="192.16"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" y1="617.16" x2="1080" y2="617.16"/>
+    <line class="uuid-b8c22825-ae8e-4e0f-8d11-c50a719b809e" y1="726.58" x2="1080" y2="726.58"/>
+  </g>
+  <g class="uuid-e75ffc53-2a0b-4857-826c-a3553643518c">
+    <path class="uuid-6aa97f78-4ec7-4fba-bbb5-425518209b85" d="M649.79,726.72h-245.2l-35.04,104.06,79.09,9v78.07H169.4v-78.07l44-11c14.02-3.02,23.02-11,27.05-24.04l174.1-487.35-123.09-5.01,8.03-119.1h335.25l188.16,548.43c20.01,58.06,32.03,78.07,63.03,78.07,11.04,0,26.04-3.02,43.07-9l18.99,95.06c-23.02,13.04-68.04,23.02-114.09,23.02-89.07,0-126.11-41.03-156.14-124.11l-27.99-78.03ZM537.7,342.41h-9l-93.1,276.21h186.16l-84.06-276.21Z"/>
+  </g>
+</svg>

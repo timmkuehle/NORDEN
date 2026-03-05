@@ -1,0 +1,242 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@components/Video/Video.scss";
+@use "@styles/side-note.scss";
+@use "@styles/services.scss";
+@use "@styles/bg-image-container.scss";
+@use "@styles/images-slideshow.scss";
+
+// Project variables
+$color-beige: #ecd7a3;
+$color-mid-beige: #fdf5d7;
+$color-deep-beige: #fde6b6;
+$color-light-beige: #fefaf1;
+$color-medium: #7f7f7f;
+$color-green: #4c8155;
+
+// Utility classes
+.col-beige {
+	color: $color-beige;
+}
+.col-medium {
+	color: $color-medium;
+}
+.col-white {
+	color: white;
+}
+
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.bg-col-mid-beige {
+	background-color: $color-mid-beige;
+}
+.bg-col-deep-beige {
+	background-color: $color-deep-beige;
+}
+.bg-col-light-beige {
+	background-color: $color-light-beige;
+}
+.bg-col-medium {
+	background-color: $color-medium;
+}
+.bg-col-white {
+	background-color: white;
+}
+
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+// General styling
+body {
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+
+		&::before {
+			background-color: unset;
+			background-image: linear-gradient(
+				rgba(255, 255, 255, 0.3),
+				rgba(255, 255, 255, 0)
+			);
+		}
+
+		&.hidden {
+			&::before {
+				background-image: unset;
+			}
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-green;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-green;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-green;
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		margin-top: 0;
+		padding: 0;
+		font-family: "Fedra Sans", Relevant, Arial, Helvetica, sans-serif;
+		background-color: white;
+
+		h1,
+		h2,
+		h3 {
+			margin-block: 2.25vw;
+			text-transform: none;
+			font-family:
+				"Fedra Serif", Cambria, Cochin, Georgia, Times,
+				"Times New Roman", serif;
+			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
+			color: black;
+		}
+
+		p {
+			margin-block: 1.75vw;
+		}
+	}
+
+	.site-footer {
+		padding-top: 0;
+	}
+}
+
+// Component styling
+.side-note {
+	color: $color-medium;
+}
+
+// Project styling
+.services {
+	padding-top: 6vw;
+
+	@-moz-document url-prefix() {
+		& {
+			scrollbar-color: white $color-beige;
+		}
+	}
+
+	&::-webkit-scrollbar-track {
+		background: white;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $color-beige;
+	}
+
+	.service {
+		color: $color-beige;
+	}
+}
+.project-section {
+	@media screen and (min-width: 769px) {
+		.content {
+			&.narrow {
+				padding-inline: 9vw;
+			}
+		}
+	}
+}
+
+// Project styling
+#intro-video-section {
+	margin-top: calc(-1 * var(--header-height));
+
+	@media screen and (max-width: 768px) {
+		.content {
+			padding: 0;
+		}
+	}
+}
+
+#intro-text-section {
+	@media screen and (min-width: 769px) {
+		h1 {
+			width: 60%;
+		}
+	}
+}
+
+#logo-text-section {
+	@media screen and (min-width: 769px) {
+		h2 {
+			width: 80%;
+		}
+	}
+}
+
+#places-section {
+	#places-logos {
+		@media screen and (min-width: 769px) {
+			width: 70%;
+			margin-inline: auto;
+		}
+	}
+}
+
+#design-principle-section {
+	@media screen and (min-width: 769px) {
+		.content {
+			justify-content: center;
+
+			p {
+				width: 50%;
+			}
+		}
+	}
+}
+
+#poster-section {
+	.background-image {
+		height: auto;
+		object-fit: unset;
+	}
+
+	@media screen and (min-width: 769px) {
+		.content {
+			padding-inline: 25vw;
+
+			.image-slideshow {
+				flex-direction: row-reverse;
+
+				.button {
+					margin-bottom: 10vw;
+				}
+			}
+		}
+	}
+}
+
+#outro-section {
+	@media screen and (min-width: 769px) {
+		padding-inline: var(--main-padding-block);
+	}
+}

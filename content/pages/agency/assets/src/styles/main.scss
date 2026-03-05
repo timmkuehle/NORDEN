@@ -1,6 +1,20 @@
+// Import generic stylesheets
+@use "@styles/content-card.scss";
+@use "@styles/bullet-list.scss";
+
+// Import component stylesheets
+@use "@components/PeopleGallery/PeopleGallery.scss";
+
 // Agency page styling
 body {
 	main {
+		margin-top: 0;
+		padding-top: calc(var(--main-padding-block) + var(--header-height));
+
+		.header-text {
+			max-width: 45rem;
+		}
+
 		.agency-intro {
 			display: flex;
 			gap: 4rem;
@@ -78,16 +92,42 @@ body {
 				}
 			}
 		}
+		.awards-section {
+			background-color: #eceff0;
+
+			header {
+				.header-content {
+					.side-note {
+						align-self: flex-end;
+					}
+				}
+			}
+
+			.awards-heading {
+				font-size: clamp(2em, 2vw, 2.125em);
+			}
+
+			.awards {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+
+				.row,
+				.award {
+					display: flex;
+					flex-direction: column;
+					gap: 0.25rem;
+					max-width: 35rem;
+
+					& > * {
+						margin-block: 0;
+					}
+				}
+			}
+		}
 	}
 
 	.site-footer {
-		background-color: var(--color-light-shade);
+		background-color: #eceff0;
 	}
 }
-
-// Import generic stylesheets
-@import "@styles/content-card.scss";
-@import "@styles/bullet-list.scss";
-
-// Import component stylesheets
-@import "@components/PeopleGallery/PeopleGallery.scss";

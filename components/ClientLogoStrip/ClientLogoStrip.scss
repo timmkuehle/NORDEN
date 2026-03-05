@@ -1,8 +1,12 @@
 .client-logo-strip {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 	gap: 4rem;
 	overflow-x: auto;
 	padding-block: max(2rem, 5%);
+	background-color: #eceff0;
 
 	@media screen and (min-width: 1900px) {
 		justify-content: center;
@@ -46,6 +50,11 @@
 			width: 100%;
 			max-width: 9rem;
 			max-height: 5rem;
+
+			.st0,
+			.cls-1 {
+				fill: #a5a5a5;
+			}
 
 			@media screen and (max-width: 768px) {
 				max-width: 6rem;

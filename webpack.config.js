@@ -82,6 +82,10 @@ export default (env, argv) => {
 						{
 							loader: "sass-loader",
 							options: {
+								api: "modern",
+								sassOptions: {
+									silenceDeprecations: ["import"]
+								},
 								additionalData: (content, loaderContext) => {
 									const { resourcePath, rootContext } =
 										loaderContext;
@@ -95,7 +99,7 @@ export default (env, argv) => {
 										"content/assets/src/styles/index.scss"
 									) {
 										return (
-											'@import "@styles/index.scss";' +
+											'@use "@styles/index.scss" as *;' +
 											content
 										);
 									}

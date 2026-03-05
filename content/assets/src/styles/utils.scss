@@ -41,7 +41,7 @@
 .text-style-subline {
 	margin-bottom: 0.5em !important;
 	text-transform: uppercase !important;
-	font-size: max(0.9375rem, 0.75vw) !important;
+	font-size: 0.9375rem !important;
 	font-weight: normal !important;
 	letter-spacing: 0.0625em !important;
 }
@@ -49,12 +49,12 @@
 .text-style-button {
 	text-transform: uppercase !important;
 	text-decoration: none !important;
-	font-size: max(0.9375em, 0.825vw) !important;
+	font-size: clamp(1rem, 1.25vw, 1.328125rem) !important;
 	letter-spacing: 0.0625em !important;
 }
 
 .text-style-big {
-	font-size: max(1.625em, 2vw) !important;
+	font-size: clamp(1.25rem, 1.75vw, 1.859375rem) !important;
 }
 
 .vertical-text {

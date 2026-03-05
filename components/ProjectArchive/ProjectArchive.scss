@@ -1,69 +1,97 @@
+.projects-header {
+	margin-bottom: 2.25rem;
+
+	h1 {
+		margin-block: 0 1rem;
+		font-size: clamp(6rem, 10vw, 10.625rem);
+		cursor: pointer;
+	}
+
+	.project-filter-wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+
+		a {
+			cursor: pointer;
+		}
+
+		.filter-toggle {
+			margin-block: 0.3125rem 0;
+
+			&.active {
+				color: var(--color-primary);
+			}
+		}
+
+		.filter-list {
+			display: none;
+			flex-wrap: wrap;
+			gap: 1.25rem;
+
+			&.active {
+				display: flex;
+			}
+
+			.filter-link {
+				&.active {
+					color: var(--color-primary);
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		gap: 1.5rem;
+		flex-direction: column;
+	}
+}
+
 .project-archive {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	gap: 15rem;
-	width: calc(100% + var(--main-padding-inline) * 2);
-	max-width: 90rem;
-	margin-inline: calc(-1 * var(--main-padding-inline));
-	padding: 2rem var(--main-padding-inline);
-	overflow-x: hidden;
-	overflow-y: auto;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
-	perspective: 60px;
-
-	@media screen and (min-width: 1441px) {
-		margin-inline: auto;
-	}
+	gap: 2rem;
+	margin-bottom: 7rem !important;
 
 	.project {
-		display: flex;
-		justify-content: center;
-		flex: 1 1 26rem;
-		max-width: 42.5rem;
+		flex-basis: calc(25% - 1.5rem);
+		min-width: 15rem;
+		margin-top: 2vw;
 
-		&.layer-middle {
-			transform: translateZ(-20px) scale(1.25);
+		@media screen and (max-width: 1114px) {
+			flex-basis: calc(100% / 3 - 4rem / 3);
 		}
 
-		&.layer-back {
-			transform: translateZ(-40px) scale(1.5);
+		@media screen and (max-width: 842px) {
+			flex-basis: calc(50% - 1rem);
 		}
 
-		&.layer-base {
-			transform: translateZ(-60px);
+		@media screen and (max-width: 550px) {
+			flex-grow: 1;
 		}
 
 		.project-link {
+			display: block;
 			position: relative;
-
-			&.active,
-			&:hover {
-				z-index: 1;
-
-				.project-thumbnail {
-					filter: saturate(1);
-				}
-			}
+			width: 100%;
+			text-decoration: none;
 
 			.project-thumbnail {
-				filter: saturate(0);
-				transition: filter 0.5s ease-out;
+				width: 100%;
 			}
 
-			.project-title {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				margin-block: 0;
-				padding: 1rem;
-				text-align: center;
-				font-size: 1.5rem;
-				letter-spacing: 1rem;
-				transition: color 0.25s ease-out;
+			.project-footer {
+				margin-top: 1.5vw;
+
+				.project-title {
+					font-size: clamp(1rem, 1.25vw, 1.328125rem);
+				}
+
+				.project-category {
+					margin: 0;
+					font-size: clamp(0.9375rem, 1.125vw, 1.1953125rem);
+					color: var(--color-primary);
+				}
 			}
 		}
 	}

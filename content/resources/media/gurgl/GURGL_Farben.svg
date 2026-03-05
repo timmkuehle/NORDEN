@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1600 2057">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d0d0ce;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-8, .cls-3 {
+        fill: #004af0;
+      }
+
+      .cls-8, .cls-9 {
+        font-family: ASSoelden-Regular, 'AS Soelden';
+        font-size: 36px;
+      }
+
+      .cls-2 {
+        fill: #c8c9c7;
+      }
+
+      .cls-4 {
+        fill: #b1b3b3;
+      }
+
+      .cls-5 {
+        fill: #97999b;
+      }
+
+      .cls-9 {
+        fill: #d9d9d6;
+      }
+
+      .cls-6 {
+        fill: #75787b;
+      }
+
+      .cls-7 {
+        fill: #bbbcbc;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="49.3" y="119.44" width="688.21" height="1635.7"/>
+  <path class="cls-3" d="M1550.55,97.04h-182.46v1626.09h182.46V97.04Z"/>
+  <rect class="cls-2" x="813.13" y="333.91" width="480.15" height="324.64"/>
+  <rect class="cls-7" x="813.13" y="658.52" width="480.15" height="327.54"/>
+  <rect class="cls-4" x="813.13" y="986.08" width="480.15" height="324.64"/>
+  <rect class="cls-5" x="813.13" y="1310.72" width="480.15" height="324.64"/>
+  <rect class="cls-6" x="813.13" y="1635.36" width="480.15" height="324.64"/>
+  <text class="cls-8" transform="translate(69.29 175.84)"><tspan x="0" y="0">#d0d0ce</tspan></text>
+  <text class="cls-8" transform="translate(831.29 386.84)"><tspan x="0" y="0">#c8c9c7</tspan></text>
+  <text class="cls-8" transform="translate(831.29 714.84)"><tspan x="0" y="0">#bbbcbc</tspan></text>
+  <text class="cls-8" transform="translate(831.29 1044.84)"><tspan x="0" y="0">#b1b3b3</tspan></text>
+  <text class="cls-8" transform="translate(831.29 1360.84)"><tspan x="0" y="0">#97999b </tspan></text>
+  <text class="cls-8" transform="translate(831.29 1689.84)"><tspan x="0" y="0">#75787b</tspan></text>
+  <text class="cls-9" transform="translate(1391.29 148.84)"><tspan x="0" y="0">#004af0</tspan></text>
+</svg>

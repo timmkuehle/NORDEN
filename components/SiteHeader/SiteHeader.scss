@@ -1,3 +1,8 @@
+// Import component stylesheets
+@use "../HomeLink/HomeLink.scss";
+@use "../HeaderMenu/HeaderMenu.scss";
+@use "../ContactMenu/ContactMenu.scss";
+
 .site-header {
 	display: flex;
 	justify-content: space-between;
@@ -5,12 +10,28 @@
 	position: fixed;
 	z-index: 100;
 	width: 100%;
+	max-width: 1700px;
+
 	height: var(--header-height);
 	padding-inline: var(--main-padding-inline);
-	background-color: rgba(var(--color-light-rgb), 0.5);
-	backdrop-filter: blur(0.5rem);
 	box-shadow: var(--box-shadow-bottom);
-	transition: all 0.35s ease-in-out;
+
+	@media screen and (min-width: 1700px) {
+		margin-inline: calc((100% - 1700px) / 2);
+	}
+
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(var(--color-light-rgb), 0.5);
+		backdrop-filter: blur(0.5rem);
+		transition: all 0.35s ease-in-out;
+	}
 
 	.slot {
 		display: flex;
@@ -34,9 +55,12 @@
 	}
 
 	&.hidden {
-		background-color: rgba(var(--color-light-rgb), 0);
-		backdrop-filter: blur(0rem);
 		box-shadow: var(--no-box-shadow-bottom);
+
+		&::before {
+			background-color: rgba(var(--color-light-rgb), 0);
+			backdrop-filter: blur(0rem);
+		}
 
 		.slot {
 			&.start,
@@ -59,8 +83,3 @@
 		}
 	}
 }
-
-// Import component stylesheets
-@import "../HomeLink/HomeLink.scss";
-@import "../HeaderMenu/HeaderMenu.scss";
-@import "../ContactMenu/ContactMenu.scss";
