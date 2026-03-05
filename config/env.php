@@ -7,4 +7,4 @@ declare(strict_types=1);
  *
  * @var string ENV Represents webpack compiling mode ("production"|"development") 
  */
-define('ENV', 'production');
+define('ENV', 'development');

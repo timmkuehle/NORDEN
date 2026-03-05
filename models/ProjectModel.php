@@ -186,8 +186,8 @@ class ProjectModel {
             'category' => 'Typography'
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/oetztal-kids',
+            'content_path' => '/content/projects/oetztalKids',
             'title' => 'Ötztal WIDI-(Kids)font',
             'thumbnail' => '/content/resources/media/projectPreviews/25_WidiFont.jpg',
             'category' => 'Typography'
@@ -199,6 +199,8 @@ class ProjectModel {
             'thumbnail' => '/content/resources/media/projectPreviews/26_TirolsHochplateau_Startseite.gif',
             'category' => 'Logo Design'
         ],
+
+        
     ];
     private array $currentProject;
 

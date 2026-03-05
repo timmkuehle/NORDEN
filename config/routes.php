@@ -45,3 +45,7 @@ declare(strict_types=1);
 \Router::addRoute('/datenschutz', 'PageController');
 
 \Router::addRoute('/allgemeine-geschaeftsbedingungen', 'PageController');
+
+
+
+\Router::addRoute('/projekte/oetztal-kids', 'ProjectController');
