@@ -51,7 +51,7 @@
 
     <section class="project-section has-padding-lr section-2">
         <div class="row">
-            <div class="col s14 m6 l5">
+            <div class="col s15 m6 l5">
                 <h3 class="meta-headline">Widi Font vorher:</h3>
 
                 <?php new Image(
@@ -62,7 +62,7 @@
                 	true
                 ); ?>
                 </div>
-            <div class="col s14 m6 push-m2 l5 push-l2">
+            <div class="col s15 m6 push-m2 l5 push-l2">
                 <h3 class="meta-headline">Widi Font nachher:</h3>
 
                 <?php new Image(
