@@ -245,10 +245,10 @@ $smaller-line-height: 1;
 		padding: 7rem 0.75rem 8.5rem;
 	}
 	@include minquery($screen-l) {
-		padding: 8rem 0.75rem 12rem;
+		padding: 8rem 4.375rem 12rem;
 	}
 	@include minquery($screen-xl) {
-		padding: 9rem 0.75rem 12rem;
+		padding: 9rem 4.375rem 12rem;
 	}
 	.image-absolute {
 		position: absolute;

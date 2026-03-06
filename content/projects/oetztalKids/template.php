@@ -30,7 +30,7 @@
         <p class="text-is-large col-white">Basierend auf der prägnanten Ötztal Corporate Font ist der 
                     <span class="highlight-circle">WIDI Kids Font</span> entstanden.</p>
         </div>
-        <div class="col s16 m16 l8 push-l1 xl7">
+        <div class="col s16 m16 l8 push-l1 xl8">
         <h3 class="meta-headline">Leitidee:</h3>
             <p class="col-white is-text">Diese Schrift ist eine kindlichere, rundere und lockere Version. Sie vereint die markanten Formen der Ötztal CD Font mit einer spielerischen Leichtigkeit, die speziell für kinderfreundliche Kommunikation entwickelt wurde. Ob auf Spielplätzen, bei familienfreundlichen Events und generell bei allen Kinder Themen – die WIDI Kids Font bringt Fröhlichkeit und Unbeschwertheit in jedes Design.</p>
             <p <span class="col-gold">  <span class="col-red is-bold is-uppercase">Unsere Leistungen:  </span> Fontdesign — Konzeptionierung — Farbkonzept — Printdesigns</span></p>
