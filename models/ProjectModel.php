@@ -136,7 +136,7 @@ class ProjectModel {
             'category' => 'Packaging Design'
         ],
         [
-            'slug' => '/projekte/gurgl-font',
+            'slug' => '/projekte/gurgl-corporate-font',
             'content_path' => '/content/projects/gurglFont',
             'title' => 'Corporate Font Gurgl',
             'thumbnail' => '/content/resources/media/projectPreviews/18_GurgL_Font_Startseite.gif',
