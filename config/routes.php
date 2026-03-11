@@ -47,5 +47,5 @@ declare(strict_types=1);
 \Router::addRoute('/allgemeine-geschaeftsbedingungen', 'PageController');
 
 
-
 \Router::addRoute('/projekte/oetztal-kids', 'ProjectController');
+\Router::addRoute('/projekte/gurgl-font', 'ProjectController');
