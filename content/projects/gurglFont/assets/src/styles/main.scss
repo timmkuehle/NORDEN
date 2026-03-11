@@ -141,6 +141,7 @@ body {
 main:has(.project-wrapper.gurgl-font) {
 	font-family: "AS Soelden", sans-serif;
 	padding-bottom: 5rem;
+	overflow: hidden;
 }
 
 // Layout Styling
@@ -381,6 +382,19 @@ $smaller-line-height: 1;
 		margin-top: 25rem;
 	}
 
+	.background-image {
+		position: absolute;
+		top: -55%;
+		left: -15%;
+		transform: rotate(-73deg) scale(2);
+	
+
+		@include minquery($screen-m) {
+			top: -25%;
+			left: -15%;
+		}
+		z-index: 0;
+	}
 	.section-name {
 		top: 0%;
 	}
