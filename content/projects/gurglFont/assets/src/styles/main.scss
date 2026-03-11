@@ -389,7 +389,6 @@ $smaller-line-height: 1;
 		top: -55%;
 		left: -15%;
 		transform: rotate(-73deg) scale(2);
-	
 
 		@include minquery($screen-m) {
 			top: -25%;
@@ -439,7 +438,19 @@ $smaller-line-height: 1;
 	position: relative;
 	display: block;
 	padding-bottom: 0;
-	
+
+	.row {
+		justify-content: space-between;
+		gap: 0.75rem;
+		flex-wrap: nowrap;
+
+		@include minquery($screen-m) {
+			flex-wrap: wrap;
+			gap: 0;
+			justify-content: flex-start;
+		}
+	}
+
 	.buttons {
 		position: relative;
 		z-index: 5;
