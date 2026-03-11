@@ -1,0 +1,480 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+
+// Project variables
+$color-red: #b20933;
+$color-light-red: #7d5753;
+$color-dark-red: #3e0505;
+$color-light-pink: #b09690;
+$color-beige: #f3ebe4;
+$color-gold: #f7a600;
+$color-medium-gray: #bbbcbc;
+$color-dark-gray: #75787b;
+$gurgl-highlight-blue: #004af0;
+
+// Utility classes
+.col-dark-gray {
+	color: $color-dark-gray;
+}
+.col-highlight-blue {
+	color: $gurgl-highlight-blue;
+}
+.col-red {
+	color: $color-red;
+}
+.col-light-red {
+	color: $color-light-red;
+}
+.col-dark-red {
+	color: $color-dark-red;
+}
+.col-light-pink {
+	color: $color-light-pink;
+}
+.col-beige {
+	color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-white {
+	color: white;
+}
+
+.bg-col-medium-gray {
+	background-color: $color-medium-gray;
+}
+.bg-col-dark-gray {
+	background-color: $color-dark-gray;
+}
+
+.bg-col-white {
+	background-color: white;
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		padding: 0;
+		background-color: $color-dark-gray;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+
+		&:before {
+			background-color: $color-medium-gray;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $gurgl-highlight-blue;
+			}
+
+			.logo {
+				fill: white;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: white;
+
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $gurgl-highlight-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $gurgl-highlight-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-dark-gray;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: white;
+				}
+			}
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: $color-dark-gray;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $gurgl-highlight-blue;
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.gurgl-font) {
+	font-family: "AS Soelden", sans-serif;
+	padding-bottom: 5rem;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-family: "Adelle Sans Headline", sans-serif;
+	font-weight: 300;
+	font-size: $font-size-larger;
+	margin-bottom: 0;
+	color: white;
+	text-transform: uppercase;
+}
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
+.is-text {
+	font-size: $font-size;
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 300;
+
+	@include minquery($screen-m) {
+		font-size: $font-size-big;
+	}
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+	top: 21%;
+
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-family: "AS Soelden", sans-serif;
+		font-weight: 400;
+		color: rgba($gurgl-highlight-blue, 5);
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+
+	@include minquery($screen-l) {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}
+
+// Project styling
+
+.section-1 {
+	position: relative;
+	overflow: hidden;
+	.project-headline {
+		font-family: "Adelle Sans Headline", sans-serif;
+		font-weight: 300;
+		font-size: clamp(62px, calc(62px + 110 * (100vw - 600px) / 680), 172px);
+		line-height: clamp(
+			70px,
+			calc(70px + 81 * (100vw - 600px) / 680),
+			151px
+		);
+		margin-bottom: 0;
+		color: #000000;
+	}
+
+	.decorative-image {
+		position: absolute;
+		top: -6rem;
+		right: -3rem;
+		width: 53.125rem;
+		height: 50rem;
+		max-height: 100%;
+		max-width: 100%;
+		transform: rotate(0deg);
+		filter: brightness(100);
+	}
+}
+
+.section-2 {
+	position: relative;
+	z-index: 4;
+}
+
+.section-3 {
+	position: relative;
+	z-index: 3;
+	padding: 0rem 0.75rem 0rem;
+	@include minquery($screen-l) {
+		padding: 0 70px 0rem;
+	}
+	.container {
+		position: relative;
+		z-index: 3;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+		width: 100%;
+		gap: 1.5rem;
+
+		@include minquery($screen-m) {
+			gap: 2.5rem;
+		}
+		@include minquery($screen-l) {
+			justify-content: flex-end;
+			width: 100%;
+			gap: 2.5rem;
+		}
+
+		.image-content {
+			width: 30%;
+
+			@include minquery($screen-m) {
+				width: 25%;
+			}
+			@include minquery($screen-l) {
+				width: 25%;
+			}
+			@include minquery($screen-lg) {
+				width: 17.5%;
+			}
+			@include minquery($screen-xl) {
+				width: 15%;
+			}
+		}
+		.text-content {
+			width: 70%;
+
+			@include minquery($screen-m) {
+				width: 70%;
+			}
+			@include minquery($screen-l) {
+				width: 40%;
+			}
+			@include minquery($screen-xl) {
+				width: 30%;
+			}
+		}
+
+		.is-text {
+			margin-top: 0;
+			margin-bottom: 1rem;
+
+			@include minquery($screen-m) {
+				margin: 0.625rem 0 2.5rem;
+			}
+		}
+	}
+	.h-image {
+		width: 10rem;
+	}
+
+	.decorative-image {
+		.background-image {
+			position: absolute;
+			top: 75%;
+			left: 0;
+			width: 100%;
+			z-index: 0;
+			height: auto;
+
+			@include minquery($screen-m) {
+				top: 42.5%;
+			}
+			@include minquery($screen-l) {
+				top: 32.5%;
+			}
+			@include minquery($screen-lg) {
+				top: -15%;
+			}
+			@include minquery($screen-xl) {
+				top: -70%;
+			}
+			@include minquery($screen-xxl) {
+				top: -107.5%;
+			}
+		}
+	}
+}
+.section-4 {
+	position: relative;
+	padding-top: 0;
+	margin-top: 15rem;
+
+	@include minquery($screen-l) {
+		margin-top: 22.5rem;
+	}
+
+	@include minquery($screen-lg) {
+		margin-top: 25rem;
+	}
+
+	.section-name {
+		top: 0%;
+	}
+
+	.row {
+		justify-content: center;
+
+		@include minquery($screen-l) {
+			justify-content: flex-start;
+		}
+	}
+}
+
+.section-5 {
+	position: relative;
+	padding-top: 0;
+	margin-top: 7.5rem;
+	.section-name {
+		top: 0;
+	}
+
+	.image-desktop {
+		display: none;
+	}
+	.image-mobile {
+		display: block;
+	}
+
+	@include minquery($screen-l) {
+		.image-desktop {
+			display: block;
+		}
+		.image-mobile {
+			display: none;
+		}
+	}
+}
+
+.section-6 {
+	position: relative;
+	display: block;
+	padding-bottom: 0;
+
+	.letter-a {
+		margin-bottom: 0.75rem;
+		@include minquery($screen-l) {
+			margin-bottom: 0;
+		}
+	}
+	.buttons {
+		position: relative;
+		z-index: 5;
+		padding-top: 5rem;
+
+		@include minquery($screen-m) {
+			padding-top: 7.5rem;
+		}
+	}
+}
+
+.section-7 {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-top: 0;
+	.absolute-row {
+		position: absolute;
+		z-index: 3;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		padding: 0 0.75rem 0;
+		transform: translate(-50%, -30%);
+		display: flex;
+		justify-content: center;
+		@include minquery($screen-l) {
+			padding: 0 70px 0;
+			transform: translate(-50%, -30%);
+		}
+	}
+
+	.fullwidth {
+		position: relative;
+		z-index: 2;
+		transform: translateY(-5px);
+	}
+	.fullwidth-2 {
+		position: absolute;
+		right: 0;
+		z-index: 1;
+		bottom: -15rem;
+
+		@include minquery($screen-l) {
+			bottom: -25rem;
+		}
+	}
+}

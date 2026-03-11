@@ -193,7 +193,7 @@ WIDI's Heimat Folder
         <a href="/projekte/oetztal/corporate-design" class="button">
             <span>ÖTZTAL CORPORATE DESIGN</span>
         </a>
-        <a href="/norden/projekte/oetztal/font" class="button">
+        <a href="/projekte/oetztal/font" class="button">
             <span>ÖTZTAL CORPORATE FONT</span>
         </a>
     </div>
