@@ -62,9 +62,16 @@
     </section>
 
     <section class="project-section has-padding-lr section-4 bg-col-dark-gray">
-    <div class="section-name">
+        <div class="section-name">
             Entstehung
         </div>
+        <?php new Image(
+         	null,
+         	'background-image',
+         	'/content/resources/media/gurglFont/01_Diamant_Objekt_1.svg',
+         	null,
+         	true
+         ); ?>
         <div class="row">
             <div class="col s16 m14 l13 xl11">
             <?php new \Video(
