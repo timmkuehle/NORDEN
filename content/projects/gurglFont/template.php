@@ -125,7 +125,7 @@
     <section class="project-section has-padding-lr section-6 bg-col-medium-gray">
 
         <div class="row">
-            <div class="col s16 m7 l7">
+            <div class="col s7 m7 l7">
                 <?php new Image(
                 	null,
                 	'letter-a',
@@ -134,7 +134,7 @@
                 	true
                 ); ?>
             </div>
-            <div class="col s16 m7 l7 push-m2 push-l2">
+            <div class="col s7 m7 l7 push-s1 push-m2 push-l2">
             <?php new Image(
             	null,
             	'letter-r',

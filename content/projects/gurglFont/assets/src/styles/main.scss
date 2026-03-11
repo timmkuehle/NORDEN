@@ -243,6 +243,8 @@ $smaller-line-height: 1;
 	position: relative;
 	overflow: hidden;
 	.project-headline {
+		position: relative;
+		z-index: 2;
 		font-family: "Adelle Sans Headline", sans-serif;
 		font-weight: 300;
 		font-size: clamp(62px, calc(62px + 110 * (100vw - 600px) / 680), 172px);
@@ -264,7 +266,7 @@ $smaller-line-height: 1;
 		max-height: 100%;
 		max-width: 100%;
 		transform: rotate(0deg);
-		filter: brightness(100);
+		z-index: 1;
 	}
 }
 
@@ -437,13 +439,7 @@ $smaller-line-height: 1;
 	position: relative;
 	display: block;
 	padding-bottom: 0;
-
-	.letter-a {
-		margin-bottom: 0.75rem;
-		@include minquery($screen-l) {
-			margin-bottom: 0;
-		}
-	}
+	
 	.buttons {
 		position: relative;
 		z-index: 5;
