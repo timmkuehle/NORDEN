@@ -406,7 +406,7 @@ $smaller-line-height: 1;
 	margin-bottom: -3.35rem;
 	z-index: 3;
 	position: relative;
-
+overflow: hidden;
 	@include minquery($screen-m) {
 		margin-bottom: -4.5rem;
 	}
@@ -417,6 +417,17 @@ $smaller-line-height: 1;
 		margin-bottom: -10rem;
 	}
 
+	.absolute-colorfield {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -45%);
+		width: 100%;
+		background-color: #7a5451;
+		z-index: 0;
+		height: 395px;
+	}
+
 	img {
 		width: 100%;
 
@@ -425,6 +436,7 @@ $smaller-line-height: 1;
 			object-fit: cover;
 			object-position: left left;
 			margin-bottom: -1rem;
+			margin-left: 5rem;
 		}
 	}
 

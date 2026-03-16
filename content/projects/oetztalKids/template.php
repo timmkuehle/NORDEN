@@ -122,7 +122,7 @@
 
    <div class="row">
     <div class="col s16">
-    <h3 class="meta-headline">Widi Font nachher:</h3>
+    <h3 class="meta-headline">Widi Farben:</h3>
 
     <?php new Image(
     	null,
@@ -175,9 +175,12 @@
 </section>
 
 <section class="project-section section-6">
-<div class="section-name">
-WIDI's Heimat Folder
+    <div class="section-name">
+        WIDI's Heimat Folder
     </div>
+    
+    <div class="absolute-colorfield"></div>
+
    <div class="row">
     <div class="col s16">
     <?php new Image(
