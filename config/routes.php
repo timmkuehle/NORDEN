@@ -50,3 +50,4 @@ declare(strict_types=1);
 \Router::addRoute('/projekte/oetztal-kids', 'ProjectController');
 \Router::addRoute('/projekte/gurgl-corporate-font', 'ProjectController');
 \Router::addRoute('/projekte/burton', 'ProjectController');
+\Router::addRoute('/projekte/manz', 'ProjectController');

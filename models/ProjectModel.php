@@ -115,11 +115,11 @@ class ProjectModel {
             'category' => 'Typography'
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/manz',
+            'content_path' => '/content/projects/manz',
             'title' => 'Florian Manz',
             'thumbnail' => '/content/resources/media/projectPreviews/15_FlorianManz.jpg',
-            'category' => 'Logo Design'
+            'category' => 'Corporate Design'
         ],
         [
             'slug' => '/projekte/burton',

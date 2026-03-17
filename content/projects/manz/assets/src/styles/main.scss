@@ -1,0 +1,500 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+
+// Project variables
+
+$color-beige: #cdc9b7;
+$color-gold: #f7a600;
+$color-medium-gray: #bbbcbc;
+$color-dark-gray: #75787b;
+$color-blue: #3D73FF;
+$color-light-blue: #00b4ff;
+
+// Utility classes
+.col-dark-gray {
+	color: $color-dark-gray;
+}
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.col-beige {
+	color: $color-beige;
+}
+.bg-col-medium-gray {
+	background-color: $color-medium-gray;
+}
+.bg-col-dark-gray {
+	background-color: $color-dark-gray;
+}
+.bg-col-black {
+	background-color: black;
+}
+.bg-col-white {
+	background-color: white;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		padding: 0;
+		background-color: $color-dark-gray;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+		padding: 2.5rem 1rem;
+		&:before {
+			background-color: white;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: #000000;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: #000;
+					transition: color 0.1s ease-in-out;
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-dark-gray;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: rgb(32, 32, 32);
+				}
+			}
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: wihte;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $color-blue;
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.manz) {
+	font-family: "Poppins", sans-serif;
+	padding-bottom: 5rem;
+	overflow: hidden;
+	background-color: white;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: $font-size-larger;
+	margin-bottom: 0;
+	color: white;
+	text-transform: uppercase;
+}
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
+.is-text {
+	font-size: $font-size;
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 300;
+
+	@include minquery($screen-m) {
+		font-size: $font-size-big;
+	}
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+	top: 21%;
+
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+
+	@include minquery($screen-l) {
+		padding-left: 3.5rem;
+		padding-right: 3.5rem;
+	}
+}
+
+// Project styling
+
+.manz {
+	.section-1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 25.5rem;
+
+		@include minquery($screen-m) {
+			height: 42.5rem;
+		}
+		.image {
+			display: blockƒ;
+			width: 100%;
+		}
+	}
+
+	.section-2 {
+		.project-subtext {
+			font-size: $font-size-large;
+
+			line-height: $small-line-height;
+			margin: 0.625rem 0 2.5rem;
+			font-weight: 300;
+
+			@include minquery($screen-m) {
+				font-size: $font-size-larger;
+			}
+		}
+	}
+
+	.section-3 {
+		.project-row {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			gap: 1rem;
+			width: 100%;
+
+			@include minquery($screen-m) {
+				gap: 2rem;
+				justify-content: space-between;
+			}
+			span {
+				display: block;
+				font-size: $font-size-big;
+				font-weight: 700;
+				color: $color-beige;
+				margin-right: 0.5rem;
+
+				@include minquery($screen-m) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	.section-4 {
+		display: block;
+		padding-bottom: 0;
+
+		.row {
+			width: 100%;
+			padding-left: 0.75rem;
+			padding-right: 0.75rem;
+
+			@include minquery($screen-l) {
+				padding-left: 3.5rem;
+				padding-right: 3.5rem;
+			}
+		}
+		.section-header {
+			width: 100%;
+			h3 {
+				font-size: $font-size-big;
+				font-weight: 700;
+			}
+			p {
+				font-size: $font-size-big;
+				font-weight: 400;
+			}
+		}
+		.grid {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 0;
+			width: 100%;
+			max-width: 100%;
+			overflow: visible;
+
+			.grid-item {
+				flex: 1 1 33%;
+				font-size: $font-size-smaller;
+				line-height: $small-line-height;
+				font-weight: 400;
+				text-align: center;
+				padding: 2.5rem 1rem;
+				width: 33%;
+
+				@include minquery($screen-m) {
+					font-size: $font-size;
+					padding: 4rem 1rem;
+				}
+
+				@include minquery($screen-l) {
+					font-size: $font-size-big;
+					padding: 6rem 2rem;
+				}
+
+				&.has-border {
+					border: 1px solid black;
+					font-weight: 300;
+					aspect-ratio: 1/1;
+					display: flex;
+					justify-content: center;
+					align-items: flex-end;
+					padding: 2rem;
+				}
+
+				&.bg-col-black {
+					background-color: black;
+					color: $color-beige;
+				}
+
+				&.bg-col-beige {
+					background-color: $color-beige;
+				}
+
+				&.bg-col-white {
+					background-color: white;
+				}
+			}
+			.grid-item:nth-child(5) {
+				border-right: none;
+				border-left: none;
+			}
+		}
+	}
+
+	.section-5 {
+		.row {
+			justify-content: space-between;
+			padding: 1.25rem;
+			gap: 2rem;
+
+			@include minquery($screen-m) {
+				gap: 0;
+				padding: 0;
+			}
+			.section-headline {
+				font-size: $font-size-big;
+				font-weight: 700;
+				margin-top: 0;
+				margin-bottom: 1rem;
+				text-transform: uppercase;
+			}
+			p {
+				line-height: $line-height;
+			}
+		}
+	}
+
+	.section-6 {
+		.row {
+			justify-content: space-between;
+			padding: 1.25rem;
+			gap: 2rem;
+
+			.section-headline {
+				font-size: $font-size-big;
+				font-weight: 700;
+				margin-top: 0;
+				margin-bottom: 1rem;
+				text-transform: uppercase;
+				color: white;
+			}
+			p {
+				line-height: $line-height;
+			}
+			.logo-system {
+				width: 100%;
+				height: auto;
+				padding: 4rem 0;
+			}
+		}
+	}
+
+	.section-7 {
+		position: relative;
+		padding-top: 0;
+		padding-bottom: 0;
+		display: block;
+
+		.placeholder {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 6rem;
+			transform: translateY(-2px);
+
+			@include minquery($screen-m) {
+				height: 12.5rem;
+			}
+			@include minquery($screen-l) {
+				height: 15rem;
+			}
+			@include minquery($screen-lg) {
+				height: 17.5rem;
+			}
+			@include minquery($screen-xl) {
+				height: 25rem;
+			}
+		}
+
+		.row {
+			.briefpapier {
+				width: 100%;
+				height: auto;
+				margin-bottom: 0.75rem;
+
+				@include minquery($screen-m) {
+					margin-bottom: 1.5rem;
+				}
+			}
+			.two-images {
+				display: flex;
+				flex-direction: column;
+				gap: 0.75rem;
+				@include minquery($screen-m) {
+					gap: 1.5rem;
+				}
+			}
+		}
+	}
+
+	.section-8 {
+		position: relative;
+		padding-top: 3.5rem;
+		transform: translateY(0);
+
+		@include minquery($screen-m) {
+			transform: translateY(-5rem);
+		}
+
+		.row {
+			align-items: flex-start;
+
+			@include minquery($screen-m) {
+				align-items: flex-end;
+			}
+		}
+		.typografie {
+			width: 100%;
+			height: auto;
+		}
+		.section-headline {
+			margin-top: 0;
+		}
+		.is-text {
+			margin-bottom: 0;
+		}
+	}
+}
