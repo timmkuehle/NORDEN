@@ -122,8 +122,8 @@ class ProjectModel {
             'category' => 'Logo Design'
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/burton',
+            'content_path' => '/content/projects/burton',
             'title' => 'Burton',
             'thumbnail' => '/content/resources/media/projectPreviews/16_Burton.jpg',
             'category' => 'Grafik Support'

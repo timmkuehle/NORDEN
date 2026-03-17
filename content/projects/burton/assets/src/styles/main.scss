@@ -1,0 +1,596 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+
+// Project variables
+$color-red: #bd4524;
+$color-light-red: #7d5753;
+$color-dark-red: #3e0505;
+$color-light-pink: #b09690;
+$color-beige: #f3ebe4;
+$color-gold: #f7a600;
+$color-medium-gray: #bbbcbc;
+$color-dark-gray: #75787b;
+$color-blue: #0022cc;
+$color-light-blue: #00b4ff;
+
+// Utility classes
+.col-dark-gray {
+	color: $color-dark-gray;
+}
+.col-red {
+	color: $color-red;
+}
+.col-light-red {
+	color: $color-light-red;
+}
+.col-dark-red {
+	color: $color-dark-red;
+}
+.col-light-pink {
+	color: $color-light-pink;
+}
+.col-beige {
+	color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.bg-col-medium-gray {
+	background-color: $color-medium-gray;
+}
+.bg-col-dark-gray {
+	background-color: $color-dark-gray;
+}
+
+.bg-col-white {
+	background-color: white;
+}
+
+.bg-col-blue {
+	background-color: $color-blue;
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		padding: 0;
+		background-color: $color-dark-gray;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+
+		&:before {
+			background-color: transparent;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-light-red;
+			}
+
+			.logo {
+				fill: #000000;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: #000;
+					transition: color 0.1s ease-in-out;
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-light-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-light-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-dark-gray;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: rgb(32, 32, 32);
+				}
+			}
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: wihte;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $color-red;
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.burton) {
+	font-family: "AS Soelden", sans-serif;
+	padding-bottom: 5rem;
+	overflow: hidden;
+	margin-top: 0;
+	background-color: white;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-family: "Adelle Sans Headline", sans-serif;
+	font-weight: 300;
+	font-size: $font-size-larger;
+	margin-bottom: 0;
+	color: white;
+	text-transform: uppercase;
+}
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
+.is-text {
+	font-size: $font-size;
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 300;
+
+	@include minquery($screen-m) {
+		font-size: $font-size-big;
+	}
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+	top: 21%;
+
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-family: "AS Soelden", sans-serif;
+		font-weight: 400;
+
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+
+	@include minquery($screen-l) {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+}
+
+// Project styling
+
+.burton {
+	.section-1 {
+		padding: 0;
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+
+	.hero-image-wrapper {
+		position: relative;
+		width: 100%;
+		padding-bottom: 40px;
+	}
+
+	.hero-image-wrapper .fullwidth {
+		display: block;
+		width: 100%;
+		height: 35rem;
+		object-fit: cover;
+		object-position: center;
+		z-index: 1;
+	}
+
+	.hero-image-wrapper .logo {
+		position: absolute;
+		left: 50%;
+		bottom: -30px;
+		transform: translateX(-50%);
+		width: 11rem;
+		height: 11rem;
+		aspect-ratio: 1/1;
+		z-index: 2;
+
+		@include minquery($screen-m) {
+			width: 14rem;
+			height: 14rem;
+		}
+		@include minquery($screen-xl) {
+			width: 16.875rem;
+			height: 16.875rem;
+		}
+	}
+
+	.project-headline,
+	.section-headline,
+	.carousel-title {
+		font-size: clamp(2rem, 2rem + 2vw, 4rem);
+	}
+
+	.section-2 {
+		.project-headline {
+			margin-bottom: 2.5rem;
+			text-transform: none;
+		}
+	}
+
+	.section-3 {
+		.carousel-container {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+
+			@include minquery($screen-m) {
+				flex-direction: row;
+				gap: 1rem;
+			}
+			@include minquery($screen-lg) {
+				flex-direction: row;
+				gap: 0;
+			}
+		}
+
+		.carousel {
+			overflow: hidden;
+			width: 100%;
+			order: 1;
+
+			@include minquery($screen-m) {
+				width: 90%;
+				order: 1;
+			}
+		}
+
+		.carousel-navigation {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			gap: 1rem;
+			order: 2;
+
+			@include minquery($screen-m) {
+				width: 10%;
+				justify-content: center;
+				order: 2;
+				align-items: flex-end;
+			}
+		}
+
+		.carousel-track {
+			display: flex;
+			height: 100%;
+			transition: transform 0.3s ease;
+		}
+
+		.carousel-slide {
+			flex: 0 0 100%;
+			width: 100%;
+			display: flex;
+
+			img {
+				width: 100%;
+				height: 17.5rem;
+				object-fit: cover;
+				display: block;
+
+				@include minquery($screen-m) {
+					height: 30rem;
+				}
+			}
+		}
+
+		.carousel-prev,
+		.carousel-next {
+			appearance: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			width: 26px;
+			height: 20px;
+			background: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center;
+			background-size: contain;
+			cursor: pointer;
+			transition: transform 0.2s ease;
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+
+			@include minquery($screen-m) {
+				width: 21px;
+				height: 15px;
+			}
+		}
+
+		.carousel-prev {
+			transform: scaleX(-1);
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scaleX(-1) scale(1.1);
+				}
+			}
+		}
+	}
+	.section-4 {
+		padding-top: 0;
+		.animated-banner {
+			overflow: hidden;
+			width: 100%;
+			background-color: $color-blue;
+			padding: 1rem 0;
+		}
+
+		.animated-banner-track {
+			display: flex;
+			gap: 105px;
+			width: max-content;
+			animation: banner-scroll 5s linear infinite;
+		}
+
+		.banner-text {
+			color: white;
+			font-size: $font-size-big;
+			font-weight: 700;
+			text-transform: uppercase;
+			flex-shrink: 0;
+			white-space: nowrap;
+		}
+	}
+	.section-6 {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+
+		.fullwidth {
+			position: absolute;
+			width: 100vw;
+			height: 57.5%;
+			object-fit: cover;
+			object-position: center;
+			z-index: 0;
+		}
+
+		.carousel-container.row {
+			position: relative;
+			z-index: 1;
+			align-items: flex-end;
+		}
+
+		.carousel-text {
+			padding-top: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: fit-content;
+
+			@include minquery($screen-m) {
+				height: 10rem;
+				padding-top: 0;
+			}
+
+			.carousel-title {
+				font-weight: 800;
+				color: #000;
+				margin: 0 0 1.5rem;
+			}
+		}
+
+		.carousel {
+			overflow: hidden;
+			width: 100%;
+			padding-top: 12.5rem;
+		}
+
+		.carousel-track {
+			display: flex;
+			height: 100%;
+			transition: transform 0.3s ease;
+		}
+
+		.carousel-slide {
+			flex: 0 0 100%;
+			width: 100%;
+			display: flex;
+
+			img {
+				width: 100%;
+
+				aspect-ratio: 1/1;
+				object-fit: cover;
+				display: block;
+			}
+		}
+
+		.carousel-navigation {
+			display: flex;
+			flex-direction: row;
+			gap: 1rem;
+		}
+
+		.carousel-prev,
+		.carousel-next {
+			appearance: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			width: 26px;
+			height: 20px;
+			background: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center;
+			background-size: contain;
+			cursor: pointer;
+			filter: brightness(0);
+			transition: transform 0.2s ease;
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+
+			@include minquery($screen-m) {
+				width: 21px;
+				height: 15px;
+			}
+		}
+
+		.carousel-prev {
+			transform: scaleX(-1);
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scaleX(-1) scale(1.1);
+				}
+			}
+		}
+	}
+
+	.section-7 {
+		padding-top: 0;
+
+		.image-desktop {
+			display: none;
+		}
+		.image-mobile {
+			display: block;
+		}
+
+		@include minquery($screen-l) {
+			.image-desktop {
+				display: block;
+			}
+			.image-mobile {
+				display: none;
+			}
+		}
+	}
+
+	.section-8 {
+		padding: 3.5rem 0 3.5em 0;
+		@include minquery($screen-m) {
+			padding-top: 0;
+		}
+	}
+	.section-9 {
+		position: relative;
+		padding-top: 4rem;
+
+		.section-headline {
+			text-transform: none;
+			margin-bottom: .25rem;
+		}
+
+		.absolute-positioned {
+			position: absolute;
+			top: -3rem;
+			left: 0%;
+			width: 12.5rem;
+			z-index: 1;
+
+			@include minquery($screen-l) {
+				top: -6rem;
+				left: 7.5%;
+				width: 27.5rem;
+			}
+		}
+	}
+}
+
+@keyframes banner-scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-25%);
+	}
+}
