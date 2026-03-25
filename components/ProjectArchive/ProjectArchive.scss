@@ -50,24 +50,22 @@
 .project-archive {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 2rem;
+	gap: 1rem;
 	margin-bottom: 7rem !important;
 
 	.project {
-		flex-basis: calc(25% - 1.5rem);
-		min-width: 15rem;
+		width: calc(47.5%);
+		min-width: 0.5rem;
 		margin-top: 2vw;
 
-		@media screen and (max-width: 1114px) {
-			flex-basis: calc(100% / 3 - 4rem / 3);
+		@media screen and (min-width: 600px) {
+			width: calc(50% - 1rem);
 		}
-
-		@media screen and (max-width: 842px) {
-			flex-basis: calc(50% - 1rem);
+		@media screen and (min-width: 768px) {
+			width: calc(100% / 3 - 4rem / 4);
 		}
-
-		@media screen and (max-width: 550px) {
-			flex-grow: 1;
+		@media screen and (min-width: 962px) {
+			width: calc(100% / 4 - 4rem / 4);
 		}
 
 		.project-link {
