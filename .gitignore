@@ -5,3 +5,6 @@ core/error/assets/dist
 cache
 .DS_Store
 config/env.php
+# Too large for GitHub (>100MB)
+content/resources/media/oetztalCd/01_Brandclip/OETZT_BrandClip_4k_Web.mp4
+content/resources/media/oetztalCd/01_Brandclip/OETZT_BrandClip_4k_Mobile.mp4
