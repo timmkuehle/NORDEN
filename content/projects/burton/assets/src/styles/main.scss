@@ -355,13 +355,11 @@ $smaller-line-height: 1;
 
 			img {
 				width: 100%;
-				height: 17.5rem;
+				height: 100%;
 				object-fit: cover;
 				display: block;
 
-				@include minquery($screen-m) {
-					height: 30rem;
-				}
+				
 			}
 		}
 

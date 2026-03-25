@@ -39,6 +39,7 @@ declare(strict_types=1);
 \Router::addRoute('/projekte/soelden/test-fest', 'ProjectController');
 
 \Router::addRoute('/projekte/oetztal/font', 'ProjectController');
+\Router::addRoute('/projekte/oetztal/corporate-design', 'ProjectController');
 
 \Router::addRoute('/impressum', 'PageController');
 

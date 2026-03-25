@@ -13,8 +13,8 @@ declare(strict_types=1);
 class ProjectModel {
     private array $projects = [
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/oetztal/corporate-design',
+            'content_path' => '/content/projects/oetztalCd',
             'title' => 'Ötztal',
             'thumbnail' => '/content/resources/media/projectPreviews/01_Oetztal_CD_Startseite.gif',
             'category' => 'Corporate Design',

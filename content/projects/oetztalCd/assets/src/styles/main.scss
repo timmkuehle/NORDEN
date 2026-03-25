@@ -1,0 +1,1368 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+
+// Project variables
+$color-red: #b20933;
+$color-light-red: #7d5753;
+$color-dark-red: #3e0505;
+$color-light-pink: #b09690;
+$color-beige: #cdc9b7;
+$color-gold: #f7a600;
+$color-medium-gray: #bbbcbc;
+$color-dark-gray: #75787b;
+$color-blue: #3d73ff;
+$color-light-blue: #00b4ff;
+$bg-white: #f3ebe4;
+// Utility classes
+.col-red {
+	color: $color-red;
+}
+.col-light-red {
+	color: $color-light-red;
+}
+.col-dark-red {
+	color: $color-dark-red;
+}
+.col-light-pink {
+	color: $color-light-pink;
+}
+.col-dark-gray {
+	color: $color-dark-gray;
+}
+
+.col-gold {
+	color: $color-gold;
+}
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.col-beige {
+	color: $color-beige;
+}
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.bg-col-red {
+	background-color: $color-red;
+}
+.bg-col-light-red {
+	background-color: $color-light-red;
+}
+.bg-col-dark-red {
+	background-color: $color-dark-red;
+}
+.bg-col-light-pink {
+	background-color: $color-light-pink;
+}
+.bg-col-medium-gray {
+	background-color: $color-medium-gray;
+}
+.bg-col-dark-gray {
+	background-color: $color-dark-gray;
+}
+.bg-col-black {
+	background-color: black;
+}
+.bg-col-white {
+	background-color: $bg-white;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		margin-top: 0;
+		padding: 0;
+		background-color: $color-dark-gray;
+	}
+	.site-header.hidden .logo {
+		transform: translateX(44%);
+		transition: transform 0.3s ease-in-out 0s;
+		fill: black !important;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+		&:before {
+			background-color: transparent;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: #ffffff;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: #ffffff;
+					transition: color 0.1s ease-in-out;
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-dark-gray;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: rgb(255, 255, 255);
+				}
+			}
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: #010318;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $color-red;
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.oetztal-cd) {
+	font-family: "AS Oetztal", sans-serif;
+	overflow: hidden;
+	background-color: $bg-white;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-weight: 700;
+	font-size: $font-size-big;
+	margin-bottom: 0;
+	color: $color-light-pink;
+	text-transform: uppercase;
+}
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
+.is-text {
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 300;
+	font-size: $font-size !important;
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big !important;
+	}
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+	top: 21%;
+	font-family: "Adelle Oetztal", sans-serif;
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-weight: 400;
+
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+
+	@include minquery($screen-l) {
+		padding-left: 3.5rem;
+		padding-right: 3.5rem;
+	}
+}
+
+// Project styling
+
+.oetztal-cd {
+	// Shared video styles
+	.video-wrapper {
+		width: 100%;
+
+		.video {
+			width: 100%;
+		}
+	}
+	.video-play-wrapper {
+		position: relative;
+		width: 100%;
+		cursor: pointer;
+	}
+	.video-play-button {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 10;
+		width: clamp(3rem, 8vw, 5rem);
+		height: clamp(3rem, 8vw, 5rem);
+		padding: 0;
+		border: none;
+		background: transparent;
+		color: white;
+		opacity: 0.75;
+		cursor: pointer;
+		transition: opacity 0.2s ease;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		svg {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		&--dark {
+			color: $color-dark-red;
+			opacity: 1;
+
+			&:hover {
+				opacity: 0.9;
+			}
+		}
+	}
+	.video-play-wrapper.is-playing .video-play-button {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.section-1 {
+		display: block;
+		position: relative;
+		padding-top: 5rem;
+		padding-bottom: 0;
+
+		.section-name {
+			top: auto;
+			bottom: 0;
+			left: 1rem;
+			color: rgba(black, 0.25);
+		}
+		.background {
+			z-index: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 60%;
+			width: 100vw;
+			background-color: $color-dark-red;
+		}
+
+		.project-headline {
+			position: relative;
+			z-index: 1;
+			font-family: "Adelle Oetztal", sans-serif;
+			font-size: clamp(2.5rem, 4vw + 2.25rem, 10.75rem);
+			font-weight: 700;
+			text-transform: uppercase;
+			color: white;
+			margin-bottom: 0.5rem;
+			letter-spacing: 21%;
+
+			@include minquery($screen-m) {
+				font-size: clamp(2rem, 6vw + 3rem, 10.75rem);
+			}
+			@include minquery($screen-l) {
+				font-size: clamp(3rem, 8vw + 4rem, 10.75rem);
+			}
+		}
+
+		.claim {
+			position: absolute;
+			top: clamp(5.875rem, 3vw, 10rem);
+			right: clamp(0.75rem, 3vw, 3rem);
+			width: clamp(8rem, 22vw, 16rem);
+			max-width: 100%;
+			height: auto;
+			z-index: 2;
+			object-fit: contain;
+
+			@include mquery($screen-m) {
+				display: none;
+			}
+			img,
+			svg {
+				width: 100%;
+				height: auto;
+				object-fit: contain;
+			}
+		}
+
+		.header-video {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+
+			video {
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+
+	.section-2 {
+		display: block;
+
+		.animated-banner {
+			overflow: hidden;
+			width: 100%;
+			margin-top: 2rem;
+		}
+
+		.banner-label {
+			margin: 0 0 1rem;
+			font-size: $font-size-big;
+		}
+
+		.animated-banner-track {
+			display: flex;
+			gap: 2rem;
+			width: max-content;
+			animation: banner-scroll 40s linear infinite;
+		}
+
+		.banner-item,
+		.banner-separator {
+			flex-shrink: 0;
+			white-space: nowrap;
+			font-size: $font-size;
+			font-weight: 400;
+			color: $color-red;
+			@include minquery($screen-m) {
+				font-size: $font-size-big;
+			}
+		}
+
+		@keyframes banner-scroll {
+			from {
+				transform: translateX(0);
+			}
+			to {
+				transform: translateX(-50%);
+			}
+		}
+
+		.is-text {
+			font-size: $font-size-large;
+			line-height: $small-line-height;
+			margin: 0.625rem 0 2.5rem;
+			font-weight: 300;
+
+			@include minquery($screen-l) {
+				font-size: $font-size-larger;
+			}
+		}
+	}
+
+	.section-3 {
+		display: block;
+		position: relative;
+	}
+	.section-32 {
+		padding-top: 0;
+
+		position: relative;
+		.section-name {
+			top: 0;
+			bottom: auto;
+			left: 1rem;
+			color: rgba(black, 0.25);
+		}
+
+		.section-32-layout {
+			display: flex;
+			flex-direction: column;
+			align-items: stretch;
+			gap: 1.5rem;
+			width: 100%;
+			max-width: 100%;
+
+			@include minquery($screen-m) {
+				flex-direction: row;
+				align-items: stretch;
+				gap: 1rem;
+				padding-left: 6%;
+			}
+		}
+
+		.section-32-video {
+			width: 100%;
+			flex-shrink: 0;
+
+			@include minquery($screen-m) {
+				width: calc((100% - 1rem) * 0.75);
+				flex: 0 0 calc((100% - 1rem) * 0.75);
+				max-width: calc((100% - 1rem) * 0.75);
+			}
+
+			.video {
+				width: 100%;
+			}
+		}
+
+		.section-32-icons {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			align-items: center;
+			justify-content: center;
+			gap: 0.5rem;
+			min-height: 0;
+
+			@include minquery($screen-m) {
+				width: calc((100% - 1rem) * 0.15);
+				flex: 0 0 calc((100% - 1rem) * 0.15);
+				max-width: calc((100% - 1rem) * 0.15);
+				flex-direction: column;
+				justify-content: space-between;
+				align-self: stretch;
+				align-items: center;
+				height: 100%;
+				min-height: 0;
+				gap: 0;
+			}
+
+			.banner-arrow {
+				flex-shrink: 0;
+				color: $color-dark-red;
+
+				@include mquery($screen-sm) {
+					transform: rotate(-90deg);
+				}
+			}
+
+			.linien-item {
+				flex: 1 1 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				aspect-ratio: 1 / 1;
+				min-width: 0;
+				border: 1px solid $color-beige;
+
+				&:first-child {
+					border-color: black;
+				}
+
+				@include minquery($screen-m) {
+					flex: 0 0 auto;
+					width: 100%;
+					aspect-ratio: 1 / 1;
+					min-height: 0;
+				}
+
+				img.linien-1,
+				img.linien-2,
+				img.linien-3 {
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+				}
+			}
+		}
+
+		.background {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: -0;
+			background-color: $color-dark-red;
+			width: 100vw;
+			height: 70%;
+		}
+	}
+
+	.section-4 {
+		display: block;
+		position: relative;
+		padding-bottom: 0;
+
+		.section-name {
+			top: auto;
+			bottom: 0;
+			left: 1rem;
+			color: rgba(rgb(255, 255, 255), 0.25);
+		}
+		.row {
+			.meta-headline {
+				color: $color-light-red;
+			}
+
+			> .col:first-child {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+
+		#typo-button {
+			width: fit-content;
+			margin-top: auto !important;
+			color: $color-dark-red !important;
+			background-color: $color-gold !important;
+			border-color: $color-gold !important;
+			margin: 4rem 0;
+			@include minquery($screen-m) {
+				margin: 0;
+				margin-top: auto !important;
+			}
+		}
+
+		video {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.section-5 {
+		display: block;
+		position: relative;
+		padding-bottom: 7.5rem;
+
+		@include minquery($screen-m) {
+			padding-bottom: 10rem;
+		}
+
+		@include minquery($screen-l) {
+			padding-bottom: 15rem;
+		}
+		@include minquery($screen-xl) {
+			padding-bottom: 20rem;
+		}
+		@include minquery($screen-xxl) {
+			padding-bottom: 27.5rem;
+		}
+		.row {
+			position: relative;
+			z-index: 1;
+			justify-content: space-between;
+
+			.project-headline {
+				color: $color-beige;
+			}
+			.is-text {
+				color: white;
+				max-width: 100%;
+				overflow-wrap: break-word;
+				hyphens: auto;
+				font-size: $font-size !important;
+
+				@include minquery($screen-l) {
+					font-size: $font-size-big !important;
+				}
+			}
+			.meta-headline {
+				color: $color-light-red;
+			}
+
+			.colors {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+				.color-box {
+					width: 100%;
+					aspect-ratio: 1/1.2;
+					height: auto;
+					padding: 0.675rem;
+					font-size: 8.5px;
+
+					@include minquery($screen-m) {
+						font-size: $font-size-smaller;
+					}
+					text-transform: uppercase;
+				}
+				.color-box:first-child {
+					background-color: $color-gold;
+					color: $color-dark-red;
+				}
+				.color-box:last-child {
+					background-color: $color-red;
+					color: $color-gold;
+				}
+			}
+		}
+		.section-name {
+			bottom: 1rem;
+			top: auto;
+			color: rgba(white, 0.25);
+		}
+	}
+
+	.section-6 {
+		display: block;
+		position: relative;
+		padding-top: 0;
+		transform: translateY(-25%);
+		padding-bottom: 0;
+
+		.colors-flex {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			gap: 2rem;
+			max-width: 100%;
+			@include minquery($screen-m) {
+				padding: 0 2.75rem 0;
+			}
+			@include minquery($screen-l) {
+				padding: 0;
+			}
+			> * {
+				flex: 1 1 0;
+				min-width: 0;
+			}
+
+			@media screen and (max-width: 768px) {
+				gap: 0.75rem;
+			}
+		}
+		.color-box-big,
+		.box-wrapper {
+			width: 100%;
+			aspect-ratio: 1/1;
+			height: auto;
+		}
+
+		.color-box-big {
+			padding: 0.675rem;
+			font-size: 10px;
+			color: $color-gold;
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-end;
+			border: 1px solid white;
+			height: 100%;
+		}
+		.box-wrapper {
+			display: flex;
+			flex-direction: column;
+			min-height: 0;
+			transform: translateY(-35%);
+
+			.color-box-tripple {
+				flex: 1;
+				min-height: 0;
+				width: 100%;
+				padding: 0.675rem;
+				font-size: 10px;
+				color: white;
+				display: flex;
+				align-items: flex-end;
+			}
+			.color-box-tripple:first-child {
+				background-color: #5c1b1b;
+			}
+			.color-box-tripple:nth-child(2) {
+				background-color: #7d5753;
+			}
+			.color-box-tripple:last-child {
+				background-color: #b09690;
+			}
+		}
+		.color-box-big.bg-col-white {
+			color: $color-red;
+			border: 1px solid $color-dark-red;
+			transform: translateY(-20%);
+		}
+	}
+
+	.section-7 {
+		position: relative;
+		padding-bottom: 0;
+		.section-name {
+			bottom: 0;
+			top: auto;
+			color: rgba(rgb(0, 0, 0), 0.25);
+		}
+		.video-wrapper {
+			margin-top: 2.5rem;
+		}
+	}
+
+	.section-8 {
+		display: block;
+		position: relative;
+		padding-bottom: 0;
+		overflow: hidden;
+
+		.höhenlinien,
+		.trenner {
+			width: 100vw;
+			aspect-ratio: 2/1;
+			max-height: 500px;
+			display: block;
+			object-fit: cover;
+		}
+
+		.claim {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 110%;
+			max-width: 110%;
+			object-fit: contain;
+			z-index: 2;
+			padding: 0 3.5rem;
+			pointer-events: none;
+
+			@include minquery($screen-l) {
+				width: 100%;
+				max-width: 100%;
+				padding: 0 3.5rem;
+			}
+			@include minquery($screen-xl) {
+				width: 100%;
+				max-width: 100%;
+				padding: 0 7.5rem;
+			}
+		}
+	}
+
+	.section-9 {
+		display: block;
+		position: relative;
+		padding-top: 2.5rem;
+
+		@include minquery($screen-m) {
+			padding-top: 12.5rem;
+		}
+		.section-name {
+			top: 5rem;
+			color: rgba(rgb(255, 255, 255), 0.25);
+		}
+		.meta-headline {
+			color: $color-light-red;
+		}
+		.row {
+			position: relative;
+			z-index: 1;
+		}
+		.has-padding-l {
+			margin-top: 3rem;
+			padding: 0 0.75rem !important;
+
+			@include minquery($screen-l) {
+				padding-left: calc(3.5rem + 3.5%) !important;
+			}
+		}
+		.layout-images-row {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+
+			@include minquery($screen-m) {
+				flex-direction: row;
+				align-items: stretch;
+			}
+		}
+		.images-stack {
+			display: flex;
+			flex-direction: row;
+			gap: 2rem;
+
+			@include minquery($screen-m) {
+				flex-direction: column;
+				flex: 0 0 28%;
+				min-width: 0;
+			}
+
+			img {
+				flex: 1;
+				object-fit: contain;
+				object-position: center;
+				min-width: 0;
+			}
+
+			@include minquery($screen-m) {
+				img {
+					flex: 1 1 0;
+					height: 0;
+					min-height: 0;
+					width: 100%;
+				}
+			}
+		}
+		.cover-mockup-wrapper {
+			position: relative;
+			aspect-ratio: 1/1;
+			overflow: hidden;
+			flex: 1;
+			min-width: 0;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+				object-position: center;
+			}
+		}
+	}
+
+	.section-10 {
+		display: block;
+		position: relative;
+		padding-bottom: 15rem;
+		z-index: 1;
+		@include minquery($screen-m) {
+			padding-bottom: 25rem;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background-image: url("/content/resources/media/oetztalCd/00_Background-Grafiken/oetzt_bg-grafiken_-02.svg");
+			background-size: cover;
+			background-position: center;
+			z-index: 0;
+			pointer-events: none;
+		}
+		.section-name {
+			top: 0;
+			top: auto;
+			color: rgba(rgb(255, 255, 255), 0.25);
+		}
+	}
+
+	.section-11 {
+		display: block;
+		position: relative;
+		margin-top: -15vh;
+		padding-top: 0;
+		z-index: 2;
+		background: linear-gradient(
+			to bottom,
+			transparent 0,
+			transparent 20%,
+			$color-dark-red 20%,
+			$color-dark-red 100%
+		);
+
+		@include minquery($screen-m) {
+			margin-top: -25vh;
+		}
+		.project-headline {
+			z-index: 2;
+			position: relative;
+		}
+		.section-name {
+			bottom: 3.5rem;
+			top: auto;
+			color: rgba(rgb(255, 255, 255), 0.25);
+
+			@include minquery($screen-l) {
+				bottom: 6rem;
+			}
+			@include minquery($screen-xl) {
+				bottom: 8rem;
+			}
+		}
+		.icons-layout {
+			margin-top: 1rem;
+			display: flex;
+			align-items: stretch;
+			gap: 0.75rem;
+			@include minquery($screen-l) {
+				margin-top: 5rem;
+				gap: 2rem;
+			}
+		}
+		.radfahren-stack {
+			position: relative;
+			width: 42.5%;
+			flex-shrink: 0;
+			min-height: 0;
+			overflow: hidden;
+
+			@include minquery($screen-m) {
+				width: 42.5%;
+				margin-left: 5%;
+			}
+			@include minquery($screen-l) {
+				margin-left: 4.5%;
+			}
+
+			img {
+				position: absolute;
+				inset: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+				object-position: center;
+			}
+		}
+		.icons-overview {
+			width: 51.5%;
+			flex-shrink: 0;
+			min-width: 0;
+
+			@include minquery($screen-m) {
+				width: 49.5%;
+			}
+			img {
+				width: 100%;
+				height: auto;
+				object-fit: contain;
+				object-position: center;
+			}
+		}
+		.radfahren-1 {
+			-webkit-mask-image: linear-gradient(
+				to right,
+				black 50%,
+				transparent 50%
+			);
+			mask-image: linear-gradient(to right, black 50%, transparent 50%);
+			-webkit-mask-size: 100% 100%;
+			mask-size: 100% 100%;
+		}
+		.radfahren-2 {
+			-webkit-mask-image: linear-gradient(
+				to right,
+				transparent 50%,
+				black 50%
+			);
+			mask-image: linear-gradient(to right, transparent 50%, black 50%);
+			-webkit-mask-size: 100% 100%;
+			mask-size: 100% 100%;
+		}
+	}
+
+	.section-12 {
+		display: block;
+		position: relative;
+		padding-bottom: 0;
+		background: linear-gradient(
+			to top,
+			transparent 0,
+			transparent 10%,
+			$color-dark-red 10%,
+			$color-dark-red 100%
+		);
+		.section-name {
+			top: 50%;
+			left: 0%;
+			transform: translate(1rem, -50%) rotate(180deg);
+			color: rgba(rgb(255, 255, 255), 0.25);
+		}
+		.meta-headline {
+			margin-bottom: 2rem;
+			color: $color-light-red;
+			@include minquery($screen-l) {
+				margin-bottom: 4rem;
+			}
+		}
+		.row {
+			.col {
+				padding: 2rem 0.75rem;
+
+				@include minquery($screen-m) {
+					padding: 4rem 0.75rem;
+				}
+
+				@include minquery($screen-xl) {
+					padding: 8rem 0;
+				}
+			}
+			.col:first-child {
+				padding-top: 0;
+			}
+			.col:last-child {
+				padding-bottom: 0;
+			}
+		}
+
+		.background {
+			width: 100%;
+			position: absolute;
+			bottom: 10%;
+			left: 0;
+			right: 0;
+			z-index: 0;
+			pointer-events: none;
+		}
+	}
+	.section-13 {
+		display: block;
+		position: relative;
+		.background {
+			width: 100%;
+			position: absolute;
+			top: -37.5%;
+			left: 0;
+			right: 0;
+			z-index: 0;
+			pointer-events: none;
+		}
+
+		.section-name {
+			top: 0;
+			top: auto;
+			color: rgba(rgb(0, 0, 0), 0.25);
+		}
+	}
+
+	.section-14 {
+		display: block;
+		position: relative;
+		.trenner {
+			width: 100vw;
+			aspect-ratio: 2/1;
+			max-height: 31.25rem;
+			display: block;
+			object-fit: cover;
+		}
+	}
+	.section-15 {
+		display: block;
+		position: relative;
+
+		.background {
+			width: 100%;
+			position: absolute;
+			top: 42.5%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 0;
+			pointer-events: none;
+
+			@include minquery($screen-m) {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		.section-name {
+			top: 0;
+			bottom: auto;
+			color: rgba(rgb(0, 0, 0), 0.25);
+		}
+		.meta-headline {
+			margin-bottom: 1rem;
+		}
+		.desktop-image {
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+			object-position: center;
+			display: none;
+
+			@include minquery($screen-m) {
+				display: block;
+				margin-top: -2rem;
+			}
+			@include minquery($screen-l) {
+				margin-top: -3rem;
+			}
+		}
+		.mobile-image {
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+			object-position: center;
+			display: block;
+
+			@include minquery($screen-m) {
+				display: none;
+			}
+		}
+
+		.row:last-child {
+			padding-top: 5rem;
+
+			@include minquery($screen-m) {
+				padding-top: 10rem;
+			}
+		}
+		.magazine-cover {
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+			object-position: center;
+		}
+		.magazine-pages {
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+			object-position: center;
+		}
+		.button {
+			text-align: center;
+			gap: 1rem;
+			margin-top: 2rem;
+			background-color: $color-red;
+			border-color: $color-red;
+			width: fit-content;
+		}
+		.button-desktop {
+			display: none;
+
+			@include minquery($screen-m) {
+				display: block;
+			}
+		}
+		.button-mobile {
+			display: block;
+
+			@include minquery($screen-m) {
+				display: none;
+			}
+		}
+	}
+
+	.section-16 {
+		display: block;
+		position: relative;
+		padding-bottom: 7.5rem;
+
+		@include minquery($screen-l) {
+			padding-bottom: 12.5rem;
+		}
+		.section-name {
+			top: 12.5%;
+			bottom: auto;
+			color: rgba(rgb(255, 255, 255), 0.25);
+		}
+		.row {
+			padding: 2.5rem 0 0 0;
+
+			@include minquery($screen-m) {
+				padding: 5rem 0 0 0;
+			}
+		}
+	}
+	.section-17 {
+		display: block;
+		position: relative;
+		padding-top: 0;
+		.image-wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			justify-content: center;
+		}
+		.headline {
+			align-self: flex-end;
+			width: min(100%, clamp(18rem, 90vw, 45rem));
+			max-width: 100%;
+			height: auto;
+			transform: translateY(-20%);
+			z-index: 2;
+			pointer-events: none;
+			text-align: center;
+			padding-right: 0.75rem;
+			box-sizing: border-box;
+
+			@include minquery($screen-m) {
+				width: min(100%, clamp(28rem, 78vw, 48rem));
+				padding-right: 2.5rem;
+			}
+			@include minquery($screen-l) {
+				width: min(100%, clamp(48rem, 62vw, 64rem));
+				padding-right: 3.5rem;
+			}
+			@include minquery($screen-xl) {
+				width: min(100%, clamp(48rem, 48vw, 72rem));
+			}
+		}
+
+		.section-name {
+			transform: translateY(300%) rotate(180deg);
+			color: rgba(rgb(0, 0, 0), 0.25);
+		}
+	}
+	.image-text-row {
+		margin-top: 5rem;
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+
+		@include minquery($screen-m) {
+			padding-left: 2.5rem;
+			padding-right: 2.5rem;
+		}
+		@include minquery($screen-l) {
+			padding-left: 3.5rem;
+			padding-right: 3.5rem;
+		}
+
+		.is-text {
+			max-width: 100%;
+			overflow-wrap: break-word;
+			hyphens: auto;
+
+			font-size: $font-size !important;
+
+			@include minquery($screen-l) {
+				font-size: $font-size-big !important;
+			}
+		}
+		.swipe {
+			margin-top: -5.5rem;
+			@include minquery($screen-m) {
+				margin-top: -8.5rem;
+			}
+		}
+		.video {
+			margin-top: 5rem;
+			@include minquery($screen-m) {
+				margin-top: 10rem;
+			}
+		}
+	}
+
+	.section-18 {
+		display: block;
+		position: relative;
+		padding-top: 0;
+		.shirts {
+			z-index: 1;
+			position: relative;
+		}
+		.höhenlinien {
+			transform: translateY(0%);
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: 0;
+			pointer-events: none;
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+			object-position: center;
+		}
+		.buttons {
+			margin-top: 12.5rem;
+			transform: translateY(-150%);
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+			justify-content: flex-start;
+			align-items: flex-start;
+
+			@include minquery($screen-l) {
+				margin-top: 25rem;
+				transform: translateY(-0%);
+			}
+			@include minquery($screen-xxl) {
+				margin-top: 25rem;
+				transform: translateY(-0%);
+			}
+
+			.project-button {
+				width: 100%;
+				text-align: left;
+				max-width: 16.75rem;
+				background-color: $color-gold;
+				border-color: $color-gold;
+				color: $color-dark-red;
+				font-size: 16px !important;
+				@include minquery($screen-m) {
+					max-width: 18.75rem;
+					font-size: $font-size-big !important;
+				}
+			}
+		}
+	}
+
+	.section-19 {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}

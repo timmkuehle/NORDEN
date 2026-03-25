@@ -127,7 +127,7 @@ class Video extends PHTMLComponent {
 			($this->muted ? 'muted ' : '') .
 			($this->loop ? 'loop ' : '') .
 			($this->controls ? ' controls' : '') .
-			($this->setPoster ? ' poster="' . $this->placeholder . '"' : '');
+			($this->setPoster ? ' poster="' . ASSET_BASE_URL . $this->placeholder . '"' : '');
 	}
 
 	private function renderStyleTag() {
