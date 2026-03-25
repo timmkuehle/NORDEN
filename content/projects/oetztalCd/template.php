@@ -15,7 +15,7 @@
     <div class="video-play-wrapper">
         <?php new Video(
         	'header-video',
-        	'/content/resources/media/oetztalCd/01_Brandclip/OETZT_BrandClip_4k_Web.mp4',
+        	'/content/resources/media/oetztalCd/01_Brandclip/OETZT_BrandClip_Web.mp4',
         	'16/9',
         	'/content/resources/media/oetztalCd/01_Brandclip/OETZT_BrandClip_Still_Web.jpg',
         	'Ötztal Brandclip',
@@ -24,7 +24,7 @@
         	true,
         	true,
         	false,
-        	'/content/resources/media/oetztalCd/01_Brandclip/OETZT_BrandClip_4k_Mobile.mp4',
+        	'/content/resources/media/oetztalCd/01_Brandclip/OETZT_BrandClip_Mobile.mp4',
         	'16/9',
         	'/content/resources/media/oetztalCd/01_Brandclip/OETZT_BrandClip_Still_Mobile.jpg',
         	true
