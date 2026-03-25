@@ -728,7 +728,7 @@
             <div class="col s16 m8 push-m8">
                 <div class="buttons">
                     <?php new Button(null, 'project-button', 'Ötztal Corporate Font', '/projekte/oetztal/font'); ?>
-                    <?php new Button(null, 'project-button', 'Ötztal Kids', '/projekte/oetztal/kids'); ?>
+                    <?php new Button(null, 'project-button', 'Ötztal Kids', '/projekte/oetztal-kids'); ?>
                 </div>
             </div>
         </div>

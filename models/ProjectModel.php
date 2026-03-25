@@ -150,8 +150,8 @@ class ProjectModel {
             'category' => 'Event Branding'
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/pleasure',
+            'content_path' => '/content/projects/pleasure',
             'title' => 'Pleasure Snowboard Magazin',
             'thumbnail' => '/content/resources/media/projectPreviews/20_Pleasure.jpg',
             'category' => 'Editorial Design'
