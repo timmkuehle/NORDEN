@@ -4,7 +4,7 @@
             <?php new Image(
             	null,
             	'logo',
-            	'/content/resources/media/pleasure/04_PleasureLogos/04_PleasureLogo_01.svg',
+            	'/content/resources/media/pleasure/04_pleasureLogos/04_PleasureLogo_01.svg',
             	null,
             	true
             ); ?>
