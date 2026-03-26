@@ -2,6 +2,7 @@
 @use "@styles/project-section.scss";
 @use "@styles/side-note.scss";
 @use "@components/Video/Video.scss";
+@use "@styles/highlight-circle-brush-data" as *;
 
 // Project variables
 $color-red: #bd4524;
@@ -129,12 +130,30 @@ body {
 	}
 
 	.highlight-circle {
+		z-index: 0;
+
 		&::after {
-			transform: translate(-50%, -50%) rotate(-3deg);
+			content: "";
+			z-index: -1;
+			top: 50%;
 			left: 50%;
-			width: 105%;
-			height: 110%;
-			border-color: $color-red;
+			transform: translate(-50%, -50%) rotate(-3deg);
+			transform-origin: center center;
+			width: 118%;
+			height: auto;
+			aspect-ratio: 169 / 68;
+			min-height: 1.35em;
+			border: none;
+			border-radius: 0;
+			background-color: $color-red;
+			-webkit-mask-image: $highlight-circle-brush-data-url;
+			mask-image: $highlight-circle-brush-data-url;
+			-webkit-mask-size: 100% 100%;
+			mask-size: 100% 100%;
+			-webkit-mask-repeat: no-repeat;
+			mask-repeat: no-repeat;
+			-webkit-mask-position: center;
+			mask-position: center;
 			@media screen and (max-width: 768px) {
 				display: block;
 			}

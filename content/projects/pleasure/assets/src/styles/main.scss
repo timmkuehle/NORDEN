@@ -2,12 +2,13 @@
 @use "@styles/project-section.scss";
 @use "@styles/side-note.scss";
 @use "@components/Video/Video.scss";
+@use "@styles/highlight-circle-brush-data" as *;
 
 // Project variables
 $color-red: #b20933;
 $color-light-red: #7d5753;
 $color-dark-red: #3e0505;
-$color-light-pink: #b09690;
+$color-light-pink: #b7bde6;
 $color-beige: #cdc9b7;
 $color-gold: #f7a600;
 $color-medium-gray: #bbbcbc;
@@ -15,6 +16,7 @@ $color-dark-gray: #75787b;
 $color-blue: #3d73ff;
 $color-light-blue: #00b4ff;
 $bg-white: #f3ebe4;
+$bg-light-gray: #d7d7d7;
 // Utility classes
 .col-red {
 	color: $color-red;
@@ -31,7 +33,9 @@ $bg-white: #f3ebe4;
 .col-dark-gray {
 	color: $color-dark-gray;
 }
-
+.bg-col-light-gray {
+	background-color: $bg-light-gray;
+}
 .col-gold {
 	color: $color-gold;
 }
@@ -74,6 +78,10 @@ $bg-white: #f3ebe4;
 .bg-col-blue {
 	background-color: $color-blue;
 }
+$bg-orange: #ed691d;
+.bg-col-orange {
+	background-color: $bg-orange;
+}
 
 // General styling
 body {
@@ -93,7 +101,7 @@ body {
 		box-shadow: var(--no-box-shadow-bottom);
 		padding-inline: var(--main-padding-inline);
 		&:before {
-			background-color: transparent;
+			background-color: white;
 			backdrop-filter: blur(0rem);
 		}
 
@@ -140,7 +148,7 @@ body {
 		.mobile-menu-button {
 			.menu-icon {
 				.menu-icon-stroke {
-					stroke: rgb(255, 255, 255);
+					stroke: rgb(4, 4, 4);
 				}
 			}
 		}
@@ -151,12 +159,30 @@ body {
 	}
 
 	.highlight-circle {
+		z-index: 0;
+
 		&::after {
-			transform: translate(-50%, -50%) rotate(-3deg);
+			content: "";
+			z-index: -1;
+			top: 50%;
 			left: 50%;
-			width: 105%;
-			height: 110%;
-			border-color: $color-red;
+			transform: translate(-50%, -50%) rotate(-3deg);
+			transform-origin: center center;
+			width: 118%;
+			height: auto;
+			aspect-ratio: 169 / 68;
+			min-height: 1.35em;
+			border: none;
+			border-radius: 0;
+			background-color: $color-blue;
+			-webkit-mask-image: $highlight-circle-brush-data-url;
+			mask-image: $highlight-circle-brush-data-url;
+			-webkit-mask-size: 100% 100%;
+			mask-size: 100% 100%;
+			-webkit-mask-repeat: no-repeat;
+			mask-repeat: no-repeat;
+			-webkit-mask-position: center;
+			mask-position: center;
 			@media screen and (max-width: 768px) {
 				display: block;
 			}
@@ -165,7 +191,7 @@ body {
 }
 
 main:has(.project-wrapper.pleasure) {
-	font-family: "AS Oetztal", sans-serif;
+	font-family: "Switzer", sans-serif;
 	overflow: hidden;
 }
 
@@ -206,9 +232,11 @@ $smaller-line-height: 1;
 	font-weight: 400;
 }
 .is-text {
+	font-family: "Minion Pro", serif;
+	font-style: italic;
+	font-weight: 500;
 	line-height: $small-line-height;
 	margin: 0.625rem 0 2.5rem;
-	font-weight: 300;
 	font-size: $font-size !important;
 
 	@include minquery($screen-l) {
@@ -229,7 +257,7 @@ $smaller-line-height: 1;
 	position: absolute;
 	left: 1rem;
 	top: 21%;
-	font-family: "Adelle Oetztal", sans-serif;
+	font-family: "Switzer", sans-serif;
 	@include minquery($screen-m) {
 		display: block;
 		font-size: $font-size;
@@ -255,8 +283,8 @@ $smaller-line-height: 1;
 	padding-right: 0.75rem;
 
 	@include minquery($screen-l) {
-		padding-left: 3.5rem;
-		padding-right: 3.5rem;
+		padding-left: 2.75rem;
+		padding-right: 2.75rem;
 	}
 }
 
@@ -264,6 +292,718 @@ $smaller-line-height: 1;
 
 .pleasure {
 	.section-1 {
-		padding-block: 6%;
+		padding-block: 4%;
+
+
+		.image-wrapper {
+			height: 450px;
+			width: 100%;
+			object-fit: contain;
+			overflow: hidden;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: url("../../../../../resources/media/pleasure/01_Headerbild_joshua-reddekopp-9BpTTLoTv9w-unsplash.jpg");
+			background-size: cover;
+			background-position: 50% 100%;
+			background-repeat: no-repeat;
+
+			@include minquery($screen-m) {
+				height: 450px;
+			}
+			@include minquery($screen-l) {
+				height: 600px;
+			}
+			@include minquery($screen-xl) {
+				height: 728px;
+			}
+		}
+
+		.logo {
+			width: clamp(10rem, 35vw, 20rem);
+			height: auto;
+			transform: translateY(150%);
+
+			@include minquery($screen-m) {
+				transform: translateY(70%);
+			}
+			@include minquery($screen-l) {
+				transform: translateY(0%);
+			}
+		}
+	}
+
+	.section-2 {
+		.row {
+			.is-large-text {
+				font-size: $font-size-larger;
+				font-weight: 500;
+			}
+		}
+	}
+
+	.section-3 {
+		padding-top: 0;
+		padding-bottom: 0;
+		display: block;
+		.keywords {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			align-items: flex-start;
+			gap: 1rem;
+			margin-bottom: 1.5rem;
+			text-align: center;
+
+			@include minquery($screen-m) {
+				justify-content: space-between;
+			}
+			span {
+				font-size: $font-size-small;
+				font-weight: 500;
+
+				@include minquery($screen-m) {
+					font-size: $font-size-big;
+				}
+			}
+		}
+		.magazine-cover {
+			width: 100%;
+			height: 400px;
+			max-height: 700px;
+			object-fit: cover;
+			object-position: 50% 50%;
+			overflow: hidden;
+
+			@include minquery($screen-m) {
+				height: 600px;
+			}
+		}
+		.video {
+			width: 100%;
+			height: 100%;
+			padding: 3rem 0;
+			background-color: #dddddd;
+
+			@include minquery($screen-l) {
+				padding: 5rem 0;
+
+			}
+		}
+	}
+
+	.section-4 {
+		position: relative;
+		padding-top: 5rem;
+
+		@include minquery($screen-l) {
+			padding-top: 7.5rem;
+		}
+		.row {
+			position: relative;
+			z-index: 1;
+
+			.logos {
+				display: block;
+				width: 100%;
+				height: auto;
+				margin-bottom: 2rem;
+
+				@include minquery($screen-m) {
+					width: 85%;
+					margin-bottom: 4rem;
+				}
+			}
+
+			.shirt-merchandise {
+				width: 100%;
+			}
+
+			.is-text {
+				margin-top: 4.5rem;
+			}
+		}
+		.background {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 32.5rem;
+			z-index: 0;
+			background-color: $bg-light-gray;
+
+			@include minquery($screen-m) {
+				height: 42.5rem;
+
+			}
+		}
+	}
+
+	.section-5 {
+		padding-top: 0;
+		.carousel-container {
+			display: flex;
+			flex-direction: column-reverse;
+			gap: 1rem;
+
+			@include minquery($screen-m) {
+				flex-direction: row;
+				gap: 1rem;
+			}
+			@include minquery($screen-lg) {
+				gap: 0;
+			}
+		}
+
+		.carousel {
+			overflow: hidden;
+			width: 100%;
+			order: 2;
+
+			@include minquery($screen-m) {
+				width: 80%;
+			}
+		}
+
+		.carousel-navigation {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			gap: 2rem;
+			order: 1;
+
+			@include minquery($screen-m) {
+				width: 20%;
+				justify-content: center;
+
+				align-items: flex-end;
+			}
+		}
+
+		.carousel-track {
+			display: flex;
+			height: 100%;
+			transition: transform 0.3s ease;
+		}
+
+		.carousel-slide {
+			flex: 0 0 100%;
+			width: 100%;
+			display: flex;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				display: block;
+			}
+		}
+
+		.carousel-prev,
+		.carousel-next {
+			appearance: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			width: 26px;
+			height: 20px;
+			background: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center;
+			background-size: contain;
+			cursor: pointer;
+			transition: transform 0.2s ease;
+			filter: brightness(0);
+			@media (hover: hover) {
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+
+			@include minquery($screen-m) {
+				width: 21px;
+				height: 15px;
+			}
+		}
+
+		.carousel-prev {
+			transform: scaleX(-1);
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scaleX(-1) scale(1.1);
+				}
+			}
+		}
+	}
+	.section-6 {
+		position: relative;
+		display: block;
+		padding-bottom: 0;
+
+		.absolute-row {
+			width: 100%;
+			position: relative;
+			padding: 0 0.75rem;
+			max-width: 100%;
+			z-index: 1;
+
+			@include minquery($screen-m) {
+				position: absolute;
+				top: 5%;
+				right: 0%;
+				max-width: 20rem;
+			}
+			@include minquery($screen-l) {
+				right: 5%;
+				max-width: 20rem;
+			}
+			@include minquery($screen-xl) {
+				right: 15%;
+
+			}
+		}
+		.image,
+		.graphic {
+			width: 100%;
+			height: auto;
+		}
+		.graphic {
+			position: relative;
+			padding: 2.5rem 0.75rem 0;
+			z-index: 2;
+
+			@include minquery($screen-m) {
+				padding: 5rem 2rem 0;
+			}
+		}
+		.trenner {
+			transform: scale(2);
+			margin-top: -0.5rem;
+			z-index: 1;
+
+			@include minquery($screen-l) {
+				transform: scale(1);
+				margin-top: -5rem;
+			}
+			@include minquery($screen-xl) {
+				margin-top: -12rem;
+			}
+		}
+	}
+	.section-7 {
+		position: relative;
+		padding-top: 7.5rem;
+		padding-bottom: 7.5rem;
+		@include minquery($screen-l) {
+			padding-top: 12.5rem;
+		}
+		.space-between {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: 1rem;
+
+			@include minquery($screen-m) {
+				gap: 2rem;
+			}
+		}
+		.trenner {
+			display: none;
+
+			@include minquery($screen-m) {
+				display: block;
+				height: 100%;
+				object-fit: cover;
+				object-position: center;
+
+				z-index: 1;
+			}
+		}
+	}
+	.section-8 {
+		position: relative;
+		padding-top: 0;
+		height: 300px;
+		@include minquery($screen-l) {
+			height: auto;
+		}
+
+		.trenner {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center center;
+		}
+	}
+
+	.section-9 {
+		position: relative;
+		padding-bottom: 0;
+		z-index: 2;
+		.row {
+			justify-content: space-around;
+
+			.col {
+				position: relative;
+
+				.smiley {
+					position: absolute;
+					top: -3.5rem;
+					right: -0.5rem;
+					width: clamp(3rem, 12vw, 7.5rem);
+					height: auto;
+					object-fit: contain;
+					object-position: center;
+
+					@include minquery($screen-m) {
+						top: -3.5rem;
+						right: -3.5rem;
+					}
+				}
+			}
+
+			.flex-end {
+				flex-direction: column;
+				align-items: flex-end;
+				.is-text {
+					margin: 2.5rem 0;
+					text-align: right;
+					font-style: italic;
+					width: 100%;
+
+					@include minquery($screen-m) {
+						width: 80%;
+						margin: 5rem 0;
+					}
+				}
+			}
+		}
+	}
+
+	.section-10 {
+		position: relative;
+		display: block;
+		padding-top: 12.5rem;
+		margin-top: -5.5rem;
+		.row {
+			padding-top: 7.5rem;
+			justify-content: space-around;
+
+			.star {
+				position: absolute;
+				top: -7.5rem;
+				left: 0;
+				width: 12.5rem;
+				z-index: 1;
+			}
+			.zitat {
+				position: absolute;
+				bottom: -10.5rem;
+				left: 20%;
+				width: 20rem;
+				z-index: 1;
+			}
+		}
+
+		.row:nth-child(2) {
+			padding-top: 15rem;
+
+			@include minquery($screen-m) {
+				display: block;
+			}
+			.col:nth-child(1) {
+				@include minquery($screen-m) {
+					float: right;
+				}
+			}
+			.magazine {
+				justify-self: flex-start;
+				align-self: flex-start;
+			}
+		}
+
+		.star-2 {
+			position: absolute;
+			bottom: -7rem;
+			transform: rotate(210deg);
+			right: 5%;
+			width: 6.5rem;
+			z-index: 1;
+
+			@include minquery($screen-m) {
+				bottom: -8rem;
+				transform: rotate(210deg);
+				right: 5%;
+				width: 8.5rem;
+				z-index: 1;
+			}
+		}
+	}
+
+	.section-11 {
+		position: relative;
+		display: block;
+		padding-top: 12.5rem;
+		margin-top: -5.5rem;
+		padding-bottom: 0;
+		.article-1 {
+			width: 100%;
+			height: auto;
+		}
+
+		.row:last-child {
+			justify-content: space-between;
+			margin: 2rem 0 3rem;
+
+			@include minquery($screen-m) {
+				margin-top: 5rem;
+			}
+
+			.zitat {
+				padding: 0 1rem;
+			}
+			.article-1 {
+				display: none;
+
+				@include minquery($screen-m) {
+					display: block;
+				}
+			}
+		}
+	}
+
+	.section-12 {
+		padding-bottom: 0;
+		padding-top: 0;
+		background: #ed691d;
+		.separator {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.section-13 {
+		display: block;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+
+		@include minquery($screen-l) {
+			padding-top: 6rem;
+			padding-bottom: 6rem;
+		}
+
+		.carousel-container {
+			width: 100%;
+		}
+
+		.section-13-layout {
+			display: flex;
+			flex-direction: column;
+			align-items: stretch;
+			gap: 1.5rem;
+
+			@include minquery($screen-m) {
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				gap: clamp(1.5rem, 4vw, 3rem);
+			}
+		}
+
+		.section-13-carousel-wrap {
+			width: 100%;
+			max-width: 100%;
+			flex-shrink: 0;
+
+			@include minquery($screen-m) {
+				max-width: 350px;
+			}
+			@include minquery($screen-l) {
+				max-width: 500px;
+			}
+		}
+
+		.carousel {
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.carousel-track {
+			display: flex;
+			height: 100%;
+			transition: transform 0.3s ease;
+		}
+
+		.carousel-slide {
+			flex: 0 0 100%;
+			width: 100%;
+			display: flex;
+
+			img {
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+				display: block;
+			}
+		}
+
+		.section-13-sidebar {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			align-items: flex-start;
+			justify-content: space-between;
+			gap: 3rem;
+			width: 100%;
+
+			@include minquery($screen-m) {
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: flex-start;
+				gap: clamp(2rem, 5vw, 4rem);
+				width: auto;
+				min-width: 0;
+			}
+		}
+
+		.section-13-zitat {
+			flex: 1;
+			min-width: 0;
+
+			@include minquery($screen-m) {
+				flex: none;
+				width: 100%;
+				max-width: 22rem;
+			}
+
+			.slidebox-zitat {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+		}
+
+		.carousel-navigation {
+			display: flex;
+			flex-direction: row;
+			flex-shrink: 0;
+			justify-content: flex-end;
+			gap: 2rem;
+
+			@include minquery($screen-m) {
+				margin-top: 4rem;
+				justify-content: flex-start;
+				gap: 1.5rem;
+			}
+		}
+
+		.carousel-prev,
+		.carousel-next {
+			appearance: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			width: 26px;
+			height: 20px;
+			background: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center;
+			background-size: contain;
+			cursor: pointer;
+			transition: transform 0.2s ease;
+			filter: brightness(0) invert(1);
+			@media (hover: hover) {
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+
+			@include minquery($screen-m) {
+				width: 21px;
+				height: 15px;
+			}
+		}
+
+		.carousel-prev {
+			transform: scaleX(-1);
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scaleX(-1) scale(1.1);
+				}
+			}
+		}
+	}
+
+	.section-14 {
+		position: relative;
+		background: #ed691d;
+		height: 100px;
+		margin-bottom: 5rem;
+		@include minquery($screen-m) {
+			margin-bottom: 8rem;
+		}
+		.separator {
+			position: absolute;
+			top: 0;
+			left: 5rem;
+			z-index: 1;
+			width: clamp(5rem, 20vw, 11.5rem);
+			height: auto;
+		}
+	}
+
+	.section-16 {
+		position: relative;
+		display: block;
+
+		.smileys {
+			position: absolute;
+			top: clamp(0rem, 10vw - 4rem, 5rem);
+			right: clamp(0.75rem, 0.5rem + 4vw, 2.25rem);
+			width: clamp(9rem, 28vw, 12.75rem);
+			height: auto;
+		}
+
+		.trenner {
+			height: 250px;
+			object-fit: cover;
+			object-position: center;
+			display: block;
+			width: 100%;
+			@include minquery($screen-m) {
+				height: 350px;
+			}
+
+			@include minquery($screen-l) {
+				height: auto;
+			}
+		}
+	}
+
+	.section-17 {
+		display: block;
+		padding-top: 2.5rem;
+		.row {
+			.col {
+				padding: 0.5rem;
+				@include minquery($screen-m) {
+					padding: 0.75rem;
+				}
+
+				@include minquery($screen-l) {
+					padding: 1.25rem;
+				}
+			}
+		}
+	}
+
+	.section-18 {
+		padding: 3rem 0 0;
+		@include minquery($screen-l) {
+			padding: 0 1.25rem;
+		}
 	}
 }

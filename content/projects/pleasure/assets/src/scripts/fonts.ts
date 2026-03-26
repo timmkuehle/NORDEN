@@ -2,41 +2,42 @@ import { FontFace } from "@scripts/types";
 
 const fonts: FontFace[] = [
 	{
-		fontFamily: "AS Oetztal",
-		filePath: "/content/resources/fonts/ASOetztal/ASOetztal-Light.woff2",
-		format: "woff2",
+		fontFamily: "Switzer",
+		filePath: "/content/resources/fonts/Switzer/Switzer-Light.otf",
+		format: "truetype",
 		fontWeight: 300
 	},
 	{
-		fontFamily: "AS Oetztal",
-		filePath: "/content/resources/fonts/ASOetztal/ASOetztal-Regular.woff2",
-		format: "woff2",
+		fontFamily: "Switzer",
+		filePath: "/content/resources/fonts/Switzer/Switzer-Regular.otf",
+		format: "truetype",
 		fontWeight: 400
 	},
 	{
-		fontFamily: "AS Oetztal",
-		filePath: "/content/resources/fonts/ASOetztal/ASOetztal-Bold.woff2",
-		format: "woff2",
-		fontWeight: 700
-	},
-	{
-		fontFamily: "Adelle Oetztal",
-		filePath: "/content/resources/fonts/AdelleOetztal/AdelleOetztal-Light.otf",
+		fontFamily: "Switzer",
+		filePath: "/content/resources/fonts/Switzer/Switzer-Medium.otf",
 		format: "truetype",
-		fontWeight: 300
+		fontWeight: 500
 	},
 	{
-		fontFamily: "Adelle Oetztal",
-		filePath: "/content/resources/fonts/AdelleOetztal/AdelleOetztal-Bold.otf",
+		fontFamily: "Switzer",
+		filePath: "/content/resources/fonts/Switzer/Switzer-Semibold.otf",
 		format: "truetype",
-		fontWeight: 700
+		fontWeight: 600
 	},
 	{
-		fontFamily: "Adelle Oetztal Scribble Bold",
-		filePath: "/content/resources/fonts/AdelleOetztal/AdelleOetztal-Scribble-Bold.otf",
+		fontFamily: "Switzer",
+		filePath: "/content/resources/fonts/Switzer/Switzer-Bold.otf",
 		format: "truetype",
 		fontWeight: 700
 	},
+	{
+		fontFamily: "Minion Pro",
+		filePath: "/content/resources/fonts/minion-pro/MinionPro-MediumIt.otf",
+		format: "truetype",
+		fontWeight: 500,
+		fontStyle: "italic"
+	}
 ];
 
 export default fonts;

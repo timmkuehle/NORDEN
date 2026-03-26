@@ -45,7 +45,7 @@ function initCarousel(container: HTMLElement): void {
 }
 
 function initAllCarousels(): void {
-	const containers = document.querySelectorAll<HTMLElement>(".burton .carousel-container");
+	const containers = document.querySelectorAll<HTMLElement>(".pleasure .carousel-container");
 	containers.forEach(initCarousel);
 }
 
