@@ -153,7 +153,7 @@
     <div class="content">
         <?php new Image(
     	    null,
-    	    'background-image',
+    	    'background-image desktop-only',
     	    '/content/resources/media/gurgl/04_Trennerbild.jpg',
     	    'Trennerbild',
     	    true

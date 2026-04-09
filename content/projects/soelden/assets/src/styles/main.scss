@@ -70,11 +70,13 @@ $color-soel-cool-gray: #eeeff1;
 
 // SOELDEN project styling
 .soel-side-note {
-	text-transform: uppercase;
-	font-size: 0.9375rem;
-	color: $color-soel-medium;
+	display: none;
 
 	@media screen and (min-width: 769px) {
+		display: block;
+		text-transform: uppercase;
+		font-size: 0.9375rem;
+		color: $color-soel-medium;
 		transform: rotate(180deg);
 		margin: 0;
 		writing-mode: vertical-rl;
@@ -150,6 +152,7 @@ $color-soel-cool-gray: #eeeff1;
 		margin-block: 1.25em 0.5em;
 		font-size: clamp(1rem, 1.25vw, 1.328125rem);
 		color: $color-soel-cut-3;
+		font-weight: 600;
 	}
 
 	p {
@@ -260,6 +263,13 @@ body {
 	}
 
 	main {
+		.soelden-project {
+			.soel-side-note {
+				@include mquery($screen-l) {
+					display: none !important;
+				}
+			}
+		}
 		padding-top: 0;
 		font-family:
 			AS Soelden,
@@ -485,6 +495,17 @@ body {
 						var(--color-light) 53%,
 						$color-soel-anthrazit 53%
 					);
+
+					.content {
+						flex-direction: row !important;
+						flex-wrap: nowrap;
+						gap: 1rem;
+
+						.slot {
+							flex: 1 1 0;
+							max-width: none;
+						}
+					}
 				}
 
 				@media screen and (min-width: 769px) {
@@ -969,7 +990,6 @@ body {
 			display: flex;
 			flex-direction: column;
 			gap: 1rem;
-			background: linear-gradient(white 40%, var(--color-light) 20%);
 
 			@media screen and (min-width: 769px) {
 				padding-top: max(10rem, 10vw) !important;
@@ -979,7 +999,7 @@ body {
 				display: flex;
 				align-items: flex-end;
 				justify-content: space-between;
-				transform: translateY(-3.25rem);
+				transform: translateY(+3.75rem);
 
 				@media screen and (min-width: 768px) {
 					padding-inline: 2rem;
@@ -1023,7 +1043,7 @@ body {
 			.heading {
 				position: relative;
 				z-index: 100;
-				max-width: max(36rem, 40%);
+				max-width: fit-content;
 				margin-left: auto;
 				margin-bottom: -10%;
 				font-family:
@@ -1035,6 +1055,8 @@ body {
 					sans-serif;
 				font-size: clamp(7em, 7vw, 8rem);
 				line-height: 1.25;
+
+		
 			}
 
 			@media screen and (max-width: 768px) {
@@ -1070,12 +1092,21 @@ body {
 		.project-links {
 			.buttons {
 				display: flex;
-				justify-content: space-between;
-				gap: 2rem;
-				flex-wrap: wrap;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 0.5rem;
 
+				@include minquery($screen-m) {
+					flex-direction: row;
+					flex-wrap: wrap;
+					gap: 1rem;
+				}
+				@include minquery($screen-l) {
+					gap: 1.5rem;
+				}
 				.project-button {
-					margin-top: 4%;
+					margin-top: 0;
+					width: fit-content;
 					color: white;
 					background-color: $color-soel-red;
 					border-color: $color-soel-red;
@@ -1094,4 +1125,34 @@ body {
 	color: $color-soel-anthrazit;
 	background-color: $color-soel-orange;
 	border-color: $color-soel-orange;
+}
+
+// Tinos Rework
+
+.section-1 {
+	.content {
+		gap: 0.75rem;
+		flex-direction: row !important;
+
+		@include minquery($screen-m) {
+			gap: 2.5rem;
+		}
+	}
+}
+.section-2 {
+	.content {
+		gap: 0.75rem;
+		flex-direction: row !important;
+
+		@include minquery($screen-m) {
+			gap: 2.5rem;
+		}
+	}
+}
+
+.tram-mob {
+	display: none !important;
+	@include minquery($screen-m) {
+		display: flex !important;
+	}
 }

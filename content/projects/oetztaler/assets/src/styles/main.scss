@@ -166,6 +166,10 @@ body {
 	}
 }
 
+.extra-padding-top {
+	padding-top: 5rem;
+}
+
 // Component styling
 .soelden-text-section {
 	@media screen and (min-width: 769px) {
@@ -229,9 +233,41 @@ body {
 }
 
 #intro-text-section {
+	@media screen and (max-width: 768px) {
+		padding-top: 3.5rem;
+
+	}
 	p {
+		position: relative;
+		z-index: 2;
+		max-width: 100%;
+		font-size: 30px;
 		@media screen and (max-width: 768px) {
+			font-size: 18px;
+			max-width: 80%;
 			margin-right: var(--main-padding-inline);
+		}
+	}
+
+	.content {
+		@media screen and (max-width: 768px) {
+			position: relative;
+			padding-bottom: clamp(1rem, 5vw, 5rem);
+		}
+		justify-content: space-between;
+		gap: 1rem;
+		.column {
+			&:first-child {
+				@media screen and (min-width: 962px) {
+					width: 70% !important;
+				}
+			}
+
+			&:last-child {
+				@media screen and (max-width: 768px) {
+					width: 0 !important;
+				}
+			}
 		}
 	}
 
@@ -245,6 +281,15 @@ body {
 	#intro-graphic {
 		width: 45%;
 		margin-left: 55%;
+
+		@media screen and (max-width: 768px) {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+			width: clamp(6rem, 25vw, 20rem);
+			margin-left: 0;
+		}
 	}
 }
 
@@ -331,6 +376,8 @@ body {
 			width: 10%;
 		}
 	}
+
+
 }
 
 #bib-text-section {

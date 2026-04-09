@@ -124,6 +124,20 @@ p {
 }
 
 // Project styling
+.aranea-project-wrapper {
+	margin: 0 1.25rem;
+	margin: auto;
+
+	.side-note {
+		&.light {
+			color: rgba(white, $alpha: 0.25) !important;
+		}
+		&.dark {
+			color: rgba(black, $alpha: 0.25) !important;
+		}
+	}
+}
+
 .aranea-intro {
 	padding-block: 8%;
 }
@@ -153,6 +167,7 @@ p {
 }
 
 #aranea-claim {
+	width: 80%;
 	@media screen and (min-width: 769px) {
 		width: 75%;
 		margin-left: 25%;
@@ -185,9 +200,14 @@ p {
 
 #aranea-logo-dev {
 	margin-inline: auto;
-
-	@media screen and (min-width: 769px) {
-		width: 65%;
+	padding: 5rem 0;
+	width: 90%;
+	@include minquery($screen-m) {
+		width: 75%;
+		padding: 7.5rem 0;
+	}
+	@include minquery($screen-l) {
+		padding: 10rem 0;
 	}
 }
 
@@ -209,6 +229,7 @@ p {
 	background: linear-gradient($color-orange 45%, $color-light 45%);
 
 	.image {
+		width: 80%;
 		@media screen and (min-width: 769px) {
 			width: 90%;
 			margin-left: 10%;

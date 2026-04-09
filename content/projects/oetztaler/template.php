@@ -37,12 +37,12 @@
 </section>
 <section id="intro-text-section" class="project-section bg-col-anthrazit small-padding overhang-right no-padding-bottom">
     <div class="slot start"></div>
-    <div class="content" style="align-items: flex-start;">
+    <div class="content" style="align-items: flex-end;">
         <div class="column">
-            <p class="text-large col-white">Der Ötztaler Radmarathon ist mit 227 km und 5.500 Höhenmetern das anspruchsvollste Amateur-Radrennen in Europa. NORDEN entwickelte das gesamte Erscheinungsbild des Großevents in Sölden neu.</p>
+            <p class="text-large col-white">Der Ötztaler Radmarathon ist mit 227 km und 5.500 Höhenmetern das anspruchsvollste Amateur-Radrennen in Europa. NORDEN entwickelte das gesamte Erscheinungsbild des Großevents in Sölden.</p>
             <?php new Svg(
             	null,
-            	'style-icon',
+            	'style-icon desktop-only',
             	'/content/resources/media/oetztaler/OERM_Website_Grafik_02.svg'
             ); ?>
         </div>
@@ -145,7 +145,7 @@
         <p class="side-note">Sujets 2023 & 2024</p>
     </div>
     <div class="content narrow" style="flex-direction: column; align-items: flex-start">
-        <h2 class="col-white">Through the years</h2>
+        <h2 class="col-anthrazit">SuJets</h2>
         <div class="image-slideshow">
 			<div class="controls-container">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="button prev">
@@ -207,7 +207,7 @@
     <div class="slot end"></div>
     <?php new Image(
     	null,
-    	'background-image',
+    	'background-image desktop-only',
     	'/content/resources/media/oetztaler/OERM_Website_Grafik_05.svg',
     	true,
     	'Grafikelement'
@@ -229,7 +229,7 @@
     <div class="slot end"></div>
     <?php new Image(
     	null,
-    	'background-image',
+    	'background-image desktop-only',
     	'/content/resources/media/oetztaler/OERM_Website_Grafik_06.svg',
     	true,
     	'Grafikelement'
@@ -295,11 +295,11 @@
     <div class="slot end"></div>
     <?php new Svg(
     	null,
-    	'background-image',
+    	'background-image desktop-only',
     	'/content/resources/media/oetztaler/OERM_Website_Grafik_04.svg'
     ); ?>
 </section>
-<section class="project-section no-padding-top full-width-new">
+<section class="project-section no-padding-top full-width-new no-padding-bottom">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile">
         <?php new Image(
@@ -312,7 +312,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section">
+<section class="project-section bg-col-cool-gray extra-padding-top">
     <div class="slot start">
         <p class="side-note">Website</p>
     </div>
@@ -320,7 +320,7 @@
         <?php new Video(
         	null,
         	'/content/resources/media/oetztaler/OERM_Website_1.mp4',
-        	'16/9',
+        	'3/"',
         	'/content/resources/media/oetztaler/OERM_Website_Still_1.jpg',
         	'Ötztaler Radmarathon Website',
         	true,

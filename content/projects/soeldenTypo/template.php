@@ -10,7 +10,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="st-intro-text-section" class="project-section bg-col-cool-gray">
+<section id="st-intro-text-section" class="project-section bg-col-cool-gray intro-section">
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
@@ -22,12 +22,30 @@
     </div>
     <div class="slot end"></div>
 </section>
+
+<section class="project-section" id="st-services-section">
+<div class="slot start"></div>
+
+    <div class="content">
+    <div  class="services">
+        <span class="services-title">Unsere Leistungen:</span>
+        <p class="service">Fontdesign</p>
+        <span class="separator">–</span>
+        <p class="service">Konzeptionierung</p>
+        <span class="separator">–</span>
+        <p class="service">Animationskonzept</p>
+    </div>
+    </div>
+    <div class="slot end"></div>
+
+</section>
+
 <section id="st-live-dynamic-section" class="project-section">
     <div class="slot start"></div>
     <div class="content">
         <div class="soelden-text-section">
-            <h2>WE LIKE TO MOVE IT</h2>
-            <p class="text-large">Plakativ, präsent & sportlich. Die modifizierte Headline Font für Sölden ist auffällig, <span class="highlight-circle">athletisch-dynamisch</span> und garantiert einen hohen Wiedererkennungswert.</p>
+            <h2>Live Dynamic</h2>
+            <p class="text-is-large">Plakativ, präsent & sportlich. Die modifizierte Headline Font für Sölden ist auffällig, <span class="highlight-circle">athletisch-dynamisch</span> und garantiert einen hohen Wiedererkennungswert.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -48,7 +66,7 @@
             <?php new Svg(
             	'st-headline-font',
             	null,
-            	'/content/resources/media/soeldenTypo/01_SOEL_Typo_ASSoelden.svg',
+            	'/content/resources/media/soeldenTypo/09_SOEL_Typo_Attributes.svg',
             	'Adelle Sans Sölden Headline'
             ); ?>
         </div>
@@ -171,10 +189,30 @@
 		<div class="soelden-text-block no-max-width">
 			<h3 class="subline">Projects – Fonts in Use</h3>
 			<div class="buttons">
-                <?php new Button(null, 'project-button', 'Sölden Corporate Design', '/projekte/soelden'); ?>
-                <?php new Button(null, 'project-button', 'Electric Mountain Festival', '/projekte/soelden/electric-mountain-festival'); ?>
-                <?php new Button(null, 'project-button', 'Test Fest', '/projekte/soelden/test-fest'); ?>
-                <?php new Button(null, 'project-button', 'Ötztaler Radmarathon', '/projekte/soelden/oetztaler-radmarathon'); ?>
+                <?php new Button(
+                	null,
+                	'project-button',
+                	'Sölden Corporate Design',
+                	'/projekte/soelden'
+                ); ?>
+                <?php new Button(
+                	null,
+                	'project-button',
+                	'Electric Mountain Festival',
+                	'/projekte/soelden/electric-mountain-festival'
+                ); ?>
+                <?php new Button(
+                	null,
+                	'project-button',
+                	'Test Fest',
+                	'/projekte/soelden/test-fest'
+                ); ?>
+                <?php new Button(
+                	null,
+                	'project-button',
+                	'Ötztaler Radmarathon',
+                	'/projekte/soelden/oetztaler-radmarathon'
+                ); ?>
 			</div>
 		</div>
 	</div>

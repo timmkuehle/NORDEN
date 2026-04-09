@@ -104,8 +104,8 @@ class ProjectModel {
             'content_path' => '/',
             'title' => 'Bike Republic Sölden',
             'thumbnail' => '/content/resources/media/projectPreviews/13_BRS_Startseite.gif',
-            'category' => 'Editorial Design',
-            'preview_title' => 'Corporate Design'
+            'category' => 'Corporate Design',
+            'preview_title' => 'Bike Republic Sölden'
         ],
         [
             'slug' => '/projekte/oetztal/font',

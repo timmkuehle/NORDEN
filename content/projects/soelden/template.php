@@ -1,11 +1,11 @@
-<section class="soelden-intro full-width">
+<section class="soelden-intro full-width soelden-project">
 	<header>
 		<h1>
 			<?php new \Svg(
-			    'soelden_logo',
-			    null,
-			    '/content/resources/media/soelden/SOEL_Logo.svg'
-			); ?>
+   	'soelden_logo',
+   	null,
+   	'/content/resources/media/soelden/SOEL_Logo.svg'
+   ); ?>
    		</h1>
 		<quote class="quote color-orange">„This is where your heartbeat is turning up. This is where you belong. <span class="own-line"><span class=" bold">THIS is Sölden</span>.“</span></quote>
 	</header>
@@ -16,20 +16,20 @@
 		<div class="slot center">
 			<div class="video-container">
 				<?php new \Video(
-				    'brand-clip',
-				    '/content/resources/media/soelden/brandclip/SOEL_Brandclip_2022_Web.mp4',
-				    '16/9',
-				    'content/resources/media/soelden/brandclip/Brandclip_SOEL_Still_Web.jpg',
-				    'Sölden Brandclip',
-				    false,
-				    true,
-				    true,
-				    true,
-				    false,
-				    '/content/resources/media/soelden/brandclip/SOEL_Brandclip_2022_Mobile.mp4',
-				    '1/1',
-				    'content/resources/media/soelden/brandclip/Brandclip_SOEL_Still_Mobile.jpg'
-				); ?>
+    	'brand-clip',
+    	'/content/resources/media/soelden/brandclip/SOEL_Brandclip_2022_Web.mp4',
+    	'16/9',
+    	'content/resources/media/soelden/brandclip/Brandclip_SOEL_Still_Web.jpg',
+    	'Sölden Brandclip',
+    	false,
+    	true,
+    	true,
+    	true,
+    	false,
+    	'/content/resources/media/soelden/brandclip/SOEL_Brandclip_2022_Mobile.mp4',
+    	'1/1',
+    	'content/resources/media/soelden/brandclip/Brandclip_SOEL_Still_Mobile.jpg'
+    ); ?>
 			</div>
 		</div>
 		<div class="slot end"></div>
@@ -56,37 +56,37 @@
 		<p>Die Strichgrafiken stehen für Dynamik und Individualität. Sie wirken leicht und locker, drängen sich nicht den Vordergrund und geben den Bildern den nötigen Raum. Abgeleitet sind die 46° schrägen Linien von dem Breitengrad, auf dem Sölden zu finden ist.</p>
 	</div>
 </section>
-<section class="soelden-gallery graphic-elements-images full-width">
+<section class="soelden-gallery graphic-elements-images full-width section-1">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Graphic Elements</p>
 	</div>
 	<div class="content">
 		<div class="slot start">
 			<?php new \Image(
-			    null,
-			    'lines-wide',
-			    '/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_eng.svg',
-			    'Strichgrafiken weit',
-			    true
-			); ?>
+   	null,
+   	'lines-wide',
+   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_eng.svg',
+   	'Strichgrafiken weit',
+   	true
+   ); ?>
 		</div>
 		<div class="slot center">
 			<?php new \Image(
-			    null,
-			    'lines-medium',
-			    '/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-			    'Strichgrafiken mittel',
-			    true
-			); ?>
+   	null,
+   	'lines-medium',
+   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+   	'Strichgrafiken mittel',
+   	true
+   ); ?>
 		</div>
 		<div class="slot end">
 			<?php new \Image(
-			    null,
-			    'lines-narrow',
-			    '/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_weit.svg',
-			    'Strichgrafiken eng',
-			    true
-			); ?>
+   	null,
+   	'lines-narrow',
+   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_weit.svg',
+   	'Strichgrafiken eng',
+   	true
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -102,21 +102,21 @@
 				<p class="color-white">Die AS Sölden ist mit 10 unterschiedlichen Schriftschnitten ausgestattet. Wir bevorzugen die Schriftschnitte von Regular – Extrabold. Verwendet wird sie für Fließtexte und Sublines</p>
 				<p class="color-white">— Font creation in cooperation with <span class="color-orange">TypeTogether</span></p>
 				<?php new \Button(
-				    'typo-button',
-				    null,
-				    'Mehr zur Typografie',
-				    '/projekte/soelden/typografie'
-				); ?>
+    	'typo-button',
+    	null,
+    	'Mehr zur Typografie',
+    	'/projekte/soelden/typografie'
+    ); ?>
 			</div>
 		</div>
 		<div class="slot end">
 			<?php new \Image(
-			    null,
-			    'typography-animation',
-			    '/content/resources/media/soelden/typo/02_SOEL_Letter_R.gif',
-			    'Typographie Animation',
-			    true
-			); ?>
+   	null,
+   	'typography-animation',
+   	'/content/resources/media/soelden/typo/02_SOEL_Letter_R.gif',
+   	'Typographie Animation',
+   	true
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -143,7 +143,7 @@
 		</div>
 	</div>
 </section>
-<section class="soelden-gallery color-2 full-width bg-color-anthrazit">
+<section class="soelden-gallery color-2 full-width bg-color-anthrazit section-2">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Colors</p>
 	</div>
@@ -176,19 +176,19 @@
 <div class="spacer"></div>
 <section class="soelden-section heartbeat">
 	<?php new \Image(
-	    null,
-	    'heartbeat-claim web',
-	    '/content/resources/media/soelden/claim/SOEL_Claim_Linien_Web.svg',
-	    'Heartbeat of the Alps',
-	    true
-	); ?>
+ 	null,
+ 	'heartbeat-claim web',
+ 	'/content/resources/media/soelden/claim/SOEL_Claim_Linien_Web.svg',
+ 	'Heartbeat of the Alps',
+ 	true
+ ); ?>
  	<?php new \Image(
- 	    null,
- 	    'heartbeat-claim mobile',
- 	    '/content/resources/media/soelden/claim/SOEL_Claim_Linien_Mobile.svg',
- 	    'Heartbeat of the Alps',
- 	    true
- 	); ?>	
+  	null,
+  	'heartbeat-claim mobile',
+  	'/content/resources/media/soelden/claim/SOEL_Claim_Linien_Mobile.svg',
+  	'Heartbeat of the Alps',
+  	true
+  ); ?>	
 </section>
 <div class="spacer"></div>
 <section class="soelden-gallery logo-animation">
@@ -200,20 +200,20 @@
 			<h2 class="heading">Logo Animation</h2>
 			<h3 class="subline">Extended Logo Animation</h3>
 			<?php new \Video(
-			    'logo-animation',
-			    '/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_16-9.mp4',
-			    '16/9',
-			    '/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_16-9_Still.jpg',
-			    'Sölden Logo Animation',
-			    true,
-			    true,
-			    true,
-			    true,
-			    false,
-			    '/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_1-1.mp4',
-			    '1/1',
-			    '/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_1-1_Still.jpg'
-			); ?>
+   	'logo-animation',
+   	'/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_16-9.mp4',
+   	'16/9',
+   	'/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_16-9_Still.jpg',
+   	'Sölden Logo Animation',
+   	true,
+   	true,
+   	true,
+   	true,
+   	false,
+   	'/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_1-1.mp4',
+   	'1/1',
+   	'/content/resources/media/soelden/logo/SOEL_Logo_Animation_Long_1-1_Still.jpg'
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end">
@@ -221,11 +221,11 @@
 </section>
 <div class="mobile-spacer"></div>
 <?php new \Image(
-    null,
-    'full-width-image',
-    '/content/resources/media/soelden/06_SOEL_Trennerbild.jpg',
-    'Alpenpanorama',
-    true
+	null,
+	'full-width-image',
+	'/content/resources/media/soelden/06_SOEL_Trennerbild.jpg',
+	'Alpenpanorama',
+	true
 ); ?>
 <section class="soelden-gallery layout-1 bg-color-anthrazit full-width">
 	<div class="slot side-note-start">
@@ -245,12 +245,12 @@
 				</div>
 				<div class="slot">
 					<?php new \Image(
-					    null,
-					    'logo-placement',
-					    '/content/resources/media/soelden/layout/01_SOEL_Logo_Platzierung.png',
-					    'Logo-Platzierung',
-					    true
-					); ?>
+     	null,
+     	'logo-placement',
+     	'/content/resources/media/soelden/layout/01_SOEL_Logo_Platzierung.png',
+     	'Logo-Platzierung',
+     	true
+     ); ?>
 				</div>
 			</div>
 		</div>
@@ -260,19 +260,19 @@
 <section class="soelden-section layout-2 bg-color-anthrazit full-width">
 	<div class="image-with-lines">
 		<?php new \Image(
-		    null,
-		    'lines',
-		    '/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-		    'Strichgrafik',
-		    true
-		); ?>
+  	null,
+  	'lines',
+  	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+  	'Strichgrafik',
+  	true
+  ); ?>
 		<?php new \Image(
-		    null,
-		    'layout-example',
-		    '/content/resources/media/soelden/layout/03_SOEL_HikeMap.jpg',
-		    'Layout-Beispiel',
-		    true
-		); ?>
+  	null,
+  	'layout-example',
+  	'/content/resources/media/soelden/layout/03_SOEL_HikeMap.jpg',
+  	'Layout-Beispiel',
+  	true
+  ); ?>
 	</div>
 </section>
 <section class="soelden-gallery social-media-1 bg-color-anthrazit full-width">
@@ -296,13 +296,13 @@
 				<h3 class="subline">Icons</h3>
 				<div class="soelden-icons">
 					<?php new \Image(
-					    null,
-					    null,
-					    '/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_Web.svg',
-					    'Sölden Social Media Icons',
-					    true,
-					    '/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_Mobile.svg'
-					); ?>
+     	null,
+     	null,
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_Web.svg',
+     	'Sölden Social Media Icons',
+     	true,
+     	'/content/resources/media/soelden/social/SOEL_SocialMedia_StoryIcons_Mobile.svg'
+     ); ?>
 				</div>
 			</div>
 		</div>
@@ -316,12 +316,12 @@
 				<h3 class="subline">Postings • Stories</h3>
 				<div class="soelden-feed-carousel">
 					<?php new \Image(
-					    null,
-					    'story-mockup',
-					    '/content/resources/media/soelden/social/SOEL_SM_Carousel_mockup.png',
-					    'Social Media Carousel',
-					    true
-					); ?>
+     	null,
+     	'story-mockup',
+     	'/content/resources/media/soelden/social/SOEL_SM_Carousel_mockup.png',
+     	'Social Media Carousel',
+     	true
+     ); ?>
 				</div>
 			</div>
 		</div>
@@ -333,13 +333,12 @@
 	<div class="content">
 		<div class="soelden-text-block no-max-width">
 			<?php new \Image(
-			    null,
-			    'soelden-so-me-examples',
-			    '/content/resources/media/soelden/social/SOEL_SM_Postings_Web.png',
-			    'Sölden Social Media Postings',
-			    true,
-			    '/content/resources/media/soelden/social/SOEL_SM_Postings_Mobile.png'
-			); ?>
+   	null,
+   	'soelden-so-me-examples',
+   	'/content/resources/media/soelden/social/SOEL_SM_Postings_Web.png',
+   	'Sölden Social Media Postings',
+   	true
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -352,20 +351,20 @@
 				<div class="soelden-feed-mockup">
 					<div class="feed-mockup-wrapper">
 						<?php new \Image(
-						    null,
-						    'feed-mockup',
-						    '/content/resources/media/soelden/social/SOEL_SM_Feed_mockup.png',
-						    'Social Media Carousel',
-						    true
-						); ?>
+      	null,
+      	'feed-mockup',
+      	'/content/resources/media/soelden/social/SOEL_SM_Feed_mockup.png',
+      	'Social Media Carousel',
+      	true
+      ); ?>
 	  				</div>
 						<?php new \Image(
-						    null,
-						    'lines',
-						    '/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-						    'Strichgrafik',
-						    true
-						); ?>
+      	null,
+      	'lines',
+      	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+      	'Strichgrafik',
+      	true
+      ); ?>
 				</div>
 			</div>
 		</div>
@@ -378,17 +377,17 @@
 	</div>
 		<div class="content">
 			<?php new \Video(
-			    'website-clip',
-			    '/content/resources/media/soelden/layout/SOEL_Website_Screendesign.mp4',
-			    '1600/1020',
-			    '/content/resources/media/soelden/layout/SOEL_Website_New_Still.jpg',
-			    'Sölden Website',
-			    true,
-			    true,
-			    true,
-			    true,
-			    false
-			); ?>
+   	'website-clip',
+   	'/content/resources/media/soelden/layout/SOEL_Website_Screendesign.mp4',
+   	'1600/1020',
+   	'/content/resources/media/soelden/layout/SOEL_Website_New_Still.jpg',
+   	'Sölden Website',
+   	true,
+   	true,
+   	true,
+   	true,
+   	false
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
@@ -403,33 +402,33 @@
 			<h3 class="subline">Animated GIFs</h3>
 			<div class="soelden-gifs">
 				<?php new \Image(
-				    null,
-				    'soelden-gif',
-				    '/content/resources/media/soelden/gifs/SOEL_GIF1_Claim.gif',
-				    'Heartbeat of the Alps',
-				    true
-				); ?>
+    	null,
+    	'soelden-gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF1_Claim.gif',
+    	'Heartbeat of the Alps',
+    	true
+    ); ?>
 				<?php new \Image(
-				    null,
-				    'soelden-gif',
-				    'content/resources/media/soelden/gifs/SOEL_GIF2_Linien.gif',
-				    'Sölden',
-				    true
-				); ?>
+    	null,
+    	'soelden-gif',
+    	'content/resources/media/soelden/gifs/SOEL_GIF2_Linien.gif',
+    	'Sölden',
+    	true
+    ); ?>
 				<?php new \Image(
-				    null,
-				    'soelden-gif',
-				    '/content/resources/media/soelden/gifs/SOEL_GIF3_HappyPlace.gif',
-				    'My Happy Place',
-				    true
-				); ?>
+    	null,
+    	'soelden-gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF3_HappyPlace.gif',
+    	'My Happy Place',
+    	true
+    ); ?>
 				<?php new \Image(
-				    null,
-				    'soelden-gif',
-				    '/content/resources/media/soelden/gifs/SOEL_GIF4_SkiYouLater.gif',
-				    'Ski you later',
-				    true
-				); ?>
+    	null,
+    	'soelden-gif',
+    	'/content/resources/media/soelden/gifs/SOEL_GIF4_SkiYouLater.gif',
+    	'Ski you later',
+    	true
+    ); ?>
 				</div>
 			</div>
 		</div>
@@ -437,11 +436,11 @@
 	<div class="slot side-note-end"></div>
 </section>
 <?php new \Image(
-    null,
-    'full-width-image',
-    '/content/resources/media/soelden/branding/SOEL_GondelBranding.jpg',
-    'Anwendungsbeispiel Gondeln',
-    true
+	null,
+	'full-width-image',
+	'/content/resources/media/soelden/branding/SOEL_GondelBranding.jpg',
+	'Anwendungsbeispiel Gondeln',
+	true
 ); ?>
 <section class="full-width bg-color-white">
 	<div class="soelden-gallery website">
@@ -460,12 +459,12 @@
 		</div>
 		<div class="content">
 			<?php new \Image(
-			    null,
-			    'soelden-folder',
-			    '/content/resources/media/soelden/branding/01_SOEL_Folder_Winter.png',
-			    'Sölden Folder',
-			    true
-			); ?>
+   	null,
+   	'soelden-folder',
+   	'/content/resources/media/soelden/branding/01_SOEL_Folder_Winter.png',
+   	'Sölden Folder',
+   	true
+   ); ?>
 		</div>
 		<div class="slot side-note-end"></div>
 	</div>
@@ -478,32 +477,32 @@
 			<div class="col" style="flex-basis: 53%;">
 				<div class="row">
 					<?php new \Image(
-					    null,
-					    null,
-					    '/content/resources/media/soelden/branding/03_SOEL_Skibootbag.jpg',
-					    'Sölden Skiboot Bag',
-					    true
-					); ?>
+     	null,
+     	null,
+     	'/content/resources/media/soelden/branding/03_SOEL_Skibootbag.jpg',
+     	'Sölden Skiboot Bag',
+     	true
+     ); ?>
 				</div>
 			</div>
 			<div class="col" style="flex-basis: 47%;">
 				<div class="row">
 					<?php new \Image(
-					    null,
-					    null,
-					    '/content/resources/media/soelden/branding/04_SOEL_Helmbranding.png',
-					    'Sölden Skihelm',
-					    true
-					); ?>
+     	null,
+     	null,
+     	'/content/resources/media/soelden/branding/04_SOEL_Helmbranding.png',
+     	'Sölden Skihelm',
+     	true
+     ); ?>
 				</div>
 				<div class="row">
 					<?php new \Image(
-					    null,
-					    null,
-					    '/content/resources/media/soelden/branding/SOEL_Buff.png',
-					    'Sölden Buff',
-					    true
-					); ?>
+     	null,
+     	null,
+     	'/content/resources/media/soelden/branding/SOEL_Buff.png',
+     	'Sölden Buff',
+     	true
+     ); ?>
 				</div>
 			</div>
 		</div>
@@ -516,27 +515,27 @@
 	</div>
 	<div class="content">
 		<?php new \Image(
-		    null,
-		    'photo-point',
-		    '/content/resources/media/soelden/branding/06_SOEL_Photopoint_NEU.jpg',
-		    'Sölden Photo Point',
-		    true
-		); ?>
+  	null,
+  	'photo-point',
+  	'/content/resources/media/soelden/branding/06_SOEL_Photopoint_NEU.jpg',
+  	'Sölden Photo Point',
+  	true
+  ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
-<section class="soelden-gallery full-width tram bg-color-anthrazit huge-space">
+<section class="soelden-gallery full-width tram tram-mob bg-color-anthrazit huge-space">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Tram</p>
 	</div>
 	<div class="content">
 		<?php new \Image(
-		    null,
-		    'tram',
-		    '/content/resources/media/soelden/branding/07_SOEL_Tram_Beklebung.png',
-		    'Sölden Tram Marketing',
-		    true
-		); ?>
+  	null,
+  	'tram',
+  	'/content/resources/media/soelden/branding/07_SOEL_Tram_Beklebung.png',
+  	'Sölden Tram Marketing',
+  	true
+  ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
@@ -546,12 +545,12 @@
 	</div>
 	<div class="content">
 		<?php new \Image(
-		    null,
-		    'bike-box',
-		    '/content/resources/media/soelden/branding/08_SOEL_BikeBox.jpg',
-		    'Sölden Bike Box',
-		    true
-		); ?>
+  	null,
+  	'bike-box',
+  	'/content/resources/media/soelden/branding/08_SOEL_BikeBox.jpg',
+  	'Sölden Bike Box',
+  	true
+  ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
@@ -562,42 +561,35 @@
 	<div class="content">
 		<div class="image-with-lines left">
 			<?php new \Image(
-			    null,
-			    'lines',
-			    '/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-			    'Strichgrafik',
-			    true
-			); ?>
+   	null,
+   	'lines',
+   	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+   	'Strichgrafik',
+   	true
+   ); ?>
 			<?php new \Image(
-			    null,
-			    'soelden-bag',
-			    '/content/resources/media/soelden/branding/SOEL_Bag.jpg',
-			    'Layout-Beispiel',
-			    true
-			); ?>
+   	null,
+   	'soelden-bag',
+   	'/content/resources/media/soelden/branding/SOEL_Bag.jpg',
+   	'Layout-Beispiel',
+   	true
+   ); ?>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
 <section class="events-intro full-width">
-	<p class="soel-side-note">Events</p>
-	<?php new \Image(
-	    null,
-	    'full-width-image',
-	    '/content/resources/media/soelden/12_SOEL_Trenner_Bild.jpg',
-	    'Sölden Snow Park',
-	    true
-	); ?>
-	<header>
-		<h2 class="heading">Sport, Action & Enter<wbr>tainment</h2>
-		<?php new \Image(
-		    null,
-		    'world-cup-icon',
-		    '/content/resources/media/soelden/world_cup/01_SOEL_Skiweltcup_Icon.png',
-		    'Weltcup Icon',
-		    true
-		); ?>
+<header>
+	<h2 class="heading">Sport, Action & Enter<wbr>tainment</h2>
 	</header>
+	<?php new \Image(
+ 	null,
+ 	'full-width-image',
+ 	'/content/resources/media/soelden/12_SOEL_Trenner_Bild.jpg',
+ 	'Sölden Snow Park',
+ 	true
+ ); ?>
+	
 </section>
 <section class="soelden-gallery full-width world-cup-1">
 	<div class="slot side-note-start empty"></div>
@@ -610,15 +602,17 @@
 	<div class="slot side-note-end"></div>
 </section>
 <section class="soelden-gallery full-width world-cup-2 huge-space">
-	<div class="slot side-note-start empty"></div>
+	<div class="slot side-note-start empty">
+		<p class="soel-side-note">Events</p>
+	</div>
 	<div class="content">
 		<?php new \Image(
-		    null,
-		    'full-width-image',
-		    '/content/resources/media/soelden/world_cup/02_Skiweltcup_Mockup.jpg',
-		    'Sölden Ski-Weltcup Mockup',
-		    true
-		); ?>
+  	null,
+  	'full-width-image',
+  	'/content/resources/media/soelden/world_cup/02_Skiweltcup_Mockup.jpg',
+  	'Sölden Ski-Weltcup Mockup',
+  	true
+  ); ?>
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
@@ -628,33 +622,33 @@
 			<div class="wc-products">
 				<div class="col start" style="flex-basis: 72%;">
 					<?php new \Video(
-					    'world-cup-video',
-					    '/content/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9.mp4',
-					    '16/9',
-					    '/content/resources/media/soelden/world_cup/SOEL_Weltcup_Still.jpg',
-					    'Soelden Ski Weltcup Highlights',
-					    true,
-					    true,
-					    true,
-					    true,
-					    false
-					); ?>
+     	'world-cup-video',
+     	'/content/resources/media/soelden/world_cup/SOEL_Weltcup_2023_16-9.mp4',
+     	'16/9',
+     	'/content/resources/media/soelden/world_cup/SOEL_Weltcup_Still.jpg',
+     	'Soelden Ski Weltcup Highlights',
+     	true,
+     	true,
+     	true,
+     	true,
+     	false
+     ); ?>
 					<?php new \Image(
-					    null,
-					    'world-cup-iphone',
-					    '/content/resources/media/soelden/world_cup/05_SOEL_Skiweltcup_Iphone.png',
-					    'Sölden Ski Weltcup Social Media Posting',
-					    true
-					); ?>
+     	null,
+     	'world-cup-iphone',
+     	'/content/resources/media/soelden/world_cup/05_SOEL_Skiweltcup_Iphone.png',
+     	'Sölden Ski Weltcup Social Media Posting',
+     	true
+     ); ?>
 				</div>
 				<div class="col end" style="flex-basis: 28%;">
 					<?php new \Image(
-					    null,
-					    'world-cup-ski',
-					    '/content/resources/media/soelden/world_cup/Skiweltcup_Ski_quer.png',
-					    'Sölden Ski Weltcup Skier',
-					    true
-					); ?>
+     	null,
+     	'world-cup-ski',
+     	'/content/resources/media/soelden/world_cup/Skiweltcup_Ski_quer.png',
+     	'Sölden Ski Weltcup Skier',
+     	true
+     ); ?>
 				</div>
 			</div>
 		</div>
@@ -667,35 +661,50 @@
 		<div class="soelden-text-block no-max-width">
 			<h3 class="subline">More Sölden Events</h3>
 			<div class="buttons">
-				<?php new \Button(null, 'project-button', 'Electric Mountain Festival', '/projekte/soelden/electric-mountain-festival'); ?>
-				<?php new \Button(null, 'project-button', 'Ötztaler Radmarathon', '/projekte/soelden/oetztaler-radmarathon'); ?>
-				<?php new \Button(null, 'project-button', 'Test Fest', '/projekte/soelden/test-fest'); ?>
+				<?php new \Button(
+    	null,
+    	'project-button',
+    	'Electric Mountain Festival',
+    	'/projekte/soelden/electric-mountain-festival'
+    ); ?>
+				<?php new \Button(
+    	null,
+    	'project-button',
+    	'Ötztaler Radmarathon',
+    	'/projekte/soelden/oetztaler-radmarathon'
+    ); ?>
+				<?php new \Button(
+    	null,
+    	'project-button',
+    	'Test Fest',
+    	'/projekte/soelden/test-fest'
+    ); ?>
 			</div>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
 <section class="soelden-outro bg-color-anthrazit full-width">
-	<h2 class="heading color-white">This is Sölden</h2>
+	<h2 class="heading color-white">This is <br>Sölden</h2>
 	<div class="image-with-lines left">
 		<?php new \Image(
-		    null,
-		    'lines',
-		    '/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
-		    'Strichgrafik',
-		    true
-		); ?>
+  	null,
+  	'lines',
+  	'/content/resources/media/soelden/graphics/02_SOEL_CD22_Grafiktoolbox_Linien_mittel.svg',
+  	'Strichgrafik',
+  	true
+  ); ?>
   	<?php new \Video(
-  	    'outro-video',
-  	    '/content/resources/media/soelden/Schlussvideo_16x9.mp4',
-  	    '16/9',
-  	    '/content/resources/media/soelden/Schlussvideo_Still.jpg',
-  	    'Soelden Outro Video',
-  	    true,
-  	    true,
-  	    true,
-  	    true,
-  	    false
-  	); ?>	
+   	'outro-video',
+   	'/content/resources/media/soelden/Schlussvideo_16x9.mp4',
+   	'16/9',
+   	'/content/resources/media/soelden/Schlussvideo_Still.jpg',
+   	'Soelden Outro Video',
+   	true,
+   	true,
+   	true,
+   	true,
+   	false
+   ); ?>	
 	</div>
 </section>

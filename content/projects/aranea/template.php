@@ -1,3 +1,4 @@
+<div class="aranea-project-wrapper">
 <div class="aranea-intro bg-col-dark-green">
 	<?php new Svg(
  	'aranea-logo',
@@ -14,7 +15,7 @@
 </div>
 <section id="aranea-intro-text-section" class="project-section bg-col-dark-green">
 	<div class="slot start">
-		<p class="side-note">What we stand for</p>
+		<p class="side-note light">What we stand for</p>
 	</div>
 	<div class="content">
 		<div class="column">
@@ -40,13 +41,22 @@
 	<p class="service">Fassadenbeklebeung</p>
 	<p class="service">Merchandise</p>
 </section>
-<section class="project-section small-padding no-padding-bottom-mobile">
-	<div class="slot start">
-		<p class="side-note">Logo Entwicklung</p>
+
+<section class="project-section">
+<div class="slot start">
+		<p class="side-note dark">Logo Entwicklung</p>
 	</div>
-	<div class="content"></div>
+	<div class="content">
+		<?php new Svg(
+  	'aranea-logo-dev',
+  	null,
+  	'/content/resources/media/aranea/Logoentwicklung_2.svg',
+  	'ARANEA Logo-Entwicklung'
+  ); ?>
+	</div>
 	<div class="slot end"></div>
 </section>
+
 <section class="project-section small-padding no-padding-top">
 	<div class="slot start"></div>
 	<div class="content">
@@ -63,18 +73,6 @@
    	true
    ); ?>
 		</div>
-	</div>
-	<div class="slot end"></div>
-</section>
-<section class="project-section full-width-new">
-	<div class="slot start"></div>
-	<div class="content">
-		<?php new Svg(
-  	'aranea-logo-dev',
-  	null,
-  	'/content/resources/media/aranea/Logoentwicklung_2.svg',
-  	'ARANEA Logo-Entwicklung'
-  ); ?>
 	</div>
 	<div class="slot end"></div>
 </section>
@@ -103,27 +101,24 @@
 </section>
 <section class="project-section">
 	<div class="slot start">
-		<p class="side-note">Graphic elements</p>
+		<p class="side-note dark">Graphic elements</p>
 	</div>
 	<div class="content">
 		<?php new Svg(
   	'aranea-graphic-elements-desktop',
-  	'desktop-only',
+  	'',
   	'/content/resources/media/aranea/Gestaltungselemente_Web.svg',
   	'ARANEA Grafikelemente'
   ); ?>
-  		<?php new Svg(
-    	'aranea-graphic-elements-mobile',
-    	'mobile-only',
-    	'/content/resources/media/aranea/Gestaltungselemente_Mobile.svg',
-    	'Grafikelemente'
-    ); ?>
+
 	</div>
 	<div class="slot end"></div>
 </section>
 <section class="project-section">
-	<div class="slot start"></div>
-	<div class="content" style="justify-content: flex-end;">
+	<div class="slot start">
+		<p class="side-note dark">Typography</p>
+	</div>
+	<div class="content" style="justify-content: flex-start;">
 		<div class="column">
 			<h2>Schrift</h2>
 			<p>Die einzigartige Headline-Schrift bietet eine unendliche Auswahl an Glyphen und kann alles sein, was man sich wünscht. Zur verspielten Headline-Schrift kombinieren wir eine serifenlose Schriftart, die speziell für Benutzeroberflächen entworfen wurde.</p>
@@ -363,3 +358,4 @@
 	</div>
 	<div class="slot end"></div>
 </section>
+</div>

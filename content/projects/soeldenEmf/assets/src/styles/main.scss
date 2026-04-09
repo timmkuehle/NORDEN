@@ -79,6 +79,7 @@ $color-soel-mid-blue: #006d93;
 
 // General styling
 body {
+	overflow-x: hidden;
 	.site-header {
 		box-shadow: var(--no-box-shadow-bottom);
 
@@ -144,6 +145,7 @@ body {
 	main {
 		margin-top: 0;
 		padding: 0;
+		overflow-x: clip;
 		font-family:
 			AS Soelden,
 			Relevant,
@@ -269,7 +271,10 @@ svg {
 		}
 	}
 }
-
+#emf-color-swatches-section {
+	overflow: hidden;
+	max-width: 100vw;
+}
 #emf-intro-text-section {
 	@media screen and (max-width: 768px) {
 		.accent-image {
@@ -334,34 +339,31 @@ svg {
 }
 
 .color-swatches {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(4, 21.5%) 14%;
+	justify-content: space-between;
 	width: 100%;
-
+	p {
+		font-size: 12px !important;
+		margin: 0;
+	}
 	& > * {
-		flex: 0 0 22%;
-		padding: max(1vw, 1rem) max(1vw, 1rem) max(2vw, 2rem) max(1vw, 1rem);
+		height: 4rem;
+		padding: 1rem;
 
 		&.anthrazit {
 			color: white;
-			border: 0.0625rem solid white;
+			border: 0;
+			box-shadow: inset 0 0 0 0.0625rem white;
 		}
 
 		&.red {
 			color: white;
-			flex-basis: 12%;
 		}
 	}
 
 	@media screen and (max-width: 768px) {
-		flex-wrap: wrap;
-
-		& > * {
-			flex: 0 0 50%;
-
-			&.red {
-				flex-basis: 28%;
-			}
-		}
+		grid-auto-flow: row;
 	}
 }
 
@@ -537,10 +539,14 @@ svg {
 
 #merch-section {
 	.content {
+		flex-direction: row;
+
+		justify-content: space-between;
+		gap: 1rem;
+		flex-wrap: nowrap;
+
 		.image {
-			@media screen and (min-width: 769px) {
-				width: 45%;
-			}
+			width: 45%;
 		}
 	}
 }

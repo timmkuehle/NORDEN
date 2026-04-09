@@ -154,8 +154,7 @@
     <div class="slot start">
         <p class="side-note">Logo as a flexible lettering</p>
     </div>
-    <div class="content">
-        <div class="color-swatches">
+    <div class="color-swatches">
             <div class="anthrazit bg-col-anthrazit">
                 <p>#24353F</p>
             </div>
@@ -172,7 +171,6 @@
                 <p>#24353F</p>
             </div>
         </div>
-    </div>
     <div class="slot end"></div>
 </section>
 <div class="bg-image-container">
@@ -291,7 +289,7 @@
                 ); ?>
                 <?php new \Image(
                     'emf-layout-example',
-                    null,
+                    'desktop-only',
                     '/content/resources/media/soeldenEmf/EMF_Layout_Bsp.jpg',
                     'EMF Layout Beispiel',
                     true
@@ -357,7 +355,7 @@
                 ); ?>
                 <?php new \Image(
                     'emf-some-story',
-                    null,
+                    'desktop-only',
                     '/content/resources/media/soeldenEmf/02_EMF_SM_Story.png',
                     'EMF Social Media Story',
                     true
@@ -417,7 +415,7 @@
     <div class="content" style="align-items: flex-start;">
         <?php new \Video(
             null,
-            '/content/resources/media/soeldenEmf/EMF_Artist_Aniamtion.mp4',
+            '/content/resources/media/soeldenEmf/EMF_Artist_Animation.mp4',
             '16/9',
             '/content/resources/media/soeldenEmf/EMF_LineUp_Animation_Screen.jpg',
             'EMF Artist LineUp Screen',
@@ -442,7 +440,7 @@
         <?php new \Svg(
             null,
             'mobile-only',
-            '/content/resources/media/soeldenEmf/EMF_WeDance_Trenner_Mobile.svg',
+            '/content/resources/media/soeldenEmf/EMF_WeDance_Trenner_Web.svg',
             'We dance at 2283 hm'
         ); ?>
     </div>
@@ -472,7 +470,6 @@
             '/content/resources/media/soeldenEmf/EMF_Buehne_Branding_Web.png',
             'EMF Bühnen Vergleich',
             true,
-            '/content/resources/media/soeldenEmf/EMF_Buehne_Branding_Mobile.png'
         ); ?>
     </div>
     <div class="slot end"></div>
