@@ -160,16 +160,11 @@
 	<div class="content">
 		<?php new Svg(
   	'aranea-colors-desktop',
-  	'desktop-only',
+  	null,
   	'/content/resources/media/aranea/ARANEA_Farben_Web.svg',
   	'ARANEA Farben'
   ); ?>
-  		<?php new Svg(
-    	'aranea-colors-mobile',
-    	'mobile-only',
-    	'/content/resources/media/aranea/ARANEA_Farben_Mobile.svg',
-    	'ARANEA Farben'
-    ); ?>
+
 	</div>
 	<div class="slot end"></div>
 </section>

@@ -227,7 +227,9 @@ p {
 
 #aranea-social-media-section {
 	background: linear-gradient($color-orange 45%, $color-light 45%);
-
+	@include mquery($screen-m) {
+		background: linear-gradient($color-orange 72.5%, $color-light 72.5%);
+	}
 	.image {
 		width: 80%;
 		@media screen and (min-width: 769px) {

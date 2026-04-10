@@ -68,6 +68,17 @@ $color-soel-cool-gray: #eeeff1;
 	}
 }
 
+.mobile-only {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
 // SOELDEN project styling
 .soel-side-note {
 	display: none;
@@ -263,6 +274,7 @@ body {
 	}
 
 	main {
+		overflow-x: hidden;
 		.soelden-project {
 			.soel-side-note {
 				@include mquery($screen-l) {
@@ -518,7 +530,7 @@ body {
 			&.color-2 {
 				background: linear-gradient(
 					$color-soel-anthrazit 55%,
-					var(--color-light) 55%
+					white 55%
 				);
 
 				@media screen and (max-width: 768px) {
@@ -570,6 +582,20 @@ body {
 				.content {
 					max-width: 100rem;
 					margin-inline: auto;
+				}
+
+				.content.image-layout {
+					@media screen and (min-width: 769px) {
+						> .col:nth-child(1) {
+							flex: 0 0 53%;
+							max-width: 53%;
+						}
+
+						> .col:nth-child(2) {
+							flex: 0 0 47%;
+							max-width: 47%;
+						}
+					}
 				}
 			}
 
@@ -709,6 +735,24 @@ body {
 							gap: 2rem;
 						}
 
+						&.mobile-row {
+							@media screen and (max-width: 768px) {
+								flex-direction: row-reverse;
+								align-items: stretch;
+								width: 100%;
+
+								.row {
+									flex: 1 1 0;
+									min-width: 0;
+
+									img {
+										width: 100%;
+										height: auto;
+									}
+								}
+							}
+						}
+
 						.image {
 							width: 100%;
 						}
@@ -775,9 +819,7 @@ body {
 					&.world-cup-ski {
 						aspect-ratio: 1400/320;
 
-						@media screen and (min-width: 769px) {
-							transform: rotate(-90deg) scale(4.375);
-						}
+						transform: rotate(-90deg) scale(4.375);
 					}
 				}
 
@@ -911,13 +953,14 @@ body {
 			justify-content: space-between;
 			align-items: flex-end;
 			margin-top: 2rem;
-
+			gap: 1rem;
+			overflow: hidden;
 			.feed-mockup-wrapper {
 				position: relative;
 				max-width: 100%;
 
 				img {
-					max-width: min(22rem, 100%);
+					max-width: min(16rem, 100%);
 
 					@media screen and (min-width: 1440px) {
 						max-width: 26rem;
@@ -945,7 +988,7 @@ body {
 				mix-blend-mode: difference;
 
 				@media screen and (max-width: 768px) {
-					display: none;
+					max-width: 12.5rem;
 				}
 			}
 		}
@@ -961,11 +1004,11 @@ body {
 			}
 
 			@media screen and (max-width: 768px) {
-				flex-direction: column;
+				flex-direction: row;
 
 				.col {
 					.world-cup-skis {
-						transform: rotate(90deg);
+						transform: rotate(-90deg) scale(4.375);
 					}
 				}
 			}
@@ -1055,8 +1098,6 @@ body {
 					sans-serif;
 				font-size: clamp(7em, 7vw, 8rem);
 				line-height: 1.25;
-
-		
 			}
 
 			@media screen and (max-width: 768px) {

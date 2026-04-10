@@ -73,7 +73,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="st-typo-letter-r-section" class="project-section">
+<section id="st-typo-letter-r-section" class="project-section bg-col-anthrazit">
     <div class="slot start"></div>
     <div class="content">
         <?php new Image(

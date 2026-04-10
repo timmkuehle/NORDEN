@@ -443,11 +443,17 @@ svg {
 		gap: 2rem;
 		margin-top: 6%;
 		align-items: flex-start;
+		width: 55%;
 
+
+		@include minquery($screen-l) {
+			img {
+				width: 100%;
+			}
+		}
 		@media screen and (min-width: 769px) {
 			gap: 20%;
 			flex-direction: row;
-
 			img {
 				width: 40%;
 			}

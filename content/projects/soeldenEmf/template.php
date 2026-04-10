@@ -410,14 +410,14 @@
 </section>
 <section id="emf-lineup-section" class="project-section bg-col-anthrazit">
     <div class="slot start">
-        <p class="side-note">Screendesign</p>
+        <p class="side-note">Line-Up Animation</p>
     </div>
     <div class="content" style="align-items: flex-start;">
         <?php new \Video(
             null,
             '/content/resources/media/soeldenEmf/EMF_Artist_Animation.mp4',
             '16/9',
-            '/content/resources/media/soeldenEmf/EMF_LineUp_Animation_Screen.jpg',
+            '/content/resources/media/soeldenEmf/EMF_Artist_Animation_Still.jpg',
             'EMF Artist LineUp Screen',
             true,
             true,

@@ -81,7 +81,7 @@
     <div class="slot end"></div>
     <?php new Svg(
     	null,
-    	'background-image',
+    	'background-image desktop-only',
     	'/content/resources/media/oetztaler/OERM_Website_Grafik_03.svg'
     ); ?>
 </section>
@@ -164,12 +164,26 @@
                 	true
                 ); ?>
 				<?php new Image(
-    	null,
-    	null,
-    	'/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
-    	'Oetztaler Sujet 2023',
-    	true
-    ); ?>
+                    null,
+                    null,
+                    '/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
+                    'Oetztaler Sujet 2023',
+                    true
+                ); ?>
+                <?php new Image(
+                    null,
+                    null,
+                    '/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
+                    'Oetztaler Sujet 2023',
+                    true
+                ); ?>
+                <?php new Image(
+                    null,
+                    null,
+                    '/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
+                    'Oetztaler Sujet 2023',
+                    true
+                ); ?>
 			</div>
 		</div>
     </div>
@@ -237,12 +251,12 @@
 </section>
 <section id="shop-section" class="project-section bg-col-blue full-width-new no-padding-top">
     <div class="slot start"></div>
-    <div class="content no-inline-padding-mobile">
+    <div class="content no-inline-padding-mobile line-up">
         <?php new Image(
         	null,
         	null,
         	'/content/resources/media/oetztaler/OERM_Website_Grafik_07.svg',
-        	'Style-Icon',
+        	'Style-Icon line-up-img',
         	true
         ); ?>
     </div>
@@ -274,7 +288,7 @@
         <div class="column">
             <?php new Svg(
             	null,
-            	'style-icon',
+            	'style-icon desktop-only',
             	'/content/resources/media/oetztaler/OERM_Website_Grafik_03.svg'
             ); ?>
         </div>
@@ -372,18 +386,18 @@
         	true
         ); ?>
         <?php new Image(
-            null,
+        	null,
         	'oerm-gif',
         	'/content/resources/media/oetztaler/OERM_GIF3.gif',
         	'Ötztaler GIF 2',
         	true
         ); ?>
         <?php new Image(
-            null,
-            'oerm-gif',
-            '/content/resources/media/oetztaler/OETZT_OERM_GIF2.gif',
-            'Ötztaler GIF 3',
-            true
+        	null,
+        	'oerm-gif',
+        	'/content/resources/media/oetztaler/OETZT_OERM_GIF2.gif',
+        	'Ötztaler GIF 3',
+        	true
         ); ?>
     </div>
     <div class="slot end"></div>
@@ -451,7 +465,7 @@
         	'/content/resources/media/oetztaler/OERM_Merch1_Web_1.png',
         	'Merch',
         	true,
-            '/content/resources/media/oetztaler/OERM_Merch1_Mobile_1.png'
+        	'/content/resources/media/oetztaler/OERM_Merch1_Mobile_1.png'
         ); ?>
     </div>
     <div class="col end"></div>

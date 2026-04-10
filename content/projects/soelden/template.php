@@ -143,34 +143,18 @@
 		</div>
 	</div>
 </section>
-<section class="soelden-gallery color-2 full-width bg-color-anthrazit section-2">
+<section class="soelden-gallery color-2 full-width section-2">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Colors</p>
 	</div>
 	<div class="content">
-		<div class="slot start">
-			<div class="color-swatch primary bg-color-anthrazit">
-				<p class="color-value color-orange">#24353F</p>
-			</div>
-		</div>
-		<div class="slot center">
-			<div class="color-swatch cuts">
-				<div class="color-swatch bg-color-cut-1">
-					<p class="color-value">#275C79</p>
-				</div>
-				<div class="color-swatch bg-color-cut-2">
-					<p class="color-value">#6A98BF</p>
-				</div>
-				<div class="color-swatch bg-color-cut-3">
-					<p class="color-value">#A3C4E0</p>
-				</div>
-			</div>
-		</div>
-		<div class="slot end">
-			<div class="color-swatch white bg-color-cool-gray">
-				<p class="color-value color-orange">#24353F</p>
-			</div>
-		</div>
+	<?php new \Image(
+ 	null,
+ 	'heartbeat-claim web',
+ 	'/content/resources/media/soelden/SOEL_CD_Farben.svg',
+ 	'Heartbeat of the Alps',
+ 	true
+ ); ?>
 	</div>
 </section>
 <div class="spacer"></div>
@@ -474,35 +458,43 @@
 		<p class="soel-side-note">Ski Helmet • Skiboot Bag • Neckwarmer</p>
 	</div>
 		<div class="content image-layout">
-			<div class="col" style="flex-basis: 53%;">
+			<div class="col">
 				<div class="row">
 					<?php new \Image(
-     	null,
-     	null,
-     	'/content/resources/media/soelden/branding/03_SOEL_Skibootbag.jpg',
-     	'Sölden Skiboot Bag',
-     	true
-     ); ?>
+					null,
+					'desktop-only',
+					'/content/resources/media/soelden/branding/03_SOEL_Skibootbag.jpg',
+					'Sölden Skiboot Bag',
+					true
+				); ?>
+						<div class="row">
+					<?php new \Image(
+					null,
+					'mobile-only',
+					'/content/resources/media/soelden/03_SOEL_Skibootbag_Mobile.jpg',
+					'Sölden Skiboot Bag',
+					true
+				); ?>
 				</div>
 			</div>
-			<div class="col" style="flex-basis: 47%;">
+			<div class="col mobile-row">
 				<div class="row">
 					<?php new \Image(
-     	null,
-     	null,
-     	'/content/resources/media/soelden/branding/04_SOEL_Helmbranding.png',
-     	'Sölden Skihelm',
-     	true
-     ); ?>
+						null,
+						null,
+						'/content/resources/media/soelden/branding/04_SOEL_Helmbranding.png',
+						'Sölden Skihelm',
+						true
+					); ?>
 				</div>
 				<div class="row">
 					<?php new \Image(
-     	null,
-     	null,
-     	'/content/resources/media/soelden/branding/SOEL_Buff.png',
-     	'Sölden Buff',
-     	true
-     ); ?>
+						null,
+						null,
+						'/content/resources/media/soelden/branding/SOEL_Buff.png',
+						'Sölden Buff',
+						true
+					); ?>
 				</div>
 			</div>
 		</div>

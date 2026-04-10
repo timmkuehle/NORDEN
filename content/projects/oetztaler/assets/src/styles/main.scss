@@ -63,6 +63,8 @@ $image-layout-gap: 3vw;
 
 // General styling
 body {
+	overflow-x: hidden;
+
 	.site-header {
 		box-shadow: var(--no-box-shadow-bottom);
 
@@ -235,7 +237,6 @@ body {
 #intro-text-section {
 	@media screen and (max-width: 768px) {
 		padding-top: 3.5rem;
-
 	}
 	p {
 		position: relative;
@@ -363,6 +364,10 @@ body {
 }
 
 #shop-section {
+	.line-up img {
+		transform: scale(1.05);
+	}
+
 	.background-image {
 		right: var(--main-padding-inline);
 		bottom: unset;
@@ -376,8 +381,6 @@ body {
 			width: 10%;
 		}
 	}
-
-
 }
 
 #bib-text-section {
@@ -512,3 +515,6 @@ body {
 		$color-oetz-cool-gray 70%
 	);
 }
+
+
+
