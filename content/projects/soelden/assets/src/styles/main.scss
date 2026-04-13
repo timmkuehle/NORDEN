@@ -598,10 +598,7 @@ body {
 					}
 
 					.row {
-						@include mquery($screen-m) {
-							margin-left: 0;
-							margin-right: 0;
-						}
+					
 					}
 				}
 			}
