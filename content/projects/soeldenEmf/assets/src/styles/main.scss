@@ -348,9 +348,18 @@ svg {
 		margin: 0;
 	}
 	& > * {
-		height: 4rem;
+		height: 2rem;
 		padding: 1rem;
 
+		@include minquery($screen-m) {
+			height: 3rem;
+		}
+		@include minquery($screen-l) {
+			height: 3.5rem;
+		}
+		@include minquery($screen-xl) {
+			height: 3.5rem;
+		}
 		&.anthrazit {
 			color: white;
 			border: 0;

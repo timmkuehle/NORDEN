@@ -156,19 +156,14 @@
     </div>
     <div class="color-swatches">
             <div class="anthrazit bg-col-anthrazit">
-                <p>#24353F</p>
             </div>
             <div class="mid-blue bg-col-mid-blue">
-                <p>#24353F</p>
             </div>
             <div class="light-blue bg-col-light-blue">
-                <p>#24353F</p>
             </div>
             <div class="white bg-col-white">
-                <p>#24353F</p>
             </div>
             <div class="red bg-col-red">
-                <p>#24353F</p>
             </div>
         </div>
     <div class="slot end"></div>

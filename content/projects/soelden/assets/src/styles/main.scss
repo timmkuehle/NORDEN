@@ -596,6 +596,13 @@ body {
 							max-width: 47%;
 						}
 					}
+
+					.row {
+						@include mquery($screen-m) {
+							margin-left: -.75rem;
+							margin-right: -.75rem;
+						}
+					}
 				}
 			}
 
