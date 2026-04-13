@@ -573,6 +573,16 @@ body {
 			}
 
 			&.skiwear {
+				@include mquery($screen-l) {
+					padding-left: 0 !important;
+					padding-right: 0 !important;
+				}
+				.mobile-pair {
+					@include mquery($screen-l) {
+						padding-left: 0.75rem !important;
+						padding-right: 0.75rem !important;
+					}
+				}
 				@media screen and (min-width: 769px) {
 					.slot.side-note-start {
 						padding-top: 2rem;
@@ -597,8 +607,9 @@ body {
 						}
 					}
 
-					.row {
-					
+					.skibootbag-item {
+						margin-left: 0;
+						margin-right: 0;
 					}
 				}
 			}
@@ -739,13 +750,14 @@ body {
 							gap: 2rem;
 						}
 
-						&.mobile-row {
+						&.mobile-pair {
 							@media screen and (max-width: 768px) {
-								flex-direction: row-reverse;
+								flex-direction: row;
 								align-items: stretch;
 								width: 100%;
+								gap: 0;
 
-								.row {
+								.pair-item {
 									flex: 1 1 0;
 									min-width: 0;
 

@@ -451,7 +451,7 @@
 	</div>
 		<div class="content image-layout">
 			<div class="col">
-				<div class="row">
+				<div class="skibootbag-item">
 					<?php new \Image(
 					null,
 					'desktop-only',
@@ -460,7 +460,7 @@
 					true
 				); ?>
 				</div>
-				<div class="row">
+				<div class="skibootbag-item">
 					<?php new \Image(
 					null,
 					'mobile-only',
@@ -470,8 +470,8 @@
 				); ?>
 				</div>
 			</div>
-			<div class="col mobile-row">
-				<div class="row">
+			<div class="col mobile-pair">
+				<div class="pair-item">
 					<?php new \Image(
 						null,
 						null,
@@ -480,7 +480,7 @@
 						true
 					); ?>
 				</div>
-				<div class="row">
+				<div class="pair-item">
 					<?php new \Image(
 						null,
 						null,
