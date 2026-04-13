@@ -134,14 +134,6 @@
 			<p class="color-white">Zudem haben wir für die Hervorhebung wichtiger Elemente zwei lebendige, moderne Call-to-Action-Farben integriert.</p>
 		</div>
 	</div>
-	<div class="slot side-note-end has-content align-end">
-		<div class="color-swatch mini bg-color-orange">
-			<p class="color-value color-white">#24353F</p>
-		</div>
-		<div class="color-swatch mini bg-color-red">
-			<p class="color-value color-white">#24353F</p>
-		</div>
-	</div>
 </section>
 <section class="soelden-gallery color-2 full-width section-2">
 	<div class="slot side-note-start">

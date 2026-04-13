@@ -156,6 +156,20 @@
 				</svg>
 			</div>
 			<div class="images-container">
+            <?php new Image(
+            	null,
+            	null,
+            	'/content/resources/media/oetztaler/soel_oerm_sujet_A2_26.jpg',
+            	'Oetztaler Sujet 2026',
+            	true
+            ); ?>
+            <?php new Image(
+            	null,
+            	null,
+            	'/content/resources/media/oetztaler/soel_oerm_sujet_A2_25.jpg',
+            	'Oetztaler Sujet 2025',
+            	true
+            ); ?>
                 <?php new Image(
                 	null,
                 	null,
@@ -167,21 +181,7 @@
                     null,
                     null,
                     '/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
-                    'Oetztaler Sujet 2023',
-                    true
-                ); ?>
-                <?php new Image(
-                    null,
-                    null,
-                    '/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
-                    'Oetztaler Sujet 2023',
-                    true
-                ); ?>
-                <?php new Image(
-                    null,
-                    null,
-                    '/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
-                    'Oetztaler Sujet 2023',
+                    'Oetztaler Sujet 2024',
                     true
                 ); ?>
 			</div>
