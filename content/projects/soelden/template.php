@@ -459,7 +459,8 @@
 					'Sölden Skiboot Bag',
 					true
 				); ?>
-						<div class="row">
+				</div>
+				<div class="row">
 					<?php new \Image(
 					null,
 					'mobile-only',
