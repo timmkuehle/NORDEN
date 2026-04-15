@@ -1,11 +1,12 @@
 <?php
 $seoTitle = 'Ötztaler Radmarathon Sölden Branding & Corporate Design | NORDEN';
-$seoDescription = 'Corporate Design für den Ötztaler Radmarathon in Sölden: visuelle Identität, Event Branding und Kommunikation für 227 Kilometer und 5.500 Höhenmeter.';
+$seoDescription =
+	'Corporate Design für den Ötztaler Radmarathon in Sölden: visuelle Identität, Event Branding und Kommunikation für 227 Kilometer und 5.500 Höhenmeter.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
 		'title' => $seoTitle,
-		'description' => $seoDescription,
+		'description' => $seoDescription
 	];
 	return;
 }
@@ -71,13 +72,25 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="services">
-	<p class="service">Markenstrategie</p>
-	<p class="service">Corporate Design</p>
-	<p class="service">Branding & Implementierung</p>
-	<p class="service">Online & Offline Kommunikationskonzept</p>
-	<p class="service">Motion Design</p>
-	<p class="service">Social Media Konzept</p>
+<section class="project-section">
+<div class="slot start"></div>
+<div class="content">
+<?php new AnimatedBanner(
+	null,
+	'animated-banner',
+	[
+		'Corporate Design',
+		'Branding & Implementierung',
+		'Kommunikationskonzept',
+		'Motion & Animation',
+		'Social Media',
+		'Event Branding'
+	],
+	'col-oetz-blue',
+	'col-oetz-blue'
+); ?>
+</div>
+<div class="slot end"></div>
 </section>
 <section id="movement-section" class="project-section has-background-image">
     <div class="slot start"></div>
@@ -189,12 +202,12 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 	true
                 ); ?>
 				<?php new Image(
-                    null,
-                    null,
-                    '/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
-                    'Oetztaler Sujet 2024',
-                    true
-                ); ?>
+    	null,
+    	null,
+    	'/content/resources/media/oetztaler/05_OERM_Sujet2023_1.jpg',
+    	'Oetztaler Sujet 2024',
+    	true
+    ); ?>
 			</div>
 		</div>
     </div>

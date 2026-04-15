@@ -4,6 +4,8 @@
 @use "@styles/side-note.scss";
 @use "@styles/services.scss";
 @use "@styles/bg-image-container.scss";
+@use "@styles/animated-banner.scss";
+
 
 // Project variables
 $color-blue: #005587;
@@ -163,29 +165,8 @@ body {
 			font-weight: 400;
 		}
 
-		.services {
-			padding-top: 1rem;
-
-			@-moz-document url-prefix() {
-				& {
-					scrollbar-color: $color-mid-blue white;
-				}
-			}
-
-			&::-webkit-scrollbar-track {
-				background: white;
-			}
-
-			&::-webkit-scrollbar-thumb {
-				background: $color-gray-blue;
-			}
-
-			.service {
-				text-transform: uppercase;
-				font-family: Relevant, Arial, Helvetica, sans-serif;
-				font-weight: 300;
-				color: $color-gray-blue;
-			}
+		.animated-banner {
+			font-family: Relevant, Arial, Helvetica, sans-serif;
 		}
 	}
 

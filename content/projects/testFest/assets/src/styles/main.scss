@@ -2,6 +2,8 @@
 @use "@styles/project-section.scss";
 @use "@styles/side-note.scss";
 @use "@styles/services.scss";
+@use "@styles/animated-banner.scss";
+
 
 // Project variables
 $color-anthrazit: #24353f;
@@ -22,7 +24,9 @@ $color-medium-gray: #7f7f7f;
 .col-white {
 	color: white;
 }
-
+.col-medium-gray {
+	color: $color-medium-gray;
+}
 .bg-col-anthrazit {
 	background-color: $color-anthrazit;
 }

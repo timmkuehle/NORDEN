@@ -74,15 +74,26 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     	true
     ); ?>
 </section>
-<section class="services">
-	<p class="service">Markenstrategie</p>
-	<p class="service">Corporate Design</p>
-	<p class="service">Branding & Implementierung</p>
-	<p class="service">Online & Offline Kommunikationskonzept</p>
-	<p class="service">Brandclip</p>
-	<p class="service">Animationen</p>
-	<p class="service">Social Media</p>
-	<p class="service">Anpassung aller Events / Submarken</p>
+<section class="project-section">
+<div class="slot start"></div>
+<div class="content">
+<?php new AnimatedBanner(
+	null,
+	'animated-banner',
+	[
+        'Markenstrategie',
+		'Corporate Design',
+		'Branding & Implementierung',
+		'Online & Offline Kommunikationskonzept',
+		'Brandclip',
+		'Animationen',
+		'Social Media',
+	],
+	'col-gray-5',
+	'col-blue'
+); ?>
+</div>
+<div class="slot end"></div>
 </section>
 <section id="claim-section" class="project-section bg-col-gray-5 has-background-image">
     <div class="slot start">

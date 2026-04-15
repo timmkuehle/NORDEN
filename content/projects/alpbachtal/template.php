@@ -45,25 +45,25 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     
     <div class="slot end"></div>
 </section>
-<section class="project-section service-section">
-    <div class="slot start"></div>
-    <div class="content">
-    <div class="services">
-        <span class="service-title col-beige bold uppercase">Unsere Leistungen:</span>
-        <span class="service">Corporate Design</span>
-        <span class="separator">–</span>
-        <span class="service">Branding & Implementierung</span>
-        <span class="separator">–</span>
-        <span class="service">Online & Offline Kommunikationskonzept</span>
-        <span class="separator">–</span>
-        <span class="service">Motion Design</span>
-        <span class="separator">–</span>
-        <span class="service">Social Media</span>
-        <span class="separator">–   </span>
-        <span class="service">Identity Workshops</span>
-    </div>
-    </div>
-    <div class="slot end"></div>
+<section class="project-section">
+<div class="slot start"></div>
+<div class="content">
+<?php new AnimatedBanner(
+	null,
+	'animated-banner',
+	[
+		'Corporate Design',
+		'Branding & Implementierung',
+		'Online & Offline Kommunikationskonzept',
+		'Motion Design',
+		'Social Media',
+		'Identity Workshops'
+	],
+	'col-beige',
+	'col-beige'
+); ?>
+</div>
+<div class="slot end"></div>
 </section>
 <section class="services">
 

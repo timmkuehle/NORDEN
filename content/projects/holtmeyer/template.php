@@ -5,7 +5,7 @@ $seoDescription = '';
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
 		'title' => $seoTitle,
-		'description' => $seoDescription,
+		'description' => $seoDescription
 	];
 	return;
 }
@@ -50,13 +50,25 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="services">
-	<p class="service">Gestaltungskonzept</p>
-	<p class="service">Branding & Implementierung</p>
-	<p class="service">Online & Offline Kommunikationskonzept</p>
-	<p class="service">Motion Design</p>
-	<p class="service">Social Media Toolbox</p>
-	<p class="service">Merchandise</p>
+<section class="project-section">
+<div class="slot start"></div>
+<div class="content">
+<?php new AnimatedBanner(
+	null,
+	'animated-banner',
+	[
+		'Corporate Design',
+		'Webdesign',
+		'Logo Redesign',
+		'Branding & Implementierung',
+		'Mitarbeiterbekleidung',
+		'Merch'
+	],
+	'col-brown',
+	'col-beige'
+); ?>
+</div>
+<div class="slot end"></div>
 </section>
 <section id="logo-text-section" class="project-section">
     <div class="slot start">
@@ -272,7 +284,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         	null,
         	'/content/resources/media/holtmeyer/14_HOLT_Arbeitskleidung.png',
         	'HOLTMEYER Merchandise und Kleidung',
-        	true,
+        	true
         ); ?>
     </div>
     <div class="slot end"></div>

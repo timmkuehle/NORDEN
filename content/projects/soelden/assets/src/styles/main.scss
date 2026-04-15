@@ -1,5 +1,6 @@
 // Import component stylesheets
 @use "../../../../../../components/Video/Video.scss";
+@use "@styles/animated-banner.scss";
 
 // Project variables
 $color-soel-anthrazit: #24353f;
@@ -22,6 +23,14 @@ $color-soel-cool-gray: #eeeff1;
 
 .color-cut-3 {
 	color: $color-soel-cut-3;
+}
+
+// Banner component expects "col-*" utility classes (used across other projects)
+.col-soel-cut-3 {
+	color: $color-soel-cut-3;
+}
+.col-red {
+	color: $color-soel-red;
 }
 
 .bg-color-anthrazit {

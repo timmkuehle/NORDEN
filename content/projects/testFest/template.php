@@ -34,21 +34,25 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             <p class="desktop-only text-is-large">Das TEST FEST markiert den Auftakt in den Winter und macht die besondere Dichte an Sportgeschäften in Sölden erlebbar. Zahlreiche Marken präsentieren <span class="highlight-circle">Neuheiten</span>, während Kulinarik, Musik und Side-Events dem Format einen eigenständigen, lebendigen Charakter geben.</p>
             <p class="mobile-only text-is-large">Das TEST FEST macht den Start in den Winter und die außergewöhnliche Sportgeschäftedichte in Sölden als eigenständiges Event erlebbar. Marken, <span class="highlight-circle">Neuheiten</span> und Side-Events schaffen einen lebendigen Auftakt zur Saison.</p>
         </div>
-
-        <div  class="services">
-        <span class="services-title ">Unsere Leistungen:</span>
-        <p class="service">Event Branding</p>
-        <span class="separator">–</span>
-        <p class="service">Branding & Implementierung</p>
-        <span class="separator">–</span>
-        <p class="service">Merch</p>
-        <span class="separator">–</span>
-        <p class="service">Social Media</p>
-        <span class="separator">–</span>
-        <p class="service">Online & Offline Kommunikationskonzepte</p>
+        <?php new AnimatedBanner(
+	null,
+	'animated-banner',
+	[
+		'Event Branding',
+		'Bradning & Implementierung',
+		'Merch',
+		'Social Media',
+		'Online & Offline Kommunikationskonzepte'
+	],
+	'col-white',
+	'col-anthrazit'
+); ?>
     </div>
-    </div>
+    
     <div class="slot end"></div>
+
+
+
 </section>
 
 

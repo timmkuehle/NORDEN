@@ -1,6 +1,8 @@
 <?php
-$seoTitle = 'Burton Snowboards Europe Retail Design, Campaigns & Visual Support | NORDEN';
-$seoDescription = 'Für Burton Snowboards Europe entwickelte NORDEN Retail Design, Kampagnenassets, Social Media Visuals und Merchandise im klaren, progressiven Look der Marke.';
+$seoTitle =
+	'Burton Snowboards Europe Retail Design, Campaigns & Visual Support | NORDEN';
+$seoDescription =
+	'Für Burton Snowboards Europe entwickelte NORDEN Retail Design, Kampagnenassets, Social Media Visuals und Merchandise im klaren, progressiven Look der Marke.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
@@ -38,9 +40,22 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 <h1 class="project-headline">Burton Snowboards</h1>
                 <p class="is-text desktop-only">Burton steht für Snowboardkultur, Progression und eine klare visuelle Haltung. Für das European Headquarter setzten wir grafische Assets, Kampagnen und Anwendungen um, die die Marke über Retail, Social Media, Merch und verschiedene Touchpoints hinweg konsistent weiterführen.</p>
                 <p class="is-text mobile-only">Für Burton Europe entwickelten wir grafische Anwendungen für Retail, Social Media, Merch und Kampagnen – markenkonform, flexibel und nah an der Snowboardkultur.</p>
-
-                <p <span class="col-blue">  <span class="col-red is-bold is-uppercase">Unsere Leistungen:  </span> Retail Interieur — Print & Online Kommuniaktion — Paid Media — Social Media — E-Commerce — Merch — Design Variations — Grafik Support</span></p>
-
+                <?php new AnimatedBanner(
+                    null,
+                    'animated-banner',
+                    [
+                        'Retail Interieur',
+                        'Print & Online Kommunikation',
+                        'Paid Media',
+                        'Social Media',
+                        'E-Commerce',
+                        'Merch',
+                        'Design Variations',
+                        'Grafik Support'
+                    ],
+                    'col-red',
+                    'col-blue'
+                ); ?>
             </div>
         </div>
     </section>

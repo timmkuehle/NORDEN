@@ -51,17 +51,24 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="norden-intro">
 	<p class="norden-intro-text text-is-large desktop-only">Mitten in den Alpen, aber mit urbanem Mindset: Sölden steht für Sport, Action und Entertainment. Ob Winter oder Sommer – Sölden bringt Sport, Musik und Lifestyle auf einzigartige Weise zusammen. Der neue Markenauftritt übersetzt diesen Spirit in ein klares, progressives Design. Für eine Destination, die mehr ist als ein Ort: <span class="highlight-circle">eine Haltung.</span>.</p>
 	<p class="norden-intro-text text-is-large mobile-only">Sölden ist Bewegung, Energie und Haltung. Die Marke verbindet alpinen Sport mit urbanem Lifestyle – klar, progressiv und unverwechselbar.</p>
-</section>
-<section class="services full-width">
-	<p class="service">Markenstrategie</p>
-	<p class="service">Corporate Design</p>
-	<p class="service">Branding & Implementierung</p>
-	<p class="service desktop-only">Online & Offline Kommunikationskonzept</p>
-	<p class="service desktop-only">Brandclip</p>
-	<p class="service desktop-only">Animationen</p>
-	<p class="service">Social Media</p>
-	<p class="service desktop-only">Anpassung aller Events / Submarken</p>
-	<p class="service mobile-only">Event Branding</p>
+
+
+<?php new AnimatedBanner(
+	null,
+	'animated-banner',
+	[
+		'Markenstrategie',
+		'Corporate Design',
+		'Branding & Implementierung',
+		'Online & Offline Kommunikationskonzept',
+		'Brandclip',
+		'Animationen',
+		'Social Media',
+		'Anpassungen aller Events / Submarken',
+	],
+	'col-soel-cut-3',
+	'col-red'
+); ?>
 </section>
 
 <div class="spacer"></div>

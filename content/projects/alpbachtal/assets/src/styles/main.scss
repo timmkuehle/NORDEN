@@ -5,6 +5,7 @@
 @use "@styles/services.scss";
 @use "@styles/bg-image-container.scss";
 @use "@styles/images-slideshow.scss";
+@use "@styles/animated-banner.scss";
 
 // Project variables
 $color-beige: #ecd7a3;
@@ -18,6 +19,10 @@ $color-green: #4c8155;
 .col-beige {
 	color: $color-beige;
 }
+.col-deep-beige {
+	color: $color-deep-beige;
+}
+
 .col-medium {
 	color: $color-medium;
 }
