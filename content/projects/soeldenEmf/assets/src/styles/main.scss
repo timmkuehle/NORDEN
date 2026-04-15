@@ -178,9 +178,7 @@ body {
 				height: 110%;
 				border-color: $color-soel-light-blue;
 
-				@media screen and (max-width: 768px) {
-					display: none;
-				}
+			
 			}
 		}
 	}
@@ -202,7 +200,10 @@ img,
 svg {
 	width: 100%;
 }
-
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
 // Component styling
 .soelden-text-section {
 	@media screen and (min-width: 769px) {

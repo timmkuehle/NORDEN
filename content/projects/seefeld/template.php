@@ -1,3 +1,17 @@
+<?php
+$seoTitle = 'Seefeld Destination Branding & Corporate Design | NORDEN';
+$seoDescription =
+	'Corporate Design für Seefeld: Destination Branding und visueller Markenauftritt für die Region Seefeld – Tirols Hochplateau.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription
+	];
+	return;
+}
+?>
+
 <section id="logo-section" class="project-section no-padding-bottom" style="align-items: flex-end;">
     <div class="slot start">
         <p class="side-note">Logo</p>
@@ -23,7 +37,8 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 100%;">
-            <p class="text-large">Die Region Seefeld liegt auf einem Hochplateau zwischen Wettersteingebirge und Karwendel und ist für seine Langlaufloipen bekannt. 2021 wurde entschieden, sich von dem Namen “Olympiaregion Seefeld” zu trennen und die Region anhand von ihren geografischen Besonderheit – dem Hochplateau – zu beschreiben. Dieses Alleinstellungsmerkmal durften wir in einem Logorelaunch, sowie einem neuen Corporate Design grafisch interpretieren und umsetzten.</p>
+        <p class="desktop-only text-is-large">Seefeld liegt auf einem Hochplateau zwischen Wetterstein und Karwendel. Mit der Neupositionierung wurde diese geografische Besonderheit zum prägenden Merkmal der Marke – und in ein neues Logo sowie ein ganzheitliches Corporate Design übersetzt.</p>
+        <p class="mobile-only text-is-large">Mit der Neupositionierung wurde das Hochplateau zum prägenden Merkmal der Marke Seefeld – übersetzt in Logo und Corporate Design.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -61,7 +76,8 @@
     <div class="content">
         <div class="column" style="width: 30%;">
             <h2>Logo</h2>
-            <p>Das Logo wurde im Zuge des neuen CDs ebenfalls angepasst. Es wurde insgesamt cleaner, moderner und hat dennoch seine Individualität behalten. In leuchtendem Blau oder Weiß gehalten, vermittelt es eine frische und einladende Atmosphäre, die die Naturverbundenheit und das alpine Flair des Ortes widerspiegelt.</p>
+            <p class="desktop-only">Im Zuge des Rebrandings wurde auch das Logo neu gedacht. Es ist klarer, zeitgemäßer und behält zugleich seinen eigenständigen Charakter. In Blau oder Weiß eingesetzt, transportiert es Frische, alpine Leichtigkeit und die enge Verbindung zur Region.</p>
+            <p class="mobile-only">Das überarbeitete Logo ist klarer, moderner und bleibt zugleich eigenständig im Charakter.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -92,7 +108,7 @@
             	'/content/resources/media/seefeld/SFLD_Ortsbezeichnungen_Desktop.svg',
             	'Markenlogo und Ortsbezeichnungen',
             	true,
-            	'content/resources/media/seefeld/SFLD_Ortsbezeichnungen_Mobile_1.svg'
+            	'content/resources/media/seefeld/SFLD_Ortsbezeichnungen_Mobile.svg'
             ); ?>
         </div>
         <div class="column mobile-only">
@@ -129,7 +145,8 @@
     </div>
     <div class="content" style="align-items: flex-end; gap: 3vw;">
         <div class="column" style="width: 30%;">
-            <p>Die Farbwelt leitet sich aus der Natur um Seefeld ab. Kühle Blauabstufungen, kombiniert mit warmen Ockertönen runden die Farbwelt perfekt ab und bieten genügend Spielraum in allen Anwendungen.</p>
+        <p class="desktop-only">Die Farbwelt leitet sich aus der Natur rund um Seefeld ab. Kühle Blautöne treffen auf warme Ockerabstufungen und schaffen ein System, das Wiedererkennbarkeit, Flexibilität und regionale Verankerung verbindet.</p>
+        <p class="mobile-only">Kühle Blautöne und warme Ockerabstufungen leiten sich direkt aus der Landschaft rund um Seefeld ab.</p>
         </div>
         <div class="column" style="width: 70%;">
             <?php new Image(
@@ -137,7 +154,8 @@
             	null,
             	'/content/resources/media/seefeld/SFLD_Farbgebung.png',
             	'Markenlogo und Ortsbezeichnungen',
-            	true
+            	true,
+            	'/content/resources/media/seefeld/SFLD_Farbgebung_Mobile.png'
             ); ?>
         </div>
     </div>
@@ -201,8 +219,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section no-padding-top no-padding-bottom full-width-new" style="position: relative; z-index: -1;">
-    <div class="slot start"></div>
+<section class="project-section no-padding-bottom full-width-new trenner-section" style="position: relative;">
     <div class="content no-inline-padding-mobile">
         <?php new Image(
         	null,
@@ -212,7 +229,19 @@
         	true
         ); ?>
     </div>
-    <div class="slot end"></div>
+
+    <div class="banner bg-col-gray-blue" aria-label="Tirols Hochplateau">
+        <div class="banner-track" aria-hidden="true">
+            <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
+        </div>
+        <div class="banner-track" aria-hidden="true">
+            <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
+        </div>
+    </div>
 </section>
 <section class="project-section no-padding-top full-width-new">
     <div class="slot start"></div>
@@ -260,7 +289,8 @@
     <div class="content">
         <div class="column">
             <h2>Icons</h2>
-            <p>Die neu gestalteten Icons erstrahlen ebenfalls in den definierten CD-Farben und nehmen gestalterische Elemente des Schriftzugs des Logos auf. Dadurch wird eine harmonische Verbindung zwischen den Icons und der Marke geschaffen, die die visuelle Identität des Corporate Designs unterstreicht.</p>
+            <p class="desktop-only">Die Piktogrammfamilie greift Formensprache und Farben des Corporate Designs auf. So entsteht ein konsistentes System, das Orientierung schafft und die visuelle Identität der Marke bis ins Detail weiterführt.</p>
+            <p class="mobile-only">Die Piktogramme führen Formensprache und Farbwelt in einem konsistenten System weiter.</p>
         </div>
     </div>
     <div class="slot end"></div>

@@ -46,6 +46,31 @@ body {
 			}
 		}
 
+		.highlight-circle-grey {
+			position: relative;
+			white-space: nowrap;
+		
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				transform: translate(-50%, -50%) rotate(-3.5deg);
+				top: 50%;
+				left: 51%;
+				width: 115%;
+				height: 130%;
+				border-radius: 100%;
+				border: 2px solid #3c3c3c;
+				transform-origin: 50% 0;
+			}
+		
+			&.blue::after {
+				border-color: var(--color-primary);
+			}
+		}
+		.ini-heading {
+			margin-bottom: 1.5rem;
+		}
 		.job-offer {
 			display: flex;
 			flex-direction: column;

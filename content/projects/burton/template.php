@@ -1,3 +1,16 @@
+<?php
+$seoTitle = 'Burton Snowboards Europe Retail Design, Campaigns & Visual Support | NORDEN';
+$seoDescription = 'Für Burton Snowboards Europe entwickelte NORDEN Retail Design, Kampagnenassets, Social Media Visuals und Merchandise im klaren, progressiven Look der Marke.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription
+	];
+	return;
+}
+?>
+
 <div class="project-wrapper burton">
     <section class="project-section section-1">
         <div class="hero-image-wrapper">
@@ -22,8 +35,10 @@
         <div class="row">
             
             <div class="col s16 m16 l12 xl9">
-                <h1 class="project-headline">Burton Headquarter Europe</h1>
-                <p class="is-text">Die Firma Burton ist ein amerikanischer Hersteller von Snowboards, Boots und Bindungen sowie Outdoorbekleidung mit europäischem Hauptsitz in Innsbruck, Tirol. In Zusammenarbeit haben wir digitale Assets zur konsistenten Präsenz über alle Kanäle hinweg implementiert und das Corporate Design auf verschiedene Kampagnen zur visuellen Unterstützung im Retail Bereich angewendet. NORDEN unterstützte Burton vor allem im Bereich Grafik und Implementierung bei verschiedenen Projekten.</p>
+                <h1 class="project-headline">Burton Snowboards</h1>
+                <p class="is-text desktop-only">Burton steht für Snowboardkultur, Progression und eine klare visuelle Haltung. Für das European Headquarter setzten wir grafische Assets, Kampagnen und Anwendungen um, die die Marke über Retail, Social Media, Merch und verschiedene Touchpoints hinweg konsistent weiterführen.</p>
+                <p class="is-text mobile-only">Für Burton Europe entwickelten wir grafische Anwendungen für Retail, Social Media, Merch und Kampagnen – markenkonform, flexibel und nah an der Snowboardkultur.</p>
+
                 <p <span class="col-blue">  <span class="col-red is-bold is-uppercase">Unsere Leistungen:  </span> Retail Interieur — Print & Online Kommuniaktion — Paid Media — Social Media — E-Commerce — Merch — Design Variations — Grafik Support</span></p>
 
             </div>
@@ -85,16 +100,15 @@
     </section>
 
     <section class="project-section section-4 bg-col-white">
-        <div class="animated-banner">
-            <div class="animated-banner-track">
-                <span class="banner-text">HEI HELSINKI. NICE TO SEE YOU AGAIN!</span>
-                <span class="banner-text" aria-hidden="true">HEI HELSINKI. NICE TO SEE YOU AGAIN!</span>
-                <span class="banner-text" aria-hidden="true">HEI HELSINKI. NICE TO SEE YOU AGAIN!</span>
-                <span class="banner-text" aria-hidden="true">HEI HELSINKI. NICE TO SEE YOU AGAIN!</span>
-                <span class="banner-text" aria-hidden="true">HEI HELSINKI. NICE TO SEE YOU AGAIN!</span>
-                <span class="banner-text" aria-hidden="true">HEI HELSINKI. NICE TO SEE YOU AGAIN!</span>
-            </div>
-        </div>
+       
+
+        <?php new Image(
+        	null,
+        	'fullwidth',
+        	'/content/resources/media/burton/03_Burton_Store_HEI-HELSINKI-Banner.gif',
+        	null,
+        	true
+        ); ?>
     </section>
 
     <section class="project-section has-padding-lr section-5 bg-col-white">
@@ -129,47 +143,47 @@
                     <div class="carousel-track">
                         <div class="carousel-slide">
                             <?php new Image(
-                                null,
-                                'slide-img',
-                                '/content/resources/media/burton/Burton_TableSign_Backpacks.jpg',
-                                null,
-                                false
+                            	null,
+                            	'slide-img',
+                            	'/content/resources/media/burton/Burton_TableSign_Backpacks.jpg',
+                            	null,
+                            	false
                             ); ?>
                         </div>
                         <div class="carousel-slide">
                             <?php new Image(
-                                null,
-                                'slide-img',
-                                '/content/resources/media/burton/Burton_TableSign_Futuretrust.jpg',
-                                null,
-                                false
+                            	null,
+                            	'slide-img',
+                            	'/content/resources/media/burton/Burton_TableSign_Futuretrust.jpg',
+                            	null,
+                            	false
                             ); ?>
                         </div>
                         <div class="carousel-slide">
                             <?php new Image(
-                                null,
-                                'slide-img',
-                                '/content/resources/media/burton/Burton_TableSign_Rainwear_Men.jpg',
-                                null,
-                                false
+                            	null,
+                            	'slide-img',
+                            	'/content/resources/media/burton/Burton_TableSign_Rainwear_Men.jpg',
+                            	null,
+                            	false
                             ); ?>
                         </div>
                         <div class="carousel-slide">
                             <?php new Image(
-                                null,
-                                'slide-img',
-                                '/content/resources/media/burton/Burton_TableSign_Rainwear_Women.jpg',
-                                null,
-                                false
+                            	null,
+                            	'slide-img',
+                            	'/content/resources/media/burton/Burton_TableSign_Rainwear_Women.jpg',
+                            	null,
+                            	false
                             ); ?>
                         </div>
                         <div class="carousel-slide">
                             <?php new Image(
-                                null,
-                                'slide-img',
-                                '/content/resources/media/burton/Burton_TableSign_Tees.jpg',
-                                null,
-                                false
+                            	null,
+                            	'slide-img',
+                            	'/content/resources/media/burton/Burton_TableSign_Tees.jpg',
+                            	null,
+                            	false
                             ); ?>
                         </div>
                     </div>

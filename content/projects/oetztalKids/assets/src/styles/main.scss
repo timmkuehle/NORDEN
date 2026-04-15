@@ -63,6 +63,7 @@ body {
 	--color-light-rgb: 243, 235, 228;
 	main {
 		padding: 0;
+		overflow-x: hidden;
 	}
 	.site-header {
 		box-shadow: var(--no-box-shadow-bottom);
@@ -144,6 +145,21 @@ $smaller-line-height: 1;
 .is-uppercase {
 	text-transform: uppercase;
 }
+.desktop-only {
+	display: none !important;
+
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
+
 
 .section-name {
 	display: none;
@@ -250,6 +266,10 @@ $smaller-line-height: 1;
 	@include minquery($screen-xl) {
 		padding: 9rem 4.375rem 12rem;
 	}
+
+	.row {
+		align-items: flex-end;
+	}
 	.image-absolute {
 		position: absolute;
 		bottom: -2.1rem;
@@ -277,17 +297,105 @@ $smaller-line-height: 1;
 	.image-subtitle {
 		font-size: $font-size-big;
 		color: $color-red;
-		margin-top: 3.25rem;
+		margin-bottom: 1.375rem;
 	}
 	img {
 		width: 100%;
-		overflow: visible;
+		overflow: hidden;
 	}
 
 	.col {
 		@include mquery($screen-m) {
 			margin-bottom: 3.5rem;
 		}
+	}
+
+	// Carousel (right column) + navigation (left column)
+	.section-2-left {
+		position: relative;
+	}
+
+	.carousel-navigation {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		gap: 0.75rem;
+		align-items: center;
+		justify-content: flex-end;
+		padding: 0.5rem 0;
+		z-index: 10;
+		pointer-events: auto;
+	}
+
+	.carousel {
+		overflow: hidden;
+		width: 100%;
+		aspect-ratio: 5 / 4;
+	}
+
+	.carousel-track {
+		display: flex;
+		height: 100%;
+		transition: transform 0.3s ease;
+	}
+
+	.carousel-slide {
+		flex: 0 0 100%;
+		width: 100%;
+		height: 100%;
+		display: flex;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			display: block;
+		}
+	}
+
+	.carousel-prev,
+	.carousel-next {
+		appearance: none;
+		border: none;
+		padding: 0;
+		margin: 0;
+		width: 26px;
+		height: 20px;
+		background: url("../../../../../resources/media/burton/arrow-swiper.svg")
+			no-repeat center;
+		background-size: contain;
+		cursor: pointer;
+		transition: transform 0.2s ease;
+		// Tint the (black) SVG arrow to the project's gold color.
+		filter: invert(74%) sepia(86%) saturate(1845%) hue-rotate(359deg)
+			brightness(99%) contrast(106%);
+
+		@media (hover: hover) {
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+
+		@include minquery($screen-m) {
+			width: 21px;
+			height: 15px;
+		}
+	}
+
+	.carousel-prev {
+		transform: scaleX(-1);
+
+		@media (hover: hover) {
+			&:hover {
+				transform: scaleX(-1) scale(1.1);
+			}
+		}
+	}
+
+	// Ensure SVG doesn't block nav button clicks
+	.section-2-left svg {
+		pointer-events: none;
 	}
 }
 .section-3 {

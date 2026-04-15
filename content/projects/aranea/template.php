@@ -1,3 +1,17 @@
+<?php
+$seoTitle = 'ARANEA Corporate Design für Mädchen*zentrum & Beratung | NORDEN';
+$seoDescription =
+	'Corporate Design für ARANEA in Innsbruck: visueller Auftritt für Mädchenzentrum, Beratung und Angebote für Mädchen und junge Frauen.*';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription
+	];
+	return;
+}
+?>
+
 <div class="aranea-project-wrapper">
 <div class="aranea-intro bg-col-dark-green">
 	<?php new Svg(
@@ -26,9 +40,12 @@
   	'ARANEA stands for empowerment and support for girls* and young woman'
   ); ?>
 		</div>
-		<div class="column col-light-green">
+		<div class="column col-light-green desktop-only">
 			<p class="uppercase bold">ARANEA bietet Mädchen* und jungen Frauen* einen Raum, in dem sie Wertschätzung, Bildung, Reflexion über Weiblichkeit sowie den Abbau patriarchaler Strukturen erfahren können.</p>
 			<p class="uppercase bold">Die Organisation richtet sich an Menschen aller Geschlechter und Altersgruppen und arbeitet auf gesellschaftlichen Wandel und Antidiskriminierung hin, indem sie Bewusstsein schafft.</p>
+		</div>
+		<div class="column col-light-green mobile-only">
+			<p class="uppercase bold">ARANEA schafft Raum für Mädchen* und junge Frauen* – für Wertschätzung, Bildung und Selbstbestimmung. Die Organisation setzt sich für gesellschaftlichen Wandel, Antidiskriminierung und mehr Bewusstsein ein.</p>
 		</div>
 	</div>
 	<div class="slot end"></div>
@@ -62,7 +79,8 @@
 	<div class="content">
 		<div class="column">
 			<h2>Bold, Mutig, Vielseitig & Einzigartig</h2>
-			<p>Das neue Logo von ARANEA vermittelt das ein Gefühl von Freiheit und Flexibilität. Da der Buchstabe „A“ dreimal im Namen vorkommt, erhält er eine besondere Bedeutung und kann sogar als eigenständiges Designelement verwendet werden. Ausgehend von der Schriftart haben wir das „A“ modifiziert, um dem Logo eine unverwechselbare Note zu verleihen. Auch das „E“ wurde leicht angepasst, um sicherzustellen, dass jedes Detail die Einzigartigkeit von ARANEA widerspiegelt.</p>
+  			<p class="desktop-only">Das Logo vermittelt Offenheit, Leichtigkeit und Flexibilität. Die charakteristischen Buchstabenformen – besonders das prägende „A“ – machen ARANEA unverwechselbar und schaffen ein starkes visuelles Erkennungszeichen.</p>
+			<p class="mobile-only">Das Logo wirkt offen, flexibel und unverwechselbar. Besonders das prägende „A“ macht ARANEA visuell klar erkennbar.</p>
 		</div>
 		<div class="column">
 			<?php new Image(
@@ -92,9 +110,10 @@
 	<div class="slot start"></div>
 	<div class="content">
 		<div class="column">
-			<h2>Weibliche KörperFormen</h2>
-			<p class="bold">„Jeder einzelne Frauenkörper verlangt, zu seinen eigenen Bedingungen akzeptiert zu werden.“”</p>
-			<p>Abstrakte Formen, die aus den unterschiedlichen weiblichen Körpertypen abgeleitet wurden, dienen als Gestaltungselemente im Hintergrund. Diese abstrakten Grafiken spiegeln den Geist von ARANEA wider: Individualität und Inklusivität.</p>
+			<h2 class="col-dark-green">Weibliche KörperFormen</h2>
+			<p class="bold desktop-only">„Jeder einzelne Frauenkörper verlangt, zu seinen eigenen Bedingungen akzeptiert zu werden.“”</p>
+			<p class="desktop-only">Abstrakte Formen, die aus den unterschiedlichen weiblichen Körpertypen abgeleitet wurden, dienen als Gestaltungselemente im Hintergrund. Diese abstrakten Grafiken spiegeln den Geist von ARANEA wider: Individualität und Inklusivität.</p>
+		<p class="mobile-only">Abstrakte Formen, inspiriert von vielfältigen Körperformen, prägen die Gestaltung im Hintergrund. Sie stehen für Individualität, Vielfalt und Inklusivität.</p>
 		</div>
 	</div>
 	<div class="slot end"></div>
@@ -121,7 +140,8 @@
 	<div class="content" style="justify-content: flex-start;">
 		<div class="column">
 			<h2>Schrift</h2>
-			<p>Die einzigartige Headline-Schrift bietet eine unendliche Auswahl an Glyphen und kann alles sein, was man sich wünscht. Zur verspielten Headline-Schrift kombinieren wir eine serifenlose Schriftart, die speziell für Benutzeroberflächen entworfen wurde.</p>
+			<p class="desktop-only">Die Typografie verbindet Eigenständigkeit mit Klarheit. Eine expressive Headline-Schrift trifft auf eine sachliche Sans Serif und schafft so einen Auftritt, der zugleich nahbar, selbstbewusst und funktional wirkt.</p>
+			<p class="mobile-only">Eine expressive Headline-Schrift und eine klare Sans Serif schaffen einen Auftritt, der nahbar, selbstbewusst und funktional wirkt.</p>
 		</div>
 	</div>
 	<div class="slot end"></div>

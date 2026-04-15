@@ -1,3 +1,16 @@
+<?php
+$seoTitle = 'Pleasure Snowboard Magazine Rebranding & Editorial Design | NORDEN';
+$seoDescription = 'Rebranding für Pleasure Snowboard Magazine: Positionierung, Logo und Editorial Design für Europas unabhängiges Snowboard-Magazin mit hochwertigem Coffee-Table-Anspruch.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription
+	];
+	return;
+}
+?>
+
 <div class="project-wrapper pleasure">
     <section class="project-section section-1">
         <div class="image-wrapper">
@@ -14,19 +27,22 @@
 
     <section class="project-section has-padding-lr section-2">
         <div class="row">
-            <div class="col s16 m16 l11 xl9">
-                <p class="is-large-text">Das Pleassure Snowboard Magazin ist  eine Institution! Seit <span class="highlight-circle">über 20 </span> Jahren ist es DAS unabhängige Magazin zum Thema Snwoboard in Europa. NORDEN hat das Magazin gestalterisch neu konzepiert. Und seit dem mehrere Ausgaben gestalterisch Umgesetzt</p>
+            <div class="col s16 m16 l11 xl10">
+                <p class="is-large-text desktop-only">Pleasure Snowboard Magazin ist eine feste Größe der europäischen Snowboardkultur. Mit dem Redesign entwickelte NORDEN den Markenauftritt grundlegend weiter – von Positionierung und Logo bis zum Editorial Design. So entstand eine <span class="highlight-circle">visuelle Identität</span>, die das Magazin erwachsener, hochwertiger und kuratierter positioniert: weniger reines Szenemedium, mehr modernes Editorial Format mit Coffee-Table-Anspruch.</p>
+                <p class="is-large-text mobile-only">Pleasure Snowboard Magazin ist eine feste Größe der europäischen Snowboardkultur. NORDEN entwickelte den Markenauftritt neu – von Positionierung und Logo bis zum Editorial Design. So entstand eine <span class="highlight-circle">hochwertigere</span>, erwachsenere visuelle Identität mit klarem Coffee-Table-Anspruch.
+                </p>
             </div>
         </div>
     </section>
 
     <section class="project-section  section-3">
         <div class="keywords has-padding-lr">
+            <span class="desktop-only">Positionierung</span>
+            <span>Logo Redesign</span>
             <span>Konzept</span>
-            <span>Gestaltung</span>
             <span>Editorial Design</span>
             <span>Ausarbeitung der Ausgaben</span>
-            <span>Druckvorbereitung</span>
+            <span>Merch</span>
         </div>
         <?php new Image(
         	null,
@@ -76,9 +92,9 @@
            </div>
 
            <div class="col s16 m10 l7 xl6 flex-start push-m1 push-l2">
-            <p class="is-text">Snowboarden ist mehr als ein Sport: rebellische Jugendkultur, olympischer Leistungssport, wagemutige Selbstverwirklichung, abenteuerliche Alltagsflucht, Fernweh oder einfach nur Lieblingsfreizeitbeschäftigung in der Natur. 
-            All diese Facetten des Lifestyle-Wintersports fängt Pleasure mit atemberaubenden Fotos, authen-tischer Sprache und internatio-nalen Autoren, Fotografen und Illustratoren auf einzigartige Weise ein. </p>
-           </div>
+            <p class="is-text desktop-only">Snowboarden ist mehr als ein Sport: rebellische Jugendkultur, olympischer Leistungssport, wagemutige Selbstverwirklichung, abenteuerliche Alltagsflucht, Fernweh oder einfach nur Lieblingsfreizeitbeschäftigung in der Natur. All diese Facetten des Lifestyle-Wintersports fängt Pleasure mit atemberaubenden Fotos, authentischer Sprache und internatio-nalen Autoren, Fotografen und Illustratoren ein.</p>
+            <p class="is-text mobile-only">Snowboarden ist Kultur, Haltung und Lebensgefühl. Pleasure verdichtet diese Welt in starken Bildern, authentischer Sprache und einem hochwertigen Editorial Design.</p>
+    </div>
         </div>
 
         <div class="background "></div>
@@ -146,7 +162,8 @@
 
     <section class="project-section section-6 bg-col-light-gray">
     <div class="absolute-row">
-        <p class="is-text">Jede Story innerhalb des Heftes ist individuell gestaltet und nimmt subtil Bezug auf den jeweiligen Inhalt.</p>
+        <p class="is-text desktop-only">Jede Story folgt einem klaren gestalterischen Konzept und wird zugleich individuell entwickelt. So entstehen Strecken, die Inhalt, Rhythmus und Bildsprache präzise aufeinander abstimmen.</p>
+        <p class="is-text mobile-only">Jede Story folgt einem klaren Konzept und wird individuell gestaltet.</p>
     </div>
     <?php new Image(
     	null,
@@ -174,7 +191,8 @@
     <section class="project-section has-padding-lr section-7 bg-col-light-gray">
         <div class="row">
             <div class="col s14 m6 l5 push-s1 push-m1 space-between">
-                <p class="is-text">Im Magazin werde  zwei Schriftarten verwendet – eine Serifenschrift und eine passende serifenlose Schrift. Trotz der durchgehend einheitlichen Typografie wird darauf geachtet, dass jeder Artikel individuell gestaltet ist.</p>
+                <p class="is-text desktop-only">Zwei Schriften bilden die typografische Basis des Magazins: eine Serifenschrift und eine dazu passende Sans Serif. Diese Kombination schafft einen ruhigen, hochwertigen Rahmen und gibt jeder Ausgabe eine erwachsenere editoriale Anmutung.</p>
+                <p class="is-text mobile-only">Eine Serifenschrift und eine passende Sans Serif schaffen einen ruhigen, hochwertigen typografischen Rahmen.</p>
                 <?php new Image(
                 	null,
                 	'typografie',
@@ -223,7 +241,8 @@
                 ); ?>
             </div>
             <div class="col s7 m7 l7 flex-end">
-            <p class="is-text">Denn „Standing Sideways“ ist eine Lebenseinstellung. Und das seit über 20 Jahren!</p>
+            <p class="is-text desktop-only">Mit dem Redesign wurde Pleasure nicht nur gestalterisch geschärft, sondern auch als Marke klarer positioniert. Logo, Typografie, Bildwelt und Layout greifen ineinander und verleihen dem Magazin eine eigenständige visuelle Haltung zwischen Snowboardkultur und hochwertigem Editorial Design.</p>
+            <p class="is-text mobile-only">Mit dem Redesign wurde Pleasure als Marke geschärft. Logo, Typografie, Bildwelt und Layout verleihen dem Magazin eine eigenständige Haltung zwischen Snowboardkultur und hochwertigem Editorial Design.</p>
 
                 <?php new Image(
                 	null,
@@ -286,9 +305,8 @@
 
         <div class="row">
             <div class="col s14 m8 l7 xl5">
-                <div class="is-text">
-                Die oftmals über 6 - 10-Seitigen Artikel folgen stets einem klaren grafischen Konzept. Platzierung und Anzahl der Fotos, Bildunterschriften, Zitate und Hervorhebungen sind in jeder Story individuell auf den Inhalt abgestimmt.
-                </div>
+                <p class="is-text desktop-only">Auch längere Features folgen einer klaren visuellen Dramaturgie. Bildgrößen, Zitate, Einstiege und Textfluss werden für jede Story individuell gesetzt – immer mit dem Ziel, Inhalt und Atmosphäre gestalterisch präzise zu verdichten.    </p>
+                <p class="is-text mobile-only">Auch längere Features folgen einer klaren visuellen Dramaturgie und werden für jede Story individuell gestaltet.</p>
             </div>
             <div class="col s16 m13">
                 <?php new Image(

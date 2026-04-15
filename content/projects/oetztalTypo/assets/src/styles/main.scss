@@ -71,7 +71,23 @@ $color-medium-gray: #7f7f7f;
 		display: none;
 	}
 }
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
 
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
 // General styling
 body {
 	--color-light: #f3ebe4;
@@ -209,6 +225,14 @@ body {
 	.video {
 		border: 0.0625rem solid $color-beige;
 	}
+	padding-bottom: 5rem;
+
+	@include minquery($screen-m) {
+		padding-bottom: 10rem;
+	}
+	@include minquery($screen-l) {
+		padding-bottom: 12.5rem;
+	}
 }
 
 #big-a-section {
@@ -233,6 +257,14 @@ body {
 }
 
 #overview-section {
+	padding-bottom: 5rem;
+
+	@include minquery($screen-m) {
+		padding-bottom: 10rem;
+	}
+	@include minquery($screen-l) {
+		padding-bottom: 12.5rem;
+	}
 	.content {
 		.column:first-child {
 			display: flex;
@@ -248,6 +280,53 @@ body {
 
 				& > *:first-child {
 					margin-top: 30%;
+				}
+			}
+		}
+	}
+}
+
+#intro-section {
+	.content {
+		flex-direction: column !important;
+		align-items: flex-start !important;
+	}
+}
+
+#font-section {
+	.content {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		.column {
+			width: 100%;
+		}
+		.buttons {
+			padding-inline: 120px;
+			display: flex;
+			flex-flow: row wrap;
+			gap: 2rem;
+
+			.button {
+				background-color: $color-gold;
+				border-color: $color-gold;
+				text-decoration: none;
+				display: flex;
+				justify-content: center;
+				color: $color-dark-red;
+				span {
+					font-size: $font-size-smaller;
+					font-weight: 400;
+					color: $color-dark-red;
+					text-decoration: none;
+					text-transform: uppercase;
+
+					@include minquery($screen-l) {
+						font-size: $font-size-small;
+					}
+					@include minquery($screen-xl) {
+						font-size: $font-size-big;
+					}
 				}
 			}
 		}

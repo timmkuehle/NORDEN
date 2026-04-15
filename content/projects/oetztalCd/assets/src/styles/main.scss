@@ -1,6 +1,7 @@
 // Stylesheet import
 @use "@styles/project-section.scss";
 @use "@styles/side-note.scss";
+@use "@styles/animated-banner.scss";
 @use "@components/Video/Video.scss";
 
 // Project variables
@@ -216,7 +217,20 @@ $smaller-line-height: 1;
 		font-size: $font-size-big !important;
 	}
 }
+.desktop-only {
+	display: none !important;
 
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
 .is-bold {
 	font-weight: 600;
 }
@@ -395,45 +409,7 @@ $smaller-line-height: 1;
 
 	.section-2 {
 		display: block;
-
-		.animated-banner {
-			overflow: hidden;
-			width: 100%;
-			margin-top: 2rem;
-		}
-
-		.banner-label {
-			margin: 0 0 1rem;
-			font-size: $font-size-big;
-		}
-
-		.animated-banner-track {
-			display: flex;
-			gap: 2rem;
-			width: max-content;
-			animation: banner-scroll 40s linear infinite;
-		}
-
-		.banner-item,
-		.banner-separator {
-			flex-shrink: 0;
-			white-space: nowrap;
-			font-size: $font-size;
-			font-weight: 400;
-			color: $color-red;
-			@include minquery($screen-m) {
-				font-size: $font-size-big;
-			}
-		}
-
-		@keyframes banner-scroll {
-			from {
-				transform: translateX(0);
-			}
-			to {
-				transform: translateX(-50%);
-			}
-		}
+		padding-top: 0;
 
 		.is-text {
 			font-size: $font-size-large;
@@ -475,21 +451,47 @@ $smaller-line-height: 1;
 				align-items: stretch;
 				gap: 1rem;
 				padding-left: 6%;
+				// Shared height so video + SVG column match visually.
+				height: clamp(22rem, 55vw, 46rem);
 			}
 		}
 
 		.section-32-video {
 			width: 100%;
 			flex-shrink: 0;
+			display: flex;
+			align-self: stretch;
 
 			@include minquery($screen-m) {
-				width: calc((100% - 1rem) * 0.75);
-				flex: 0 0 calc((100% - 1rem) * 0.75);
-				max-width: calc((100% - 1rem) * 0.75);
+				width: calc((100% - 1rem) * 0.7);
+				flex: 0 0 calc((100% - 1rem) * 0.7);
+				max-width: calc((100% - 1rem) * 0.7);
+			}
+
+			.video-wrapper,
+			.video-play-wrapper,
+			.video {
+				width: 100%;
+				height: auto;
+			}
+
+			@include minquery($screen-m) {
+				.video-wrapper,
+				.video-play-wrapper,
+				.video {
+					height: 100%;
+				}
 			}
 
 			.video {
-				width: 100%;
+				display: block;
+
+				video {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: block;
+				}
 			}
 		}
 
@@ -504,9 +506,9 @@ $smaller-line-height: 1;
 			min-height: 0;
 
 			@include minquery($screen-m) {
-				width: calc((100% - 1rem) * 0.15);
-				flex: 0 0 calc((100% - 1rem) * 0.15);
-				max-width: calc((100% - 1rem) * 0.15);
+				width: calc((100% - 1rem) * 0.2);
+				flex: 0 0 calc((100% - 1rem) * 0.2);
+				max-width: calc((100% - 1rem) * 0.2);
 				flex-direction: column;
 				justify-content: space-between;
 				align-self: stretch;
@@ -514,6 +516,34 @@ $smaller-line-height: 1;
 				height: 100%;
 				min-height: 0;
 				gap: 0;
+			}
+			.desktop-only,
+			.mobile-only {
+				width: 100%;
+			}
+			@include minquery($screen-m) {
+				.desktop-only {
+					height: 100%;
+					display: flex;
+					align-items: stretch;
+					justify-content: center;
+				}
+			}
+			.mobile-only {
+				width: 100%;
+			}
+			// Size SVGs correctly (they are wrapped in .desktop-only/.mobile-only)
+			svg {
+				width: 100%;
+				height: auto;
+				max-width: 100%;
+
+				@include minquery($screen-m) {
+					height: 100%;
+					width: auto;
+					max-height: 100%;
+					max-width: 100%;
+				}
 			}
 
 			.banner-arrow {
@@ -532,7 +562,7 @@ $smaller-line-height: 1;
 				justify-content: center;
 				aspect-ratio: 1 / 1;
 				min-width: 0;
-				border: 1px solid rgba(black, .5);
+				border: 1px solid rgba(black, 0.5);
 
 				@include minquery($screen-m) {
 					flex: 0 0 auto;
@@ -548,7 +578,6 @@ $smaller-line-height: 1;
 					height: 100%;
 					object-fit: contain;
 				}
-
 			}
 		}
 
@@ -684,7 +713,7 @@ $smaller-line-height: 1;
 		display: block;
 		position: relative;
 		padding-top: 0;
-		transform: translateY(-25%);
+		transform: translateY(-50%);
 		padding-bottom: 0;
 
 		.colors-flex {
@@ -848,6 +877,7 @@ $smaller-line-height: 1;
 				align-items: stretch;
 			}
 		}
+	
 		.images-stack {
 			display: flex;
 			flex-direction: row;

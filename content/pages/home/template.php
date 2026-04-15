@@ -7,17 +7,19 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 <main>
 	<section class="showreel overlap-header">
 		<?php new \Video(
-		    'showreel-video',
-		    '/content/resources/media/agency/Startseitenvideo_Fruehling.mp4',
-		    '16/9',
-		    '/content/resources/media/agency/Startseitenvideo_Fruehling_Still.png',
-		    'NORDEN Showreel',
-		    false,
-		    true,
-		    true,
-		    true,
-		    false
-		); ?>
+  	'showreel-video',
+  	'/content/resources/media/agency/home/Sommer_desktop.mp4',
+  	'16/9',
+  	'/content/resources/media/agency/Startseitenvideo_Fruehling_Still.png',
+  	'NORDEN Showreel',
+  	false,
+  	true,
+  	true,
+  	true,
+  	false,
+  	'/content/resources/media/agency/home/Sommer_mobile.mp4',
+  	'1/1'
+  ); ?>
 	</section>
 	<section class="content-card full-width">
 		<header>
@@ -31,28 +33,27 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 		<div class="content align-right intro-wrapper">
   			<div class="intro-entry outside-timeline">
 				<p class="text-style-big">Wir sind <span class="bold highlight-circle">NORDEN</span></p>
-				<p class="text-style-big bold">Eine Agentur mitten in den Tiroler Alpen – mit großem Gespür für Menschen, Orte und Identität.</p>
+				<p class="text-style-big bold desktop-only">Eine Agentur mit großem Gespür für Menschen, Orte und Identität.</p>
+				<p class="mobile-intro mobile-only">Eine Agentur mit Gespür für Menschen, Orte und Identität.Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Mit strategischem Denken, gutem Design und klarer <span class="highlight-circle">Kommunikation</span> gestalten wir Marken über alle Touchpoints hinweg..</p>
+
 			</div>
 			<div class="intro-timeline-wrapper">
 				<div class="timeline-strip"></div>
 				<div>
-					<div class="intro-entry">
+					<div class="intro-entry desktop-only">
 						<p class="text-style-big">Was wir machen?</p>
 						<div>
-							<p>Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Unser Herz schlägt für gutes Design, klare Kommunikation und Projekte, die <span class="highlight-circle">etwas bewegen.</span> Ob Tourismus, Branding, Konzeption, Animation,... – wir gestalten, animieren, <span class="highlight-circle">denken mit.</span> Und manchmal auch quer.</p>
+							<p>Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Unser Herz schlägt für strategisches Denken, gutes Design und klare <span class="highlight-circle">Kommunikation</span>.Wir gestalten Marken über alle Touchpoints hinweg – klar im Profil, flexibel in der Anwendung und in <span class="highlight-circle">jedem Me</span>dium stimmig.</p>
 							<p style="margin-top: 1.25em;">Kreativität ohne Schublade. Alles, was gute Kommunikation 	braucht – 	von Anfang an.</p>
 							<a class="button text-style-button secondary" href="/agentur">Mehr zu uns</a>
 						</div>
 					</div>
-					<div class="intro-entry big-margin">
-						<p>Kunden, die uns bereits ihr Vertrauen schenken:</p>
-						<?php new \ClientList(null, null); ?>
-					</div>	
-					<div class="intro-entry huge-margin">
+					<div class="intro-entry flex-entry">
 						<p class="text-style-big">Ein kleiner Teaser an Projekten ...</p>
-						<div class="all-projects-wrapper">
-							<p class="text-style-big">oder doch gleich mehr?</p>
-							<a class="button text-style-button primary" href="/work">Alle Projekte</a>
+
+						<div class="button-text-wrapper">
+						<p class="text-style-big justify-right">... oder doch gleich mehr?</p>
+						<a class="button text-style-button primary" href="/work">Alle Projekte</a>
 						</div>
 					</div>
 			</div>

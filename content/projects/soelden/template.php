@@ -1,3 +1,16 @@
+<?php
+$seoTitle = 'Sölden Destination Branding & Corporate Design | NORDEN';
+$seoDescription = 'Destination Branding für Sölden: Markenstrategie, Corporate Design und visuelle Kommunikation für einen prägnanten Auftritt als internationale Destination Marke.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription,
+	];
+	return;
+}
+?>
+
 <section class="soelden-intro full-width soelden-project">
 	<header>
 		<h1>
@@ -36,24 +49,29 @@
 	</div>
 </section>
 <section class="norden-intro">
-	<p class="norden-intro-text text-large">Sölden, im Herzen des Tiroler Ötztals gelegen, ist einer der beliebtesten Tourismusorte der Alpen. Hier findet man im Winter wie im Sommer alles – und davon reichlich: Sport & Entertainment, Action & Ruhe. Sölden ist jung und Sölden ist urban. Anspruch ist es, in allen Bereichen neue, <span class="highlight-circle">kreative Maßstäbe</span> zu setzen – bei den Events und der Infrastruktur, beim Markenauftritt und in der Kommunikation.</p>
+	<p class="norden-intro-text text-is-large desktop-only">Mitten in den Alpen, aber mit urbanem Mindset: Sölden steht für Sport, Action und Entertainment. Ob Winter oder Sommer – Sölden bringt Sport, Musik und Lifestyle auf einzigartige Weise zusammen. Der neue Markenauftritt übersetzt diesen Spirit in ein klares, progressives Design. Für eine Destination, die mehr ist als ein Ort: <span class="highlight-circle">eine Haltung.</span>.</p>
+	<p class="norden-intro-text text-is-large mobile-only">Sölden ist Bewegung, Energie und Haltung. Die Marke verbindet alpinen Sport mit urbanem Lifestyle – klar, progressiv und unverwechselbar.</p>
 </section>
 <section class="services full-width">
 	<p class="service">Markenstrategie</p>
 	<p class="service">Corporate Design</p>
 	<p class="service">Branding & Implementierung</p>
-	<p class="service">Online & Offline Kommunikationskonzept</p>
-	<p class="service">Brandclip</p>
-	<p class="service">Animationen</p>
+	<p class="service desktop-only">Online & Offline Kommunikationskonzept</p>
+	<p class="service desktop-only">Brandclip</p>
+	<p class="service desktop-only">Animationen</p>
 	<p class="service">Social Media</p>
-	<p class="service">Anpassung aller Events / Submarken</p>
+	<p class="service desktop-only">Anpassung aller Events / Submarken</p>
+	<p class="service mobile-only">Event Branding</p>
 </section>
+
 <div class="spacer"></div>
 <section class="soelden-section graphic-elements-text">
 	<div class="soelden-text-block">
-		<h2 class="heading">Live Dynamic</h2>
-		<h3 class="subline">Strichgrafiken</h3>
-		<p>Die Strichgrafiken stehen für Dynamik und Individualität. Sie wirken leicht und locker, drängen sich nicht den Vordergrund und geben den Bildern den nötigen Raum. Abgeleitet sind die 46° schrägen Linien von dem Breitengrad, auf dem Sölden zu finden ist.</p>
+		<h2 class="heading desktop-only">Live Dynamic</h2>
+		<h2 class="heading mobile-only">Graphic Elements</h2>
+		<h3 class="subline desktop-only">Graphic Elements</h3>
+		<p class="desktop-only">Die diagonalen Linien bringen Energie ins System. Sie geben dem Auftritt Rhythmus, schaffen Wiedererkennung und transportieren genau das, wofür Sölden steht: Bewegung, Präzision und sportliche Dynamik.</p>
+		<p class="mobile-only">Die diagonalen Linien bringen Dynamik ins System und machen Bewegung sichtbar.</p>
 	</div>
 </section>
 <section class="soelden-gallery graphic-elements-images full-width section-1">
@@ -96,11 +114,12 @@
 	<div class="content vert-align-center">
 		<div class="slot start">
 			<div class="soelden-text-block no-max-width">
-				<h2 class="heading color-white">We like to move it</h2>
-				<h3 class="subline">AS Soelden Headline Font</h3>
-				<p class="color-white">Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungswert. Wir haben eine variable Headline-Font entwickelt, die Söldens prägnanten Charakter visualisiert. Verwendet wird sie ausschließlich bei den Headlines, bei allen Subbrands – vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.r</p>
-				<p class="color-white">Die AS Sölden ist mit 10 unterschiedlichen Schriftschnitten ausgestattet. Wir bevorzugen die Schriftschnitte von Regular – Extrabold. Verwendet wird sie für Fließtexte und Sublines</p>
-				<p class="color-white">— Font creation in cooperation with <span class="color-orange">TypeTogether</span></p>
+				<h2 class="heading color-white desktop-only">We like to move it</h2>
+				<h2 class="heading color-white mobile-only">Typography</h2>
+				<h3 class="subline desktop-only">Typographie</h3>
+				<p class="color-white desktop-only">Die Typografie ist markant, breit und selbstbewusst. Sie verleiht der Marke Präsenz, Geschwindigkeit und Haltung – und macht den urban-sportiven Charakter Söldens auf den ersten Blick sichtbar.Die Typografie wird um zentralen Identifikationsmerkmal der Marke.</p>
+				<p class="color-white mobile-only">Die Typografie ist breit, markant und selbstbewusst – mit viel Präsenz und Tempo.</p>
+				<p class="color-white">— Font creation in cooperation with TypeTogether</p>
 				<?php new \Button(
     	'typo-button',
     	null,
@@ -125,13 +144,11 @@
 	<div class="slot side-note-start empty"></div>
 	<div class="content">
 		<div class="soelden-text-block">
-			<h2 class="heading color-white">Spray Colors</h2>
-			<h3 class="subline">Primary Colors</h3>
-			<p class="color-white">Inspiriert von den architektonischen Farben von Sölden haben wir als Hauptfarbton Anthrazit gewählt, der die Essenz des Ortes einfängt. Als weitere Hauptfarbe sorgt das hellere, kühle Grau für einen schönen und modernen Kontrast.</p>
-			<h3 class="subline">Secondary Colors</h3>
-			<p class="color-white">Um mehr grafische Freiheit und eine vielfältige Designpalette zu bieten, wurden Abstufungs-farben definiert, die nahtlose Übergänge und kreativen Ausdruck ermöglichen.</p>
-			<h3 class="subline">Accent Colors</h3>
-			<p class="color-white">Zudem haben wir für die Hervorhebung wichtiger Elemente zwei lebendige, moderne Call-to-Action-Farben integriert.</p>
+			<h2 class="heading color-white desktop-only">Spray Colors</h2>
+			<h2 class="heading color-white mobile-only">Colors</h2>
+			<h3 class="subline desktop-only">Farben</h3>
+			<p class="color-white desktop-only">Die Farbwelt verbindet kühle alpine Klarheit mit urbaner Schärfe. Dunkle, technische Töne schaffen Tiefe; helle Blau- und Graunuancen bringen Frische. Kräftige Akzentfarben setzen Energie und führen gezielt durch den Auftritt.</p>
+			<p class="color-white mobile-only">Die Farbwelt verbindet alpine Klarheit mit urbaner Energie und starken Akzenten.</p>
 		</div>
 	</div>
 </section>
@@ -209,14 +226,16 @@
 	</div>
 	<div class="content">
 		<div class="soelden-text-block no-max-width">
-			<h2 class="heading color-white"><span class="color-cut-3">(</span>Don't<span class="color-cut-3">)</span> break the rules</h2>
+			<h2 class="heading color-white desktop-only"><span class="color-cut-3">(</span>Don't<span class="color-cut-3">)</span> break the rules</h2>
+			<h2 class="heading color-white mobile-only">Layout</h2>
 			<div class="slots">
 				<div class="slot">
-					<h3 class="subline">Layout - Raster</h3>
-					<p class="color-white">Um ein einheitliches Erscheinungsbild zu gewährleisten, haben wir ein allgemeingültiges Rastersystem entwickelt, welches sich proportional an die jeweilige Mediengröße anpasst.</p>
+					<h3 class="subline desktop-only">Layout</h3>
+					<p class="color-white desktop-only">Das Layoutsystem gibt der Marke Struktur und zugleich Beweglichkeit. Es sorgt für einen konsistenten Auftritt über alle Medien hinweg.</p>
+					<p class="color-white mobile-only">Das Layout schafft Struktur, Wiedererkennung und Raum für starke Bildwelten.</p>
 				</div>
 				<div class="slot">
-					<h3 class="subline">Logoplatzierung</h3>
+					<h3 class="subline">Logo platzierung</h3>
 					<p class="color-white">1. Abstand Rand = 7 x<br>2. Breite Logo = 13 x</p>
 				</div>
 				<div class="slot">
@@ -254,10 +273,12 @@
 <section class="soelden-gallery social-media-1 bg-color-anthrazit full-width">
 	<div class="slot side-note-start empty"></div>
 	<div class="content">
-		<div class="soelden-text-block">
-			<h2 class="heading color-white">Follow me, but I'm Lost too</h2>
-				<h3 class="subline">Social Media Styleguide</h3>
-				<p class="color-white">Die Layout-Prinzipien aus dem Printbereich werden nahtlos in den digitalen Raum übertragen. Mit Swipe-Postings vermitteln wir mehr Bilder, wodurch die Beiträge eine magazinartige Qualität erhalten und noch ansprechender wirken. Auch in den sozialen Medien nimmt die Typografie eine markante und auffällige Rolle ein. Die grafischen Linien im Hintergrund bringen wieder Dynamik ins Spiel. Im Vergleich zu zuvor wirkt der gesamte Social-Media-Feed nun moderner, markanter und vielfältiger.</p>
+		<div class="soelden-text-block ">
+			<h2 class="heading color-white desktop-only">Follow me, but I'm Lost too</h2>
+			<h2 class="heading color-white mobile-only">Social Media</h2>
+			<h3 class="subline desktop-only">Social Media</h3>
+			<p class="color-white desktop-only">Für Social Media wurde die Markenlogik in einen flexiblen digitalen Auftritt übersetzt. Prägnante Typografie, wiedererkennbare Grafikelemente und ein modulares System sorgen für einen Feed, der eigenständig wirkt und dennoch klar zur Marke gehört.</p>
+			<p class="color-white mobile-only">Auch digital bleibt die Marke prägnant, flexibel und klar wiedererkennbar.</p>
 			</div>
 		</div>
 	</div>
@@ -289,7 +310,7 @@
 	<div class="slot side-note-start empty"></div>
 		<div class="content">
 			<div class="soelden-text-block no-max-width">
-				<h3 class="subline">Postings • Stories</h3>
+				<h3 class="subline">Postings + Stories</h3>
 				<div class="soelden-feed-carousel">
 					<?php new \Image(
      	null,
@@ -349,7 +370,7 @@
 </section>
 <section class="soelden-gallery website">
 	<div class="slot side-note-start">
-		<p class="soel-side-note">Layout</p>
+		<p class="soel-side-note">Screendesign</p>
 	</div>
 		<div class="content">
 			<?php new \Video(
@@ -370,7 +391,7 @@
 </section>
 <section class="soelden-gallery full-width huge-space">
 	<div class="slot side-note-start">
-		<p class="soel-side-note">Social Media</p>
+		<p class="soel-side-note">gifs</p>
 	</div>
 	<div class="content">
 		<div class="soelden-text-block no-max-width">
@@ -581,7 +602,7 @@
 	<div class="content">
 		<div class="soelden-text-block">
 			<h3 class="subline">Skiweltcup</h3>
-			<p>Der Skiweltcup in Sölden ist eines der spektakulärsten Auftaktrennen der alpinen Skisaison und zieht jedes Jahr zahlreiche Top-Athleten sowie begeisterte Zuschauer an. Die Veranstaltung findet auf dem Gletscher der Ötztaler Alpen statt und bietet sowohl spannende Wettkämpfe als auch eine einzigartige Atmosphäre inmitten einer atemberaubenden Bergkulisse. Wir haben das Design für dieses Event entwickelt, um die einzigartige Atmosphäre und Energie des Weltcups visuell zu unterstreichen.</p>
+			<p>Wenn Sölden Bühne wird, verdichtet sich der Markenauftritt zu einem Erlebnis – sichtbar, kraftvoll und mit maximaler Wiedererkennbarkeit.</p>
 		</div>
 	</div>
 	<div class="slot side-note-end"></div>

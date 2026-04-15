@@ -47,6 +47,21 @@ $color-medium-gray: #7f7f7f;
 	}
 }
 
+.desktop-only {
+	display: none !important;
+
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
+
 // General styling
 body {
 	.site-header {
@@ -157,28 +172,6 @@ body {
 .side-note {
 	color: $color-medium-gray;
 }
-.services {
-	padding-top: 4%;
-	margin-bottom: 8%;
-
-	@-moz-document url-prefix() {
-		& {
-			scrollbar-color: $color-beige $color-anthrazit;
-		}
-	}
-
-	&::-webkit-scrollbar-track {
-		background: $color-beige;
-	}
-
-	&::-webkit-scrollbar-thumb {
-		background: $color-anthrazit;
-	}
-
-	.service {
-		color: $color-anthrazit;
-	}
-}
 
 // Project styling
 #illu-section {
@@ -204,6 +197,10 @@ body {
 
 #shopping-event-image {
 	border: 0.0625rem solid $color-anthrazit;
+	width: 70%;
+	@include minquery($screen-m) {
+		width: 100%;
+	}
 }
 
 #bag-section {
@@ -228,6 +225,46 @@ body {
 	@media screen and (min-width: 769px) {
 		.image {
 			padding-inline: var(--main-padding-block);
+		}
+	}
+}
+
+#services-section {
+	display: block;
+
+	.content {
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-direction: column !important;
+		flex-wrap: wrap;
+		padding: 0 0.75rem;
+
+		@include minquery($screen-m) {
+			padding: 0 70px;
+		}
+		.text-is-large {
+			font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+			font-weight: 300;
+		}
+
+		.services {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 0.25rem;
+			justify-content: flex-start;
+			padding: 0;
+
+			.services-title {
+				font-weight: 600;
+				color: $color-medium-gray;
+				text-transform: uppercase;
+			}
+			.separator {
+				margin-inline: 0.25rem;
+				color: $color-medium-gray;
+			}
 		}
 	}
 }

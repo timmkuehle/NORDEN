@@ -262,6 +262,21 @@ $smaller-line-height: 1;
 	}
 }
 
+.desktop-only {
+	display: none !important;
+
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
+
 // Project styling
 
 .burton {
@@ -377,8 +392,6 @@ $smaller-line-height: 1;
 				height: 100%;
 				object-fit: cover;
 				display: block;
-
-				
 			}
 		}
 
@@ -419,28 +432,9 @@ $smaller-line-height: 1;
 		}
 	}
 	.section-4 {
-		padding-top: 0;
-		.animated-banner {
-			overflow: hidden;
-			width: 100%;
-			background-color: $color-blue;
-			padding: 1rem 0;
-		}
-
-		.animated-banner-track {
-			display: flex;
-			gap: 105px;
-			width: max-content;
-			animation: banner-scroll 5s linear infinite;
-		}
-
-		.banner-text {
-			color: white;
-			font-size: $font-size-big;
-			font-weight: 700;
-			text-transform: uppercase;
-			flex-shrink: 0;
-			white-space: nowrap;
+		padding: 0;
+		.fullwidth {
+			width: 100vw;
 		}
 	}
 	.section-6 {
@@ -584,7 +578,7 @@ $smaller-line-height: 1;
 
 		.section-headline {
 			text-transform: none;
-			margin-bottom: .25rem;
+			margin-bottom: 0.25rem;
 		}
 
 		.absolute-positioned {

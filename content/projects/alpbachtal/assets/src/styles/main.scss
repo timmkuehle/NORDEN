@@ -54,7 +54,11 @@ $color-green: #4c8155;
 		display: none;
 	}
 }
+.p-0 {}
 
+.pt-0 {
+	padding-top: 0;
+}
 // General styling
 body {
 	.site-header {
@@ -135,25 +139,34 @@ body {
 }
 
 // Project styling
-.services {
-	padding-top: 6vw;
-
-	@-moz-document url-prefix() {
-		& {
-			scrollbar-color: white $color-beige;
-		}
+.service-section {
+	padding-top: 0;
+	padding-bottom: 0;
+	.services {
+		display: flex;
+		flex-flow: row wrap;
+		gap: .25rem;
+		justify-content: flex-start;
+		padding: 0;
 	}
-
-	&::-webkit-scrollbar-track {
-		background: white;
+	.separator {
+		margin-inline: .25rem;
+		color: $color-beige;
 	}
-
-	&::-webkit-scrollbar-thumb {
-		background: $color-beige;
+	.bold {
+		font-weight: 800 !important;
 	}
+	
 
+	@include minquery($screen-m) {
+		max-width: 70vw;
+	}
 	.service {
 		color: $color-beige;
+	}
+	.service-title {
+		font-weight: 700;
+
 	}
 }
 .project-section {

@@ -284,3 +284,10 @@ body {
 		}
 	}
 }
+#font-section {
+	.phone {
+		@include mquery($screen-m) {
+			max-width: 50%;
+		}
+	}
+}

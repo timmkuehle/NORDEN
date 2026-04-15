@@ -1,3 +1,17 @@
+<?php
+$seoTitle = 'Sölden Event Branding & Visual Design | NORDEN';
+$seoDescription =
+	'Event Branding für Sölden: visuelles Designsystem und eigenständiger Markenauftritt für ein saisonales Retail- und Promotion-Event.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription
+	];
+	return;
+}
+?>
+
 <section class="project-section full-width-new no-padding-top small-padding">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile">
@@ -12,32 +26,32 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section small-padding">
-    <div class="slot start"></div>
-    <div class="content" style="justify-content: flex-end;">
-        <div class="column" style="width: 60%; text-align: right;">
-            <p class="text-large bold uppercase">Shoppen, Testen, Entertainment</p>
-            <p class="text-large">Zahlreiche Marken präsentieren beim TEST FEST die <span class="highlight-circle">neuesten Trends</span>, während abwechslungs-reiche Side-Events mit heimischer Kulinarik, feinsten Beats und einer <span class="highlight-circle">Afterparty</span> der Extra-Klasse Lust auf den neuen Skiwinter machen.</p>
-        </div>
-    </div>
-    <div class="slot end"></div>
-</section>
-<section class="project-section no-padding-top small-padding">
+<section id="services-section" class="project-section small-padding">
     <div class="slot start"></div>
     <div class="content">
-        <div class="column" style="width: 35%;">
-            <p>It's A Match: Teste & Finde dein neues Ski-Equipment. An zwei Wochenenden im November eröffnet Sölden das vermutlich variantenreichste Shopping-Angebot im Alpenraum. Sportfans kommen in den Genuss von ausgiebigen Testmöglichkeiten, einer ungeahnten Markenvielfalt sowie einem abwechslungsreichen Rahmenprogramm mit attraktiven Gewinnspielen.</p>
+        <div class="column" style="width: 80%;">
+            <p class="text-is-large bold uppercase">Shoppen, Testen, Entertainment</p>
+            <p class="desktop-only text-is-large">Das TEST FEST markiert den Auftakt in den Winter und macht die besondere Dichte an Sportgeschäften in Sölden erlebbar. Zahlreiche Marken präsentieren <span class="highlight-circle">Neuheiten</span>, während Kulinarik, Musik und Side-Events dem Format einen eigenständigen, lebendigen Charakter geben.</p>
+            <p class="mobile-only text-is-large">Das TEST FEST macht den Start in den Winter und die außergewöhnliche Sportgeschäftedichte in Sölden als eigenständiges Event erlebbar. Marken, <span class="highlight-circle">Neuheiten</span> und Side-Events schaffen einen lebendigen Auftakt zur Saison.</p>
         </div>
+
+        <div  class="services">
+        <span class="services-title ">Unsere Leistungen:</span>
+        <p class="service">Event Branding</p>
+        <span class="separator">–</span>
+        <p class="service">Branding & Implementierung</p>
+        <span class="separator">–</span>
+        <p class="service">Merch</p>
+        <span class="separator">–</span>
+        <p class="service">Social Media</p>
+        <span class="separator">–</span>
+        <p class="service">Online & Offline Kommunikationskonzepte</p>
+    </div>
     </div>
     <div class="slot end"></div>
 </section>
-<section class="services">
-	<p class="service">Event Branding</p>
-	<p class="service">Corporate Design</p>
-	<p class="service">Branding & Implementierung</p>
-	<p class="service">Online & Offline Kommunikationskonzept</p>
-	<p class="service">Social Media</p>
-</section>
+
+
 <section class="project-section bg-col-anthrazit">
     <div class="slot start">
         <p class="side-note">Logo</p>
@@ -49,16 +63,17 @@
             	null,
             	'/content/resources/media/testFest/TestFest_Logo_mitPfeil.svg',
             	'Test Fest Logo mit Pfeil',
-            	true
+            	true,
+            	'/content/resources/media/testFest/TestFest_Logo_mitPfeil_mobile.svg'
             ); ?>
         </div>
         <div class="column" style="display: flex; flex-direction: column; gap: 3vw; justify-content: space-between">
-            <div class="wrapper">
+            <div class="wrapper desktop-only">
                 <h2 class="col-light-blue">Logo</h2>
                 <h3>Font:</h3>
                 <p class="col-white">Die Adelle Sans Sölden Headline als verbindendes Corporate Element zum Sölden Auftritt.</p>
             </div>
-            <div class="wrapper">
+            <div class="wrapper desktop-only">
                 <h3>Flexibles Logosystem:</h3>
                 <?php new Image(
                 	null,
@@ -84,7 +99,7 @@
     <div class="content" style="align-items: flex-start;">
         <div class="column" style="width: 30%;">
             <h2 class="col-light-blue">Colors</h2>
-            <p class="col-white">Poppige Farben gemischt mit den CD-Farben der Marke Sölden ergeben den individuellen TEST FEST Look.</p>
+            <p class="col-white">Helles Blau und warmer Sandton geben dem Event einen eigenständigen, leichten Look.</p>
         </div>
         <div class="column" style="width: 50;">
             <?php new Image(
@@ -115,9 +130,9 @@
 <section class="project-section small-padding">
     <div class="slot start"></div>
     <div class="content">
-        <div class="column" style="width: 28%;">
+        <div class="column" style="width: 28%; position: relative; z-index:2">
             <h2>Illustrations</h2>
-            <p>Lockere, coole Scribbles werden als Muster, einzelne Illus oder aber sehr groß, abstrakt skaliert im Hintergrund verwendet.</p>
+            <p>Illustrative Scribbles übersetzen Sport, Genuss und Unterhaltung in eine spielerische, lebendige Bildsprache.</p>
         </div>
     </div>
     <div class="slot end"></div>

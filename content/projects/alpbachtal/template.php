@@ -1,3 +1,17 @@
+<?php
+$seoTitle = 'Alpbachtal Destination Branding & Corporate Design | NORDEN';
+$seoDescription =
+	'Corporate Design für Alpbachtal in Tirol: Destination Branding und visueller Markenauftritt für eine Ferienregion mit 10 Orten, Tradition und Moderne.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription
+	];
+	return;
+}
+?>
+
 <section id="intro-video-section" class="project-section full-width-new no-padding-top">
     <div class="slot start"></div>
     <div class="content">
@@ -24,19 +38,35 @@
     <div class="content" style="align-items: flex-end;">
         <div class="column" style="width: 60%">
             <h1>Alpbachtal — Corporate Design</h1>
-            <p class="text-large">Tradition und Moderne. Schroffer Fels und sanfte Hügellandschaft. Diese Gegensätze charakterisiert nicht nur das Alpbachtal im Allgemeinen, sondern gelten auch für das neue Corporate Design der Marke Alpbachtal.</p>
+            <p class="text-large mobile-only">Das Corporate Design für Alpbachtal übersetzt die Eigenständigkeit der Region in einen zeitgemäßen Markenauftritt.</p>
+            <p class="text-large desktop-only">Tradition und Moderne, Fels und Hügellandschaft: Das neue Corporate Design für Alpbachtal übersetzt die Eigenständigkeit der Region in einen zeitgemäßen Markenauftritt.</p>
         </div>
+    </div>
+    
+    <div class="slot end"></div>
+</section>
+<section class="project-section service-section">
+    <div class="slot start"></div>
+    <div class="content">
+    <div class="services">
+        <span class="service-title col-beige bold uppercase">Unsere Leistungen:</span>
+        <span class="service">Corporate Design</span>
+        <span class="separator">–</span>
+        <span class="service">Branding & Implementierung</span>
+        <span class="separator">–</span>
+        <span class="service">Online & Offline Kommunikationskonzept</span>
+        <span class="separator">–</span>
+        <span class="service">Motion Design</span>
+        <span class="separator">–</span>
+        <span class="service">Social Media</span>
+        <span class="separator">–   </span>
+        <span class="service">Identity Workshops</span>
+    </div>
     </div>
     <div class="slot end"></div>
 </section>
 <section class="services">
-	<p class="service">Markenstrategie</p>
-	<p class="service">Corporate Design</p>
-	<p class="service">Branding & Implementierung</p>
-	<p class="service">Online & Offline Kommunikationskonzept</p>
-	<p class="service">Animationen</p>
-	<p class="service">Social Media</p>
-	<p class="service">Identity Workshops</p>
+
 </section>
 <section id="logo-text-section" class="project-section no-padding-bottom" style="align-items: flex-end;">
     <div class="slot start">
@@ -44,8 +74,10 @@
     </div>
     <div class="content">
         <div class="column">
-            <h2>Entstehungsprozess und Logo-Entwicklung</h2>
-            <p class="text-large">Wenn man durch die Region Alpbachtal fährt, fallen einem vielerorts die alten Schriftzüge an Häusern und Wegen auf. Dies war für NORDEN einer der Ausgangspunkte für das neue Erscheinungsbild der Destination Alpbachtal.</p>
+            <h2 class="desktop-only">Entstehungsprozess und Logo-Entwicklung</h2>
+            <h2 class="mobile-only">Logo-Entwicklung</h2>
+            <p class="text-large desktop-only">Historische Schriftzüge der Region dienten als gestalterischer Ausgangspunkt. So entstand ein Erscheinungsbild, das regional verankert ist und zugleich zeitgemäß wirkt.</p>
+            <p class="text-large mobile-only">Historische Schriftzüge der Region gaben den gestalterischen Ausgangspunkt für das neue Erscheinungsbild.</p>
         </div>
         <div class="column">
             <?php new Image(
@@ -74,7 +106,7 @@
 </section>
 <section class="project-section bg-col-light-beige no-padding-top" style="align-items: center;">
     <div class="slot start">
-        <p class="side-note">Logo Redesign</p>
+        <p class="side-note">Logo Design</p>
     </div>
     <div class="content">
         <?php new Image(
@@ -92,10 +124,11 @@
     <div class="slot start"></div>
     <div class="content" style="align-items: flex-start;">
         <div class="column">
-            <p>Die Vielschichtigkeit der Region spiegelt sich bereits im Namen wieder: Alp, Bach und Tal. Diese Diversität hat NORDEN in ein plattformübergreifendes Corporate Design übertragen.</p>
+            <p class="desktop-only">Alp, Bach, Tal: Schon der Name trägt die Vielschichtigkeit der Region in sich. Daraus entstand ein Corporate Design, das Klarheit schafft und über alle Anwendungen hinweg funktioniert.</p>
+            <p class="mobile-only">Alp, Bach, Tal: Der Name selbst wurde zur Grundlage für ein Corporate Design mit Klarheit und Wiedererkennung. Die getrennte Schreibweise stärkt die einzelnen Bestandteile, aus der Punze des „a“ entsteht die prägnante Bildmarke.</p>
         </div>
-        <div class="column">
-            <p>Durch die getrennte Schreibweise des Begriffs „Alp-bach-tal“ bekommen die einzelnen Kompo-nenten mehr Gewicht. Außerdem entsteht eine kompakte Wortmarke. Die Bildmarke leitet sich direkt aus der Wortmarke ab und trägt somit dieselbe Formensprache. Die Punze des Buchstaben „a“ wird zur Bildmarke.</p>
+        <div class="column desktop-only">
+            <p>Die getrennte Schreibweise macht die Bestandteile des Namens sichtbar und schafft eine prägnante Wortmarke. Aus der Punze des „a“ entsteht eine Bildmarke mit klarer Wiedererkennbarkeit.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -115,7 +148,7 @@
             ); ?>
             <p style="margin-top: 2rem;">Selbst wenn die vielen Ortschaften der Region für sich stehen, die Kombination aus Ortsname und Markenlogo signalisiert stets die Zusammengehörigkeit der Region.</p>
         </div>
-        <div class="column">
+        <div class="column desktop-only">
             <?php new Image(
             	'places-logos',
             	null,
@@ -175,7 +208,8 @@
             ); ?>
         </div>
         <div class="column" style="align-self: flex-start;">
-            <p>Die Farben des Corporate Designs leiten sich aus der Landschaft der Region Alpbachtal ab. Die Markenfarbe ist ein warmer, heller Holzton. Die Akzent-farben werden stets in farblicher Anlehnung an das jeweilige Bildmotiv eingesetzt.</p>
+            <p class="desktop-only">Die Farben greifen Landschaft und Materialität der Region auf. Ein warmer Holzton bildet die Basis, ergänzt durch bildbezogene Akzentfarben.</p>
+            <p class="mobile-only">Die Farben greifen Landschaft und Materialität der Region auf – mit warmem Holzton und bildbezogenen Akzenten.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -214,7 +248,9 @@
             <h2>Typografie</h2>
         </div>
         <div class="column">
-            <p>Die Hausschrift wird in 2 Schriftstilen verwendet. Eine eher traditionell, holzig und natürlich anmutende Variante wird mit einer cleanen, modernen Variante kombiniert, um die im Alpbachtal deutliche Synthese aus Tradition und Moderne widerzuspiegeln.</p>
+            <p class="desktop-only">Die Typografie verbindet Tradition mit Moderne: 
+            eine charaktervolle Serifenschrift trifft auf eine klare, zeitgemäße Ergänzung.</p>
+        <p class="mobile-only">Eine charaktervolle Serifenschrift trifft auf eine klare, zeitgemäße Ergänzung.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -278,7 +314,8 @@
         <p class="side-note">Gestaltungsprinzip</p>
     </div>
     <div class="content">
-        <p>Durch das skalieren und übereinander verschieben wird die Bildmarke zum Gestaltungselement. In der Umsetzung entstehen so lichte Farbflächen, die als Träger für Typografie und Inhalte dienen. Das gleiche Prinzip kommt auch mit Bildern zur Anwendung. NORDEN hat damit ein ganzheitliches Gestaltungskonzept kreiert, welches sich konsequent aus der Formensprache der Logotypografie ableitet.</p>
+        <p class="desktop-only">Aus der Bildmarke entsteht ein flexibles Gestaltungsprinzip. Durch Skalierung und Überlagerung bildet sie die Grundlage für Flächen, Bildausschnitte und typografische Anwendungen.</p>
+        <p class="mobile-only">us der Bildmarke entsteht ein flexibles System für Flächen, Bilder und Typografie.</p>
     </div>
     <div class="slot end"></div>
 </section>
@@ -299,10 +336,13 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
-            <p>Subtraktives Prinzip: Die Bildmarke wird in weiß zweifach über das Bild gelegt. Diese Gestaltungsform „stanzt” somit das Bild aus.</p>
+        <p class="desktop-only">Subtraktives Prinzip: Die Bildmarke wird in 
+        weiß zweifach über das Bild gelegt. Diese Gestaltungsform „stanzt” somit das Bild aus.</p>
+        <p class="mobile-only">Subtraktives Prinzip: Die Bildmarke rahmt Motive und schafft prägnante Bildausschnitte.</p>
         </div>
         <div class="column">
-            <p>Additives Prinzip: Die Bildmarke wird zweifach mit einem Bildmotiv gefüllt und auf einem weißen Hintergrund platziert.</p>
+        <p class="desktop-only">Additives Prinzip: Die Bildmarke wird zweifach mit einem Bildmotiv gefüllt und auf einem weißen Hintergrund platziert.</p>
+        <p class="mobile-only">Additives Prinzip: Die Bildmarke wird zum bildtragenden Element für flexible Anwendungen.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -358,7 +398,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section full-width-new">
+<section class="project-section full-width-new bg-col-deep-beige">
     <div class="slot start"></div>
     <div class="content">
         <?php new Image(
@@ -371,35 +411,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section">
-    <div class="slot start">
-        <p class="side-note">Geschäftsausstattung</p>
-    </div>
-    <div class="content narrow">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/alpbachtal/ALPBA_Geschaeftsausstattung.jpg',
-        	'Alpbachtal Intern',
-        	true
-        ); ?>
-    </div>
-    <div class="slot end"></div>
-</section>
-<section class="project-section full-width-new">
-    <div class="slot start"></div>
-    <div class="content">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/alpbachtal/ALPBA_MagazinAd-Mockup_colorcorrected.jpg',
-        	'Alpbachtal Magazin',
-        	true
-        ); ?>
-    </div>
-    <div class="slot end"></div>
-</section>
-<section class="project-section">
+<section class="project-section bg-col-deep-beige ">
     <div class="slot start">
         <p class="side-note">Print</p>
     </div>
@@ -414,20 +426,36 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section no-padding-top no-padding-bottom full-width-new" aria-hidden="true" style="position: relative; z-index: -1; transform: translateY(2%);">
+<section class="project-section full-width-new bg-col-deep-beige">
     <div class="slot start"></div>
-    <div class="content no-inline-padding-mobile" style="transform: rotate(180deg);">
+    <div class="content">
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/alpbachtal/ALPBA_Gestaltungselement_Overlay_beige2.svg',
-        	'Gestaltungselement',
+        	'/content/resources/media/alpbachtal/ALPBA_MagazinAd-Mockup_colorcorrected.jpg',
+        	'Alpbachtal Magazin',
         	true
         ); ?>
     </div>
     <div class="slot end"></div>
 </section>
-<section id="poster-section" class="project-section bg-col-deep-beige no-padding-top no-padding-bottom">
+<section class="project-section bg-col-deep-beige">
+    <div class="slot start">
+        <p class="side-note">Geschäftsausstattung</p>
+    </div>
+    <div class="content narrow">
+        <?php new Image(
+        	null,
+        	null,
+        	'/content/resources/media/alpbachtal/ALPBA_Geschaeftsausstattung.png',
+        	'Alpbachtal Intern',
+        	true
+        ); ?>
+    </div>
+    <div class="slot end"></div>
+</section>
+
+<section id="poster-section" class="project-section bg-col-deep-beige">
     <div class="slot start">
         <p class="side-note">Retro Poster Designs</p>
     </div>
@@ -489,19 +517,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section no-padding-top no-padding-bottom full-width-new" aria-hidden="true" style="position: relative; z-index: -1; transform: translateY(-2%);">
-    <div class="slot start"></div>
-    <div class="content no-inline-padding-mobile">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/alpbachtal/ALPBA_Gestaltungselement_Overlay_beige2.svg',
-        	'Gestaltungselement',
-        	true
-        ); ?>
-    </div>
-    <div class="slot end"></div>
-</section>
+
 <section class="project-section">
     <div class="slot start">
         <p class="side-note">Merch</p>

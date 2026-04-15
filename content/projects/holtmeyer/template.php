@@ -1,3 +1,16 @@
+<?php
+$seoTitle = '';
+$seoDescription = '';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription,
+	];
+	return;
+}
+?>
+
 <section id="intro-video-section" class="project-section full-width-new no-padding-top no-padding-bottom">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile">
@@ -207,7 +220,7 @@
         <div class="column" style="width: 19%;">
             <?php new Image(
             	null,
-            	null,
+            	'phone',
             	'/content/resources/media/holtmeyer/12_HOLT_Stellenausschreibung.png',
             	'HOLTMEYER Stellenausschreibung',
             	true
@@ -260,7 +273,6 @@
         	'/content/resources/media/holtmeyer/14_HOLT_Arbeitskleidung.png',
         	'HOLTMEYER Merchandise und Kleidung',
         	true,
-        	'/content/resources/media/holtmeyer/10_HOLT_LKW_Branding_Mobile.jpg'
         ); ?>
     </div>
     <div class="slot end"></div>

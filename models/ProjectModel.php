@@ -199,7 +199,13 @@ class ProjectModel {
             'thumbnail' => '/content/resources/media/projectPreviews/26_TirolsHochplateau_Startseite.gif',
             'category' => 'Logo Design'
         ],
-
+        [
+            'slug' => '/',
+            'content_path' => '/',
+            'title' => 'Ötztal Blick',
+            'thumbnail' => '/content/resources/media/projectPreviews/Oetztal_blick.gif',
+            'category' => 'Corporate Design'
+        ],
         
     ];
     private array $currentProject;

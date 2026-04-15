@@ -1,3 +1,16 @@
+<?php
+$seoTitle = 'Gurgl Corporate Font Design | NORDEN';
+$seoDescription = '';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription,
+	];
+	return;
+}
+?>
+
 <div class="project-wrapper gurgl-font">
     <section class="project-section has-padding-lr section-1 bg-col-medium-gray">
             
@@ -103,7 +116,7 @@
         <?php new Image(
         	null,
         	'desktop',
-        	'/content/resources/media/gurglFont/05_GURGL_Typo_Modifikation_Desktop.svg',
+        	'/content/resources/media/gurglFont/GURGL_Typo_Modifikation_Desktop.svg',
         	null,
         	true
         ); ?>
@@ -112,7 +125,7 @@
         <?php new Image(
         	null,
         	'mobile',
-        	'/content/resources/media/gurglFont/05_GURGL_Typo_Modifikation_Mobile_NEU.svg',
+        	'/content/resources/media/gurglFont/GURGL_Typo_Modifikation_Mobile.svg',
         	null,
         	true
         ); ?>

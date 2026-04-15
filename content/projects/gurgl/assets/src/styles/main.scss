@@ -149,6 +149,7 @@ body {
 	}
 
 	main {
+		overflow-x: hidden ;
 		margin-top: 0;
 		padding: var(--header-height) 0 0 0;
 		font-family:
@@ -205,7 +206,10 @@ body {
 		background-color: $color-gray-5;
 	}
 }
-
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
 // Component styling
 .side-note {
 	color: $color-blue;
@@ -333,11 +337,7 @@ body {
 		height: auto;
 	}
 
-	@media screen and (min-width: 769px) {
-		.svg {
-			margin-top: 10vw;
-		}
-	}
+	
 }
 
 #some-section {

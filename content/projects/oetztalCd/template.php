@@ -1,3 +1,17 @@
+<?php
+$seoTitle = 'Ötztal Destination Branding & Corporate Design | NORDEN';
+$seoDescription =
+	'Corporate Design für das Ötztal: visuelle Markenstrategie, Destination Branding und markenübergreifendes Designsystem für eine alpine Destination in Tirol.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription
+	];
+	return;
+}
+?>
+
 <div class="project-wrapper oetztal-cd">
     <section class="project-section has-padding-lr section-1 bg-col-white">
     <div class="background"></div>
@@ -40,44 +54,40 @@
     <section class="project-section has-padding-lr section-2 bg-col-white">
         <div class="row">
             <div class="col s16 m16 l13 xl12">
-                <p class="is-text">Gemeinsam mit den Tourismusexperten der Marke Ötztal wurde ein Corporate Design-Konzept entwickelt, das die Marke Ötztal in den Vordergrund stellt und plattformübergreifend höchste Wiedererkennung garantiert. Ein Corporate Font, aussagekräftiger Claim, eine klar definierte Bildsprache und vielseitig einsetzbare Gestaltungselemente setzen die Marke Ötztal auf allen Werbekanälen <span class="highlight-circle">auffallend in Szene.</span></p>
+                <p class="text-is-large desktop-only">Für die Marke Ötztal entstand ein Corporate-Design-System, das die Positionierung innerhalb einer klaren Drei-Marken-Strategie sichtbar macht. Claim, Typografie, Bildsprache und Gestaltungsprinzipien geben der Marke einen eigenständigen Auftritt und schaffen zugleich ein stimmiges Zusammenspiel <mspan class="highlight-circle">it Sölden und Gurgl.</mspan></p>
+                <p class="text-is-large mobile-only">Für die Marke Ötztal entstand ein Corporate-Design-System mit eigenständigem Auftritt und klarem Zusammenspiel innerhalb der Drei-Marken-Strategie m<span class="highlight-circle">it Sölden und Gurgl.</span></p>
             </div>
         </div>
-        <div class="animated-banner">
-            <p class="banner-label col-gold is-bold is-uppercase">Unsere Leistungen:</p>
-            <div class="animated-banner-track">
-                <span class="banner-item">Markenstrategie</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Corporate Design</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Branding &amp; Implementierung</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Online &amp; Offline Kommunikationskonzept</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Brandclip</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Animationen</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Social Media</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Merchandise</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Event Brandings</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Markenstrategie</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Corporate Design</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Branding &amp; Implementierung</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Online &amp; Offline Kommunikationskonzept</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Brandclip</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Animationen</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Social Media</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Merchandise</span><span class="banner-separator"> — </span>
-                <span class="banner-item">Event Brandings</span><span class="banner-separator"> — </span>
-            </div>
-        </div>
+        <?php new AnimatedBanner(
+        	null,
+        	'animated-banner',
+        	[
+        		'Markenstrategie',
+        		'Corporate Design',
+        		'Branding & Implementierung',
+        		'Online & Offline Kommunikationskonzept',
+        		'Brandclip',
+        		'Animationen',
+        		'Social Media',
+        		'Merchandise',
+        		'Event Brandings'
+        	],
+        	'col-gold',
+        	'col-red'
+        ); ?>
     </section>
 
 
     <section class="project-section has-padding-lr section-3 bg-col-white">
         <div class="row">
             <div class="col s16 m16 l13 xl12">
-                <h3 class="project-headline">Live dynamic</h3>
+                <h3 class="project-headline">Gestaltungselement</h3>
             </div>
 
             <div class="col s16 m12 l10 push-m1">
-            <div class="meta-headline">Strichgrafiken:</div>
-                <p class="is-text">Die Strichgrafiken stehen für Dynamik und Individualität. Sie wirken leicht und locker, drängen sich nicht den Vordergrund und geben den Bildern den nötigen Raum. Abgeleitet sind die 46° schrägen Linien von dem Breitengrad, auf dem Sölden zu finden ist.</p>
+            <div class="meta-headline desktop-only">Höhenlinien</div>
+                <p class="is-text desktop-only">Die topografischen Linien greifen die Formensprache der Bergwelt auf und verleihen dem Auftritt einen klaren Outdoor-Charakter. Als abstrahierte Höhenlinien schaffen sie Struktur, Tiefe und eine sichtbare Verbindung zur alpinen Herkunft der Marke.</p>
+                <p class="is-text mobile-only">Die topografischen Linien greifen die Bergwelt auf und verleihen dem Auftritt einen klaren Outdoor-Charakter. Sie schaffen eine sichtbare Verbindung zur alpinen Herkunft der Marke.</p>
             </div>
         </div>
 
@@ -114,39 +124,22 @@
                 </div>
             </div>
             <div class="section-32-icons">
-                <div class="linien-item">
-                    <?php new Image(
-                    	null,
-                    	'linien-1',
-                    	'/content/resources/media/oetztalCd/02_Gestaltungselement/OETZT_Hoehenlinien_1.svg',
-                    	'Strichgrafiken',
-                    	true
-                    ); ?>
-                </div>
-                <svg class="banner-arrow" width="12" height="28" viewBox="0 0 8 15" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path d="M3.32809 14.3536C3.52335 14.5488 3.83993 14.5488 4.0352 14.3536L7.21718 11.1716C7.41244 10.9763 7.41244 10.6597 7.21718 10.4645C7.02191 10.2692 6.70533 10.2692 6.51007 10.4645L3.68164 13.2929L0.853214 10.4645C0.657952 10.2692 0.34137 10.2692 0.146108 10.4645C-0.0491545 10.6597 -0.0491545 10.9763 0.146108 11.1716L3.32809 14.3536ZM3.18164 4.37114e-08L3.18164 14L4.18164 14L4.18164 -4.37114e-08L3.18164 4.37114e-08Z" fill="currentColor"/>
-                </svg>
-                <div class="linien-item">
-                    <?php new Image(
-                    	null,
-                    	'linien-2',
-                    	'/content/resources/media/oetztalCd/02_Gestaltungselement/OETZT_Hoehenlinien_2.svg',
-                    	'Strichgrafiken',
-                    	true
-                    ); ?>
-                </div>
-                <svg class="banner-arrow" width="12" height="28" viewBox="0 0 8 15" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path d="M3.32809 14.3536C3.52335 14.5488 3.83993 14.5488 4.0352 14.3536L7.21718 11.1716C7.41244 10.9763 7.41244 10.6597 7.21718 10.4645C7.02191 10.2692 6.70533 10.2692 6.51007 10.4645L3.68164 13.2929L0.853214 10.4645C0.657952 10.2692 0.34137 10.2692 0.146108 10.4645C-0.0491545 10.6597 -0.0491545 10.9763 0.146108 11.1716L3.32809 14.3536ZM3.18164 4.37114e-08L3.18164 14L4.18164 14L4.18164 -4.37114e-08L3.18164 4.37114e-08Z" fill="currentColor"/>
-                </svg>
-                <div class="linien-item">
-                    <?php new Image(
-                    	null,
-                    	'linien-3',
-                    	'/content/resources/media/oetztalCd/02_Gestaltungselement/OETZT_Hoehenlinien_3.svg',
-                    	'Strichgrafiken',
-                    	true
-                    ); ?>
-                </div>
+				<div class="desktop-only">
+					<?php new Svg(
+						'linien-items',
+						null,
+						'/content/resources/media/oetztalCd/02_Gestaltungselement/OETZT_Hoehenlinien_desktop.svg',
+						'Höhenlinien'
+					); ?>
+				</div>
+				<div class="mobile-only">
+					<?php new Svg(
+						'linien-items-mobile',
+						null,
+						'/content/resources/media/oetztalCd/02_Gestaltungselement/OETZT_Hoehenlinien_mobile.svg',
+						'Höhenlinien'
+					); ?>
+				</div>
             </div>
         </div>
 
@@ -157,16 +150,17 @@
 
         <div class="row">
             <div class="col s16 m16 l13 xl12">
-                <h3 class="project-headline col-light-pink">We talk "Ötztal"</h3>
+                <h3 class="project-headline col-light-pink">Typography</h3>
             </div>
         </div>
 
         <div class="row">
             <div class="col s16 m7 push-m1 l7 push-xl1">
               <div class="text-wrapper">
-              <div class="meta-headline col-light-red">Strichgrafiken:</div>
-                <p class="is-text col-white">Auch wenn ein Bild mehr als 1.000 Worte sagt: Gerade was Information betrifft, sind Worte und Inhalte unverzichtbar. Zentrales Element des neuen Erscheinungsbildes ist daher ein Corporate Font, dem eine ganz besondere Bedeutung zukommt: Die Eigenwilligkeit der Ötztaler Mundart spiegelt sich in geänderten Punktierungen, modifizierte Buchstaben und spezifische Ligaturen und Sonderzeichen wider.</p>
-                <p class="col-white">— Font creation in cooperation with <span class="col-gold">TypeTogether</span></p>
+              <div class="meta-headline col-light-red desktop-only">We talk "Ötztal"</div>
+                <p class="is-text col-white desktop-only">Die eigens entwickelte Corporate Font verleiht der Marke eine unverwechselbare Stimme. Modifizierte Zeichen, Ligaturen und typografische Eigenheiten greifen den Charakter der Ötztaler Sprache auf und übersetzen ihn in ein klares, prägnantes Schriftbild.</p>
+                <p class="is-text col-white mobile-only">ie eigens entwickelte Corporate Font greift den Charakter der Ötztaler Sprache auf und übersetzt ihn in ein klares, prägnantes Schriftbild..</p>
+                <p class="col-white">— Font creation in cooperation with TypeTogether</p>
               </div>
                 <?php new \Button(
                 	'typo-button',
@@ -190,23 +184,12 @@
     <section class="project-section has-padding-lr section-5 bg-col-dark-red">
     <div class="row">
             <div class="col s16 m16 l13 xl12">
-                <h3 class="project-headline">Spray Colors</h3>
+                <h3 class="project-headline">CORPORATE Colors</h3>
             </div>
 
             <div class="col s11 m9 l7 xl5 push-m1">
-            <div class="meta-headline col-light-red">Primary Colors:</div>
-                <p class="is-text">
-                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                </p>
-            </div>
-
-            <div class="col s4 m2 l2 colors">
-                <div class="color-box">
-                    <span>#F7A600</span>
-                </div>
-                <div class="color-box">
-                    <span>#B20933</span>
-                </div>
+                <p class="is-text desktop-only">Die Farbwelt verbindet Tiefe, Wärme und Signalwirkung. Ein dunkler Rotton bildet die markante Basis der Marke, helle Neutraltöne schaffen Ruhe und Klarheit. Prägnante Akzentfarben setzen Orientierungspunkte und geben dem System Flexibilität über unterschiedliche Anwendungen hinweg.                </p>
+                <p class="is-text mobile-only">Die Farbwelt verbindet Tiefe, Wärme und Signalwirkung. Dunkles Rot, helle Neutraltöne und prägnante Akzentfarben geben dem System Klarheit und Flexibilität</p>
             </div>
         </div>
 
@@ -214,25 +197,12 @@
     </section>
 
     <section class="project-section has-padding-lr section-6">
-        <div class="colors-flex">
-            <div class="color-box-big bg-col-dark-red">
-                <span>#F7A600</span>
-            </div>
-            <div class="box-wrapper">
-                <div class="color-box-tripple">
-                    <span>#5C1B1B</span>
-                </div>
-                <div class="color-box-tripple">
-                    <span>#7D5753</span>
-                </div>
-                <div class="color-box-tripple">
-                    <span>#B09690</span>
-                </div>
-            </div>
-            <div class="color-box-big bg-col-white">
-                <span>#F7A600</span>
-            </div>
-        </div>
+        <?php new Svg(
+            null,
+            null,
+            '/content/resources/media/oetztalCd/farben-oetz.svg',
+            'Ötztal Corporate Colors'
+        ); ?>
     </section>
 
     <section class="project-section has-padding-lr section-7">
@@ -240,10 +210,12 @@
 
         <div class="row">
             <div class="col s16 m16 l13 xl12">
-                <h3 class="project-headline">Logo Animation</h3>
+                <h3 class="project-headline">Motion Design</h3>
             </div>
             <div class="col s16 m12 l10 push-m1">
-                <div class="meta-headline">Extended Logo Animation:</div>
+                <div class="meta-headline desktop-only">Logo Animation</div>
+                <p class="is-text desktop-only">Das Motion-Design-Konzept übersetzt den Claim „Ötztal. Bewegt dich.“ visuell und typografisch in Bewegtbild. So entsteht ein prägnanter Markenmoment mit hoher Wiedererkennbarkeit.</p>
+                <p class="is-text mobile-only">Der Claim „Ötztal. Bewegt dich.“ wird visuell und typografisch in Bewegtbild übersetzt.</p>
             </div>
             <div class="col s16 m14 l10 push-m1 video-wrapper">
                 <div class="video-play-wrapper">
@@ -302,14 +274,13 @@
 
         <div class="row has-padding-lr">
             <div class="col s16 m16 l13 xl12">
-                <h3 class="project-headline col-light-pink"><span class="col-light-red">(</span>DON’T<span class="col-light-red">)</span> BREAK THE RULES<span class="col-light-pink"></h3>
+                <h3 class="project-headline col-light-pink">Layout & Raster</h3>
             </div>
 
             <div class="col s16 m13 l8 xl6 push-m1">
-            <div class="meta-headline col-light-pink">Layout + Raster:</div>
-                <p class="is-text col-white">
-                    Um ein einheitliches Erscheinungsbild zu gewährleisten, haben wir ein allgemeingültiges Rastersystem entwickelt, welches sich proportional an die jeweilige Mediengröße anpasst.
-                </p>
+                <p class="is-text col-white desktop-only">
+                Ein proportionales Rastersystem sorgt für Konsistenz über alle Formate hinweg. Es schafft Ordnung im Aufbau, hält den Auftritt flexibel und bildet die Grundlage für eine medienübergreifende Markenführung.                </p>
+                <p class="is-text col-white mobile-only">Ein proportionales Rastersystem sorgt für Konsistenz, Flexibilität und einen klaren Auftritt über alle Formate hinweg.</p>
             </div>
         </div>
 
@@ -367,10 +338,9 @@
             </div>
 
             <div class="col s16 m13 l8 xl6 push-m1">
-                <p class="is-text col-white">
-                Piktogramme sind Kommunikation und dienen als visuelle Weltsprache – nonverbal, unmissverständlich und für jeden klar. Daher wurde eine einheitliche Piktogramm-Palette entwickelt, die der Fülle an Informationen und Anwendungsbereichen gerecht wird und die überall im Tal (Sölden / Gurgl / Ötztal) eingesetzt werden kann.                </p>
+                <p class="is-text col-white desktop-only">Die Piktogrammfamilie übersetzt die Vielfalt des Ötztals in ein einheitliches visuelles Leitsystem. So entstehen verständliche, flexibel einsetzbare Zeichen, die Information, Orientierung und Markenzugehörigkeit verbinden.            </div>
+                <p class="is-text col-white mobile-only">Die Piktogramme übersetzen die Vielfalt des Ötztals in ein klares visuelles Leitsystem und verbinden Orientierung mit Markenzugehörigkeit.</p>
             </div>
-        </div>
         <div class="icons-layout">
             <div class="radfahren-stack">
                 <?php new Image(
@@ -713,22 +683,32 @@
         <?php new Image(
         	null,
         	'shirts',
-            '/content/resources/media/oetztalCd/16_OETZT_Events/04_OETZ_Trailrunning_Events_Teilnehmershirts_1.png',
+        	'/content/resources/media/oetztalCd/16_OETZT_Events/04_OETZ_Trailrunning_Events_Teilnehmershirts_1.png',
         	'Trailrunning Events Teilnehmershirts',
         	true
         ); ?>
          <?php new Image(
-        	null,
-        	'höhenlinien',
-            '/content/resources/media/oetztalCd/00_Background-Grafiken/oetzt_bg-grafiken_-05.svg',
-        	'Höhenlinien',
-        	true
-        ); ?>
+         	null,
+         	'höhenlinien',
+         	'/content/resources/media/oetztalCd/00_Background-Grafiken/oetzt_bg-grafiken_-05.svg',
+         	'Höhenlinien',
+         	true
+         ); ?>
         <div class="row has-padding-lr">
             <div class="col s16 m8 push-m8">
                 <div class="buttons">
-                    <?php new Button(null, 'project-button', 'Ötztal Corporate Font', '/projekte/oetztal/font'); ?>
-                    <?php new Button(null, 'project-button', 'Ötztal Kids', '/projekte/oetztal-kids'); ?>
+                    <?php new Button(
+                    	null,
+                    	'project-button',
+                    	'Ötztal Corporate Font',
+                    	'/projekte/oetztal/font'
+                    ); ?>
+                    <?php new Button(
+                    	null,
+                    	'project-button',
+                    	'Ötztal Kids',
+                    	'/projekte/oetztal-kids'
+                    ); ?>
                 </div>
             </div>
         </div>
@@ -736,11 +716,11 @@
     </section>
     <section class="project-section section-19">
     <?php new Image(
-        	null,
-        	'trenner',
-            '/content/resources/media/oetztalCd/17_Trennerbild_03.jpg',
-        	'Trailrunning Events Teilnehmershirts',
-        	true
-        ); ?>
+    	null,
+    	'trenner',
+    	'/content/resources/media/oetztalCd/17_Trennerbild_03.jpg',
+    	'Trailrunning Events Teilnehmershirts',
+    	true
+    ); ?>
     </section>
 </div>

@@ -15,6 +15,7 @@ class BaseView {
 	protected array $scripts;
 	protected array $styles;
 	protected bool $useDefaultStructure;
+	private const TEMPLATE_META_ONLY_FLAG = 'NORDEN_TEMPLATE_META_ONLY';
 
 	/**
 	 * Constructor method
@@ -79,6 +80,8 @@ class BaseView {
 			);
 		}
 
+		$this->applyTemplateMetaOverrides();
+
 		if ($this->useDefaultStructure) {
 			new SiteHeader(
 				null,
@@ -102,7 +105,7 @@ class BaseView {
 			);
 		}
 
-		require_once $this->template;
+		require $this->template;
 
 		if ($this->useDefaultStructure) {
 			echo '</main>';
@@ -111,5 +114,52 @@ class BaseView {
 		} else {
 			new HtmlEnd($this->scripts);
 		}
+	}
+
+	/**
+	 * Apply meta overrides provided by template.
+	 *
+	 * Templates can define SEO fields at the top and expose them by setting
+	 * `$NORDEN_TEMPLATE_META` when `$NORDEN_TEMPLATE_META_ONLY` is true.
+	 */
+	private function applyTemplateMetaOverrides(): void {
+		if (!$this->template || !is_readable($this->template)) {
+			return;
+		}
+
+		// Only project templates implement the meta-only convention currently.
+		if (strpos($this->template, '/content/projects/') === false) {
+			return;
+		}
+
+		$meta = $this->extractTemplateMeta($this->template);
+
+		if (isset($meta['title']) && is_string($meta['title']) && trim($meta['title']) !== '') {
+			$this->title = $meta['title'];
+		}
+
+		if (array_key_exists('description', $meta)) {
+			$desc = $meta['description'];
+			$this->description = (is_string($desc) && trim($desc) !== '') ? $desc : null;
+		}
+	}
+
+	/**
+	 * Runs template in "meta only" mode and returns extracted meta.
+	 *
+	 * @return array{title?:string,description?:?string}
+	 */
+	private function extractTemplateMeta(string $templatePath): array {
+		$NORDEN_TEMPLATE_META_ONLY = true;
+		$NORDEN_TEMPLATE_META = [];
+
+		ob_start();
+		try {
+			include $templatePath;
+		} finally {
+			ob_end_clean();
+		}
+
+		return is_array($NORDEN_TEMPLATE_META) ? $NORDEN_TEMPLATE_META : [];
 	}
 }

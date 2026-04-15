@@ -1,3 +1,16 @@
+<?php
+$seoTitle = 'Ötztaler Radmarathon Sölden Branding & Corporate Design | NORDEN';
+$seoDescription = 'Corporate Design für den Ötztaler Radmarathon in Sölden: visuelle Identität, Event Branding und Kommunikation für 227 Kilometer und 5.500 Höhenmeter.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription,
+	];
+	return;
+}
+?>
+
 <section id="logo-section" class="project-section bg-col-anthrazit small-padding">
     <div class="slot start"></div>
     <div class="content">
@@ -68,15 +81,13 @@
 </section>
 <section id="movement-section" class="project-section has-background-image">
     <div class="slot start"></div>
-    <div class="content narrow" style="justify-content: flex-end; align-items: flex-start">
+    <div class="content narrow" style="justify-content: flex-start; align-items: flex-start">
         <div class="column">
             <h2>Building movement</h2>
-            <p>Dynamisch skalierbare Grafikelemente betonen die Geschwindigkeit und Bewegungen der Sportler:innen des Ötztaler Radmarathons. Die Farbgebung orientiert sich dabei konsequent an den Corporate Colors und der jeweiligen Highlightfarbe des Jahres. </p>
+            <p class="desktop-only">Dynamisch skalierbare Grafikelemente betonen die Geschwindigkeit und Bewegungen der Sportler:innen des Ötztaler Radmarathons. Die Farbgebung orientiert sich dabei konsequent an den Corporate Colors und der jeweiligen Highlightfarbe des Jahres. </p>
+            <p class="mobile-only">Dynamische Grafikelemente machen Tempo und Bewegung sichtbar. Corporate Colors und Highlightfarbe sorgen für Wiedererkennung und Flexibilität.</p>
         </div>
-        <div class="column">
-            <h3 class="spacer-headline">...fast</h3>
-            <p>Die Elemente wurden nach dem „Baukastenprinzip“ entwickelt. Je nach Anwendung und Format werden die Grafiken individuell angeordnet und animiert, wodurch stets neue, lebendige Motive entstehen.</p>
-        </div>
+      
     </div>
     <div class="slot end"></div>
     <?php new Svg(
@@ -283,7 +294,8 @@
     <div class="content narrow" style="align-items: flex-start;">
         <div class="column">
             <h2 class="col-anthrazit">Uniform, but not</h2>
-            <p>Um die Radfahrer:innen perfekt für deren großen Tag einzukleiden, wurde auch für sämtliche Trikots das Gestaltungskonzept weitergeführt. Das Design ändert sich jedes Jahr und spiegelt so die Vielfalt des Gestaltungskonzepts wider.</p>
+            <p class="desktop-only">Um die Radfahrer:innen perfekt für deren großen Tag einzukleiden, wurde auch für sämtliche Trikots das Gestaltungskonzept weitergeführt. Das Design ändert sich jedes Jahr und spiegelt so die Vielfalt des Gestaltungskonzepts wider.</p>
+            <p class="mobile-only">Das Gestaltungskonzept setzt sich auch in den Trikots fort. Jedes Jahr neu interpretiert, bleibt es vielfältig und klar wiedererkennbar.</p>
         </div>
         <div class="column">
             <?php new Svg(
@@ -361,7 +373,8 @@
             ); ?>
         </div>
         <div class="column" style="width: 40%;">
-            <p>Egal ob auf der Website oder den Social Media Kanälen, ob als Standbild oder Bewegtbild: Die grafischen Elemente schaffen eine markante Formensprache und einen hohen Wiedererkennungswert auf allen Plattformen.</p>
+            <p class="desktop-only">Egal ob auf der Website oder den Social Media Kanälen, ob im Print oder Bewegtbild: Die grafischen Elemente schaffen eine markante Formensprache und einen hohen Wiedererkennungswert auf allen Plattformen.</p>
+            <p class="mobile-only">Ob Website, Social Media, Print oder Bewegtbild: Die grafischen Elemente schaffen eine markante Formensprache mit hohem Wiedererkennungswert.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -427,7 +440,8 @@
     <div class="content">
         <div class="column">
             <h2 class="col-anthrazit">Merch, merch, merch!</h2>
-            <p>Um auch die Fans des Ötztaler Radmarathons bestens auszustatten, wurde ein breites Sortiment an Merchandise-Artikeln entwickelt. Von erwerbbaren T-Shirts, Trinkflaschen, Socken und Taschen bis hin zu Crew-Shirts und Access-Pässen – hier ist wirklich für jeden Anlass etwas Passendes dabei.</p>
+            <p class="desktop-only">Um auch die Fans des Ötztaler Radmarathons bestens auszustatten, wurde ein breites Sortiment an Merchandise-Artikeln entwickelt. Von erwerbbaren T-Shirts, Trinkflaschen, Socken und Taschen bis hin zu Crew-Shirts und Access-Pässen – hier ist wirklich für jeden Anlass etwas Passendes dabei.</p>
+            <p class="mobile-only">Das Merch-Sortiment trägt die Marke über das Event hinaus weiter. Es verbindet Funktion, Wiedererkennung und den Spirit des Rennens in einem eigenständigen Auftritt.</p>
         </div>
     </div>
     <div class="col end"></div>

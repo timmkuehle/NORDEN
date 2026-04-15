@@ -1,3 +1,16 @@
+<?php
+$seoTitle = '';
+$seoDescription = '';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription,
+	];
+	return;
+}
+?>
+
 <div class="project-wrapper manz">
     <section class="project-section has-padding-lr section-1 bg-col-beige">
         <?php new Image(

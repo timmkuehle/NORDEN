@@ -1,3 +1,16 @@
+<?php
+$seoTitle = 'Sölden Font Design & Brand Typography | NORDEN';
+$seoDescription = 'Fontdesign für Sölden: Eine exklusive Headline-Schrift als Key Brand Identifier für mehr Wiedererkennung und typografische Eigenständigkeit.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription,
+	];
+	return;
+}
+?>
+
 <section id="st-intro-section" class="project-section bg-col-cool-gray">
     <div class="slot start"></div>
     <div class="content">
@@ -28,7 +41,7 @@
 
     <div class="content">
     <div  class="services">
-        <span class="services-title">Unsere Leistungen:</span>
+        <span class="services-title ">Unsere Leistungen:</span>
         <p class="service">Fontdesign</p>
         <span class="separator">–</span>
         <p class="service">Konzeptionierung</p>
@@ -43,9 +56,9 @@
 <section id="st-live-dynamic-section" class="project-section">
     <div class="slot start"></div>
     <div class="content">
-        <div class="soelden-text-section">
+        <div class="soelden-text-section  desktop-only">
             <h2>Live Dynamic</h2>
-            <p class="text-is-large">Plakativ, präsent & sportlich. Die modifizierte Headline Font für Sölden ist auffällig, <span class="highlight-circle">athletisch-dynamisch</span> und garantiert einen hohen Wiedererkennungswert.</p>
+            <p class="text-is-large">Markant, variabel und unverwechselbar: Der eigens für Sölden entwickelte He<span class="highlight-circle">adline-Font macht die </span>setzt die Marke auf den ersten Blick erkennbar.</span></p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -57,8 +70,8 @@
             <div class="soelden-text-section" >
                 <h2>WE LIKE TO MOVE IT</h2>
                 <h3>AS SOELDEN HEADLINE FONT:</h3>
-                <p>Wir haben eine variable Headline-Font entwickelt, die Söldens Charakter visualisiert. Sie kommt bei allen Überschriften der Marke, sowie bei allen Produkten und Subbrands zur Anwendung. Vor allem in Animationen entfaltet sie ihren vollen Charakter.</p>
-                <p>Die AS Sölden für den Fließtext ist mit 10 unterschiedlichen Schriftschnitten ausgestattet. Wir bevorzugen die Schriftschnitte von Regular – Extrabold. Verwendet wird sie für Fließtexte und Sublines.</p>
+                <p class="desktop-only">Die Headline-Schrift ist ein zentrales Wiedererkennungsmerkmal der Marke Sölden. Variable Buchstabenbreiten verleihen ihr Dynamik, Eigenständigkeit und einen sportlich-progressiven Charakter. Als Key Brand Identifier prägt sie den Auftritt über alle Anwendungen hinweg.</p>
+                <p class="mobile-only">Der eigens für Sölden entwickelte Headline-Font macht die Marke typografisch unverwechselbar. Variable Buchstabenbreiten verleihen der Schrift Dynamik, Eigenständigkeit und hohen Wiedererkennungswert.</p>
                 <p>— Font creation in cooperation with <span class="col-orange">TypeTogether</span></p>
             </div>
         </div>

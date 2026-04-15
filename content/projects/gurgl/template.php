@@ -1,3 +1,17 @@
+<?php
+$seoTitle = 'Gurgl Destination Branding & Corporate Design | NORDEN';
+$seoDescription =
+	'Corporate Design für Gurgl im Ötztal: Destination Branding und visueller Markenauftritt für die Premium-Destination „Diamond of the Alps“.';
+
+if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
+	$NORDEN_TEMPLATE_META = [
+		'title' => $seoTitle,
+		'description' => $seoDescription
+	];
+	return;
+}
+?>
+
 <div id="intro-bg-image-container" class="bg-image-container">
 <section id="logo-section" class="project-section bg-col-anthrazit small-padding">
     <div class="slot start"></div>
@@ -47,7 +61,8 @@
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 80%;">
-            <p class="text-large">Gurgl ist der Diamant der Alpen. Die <span class="highlight-circle">Premium-</span>Destination bietet Urlaub auf höchstem Niveau. Das Kommunikationskonzept unterstützen den Markenkern. Der Claim ist ein Versprechen! Gurgl bietet – umgeben von majestätischen Gletschern – Urlaub auf höchstem Niveau. Neue Liftanlagen, sonnige Skipisten, futuristisch anmutende Architektur, Ski in - Ski out und Kulinarik vom feinsten garantieren einen hochkarätigen Urlaub im <span class="highlight-circle">Diamant der Alpen</span>.</p>
+            <p class="text-is-large desktop-only">Gurgl – Diamond of the Alps. Die <span class="highlight-circle">Premium</span>-Destination steht für alpinen Urlaub auf höchstem Niveau. Der Markenauftritt übersetzt diesen Anspruch in eine klare, elegante und eigenständige Identität.</p>
+            <p class="text-is-large mobile-only">Gurgl – Diamond of the Alps. Der Markenauftritt übersetzt den <span class="highlight-circle">Premium-</span>Anspruch der Destination in eine klare, elegante Identität.</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -102,9 +117,9 @@
     <div class="content" style="align-items: stretch;">
         <div class="column" style="display: flex; flex-direction: column; justify-content: space-between;">
             <div class="text">
-                <h2 class="col-white">Graphicelement</h2>
-                <h3 class="col-gray-3">Gurgl. Der Diamant der Alpen</h3>
-                <p class="col-white">Wir wollen auch in dem Gestaltungselement den Claim und die Markenwerte von Gurgl transportieren. Kein Element eignet sich besser hierfür als ein Diamant. Durch Verläufe und divere, variablen Ausschnitte kann der Diamant jeder Zeit subtil im Hintergrund mittransportiert werden.</p>
+                <h2 class="col-white">Gestaltungselement</h2>
+                <p class="col-white desktop-only">Der Diamant verdichtet Claim und Markenwerte zu einem prägnanten Gestaltungselement. In variablen Ausschnitten und Verläufen bleibt er subtil präsent und macht die Marke über alle Anwendungen hinweg wiedererkennbar.</p>
+                <p class="col-white mobile-only">Der Diamant verdichtet Claim und Markenwerte zu einem prägnanten Gestaltungselement. So bleibt die Marke über alle Anwendungen hinweg subtil präsent und wiedererkennbar.</p>
             </div>
             <?php new Image(
             	null,
@@ -152,11 +167,11 @@
 <section id="mood-image-section">
     <div class="content">
         <?php new Image(
-    	    null,
-    	    'background-image desktop-only',
-    	    '/content/resources/media/gurgl/04_Trennerbild.jpg',
-    	    'Trennerbild',
-    	    true
+        	null,
+        	'background-image desktop-only',
+        	'/content/resources/media/gurgl/04_Trennerbild.jpg',
+        	'Trennerbild',
+        	true
         ); ?> 
     </div>
 </section>
@@ -166,9 +181,15 @@
         <div class="column">
             <h2>Adelle Sans Gurgl Headline</h2>
             <h3 class="col-white">Customized Headline Font:</h3>
-            <p class="col-white">Um zusätzlich zu dem Diamant Element noch einen weiteren Key-Brand-Identifyer zu defineiren. Kreierten wir einen customized Font für die Destination Gurgl. Dieser leietet sich aus der Fließtext Font ab und wurde bei einigen Buchstaben modifiziert. So bekommt die Schrift an den richtigen Stellen harte Kanten udn Schrägen, wie ein Diamant. Eine weitere Gemeinsamkeit ist die Eleganz die bei der Schrift durch den Condensed und Light Schnitt kommt.</p>
+            <p class="col-white desktop-only">Neben dem Diamanten wurde eine eigens entwickelte Headline-Schrift zum weiteren Key Brand Identifier. Sie leitet sich aus der Hausschrift ab und übersetzt Präzision, Eleganz und alpine Schärfe in ein eigenständiges typografisches Zeichen.</p>
+            <p class="col-white mobile-only">Die eigens entwickelte Headline-Schrift ergänzt den Diamanten als Key Brand Identifier und verleiht der Marke Präzision, Eleganz und Eigenständigkeit.</p>
             <p class="col-white">— Font creation in cooperation with <span class="col-blue">TypeTogether</span></p>
-            <?php new Button(null, null, 'Mehr zur Typografie', '/'); ?>
+            <?php new Button(
+            	null,
+            	null,
+            	'Mehr zur Typografie',
+            	'/gurgl-corporate-font'
+            ); ?>
         </div>
         <div class="column">
             <?php new Image(
@@ -180,20 +201,7 @@
     </div>
     <div class="slot end"></div>
 </section>
-<section id="font-development-section-2" class="project-section no-padding-top">
-    <div class="slot start"></div>
-    <div class="content">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/gurgl/GURGL_Typo_Modifikation_Desktop.svg',
-        	'Gurgl Typografie-Modifikationen',
-        	true,
-        	'/content/resources/media/gurgl/GURGL_Typo_Modifikation_Mobile.svg'
-        ); ?>
-    </div>
-    <div class="slot end"></div>
-</section>
+
 <section id="claim-headline-section" class="project-section has-background-image bg-col-gray-5">
     <div class="slot start"></div>
     <div class="content">
@@ -220,12 +228,13 @@
         <div class="column">
             <h2 class="col-white">Corporate Colors</h2>
             <h3 class="col-gray-1">Primary Colors:</h3>
-            <p class="col-white">Ein feiner und eleganter Grauton bildet die Primärfarbe des neuen Corporate Designs. Die spiegelt sowohl die</p>
-            <h3 class="col-gray-1">Secondary Colors:</h3>
+            <p class="col-white desktop-only">Ein feiner Grauton bildet die elegante Basis des Corporate Designs. Abstufungen sorgen für Flexibilität, der markante Blauton setzt gezielte Akzente und schafft hohen, modernen Kontrast.</p>
+            <p class="col-white mobile-only">Ein feiner Grauton bildet die elegante Basis, ein markanter Blauton setzt moderne Akzente.</p>
+            <!-- <h3 class="col-gray-1">Secondary Colors:</h3>
             <p class="col-white">Ausghend von der Primärfarbe wurden weitere Abstufungen 
             definiert, um maximale Flexibilität in allen Anwendungen zu gewährleisten.</p>
             <h3 class="col-gray-1">Tertiary Colors:</h3>
-            <p class="col-white">Der knallige Blauton wird bei Hervorhebungen, sowie Call-To-Action Anwendugen  eingesetzt und garantiert  größstmöglichen Kontrast und Aufmerksamkeit.</p>
+            <p class="col-white">Der knallige Blauton wird bei Hervorhebungen, sowie Call-To-Action Anwendugen  eingesetzt und garantiert  größstmöglichen Kontrast und Aufmerksamkeit.</p> -->
         </div>
         <div class="column">
             <?php new Svg(
@@ -275,7 +284,8 @@
     <div class="content" style="align-items: flex-start;">
         <div class="column" style="width: 65%">
             <h2 class="col-white">Social Media Toolbox</h2>
-            <p class="col-white">Um ein einheitliches Erscheinungsbild zu gewährleisten, haben wir ein allgemeingültiges Rastersystem entwickelt, welches sich proportional an die jeweilige Mediengröße anpasst.</p>
+            <p class="col-white desktop-only">Für einen konsistenten digitalen Auftritt wurde ein flexibles Rastersystem entwickelt. Es schafft Ordnung, Wiedererkennbarkeit und lässt sich auf unterschiedliche Formate übertragen.</p>
+            <p class="col-white mobile-only">Ein flexibles Rastersystem sorgt für einen konsistenten digitalen Auftritt über alle Formate hinweg.</p>
             <?php new Image(
             	null,
             	null,
@@ -349,7 +359,8 @@
                 	'Alpine Artzeit'
                 ); ?>
             </h2>
-            <p class="col-white">Die Alpine Artzeit in Gurgl ist ein einzigartiges Kunst- und Kulturfestival, das die alpine Bergwelt mit modernen Kunstformen verbindet und Besucher in eine inspirierende Atmosphäre eintauchen lässt. Hier treffen zeitgenössische Kunst und die majestätische Natur aufeinander, um außergewöhnliche Erlebnisse zu schaffen.</p>
+            <p class="col-white desktop-only">Die Alpine Artzeit verbindet alpine Kulisse mit zeitgenössischer Kunst. Der Auftritt übersetzt dieses Spannungsfeld in eine Gestaltung, die Ruhe, Anspruch und kulturelle Eigenständigkeit vermittelt.</p>
+                <p class="col-white mobile-only">Die Alpine Artzeit verbindet alpine Kulisse mit zeitgenössischer Kunst – in einer Gestaltung, die Ruhe, Anspruch und Eigenständigkeit vermittelt</p>
         </div>
         <div class="column">
             <?php new Image(
@@ -397,14 +408,15 @@
             </h2>
         </div>
         <div class="column">
-            <p class="col-white">Der Skiweltcup in Gurgl ist ein spektakuläres Event im alpinen Skisport, das jährlich Top-Athleten und begeisterte Zuschauer in die Tiroler Alpen zieht. Für dieses Event haben wir das komplette plattformübergreifende Design entwickelt, das sowohl die digitale Präsenz als auch die visuelle Kommunikation nahtlos miteinander verbindet.</p>
+            <p class="col-white desktop-only">Für den Skiweltcup in Gurgl entstand ein plattformübergreifender Auftritt, der sportliche Präzision und internationale Sichtbarkeit verbindet. So wird das Event klar als Teil der Markenwelt von Gurgl erkennbar.</p>
+            <p class="col-white mobile-only">Für den Skiweltcup in Gurgl entstand ein plattformübergreifender Auftritt mit sportlicher Präzision und klarer Markenzugehörigkeit</p>
         </div>
     </div>
     <div class="slot end"></div>
 </section>
 <section class="project-section">
     <div class="slot start"></div>
-    <div class="content narrow">
+    <div class="content narrow" style="display: flex; flex-direction: row; align-items: flex-start;">
         <div class="column" style="width: 36%;">
             <?php new Video(
             	null,
@@ -480,7 +492,8 @@
     <div class="slot start"></div>
     <div class="content narrow">
         <div class="column" style="width: 40%;">
-            <p class="col-white">Die Alpine Auszeit in Gurgl ist ein exklusives Event, das Gästen die Möglichkeit bietet, inmitten der atemberaubenden Berglandschaft Ruhe und Erholung zu finden. Es kombiniert Wellness, Naturerlebnisse und Entspannung zu einem unvergesslichen Aufenthalt in den Tiroler Alpen.</p>
+            <p class="col-white desktop-only">Die Alpine Auszeit steht für Rückzug, Ruhe und Erholung in hochalpiner Umgebung. Der Auftritt macht diesen Anspruch sichtbar – reduziert, klar und mit einem Fokus auf exklusive Entschleunigung.</p>
+            <p class="col-white mobile-only">Die Alpine Auszeit steht für Ruhe und Erholung in hochalpiner Umgebung. Der Auftritt ist reduziert, klar und auf exklusive Entschleunigung ausgerichtet.</p>
         </div>
         <div class="column">
             <?php new Image(

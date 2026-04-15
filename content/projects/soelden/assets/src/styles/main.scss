@@ -69,16 +69,23 @@ $color-soel-cool-gray: #eeeff1;
 }
 
 .mobile-only {
+	display: block;
+
 	@media screen and (min-width: 768px) {
 		display: none;
 	}
 }
 .desktop-only {
-	@media screen and (max-width: 768px) {
-		display: none;
+	display: none;
+
+	@media screen and (min-width: 768px) {
+		display: block;
 	}
 }
-
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
 // SOELDEN project styling
 .soel-side-note {
 	display: none;
@@ -106,6 +113,9 @@ $color-soel-cool-gray: #eeeff1;
 }
 
 .soelden-text-block {
+	p {
+		max-width: 40rem;
+	}
 	&:not(.no-max-width) {
 		max-width: 36rem;
 
@@ -249,7 +259,6 @@ body {
 			}
 
 			.nav-menu {
-				background-color: $color-soel-anthrazit;
 
 				.menu-item {
 					.menu-item-link {
@@ -275,6 +284,7 @@ body {
 
 	main {
 		overflow-x: hidden;
+		background-color: $color-soel-cool-gray;
 		.soelden-project {
 			.soel-side-note {
 				@include mquery($screen-l) {
@@ -392,7 +402,7 @@ body {
 			}
 
 			p {
-				max-width: 40rem;
+				max-width: 55rem;
 
 				@media screen and (min-width: 1440px) {
 					max-width: 70rem;
@@ -495,7 +505,9 @@ body {
 					flex-direction: row !important;
 				}
 			}
-
+			&.graphic-elements-cols {
+				padding-bottom: 10rem !important;
+			}
 			&.graphic-elements-images {
 				background: linear-gradient(
 					var(--color-light) 58%,
@@ -546,7 +558,9 @@ body {
 					}
 				}
 			}
-
+			&.layout-1 {
+				padding-top: 10rem !important;
+			}
 			&.social-media-4 {
 				background: linear-gradient(
 					$color-soel-anthrazit 73%,
@@ -1178,7 +1192,7 @@ body {
 }
 
 #typo-button {
-	margin-top: 7%;
+	margin-top: 45%;
 	color: $color-soel-anthrazit;
 	background-color: $color-soel-orange;
 	border-color: $color-soel-orange;

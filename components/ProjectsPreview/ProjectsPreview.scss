@@ -1,18 +1,25 @@
-$projects-gap: 3rem;
-
 .projects-preview {
 	padding-block: 1.375rem 6rem;
 	background-color: #eceff0;
 
 	.projects {
+		--projects-gap: .75rem;
 		display: flex;
-		gap: $projects-gap;
-		flex-wrap: wrap;
+		gap: var(--projects-gap);
+		flex-wrap: nowrap;
 		width: 100%;
 
+		@media screen and (min-width: 695px) {
+			--projects-gap: 2rem;
+		}
+
+		@media screen and (min-width: 1024px) {
+			--projects-gap: 3rem;
+		}
+
 		.project {
-			flex: 1 0 calc(33.333% - 2rem);
-			min-width: 20rem;
+			flex: 0 0 calc((100% - (2 * var(--projects-gap))) / 3);
+			min-width: 0;
 
 			.project-link {
 				display: block;
@@ -22,6 +29,7 @@ $projects-gap: 3rem;
 
 				.project-thumbnail {
 					width: 100%;
+					display: block;
 				}
 
 				.project-footer {

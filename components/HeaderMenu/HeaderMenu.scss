@@ -98,6 +98,18 @@
 			#mobile-menu-checkbox:checked ~ .site-header & {
 				transform: translateY(0);
 				transition-delay: 0.1s;
+				background-color: var(--color-light);
+				color: #000;
+
+				.menu-item-link {
+					color: #000;
+
+					@media screen and (hover: hover) {
+						&:hover {
+							color: #000;
+						}
+					}
+				}
 			}
 		}
 

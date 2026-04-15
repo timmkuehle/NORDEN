@@ -1,9 +1,9 @@
 .client-logo-strip {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
-	gap: 4rem;
+	gap: 3.5rem;
 	overflow-x: auto;
 	padding-block: max(2rem, 5%);
 	background-color: #eceff0;

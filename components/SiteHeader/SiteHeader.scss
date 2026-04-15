@@ -31,6 +31,35 @@
 		background-color: rgba(var(--color-light-rgb), 0.5);
 		backdrop-filter: blur(0.5rem);
 		transition: all 0.35s ease-in-out;
+
+		#mobile-menu-checkbox:checked ~ & {
+			background-color: var(--color-light);
+			backdrop-filter: blur(0rem);
+		}
+	}
+
+	#mobile-menu-checkbox:checked ~ & {
+		color: #000;
+
+		.logo {
+			fill: #000;
+		}
+
+		.menu-icon-stroke {
+			stroke: #000;
+		}
+
+		.contact-menu {
+			a {
+				color: #000;
+
+				@media screen and (hover: hover) {
+					&:hover {
+						color: #000;
+					}
+				}
+			}
+		}
 	}
 
 	.slot {
@@ -60,6 +89,10 @@
 		&::before {
 			background-color: rgba(var(--color-light-rgb), 0);
 			backdrop-filter: blur(0rem);
+		}
+
+		.logo {
+			fill: #000 !important;
 		}
 
 		.slot {
