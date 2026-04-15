@@ -31,32 +31,41 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 			</div>
 		</header>
 		<div class="content align-right intro-wrapper">
-  			<div class="intro-entry outside-timeline">
-				<p class="text-style-big">Wir sind <span class="bold highlight-circle">NORDEN</span></p>
-				<p class="text-style-big bold desktop-only">Eine Agentur mit großem Gespür für Menschen, Orte und Identität.</p>
-				<p class="mobile-intro mobile-only">Eine Agentur mit Gespür für Menschen, Orte und Identität.Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Mit strategischem Denken, gutem Design und klarer <span class="highlight-circle">Kommunikation</span> gestalten wir Marken über alle Touchpoints hinweg..</p>
-
-			</div>
 			<div class="intro-timeline-wrapper">
-				<div class="timeline-strip"></div>
-				<div>
-					<div class="intro-entry desktop-only">
+				<div class="row intro-entry">
+					<div class="col s16 m5 l5">
+						<p class="text-style-big">Wir sind <span class="bold highlight-circle">NORDEN</span></p>
+					</div>
+					<div class="col s16 m10 l10 push-m1">
+						<p class="text-style-big bold desktop-only">Eine Agentur mit großem Gespür für Menschen, Orte und Identität.</p>
+						<p class="mobile-intro mobile-only">Eine Agentur mit Gespür für Menschen, Orte und Identität.Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Mit strategischem Denken, gutem Design und klarer <span class="highlight-circle">Kommunikation</span> gestalten wir Marken über alle Touchpoints hinweg..</p>
+					</div>
+				</div>
+
+				<div class="row intro-entry desktop-only">
+					<div class="col s16 m5 l5">
 						<p class="text-style-big">Was wir machen?</p>
+					</div>
+					<div class="col s16 m10 l10 push-m1">
 						<div>
 							<p>Wir machen Marken sichtbar, Inhalte verständlich und Ideen lebendig.Unser Herz schlägt für strategisches Denken, gutes Design und klare <span class="highlight-circle">Kommunikation</span>.Wir gestalten Marken über alle Touchpoints hinweg – klar im Profil, flexibel in der Anwendung und in <span class="highlight-circle">jedem Me</span>dium stimmig.</p>
 							<p style="margin-top: 1.25em;">Kreativität ohne Schublade. Alles, was gute Kommunikation 	braucht – 	von Anfang an.</p>
 							<a class="button text-style-button secondary" href="/agentur">Mehr zu uns</a>
 						</div>
 					</div>
-					<div class="intro-entry flex-entry">
-						<p class="text-style-big">Ein kleiner Teaser an Projekten ...</p>
+				</div>
 
+				<div class="row intro-entry flex-entry">
+					<div class="col s16 m5 l10">
+						<p class="text-style-big">Ein kleiner Teaser an Projekten ...</p>
+					</div>
+					<div class="col s16 m10 l5 push-m1">
 						<div class="button-text-wrapper">
-						<p class="text-style-big justify-right">... oder doch gleich mehr?</p>
-						<a class="button text-style-button primary" href="/work">Alle Projekte</a>
+							<p class="text-style-big justify-right">... oder doch gleich mehr?</p>
+							<a class="button text-style-button primary" href="/work">Alle Projekte</a>
 						</div>
 					</div>
-			</div>
+				</div>
 			</div>
 		</div>
 	</section>
