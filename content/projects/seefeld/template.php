@@ -232,24 +232,6 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         ); ?>
     </div>
 
-    <div class="banner bg-col-gray-blue" aria-label="Tirols Hochplateau">
-        <div class="banner-track" aria-hidden="true">
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-        </div>
-        <div class="banner-track" aria-hidden="true">
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-            <span class="banner-item">Tirols Hochplateau</span>
-        </div>
-    </div>
 </section>
 <section class="project-section no-padding-top full-width-new">
     <div class="slot start"></div>
@@ -257,7 +239,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/seefeld/10_SFLD_Hochplateau Trenner_Banner.gif',
+        	'/content/resources/media/seefeld/10_SFLD_Hochplateau_Trenner_Banner.gif',
         	'Seefeld Banner',
         	true
         ); ?>

@@ -10,7 +10,7 @@
         <a href="mailto:">mail@norden.co</a>
         </p>
         <p><span class="bold">UID:</span> ATU69367749<br><span class="bold">FN:</span> 427559 p<br>Landesgericht Innsbruck<br>Mitglied der Wirtschaftskammer Tirol</p>
-        <h3>Haftungsausschluss</h3>
+        <h3>Haftungsausschluss:</h3>
         <p>Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV: Norden GmbH <br>
         Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.<br>Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
         <p>
@@ -27,9 +27,12 @@
     </div>
     <div class="content">
         <h2>Copyright Bild & Text</h2>
-        <h3>Bildmaterial</h3>
-        <p class="col-red">NORDEN GmbH – F. Manz, G. Berger, N. Sprengel, L. Günther, E. Schauer, L. Fuchs<br>Ötztal Toursimus – B. Ritschel, A. Lohmann, Audi Nines / The Distillery GmbH</p>
-        <h3>Texte</h3>
+        <h3>Bildmaterial:</h3>
+        <p>© NORDEN GmbH<br>© Ötztal Toursimus – A. Lohmann, B. Ritschel, C. Nösig, J. Müller, <br>
+        L. Ennemoser, N. Semrau, T. Siegele, Audi Nines /  The Distillery GmbH<br>
+        © Liftgesellschaft Obergurgl-Hochgurgl – D. Ebenbichler, <br>
+        © Ski Austria – J. Zeller, © Burton, © F. Manz, © G. Berger</p>
+        <h3>Texte:</h3>
         <p>NORDEN GmbH</p>
         <h3>Programmierung</h3>
         <p>Werbeagentur Tino Schlenker <br>

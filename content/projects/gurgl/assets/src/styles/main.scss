@@ -79,6 +79,18 @@ $color-dark-blue: #0000e1;
 	}
 }
 
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+
+	@include minquery($screen-l) {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+}
+
 .highlight-circle {
 	&::after {
 		transform: translate(-50%, -50%) rotate(-2deg);
@@ -150,7 +162,7 @@ body {
 	}
 
 	main {
-		overflow-x: hidden ;
+		overflow-x: hidden;
 		margin-top: 0;
 		padding: var(--header-height) 0 0 0;
 		font-family:
@@ -245,7 +257,22 @@ body {
 }
 
 #intro-text-section {
-	background-image: linear-gradient($color-gray-2 40%, $color-gray-5 40%);
+	background-image: linear-gradient($color-gray-2 50%, $color-gray-5 50%);
+
+	// Let the grid `.row` / `.col` system control layout here.
+	// `project-section.scss` makes `.content` a flex row on desktop which breaks the grid.
+	.content {
+		display: block;
+		width: 100%;
+		padding-inline: 0 !important;
+	}
+	.animated-banner {
+		padding: 2rem;
+	}
+
+	.row {
+		width: 100%;
+	}
 
 	.background-image {
 		transform: scale(-1, -1);
@@ -337,8 +364,6 @@ body {
 		width: 80%;
 		height: auto;
 	}
-
-	
 }
 
 #some-section {
@@ -349,14 +374,31 @@ body {
 		width: 70%;
 		height: auto;
 	}
+	.text-col {
+		margin-bottom: 2rem;
+	}
+	.image-col {
+		display: flex;
+		gap: 1rem;
+		justify-content: space-between;
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
+		@include minquery($screen-m) {
+			gap: 2rem;
+		}
+		.image,
+		img {
+			width: auto;
+			max-width: 100%;
+			height: 100%;
+			display: block;
+			min-width: 0;
+			object-fit: contain;
+		}
 
-	@media screen and (min-width: 769px) {
-		.column:first-child {
-			margin-top: 10vw;
-
-			img {
-				margin-top: 15vw;
-			}
+		& > * {
+			min-width: 0;
 		}
 	}
 }
@@ -462,7 +504,6 @@ body {
 	@media screen and (min-width: 769px) {
 		.image {
 			width: 85%;
-			
 		}
 	}
 }

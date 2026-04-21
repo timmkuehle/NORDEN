@@ -307,7 +307,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 <?php new Image(
                 	null,
                 	'cover-mockup',
-                	'/content/resources/media/oetztalCd/06_OETZT_Layoutprinzip/OETZT_Folder_Cover_Mockup.jpg',
+                	'/content/resources/media/oetztalCd/06_OETZT_Layoutprinzip/Folder_Anwendung.jpg',
                 	'Cover Mockup',
                 	true
                 ); ?>
@@ -329,9 +329,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_2.jpg',
 								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_3.jpg',
 								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_4.jpg',
-								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_22.jpg',
-								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_33.jpg',
-								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_44.jpg'
+
 							];
 							foreach ($ortsfolder_images as $idx => $src) {
 								?>

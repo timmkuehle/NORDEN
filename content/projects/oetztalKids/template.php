@@ -189,7 +189,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <h3 class="meta-headline">Widi Farben:</h3>
     <p class="is-text col-white desktop-only">Im Zuge der Neupositionierung und des Redesigns der Marke Ötztal wurde auch WIDI farblich angepasst. So wurde das Maskottchen stimmig in die neue Markenwelt integriert und visuell klar an die Destination angebunden.</p>
     <p class="is-text col-white mobile-only">Im Zuge des Redesigns der Marke Ötztal wurde auch WIDI farblich angepasst und stimmig in die neue Markenwelt integriert.</p>
-    <?php new Svg(
+    <?php new Image(
     	null,
     	'overlay',
     	'/content/resources/media/oetztalKids/07_WIDI_Farben.svg',

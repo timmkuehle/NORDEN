@@ -213,7 +213,9 @@ body {
 
 #hochplateau-section {
 	background-image: linear-gradient(white 65%, $color-light-blue 65%);
-
+.content {
+	align-items: flex-start;
+}
 	.svg {
 		width: 80%;
 	}
@@ -334,10 +336,11 @@ body {
 			align-items: center;
 			gap: 3rem;
 			will-change: transform;
-			animation: seefeld-banner-scroll 18s linear infinite;
+			animation: seefeld-banner-scroll 32s linear infinite;
 		}
 
 		.banner-item {
+			font-size: clamp(1.25rem, 4vw, 2.875rem);
 			flex: 0 0 auto;
 		}
 	}

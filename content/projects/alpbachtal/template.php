@@ -407,7 +407,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section full-width-new bg-col-deep-beige">
+<section class="project-section full-width-new bg-col-beige-variant">
     <div class="slot start"></div>
     <div class="content">
         <?php new Image(
@@ -420,7 +420,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section bg-col-deep-beige">
+<section class="project-section bg-col-beige-variant">
     <div class="slot start">
         <p class="side-note">Geschäftsausstattung</p>
     </div>
@@ -436,7 +436,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="slot end"></div>
 </section>
 
-<section id="poster-section" class="project-section bg-col-deep-beige">
+<section id="poster-section" class="project-section bg-col-beige-variant">
     <div class="slot start">
         <p class="side-note">Retro Poster Designs</p>
     </div>

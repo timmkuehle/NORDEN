@@ -122,22 +122,23 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="col s16">
 
         <div class="image-desktop">
-        <?php new Image(
-        	null,
-        	'desktop',
-        	'/content/resources/media/gurglFont/GURGL_Typo_Modifikation_Desktop.svg',
-        	null,
-        	true
-        ); ?>
+			<?php new Image(
+   	null,
+   	'desktop',
+   	'/content/resources/media/gurglFont/05_GURGL_Typo_Modifikation_Desktop.svg',
+   	null,
+   	true
+   ); ?>
         </div>
-        <div class="image-mobile">
-        <?php new Image(
-        	null,
-        	'mobile',
-        	'/content/resources/media/gurglFont/GURGL_Typo_Modifikation_Mobile.svg',
-        	null,
-        	true
-        ); ?>
+		<div class="image-mobile">
+			<?php new Image(
+   	null,
+   	'mobile',
+   	'/content/resources/media/gurglFont/05_GURGL_Typo_Modifikation_Mobile.svg',
+   	null,
+   	true
+   ); ?>
+		</div>
         </div>
     </div>
     </div>

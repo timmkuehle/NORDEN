@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1599 265">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2, .cls-5 {
+        fill: #9ec540;
+      }
+
+      .cls-1, .cls-9, .cls-10 {
+        opacity: .6;
+      }
+
+      .cls-3 {
+        opacity: .6;
+      }
+
+      .cls-3, .cls-8, .cls-12 {
+        fill: #503b21;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        opacity: .3;
+      }
+
+      .cls-4, .cls-10, .cls-11 {
+        fill: #00a099;
+      }
+
+      .cls-6, .cls-7, .cls-9 {
+        fill: #bf9a57;
+      }
+
+      .cls-8 {
+        opacity: .3;
+      }
+    </style>
+  </defs>
+  <path class="cls-6" d="M534,0h355v130c0,11.04-8.96,20-20,20h-335V0h0Z" transform="translate(1423 150) rotate(180)"/>
+  <rect class="cls-2" x="889" width="355.56" height="150" transform="translate(2133.56 150) rotate(180)"/>
+  <path class="cls-11" d="M1244,0h355v150h-335c-11.04,0-20-8.96-20-20V0h0Z" transform="translate(2843 150) rotate(180)"/>
+  <rect class="cls-9" x="534" y="150" width="355" height="75" transform="translate(1423 375) rotate(180)"/>
+  <rect class="cls-1" x="889" y="150" width="355" height="75" transform="translate(2133 375) rotate(180)"/>
+  <rect class="cls-10" x="1244" y="150" width="355" height="75" transform="translate(2843 375) rotate(180)"/>
+  <path class="cls-7" d="M534,225h335c11.04,0,20,8.96,20,20v20h-355v-40h0Z" transform="translate(1423 490) rotate(180)"/>
+  <path class="cls-12" d="M0,0h355v130c0,11.04-8.96,20-20,20H20c-11.04,0-20-8.96-20-20V0h0Z" transform="translate(355 150) rotate(180)"/>
+  <rect class="cls-3" y="150" width="355" height="75" transform="translate(355 375) rotate(180)"/>
+  <path class="cls-8" d="M20,225h315c11.04,0,20,8.96,20,20v20H0v-20c0-11.04,8.96-20,20-20Z" transform="translate(355 490) rotate(180)"/>
+  <rect class="cls-5" x="889" y="225" width="355" height="40" transform="translate(2133 490) rotate(180)"/>
+  <path class="cls-4" d="M1264,225h335v40h-355v-20c0-11.04,8.96-20,20-20Z" transform="translate(2843 490) rotate(180)"/>
+</svg>

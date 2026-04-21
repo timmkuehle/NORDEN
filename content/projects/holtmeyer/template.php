@@ -117,10 +117,10 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         <p class="side-note">Farben</p>
     </div>
     <div class="content" style="flex-direction: column;">
-        <?php new Svg(
+        <?php new Image(
         	null,
         	null,
-        	'/content/resources/media/holtmeyer/HOLT_Farbgebung_ohnebilder.svg',
+        	'/content/resources/media/holtmeyer/HOLT_Farbgebung.svg',
         	'HOLTMEYER Farbwelt'
         ); ?>
         <p class="desktop-only">Die Struktur der Dachmarke Holtmeyer offenbart sich nicht nur im Logo, sondern ist auch die Grundlage für die Farbgebung der einzelnen Marken. Die Farbpalette der Unternehmensidentität wird aus den spezifischen Wirkungsbereichen der Firmen abgeleitet, ohne dabei ein bestimmtes Tätigkeitsfeld übermäßig zu betonen.</p>

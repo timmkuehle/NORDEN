@@ -57,15 +57,35 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	'Gestaltungselement'
 ); ?>
 </div>
-<section id="intro-text-section" class="project-section large-padding-bottom has-background-image">
-    <div class="slot start"></div>
-    <div class="content">
-        <div class="column" style="width: 80%;">
-            <p class="text-is-large desktop-only">Gurgl – Diamond of the Alps. Die <span class="highlight-circle">Premium</span>-Destination steht für alpinen Urlaub auf höchstem Niveau. Der Markenauftritt übersetzt diesen Anspruch in eine klare, elegante und eigenständige Identität.</p>
-            <p class="text-is-large mobile-only">Gurgl – Diamond of the Alps. Der Markenauftritt übersetzt den <span class="highlight-circle">Premium-</span>Anspruch der Destination in eine klare, elegante Identität.</p>
-        </div>
-    </div>
-    <div class="slot end"></div>
+<section id="intro-text-section" class="project-section large-padding-bottom has-background-image has-padding-lr">
+	<div class="slot start"></div>
+	<div class="content">
+		<div class="row">
+			<div class="col s16 m14 l12">
+				<p class="text-is-large desktop-only">Gurgl – Diamond of the Alps. Die <span class="highlight-circle">Premium</span>-Destination steht für alpinen Urlaub auf höchstem Niveau. Der Markenauftritt übersetzt diesen Anspruch in eine klare, elegante und eigenständige Identität.</p>
+				<p class="text-is-large mobile-only">Gurgl – Diamond of the Alps. Der Markenauftritt übersetzt den <span class="highlight-circle">Premium-</span>Anspruch der Destination in eine klare, elegante Identität.</p>
+			</div>
+			<div class="col s16">
+				<?php new AnimatedBanner(
+    	null,
+    	'animated-banner',
+    	[
+    		'Markenstrategie',
+    		'Corporate Design',
+    		'Branding & Implementierung',
+    		'Online & Offline Kommunikationskonzept',
+    		'Brandclip',
+    		'Animationen',
+    		'Social Media'
+    	],
+    	'col-gray-5',
+    	'col-blue'
+    ); ?>
+			</div>
+		</div>
+	</div>
+	<div class="slot end"></div>
+    
     <?php new Image(
     	null,
     	'background-image',
@@ -74,27 +94,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     	true
     ); ?>
 </section>
-<section class="project-section">
-<div class="slot start"></div>
-<div class="content">
-<?php new AnimatedBanner(
-	null,
-	'animated-banner',
-	[
-        'Markenstrategie',
-		'Corporate Design',
-		'Branding & Implementierung',
-		'Online & Offline Kommunikationskonzept',
-		'Brandclip',
-		'Animationen',
-		'Social Media',
-	],
-	'col-gray-5',
-	'col-blue'
-); ?>
-</div>
-<div class="slot end"></div>
-</section>
+
 <section id="claim-section" class="project-section bg-col-gray-5 has-background-image">
     <div class="slot start">
         <p class="side-note">Claim</p>
@@ -199,7 +199,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             	null,
             	null,
             	'Mehr zur Typografie',
-            	'/gurgl-corporate-font'
+            	'projekte/gurgl-corporate-font'
             ); ?>
         </div>
         <div class="column">
@@ -292,20 +292,18 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="slot start">
         <p class="side-note">Digital</p>
     </div>
+
+
     <div class="content" style="align-items: flex-start;">
-        <div class="column" style="width: 65%">
+
+    <div class="row">
+        <div class="col s16 m12 l8 text-col">
             <h2 class="col-white">Social Media Toolbox</h2>
             <p class="col-white desktop-only">Für einen konsistenten digitalen Auftritt wurde ein flexibles Rastersystem entwickelt. Es schafft Ordnung, Wiedererkennbarkeit und lässt sich auf unterschiedliche Formate übertragen.</p>
             <p class="col-white mobile-only">Ein flexibles Rastersystem sorgt für einen konsistenten digitalen Auftritt über alle Formate hinweg.</p>
-            <?php new Image(
-            	null,
-            	null,
-            	'/content/resources/media/gurgl/GURGL_Digital_Story.png',
-            	'GURGL Social Media Story',
-            	true
-            ); ?>
         </div>
-        <div class="column">
+
+        <div class="col s16 image-col">
             <?php new Image(
             	null,
             	null,
@@ -313,8 +311,17 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             	'GURGL Social Media Feed',
             	true
             ); ?>
-        </div>
+                <?php new Image(
+                	null,
+                	null,
+                	'/content/resources/media/gurgl/GURGL_Digital_Story.png',
+                	'GURGL Social Media Story',
+                	true
+                ); ?>
+        </div>          
     </div>
+    </div>
+    
     <div class="slot end"></div>
     <?php new Image(
     	null,

@@ -987,7 +987,8 @@ body {
 			width: calc(100% + 2 * var(--main-padding-inline));
 			max-width: unset;
 			margin-inline: calc(-1 * var(--main-padding-inline));
-
+			z-index: 1;
+			position: relative;
 			@media screen and (min-width: 769px) {
 				width: calc(100% + 2 * var(--main-padding-inline));
 				max-width: unset;
@@ -1301,7 +1302,7 @@ body {
 		opacity: 0.4;
 		width: 160px;
 		max-width: 360px;
-
+		z-index: 0;
 		@include minquery($screen-m) {
 			left: 2rem;
 			bottom: -4rem;
