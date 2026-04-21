@@ -1,6 +1,8 @@
 <?php
-$seoTitle = '';
-$seoDescription = '';
+$seoTitle =
+	'Holtmeyer Markenarchitektur, Corporate Design & Implementierung | NORDEN';
+$seoDescription =
+	'Für Holtmeyer entwickelte NORDEN Markenarchitektur, Corporate Design und Implementierung für Sägewerk, Pellets und Energie – klar, systemisch und konsequent über alle Anwendungen hinweg.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
@@ -41,11 +43,12 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section id="intro-text-section" class="project-section">
+<section id="intro-text-section" class="project-section no-padding-bottom">
     <div class="slot start"></div>
-    <div class="content" style="justify-content: flex-end;">
-        <div class="column">
-            <p class="text-large">Eine Marke, drei Unternehmen und unzählige Produkte. Jedes Unternehmen agiert eigenständig und dennoch arbeitet jeder Bereich nachhaltig und Hand in Hand als geschlossener Kreislauf.</p>
+    <div class="content row">
+        <div class="col s16 m12 l14">
+        <p class="text-is-large">Eine Marke, drei Unternehmen und unzählige Produkte. Jedes Unternehmen agiert eigenständig und dennoch arbeitet jeder Bereich nachhaltig und Hand in Hand als geschlossener Kreislauf.</p>
+
         </div>
     </div>
     <div class="slot end"></div>
@@ -76,8 +79,12 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="content">
         <div class="column">
-            <h2 style="margin-left: 2vw;">Seit mehr als 100 Jahren auf dem Holzweg</h2>
-            <p style="margin-left: 2vw;">Vor mehr als 100 Jahren als Sägewerk gegründet, vereint Holtmeyer heute unter dem Dach einer Holding drei Unternehmen: Sägewerk und Holzhandel, Pellets und Energie. Diese gewachsene Dachmarkenstrategie spiegelt sich auch im neuen Erscheinungsbild der Marke Holtmeyer wieder.</p>
+            <h2 class="desktop-only" style="margin-left: 2vw;">Seit mehr als 100 Jahren auf dem Holzweg</h2>
+            <p class="desktop-only" style="margin-left: 2vw;">Vor mehr als 100 Jahren als Sägewerk gegründet, vereint Holtmeyer heute unter dem Dach einer Holding drei Unternehmen: Sägewerk und Holzhandel, Pellets und Energie. Diese gewachsene Dachmarkenstrategie spiegelt sich auch im neuen Erscheinungsbild der Marke Holtmeyer wieder.</p>
+           
+           <h2 class="mobile-only">Corporate Design</h2> 
+            <p class="mobile-only" style="margin-left: 2vw;">Das neue Erscheinungsbild übersetzt die Markenarchitektur von Holtmeyer in ein präzises visuelles System.</p>
+
         </div>
     </div>
     <div class="slot end"></div>
@@ -113,10 +120,11 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         <?php new Svg(
         	null,
         	null,
-        	'/content/resources/media/holtmeyer/04_HOLT_Farben.svg',
+        	'/content/resources/media/holtmeyer/HOLT_Farbgebung_ohnebilder.svg',
         	'HOLTMEYER Farbwelt'
         ); ?>
-        <p>Die Struktur der Dachmarke Holtmeyer offenbart sich nicht nur im Logo, sondern ist auch die Grundlage für die Farbgebung der einzelnen Marken. Die Farbpalette der Unternehmensidentität wird aus den spezifischen Wirkungsbereichen der Firmen abgeleitet, ohne dabei ein bestimmtes Tätigkeitsfeld übermäßig zu betonen.</p>
+        <p class="desktop-only">Die Struktur der Dachmarke Holtmeyer offenbart sich nicht nur im Logo, sondern ist auch die Grundlage für die Farbgebung der einzelnen Marken. Die Farbpalette der Unternehmensidentität wird aus den spezifischen Wirkungsbereichen der Firmen abgeleitet, ohne dabei ein bestimmtes Tätigkeitsfeld übermäßig zu betonen.</p>
+        <p class="mobile-only">Die Farbwelt differenziert die Bereiche klar und hält die Marke zugleich als Ganzes zusammen.</p>
     </div>
     <div class="slot end"></div>
 </section>
@@ -205,7 +213,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
-            <p>Das Erscheinungsbild von Holtmeyer lässt sich mühelos auf alle Kanäle übertragen, sei es auf der Website oder in Social-Media-Beiträgen. Die Inhalte der Submarken werden dabei in einem schlichten Design präsentiert und behalten stets ihre charakteristische Farbgebung bei.</p>
+            <p class="desktop-only">Das Erscheinungsbild von Holtmeyer lässt sich mühelos auf alle Kanäle übertragen, sei es auf der Website oder in Social-Media-Beiträgen. Die Inhalte der Submarken werden dabei in einem schlichten Design präsentiert und behalten stets ihre charakteristische Farbgebung bei.</p>
+            <p class="mobile-only">Der Markenauftritt funktioniert digital und analog. Egal ob Website, Social Media oder Furhrparkgestaltung</p>
         </div>
     </div>
     <div class="slot end"></div>
@@ -260,8 +269,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="content">
         <div class="column" style="width: 40%;">
             <h2 style="margin-left: 2vw;">Die Arbeit ruft!</h2>
-            <p style="margin-left: 2vw;">Um das Erscheinungsbild von Holtmeyer bis zu den Mitarbeiter:innen, dem Herzen des Unternehmens, zu tragen, wurde konsequente Arbeitskleidung für jeden Einsatzbereich des Unternehmens entwickelt.</p>
-            <p style="margin-left: 2vw;">Dazu gehören beispielsweise T-Shirts, Hosen und Warnwesten. So tragen alle Mitarbeiter:innen stolz die Identität des Unternehmens nach außen und zeigen Einheitlichkeit und Professionalität in jeder Situation.</p>
+            <p class="desktop-only" style="margin-left: 2vw;">Um das Erscheinungsbild von Holtmeyer bis zu den Mitarbeiter:innen, dem Herzen des Unternehmens, zu tragen, wurde konsequente Arbeitskleidung für jeden Einsatzbereich des Unternehmens entwickelt.</p>
+            <p class="desktop-only" style="margin-left: 2vw;">Dazu gehören beispielsweise T-Shirts, Hosen und Warnwesten. So tragen alle Mitarbeiter:innen stolz die Identität des Unternehmens nach außen und zeigen Einheitlichkeit und Professionalität in jeder Situation.</p>
+            <p class="mobile-only">Auch die Mitarbeiterbekleidung wurde als Teil des Gesamtauftritts entwickelt – funktional, robust und identitätsstiftend.</p>
         </div>
         <div class="column" style="width: 60%;">
             <?php new Image(
@@ -305,7 +315,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 30%;">
-            <p>Für den alltäglichen Gebrauch bei Holtmeyer wurden Stempel, Zollstöcke, Notizblöcke und Bleistifte gebrandet. Anlässlich des 100-jährigen Jubiläums von Holtmeyer wurden jedoch auch spezielle Tassen produziert, welche die lange Traditionsgeschichte des Unternehmens zelebrieren.</p>
+            <p class="desktop-only">Für den alltäglichen Gebrauch bei Holtmeyer wurden Stempel, Zollstöcke, Notizblöcke und Bleistifte gebrandet. Anlässlich des 100-jährigen Jubiläums von Holtmeyer wurden jedoch auch spezielle Tassen produziert, welche die lange Traditionsgeschichte des Unternehmens zelebrieren.</p>
+            <p class="mobile-only">Von Arbeitsmitteln bis zu Sonderproduktionen wurde die Marke konsequent in den Unternehmensalltag übersetzt.</p>
         </div>
     </div>
     <div class="slot end"></div>

@@ -51,12 +51,22 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<div class="slot end"></div>
 </section>
 <section class="services bg-col-dark-green">
-	<p class="service">Corporate Design</p>
-	<p class="service">Branding & Implementierung</p>
-	<p class="service">Print</p>
-	<p class="service">Social Media</p>
-	<p class="service">Fassadenbeklebeung</p>
-	<p class="service">Merchandise</p>
+	<div class="slot start"></div>
+	<?php new AnimatedBanner(
+ 	null,
+ 	'animated-banner',
+ 	[
+ 		'Corporate Design',
+ 		'Branding & Implementierung',
+ 		'Print',
+ 		'Social Media',
+ 		'Fassadenbeklebeung',
+ 		'Merchandise'
+ 	],
+ 	'col-orange',
+ 	'col-orange'
+ ); ?>
+	<div class="slot end"></div>
 </section>
 
 <section class="project-section">

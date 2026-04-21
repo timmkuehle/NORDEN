@@ -3,6 +3,7 @@
 @use "@styles/side-note.scss";
 @use "@components/Video/Video.scss";
 @use "@styles/highlight-circle-brush-data" as *;
+@use "@styles/animated-banner.scss";
 
 // Project variables
 $color-red: #b20933;
@@ -307,7 +308,6 @@ $smaller-line-height: 1;
 	.section-1 {
 		padding-block: 4%;
 
-
 		.image-wrapper {
 			height: 450px;
 			width: 100%;
@@ -382,6 +382,26 @@ $smaller-line-height: 1;
 				}
 			}
 		}
+		.pleasure-keywords-track {
+			display: flex;
+			align-items: center;
+			flex-wrap: nowrap;
+			gap: 3rem;
+			margin-bottom: 1rem;
+			@include minquery($screen-m) {
+				gap: 4rem;
+			}
+
+			.banner-item {
+				font-size: $font-size-small;
+				font-weight: 500;
+				white-space: nowrap;
+
+				@include minquery($screen-m) {
+					font-size: $font-size-big;
+				}
+			}
+		}
 		.magazine-cover {
 			width: 100%;
 			height: 400px;
@@ -402,7 +422,6 @@ $smaller-line-height: 1;
 
 			@include minquery($screen-l) {
 				padding: 5rem 0;
-
 			}
 		}
 	}
@@ -444,13 +463,16 @@ $smaller-line-height: 1;
 			left: 0;
 			right: 0;
 			width: 100%;
-			height: 32.5rem;
+			height: 22.5rem;
 			z-index: 0;
 			background-color: $bg-light-gray;
 
 			@include minquery($screen-m) {
-				height: 42.5rem;
+				height: 32.5rem;
+			}
 
+			@include minquery($screen-l) {
+				height: 42.5rem;
 			}
 		}
 	}
@@ -575,7 +597,6 @@ $smaller-line-height: 1;
 			}
 			@include minquery($screen-xl) {
 				right: 15%;
-
 			}
 		}
 		.image,

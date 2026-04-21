@@ -1,11 +1,12 @@
 <?php
 $seoTitle = 'Sölden Destination Branding & Corporate Design | NORDEN';
-$seoDescription = 'Destination Branding für Sölden: Markenstrategie, Corporate Design und visuelle Kommunikation für einen prägnanten Auftritt als internationale Destination Marke.';
+$seoDescription =
+	'Destination Branding für Sölden: Markenstrategie, Corporate Design und visuelle Kommunikation für einen prägnanten Auftritt als internationale Destination Marke.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
 		'title' => $seoTitle,
-		'description' => $seoDescription,
+		'description' => $seoDescription
 	];
 	return;
 }
@@ -64,9 +65,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		'Brandclip',
 		'Animationen',
 		'Social Media',
-		'Anpassungen aller Events / Submarken',
+		'Anpassungen aller Events / Submarken'
 	],
-	'col-soel-cut-3',
+	'col-red',
 	'col-red'
 ); ?>
 </section>
@@ -159,7 +160,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		</div>
 	</div>
 </section>
-<section class="soelden-gallery color-2 full-width section-2">
+<section class="soelden-gallery color-2 full-width section-2 bg-col-cool-gray">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Colors</p>
 	</div>
@@ -233,8 +234,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	</div>
 	<div class="content">
 		<div class="soelden-text-block no-max-width">
-			<h2 class="heading color-white desktop-only"><span class="color-cut-3">(</span>Don't<span class="color-cut-3">)</span> break the rules</h2>
-			<h2 class="heading color-white mobile-only">Layout</h2>
+			<h2 class="heading color-white"><span class="color-cut-3">(</span>Don't<span class="color-cut-3">)</span> break the rules</h2>
 			<div class="slots">
 				<div class="slot">
 					<h3 class="subline desktop-only">Layout</h3>
@@ -402,8 +402,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	</div>
 	<div class="content">
 		<div class="soelden-text-block no-max-width">
-	  		<h2 class="heading">Move it nice and sweet</h2>
-			<h3 class="subline">Animated GIFs</h3>
+	  		<h2 class="heading desktop-only">Move it nice and sweet</h2>
+			<h3 class="subline desktop-only">Animated GIFs</h3>
+			<h3 class="subline mobile-only">GIFs: Move it nice an sweet</h3>
 			<div class="soelden-gifs">
 				<?php new \Image(
     	null,
@@ -439,6 +440,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
+
+<div class="section full-width with-deco bg-color-white">
 <?php new \Image(
 	null,
 	'full-width-image',
@@ -446,7 +449,18 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	'Anwendungsbeispiel Gondeln',
 	true
 ); ?>
-<section class="full-width bg-color-white">
+<?php new \Image(
+	null,
+	'deco-element',
+	'/content/resources/media/soelden/02_SOEL_CD22_Grafiktoolbox_Linien_Grafik_Gondel.svg',
+	'Deco Element Gondeln',
+	true
+); ?>
+</div>
+
+
+
+<section class="full-width bg-color-white mt-5">
 	<div class="soelden-gallery website">
 		<div class="slot side-note-start empty"></div>
 			<div class="content">
@@ -481,41 +495,41 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			<div class="col">
 				<div class="skibootbag-item">
 					<?php new \Image(
-					null,
-					'desktop-only',
-					'/content/resources/media/soelden/branding/03_SOEL_Skibootbag.jpg',
-					'Sölden Skiboot Bag',
-					true
-				); ?>
+     	null,
+     	'desktop-only',
+     	'/content/resources/media/soelden/branding/03_SOEL_Skibootbag.jpg',
+     	'Sölden Skiboot Bag',
+     	true
+     ); ?>
 				</div>
 				<div class="skibootbag-item">
 					<?php new \Image(
-					null,
-					'mobile-only',
-					'/content/resources/media/soelden/03_SOEL_Skibootbag_Mobile.jpg',
-					'Sölden Skiboot Bag',
-					true
-				); ?>
+     	null,
+     	'mobile-only',
+     	'/content/resources/media/soelden/03_SOEL_Skibootbag_Mobile.jpg',
+     	'Sölden Skiboot Bag',
+     	true
+     ); ?>
 				</div>
 			</div>
 			<div class="col mobile-pair">
 				<div class="pair-item">
 					<?php new \Image(
-						null,
-						null,
-						'/content/resources/media/soelden/branding/04_SOEL_Helmbranding.png',
-						'Sölden Skihelm',
-						true
-					); ?>
+     	null,
+     	null,
+     	'/content/resources/media/soelden/branding/04_SOEL_Helmbranding.png',
+     	'Sölden Skihelm',
+     	true
+     ); ?>
 				</div>
 				<div class="pair-item">
 					<?php new \Image(
-						null,
-						null,
-						'/content/resources/media/soelden/branding/SOEL_Buff.png',
-						'Sölden Buff',
-						true
-					); ?>
+     	null,
+     	null,
+     	'/content/resources/media/soelden/branding/SOEL_Buff.png',
+     	'Sölden Buff',
+     	true
+     ); ?>
 				</div>
 			</div>
 		</div>
@@ -532,6 +546,13 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
   	'photo-point',
   	'/content/resources/media/soelden/branding/06_SOEL_Photopoint_NEU.jpg',
   	'Sölden Photo Point',
+  	true
+  ); ?>
+  <?php new \Image(
+  	null,
+  	'deco-element',
+  	'/content/resources/media/soelden/06_SOEL_Photopoint_Grafik.svg',
+  	'Deco Element Gondeln',
   	true
   ); ?>
 	</div>
@@ -567,6 +588,23 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	</div>
 	<div class="slot side-note-end"></div>
 </section>
+<section class="soelden-gallery full-width soelden-beanie-section bg-color-anthrazit">
+	<div class="slot side-note-start">
+		<p class="soel-side-note">Beanie</p>
+	</div>
+	<div class="content">
+		<div class="">
+			<?php new \Image(
+   	null,
+   	'soelden-beanie',
+   	'/content/resources/media/soelden/Soel_Beanie.jpg',
+   	'Sölden Beanie',
+   	true
+   ); ?>
+		</div>
+	</div>
+	<div class="slot side-note-end"></div>
+</section>
 <section class="soelden-gallery full-width soelden-bag">
 	<div class="slot side-note-start">
 		<p class="soel-side-note">Jutebeutel</p>
@@ -598,7 +636,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<?php new \Image(
  	null,
  	'full-width-image',
- 	'/content/resources/media/soelden/12_SOEL_Trenner_Bild.jpg',
+ 	'/content/resources/media/soelden/12_SOEL_Trenner_Bild_Weltcup.jpg',
  	'Sölden Snow Park',
  	true
  ); ?>

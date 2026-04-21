@@ -72,7 +72,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         		'Merchandise',
         		'Event Brandings'
         	],
-        	'col-gold',
+        	'col-red',
         	'col-red'
         ); ?>
     </section>
@@ -184,7 +184,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <section class="project-section has-padding-lr section-5 bg-col-dark-red">
     <div class="row">
             <div class="col s16 m16 l13 xl12">
-                <h3 class="project-headline">CORPORATE Colors</h3>
+                <h3 class="project-headline col-light-pink">CORPORATE Colors</h3>
             </div>
 
             <div class="col s11 m9 l7 xl5 push-m1">
@@ -212,11 +212,6 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             <div class="col s16 m16 l13 xl12">
                 <h3 class="project-headline">Motion Design</h3>
             </div>
-            <div class="col s16 m12 l10 push-m1">
-                <div class="meta-headline desktop-only">Logo Animation</div>
-                <p class="is-text desktop-only">Das Motion-Design-Konzept übersetzt den Claim „Ötztal. Bewegt dich.“ visuell und typografisch in Bewegtbild. So entsteht ein prägnanter Markenmoment mit hoher Wiedererkennbarkeit.</p>
-                <p class="is-text mobile-only">Der Claim „Ötztal. Bewegt dich.“ wird visuell und typografisch in Bewegtbild übersetzt.</p>
-            </div>
             <div class="col s16 m14 l10 push-m1 video-wrapper">
                 <div class="video-play-wrapper">
                     <?php new Video(
@@ -242,6 +237,13 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                     </button>
                 </div>
             </div>
+
+            <div class="col s16 m12 l10 push-m1">
+                <div class="meta-headline desktop-only">Logo Animation</div>
+                <p class="is-text desktop-only">Das Motion-Design-Konzept übersetzt den Claim „Ötztal. Bewegt dich.“ visuell und typografisch in Bewegtbild. So entsteht ein prägnanter Markenmoment mit hoher Wiedererkennbarkeit.</p>
+                <p class="is-text mobile-only">Der Claim „Ötztal. Bewegt dich.“ wird visuell und typografisch in Bewegtbild übersetzt.</p>
+            </div>
+            
         </div>
     </section>
 
@@ -318,13 +320,40 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 
         <div class="row has-padding-lr">
             <div class="col s16 m14 push-m1">
-                <?php new Image(
-                	null,
-                	'ortsinfo',
-                	'/content/resources/media/oetztalCd/06_OETZT_Layoutprinzip/OETZT_Ortsinfo.png',
-                	'Ortsinfo',
-                	true
-                ); ?>
+				<div class="carousel-container oetztalcd-ortsfolder-carousel">
+					<div class="carousel" aria-label="Ortsfolder carousel">
+						<div class="carousel-track">
+							<?php
+							$ortsfolder_images = [
+								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_1.jpg',
+								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_2.jpg',
+								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_3.jpg',
+								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_4.jpg',
+								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_22.jpg',
+								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_33.jpg',
+								'/content/resources/media/oetztalCd/OETZT_Ortsfolder/Oetzt_Folder_44.jpg'
+							];
+							foreach ($ortsfolder_images as $idx => $src) {
+								?>
+								<div class="carousel-slide">
+									<?php new Image(
+										null,
+										'carousel-image',
+										$src,
+										'Ortsfolder Slide ' . ($idx + 1),
+										true
+									); ?>
+								</div>
+								<?php
+							}
+							?>
+						</div>
+					</div>
+					<div class="carousel-navigation" aria-label="Carousel navigation">
+						<button type="button" class="carousel-prev" aria-label="Previous slide"></button>
+						<button type="button" class="carousel-next" aria-label="Next slide"></button>
+					</div>
+				</div>
             </div>
         </div>
     </section>
@@ -636,10 +665,10 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         <div class="row image-text-row">
             <div class="col s16 m9 l8 xl6 push-m6 push-xl9">
             <div class="meta-headline col-light-red">Trailrunning</div>
-                <p class="is-text">
-                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                </p>
-            </div>
+                <p class="is-text desktop-only">
+Am Beispiel der Trailrunning Events wird das visuelle Prinzip für Veranstaltungen innerhalb der Marke Ötztal sichtbar. Typografie, Raster und Bildsprache bilden ein flexibles Eventsystem, in dem die veränderte Laufweite der Schrift den Claim „Ötztal. Bewegt dich.“ typografisch interpretiert.                </p>
+                <p class="is-text mobile-only">
+                Am Beispiel der Trailrunning Events wird das visuelle Prinzip für Veranstaltungen innerhalb der Marke Ötztal sichtbar. Die veränderte Laufweite der Schrift interpretiert den Claim „Ötztal. Bewegt dich.“ typografisch.            </div>
         </div>
         <div class="row image-text-row">
             <div class="col s16 m10">

@@ -5,7 +5,7 @@ $seoDescription = '';
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
 		'title' => $seoTitle,
-		'description' => $seoDescription,
+		'description' => $seoDescription
 	];
 	return;
 }
@@ -37,7 +37,16 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 <div class="col s16 m16 l9">
                     <div class="meta-headline">Corporate Headline Font</div>
                     <p class="text-is-large">Um zusätzlich zu dem Diamant Element noch einen weiteren <span class="highlight-circle">Key-Brand-Identifyer</span> zu definieren, kreierten wir einen customized Font für die Destination Gurgl.</p>
-                    <p <span class="col-highlight-blue">  <span class="col-dark-gray is-bold is-uppercase">Unsere Leistungen:  </span> Fontdesign — Konzeptionierung — Animationskonzept</span></p>
+                </div>
+
+                    <div class="col s16 m14 l14">
+                    <?php new AnimatedBanner(
+                    	null,
+                    	'animated-banner',
+                    	['Fontdesign', 'Konzeptionierung', 'Animationskonzept'],
+                    	'col-white',
+                    	'col-highlight-blue'
+                    ); ?>
                     </div>
             </div>  
 
@@ -79,12 +88,12 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             Entstehung
         </div>
         <?php new Image(
-         	null,
-         	'background-image',
-         	'/content/resources/media/gurglFont/01_Diamant_Objekt_1.svg',
-         	null,
-         	true
-         ); ?>
+        	null,
+        	'background-image',
+        	'/content/resources/media/gurglFont/01_Diamant_Objekt_1.svg',
+        	null,
+        	true
+        ); ?>
         <div class="row">
             <div class="col s16 m14 l13 xl11">
             <?php new \Video(

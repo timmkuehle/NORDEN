@@ -1,6 +1,10 @@
 const AUTO_SLIDE_INTERVAL = 6000;
 
 function initCarousel(container: HTMLElement): void {
+	if (container.dataset.carouselInitialized === "true") {
+		return;
+	}
+
 	const carousel = container.querySelector<HTMLElement>(".carousel");
 	if (!carousel) {
 		return;
@@ -22,14 +26,14 @@ function initCarousel(container: HTMLElement): void {
 		return;
 	}
 
-	const prevBtn = section.querySelector<HTMLButtonElement>(
-		".section-2-left .carousel-prev"
+	const prevBtns = section.querySelectorAll<HTMLButtonElement>(
+		".carousel-navigation .carousel-prev"
 	);
-	const nextBtn = section.querySelector<HTMLButtonElement>(
-		".section-2-left .carousel-next"
+	const nextBtns = section.querySelectorAll<HTMLButtonElement>(
+		".carousel-navigation .carousel-next"
 	);
 
-	if (!prevBtn || !nextBtn) {
+	if (!prevBtns.length || !nextBtns.length) {
 		return;
 	}
 
@@ -51,19 +55,25 @@ function initCarousel(container: HTMLElement): void {
 		autoSlideTimer = setInterval(goNext, AUTO_SLIDE_INTERVAL);
 	}
 
-	prevBtn.addEventListener("click", () => {
-		index = index <= 0 ? total - 1 : index - 1;
-		update();
-		resetAutoSlide();
+	prevBtns.forEach((btn) => {
+		btn.addEventListener("click", () => {
+			index = index <= 0 ? total - 1 : index - 1;
+			update();
+			resetAutoSlide();
+		});
 	});
 
-	nextBtn.addEventListener("click", () => {
-		goNext();
-		resetAutoSlide();
+	nextBtns.forEach((btn) => {
+		btn.addEventListener("click", () => {
+			goNext();
+			resetAutoSlide();
+		});
 	});
 
 	update();
 	resetAutoSlide();
+
+	container.dataset.carouselInitialized = "true";
 }
 
 function initAllCarousels(): void {

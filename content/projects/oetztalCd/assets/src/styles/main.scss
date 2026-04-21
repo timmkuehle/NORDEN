@@ -659,7 +659,7 @@ $smaller-line-height: 1;
 			justify-content: space-between;
 
 			.project-headline {
-				color: $color-beige;
+				color: $color-light-pink;
 			}
 			.is-text {
 				color: white;
@@ -796,7 +796,7 @@ $smaller-line-height: 1;
 			color: rgba(rgb(0, 0, 0), 0.25);
 		}
 		.video-wrapper {
-			margin-top: 2.5rem;
+			margin-bottom: 2.5rem;
 		}
 	}
 
@@ -944,6 +944,74 @@ $smaller-line-height: 1;
 			top: 0;
 			top: auto;
 			color: rgba(rgb(255, 255, 255), 0.25);
+		}
+
+		.oetztalcd-ortsfolder-carousel {
+			width: 100%;
+		}
+
+		.carousel {
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.carousel-track {
+			display: flex;
+			transition: transform 0.3s ease;
+			will-change: transform;
+		}
+
+		.carousel-slide {
+			flex: 0 0 100%;
+			width: 100%;
+
+			.carousel-image,
+			img {
+				width: 100%;
+				height: auto;
+				display: block;
+				object-fit: contain;
+			}
+		}
+
+		.carousel-navigation {
+			display: flex;
+			justify-content: flex-end;
+			gap: 1rem;
+			margin-top: 1rem;
+		}
+
+		.carousel-prev,
+		.carousel-next {
+			appearance: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			width: 26px;
+			height: 20px;
+			background-color: white;
+			-webkit-mask: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center / contain;
+			mask: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center / contain;
+			cursor: pointer;
+			transition: transform 0.2s ease;
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+		}
+
+		.carousel-prev {
+			transform: scaleX(-1);
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scaleX(-1) scale(1.1);
+				}
+			}
 		}
 	}
 

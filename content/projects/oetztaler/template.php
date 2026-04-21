@@ -54,11 +54,6 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="content" style="align-items: flex-end;">
         <div class="column">
             <p class="text-large col-white">Der Ötztaler Radmarathon ist mit 227 km und 5.500 Höhenmetern das anspruchsvollste Amateur-Radrennen in Europa. NORDEN entwickelte das gesamte Erscheinungsbild des Großevents in Sölden.</p>
-            <?php new Svg(
-            	null,
-            	'style-icon desktop-only',
-            	'/content/resources/media/oetztaler/OERM_Website_Grafik_02.svg'
-            ); ?>
         </div>
         <div class="column">
             <?php new Image(
@@ -72,7 +67,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section">
+<section class="project-section bg-col-anthrazit" id="animated-banner-section">
 <div class="slot start"></div>
 <div class="content">
 <?php new AnimatedBanner(
@@ -86,10 +81,15 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		'Social Media',
 		'Event Branding'
 	],
-	'col-oetz-blue',
-	'col-oetz-blue'
+	'col-blue',
+	'col-blue'
 ); ?>
 </div>
+<?php new Svg(
+	null,
+	'style-icon desktop-only',
+	'/content/resources/media/oetztaler/OERM_Website_Grafik_02.svg'
+); ?>
 <div class="slot end"></div>
 </section>
 <section id="movement-section" class="project-section has-background-image">

@@ -68,7 +68,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="services">
 
 </section>
-<section id="logo-text-section" class="project-section no-padding-bottom" style="align-items: flex-end;">
+<section id="logo-text-section" class="project-section" style="align-items: flex-end;">
     <div class="slot start">
         <p class="side-note">Entstehungsprozess</p>
     </div>
@@ -91,20 +91,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section no-padding-top no-padding-bottom full-width-new" style="position: relative; transform: translateY(6vw); z-index: -1" aria-hidden="true">
-    <div class="slot start"></div>
-    <div class="content no-inline-padding-mobile" style="transform: rotate(180deg);">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/alpbachtal/ALPBA_Gestaltungselement_Overlay_beige4.svg',
-        	'Gestaltungselement',
-        	true
-        ); ?>
-    </div>
-    <div class="slot end"></div>
-</section>
-<section class="project-section bg-col-light-beige no-padding-top" style="align-items: center;">
+<section class="project-section bg-col-light-beige more-padding-top" style="align-items: center;">
     <div class="slot start">
         <p class="side-note">Logo Design</p>
     </div>
@@ -173,7 +160,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section no-padding-top full-width-new">
+<section class="project-section no-padding-top no-padding-bottom full-width-new">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile">
         <?php new Image(
@@ -186,14 +173,14 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section no-padding-bottom">
+<section class="project-section no-padding-bottom bg-col-beige-variant">
     <div class="slot start"></div>
     <div class="content" style="align-items: flex-start;">
         <h2>Farbwelt</h2>
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section small-padding" style="align-items: flex-end;">
+<section class="project-section small-padding bg-col-beige-variant" style="align-items: flex-end;">
     <div class="slot start">
         <p class="side-note">Farben</p>
     </div>
@@ -214,7 +201,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section small-padding" style="align-items: flex-end;">
+<section class="project-section small-padding bg-col-beige-variant" style="align-items: flex-end;">
     <div class="slot start"></div>
     <div class="content">
         <?php new Image(
@@ -231,13 +218,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="project-section no-padding-top no-padding-bottom full-width-new" style="position: relative; transform: translateY(6vw); z-index: -1" aria-hidden="true">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile" style="transform: rotate(180deg);">
-        <?php new Image(
-        	null,
-        	null,
-        	'/content/resources/media/alpbachtal/ALPBA_Gestaltungselement_Overlay_beige3.svg',
-        	'Gestaltungselement',
-        	true
-        ); ?>
+     
     </div>
     <div class="slot end"></div>
 </section>
@@ -266,7 +247,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         	'/content/resources/media/alpbachtal/ALPBA_Hausschrift_Desktop.svg',
         	'Alpbachtal Hausschrift',
         	true,
-        	'/content/resources/media/alpbachtal/ALPBA_Hausschrift_Mobile1.svg'
+        	null
         ); ?>
         <?php new Image(
         	null,

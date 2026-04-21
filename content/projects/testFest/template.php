@@ -39,12 +39,12 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	'animated-banner',
 	[
 		'Event Branding',
-		'Bradning & Implementierung',
+		'Branding & Implementierung',
 		'Merch',
 		'Social Media',
 		'Online & Offline Kommunikationskonzepte'
 	],
-	'col-white',
+	'col-anthrazit',
 	'col-anthrazit'
 ); ?>
     </div>

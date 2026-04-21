@@ -1,11 +1,12 @@
 <?php
 $seoTitle = 'Sölden Font Design & Brand Typography | NORDEN';
-$seoDescription = 'Fontdesign für Sölden: Eine exklusive Headline-Schrift als Key Brand Identifier für mehr Wiedererkennung und typografische Eigenständigkeit.';
+$seoDescription =
+	'Fontdesign für Sölden: Eine exklusive Headline-Schrift als Key Brand Identifier für mehr Wiedererkennung und typografische Eigenständigkeit.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
 		'title' => $seoTitle,
-		'description' => $seoDescription,
+		'description' => $seoDescription
 	];
 	return;
 }
@@ -38,19 +39,17 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 
 <section class="project-section" id="st-services-section">
 <div class="slot start"></div>
-
     <div class="content">
-    <div  class="services">
-        <span class="services-title ">Unsere Leistungen:</span>
-        <p class="service">Fontdesign</p>
-        <span class="separator">–</span>
-        <p class="service">Konzeptionierung</p>
-        <span class="separator">–</span>
-        <p class="service">Animationskonzept</p>
-    </div>
-    </div>
-    <div class="slot end"></div>
 
+    <?php new AnimatedBanner(
+    	null,
+    	'animated-banner',
+    	['Fontdesign', 'Corporate Design', 'Konzeptionierung'],
+    	'col-orange',
+    	'col-orange'
+    ); ?>
+</div>
+<div class="slot end"></div>
 </section>
 
 <section id="st-live-dynamic-section" class="project-section">

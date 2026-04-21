@@ -54,3 +54,31 @@
 		}
 	}
 }
+
+// Modifier: controls under images, bottom-right (used on some project pages)
+.image-slideshow.is-controls-bottom-right {
+	flex-direction: column-reverse;
+
+	.controls-container {
+		justify-content: flex-end;
+		align-self: flex-end;
+		gap: 1rem;
+	}
+
+	.images-container {
+		gap: 10rem;
+	}
+
+	@media screen and (min-width: 769px) {
+		// Override default desktop row layout for this variant.
+		flex-direction: column-reverse;
+
+		.controls-container {
+			flex: unset;
+		}
+
+		.images-container {
+			width: 100%;
+		}
+	}
+}

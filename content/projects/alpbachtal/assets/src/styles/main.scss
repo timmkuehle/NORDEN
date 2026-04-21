@@ -8,6 +8,7 @@
 @use "@styles/animated-banner.scss";
 
 // Project variables
+$beige-variant: #fff4d3;
 $color-beige: #ecd7a3;
 $color-mid-beige: #fdf5d7;
 $color-deep-beige: #fde6b6;
@@ -29,7 +30,9 @@ $color-green: #4c8155;
 .col-white {
 	color: white;
 }
-
+.bg-col-beige-variant {
+	background-color: $beige-variant;
+}
 .bg-col-beige {
 	background-color: $color-beige;
 }
@@ -59,7 +62,6 @@ $color-green: #4c8155;
 		display: none;
 	}
 }
-.p-0 {}
 
 .pt-0 {
 	padding-top: 0;
@@ -150,18 +152,17 @@ body {
 	.services {
 		display: flex;
 		flex-flow: row wrap;
-		gap: .25rem;
+		gap: 0.25rem;
 		justify-content: flex-start;
 		padding: 0;
 	}
 	.separator {
-		margin-inline: .25rem;
+		margin-inline: 0.25rem;
 		color: $color-beige;
 	}
 	.bold {
 		font-weight: 800 !important;
 	}
-	
 
 	@include minquery($screen-m) {
 		max-width: 70vw;
@@ -171,7 +172,6 @@ body {
 	}
 	.service-title {
 		font-weight: 700;
-
 	}
 }
 .project-section {
@@ -183,7 +183,12 @@ body {
 		}
 	}
 }
-
+.more-padding-top {
+	padding-top: 5rem;
+	@include minquery($screen-m) {
+		padding-top: 15rem;
+	}
+}
 // Project styling
 #intro-video-section {
 	margin-top: calc(-1 * var(--header-height));
@@ -238,15 +243,26 @@ body {
 		object-fit: unset;
 	}
 
+	// Mobile-only: controls underneath slideshow images for this project section.
+	.image-slideshow {
+		flex-direction: column-reverse;
+	}
+
 	@media screen and (min-width: 769px) {
 		.content {
 			padding-inline: 25vw;
 
 			.image-slideshow {
-				flex-direction: row-reverse;
-
-				.button {
-					margin-bottom: 10vw;
+				// Desktop: keep controls underneath (override global desktop row layout).
+				flex-direction: column-reverse;
+				.images-container {
+					width: 100%;
+				}
+				.controls-container {
+					flex: unset;
+					justify-content: flex-end;
+					align-self: flex-start;
+					gap: 1rem;
 				}
 			}
 		}

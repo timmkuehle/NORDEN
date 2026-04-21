@@ -3,6 +3,7 @@
 @use "@styles/side-note.scss";
 @use "@styles/services.scss";
 @use "@styles/images-slideshow.scss";
+@use "@styles/animated-banner.scss";
 
 // Project variables
 $color-light: #ebe9e9;
@@ -15,6 +16,9 @@ $color-cyan: #317a7c;
 $color-acid: #a6fca3;
 
 // Utility classes
+.col-orange {
+	color: $color-orange;
+}
 .bg-col-dark-green {
 	background-color: $color-dark-green !important;
 }

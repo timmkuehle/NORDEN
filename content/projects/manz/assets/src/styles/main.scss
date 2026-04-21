@@ -2,6 +2,7 @@
 @use "@styles/project-section.scss";
 @use "@styles/side-note.scss";
 @use "@components/Video/Video.scss";
+@use "@styles/animated-banner.scss";
 
 // Project variables
 
@@ -286,6 +287,26 @@ $smaller-line-height: 1;
 				@include minquery($screen-m) {
 					margin-right: 0;
 				}
+			}
+		}
+
+		// AnimatedBanner variant: same typography as `.project-row`, but on a single scrolling line.
+		.manz-project-row-track {
+			display: flex;
+			align-items: center;
+			flex-wrap: nowrap;
+			gap: 3rem;
+
+			@include minquery($screen-m) {
+				gap: 4rem;
+			}
+
+			.banner-item {
+				display: block;
+				font-size: $font-size-big;
+				font-weight: 700;
+				color: $color-beige;
+				white-space: nowrap;
 			}
 		}
 	}

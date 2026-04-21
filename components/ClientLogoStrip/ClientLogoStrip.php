@@ -25,9 +25,20 @@ class ClientLogoStrip extends PHTMLComponent {
 			) {
 				$title = isset($client['nicename'])
 					? 'Website ansehen: ' . $client['nicename']
-					: 'Kunden-Website ansehen'; ?>
-                <a class="client-logo-link" target="_blank" 
-                href="<?php echo $client['link'] ?? '#'; ?>">
+					: 'Kunden-Website ansehen';
+
+				$is_internal = isset($client['project_slug']) && $client['project_slug'];
+				$href = $is_internal
+					? BASE_URL . sanitize_uri($client['project_slug'])
+					: ($client['link'] ?? '#');
+				$title = $is_internal
+					? (isset($client['nicename'])
+						? 'Projekt ansehen: ' . $client['nicename']
+						: 'Projekt ansehen')
+					: $title; ?>
+                <a class="client-logo-link"
+					<?php if (!$is_internal): ?>target="_blank"<?php endif; ?>
+					href="<?php echo $href; ?>">
                     <?php if (pathinfo($file, PATHINFO_EXTENSION) === 'svg') {
                     	new Svg(null, null, $client['logo'], $title);
                     } else {

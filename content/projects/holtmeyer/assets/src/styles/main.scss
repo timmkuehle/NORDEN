@@ -57,7 +57,10 @@ $color-medium: #7f7f7f;
 		display: none;
 	}
 }
-
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
 // General styling
 body {
 	.site-header {

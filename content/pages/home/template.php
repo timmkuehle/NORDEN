@@ -1,6 +1,7 @@
 <?php
 
-$projects = ['/projekte/soelden', '/projekte/seefeld', 'projekte/gurgl'];
+$projects = ['/projekte/soelden', '/projekte/seefeld', '/projekte/oetztal/corporate-design'];
+$projectsMobile = ['/projekte/soelden', '/projekte/seefeld', '/projekte/oetztal/corporate-design', '/projekte/soelden/electric-mountain-festival'];
 
 new \SiteHeader(null, null, true, null, null, null, [], []);
 ?>
@@ -55,7 +56,7 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 					</div>
 				</div>
 
-				<div class="row intro-entry flex-entry">
+				<div class="row intro-entry flex-entry desktop-only">
 					<div class="col s16 m5 l10">
 						<p class="text-style-big">Ein kleiner Teaser an Projekten ...</p>
 					</div>
@@ -69,7 +70,12 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 			</div>
 		</div>
 	</section>
-	<?php new \ProjectsPreview(null, 'full-width', $projects); ?>
+	<div class="desktop-only">
+		<?php new \ProjectsPreview(null, 'full-width', $projects); ?>
+	</div>
+	<div class="mobile-only">
+		<?php new \ProjectsPreview(null, 'full-width', $projectsMobile); ?>
+	</div>
 	<?php new \ClientLogoStrip(null, 'full-width'); ?>
 	<div class="spacer full-width" style="height: 6rem; background-color: #eceff0;"></div>
 </main>

@@ -45,7 +45,12 @@ function initCarousel(container: HTMLElement): void {
 }
 
 function initAllCarousels(): void {
-	const containers = document.querySelectorAll<HTMLElement>(".burton .carousel-container");
+	const scoped = document.querySelectorAll<HTMLElement>(
+		".project-wrapper.oetztal-cd .carousel-container"
+	);
+	const generic = document.querySelectorAll<HTMLElement>(".carousel-container");
+
+	const containers = scoped.length ? scoped : generic;
 	containers.forEach(initCarousel);
 }
 

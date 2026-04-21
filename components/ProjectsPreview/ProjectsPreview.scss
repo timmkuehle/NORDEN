@@ -49,3 +49,17 @@
 		}
 	}
 }
+
+// Home page: on mobile we render a separate ProjectsPreview instance
+// wrapped in `.mobile-only` and want a 2-column layout there.
+.mobile-only {
+	.projects-preview {
+		.projects {
+			flex-wrap: wrap;
+		}
+
+		.project {
+			flex: 0 0 calc((100% - var(--projects-gap)) / 2);
+		}
+	}
+}

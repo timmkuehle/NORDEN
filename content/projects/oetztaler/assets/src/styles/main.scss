@@ -273,13 +273,6 @@ body {
 		}
 	}
 
-	.style-icon {
-		@media screen and (min-width: 769px) {
-			position: relative;
-			transform: translateX(-1.5vw);
-		}
-	}
-
 	#intro-graphic {
 		width: 45%;
 		margin-left: 55%;
@@ -292,6 +285,19 @@ body {
 			width: clamp(6rem, 25vw, 20rem);
 			margin-left: 0;
 		}
+	}
+}
+
+#animated-banner-section {
+	position: relative;
+
+	@include minquery($screen-m) {
+		padding-bottom: 8rem;
+	}
+	.style-icon {
+		position: absolute;
+		bottom: 1rem;
+		left: 1rem;
 	}
 }
 
@@ -323,7 +329,14 @@ body {
 
 #slideshow-section {
 	.image-slideshow {
+		// Mobile-only: controls underneath slideshow images for this project.
+		flex-direction: column-reverse;
+
+		.image {
+			border: 1px solid $color-oetz-medium-gray;
+		}
 		.controls-container {
+			justify-content: flex-end;
 			.button {
 				fill: $color-oetz-anthrazit;
 			}
@@ -516,6 +529,3 @@ body {
 		$color-oetz-cool-gray 70%
 	);
 }
-
-
-

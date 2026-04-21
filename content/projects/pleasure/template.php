@@ -36,14 +36,24 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </section>
 
     <section class="project-section  section-3">
-        <div class="keywords has-padding-lr">
-            <span class="desktop-only">Positionierung</span>
-            <span>Logo Redesign</span>
-            <span>Konzept</span>
-            <span>Editorial Design</span>
-            <span>Ausarbeitung der Ausgaben</span>
-            <span>Merch</span>
-        </div>
+		<div class="has-padding-lr">
+			<?php new AnimatedBanner(
+				null,
+				'animated-banner',
+				[
+					'Positionierung',
+					'Logo Redesign',
+					'Konzept',
+					'Editorial Design',
+					'Ausarbeitung der Ausgaben',
+					'Merch'
+				],
+				'', // no label
+				'pleasure-keywords-track',
+				'', // hide default label
+				'' // no separators
+			); ?>
+		</div>
         <?php new Image(
         	null,
         	'magazine-cover',

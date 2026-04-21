@@ -1,6 +1,7 @@
 <?php
 $seoTitle = 'Ötztal WIDI Font & Family Brand Design | NORDEN';
-$seoDescription = 'Für das Ötztal entwickelte NORDEN den WIDI Font: eine kindgerechte Weiterentwicklung der Corporate Font für Familienkommunikation, Markenwelt und Maskottchen-Design.';
+$seoDescription =
+	'Für das Ötztal entwickelte NORDEN den WIDI Font: eine kindgerechte Weiterentwicklung der Corporate Font für Familienkommunikation, Markenwelt und Maskottchen-Design.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
@@ -39,18 +40,27 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <section class="project-section bg-col-dark-red has-padding-lr section-1">
 
     <div class="row">
-        <div class="col s16 m16 l7 xl6" >
-        <p class="text-is-large col-white desktop-only">WIDI repräsentiert die Familien- und Kinderthemen <span class="highlight-circle">im Ötztal.</span> Für diesen eigenen Markenkosmos entstand auf Basis der Ötztal Corporate Font der WIDI Font – eine kindgerechte, spielerische und handschriftlich geprägte Weiterentwicklung mit eigenständigem Charakter.</p>
-        <p class="text-is-large col-white mobile-only">WIDI repräsentiert die Familien- und Kinderthemen <span class="highlight-circle">im Ötztal.</span> Auf Basis der Ötztal Corporate Font entstand dafür eine kindgerechte, spielerische Schrift mit eigenständigem Charakter.</p>
-
-    </div>
-        <div class="col s16 m16 l8 push-l1 xl8">
-        <h3 class="meta-headline">Leitidee:</h3>
-        <p class="col-white is-text desktop-only">Der WIDI Font ist die kindliche Interpretation der Ötztal Corporate Font. Er übernimmt prägende Merkmale der Marke und übersetzt sie in eine weichere, rundere und spielerischere Form. So entsteht eine Schrift, die speziell für familien- und kindernahe Inhalte entwickelt wurde und dem Charakter von WIDI gestalterisch entspricht.</p>
-        <p class="col-white is-text mobile-only">Der WIDI Font ist die kindliche Interpretation der Ötztal Corporate Font – weicher, runder und spielerischer für familiennahe Inhalte.</p>
-        <p <span class="col-gold">  <span class="col-red is-bold is-uppercase">Unsere Leistungen:  </span> Fontdesign — Konzeptionierung — Farbkonzept — Implementierung</span></p>
+        <div class="col s16 m16 l5 xl6" >
+            <p class="text-is-large col-white desktop-only">WIDI repräsentiert die Familien- und Kinderthemen <span class="highlight-circle">im Ötztal.</span> Für diesen eigenen Markenkosmos entstand auf Basis der Ötztal Corporate Font der WIDI Font – eine kindgerechte, spielerische und handschriftlich geprägte Weiterentwicklung mit eigenständigem Charakter.</p>
+            <p class="text-is-large col-white mobile-only">WIDI repräsentiert die Familien- und Kinderthemen <span class="highlight-circle">im Ötztal.</span> Auf Basis der Ötztal Corporate Font entstand dafür eine kindgerechte, spielerische Schrift mit eigenständigem Charakter.</p>
         </div>
+
+        <div class="col s16 m16 l5 push-l1 xl8">
+            <h3 class="meta-headline">Leitidee:</h3>
+            <p class="col-white is-text desktop-only">Der WIDI Font ist die kindliche Interpretation der Ötztal Corporate Font. Er übernimmt prägende Merkmale der Marke und übersetzt sie in eine weichere, rundere und spielerischere Form. So entsteht eine Schrift, die speziell für familien- und kindernahe Inhalte entwickelt wurde und dem Charakter von WIDI gestalterisch entspricht.</p>
+            <p class="col-white is-text mobile-only">Der WIDI Font ist die kindliche Interpretation der Ötztal Corporate Font – weicher, runder und spielerischer für familiennahe Inhalte.</p>
+        </div>
+        <div class="col s16">
+    <?php new AnimatedBanner(
+    	null,
+    	'animated-banner',
+    	['Fontdesign', 'Konzeptionierung', 'Farbkonzept', 'Implementierung'],
+    	'col-gold',
+    	'col-gold'
+    ); ?>
     </div>
+    </div>
+    
     <div class="image-absolute">
         <?php new Image(
         	null,
@@ -74,7 +84,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     	'/content/resources/media/oetztalKids/03_WIDIs_Aektschn.svg'
     ); ?>
 
-				<div class="carousel-navigation" aria-label="Carousel navigation">
+				<div class="carousel-navigation desktop-only" aria-label="Carousel navigation">
 					<button type="button" class="carousel-prev" aria-label="Previous slide"></button>
 					<button type="button" class="carousel-next" aria-label="Next slide"></button>
 				</div>
@@ -83,19 +93,50 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 				<div class="carousel-container">
 					<div class="carousel" aria-label="Image carousel">
 						<div class="carousel-track">
-							<div class="carousel-slide">
+                        <div class="carousel-slide">
 								<?php new Image(
-        	null,
-        	'carousel-image',
-        	'/content/resources/media/oetztalKids/03_WIDIs_Aektschn_Folder.jpg',
-        	null,
-        	true
-        ); ?>
+                                    null,
+                                    'carousel-image',
+                                    '/content/resources/media/oetztalKids/03_WIDIs_Aektschn_Folder/Widi_Folder_1.jpg',
+                                    null,
+                                    true
+                                ); ?>
+							</div>
+                            <div class="carousel-slide">
+								<?php new Image(
+                                    null,
+                                    'carousel-image',
+                                    '/content/resources/media/oetztalKids/03_WIDIs_Aektschn_Folder/Widi_Folder_2.jpg',
+                                    null,
+                                    true
+                                ); ?>
+							</div>
+                            <div class="carousel-slide">
+								<?php new Image(
+                                    null,
+                                    'carousel-image',
+                                    '/content/resources/media/oetztalKids/03_WIDIs_Aektschn_Folder/Widi_Folder_3.jpg',
+                                    null,
+                                    true
+                                ); ?>
+							</div>
+                            <div class="carousel-slide">
+								<?php new Image(
+                                    null,
+                                    'carousel-image',
+                                    '/content/resources/media/oetztalKids/03_WIDIs_Aektschn_Folder/Widi_Folder_4.jpg',
+                                    null,
+                                    true
+                                ); ?>
 							</div>
 						
 					
 						</div>
 					</div>
+				</div>
+				<div class="carousel-navigation mobile-only" aria-label="Carousel navigation">
+					<button type="button" class="carousel-prev" aria-label="Previous slide"></button>
+					<button type="button" class="carousel-next" aria-label="Next slide"></button>
 				</div>
             </div>
         </div>

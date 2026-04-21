@@ -15,6 +15,7 @@ class ClientModel {
             'name' => 'oetztal',
             'nicename' => 'Ötztal',
             'link' => 'https://www.oetz.com/',
+            'project_slug' => '/projekte/oetztal/corporate-design',
             'logo' => '/content/resources/clientLogos/Oetztal.svg'
         ],
         [
@@ -27,48 +28,56 @@ class ClientModel {
             'name' => 'burton',
             'nicename' => 'Burton',
             'link' => 'https://www.burton.com/',
+            'project_slug' => '/projekte/burton',
             'logo' => '/content/resources/clientLogos/BURTON_Logo.svg'
         ],
         [
             'name' => 'alpachtal',
             'nicename' => 'Alpbachtal',
             'link' => 'https://www.alpbachtal.at/',
+            'project_slug' => '/projekte/alpbachtal',
             'logo' => '/content/resources/clientLogos/Alpbachtal.svg'
         ],
         [
             'name' => 'aranea',
             'nicename' => 'Aranea',
             'link' => 'https://aranea.or.at/',
+            'project_slug' => '/projekte/aranea',
             'logo' => '/content/resources/clientLogos/ARANEA.svg'
         ],
         [
             'name' => 'bike-republic',
             'nicename' => 'Bike Republic',
             'link' => 'https://bikerepublic.soelden.com/',
+            'project_slug' => '/projekte/soelden/bike-republic',
             'logo' => '/content/resources/clientLogos/Bike_Republic.svg'
         ],
         [
             'name' => 'oetztaler-radmarathon',
             'nicename' => 'Ötztaler Radmarathon',
             'link' => 'https://www.oetztaler-radmarathon.com/',
+            'project_slug' => '/projekte/soelden/oetztaler-radmarathon',
             'logo' => '/content/resources/clientLogos/Oetztaler_Radmarathon.svg'
         ],
         [
             'name' => 'fabian-manz',
             'nicename' => 'Fabian Manz',
             'link' => '/',
+            'project_slug' => '/projekte/manz',
             'logo' => '/content/resources/clientLogos/Manz_Logo.svg'
         ],
         [
             'name' => 'seefeld',
             'nicename' => 'Seefeld',
             'link' => 'https://www.seefeld.com/',
+            'project_slug' => '/projekte/seefeld',
             'logo' => '/content/resources/clientLogos/Seefeld.svg'
         ],
         [
             'name' => 'emf',
             'nicename' => 'Electric Mountain Festival',
             'link' => 'https://www.soelden.com/de/events-freizeittipps/events/electric-mountain-festival',
+            'project_slug' => '/projekte/soelden/electric-mountain-festival',
             'logo' => '/content/resources/clientLogos/Electric_Mountain_Festival_2.svg'
         ],
         [
@@ -81,6 +90,7 @@ class ClientModel {
             'name' => 'pleasure',
             'nicename' => 'Pleasure',
             'link' => 'https://www.pleasuremag.com/',
+            'project_slug' => '/projekte/pleasure',
             'logo' => '/content/resources/clientLogos/PLEASURE.svg'
         ],
         [
@@ -99,12 +109,14 @@ class ClientModel {
             'name' => 'soelden',
             'nicename' => 'Sölden',
             'link' => 'https://www.soelden.com/',
+            'project_slug' => '/projekte/soelden',
             'logo' => '/content/resources/clientLogos/Soelden.svg'
         ],
         [
             'name' => 'gurgl',
             'nicename' => 'Gurgl',
             'link' => 'https://www.gurgl.com/',
+            'project_slug' => '/projekte/gurgl',
             'logo' => '/content/resources/clientLogos/Gurgl.svg'
         ],
         [
@@ -117,6 +129,7 @@ class ClientModel {
             'name' => 'holtmeyer',
             'nicename' => 'Holtmeyer',
             'link' => 'https://holtmeyer.net/',
+            'project_slug' => '/projekte/holtmeyer',
             'logo' => '/content/resources/clientLogos/Holtmeyer.svg'
         ],
         [

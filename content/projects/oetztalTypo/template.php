@@ -35,10 +35,22 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="content">
         <div class="column" style="width: 60%;">
         <p class="text-is-large col-white desktop-only">Die Corporate Font des Ötztals übersetzt Sprache in visuelle Identität. Sie greift die Eigenständigkeit des <span class="highlight-circle">Ötztaler Dialekts</span> auf und macht sie typografisch sichtbar – als Ausdruck von Herkunft, Charakter und Wiedererkennbarkeit.</p>
+        <p class="text-is-large col-white mobile-only">Die Corporate Font des Ötztals macht die Eigenständigkeit des Dialekts typografisch sichtbar – <span class="highlight-circle">als Ausdruck von</span> Herkunft, Charakter und Wiedererkennbarkeit.</p>
+    </div>
+    </div>
+    <div class="slot end"></div>
+</section>
 
-            <p class="text-is-large col-white mobile-only">Die Corporate Font des Ötztals macht die Eigenständigkeit des Dialekts typografisch sichtbar – <span class="highlight-circle">als Ausdruck vo</span>n Herkunft, Charakter und Wiedererkennbarkeit.</p>
-        </div>
-        <p <span class="col-gold">  <span class="col-red bold uppercase">Unsere Leistungen:  </span> Fontdesign — Konzeptionierung — Motion Design</span></p>
+<section class="project-section bg-col-dark-red no-padding-top">
+    <div class="slot start"></div>
+    <div class="content">
+        <?php new AnimatedBanner(
+        	null,
+        	'animated-banner',
+        	['Fontdesign', 'Konzeptionierung', 'Motion Design'],
+        	'col-gold',
+        	'col-gold'
+        ); ?>
     </div>
     <div class="slot end"></div>
 </section>
@@ -71,7 +83,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section">
+<section class="project-section bg-col-beige">
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
@@ -96,7 +108,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section id="modification-section" class="project-section no-padding-top">
+<section id="modification-section" class="project-section no-padding-top bg-col-beige">
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
@@ -123,7 +135,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section full-width-new no-padding-bottom small-padding">
+<section class="project-section full-width-new no-padding-bottom small-padding no-padding-top">
     <div class="slot start"></div>
     <div class="content no-inline-padding-mobile">
         <?php new Video(

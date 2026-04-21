@@ -82,7 +82,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section bg-col-light-blue no-padding-bottom">
+<section class="project-section no-padding-top">
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 30%;">
@@ -120,15 +120,6 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             	'Markenlogo und Ortsbezeichnungen',
             	true,
             	'content/resources/media/seefeld/SFLD_Ortsbezeichnungen_Mobile.svg'
-            ); ?>
-        </div>
-        <div class="column mobile-only">
-            <?php new Image(
-            	null,
-            	'mobile-only',
-            	'/content/resources/media/seefeld/SFLD_Ortsbezeichnungen_Mobile_2.svg',
-            	'Markenlogo und Ortsbezeichnungen - 2',
-            	true
             ); ?>
         </div>
     </div>
@@ -246,8 +237,14 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             <span class="banner-item">Tirols Hochplateau</span>
             <span class="banner-item">Tirols Hochplateau</span>
             <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
         </div>
         <div class="banner-track" aria-hidden="true">
+            <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
+            <span class="banner-item">Tirols Hochplateau</span>
             <span class="banner-item">Tirols Hochplateau</span>
             <span class="banner-item">Tirols Hochplateau</span>
             <span class="banner-item">Tirols Hochplateau</span>

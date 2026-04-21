@@ -189,7 +189,15 @@ $color-soel-cool-gray: #eeeff1;
 		margin-block: 0.5em;
 	}
 }
+.soelden-beanie {
+	max-width: 540px;
+	width: 90%;
 
+	@include minquery($screen-m) {
+		max-width: 540px;
+		width: 100%;
+	}
+}
 .image-with-lines {
 	position: relative;
 	max-width: min(55rem, 100%);
@@ -268,7 +276,6 @@ body {
 			}
 
 			.nav-menu {
-
 				.menu-item {
 					.menu-item-link {
 						color: white;
@@ -551,7 +558,7 @@ body {
 			&.color-2 {
 				background: linear-gradient(
 					$color-soel-anthrazit 55%,
-					white 55%
+					var(--color-light) 55%
 				);
 
 				@media screen and (max-width: 768px) {
@@ -568,7 +575,11 @@ body {
 				}
 			}
 			&.layout-1 {
-				padding-top: 10rem !important;
+				padding-top: 1.5rem !important;
+
+				@include minquery($screen-m) {
+					padding-top: 10rem !important;
+				}
 			}
 			&.social-media-4 {
 				background: linear-gradient(
@@ -586,6 +597,35 @@ body {
 					white 40%,
 					$color-soel-anthrazit 40%
 				);
+
+				.content {
+					position: relative;
+					.photo-point {
+						position: relative;
+						z-index: 2;
+						width: 100%;
+
+						@include minquery($screen-m) {
+							width: 75%;
+						}
+					}
+					.deco-element {
+						z-index: 1;
+						position: absolute;
+						top: -2rem;
+						right: -2rem;
+						opacity: 0.4;
+						width: 160px;
+						max-width: 360px;
+
+						@include minquery($screen-m) {
+							right: 2rem;
+							top: -4rem;
+							width: 360px;
+							max-width: 360px;
+						}
+					}
+				}
 			}
 
 			&.soelden-bag {
@@ -1121,7 +1161,14 @@ body {
 
 		.soelden-outro {
 			padding-block: 5rem 8rem;
+			padding-inline: 0 !important;
+			.lines {
+				display: none;
 
+				@include minquery($screen-m) {
+					display: block;
+				}
+			}
 			.heading {
 				position: relative;
 				z-index: 100;
@@ -1151,8 +1198,11 @@ body {
 			.image-with-lines {
 				max-width: unset !important;
 				margin-inline: 0 calc(-1 * var(--main-padding-inline));
-
-				@media screen and (min-width: 768px) {
+				padding: 0;
+				@include minquery($screen-m) {
+					padding-left: 2.5rem;
+				}
+				@include minquery($screen-m) {
 					padding-top: 2rem;
 
 					.lines {
@@ -1165,6 +1215,11 @@ body {
 					position: relative;
 					z-index: 1;
 					width: 100%;
+					transform: translateX(-16px) scale(1.12);
+
+					@include minquery($screen-m) {
+						transform: none;
+					}
 				}
 			}
 		}
@@ -1201,7 +1256,7 @@ body {
 }
 
 #typo-button {
-	margin-top: 45%;
+	margin-top: 5%;
 	color: $color-soel-anthrazit;
 	background-color: $color-soel-orange;
 	border-color: $color-soel-orange;
@@ -1234,5 +1289,28 @@ body {
 	display: none !important;
 	@include minquery($screen-m) {
 		display: flex !important;
+	}
+}
+.with-deco {
+	position: relative;
+
+	.deco-element {
+		position: absolute;
+		bottom: -1rem;
+		left: 1rem;
+		opacity: 0.4;
+		width: 160px;
+		max-width: 360px;
+
+		@include minquery($screen-m) {
+			left: 2rem;
+			bottom: -4rem;
+			width: 360px;
+			max-width: 360px;
+		}
+
+		@include minquery($screen-l) {
+			left: 4.25rem;
+		}
 	}
 }

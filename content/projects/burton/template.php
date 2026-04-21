@@ -53,7 +53,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                         'Design Variations',
                         'Grafik Support'
                     ],
-                    'col-red',
+                    'col-black',
                     'col-blue'
                 ); ?>
             </div>

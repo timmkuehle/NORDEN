@@ -190,7 +190,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="slot start"></div>
     <div class="content">
         <div class="column">
-            <h2>Adelle Sans Gurgl Headline</h2>
+            <h2 class="col-white">Adelle Sans Gurgl Headline</h2>
             <h3 class="col-white">Customized Headline Font:</h3>
             <p class="col-white desktop-only">Neben dem Diamanten wurde eine eigens entwickelte Headline-Schrift zum weiteren Key Brand Identifier. Sie leitet sich aus der Hausschrift ab und übersetzt Präzision, Eleganz und alpine Schärfe in ein eigenständiges typografisches Zeichen.</p>
             <p class="col-white mobile-only">Die eigens entwickelte Headline-Schrift ergänzt den Diamanten als Key Brand Identifier und verleiht der Marke Präzision, Eleganz und Eigenständigkeit.</p>
@@ -527,7 +527,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_Folder_Desktop.png',
         	'Alpine Auszeit - Folder',
         	true,
-        	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_Folder_Mobile.png'
+        	'/content/resources/media/gurgl/GURGL_AlpineAuszeit_Folder_Desktop.png'
         ); ?>
     </div>
     <div class="slot end"></div>

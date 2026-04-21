@@ -16,7 +16,7 @@ class ProjectModel {
             'slug' => '/projekte/oetztal/corporate-design',
             'content_path' => '/content/projects/oetztalCd',
             'title' => 'Ötztal',
-            'thumbnail' => '/content/resources/media/projectPreviews/01_Oetztal_CD_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/01_Oetztal_CD_Startseite.gif',
             'category' => 'Corporate Design',
             'preview_title' => 'Marke Ötztal'
         ],
@@ -53,7 +53,7 @@ class ProjectModel {
             'slug' => '/projekte/soelden/typografie',
             'content_path' => '/content/projects/soeldenTypo',
             'title' => 'Corporate Font Sölden',
-            'thumbnail' => '/content/resources/media/projectPreviews/06_SOEL_Font_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/06_SOEL_Font_Startseite.gif',
             'category' => 'Typography'
         ],
         [
@@ -74,7 +74,7 @@ class ProjectModel {
             'slug' => '/projekte/seefeld',
             'content_path' => '/content/projects/seefeld',
             'title' => 'Seefeld',
-            'thumbnail' => '/content/resources/media/projectPreviews/09_Seefeld_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/09_Seefeld_Startseite.gif',
             'category' => 'Corporate Design'
         ],
         [
@@ -96,14 +96,14 @@ class ProjectModel {
             'slug' => '/projekte/soelden/electric-mountain-festival',
             'content_path' => '/content/projects/soeldenEmf',
             'title' => 'Electric Mountain Festival',
-            'thumbnail' => '/content/resources/media/projectPreviews/12_EMF_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/12_EMF_Startseite.gif',
             'category' => 'Event Branding'
         ],
         [
             'slug' => '/',
             'content_path' => '/',
             'title' => 'Bike Republic Sölden',
-            'thumbnail' => '/content/resources/media/projectPreviews/13_BRS_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/13_BRS_Startseite.gif',
             'category' => 'Corporate Design',
             'preview_title' => 'Bike Republic Sölden'
         ],
@@ -139,7 +139,7 @@ class ProjectModel {
             'slug' => '/projekte/gurgl-corporate-font',
             'content_path' => '/content/projects/gurglFont',
             'title' => 'Corporate Font Gurgl',
-            'thumbnail' => '/content/resources/media/projectPreviews/18_GurgL_Font_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/18_GurgL_Font_Startseite.gif',
             'category' => 'Typography'
         ],
         [
@@ -160,7 +160,7 @@ class ProjectModel {
             'slug' => '/projekte/alpbachtal',
             'content_path' => '/content/projects/alpbachtal',
             'title' => 'Alpbachtal',
-            'thumbnail' => '/content/resources/media/projectPreviews/21_Alpbachtal_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/21_Alpbachtal_Startseite.gif',
             'category' => 'Corporate Design',
             'preview_title' => 'Marke Alpbachtal'
         ],
@@ -175,14 +175,14 @@ class ProjectModel {
             'slug' => '/',
             'content_path' => '/',
             'title' => 'Kaiserweis Premium Käsebox',
-            'thumbnail' => '/content/resources/media/projectPreviews/23_Kaiserweis_Käsebox_premium.jpg',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/23_Kaiserweis_Käsebox_premium.jpg',
             'category' => 'Packaging Design'
         ],
         [
             'slug' => '/',
             'content_path' => '/',
             'title' => 'Corporate Font Garda Trentino',
-            'thumbnail' => '/content/resources/media/projectPreviews/24_Garda_Font_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/24_Garda_Font_Startseite.gif',
             'category' => 'Typography'
         ],
         [
@@ -196,7 +196,7 @@ class ProjectModel {
             'slug' => '/',
             'content_path' => '/',
             'title' => 'Tirols Hochplateau',
-            'thumbnail' => '/content/resources/media/projectPreviews/26_TirolsHochplateau_Startseite.gif',
+            'thumbnail' => '/content/resources/media/projectPreviewsNew/26_TirolsHochplateau_Startseite.gif',
             'category' => 'Logo Design'
         ],
         [
@@ -221,7 +221,7 @@ class ProjectModel {
         if ($slug) {
             $filtered_projects = array_values(
                 array_filter(
-                    $this->sanitizeProjects($this->projects),
+                    $this->sanitizeProjects(),
                     fn($project) => $project['slug'] === sanitize_uri($slug)
                 )
             );
@@ -265,18 +265,24 @@ class ProjectModel {
      * @return array Filtered or full project list
      */
     public function getProjects(?array $slugs = null): array {
-        $sanitized_slugs = $slugs
-            ? array_map(fn($slug) => sanitize_uri($slug), $slugs)
-            : [];
         $sanitized_projects = $this->sanitizeProjects();
 
-        return $slugs
-            ? array_values(
-                array_filter(
-                    $sanitized_projects,
-                    fn($project) => in_array($project['slug'], $sanitized_slugs)
-                )
-            )
-            : $sanitized_projects;
+        if (!$slugs) {
+            return $sanitized_projects;
+        }
+
+        $sanitized_slugs = array_map(fn($slug) => sanitize_uri($slug), $slugs);
+
+        $projects_by_slug = [];
+        foreach ($sanitized_projects as $project) {
+            $projects_by_slug[$project['slug']] = $project;
+        }
+
+        $ordered = array_map(
+            fn($slug) => $projects_by_slug[$slug] ?? null,
+            $sanitized_slugs
+        );
+
+        return array_values(array_filter($ordered));
     }
 }

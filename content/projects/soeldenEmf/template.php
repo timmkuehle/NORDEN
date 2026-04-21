@@ -38,20 +38,20 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <div class="slot start"></div>
 <div class="content">
     <?php new AnimatedBanner(
-	null,
-	'animated-banner',
-	[
-		'Corporate Design',
-		'Branding & Implementierung',
-		'Kommunikationskonzept',
-		'Motion & Animation',
-		'Social Media',
-		'Merch',
-		'Bühnendesign'
-	],
-	'col-soel-cut-3',
-	'col-red'
-); ?></div>
+    	null,
+    	'animated-banner',
+    	[
+    		'Corporate Design',
+    		'Branding & Implementierung',
+    		'Kommunikationskonzept',
+    		'Motion & Animation',
+    		'Social Media',
+    		'Merch',
+    		'Bühnendesign'
+    	],
+    	'col-soel-cut-3',
+    	'col-red'
+    ); ?></div>
  <div class="slot end"></div>
 </section>
 <section id="emf-intro-text-section" class="project-section">
@@ -592,6 +592,48 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
+
+
+<div id="merch-section-2" class="project-section">
+    <div class="slot start"></div>
+        <div class="content">
+        <div class="image-slideshow merch-slider" style="flex-direction: column-reverse;">
+            <div class="controls-container" style="justify-content: flex-end;">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="button prev">
+					<path d="M7.4 273.4C2.7 268.8 0 262.6 0 256s2.7-12.8 7.4-17.4l176-168c9.6-9.2 24.8-8.8 33.9 .8s8.8 24.8-.8 33.9L83.9 232 424 232c13.3 0 24 10.7 24 24s-10.7 24-24 24L83.9 280 216.6 406.6c9.6 9.2 9.9 24.3 .8 33.9s-24.3 9.9-33.9 .8l-176-168z"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="button next">
+					<path d="M440.6 273.4c4.7-4.5 7.4-10.8 7.4-17.4s-2.7-12.8-7.4-17.4l-176-168c-9.6-9.2-24.8-8.8-33.9 .8s-8.8 24.8 .8 33.9L364.2 232 24 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l340.1 0L231.4 406.6c-9.6 9.2-9.9 24.3-.8 33.9s24.3 9.9 33.9 .8l176-168z"/>
+				</svg>
+			</div>
+			<div class="images-container" style="gap: 10rem">
+				<?php new \Image(
+                    null,
+                    null,
+                    '/content/resources/media/soeldenEmf/merch-slider/soel_EMF_Merchandise_1.jpg',
+                    'EMF Pop-Up-Store 1',
+                    true
+                ); ?>
+                <?php new \Image(
+                    null,
+                    null,
+                    '/content/resources/media/soeldenEmf/merch-slider/soel_EMF_Merchandise_2.jpg',
+                    'EMF Pop-Up-Store 1',
+                    true
+                ); ?>
+                     <?php new \Image(
+                    null,
+                    null,
+                    '/content/resources/media/soeldenEmf/merch-slider/soel_EMF_Merchandise_3.jpg',
+                    'EMF Pop-Up-Store 1',
+                    true
+                ); ?>
+                </div>
+            </div>
+        </div>
+    <div class="slot end"></div>
+</div>
+
 <section id="stage-spacer-section" class="project-section" style="align-items: flex-end;">
     <div class="slot start"></div>
     <div class="content">

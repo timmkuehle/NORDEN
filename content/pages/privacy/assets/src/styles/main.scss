@@ -6,7 +6,15 @@
 body {
 	main {
 		padding: 0;
+		h1 {
+			margin-bottom: 3rem;
+			font-size: 48px;
+			hyphens: auto;
 
+			@include minquery($screen-m) {
+				font-size: 88px;
+			}
+		}
 		h2 {
 			margin-block: 2.25vw;
 			font-size: clamp(1.75rem, 2.75vw, 2.921875rem);
@@ -19,9 +27,24 @@ body {
 			margin-block: 1.75vw;
 			font-size: clamp(1rem, 1.25vw, 1.328125rem);
 		}
+		h3 {
+			margin-top: 2.25rem;
+			font-size: 18px;
+			margin-bottom: 0;
+		}
+		.tt-normal {
+			text-transform: none;
+			margin-bottom: 0;
+		}
+
+		p {
+			margin: 0;
+		}
 	}
 }
-
+.privacy {
+	max-width: 762px;
+}
 // Component styling
 .side-note {
 	color: var(--color-primary);

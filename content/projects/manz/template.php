@@ -31,14 +31,22 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         </div>
     </section>
 
-    <section class="project-section has-padding-lr section-3 bg-col-white">
-          <div class="project-row">
-            <span>Konzept</span>
-            <span>Logodesign</span>
-            <span>Schriftgestaltung</span>
-            <span>Geschäftsausstattung</span>
-            <span>Farb- und Typografie-Definition</span>
-          </div>
+    <section class="project-section has-padding-lr section-3 bg-col-white no-padding-top">
+		<?php new AnimatedBanner(
+			null,
+			'animated-banner',
+			[
+				'Konzept',
+				'Logodesign',
+				'Schriftgestaltung',
+				'Geschäftsausstattung',
+				'Farb- und Typografie-Definition'
+			],
+			'', // no label
+			'manz-project-row-track',
+			'', // hide default "Unsere Leistungen" label
+			'' // no separators
+		); ?>
     </section>
 
     <section class="project-section section-4 bg-col-white">
@@ -52,22 +60,19 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         </div>
         <div class="grid">
             <div class="grid-item">
-                Schwarz #000000 <br>für Tiefe, Klarheit, Kontrast
+                Schwarz<br>für Tiefe, Klarheit, Kontrast
             </div>
             <div class="grid-item">
-                Beige #CDC9B7 <br>für eine ruhige, unaufgeregte Bildsprache
+                Beige<br>für eine ruhige, unaufgeregte Bildsprache
             </div>
             <div class="grid-item">
-                Weiß #FFFFFF <br>als neutraler Raum für Inhalte
+                Weiß<br>als neutraler Raum für Inhalte
             </div>
             <div class="grid-item has-border bg-col-black">
-                000000
             </div>
             <div class="grid-item has-border bg-col-beige">
-              CDC9B7
             </div>
             <div class="grid-item has-border bg-col-white">
-                FFFFFF
             </div>
         </div>
     </section>
