@@ -3,6 +3,7 @@
 class ProjectsPreview extends \PHTMLComponent {
     private \ProjectModel $model;
     private array $projects;
+	private bool $lazyLoaded;
 
 	private function renderComingSoonBadge(): void {
 		?>
@@ -15,11 +16,13 @@ class ProjectsPreview extends \PHTMLComponent {
     public function __construct(
         ?string $id,
         ?string $class_name,
-        array $project_slugs = []
+        array $project_slugs = [],
+		bool $lazy_loaded = true
     ) {
         $this->model = new \ProjectModel();
 
         $this->projects = $this->model->getProjects($project_slugs);
+		$this->lazyLoaded = $lazy_loaded;
 
         parent::__construct($id, $class_name);
     }
@@ -45,7 +48,7 @@ class ProjectsPreview extends \PHTMLComponent {
 								    'project-thumbnail',
 								    $project['thumbnail'],
 								    'Prokjekt ansehen: ' . $project['title'],
-								    true
+								    $this->lazyLoaded
 								); ?>
 								<?php if ($is_coming_soon) { $this->renderComingSoonBadge(); } ?>
 							</div>

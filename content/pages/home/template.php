@@ -83,7 +83,7 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 	</section>
 
 	<div class="desktop-only">
-		<?php new \ProjectsPreview(null, 'full-width', $projects); ?>
+		<?php new \ProjectsPreview(null, 'full-width', $projects, false); ?>
 	</div>
 
 	<div class="mobile-only mobile-projects-preview full-width no-padding">
@@ -95,7 +95,7 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 				<a class="button text-style-button primary" href="/work">Alle Projekte</a>
 			</div>
 		</div>
-		<?php new \ProjectsPreview(null, 'full-width', $projectsMobile); ?>
+		<?php new \ProjectsPreview(null, 'full-width', $projectsMobile, false); ?>
 	</div>
 	<?php new \ClientLogoStrip(null, 'full-width'); ?>
 	<div class="spacer full-width" style="height: 6rem; background-color: #eceff0;"></div>
