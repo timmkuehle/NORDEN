@@ -1,5 +1,10 @@
 RewriteEngine on
 
+# Canonical host (avoid mixing `www` and non-`www`, which can break JS/CSS loads in some browsers)
+# Choose ONE. This redirects www -> apex.
+RewriteCond %{HTTP_HOST} ^www\.norden\.co$ [NC]
+RewriteRule ^ https://norden.co%{REQUEST_URI} [R=301,L]
+
 # Rewrite all requests that do not match an existing file to index.php in root directory
 # Prevents directory browsing
 RewriteCond %{REQUEST_FILENAME} !-f

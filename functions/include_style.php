@@ -24,8 +24,10 @@ function include_style(string $handle, string $path): void {
 	}
 
 	$id = $handle . '-style';
+	// Use same-origin paths in production to avoid `www` vs non-`www` issues.
+	$base = ENV === 'development' ? ASSET_BASE_URL : sanitize_uri(ROOT_PATH, true);
 	$href =
-		ASSET_BASE_URL .
+		$base .
 		$sanitized_path .
 		(ENV === 'production' ? '?ver=' . hash_file('md4', $file_path) : '');
 	?>

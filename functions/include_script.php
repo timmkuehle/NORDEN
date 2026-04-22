@@ -31,8 +31,11 @@ function include_script(
 	}
 
 	$id = $handle . '-script';
+	// Use same-origin paths in production to avoid `www` vs non-`www` issues (cross-origin + redirects
+	// can cause scripts to fail to load in some browsers).
+	$base = ENV === 'development' ? ASSET_BASE_URL : sanitize_uri(ROOT_PATH, true);
 	$src =
-		ASSET_BASE_URL .
+		$base .
 		$sanitized_path .
 		(ENV === 'production' ? '?ver=' . hash_file('md4', $file_path) : '');
 
@@ -43,7 +46,7 @@ function include_script(
 		ENV === 'production'
 			? 'integrity="sha384-' .
 				base64_encode(hash_file('sha384', $file_path, true)) .
-				'" crossorigin="anonymous"'
+				'"'
 			: '';
 	?>
         <script id="<?php echo $id; ?>" src="<?php echo $src; ?>" <?php echo $integrity .
