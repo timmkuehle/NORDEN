@@ -10,16 +10,12 @@
 <article class="job-offer bg-col-light-shade full-width first">
 	<p class="text-style-subline vertical-text color-primary">Open Positions</p>
 	<div class="content">
-		<h2 class="heading ini-heading">Initiativ Bewerbung</h2>
-		<p>Aktuell haben wir keine konkreten Jobs ausgeschrieben.
-		Heißt aber nicht, dass wir nicht neugierig sind.</p>
+		<h2 class="heading ini-heading">Initiativbewerbung</h2>
+		<p>Aktuell haben wir keine konkreten Stellen ausgeschrieben.Wenn du trotzdem das Gefühl hast, gut zu NORDEN zu passen, dann schick uns deine Initiativbewerbung.</p>
 
-		<p>Wenn du das Gefühl hast, dass du gut zu uns passt, schick uns einfach deine Initiativbewerbung.
-		Überrasche uns mit dem, was du kannst, denkst oder gestalten willst.</p>
+		<p>Wir freuen uns über Menschen mit Gespür für Gestaltung, guten Ideen und einer klaren Haltung zu Kommunikation und Marken.</p>
 		
-		<p>Ob Design, Konzept, Text oder irgendwas dazwischen – wir freuen uns immer über spannende Menschen mit guten Ideen.</p>
-		<p class="bold">Also: Nicht lange überlegen. <br>
-		Zeig uns, wer du bist.</p>
+		<p class="bold">Zeig uns, wer du bist, was du kannst und woran du arbeiten willst.</p>
 		<footer>
 			<?php new Button(
    	null,
@@ -33,26 +29,37 @@
 </article>
 <article class="job-offer full-width">
 	<div class="content">
-		<h2 class="heading">Praktikant:in</h2>
+		<h2 class="heading">Praktikum Design</h2>
+		
+			<p class="bold">Du willst nicht nur zusehen, sondern mitgestalten? 
+			Dann bewirb dich für ein Praktikum bei NORDEN.</p>
+		
+<p>Bei uns arbeitest du an echten Projekten im digital- und print-Bereich mit, unterstützt Gestaltungsprozesse von der Recherche bis zur Umsetzung und bekommst Einblicke in Markenentwicklung, Design und Kommunikation im Agenturalltag.</p>
+			
 		<div class="bullet-list">
-			<h3 class="subheading">Deine Aufgabenbereiche</h3>
+		<p class="bold uppercase subheading">Deine Aufgaben</p>
 			<ul>
-				<li>Unterstützung bei der grafischen Umsetzung von Gestaltungsprozessen im On- und Offline Bereich</li>
-				<li>Du führst Recherchen und Designanalysen durch, erstellst Moods und übernimmst auch selbst kleine Gestaltungsprojekte</li>
-				<li>Du bist bei Briefings und Workshops mit dabei und sammelst Einblicke in echte Marken-Entstehungsprozesse</li>
-				<li>Unterstützung bei Druckabwicklungen und Produktionen, sowie bei administrativen Aufgaben</li>
-			</ul>
+				<li>Mitarbeit an grafischen Projekten im Digital- und Print-Bereich</li>
+				<li>Recherche, Designanalysen und Erstellung von Moods</li>
+   <li>Unterstützung bei kleineren Gestaltungsaufgaben</li>
+   <li>Einblicke und Mitarbeit in/an Briefings, Workshops und Markenprozesse</li>
+   <li>Mitarbeit bei Abwicklungen, Produktionen und organisatorischen Aufgaben</li>
+</ul>
 		</div>
 		<div class="bullet-list">
-			<h3 class="subheading">Das bringst Du mit:</h3>
+		<p class="bold uppercase subheading">Das bringst Du mit:</p>
 			<ul>
-				<li>ein hohes Maß an Eigeninitiative und Teamfähigkeit</li>
+				<li>Eigeninitiative, Teamgeist und ein gutes Gespür für Gestaltung</li>
 				<li>Kenntnisse in den gängigen Programmen der Adobe Creative Suite</li>
-				<li>Interesse für Marken, Design und Kommunikation. </li>
+				<li>Umgang mit den gängigen Programmen der Adobe Creative Suite</li>
+				<li>Interesse an Marken, Design und Kommunikation</li>
 			</ul>
 		</div>
-		<p>Das Praktikum wird vergütet.</p>
-		<p class="bold">Wir freuen uns, Dich bald kennen zu lernen. </p>
+		<p class="bold uppercase">Wichtig</p>
+		<p>Wir vergeben Praktika nur für einen Zeitraum von mindestens 3 bis 6 Monaten.</p>
+		
+		<p class="bold uppercase subheading">Ab sofort</p>
+		<p>Wir freuen uns darauf, dich kennenzulernen.</p>
 		<footer>
 			<?php new Button(
    	null,
