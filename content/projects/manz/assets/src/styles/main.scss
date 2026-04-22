@@ -353,6 +353,7 @@ $smaller-line-height: 1;
 			}
 		}
 		.grid {
+			margin-top: 2rem;
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
@@ -360,6 +361,11 @@ $smaller-line-height: 1;
 			width: 100%;
 			max-width: 100%;
 			overflow: visible;
+
+			@include minquery($screen-m) {
+				margin-top: 5rem;
+
+			}
 
 			.grid-item {
 				flex: 1 1 33%;

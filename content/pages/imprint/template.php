@@ -28,9 +28,9 @@
     <div class="content">
         <h2>Copyright Bild & Text</h2>
         <h3>Bildmaterial:</h3>
-        <p>© NORDEN GmbH<br>© Ötztal Toursimus – A. Lohmann, B. Ritschel, C. Nösig, J. Müller, <br>
-        L. Ennemoser, N. Semrau, T. Siegele, Audi Nines /  The Distillery GmbH<br>
-        © Liftgesellschaft Obergurgl-Hochgurgl – D. Ebenbichler, <br>
+        <p>© NORDEN GmbH<br>© Ötztal Toursimus – A. Lohmann, B. Ritschel, C. Nösig, J. Müller, 
+        L. Ennemoser, N. Semrau, T. Siegele, Audi Nines /  The Distillery GmbH
+        © Liftgesellschaft Obergurgl-Hochgurgl – D. Ebenbichler, 
         © Ski Austria – J. Zeller, © Burton, © F. Manz, © G. Berger</p>
         <h3>Texte:</h3>
         <p>NORDEN GmbH</p>

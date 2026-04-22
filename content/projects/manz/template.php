@@ -61,15 +61,6 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             </div>
         </div>
         <div class="grid">
-            <div class="grid-item">
-                Schwarz<br>für Tiefe, Klarheit, Kontrast
-            </div>
-            <div class="grid-item">
-                Beige<br>für eine ruhige, unaufgeregte Bildsprache
-            </div>
-            <div class="grid-item">
-                Weiß<br>als neutraler Raum für Inhalte
-            </div>
             <div class="grid-item has-border bg-col-black">
             </div>
             <div class="grid-item has-border bg-col-beige">

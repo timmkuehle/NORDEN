@@ -2,7 +2,7 @@
     <div class="slot start"></div>
     <div class="content">
         <h1>AGBS</h1>
-        <h3>ALLGEMEINE GESCHÄFTSBEDINGUNGEN DER NORDEN GMBH</h3>
+        <h3 class="heading-mb">ALLGEMEINE GESCHÄFTSBEDINGUNGEN DER NORDEN GMBH</h3>
         <p> <span class="bold">NORDEN GmbH –<br>
         Visuelle Kommunikation, Markenentwicklung & Beratung </span><br>
         Kaiser-Franz-Joseph-Str. 10<br>6020 Innsbruck / Austria <br>
