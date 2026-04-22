@@ -41,13 +41,13 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <div class="slot start"></div>
     <div class="content">
 
-    <?php new AnimatedBanner(
+    <!-- <?php new AnimatedBanner(
     	null,
     	'animated-banner',
     	['Fontdesign', 'Corporate Design', 'Konzeptionierung'],
     	'col-orange',
     	'col-orange'
-    ); ?>
+    ); ?> -->
 </div>
 <div class="slot end"></div>
 </section>
@@ -71,7 +71,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 <h3>AS SOELDEN HEADLINE FONT:</h3>
                 <p class="desktop-only">Die Headline-Schrift ist ein zentrales Wiedererkennungsmerkmal der Marke Sölden. Variable Buchstabenbreiten verleihen ihr Dynamik, Eigenständigkeit und einen sportlich-progressiven Charakter. Als Key Brand Identifier prägt sie den Auftritt über alle Anwendungen hinweg.</p>
                 <p class="mobile-only">Der eigens für Sölden entwickelte Headline-Font macht die Marke typografisch unverwechselbar. Variable Buchstabenbreiten verleihen der Schrift Dynamik, Eigenständigkeit und hohen Wiedererkennungswert.</p>
-                <p>— Font creation in cooperation with <span class="col-orange">TypeTogether</span></p>
+                <p>— Font creation in cooperation with TypeTogether</p>
             </div>
         </div>
         <div class="column" style="width: 43%;">
@@ -216,7 +216,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 <?php new Button(
                 	null,
                 	'project-button',
-                	'Test Fest',
+                	'Test Fest Sölden',
                 	'/projekte/soelden/test-fest'
                 ); ?>
                 <?php new Button(

@@ -166,7 +166,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             </div>
             <div class="col s8 m8 l6 push-s1 push-m2 push-l3">
                 <h4 class="section-headline">Typografie</h4>
-                <p class="is-text desktop-only">Die Wahl der Typografie ist auf die Popins gefallen. Sie zeichnet sich durch runde Formen, gleichmäßige Strichstärken und eine moderne, sachliche Anmutung aus – perfekt für zeitgemäßes, minimalistisches Design.</p>
+                <p class="is-text desktop-only">Als typografische Grundlage wurde eine klare, zeitgenössische Sans Serif gewählt. Mit ihren runden Formen, gleichmäßigen Strichstärken und ihrer sachlichen Präsenz bildet sie die passende Basis für einen Auftritt, der modern, reduziert und dokumentarisch klar wirkt.</p>
                 <p class="is-text mobile-only">Eine ruhige, sachliche Sans Serif bildet die typografische Basis des Auftritts und unterstreicht dessen dokumentarische Klarheit.</p>
             </div>
         

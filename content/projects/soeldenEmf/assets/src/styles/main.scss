@@ -211,7 +211,7 @@ svg {
 		}
 
 		p {
-			width: 40vw;
+			max-width: 40vw;
 		}
 
 		& > .image:not(:first-child) {
@@ -227,6 +227,7 @@ svg {
 	color: $color-soel-medium;
 }
 .soelden-button {
+	margin-top: 2rem;
 	background-color: $color-soel-red !important;
 	border-color: $color-soel-red !important;
 }
@@ -322,7 +323,7 @@ svg {
 
 		.video {
 			width: 100%;
-			padding-inline: 7vw;
+			
 		}
 	}
 }

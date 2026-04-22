@@ -10,7 +10,7 @@ $color-beige: #cdc9b7;
 $color-gold: #f7a600;
 $color-medium-gray: #bbbcbc;
 $color-dark-gray: #75787b;
-$color-blue: #3D73FF;
+$color-blue: #3d73ff;
 $color-light-blue: #00b4ff;
 
 // Utility classes
@@ -47,7 +47,6 @@ $color-light-blue: #00b4ff;
 .bg-col-blue {
 	background-color: $color-blue;
 }
-
 
 .desktop-only {
 	display: none !important;
@@ -364,7 +363,6 @@ $smaller-line-height: 1;
 
 			@include minquery($screen-m) {
 				margin-top: 5rem;
-
 			}
 
 			.grid-item {
@@ -385,7 +383,6 @@ $smaller-line-height: 1;
 					font-size: $font-size-big;
 					padding: 6rem 2rem;
 				}
-
 				&.has-border {
 					border: 1px solid black;
 					font-weight: 300;
@@ -396,6 +393,10 @@ $smaller-line-height: 1;
 					padding: 2rem;
 				}
 
+				// Must come after `border: ...` (shorthand overrides side rules)
+				&.has-border:nth-child(2) {
+					border-right: none;
+				}
 				&.bg-col-black {
 					background-color: black;
 					color: $color-beige;

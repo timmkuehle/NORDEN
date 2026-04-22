@@ -54,7 +54,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <section class="project-section has-padding-lr section-2 bg-col-white">
         <div class="row">
             <div class="col s16 m16 l13 xl12">
-                <p class="text-is-large desktop-only">Für die Marke Ötztal entstand ein Corporate-Design-System, das die Positionierung innerhalb einer klaren Drei-Marken-Strategie sichtbar macht. Claim, Typografie, Bildsprache und Gestaltungsprinzipien geben der Marke einen eigenständigen Auftritt und schaffen zugleich ein stimmiges Zusammenspiel <mspan class="highlight-circle">it Sölden und Gurgl.</mspan></p>
+                <p class="text-is-large desktop-only">Für die Marke Ötztal entstand ein Corporate-Design-System, das die Positionierung innerhalb einer klaren Drei-Marken-Strategie sichtbar macht. Claim, Typografie, Bildsprache und Gestaltungsprinzipien geben der Marke einen eigenständigen Auftritt und schaffen zugleich ein stimmiges Zusammenspiel <span class="highlight-circle">mit Sölden und Gurgl.</mspan></p>
                 <p class="text-is-large mobile-only">Für die Marke Ötztal entstand ein Corporate-Design-System mit eigenständigem Auftritt und klarem Zusammenspiel innerhalb der Drei-Marken-Strategie m<span class="highlight-circle">it Sölden und Gurgl.</span></p>
             </div>
         </div>
@@ -67,7 +67,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         		'Branding & Implementierung',
         		'Online & Offline Kommunikationskonzept',
         		'Brandclip',
-        		'Animationen',
+        		'Motion Design',
         		'Social Media',
         		'Merchandise',
         		'Event Brandings'
@@ -159,7 +159,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
               <div class="text-wrapper">
               <div class="meta-headline col-light-red desktop-only">We talk "Ötztal"</div>
                 <p class="is-text col-white desktop-only">Die eigens entwickelte Corporate Font verleiht der Marke eine unverwechselbare Stimme. Modifizierte Zeichen, Ligaturen und typografische Eigenheiten greifen den Charakter der Ötztaler Sprache auf und übersetzen ihn in ein klares, prägnantes Schriftbild.</p>
-                <p class="is-text col-white mobile-only">ie eigens entwickelte Corporate Font greift den Charakter der Ötztaler Sprache auf und übersetzt ihn in ein klares, prägnantes Schriftbild..</p>
+                <p class="is-text col-white mobile-only">Die eigens entwickelte Corporate Schrift greift den Charakter der Ötztaler Sprache auf und übersetzt ihn in ein klares, prägnantes Schriftbild.</p>
                 <p class="col-white">— Font creation in cooperation with TypeTogether</p>
               </div>
                 <?php new \Button(
@@ -239,7 +239,6 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             </div>
 
             <div class="col s16 m12 l10 push-m1">
-                <div class="meta-headline desktop-only">Logo Animation</div>
                 <p class="is-text desktop-only">Das Motion-Design-Konzept übersetzt den Claim „Ötztal. Bewegt dich.“ visuell und typografisch in Bewegtbild. So entsteht ein prägnanter Markenmoment mit hoher Wiedererkennbarkeit.</p>
                 <p class="is-text mobile-only">Der Claim „Ötztal. Bewegt dich.“ wird visuell und typografisch in Bewegtbild übersetzt.</p>
             </div>
@@ -555,14 +554,14 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 	true
                 ); ?>
 
-            <?php new \Button(
+            <!-- <?php new \Button(
             	null,
             	'button-desktop',
             	'Zum Ötztal Magazin',
             	'/projekte/oetztal/magazin',
             	'primary'
             ); ?>
-            
+             -->
             </div>
            <div class="col s16">
            <?php new \Button(
@@ -733,7 +732,7 @@ Am Beispiel der Trailrunning Events wird das visuelle Prinzip für Veranstaltung
                     <?php new Button(
                     	null,
                     	'project-button',
-                    	'Ötztal Kids',
+                    	'Ötztal Widi (Kids) Font',
                     	'/projekte/oetztal-kids'
                     ); ?>
                 </div>

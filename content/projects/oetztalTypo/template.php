@@ -1,7 +1,7 @@
 <?php
-$seoTitle = 'Ötztal Corporate Font & Brand Typography | NORDEN';
+$seoTitle = 'Ötztal Corporate Schrift & Brand Typography | NORDEN';
 $seoDescription =
-	'Fontdesign für das Ötztal: Eine eigens entwickelte Corporate Font übersetzt Dialekt, Markencharakter und Wiedererkennbarkeit in typografische Identität.';
+	'Fontdesign für das Ötztal: Eine eigens entwickelte Corporate Schrift übersetzt Dialekt, Markencharakter und Wiedererkennbarkeit in typografische Identität.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
@@ -34,8 +34,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="slot start"></div>
     <div class="content">
         <div class="column" style="width: 60%;">
-        <p class="text-is-large col-white desktop-only">Die Corporate Font des Ötztals übersetzt Sprache in visuelle Identität. Sie greift die Eigenständigkeit des <span class="highlight-circle">Ötztaler Dialekts</span> auf und macht sie typografisch sichtbar – als Ausdruck von Herkunft, Charakter und Wiedererkennbarkeit.</p>
-        <p class="text-is-large col-white mobile-only">Die Corporate Font des Ötztals macht die Eigenständigkeit des Dialekts typografisch sichtbar – <span class="highlight-circle">als Ausdruck von</span> Herkunft, Charakter und Wiedererkennbarkeit.</p>
+        <p class="text-is-large col-white desktop-only">Die Corporate Schrift des Ötztals übersetzt Sprache in visuelle Identität. Sie greift die Eigenständigkeit des <span class="highlight-circle">Ötztaler Dialekts</span> auf und macht sie typografisch sichtbar – als Ausdruck von Herkunft, Charakter und Wiedererkennbarkeit.</p>
+        <p class="text-is-large col-white mobile-only">Die Corporate Schrift des Ötztals macht die Eigenständigkeit des Dialekts typografisch sichtbar – <span class="highlight-circle">als Ausdruck von</span> Herkunft, Charakter und Wiedererkennbarkeit.</p>
     </div>
     </div>
     <div class="slot end"></div>
@@ -59,15 +59,15 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="content" style="align-items: flex-start;">
         <div class="column" style="width: 58%;">
             <div class="soelden-text-block desktop-only">
-                <h2>Ein Corporate Font für das Ötztal</h2>
+                <h2>Eine Corporate Schrift für das Ötztal</h2>
                 <h3>Leitidee:</h3>
-                <p class="col-white">Der Corporate Font gibt der Marke Ötztal eine unverwechselbare Stimme. Ausgangspunkt war die Eigenwilligkeit des Ötztaler Dialekts, die sich in modifizierten Buchstaben, besonderen Punktierungen sowie eigens entwickelten Ligaturen und Sonderzeichen widerspiegelt.</p>
+                <p class="col-white">Die Corporate Schrift gibt der Marke Ötztal eine unverwechselbare Stimme. Ausgangspunkt war die Eigenwilligkeit des Ötztaler Dialekts, die sich in modifizierten Buchstaben, besonderen Punktierungen sowie eigens entwickelten Ligaturen und Sonderzeichen widerspiegelt.</p>
                 <p class="col-white">Als Basis diente die „Adelle“ von TypeTogether, die für das Ötztal gezielt weiterentwickelt und individualisiert wurde.</p>
                 <p class="col-white">— Font creation in cooperation with TypeTogether</p>
             </div>
             <div class="soelden-text-block mobile-only">
-                <h2>Corporate Font</h2>
-                <p class="col-white">er Corporate Font gibt der Marke Ötztal eine unverwechselbare Stimme. Modifizierte Buchstaben, Punktierungen und Ligaturen greifen die Besonderheiten des Dialekts auf und machen sie visuell erlebbar.</p>
+                <h2>Corporate Schrift</h2>
+                <p class="col-white">Die Corporate Schrift gibt der Marke Ötztal eine unverwechselbare Stimme. Modifizierte Buchstaben, Punktierungen und Ligaturen greifen die Besonderheiten des Dialekts auf und machen sie visuell erlebbar.</p>
                 <p class="col-white">— Font creation in cooperation with TypeTogether</p>
             </div>
         </div>
@@ -247,7 +247,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 <?php new Button(
                 	null,
                 	'project-button',
-                	'Ötztal kids',
+                	'Ötztal Widi (Kids) Font',
                 	'/projekte/oetztal-kids'
                 ); ?>
           

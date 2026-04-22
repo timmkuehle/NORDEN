@@ -270,15 +270,10 @@ body {
 			color: $color-soel-anthrazit;
 			background-color: $color-soel-orange;
 			border-color: $color-soel-orange;
-			width: fit-content;
-			min-width: 300px;
+			width: 100%;
+			min-width: 250px;
+			max-width: 420px;
 
-			@include minquery($screen-m) {
-				min-width: 280px;
-			}
-			@include minquery($screen-l) {
-				min-width: 300px;
-			}
 		}
 	}
 }

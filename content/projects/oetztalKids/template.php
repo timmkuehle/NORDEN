@@ -41,14 +41,14 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 
     <div class="row">
         <div class="col s16 m16 l5 xl6" >
-            <p class="text-is-large col-white desktop-only">WIDI repräsentiert die Familien- und Kinderthemen <span class="highlight-circle">im Ötztal.</span> Für diesen eigenen Markenkosmos entstand auf Basis der Ötztal Corporate Font der WIDI Font – eine kindgerechte, spielerische und handschriftlich geprägte Weiterentwicklung mit eigenständigem Charakter.</p>
+            <p class="text-is-large col-white desktop-only">WIDI repräsentiert die Familien- und Kinderthemen <span class="highlight-circle">im Ötztal.</span> Für diesen eigenen Markenkosmos entstand auf Basis der Ötztal Corporate Font der WIDI Schrift – eine kindgerechte, spielerische und handschriftlich geprägte Weiterentwicklung mit eigenständigem Charakter.</p>
             <p class="text-is-large col-white mobile-only">WIDI repräsentiert die Familien- und Kinderthemen <span class="highlight-circle">im Ötztal.</span> Auf Basis der Ötztal Corporate Font entstand dafür eine kindgerechte, spielerische Schrift mit eigenständigem Charakter.</p>
         </div>
 
-        <div class="col s16 m16 l5 push-l1 xl8">
+        <div class="col s16 m16 l5 push-l1 xl5">
             <h3 class="meta-headline">Leitidee:</h3>
-            <p class="col-white is-text desktop-only">Der WIDI Font ist die kindliche Interpretation der Ötztal Corporate Font. Er übernimmt prägende Merkmale der Marke und übersetzt sie in eine weichere, rundere und spielerischere Form. So entsteht eine Schrift, die speziell für familien- und kindernahe Inhalte entwickelt wurde und dem Charakter von WIDI gestalterisch entspricht.</p>
-            <p class="col-white is-text mobile-only">Der WIDI Font ist die kindliche Interpretation der Ötztal Corporate Font – weicher, runder und spielerischer für familiennahe Inhalte.</p>
+            <p class="col-white is-text desktop-only">Die WIDI Schrift ist die kindliche Interpretation der Ötztal Corporate Font. Er übernimmt prägende Merkmale der Marke und übersetzt sie in eine weichere, rundere und spielerischere Form. So entsteht eine Schrift, die speziell für familien- und kindernahe Inhalte entwickelt wurde und dem Charakter von WIDI gestalterisch entspricht.</p>
+            <p class="col-white is-text mobile-only">Die WIDI Schrift ist die kindliche Interpretation der Ötztal Corporate Font – weicher, runder und spielerischer für familiennahe Inhalte.</p>
         </div>
         <div class="col s16">
     <?php new AnimatedBanner(

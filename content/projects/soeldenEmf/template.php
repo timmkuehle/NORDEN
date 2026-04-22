@@ -44,7 +44,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     		'Corporate Design',
     		'Branding & Implementierung',
     		'Kommunikationskonzept',
-    		'Motion & Animation',
+    		'Motion Design',
     		'Social Media',
     		'Merch',
     		'Bühnendesign'
@@ -106,7 +106,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
                 <h2 class="mobile-only">TYPOGRAPHY</h2>
                 <h3 class="desktop-only">Typography</h3>
                 <p>Plakativ, präsent & sportlich. Die modifizierte Headline Font ist auffällig, athletisch-dynamisch und garantiert einen hohen Wiedererkennungswert. Vor allem im Bewegtbild entfaltet sie ihre volle Wirkung.</p>
-                <p>— Font creation in cooperation with <span class="col-red">TypeTogether</span></p>
+                <p>— Font creation in cooperation with TypeTogether</p>
                 <?php new \Button(
                 	null,
                 	'soelden-button',

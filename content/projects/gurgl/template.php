@@ -75,7 +75,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     		'Branding & Implementierung',
     		'Online & Offline Kommunikationskonzept',
     		'Brandclip',
-    		'Animationen',
+    		'Motion Design',
     		'Social Media'
     	],
     	'col-gray-5',
@@ -194,7 +194,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             <h3 class="col-white">Customized Headline Font:</h3>
             <p class="col-white desktop-only">Neben dem Diamanten wurde eine eigens entwickelte Headline-Schrift zum weiteren Key Brand Identifier. Sie leitet sich aus der Hausschrift ab und übersetzt Präzision, Eleganz und alpine Schärfe in ein eigenständiges typografisches Zeichen.</p>
             <p class="col-white mobile-only">Die eigens entwickelte Headline-Schrift ergänzt den Diamanten als Key Brand Identifier und verleiht der Marke Präzision, Eleganz und Eigenständigkeit.</p>
-            <p class="col-white">— Font creation in cooperation with <span class="col-blue">TypeTogether</span></p>
+            <p class="col-white">— Font creation in cooperation with TypeTogether</p>
             <?php new Button(
             	null,
             	null,

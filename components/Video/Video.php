@@ -30,8 +30,8 @@ class Video extends PHTMLComponent {
 		string $placeholder,
 		string $alt = null,
 		bool $lazy_loaded = false,
-		bool $autoplay = false,
-		bool $muted = false,
+		bool $autoplay = true,
+		bool $muted = true,
 		bool $loop = false,
 		bool $controls = true,
 		string $mobile_src = null,
@@ -58,7 +58,7 @@ class Video extends PHTMLComponent {
 		$this->lazyLoaded = $lazy_loaded;
 
 		$this->autoplay = $autoplay;
-		$this->muted = $muted;
+		$this->muted = $autoplay ? true : $muted;
 		$this->loop = $loop;
 		$this->controls = $controls;
 

@@ -1,5 +1,5 @@
 const setupVideoAutoPlayer = () => {
-	const autoplayVideos = document.querySelectorAll(".video.autoplay > video");
+	const autoplayVideos = document.querySelectorAll(".video > video");
 
 	if ("IntersectionObserver" in window) {
 		const videoAutoplayObserver = new IntersectionObserver(
@@ -11,6 +11,11 @@ const setupVideoAutoPlayer = () => {
 
 					if (entry.isIntersecting) {
 						const playVideo = () => {
+							// Autoplay is only allowed if muted (esp. iOS Safari).
+							video.muted = true;
+							video.setAttribute("muted", "");
+							video.playsInline = true;
+							video.setAttribute("playsinline", "");
 							video.play();
 
 							video.removeEventListener("canplay", playVideo);
@@ -37,6 +42,11 @@ const setupVideoAutoPlayer = () => {
 			if (!(video instanceof HTMLVideoElement)) return;
 
 			const playVideo = () => {
+				// Autoplay is only allowed if muted (esp. iOS Safari).
+				video.muted = true;
+				video.setAttribute("muted", "");
+				video.playsInline = true;
+				video.setAttribute("playsinline", "");
 				video.play();
 
 				video.removeEventListener("canplay", playVideo);

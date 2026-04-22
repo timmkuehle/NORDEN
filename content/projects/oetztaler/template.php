@@ -77,7 +77,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		'Corporate Design',
 		'Branding & Implementierung',
 		'Kommunikationskonzept',
-		'Motion & Animation',
+		'Motion Design',
 		'Social Media',
 		'Event Branding'
 	],
@@ -140,13 +140,13 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="project-section small-padding full-width-new bg-col-blue">
     <div class="slot start"></div>
     <div class="content" style="padding-inline: var(--main-padding-inline); align-items: flex-start;">
-        <h2 class="col-anthrazit">Animation Toolbox</h2>
+        <h2 class="col-anthrazit">Motion Design</h2>
     </div>
     <div class="slot end"></div>
 </section>
 <section class="project-section no-padding-top bg-col-blue">
     <div class="slot start">
-        <p class="side-note">Animationstoolbox</p>
+        <p class="side-note">Motion Design</p>
     </div>
     <div class="content">
         <?php new Video(
@@ -166,7 +166,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 </section>
 <section id="slideshow-section" class="project-section bg-col-blue" style="align-items: flex-end;">
     <div class="slot start">
-        <p class="side-note">Sujets 2023 & 2024</p>
+        <p class="side-note">Sujetss</p>
     </div>
     <div class="content narrow" style="flex-direction: column; align-items: flex-start">
         <h2 class="col-anthrazit">SuJets</h2>

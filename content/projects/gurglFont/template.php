@@ -67,7 +67,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             </div>
 
             <div class="text-content">
-                <p class="is-text">Ausgangspunkt war die Fließtextschrift der Marke, die gezielt weiterentwickelt und individualisiert wurde. Modifizierte Buchstaben greifen die gebrochenen Linien und präzisen Kanten eines Diamanten auf und verbinden sie mit einer schlanken, hochwertigen Anmutung. So entsteht ein Font, der den Premiumcharakter von Gurgl typografisch auf den Punkt bringt.r <br> <br>— Font creation in cooperation with TypeTogether</p>
+                <p class="is-text">Ausgangspunkt war die Fließtextschrift der Marke, die gezielt weiterentwickelt und individualisiert wurde. Modifizierte Buchstaben greifen die gebrochenen Linien und präzisen Kanten eines Diamanten auf und verbinden sie mit einer schlanken, hochwertigen Anmutung. So entsteht ein Font, der den Premiumcharakter von Gurgl typografisch auf den Punkt bringt.
+                    <br> <br>— Font creation in cooperation with TypeTogether</p>
             </div>
         </div>
 

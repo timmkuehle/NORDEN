@@ -63,7 +63,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		'Branding & Implementierung',
 		'Online & Offline Kommunikationskonzept',
 		'Brandclip',
-		'Animationen',
+		'Motion Design',
 		'Social Media',
 		'Anpassungen aller Events / Submarken'
 	],
