@@ -50,11 +50,11 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	null,
 	'animated-banner',
 	[
-        'Markenstrategie',
+		'Markenstrategie',
 		'Corporate Design',
 		'Piktogrammfamilie',
 		'Logo Redesign',
-		'Social Media Toolbox',
+		'Social Media Toolbox'
 	],
 	'col-blue',
 	'col-gold'
@@ -312,11 +312,12 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <div class="content">
         <?php new Image(
         	null,
-        	null,
+        	'relative-image',
         	'/content/resources/media/seefeld/SFLD_Geschaeftsausstattung.png',
         	'Seefeld Geschäftsaustattung',
         	true
         ); ?>
+        <h2 class="absolute-font">Logo <br> in use</h2>
     </div>
     <div class="slot end"></div>
 </section>
@@ -346,7 +347,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             	'Branding Running',
             	true
             ); ?>
-            <h2>Logo <br> in use</h2>
+                        <h2 class="desktop-only">Logo <br> in use</h2>
+
         </div>
         <div class="column">
             <?php new Image(

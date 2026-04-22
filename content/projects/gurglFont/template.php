@@ -36,7 +36,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             <div class="row">
                 <div class="col s16 m16 l9">
                     <div class="meta-headline">Corporate Headline Font</div>
-                    <p class="text-is-large">Um zusätzlich zu dem Diamant Element noch einen weiteren <span class="highlight-circle">Key-Brand-Identifyer</span> zu definieren, kreierten wir einen customized Font für die Destination Gurgl.</p>
+                    <p class="text-is-large desktop-only">Für die Marke Gurgl entwickelten wir einen Corporate Font, der <span class="highlight-circle">den Markenclaim</span> „Diamond of the Alps“ typografisch interpretiert. Die Schrift verbindet Eleganz, Präzision und markentypische Schärfe zu einem eigenständigen visuellen Merkmal.</p>
+                    <p class="text-is-large mobile-only">Für die Marke Gurgl entwickelten wir einen Corporate Font, der den Claim <span class="highlight-circle">„Diamond of the Alps“</span> typografisch interpretiert und Eleganz, Präzision und Exklusivität sichtbar macht.</p>
                 </div>
 
                     <div class="col s16 m14 l14">
@@ -66,8 +67,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             </div>
 
             <div class="text-content">
-                <p class="is-text">Dieser leitet sich aus der Fließtext Font ab und wurde bei einigen Buchstaben modifiziert. So bekommt die Schrift an den richtigen Stellen harte Kanten und Schrägen, wie ein Diamant. Eine weitere Gemeinsamkeit ist die Eleganz die bei der Schrift durch den Condensed und Light Schnitt kommt. </p>
-                <p class="is-text">— Font creation in cooperation with <span class="col-highlight-blue">TypeTogether</span></p>
+                <p class="is-text">Ausgangspunkt war die Fließtextschrift der Marke, die gezielt weiterentwickelt und individualisiert wurde. Modifizierte Buchstaben greifen die gebrochenen Linien und präzisen Kanten eines Diamanten auf und verbinden sie mit einer schlanken, hochwertigen Anmutung. So entsteht ein Font, der den Premiumcharakter von Gurgl typografisch auf den Punkt bringt.r <br> <br>— Font creation in cooperation with TypeTogether</p>
             </div>
         </div>
 
@@ -118,7 +118,10 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             Letters
         </div>
         <div class="row">
-    
+    <div class="col s16">
+        <p class="desktop-only col-white">Gezielte Eingriffe in einzelne Buchstaben übertragen die Formensprache des Diamanten in die Typografie. Schräge Schnitte, harte Kanten und feine Brüche schaffen einen eigenständigen Ausdruck, der die Marke Gurgl klar wiedererkennbar macht.</p>
+        <p class="mobile-only col-white">Überarbeitete Buchstaben machen den Premiumanspruch von Gurgl subtil, aber klar typografisch erlebbar.</p>
+    </div>
     <div class="col s16">
 
         <div class="image-desktop">

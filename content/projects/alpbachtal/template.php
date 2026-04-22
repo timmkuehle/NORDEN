@@ -249,13 +249,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         	true,
         	null
         ); ?>
-        <?php new Image(
-        	null,
-        	'mobile-only',
-        	'/content/resources/media/alpbachtal/ALPBA_Hausschrift_Mobile2.svg',
-        	'Alpbachtal Hausschrift 2',
-        	true
-        ); ?>
+        
     </div>
     <div class="slot end"></div>
 </section>
@@ -379,7 +373,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section full-width-new bg-col-deep-beige">
+<section class="project-section full-width-new bg-col-beige-variant">
     <div class="slot start"></div>
     <div class="content">
         <?php new Image(
@@ -392,7 +386,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     </div>
     <div class="slot end"></div>
 </section>
-<section class="project-section bg-col-deep-beige ">
+<section class="project-section bg-col-beige-variant ">
     <div class="slot start">
         <p class="side-note">Print</p>
     </div>

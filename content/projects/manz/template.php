@@ -1,6 +1,6 @@
 <?php
-$seoTitle = '';
-$seoDescription = '';
+$seoTitle = 'Florian Manz Branding, Logodesign & Corporate Design | NORDEN';
+$seoDescription = 'Für den Dokumentarfotografen Florian Manz entwickelte NORDEN ein modulares Branding mit Logodesign, Typografie und Geschäftsausstattung – reduziert, klar und dokumentarisch prägnant.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
@@ -25,8 +25,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <section class="project-section has-padding-lr section-2 bg-col-white">
         <div class="row">
             <div class="col s16 m16 l15">
-                <p class="project-subtext">Für den Dokumentarfotografen Florian Manz entwickelten wir ein prägnantes, modulares Logodesign inklusive Geschäftsausstattung. Die Gestaltung spiegelt seine dokumentarische Arbeitsweise wider: 
+                <p class="project-subtext desktop-only">Für den Dokumentarfotografen Florian Manz entwickelten wir ein prägnantes, modulares Logodesign inklusive Geschäftsausstattung. Die Gestaltung spiegelt seine dokumentarische Arbeitsweise wider: 
                     <span class="is-bold">reduziert, klar und typografisch stark.</span></p>
+                <p class="project-subtext mobile-only">Für den Fotografen Florian Manz entwickelten wir ein modulares Erscheinungsbild, das seine dokumentarische Arbeitsweise in eine <span class="bold">reduzierte, klare und typografisch prägnante Identität</span> übersetzt.</p>
             </div>
         </div>
     </section>
@@ -54,7 +55,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             <div class="col s16 m14 l12">
                 <div class="section-header">
                     <h3>Farbsystem</h3>
-                    <p>Die gewählten Farben unterstützen die dokumentarische Ausrichtung des Fotografen</p>
+                    <p class="desktop-only">Die Farbwelt unterstützt die dokumentarische Haltung des Auftritts. Schwarz schafft Tiefe, Klarheit und Kontrast. Beige bringt Ruhe und Zurückhaltung in die Bildsprache, während Weiß als offener, neutraler Raum den Inhalten die nötige Präsenz gibt.</p>
+                    <p class="mobile-only">Schwarz, Beige und Weiß schaffen eine ruhige, klare Farbwelt, die den Inhalten bewusst den Vorrang lässt.</p>
                 </div>
             </div>
         </div>
@@ -80,9 +82,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <section class="project-section has-padding-lr section-5 bg-col-beige">
         <div class="row">
             <div class="col s16 m8 l6 xl4">
-                <h4 class="section-headline">Logo-idee</h4>
-                <p>Das Logo von Florian Manz basiert auf der modifizierten Schrift Poppins – deren ruhige Statik wir gezielt aufgebrochen und grafisch weiterentwickelt haben.</p>
-                <p>Die Formsprache ist inspiriert von der Dynamik dokumentarischer Arbeit: klare Strukturen treffen auf organische Rundungen, die Zugänglichkeit und Nähe vermitteln – aber auch die Spannung und Schärfe, die der Blick hinter die Fassade mit sich bringt.</p>
+                <h4 class="section-headline">Logo</h4>
+                <p class="desktop-only">Das Logo übersetzt Florian Manz’ dokumentarische Haltung in eine eigenständige Wortmarke. Klare Strukturen treffen auf weiche Übergänge und schaffen einen Auftritt, der Nähe, Präzision und visuelle Schärfe verbindet.</p>
+                <p class="mobile-only">Das Logo verbindet klare Strukturen mit organischen Rundungen und übersetzt so die Spannung dokumentarischer Arbeit in eine eigenständige Wortmarke.</p>
             </div>
             <div class="col s16 m7 l6 xl5">
                 <?php new Image(
@@ -100,7 +102,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
         <div class="row">
             <div class="col s16 m8 l9">
                 <h4 class="section-headline">Logo-System</h4>
-                <p class="col-white">Das System ist modular und vielseitig: Es funktioniert als Blocklogo, als Wortmarke oder in Einzelmodulen – und lässt sich flexibel in Print- und Digitalmedien einsetzen, ohne an Wiedererkennbarkeit zu verlieren.So schafft die visuelle Identität einen professionellen, zugleich zurückhaltenden Rahmen für Florian Manz’ Arbeit – und gibt Bildsprache und Inhalt den Raum, den sie verdienen.</p>
+                <p class="col-white desktop-only">Das Logosystem ist modular aufgebaut und vielseitig einsetzbar. Es funktioniert als Blocklogo, als Wortmarke oder in einzelnen Modulen und lässt sich flexibel in Print- und Digitalmedien anwenden, ohne an Wiedererkennbarkeit zu verlieren. So entsteht ein professioneller, zurückhaltender Rahmen, der Bildsprache und Inhalt bewusst den Vorrang lässt.</p>
+                <p class="col-white mobile-only">Das modulare Logosystem funktioniert flexibel über Print und Digital und bleibt in jeder Anwendung klar wiedererkennbar.</p>
             </div>
             <div class="col s16">
                 <?php new Image(
@@ -172,7 +175,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             </div>
             <div class="col s8 m8 l6 push-s1 push-m2 push-l3">
                 <h4 class="section-headline">Typografie</h4>
-                <p class="is-text">Die Wahl der Typografie ist auf die Popins gefallen. Sie zeichnet sich durch runde Formen, gleichmäßige Strichstärken und eine moderne, sachliche Anmutung aus – perfekt für zeitgemäßes, minimalistisches Design.</p>
+                <p class="is-text desktop-only">Die Wahl der Typografie ist auf die Popins gefallen. Sie zeichnet sich durch runde Formen, gleichmäßige Strichstärken und eine moderne, sachliche Anmutung aus – perfekt für zeitgemäßes, minimalistisches Design.</p>
+                <p class="is-text mobile-only">Eine ruhige, sachliche Sans Serif bildet die typografische Basis des Auftritts und unterstreicht dessen dokumentarische Klarheit.</p>
             </div>
         
         </div>

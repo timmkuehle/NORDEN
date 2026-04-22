@@ -26,10 +26,35 @@
 				position: relative;
 				width: 100%;
 				text-decoration: none;
+				
+				&.is-coming-soon {
+					cursor: default;
+				}
 
 				.project-thumbnail {
 					width: 100%;
 					display: block;
+				}
+
+				.project-thumbnail-wrapper {
+					position: relative;
+					width: 100%;
+					overflow: hidden;
+				}
+	
+				.project-thumbnail-wrapper .coming-soon-badge {
+					position: absolute;
+					bottom: 2rem;
+					right: -3rem;
+					pointer-events: none;
+					background: #3c73ff;
+					transform: rotate(-45deg);
+					color: #fff;
+					font-size: .85rem;
+					font-weight: 600;
+					letter-spacing: .8px;
+					padding: 0.5rem 1rem;
+					text-transform: uppercase;
 				}
 
 				.project-footer {

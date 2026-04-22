@@ -254,20 +254,30 @@ body {
 	}
 
 	.buttons {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
 		gap: 1.5rem;
 		width: 100%;
 		margin-top: 2.5rem;
+
+		@include minquery($screen-m) {
+			width: 70%;
+			grid-template-columns: repeat(2, 1fr);
+
+		}
 
 		.button {
 			color: $color-soel-anthrazit;
 			background-color: $color-soel-orange;
 			border-color: $color-soel-orange;
+			width: fit-content;
+			min-width: 300px;
 
-			@media screen and (min-width: 768px) {
-				width: calc(33% - 3rem);
+			@include minquery($screen-m) {
+				min-width: 280px;
+			}
+			@include minquery($screen-l) {
+				min-width: 300px;
 			}
 		}
 	}

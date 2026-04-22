@@ -48,6 +48,22 @@ $color-light-blue: #00b4ff;
 	background-color: $color-blue;
 }
 
+
+.desktop-only {
+	display: none !important;
+
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
+
 // General styling
 body {
 	--color-light: #f3ebe4;

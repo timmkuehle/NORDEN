@@ -68,7 +68,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
             	'/content/resources/media/testFest/TestFest_Logo_mitPfeil.svg',
             	'Test Fest Logo mit Pfeil',
             	true,
-            	'/content/resources/media/testFest/TestFest_Logo_mitPfeil_mobile.svg'
+            	'/content/resources/media/testFest/TestFest_Logo_mitPfeil_Mobile.svg'
             ); ?>
         </div>
         <div class="column" style="display: flex; flex-direction: column; gap: 3vw; justify-content: space-between">

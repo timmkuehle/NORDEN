@@ -411,7 +411,7 @@ body {
 		}
 
 		.norden-intro {
-			padding: 12rem 1.5rem 2rem 1.5rem;
+			padding: 12rem 0rem 2rem;
 
 			@media screen and (min-width: 769px) {
 				padding: 15rem 3rem 5rem 3rem;
@@ -631,7 +631,7 @@ body {
 			&.soelden-bag {
 				background: linear-gradient(
 					$color-soel-anthrazit 55%,
-					white 55%
+					$color-soel-cool-gray 55%
 				);
 			}
 
@@ -1119,6 +1119,8 @@ body {
 			}
 
 			header {
+				position: relative;
+				z-index: 3;
 				display: flex;
 				align-items: flex-end;
 				justify-content: space-between;
@@ -1157,6 +1159,10 @@ body {
 						max-width: max(12rem, 12%);
 					}
 				}
+			}
+			.full-width-image {
+				z-index: 1;
+				position: relative;
 			}
 		}
 

@@ -179,6 +179,7 @@ p {
 }
 
 .services {
+	gap: 0;
 	@-moz-document url-prefix() {
 		& {
 			scrollbar-color: $color-orange $color-dark-green;

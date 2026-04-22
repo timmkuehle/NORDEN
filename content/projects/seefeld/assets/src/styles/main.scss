@@ -287,9 +287,27 @@ body {
 }
 
 #papers-section {
-	.image {
+	.content {
+		position: relative;
+	}
+	.relative-image {
 		width: 50%;
 		margin-inline: auto;
+		position: relative;
+		z-index: 1;
+	}
+	.absolute-font {
+		position: absolute;
+		z-index: 3;
+		top: 0;
+		left: 1.5rem;
+		text-align: left;
+		font-size: 1.5rem;
+
+		@include minquery($screen-m) {
+			left: 2rem;
+
+		}
 	}
 }
 

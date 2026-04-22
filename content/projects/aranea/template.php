@@ -33,19 +33,21 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	</div>
 	<div class="content">
 		<div class="column">
-		<?php new Svg(
-  	'aranea-claim',
-  	null,
-  	'/content/resources/media/aranea/03_ARANEA_Starttext.svg',
-  	'ARANEA stands for empowerment and support for girls* and young woman'
-  ); ?>
+		<?php new Image(
+			'aranea-claim',
+			null,
+			'/content/resources/media/aranea/03_ARANEA_Starttext.svg',
+			'ARANEA stands for empowerment and support for girls* and young woman',
+			true,
+			'/content/resources/media/aranea/03_ARANEA_Starttext_mobile.svg'
+		); ?>
 		</div>
 		<div class="column col-light-green desktop-only">
 			<p class="uppercase bold">ARANEA bietet Mädchen* und jungen Frauen* einen Raum, in dem sie Wertschätzung, Bildung, Reflexion über Weiblichkeit sowie den Abbau patriarchaler Strukturen erfahren können.</p>
 			<p class="uppercase bold">Die Organisation richtet sich an Menschen aller Geschlechter und Altersgruppen und arbeitet auf gesellschaftlichen Wandel und Antidiskriminierung hin, indem sie Bewusstsein schafft.</p>
 		</div>
 		<div class="column col-light-green mobile-only">
-			<p class="uppercase bold">ARANEA schafft Raum für Mädchen* und junge Frauen* – für Wertschätzung, Bildung und Selbstbestimmung. Die Organisation setzt sich für gesellschaftlichen Wandel, Antidiskriminierung und mehr Bewusstsein ein.</p>
+			<p class="uppercase bold">ARANEA schafft Raum für Mädchen* und junge Frauen* – für Wertschätzung, Bildung und Selbstbestimmung. Die Organisation setzt sich für gesellschaftlichen Wandel, Antidiskriminierung und mehr Bewusstsein ein.</p>
 		</div>
 	</div>
 	<div class="slot end"></div>

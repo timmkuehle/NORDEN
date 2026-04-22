@@ -4,6 +4,14 @@ class ProjectsPreview extends \PHTMLComponent {
     private \ProjectModel $model;
     private array $projects;
 
+	private function renderComingSoonBadge(): void {
+		?>
+		<span class="coming-soon-badge" aria-hidden="true">
+			soon coming soon coming
+		</span>
+		<?php
+	}
+
     public function __construct(
         ?string $id,
         ?string $class_name,
@@ -22,15 +30,25 @@ class ProjectsPreview extends \PHTMLComponent {
 			<section class="projects">
 				<?php foreach ($this->projects ?? [] as $index => $project): ?>
 					<article class="project">
-						<a id="project-<?= $index + 1; ?>" class="project-link"
-						href="<?= BASE_URL . $project['slug']; ?>">
-							<?php new \Image(
-							    null,
-							    'project-thumbnail',
-							    $project['thumbnail'],
-							    'Prokjekt ansehen: ' . $project['title'],
-							    true
-							); ?>
+						<?php
+							$is_coming_soon = (bool) ($project['coming_soon'] ?? false);
+							$is_linkable = !$is_coming_soon && (($project['slug'] ?? '/') !== '/');
+						?>
+						<a
+							id="project-<?= $index + 1; ?>"
+							class="project-link<?= $is_coming_soon ? ' is-coming-soon' : ''; ?>"
+							<?= $is_linkable ? 'href="' . BASE_URL . sanitize_uri($project['slug']) . '"' : ''; ?>
+						>
+							<div class="project-thumbnail-wrapper">
+								<?php new \Image(
+								    null,
+								    'project-thumbnail',
+								    $project['thumbnail'],
+								    'Prokjekt ansehen: ' . $project['title'],
+								    true
+								); ?>
+								<?php if ($is_coming_soon) { $this->renderComingSoonBadge(); } ?>
+							</div>
 							<footer class="project-footer">
 								<h2 class="project-title"><?= $project['preview_title'] ?? $project['title']; ?></h2>
 								<p class="project-category"><?= $project['category'] ?? 'Uncategorized'; ?></p>
