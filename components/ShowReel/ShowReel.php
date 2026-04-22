@@ -35,7 +35,7 @@ class Showreel extends PHTMLComponent {
 	public function render() {
 		?>
 		<section <?php $this->renderHTMLAttributes(); ?>>
-			<video class="showreel-video" alt="<?php echo $this->alt; ?>" muted autoplay loop>
+			<video class="showreel-video" alt="<?php echo $this->alt; ?>" playsinline webkit-playsinline muted autoplay loop>
 				<?php $this->renderSources(); ?>
 			</video>
 		</section>

@@ -14,6 +14,7 @@ class Video extends PHTMLComponent {
 	private ?string $mobileSrc;
 	private ?string $alt;
 	private bool $lazyLoaded;
+	private bool $autoplay;
 	private bool $muted;
 	private bool $loop;
 	private bool $controls;
@@ -56,6 +57,7 @@ class Video extends PHTMLComponent {
 
 		$this->lazyLoaded = $lazy_loaded;
 
+		$this->autoplay = $autoplay;
 		$this->muted = $muted;
 		$this->loop = $loop;
 		$this->controls = $controls;
@@ -124,6 +126,8 @@ class Video extends PHTMLComponent {
 		echo 'alt="' .
 			($this->alt ?? 'Video') .
 			'" ' .
+			'playsinline webkit-playsinline ' .
+			($this->autoplay ? 'autoplay ' : '') .
 			($this->muted ? 'muted ' : '') .
 			($this->loop ? 'loop ' : '') .
 			($this->controls ? ' controls' : '') .
