@@ -36,7 +36,15 @@ function include_script(
 		$sanitized_path .
 		(ENV === 'production' ? '?ver=' . hash_file('md4', $file_path) : '');
 
-	$integrity = ENV === 'production' ? 'integrity="' . $hash . '"' : '';
+	// In production we want SRI, but the value must match the deployed file.
+	// If `content/assets/dist/assets.php` is stale (e.g. opcache), browsers will block execution.
+	// So we compute integrity from the actual file on disk.
+	$integrity =
+		ENV === 'production'
+			? 'integrity="sha384-' .
+				base64_encode(hash_file('sha384', $file_path, true)) .
+				'" crossorigin="anonymous"'
+			: '';
 	?>
         <script id="<?php echo $id; ?>" src="<?php echo $src; ?>" <?php echo $integrity .
 	($defer ? ' defer' : ''); ?>></script>
