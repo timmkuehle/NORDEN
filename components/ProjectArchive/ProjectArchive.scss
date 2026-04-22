@@ -96,11 +96,19 @@
 				background: #3c73ff;
 				transform: rotate(-45deg);
 				color: #fff;
-				font-size: .85rem;
+				font-size: 0.65rem;
 				font-weight: 600;
-				letter-spacing: .8px;
+				letter-spacing: 0.8px;
 				padding: 0.5rem 1rem;
 				text-transform: uppercase;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				@media screen and (min-width: 600px) {
+					bottom: 2rem;
+					right: -3rem;
+					font-size: 0.85rem;
+				}
 			}
 
 			.project-footer {
