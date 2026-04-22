@@ -85,22 +85,37 @@ function applySeasonalHomeShowreelVideo(date: Date = new Date()) {
 
   for (const source of sources) source.remove();
 
-  video.src = resolvedSrc;
+  // Ensure non-ascii filenames (e.g. "Frühling") load reliably across browsers/servers.
+  video.src = encodeURI(resolvedSrc);
 
-  // Hide placeholder as soon as video can play (fallback if global loader ran before swap).
-  const onCanPlay = () => {
+  // Only hide placeholder once playback actually starts.
+  // Some mobile browsers pause autoplaying video to save power, even though `canplay` fires.
+  const onPlaying = () => {
     video.parentElement?.classList.add('can-play');
-    video.removeEventListener('canplay', onCanPlay);
+    video.removeEventListener('playing', onPlaying);
   };
-  video.addEventListener('canplay', onCanPlay);
+  video.addEventListener('playing', onPlaying);
 
   video.load();
   void video.play().catch(() => {});
 }
 
 if (typeof window !== 'undefined') {
-  window.addEventListener('DOMContentLoaded', () => {
-    applySeasonalHomeShowreelVideo();
+  const run = () => applySeasonalHomeShowreelVideo();
+
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', run);
+  } else {
+    run();
+  }
+
+  // Ensure it re-runs on bfcache restore (mobile Safari back/forward).
+  window.addEventListener('pageshow', (event) => {
+    // `pageshow` fires on initial load too; only re-run on bfcache restore.
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const persisted = (event as any)?.persisted;
+    if (!persisted) return;
+    run();
   });
 }
 

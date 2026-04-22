@@ -28,7 +28,9 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
   	true,
   	false,
   	'/content/resources/media/agency/home/Sommer_mobile.mp4',
-  	'1/1'
+  	'1/1',
+		null,
+		true
   ); ?>
 	</section>
 	<section class="content-card full-width">
