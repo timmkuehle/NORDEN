@@ -68,10 +68,7 @@ if (!$is_local_host) {
 
 define(
 	'BASE_URL',
-	($is_https ? 'https' : 'http') .
-		'://' .
-		$_SERVER['HTTP_HOST'] .
-		sanitize_uri(ROOT_PATH, true)
+	'//' . $_SERVER['HTTP_HOST'] . sanitize_uri(ROOT_PATH, true)
 );
 
 /**

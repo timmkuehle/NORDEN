@@ -41,7 +41,7 @@ class BaseController {
 			return "'self'";
 		}
 
-		return "'" .
+		return "'self' '" .
 			implode(
 				"' '",
 				array_map(fn($script) => $script['hash'], $scripts)
