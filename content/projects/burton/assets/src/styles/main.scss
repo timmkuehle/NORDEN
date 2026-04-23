@@ -212,6 +212,8 @@ $smaller-line-height: 1;
 	line-height: $small-line-height;
 	margin: 0.625rem 0 2.5rem;
 	font-weight: 300;
+	overflow-wrap: anywhere;
+	word-break: normal;
 
 	@include minquery($screen-m) {
 		font-size: $font-size-big;
@@ -329,6 +331,7 @@ $smaller-line-height: 1;
 	}
 
 	.section-2 {
+		display: block;
 		.project-headline {
 			margin-bottom: 2.5rem;
 			text-transform: none;

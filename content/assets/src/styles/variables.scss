@@ -196,7 +196,8 @@ $num-cols: 16;
         @while $i <= $num-cols {
             $perc: math.percentage(math.div($i, $num-cols));
             &.s#{$i} {
-                flex: $perc;
+                flex: 0 0 $perc;
+                width: $perc;
                 max-width: $perc;
             }
             $i: $i + 1;
