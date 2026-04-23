@@ -41,10 +41,13 @@ class Image extends PHTMLComponent {
 	}
 
 	private function getSrcAttribute(): string {
+		// Use root-relative URLs to avoid mixed-content issues when TLS is terminated
+		// upstream (proxy/CDN) and the app sees the request as HTTP.
+		$src = sanitize_uri($this->src, true);
+
 		return ($this->lazyLoaded ? 'data-src' : 'src') .
 			'="' .
-			BASE_URL .
-			$this->src .
+			$src .
 			'"';
 	}
 
@@ -94,11 +97,9 @@ class Image extends PHTMLComponent {
 			($this->lazyLoaded ? 'data-srcset' : 'srcset') .
 			'="' .
 			($this->mobileSrc && empty($mobile_srcset)
-				? BASE_URL .
-					$this->src .
+				? sanitize_uri($this->src, true) .
 					', ' .
-					BASE_URL .
-					$this->mobileSrc .
+					sanitize_uri($this->mobileSrc, true) .
 					' ' .
 					$this->breakpoint .
 					'w,'
@@ -108,7 +109,7 @@ class Image extends PHTMLComponent {
 			implode(
 				', ',
 				array_map(
-					fn($src) => str_replace(BASE_DIR, BASE_URL, $src) .
+					fn($src) => sanitize_uri(str_replace(BASE_DIR, '', $src), true) .
 						(preg_match(
 							'/[0-9]{2,}(w|h)(?=\.\w{2,}$)/',
 							$src,
