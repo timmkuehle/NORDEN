@@ -42,9 +42,18 @@ define('ROOT_PATH', get_root_path());
  *
  * @var string BASE_URL Represents project root URL
  */
+$is_https =
+	(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' && $_SERVER['HTTPS']) ||
+	(isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
+		strtolower((string) $_SERVER['HTTP_X_FORWARDED_PROTO']) === 'https') ||
+	(isset($_SERVER['HTTP_X_FORWARDED_SSL']) &&
+		strtolower((string) $_SERVER['HTTP_X_FORWARDED_SSL']) === 'on') ||
+	(isset($_SERVER['HTTP_CF_VISITOR']) &&
+		str_contains((string) $_SERVER['HTTP_CF_VISITOR'], '"scheme":"https"'));
+
 define(
 	'BASE_URL',
-	(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') .
+	($is_https ? 'https' : 'http') .
 		'://' .
 		$_SERVER['HTTP_HOST'] .
 		sanitize_uri(ROOT_PATH, true)
@@ -74,7 +83,7 @@ define(
  */
 define(
 	'CURRENT_URL',
-	(isset($_SERVER['HTTPS']) ? 'https' : 'http') .
+	($is_https ? 'https' : 'http') .
 		'://' .
 		$_SERVER['HTTP_HOST'] .
 		sanitize_uri($_SERVER['REQUEST_URI'], true)
