@@ -86,7 +86,7 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 			</div>
 		</div>
 </div>
-<section class="client-section">
+<section class="client-section full-width">
 	<div class="row center-row">
 		<div class="col s14 m16 center-col">
 			<p class="text-is-large">Eine kleine Auswahl an <span class="bold highlight-circle">Kunden</span> die uns bereits ihr Vertrauen schenken:</p>
@@ -104,7 +104,7 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 			</div>
 		</div>
 </section>
-<div class="spacer full-width" style="height: 6rem;"></div>
+<div class="spacer full-width" style="height: 2rem; background-color: white;"></div>
 </main>
 <?php new \SiteFooter(null, null); ?>
 

@@ -51,6 +51,10 @@
 		top: 12.5%;
 	}
 }
+
+main:has(.home-section) {
+	background-color: #eceff0;
+}
 .text-is-large {
 	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
 	font-weight: 400;
@@ -67,7 +71,7 @@
 	display: block;
 	position: relative;
 	padding: 5rem 2rem 0rem;
-
+background-color: #eceff0;
 	@include minquery($screen-m) {
 		padding: 5rem 4rem 2rem;
 	}
@@ -127,6 +131,7 @@
 	padding-top: 2rem;
 	background-color: #eceff0;
 	padding-inline: var(--main-padding-inline);
+
 	.row {
 		align-items: flex-start;
 
@@ -160,6 +165,7 @@
 	border: 1px solid #3d73ff;
 }
 .client-section {
+	background-color: white;
 	.center-row {
 		padding-top: 4rem;
 		justify-content: center;
