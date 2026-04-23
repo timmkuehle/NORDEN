@@ -44,9 +44,17 @@ define('ROOT_PATH', get_root_path());
  */
 $is_https = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' && $_SERVER['HTTPS'];
 
-// In production we may be behind a proxy/CDN terminating TLS.
-// In development we intentionally avoid trusting proxy headers so local HTTP keeps working.
-if (ENV !== 'development') {
+// We may be behind a proxy/CDN terminating TLS. Trust proxy headers when we are not
+// serving a local dev host, otherwise local HTTP would incorrectly flip to HTTPS.
+$is_local_host =
+	isset($_SERVER['HTTP_HOST']) &&
+	in_array(
+		strtolower((string) $_SERVER['HTTP_HOST']),
+		['localhost', '127.0.0.1', '::1'],
+		true
+	);
+
+if (!$is_local_host) {
 	$is_https =
 		$is_https ||
 		(isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
