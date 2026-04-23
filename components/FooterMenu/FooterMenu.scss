@@ -1,13 +1,12 @@
 .footer-menu {
 	display: flex;
 	align-items: center;
-
 	.nav-menu {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		gap: 1rem;
+		gap: .5rem;
 		margin: 0;
 		padding: 0;
 		list-style: none;
@@ -15,7 +14,7 @@
 		.menu-item {
 			display: flex;
 			align-items: center;
-
+			text-decoration: underline;
 			.menu-item-link {
 				text-transform: uppercase;
 				font-size: 0.875em;

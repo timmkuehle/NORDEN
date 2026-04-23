@@ -9,6 +9,7 @@ declare(strict_types=1);
  */
 class MenuView {
 	private array $menu;
+	private ?string $menuSlug;
 
 	/**
 	 * Constructor method
@@ -17,8 +18,9 @@ class MenuView {
 	 *
 	 * @param array $menu Requested menu
 	 */
-	public function __construct(array $menu) {
+	public function __construct(array $menu, ?string $menu_slug = null) {
 		$this->menu = $menu;
+		$this->menuSlug = $menu_slug;
 
 		$this->render();
 	}
@@ -47,13 +49,17 @@ class MenuView {
 	 * Renders requested menu
 	 */
 	protected function render(): void {
+		$withSeparators = $this->menuSlug === 'footer_menu';
 		?>
         <ul class="nav-menu">
-		<?php foreach ($this->menu as $menu_item): ?>
+		<?php foreach ($this->menu as $index => $menu_item): ?>
 			<li class="<?php $this->renderMenuItemClassName($menu_item['link']); ?>">
 				<a class="menu-item-link" href="<?php echo BASE_URL .
     	$menu_item['link']; ?>"><?php echo $menu_item['title']; ?></a>
-			</li>	
+			</li>
+			<?php if ($withSeparators && $index < count($this->menu) - 1) { ?>
+				<li class="menu-separator" aria-hidden="true">/</li>
+			<?php } ?>
 		<?php endforeach; ?>
 		</ul>
 	<?php

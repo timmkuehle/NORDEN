@@ -42,14 +42,21 @@ define('ROOT_PATH', get_root_path());
  *
  * @var string BASE_URL Represents project root URL
  */
-$is_https =
-	(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' && $_SERVER['HTTPS']) ||
-	(isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
-		strtolower((string) $_SERVER['HTTP_X_FORWARDED_PROTO']) === 'https') ||
-	(isset($_SERVER['HTTP_X_FORWARDED_SSL']) &&
-		strtolower((string) $_SERVER['HTTP_X_FORWARDED_SSL']) === 'on') ||
-	(isset($_SERVER['HTTP_CF_VISITOR']) &&
-		str_contains((string) $_SERVER['HTTP_CF_VISITOR'], '"scheme":"https"'));
+$is_https = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' && $_SERVER['HTTPS'];
+
+// In production we may be behind a proxy/CDN terminating TLS.
+// In development we intentionally avoid trusting proxy headers so local HTTP keeps working.
+if (ENV !== 'development') {
+	$is_https =
+		$is_https ||
+		(isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
+			strtolower((string) $_SERVER['HTTP_X_FORWARDED_PROTO']) ===
+				'https') ||
+		(isset($_SERVER['HTTP_X_FORWARDED_SSL']) &&
+			strtolower((string) $_SERVER['HTTP_X_FORWARDED_SSL']) === 'on') ||
+		(isset($_SERVER['HTTP_CF_VISITOR']) &&
+			str_contains((string) $_SERVER['HTTP_CF_VISITOR'], '"scheme":"https"'));
+}
 
 define(
 	'BASE_URL',

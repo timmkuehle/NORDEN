@@ -22,6 +22,6 @@ class MenuController {
 	public function __construct(string $slug) {
 		$this->model = new MenuModel();
 
-		new MenuView($this->model->getMenu($slug));
+		new MenuView($this->model->getMenu($slug), $slug);
 	}
 }
