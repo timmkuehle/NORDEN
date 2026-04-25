@@ -1,0 +1,323 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+@use "@styles/animated-banner.scss";
+
+// Project variables
+
+$color-beige: #cdc9b7;
+$color-gold: #f7a600;
+$color-medium-gray: #bbbcbc;
+$color-dark-gray: #75787b;
+$color-blue: #3d73ff;
+$color-light-blue: #00b4ff;
+
+// Utility classes
+.col-dark-gray {
+	color: $color-dark-gray;
+}
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.col-beige {
+	color: $color-beige;
+}
+.bg-col-medium-gray {
+	background-color: $color-medium-gray;
+}
+.bg-col-dark-gray {
+	background-color: $color-dark-gray;
+}
+.bg-col-black {
+	background-color: black;
+}
+.bg-col-white {
+	background-color: white;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+
+.desktop-only {
+	display: none !important;
+
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		padding: 0;
+		background-color: $color-dark-gray;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+		padding: 2.5rem 1rem;
+		&:before {
+			background-color: white;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: #000000;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: #000;
+					transition: color 0.1s ease-in-out;
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-dark-gray;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: rgb(32, 32, 32);
+				}
+			}
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: wihte;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $color-blue;
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.kaiserweis-kids) {
+	font-family: Inter, Relevant, Arial, Helvetica, sans-serif;
+	padding-bottom: 5rem;
+	overflow: hidden;
+	background-color: white;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pb-0 {
+	padding-bottom: 0;
+}
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: $font-size-larger;
+	margin-bottom: 0;
+	color: white;
+	text-transform: uppercase;
+}
+.text-is-large {
+	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-weight: 400;
+}
+.is-text {
+	font-size: $font-size;
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 300;
+
+	@include minquery($screen-m) {
+		font-size: $font-size-big;
+	}
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+	top: 21%;
+
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+
+	@include minquery($screen-l) {
+		padding-left: 3.25rem;
+		padding-right: 3.25rem;
+	}
+}
+
+// Project styling
+
+.kaiserweis-kids {
+	.section-1 {
+	}
+
+	.section-3 {
+		.animated-banner {
+			padding: 1rem;
+
+			@include minquery($screen-m) {
+				padding: 2rem;
+			}
+			.kaiserweis-kids-project-row-track {
+				gap: 2rem;
+
+				@include minquery($screen-m) {
+					gap: 8rem;
+				}
+			}
+		}
+	}
+	.section-4 {
+		display: block;
+		figure {
+			margin: 0;
+			figcaption {
+				margin-top: 0.5rem;
+				font-size: 8px;
+				font-weight: 400;
+				color: $color-dark-gray;
+			}
+		}
+	}
+
+	.section-5 {
+		position: relative;
+		.illustration {
+			position: relative;
+		
+			left: 0;
+			width: 100%;
+			max-width: 8rem;
+
+			@include minquery($screen-m) {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				left: 0;
+			}
+		}
+		.centered {
+			justify-content: center;
+		}
+		.small-title {
+			font-size: $font-size-big;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 10%;
+		}
+		.is-indented {
+			margin-left: 10;
+
+			@include minquery($screen-m) {
+				margin-left: 2rem;
+			}
+		}
+	}
+}

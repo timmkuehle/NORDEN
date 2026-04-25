@@ -145,12 +145,12 @@ class ProjectModel {
             'coming_soon' => false
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/kaiserweis/kids',
+            'content_path' => '/content/projects/kaiserweisKids',
             'title' => 'Kaiserweis Kids Käsebox',
             'thumbnail' => '/content/resources/media/projectPreviews/17_Kaiserweis_Käasebox_Kids.jpg',
             'category' => 'Packaging Design',
-            'coming_soon' => true
+            'coming_soon' => false
         ],
         [
             'slug' => '/projekte/gurgl-corporate-font',
