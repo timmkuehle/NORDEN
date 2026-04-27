@@ -222,6 +222,19 @@ $smaller-line-height: 1;
 .centered {
 	justify-content: center;
 }
+.small-title {
+	font-size: $font-size-big;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 10%;
+}
+.is-indented {
+	margin-left: 10;
+
+	@include minquery($screen-m) {
+		margin-left: 2rem;
+	}
+}
 .section-name {
 	display: none;
 	position: absolute;
@@ -262,9 +275,6 @@ $smaller-line-height: 1;
 // Project styling
 
 .kaiserweis-kids {
-	.section-1 {
-	}
-
 	.section-3 {
 		.animated-banner {
 			padding: 1rem;
@@ -312,19 +322,7 @@ $smaller-line-height: 1;
 		}
 
 
-		.small-title {
-			font-size: $font-size-big;
-			font-weight: 700;
-			text-transform: uppercase;
-			letter-spacing: 10%;
-		}
-		.is-indented {
-			margin-left: 10;
 
-			@include minquery($screen-m) {
-				margin-left: 2rem;
-			}
-		}
 	}
 	.section-6 {
 		.svg-banner {
