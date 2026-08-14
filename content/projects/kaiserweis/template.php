@@ -222,7 +222,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			null,
 			'project-button',
 			'Zur Kids Käsebox',
-			'/projekte/kaiserweis'
+			'/projekte/kaiserweis/kids'
 		); ?>
 	</div>
 </div>

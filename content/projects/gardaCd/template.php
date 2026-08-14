@@ -511,7 +511,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 ); ?>
 <?php new Button(
 	null,
-	'project-button',
+	'project-button disabled',
 	'ROCK MASTER',
 	'/projekte/garda-trentino'
 ); ?>

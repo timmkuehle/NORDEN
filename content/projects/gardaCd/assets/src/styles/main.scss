@@ -826,5 +826,14 @@ $smaller-line-height: 1;
 			border-color: $color-gold;
 			color: #000;
 		}
+		&.disabled,
+		&.disabled:hover {
+			background-color: $color-medium-gray;
+			border-color: $color-medium-gray;
+			color: #000;
+			cursor: not-allowed;
+			pointer-events: none;
+			transform: none;
+		}
 	}
 }

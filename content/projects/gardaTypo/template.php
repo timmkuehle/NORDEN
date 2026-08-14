@@ -150,15 +150,15 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 				null,
 				'project-button',
 				'TypoGraphy in use',
-				'/projekte/kaiserweis'
+				'/projekte/garda-trentino'
 			); ?>
 			</div>
 			<div class="col s16 m6 l5">
 			<?php new Button(
 				null,
-				'project-button',
+				'project-button disabled',
 				'Rock master',
-				'/projekte/kaiserweis'
+				'/projekte/rockmaster'
 			); ?>
 			</div>
 		</div>
