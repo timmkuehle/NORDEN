@@ -87,21 +87,21 @@ class ProjectModel {
             'coming_soon' => false
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/oetztal-magazin',
+            'content_path' => '/content/projects/oetztalMag',
             'title' => 'Ötztal Magazin',
             'thumbnail' => '/content/resources/media/projectPreviews/10_Oetztal_Magazin.jpg',
             'category' => 'Editorial Design',
-            'coming_soon' => true
+            'coming_soon' => false
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/garda-trentino-cd',
+            'content_path' => '/content/projects/gardaCd',
             'title' => 'Garda Trentino',
             'thumbnail' => '/content/resources/media/projectPreviews/11_Garda_CD.jpg',
             'category' => 'Corporate Design',
             'preview_title' => 'Marke Garda Trentino',
-            'coming_soon' => true
+            'coming_soon' => false
         ],
         [
             'slug' => '/projekte/soelden/electric-mountain-festival',
@@ -194,20 +194,20 @@ class ProjectModel {
             'coming_soon' => true
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/kaiserweis',
+            'content_path' => '/content/projects/kaiserweis',
             'title' => 'Kaiserweis Premium Käsebox',
             'thumbnail' => '/content/resources/media/projectPreviewsNew/23_Kaiserweis_Käsebox_premium.jpg',
             'category' => 'Packaging Design',
-            'coming_soon' => true
+            'coming_soon' => false
         ],
         [
-            'slug' => '/',
-            'content_path' => '/',
+            'slug' => '/projekte/garda-trentino',
+            'content_path' => '/content/projects/gardaTypo',
             'title' => 'Corporate Font Garda Trentino',
             'thumbnail' => '/content/resources/media/projectPreviewsNew/24_Garda_Font_Startseite.gif',
             'category' => 'Typography',
-            'coming_soon' => true
+            'coming_soon' => false
         ],
         [
             'slug' => '/projekte/oetztal-kids',

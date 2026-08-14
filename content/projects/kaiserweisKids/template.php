@@ -31,7 +31,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
        </div>
     </section>
 
-    <section class="project-section section-3 bg-col-white pb-0 pt-0">
+    <section class="project-section section-3 bg-col-white pb-0 pt-0 has-padding-lr">
 		<?php new AnimatedBanner(
   	null,
   	'animated-banner',
@@ -137,7 +137,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<?php new Image(
   	null,
   	'mockup-1',
-  	'/content/resources/media/kaiserweis/kids-box/04_Mockup/01_KidsBox_Mockup_1.jpg',
+	  '/content/resources/media/kaiserweis/kids-box/04_Mockup/03_KidsBox_Mockup.jpg',
   	'Mockup 1',
   	true
   ); ?>
@@ -151,7 +151,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			<?php new Image(
    	null,
    	'mockup-2',
-   	'/content/resources/media/kaiserweis/kids-box/04_Mockup/03_KidsBox_Mockup.jpg',
+	   '/content/resources/media/kaiserweis/kids-box/04_Mockup/01_KidsBox_Mockup_1.jpg',
+
    	'Mockup 2',
    	true
    ); ?>	

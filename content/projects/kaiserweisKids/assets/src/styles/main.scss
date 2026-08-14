@@ -198,8 +198,9 @@ $smaller-line-height: 1;
 	text-transform: uppercase;
 }
 .text-is-large {
-	font-size: clamp(1.75rem, 2.75vw, 1.875rem);
+	font-size: clamp(1.5rem, 2.75vw, 1.875rem);
 	font-weight: 400;
+	line-height: 1.4;
 }
 .is-text {
 	font-size: $font-size;
@@ -263,8 +264,8 @@ $smaller-line-height: 1;
 // Paddings and Margins
 
 .has-padding-lr {
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 
 	@include minquery($screen-l) {
 		padding-left: 3.25rem;
@@ -370,6 +371,9 @@ $smaller-line-height: 1;
 				max-width: 10rem;
 			}
 			@include minquery($screen-l) {
+				max-width: 12.5rem;
+			}
+			@include minquery($screen-xl) {
 				max-width: 15rem;
 			}
 		}

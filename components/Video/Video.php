@@ -89,6 +89,11 @@ class Video extends PHTMLComponent {
 		);
 	}
 
+	private function getAssetPath(string $path): string {
+		$base_path = rtrim(sanitize_uri(ROOT_PATH, true), '/');
+		return $base_path . sanitize_uri($path, true);
+	}
+
 	private function renderSourceElements() {
 		$sources =
 			$this->mobileSrc && file_exists(BASE_DIR . $this->mobileSrc)
@@ -112,8 +117,7 @@ class Video extends PHTMLComponent {
 		foreach ($sources as $source) { ?>
             <source <?php echo ($this->lazyLoaded ? 'data-src' : 'src') .
             	'="' .
-            	ASSET_BASE_URL .
-            	$source['src'] .
+            	$this->getAssetPath($source['src']) .
             	'"'; ?>
             type="<?php echo $source['type']; ?>" 
             <?php echo array_key_exists('media', $source)
@@ -127,11 +131,13 @@ class Video extends PHTMLComponent {
 			($this->alt ?? 'Video') .
 			'" ' .
 			'playsinline webkit-playsinline ' .
-			($this->autoplay ? 'autoplay ' : '') .
+			($this->autoplay ? 'autoplay preload="auto" ' : '') .
 			($this->muted ? 'muted ' : '') .
 			($this->loop ? 'loop ' : '') .
 			($this->controls ? ' controls' : '') .
-			($this->setPoster ? ' poster="' . ASSET_BASE_URL . $this->placeholder . '"' : '');
+			($this->setPoster
+				? ' poster="' . $this->getAssetPath($this->placeholder) . '"'
+				: '');
 	}
 
 	private function renderStyleTag() {

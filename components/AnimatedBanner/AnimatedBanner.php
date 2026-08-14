@@ -45,6 +45,17 @@ class AnimatedBanner extends PHTMLComponent {
 		if (empty($this->items)) {
 			return;
 		}
+
+		// Short lists leave the track narrower than the viewport; multiply
+		// them so the scrolling strip still reads as full-width.
+		$segmentItems = $this->items;
+		$itemCount = count($segmentItems);
+		if ($itemCount <= 3) {
+			$repeats = (int) ceil(8 / $itemCount);
+			$segmentItems = array_merge(
+				...array_fill(0, $repeats, $segmentItems)
+			);
+		}
 		?>
 		<div <?php $this->renderHTMLAttributes(); ?>>
 			<?php
@@ -56,9 +67,9 @@ class AnimatedBanner extends PHTMLComponent {
 			<?php endif; ?>
 			<div class="animated-banner-track <?php echo $this->itemColorClass; ?>">
 				<?php
-				$renderLoop = function () {
-					$itemsCount = count($this->items);
-					foreach ($this->items as $idx => $item) {
+				$renderLoop = function () use ($segmentItems) {
+					$itemsCount = count($segmentItems);
+					foreach ($segmentItems as $idx => $item) {
 						echo '<span class="banner-item">' .
 							htmlspecialchars($item, ENT_QUOTES, 'UTF-8') .
 							'</span>';

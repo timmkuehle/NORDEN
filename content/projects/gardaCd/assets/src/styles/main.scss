@@ -1,0 +1,830 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+@use "@styles/animated-banner.scss";
+
+// Project variables
+
+$color-beige: #f6f3e2;
+$color-gold: #ffd200;
+$color-medium-gray: #bbbcbc;
+$color-dark-gray: #75787b;
+$color-blue: #3d73ff;
+$color-light-blue: #7ba9a9;
+$color-red: #b20933;
+$color-brown: #5d3430;
+$color-turquoise: #004f5b;
+
+// Utility classes
+.col-dark-gray {
+	color: $color-dark-gray;
+}
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-light-blue {
+	color: $color-light-blue;
+}
+.col-red {
+	color: $color-red;
+}
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.col-turquoise {
+	color: $color-turquoise;
+}
+.col-beige {
+	color: $color-beige;
+}
+.bg-col-turquoise {
+	background-color: $color-turquoise;
+}
+.bg-col-medium-gray {
+	background-color: $color-medium-gray;
+}
+.bg-col-dark-gray {
+	background-color: $color-dark-gray;
+}
+.bg-col-brown {
+	background-color: $color-brown;
+}
+.bg-col-black {
+	background-color: black;
+}
+.bg-col-white {
+	background-color: white;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+
+.desktop-only {
+	display: none !important;
+
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		padding: 0;
+		background-color: #fff;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+		padding: 2.5rem 1rem;
+		&:before {
+			background-color: $color-beige;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: #000000;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: #000;
+					transition: color 0.1s ease-in-out;
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-dark-gray;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: rgb(32, 32, 32);
+				}
+			}
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: #004F5B;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $color-gold;
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.garda-typo) {
+	font-family: "Montserrat", Relevant, Arial, Helvetica, sans-serif;
+	padding-bottom: 0rem;
+	overflow: hidden;
+	background-color: $color-beige;
+	padding-top: 2rem;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pb-0 {
+	padding-bottom: 0;
+}
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: $font-size-big;
+	margin-bottom: 1.5rem;
+	color: #c0cfbc;
+	text-transform: uppercase;
+}
+.text-is-large {
+	font-family: "Montserrat", sans-serif;
+	font-size: clamp(1.4rem, 2.75vw, 1.875rem);
+	font-weight: 300;
+	line-height: 1.5;
+}
+.is-text {
+	font-family: "Montserrat", sans-serif;
+	font-size: $font-size;
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 400;
+
+	@include minquery($screen-m) {
+		font-size: $font-size-big;
+	}
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+.centered {
+	justify-content: center;
+}
+.small-title {
+	font-family: "Garda TEtica", sans-serif;
+	font-size: $font-size-big;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 10%;
+}
+.is-indented {
+	margin-left: 0;
+
+	@include minquery($screen-m) {
+		margin-left: 2rem;
+	}
+}
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+	top: 21%;
+
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 400;
+
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+
+	@include minquery($screen-l) {
+		padding-left: 3.25rem;
+		padding-right: 3.25rem;
+	}
+
+	@include minquery($screen-xl) {
+		padding-left: 5.875rem;
+		padding-right: 5.875rem;
+	}
+}
+
+// Project styling
+
+.garda-typo {
+	// Override shared .project-section flex-row layout so stacked .row children
+	// don't sit side-by-side on desktop.
+	.project-section {
+		display: block !important;
+		width: 100% !important;
+		flex-direction: column !important;
+	}
+
+	.section-1 {
+		display: block;
+		position: relative;
+		padding-top: 4rem;
+
+		.image {
+			width: 100%;
+			margin-bottom: 2rem;
+		}
+	}
+	.section-2 {
+		.text-is-large {
+			font-weight: 500;
+		}
+	}
+	.section-3 {
+		.animated-banner {
+			margin-top: 0;
+		}
+	}
+
+	.section-4,
+	.section-6,
+	.section-7,
+	.section-8,
+	.section-9,
+	.section-11,
+	.section-13,
+	.section-17,
+	.section-18,
+	.section-19,
+	.section-21,
+	.section-22 {
+		position: relative;
+
+		.meta-headline {
+			display: none;
+
+			@include minquery($screen-m) {
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 1.5rem;
+				font-weight: 300;
+				color: rgb(black, 0.25);
+				white-space: nowrap;
+				transform: translate(-50%, -50%) rotate(-90deg);
+			}
+		}
+	}
+
+	.section-4 {
+		background: linear-gradient(to top, white 80%, $color-beige);
+		position: relative;
+		.row {
+			justify-content: center;
+			gap: 5rem;
+
+			@include minquery($screen-m) {
+				gap: 0rem;
+			}
+			.is-headline {
+				margin-bottom: 3rem;
+				font-style: italic;
+				font-weight: 800;
+
+				@include minquery($screen-m) {
+					margin-bottom: 5rem;
+				}
+				span {
+					color: $color-light-blue;
+				}
+			}
+			.sub-headline {
+				color: $color-light-blue;
+			}
+		}
+	}
+	.section-5 {
+		.image {
+			width: 100vw;
+		}
+	}
+
+	.section-6 {
+		.is-headline {
+			font-style: italic;
+			font-weight: 800;
+
+			span {
+				color: $color-light-blue;
+			}
+		}
+		.sub-headline {
+			color: $color-light-blue;
+			font-weight: 800;
+			text-transform: uppercase;
+			color: #c0cfbc;
+		}
+
+		.align-center {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.row {
+			gap: 4rem;
+			justify-content: center;
+
+			@include minquery($screen-m) {
+				gap: 0;
+				justify-content: flex-start;
+			}
+		}
+	}
+
+	.section-7 {
+		.row {
+			gap: 0rem;
+			justify-content: center;
+
+			@include minquery($screen-l) {
+				gap: 0;
+				justify-content: flex-start;
+				flex-wrap: nowrap;
+			}
+
+			.sub-headline {
+				font-weight: 800;
+				color: #c0cfbc;
+				text-transform: uppercase;
+				margin-bottom: 1rem;
+			}
+		}
+	}
+	.section-8 {
+		background: linear-gradient(to bottom, white 5%, $color-beige);
+		.is-headline {
+			font-style: italic;
+			font-weight: 800;
+		}
+		.sub-headline {
+			color: $color-light-blue;
+			font-weight: 800;
+			text-transform: uppercase;
+			color: #c0cfbc;
+		}
+		.video {
+			margin-top: 4rem;
+		}
+	}
+
+	.section-9 {
+		background-image: url("/content/resources/media/gardaCd/06_Layout/02_GARDA_Toolbox_Pattern-1.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		.meta-headline {
+			position: absolute;
+			top: 97% !important;
+		}
+		.is-headline {
+			margin-bottom: 1.5rem;
+			font-style: italic;
+			font-weight: 800;
+
+			@include minquery($screen-m) {
+				margin-bottom: 2rem;
+			}
+			span {
+				color: $color-light-blue;
+			}
+		}
+		.sub-headline {
+			color: $color-light-blue;
+			font-weight: 800;
+			margin-bottom: 1rem;
+			text-transform: uppercase;
+		}
+		.image {
+			display: block;
+			width: 100%;
+			margin-top: 1rem;
+			@include minquery($screen-m) {
+				margin-top: 7.5rem;
+			}
+		}
+	}
+	.section-10 {
+		position: relative;
+		.image {
+			display: block;
+			width: 100%;
+		}
+		.deco-image {
+			position: absolute;
+			width: 100px;
+			height: auto;
+			top: -1.25rem;
+			right: 20%;
+
+			@include minquery($screen-m) {
+				position: absolute;
+				width: 168px;
+				height: auto;
+				top: -2rem;
+				right: 20%;
+			}
+		}
+	}
+
+	.section-11 {
+		background: linear-gradient(to top, white 60%, $color-beige);
+		.meta-headline {
+			position: absolute;
+			top: 80%;
+		}
+
+		.is-headline {
+			margin-bottom: 1.5rem;
+			font-style: italic;
+			font-weight: 800;
+
+			@include minquery($screen-m) {
+				margin-bottom: 2rem;
+			}
+			span {
+				color: $color-light-blue;
+			}
+		}
+		.row {
+			align-items: center;
+		}
+		.mt-4 {
+			margin-top: 2rem;
+			@include minquery($screen-m) {
+				margin-top: 4rem;
+			}
+
+			@include minquery($screen-l) {
+				margin-top: 6rem;
+			}
+		}
+		.image {
+			display: block;
+			margin-top: 1rem;
+
+			@include minquery($screen-m) {
+				margin-top: 2rem;
+			}
+
+			@include minquery($screen-l) {
+				margin-top: 0rem;
+			}
+		}
+	}
+
+	.section-12 {
+		padding-bottom: 4rem;
+
+		@include minquery($screen-m) {
+			padding-bottom: 10rem;
+		}
+		.deco-image {
+			position: absolute;
+			width: 100px;
+			height: auto;
+			top: -1.25rem;
+			left: 10%;
+
+			@include minquery($screen-m) {
+				position: absolute;
+				width: 234px;
+				height: auto;
+				top: -2rem;
+				right: 20%;
+			}
+		}
+	}
+
+	.section-13 {
+		position: relative;
+		background-color: #c0cfbc;
+		background-image:
+			linear-gradient(to bottom, white 5%, transparent 45%),
+			url("/content/resources/media/gardaCd/08_Social_Media/03_GARDA_Toolbox_Pattern-1.svg");
+		background-position: center, bottom;
+		background-repeat: no-repeat, no-repeat;
+		background-size: cover, auto;
+
+		.meta-headline {
+			position: absolute;
+			top: 70% !important;
+		}
+		.is-headline {
+			margin-bottom: 3rem;
+			font-style: italic;
+			font-weight: 800;
+
+			@include minquery($screen-m) {
+				margin-bottom: 2rem;
+			}
+			span {
+				color: $color-light-blue;
+			}
+		}
+		.sub-headline {
+			color: $color-light-blue;
+			font-weight: 800;
+			color: #c0cfbc;
+			text-transform: uppercase;
+		}
+	}
+
+	.section-14 {
+		background-color: #c0cfbc;
+		.is-headline {
+			margin-top: 0;
+		}
+
+		.sub-2 {
+			color: white;
+			font-weight: 800;
+		}
+		.is-text {
+			font-weight: 400;
+		}
+		.image {
+			margin-top: 5rem;
+		}
+	}
+
+	.section-15 {
+		background-color: #c0cfbc;
+	}
+	.section-16 {
+		.image {
+			padding: 5rem 0;
+
+			@include minquery($screen-l) {
+				padding: 7.5rem 0;
+			}
+			@include minquery($screen-xl) {
+				padding: 10rem 0;
+			}
+		}
+	}
+	.section-17 {
+		background-image: url("/content/resources/media/gardaCd/11_Design_in_use/01_Print_Anwendungen/02_garda_Grafikelement.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		.is-headline {
+			font-style: italic;
+			font-weight: 800;
+
+			span {
+				color: $color-light-blue;
+			}
+		}
+		.sub-headline {
+			color: $color-light-blue;
+			font-weight: 800;
+			text-transform: uppercase;
+			color: #c0cfbc;
+		}
+		.image {
+			margin-top: 5rem;
+			width: 100%;
+			display: block;
+		}
+	}
+
+	.section-18 {
+		.meta-headline {
+			top: 85%;
+		}
+
+		.deco-image {
+			position: absolute;
+			width: 150px;
+			height: auto;
+			top: -2rem;
+			left: 10%;
+
+			@include minquery($screen-xxl) {
+				width: 200px;
+			}
+		}
+	}
+
+	.section-19 {
+		padding-bottom: 15rem;
+		background-image: linear-gradient(to bottom, $color-beige 45%, white);
+		.meta-headline {
+			position: absolute;
+			top: 65%;
+		}
+	}
+	.section-20 {
+		position: relative;
+		.deco-image {
+			position: absolute;
+			width: 150px;
+			height: auto;
+			top: -4rem;
+			right: 0;
+		}
+	}
+
+	.section-21 {
+		background-image:
+			url("/content/resources/media/gardaCd/11_Design_in_use/03_Merchandise/02_garda_Grafikelement.svg"),
+			linear-gradient(to bottom, white 50%, $color-beige);
+		background-position: top, center;
+		background-repeat: no-repeat, no-repeat;
+		background-size:
+			100% auto,
+			cover;
+		position: relative;
+
+		.meta-headline {
+			position: absolute;
+			top: 55%;
+		}
+
+		.sub-headline {
+			margin-top: 5rem;
+
+			@include minquery($screen-m) {
+				margin-top: 1rem;
+			}
+			color: $color-light-blue;
+			font-weight: 800;
+			text-transform: uppercase;
+			color: #c0cfbc;
+			margin-bottom: 5rem;
+		}
+		.row {
+			&.align-end {
+				align-items: flex-end;
+			}
+		}
+	}
+
+	.section-24 {
+		position: relative;
+		background-image: url("/content/resources/media/gardaCd/11_Design_in_use/04_B2B_Anwendungen/02_GARDA_Toolbox_Pattern-1.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		.image {
+			margin-top: 5rem;
+
+			@include minquery($screen-m) {
+				margin-top: 10rem;
+			}
+		}
+		.image-2 {
+			position: relative;
+			z-index: 1;
+			margin-top: 5rem;
+
+			@include minquery($screen-m) {
+				margin-top: 10rem;
+			}
+		}
+
+		.overlay {
+			position: absolute;
+			background-color: #004f5b;
+			height: 17.5rem;
+			width: 100vw;
+			bottom: 0;
+			z-index: 0;
+
+			@include minquery($screen-m) {
+				height: 25rem;
+			}
+			@include minquery($screen-xl) {
+				height: 35rem;
+			}
+		}
+	}
+	.buttons {
+		padding-top: 2.5rem;
+		justify-content: flex-start;
+		gap: 1.5rem;
+
+		@include minquery($screen-m) {
+			padding-top: 7.5rem;
+			gap: 1.5rem;
+			flex-direction: row;
+		}
+	
+		@include minquery($screen-l) {
+			gap: 5rem;
+		}
+		@include minquery($screen-xl) {
+			gap: 7.5rem;
+		}	
+		@include minquery($screen-xxl) {
+			gap: 7.5rem;
+		}	
+	}
+
+	.project-button {
+		min-width: 20rem;
+		font-family: relevant, sans-serif;
+		font-weight: 400;
+		background-color: $color-gold;
+		border-color: $color-gold;
+		color: #000;
+		text-align: center;
+		justify-content: center;
+		&:hover {
+			background-color: $color-gold;
+			border-color: $color-gold;
+			color: #000;
+		}
+	}
+}

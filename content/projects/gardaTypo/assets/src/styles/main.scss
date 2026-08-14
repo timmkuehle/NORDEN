@@ -1,0 +1,427 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+@use "@styles/animated-banner.scss";
+
+// Project variables
+
+$color-beige: #f6f3e2;
+$color-gold: #ffd200;
+$color-medium-gray: #bbbcbc;
+$color-dark-gray: #75787b;
+$color-blue: #3d73ff;
+$color-light-blue: #7ba9a9;
+$color-red: #b20933;
+$color-brown: #5d3430;
+$color-turquoise: #004f5b;
+
+// Utility classes
+.col-dark-gray {
+	color: $color-dark-gray;
+}
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-light-blue {
+	color: $color-light-blue;
+}
+.col-red {
+	color: $color-red;
+}
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.col-turquoise {
+	color: $color-turquoise;
+}
+.col-beige {
+	color: $color-beige;
+}
+.bg-col-turquoise {
+	background-color: $color-turquoise;
+}
+.bg-col-medium-gray {
+	background-color: $color-medium-gray;
+}
+.bg-col-dark-gray {
+	background-color: $color-dark-gray;
+}
+.bg-col-brown {
+	background-color: $color-brown;
+}
+.bg-col-black {
+	background-color: black;
+}
+.bg-col-white {
+	background-color: white;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+
+.desktop-only {
+	display: none !important;
+
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		padding: 0;
+		background-color: #fff;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+		padding: 2.5rem 1rem;
+		&:before {
+			background-color: $color-beige;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: #000000;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: #000;
+					transition: color 0.1s ease-in-out;
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-dark-gray;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: rgb(32, 32, 32);
+				}
+			}
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: wihte;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $color-gold;
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.garda-typo) {
+	font-family: "Montserrat", Relevant, Arial, Helvetica, sans-serif;
+	padding-bottom: 0rem;
+	overflow: hidden;
+	background-color: $color-beige;
+	padding-top: 2rem;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pb-0 {
+	padding-bottom: 0;
+}
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: $font-size-big;
+	margin-bottom: 1.5rem;
+	color: #c0cfbc;
+	text-transform: uppercase;
+}
+.text-is-large {
+	font-family: "Montserrat", sans-serif;
+	font-size: clamp(1.4rem, 2.75vw, 1.875rem);
+	font-weight: 300;
+	line-height: 1.5;
+}
+.is-text {
+	font-family: "Montserrat", sans-serif;
+	font-size: $font-size;
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 300;
+
+	@include minquery($screen-m) {
+		font-size: $font-size-big;
+	}
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+.centered {
+	justify-content: center;
+}
+.small-title {
+	font-family: "Garda TEtica", sans-serif;
+	font-size: $font-size-big;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 10%;
+}
+.is-indented {
+	margin-left: 0;
+
+	@include minquery($screen-m) {
+		margin-left: 2rem;
+	}
+}
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+	top: 21%;
+
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 400;
+
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+
+	@include minquery($screen-l) {
+		padding-left: 3.25rem;
+		padding-right: 3.25rem;
+	}
+
+	@include minquery($screen-xl) {
+		padding-left: 5.875rem;
+		padding-right: 5.875rem;
+	}
+}
+
+// Project styling
+
+.garda-typo {
+	// Override shared .project-section flex-row layout so stacked .row children
+	// don't sit side-by-side on desktop.
+	.project-section {
+		display: block !important;
+		width: 100% !important;
+		flex-direction: column !important;
+	}
+
+	.section-1 {
+		display: block;
+		position: relative;
+		padding-top: 3rem;
+		background: linear-gradient(to top, $color-turquoise, $color-beige);
+	}
+
+	.section-3 {
+		.animated-banner {
+			margin-top: 0;
+		}
+	}
+
+	.section-4 {
+		.is-headline {
+			font-family: montserrat, sans-serif;
+			font-weight: 700;
+			font-size: clamp(2rem, 2.5vw, 3rem);
+			font-style: italic;
+			margin-bottom: 3.5rem;
+			line-height: 1;
+		}
+	}
+
+	.section-5 {
+		background: linear-gradient(to bottom, $color-turquoise 56%, $color-beige 56%);
+
+		@include minquery($screen-m) {
+			background: linear-gradient(
+				to bottom,
+				$color-turquoise 59%,
+				$color-beige 59%
+			);
+		}
+	}
+	.section-6 {
+		.row {
+			gap: 5rem;
+			justify-content: center;
+
+			@include minquery($screen-m) {
+				gap: 0;
+				justify-content: flex-start;
+			}
+		}
+	}
+
+	.section-7 {
+		position: relative;
+		padding-bottom: 0;
+
+		.image {
+			position: relative;
+			z-index: 1;
+		}
+	}
+
+	.section-8 {
+		position: relative;
+		margin-top: -8.5rem;
+		background: none;
+
+		@include minquery($screen-m) {
+			margin-top: -10rem;
+		}
+		@include minquery($screen-l) {
+			margin-top: -12rem;
+		}
+		@include minquery($screen-xl) {
+			margin-top: -18rem;
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background-color: $color-turquoise;
+			z-index: 0;
+		}
+
+		.row {
+			position: relative;
+			z-index: 2;
+		}
+
+		.meta-headline {
+			color: #c0cfbc;
+		}
+
+		.is-text {
+			color: #c0cfbc;
+		}
+	}
+
+	.section-9 {
+		background: linear-gradient(to bottom, $color-turquoise, $color-beige);
+	}
+	.section-10 {
+		.row {
+			gap: 2rem;
+
+			@include minquery($screen-m) {
+				gap: 6rem;
+			}
+			justify-content: center;
+		}
+	}
+	.project-button {
+		background-color: $color-gold;
+		border-color: $color-gold;
+		color: #000;
+		text-align: center;
+		justify-content: center;
+		width: 100%;
+		&:hover {
+			background-color: $color-gold;
+			border-color: $color-gold;
+		}
+	}
+}

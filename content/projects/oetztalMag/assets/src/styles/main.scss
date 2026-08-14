@@ -1,0 +1,741 @@
+// Stylesheet import
+@use "@styles/project-section.scss";
+@use "@styles/side-note.scss";
+@use "@components/Video/Video.scss";
+@use "@styles/animated-banner.scss";
+
+// Project variables
+
+$color-beige: #f3ebe4;
+$color-gold: #f7a600;
+$color-medium-gray: #bbbcbc;
+$color-dark-gray: #75787b;
+$color-blue: #3d73ff;
+$color-light-blue: #00b4ff;
+$color-red: #b20933;
+$color-brown: #5d3430;
+// Utility classes
+.col-dark-gray {
+	color: $color-dark-gray;
+}
+.bg-col-beige {
+	background-color: $color-beige;
+}
+.col-gold {
+	color: $color-gold;
+}
+.col-red {
+	color: $color-red;
+}
+.col-white {
+	color: white;
+}
+.col-blue {
+	color: $color-blue;
+}
+.col-beige {
+	color: $color-beige;
+}
+.bg-col-medium-gray {
+	background-color: $color-medium-gray;
+}
+.bg-col-dark-gray {
+	background-color: $color-dark-gray;
+}
+.bg-col-brown {
+	background-color: $color-brown;
+}
+.bg-col-black {
+	background-color: black;
+}
+.bg-col-white {
+	background-color: white;
+}
+.bg-col-blue {
+	background-color: $color-blue;
+}
+
+.desktop-only {
+	display: none !important;
+
+	@include minquery($screen-m) {
+		display: block !important;
+	}
+}
+.mobile-only {
+	display: block !important;
+
+	@include minquery($screen-m) {
+		display: none !important;
+	}
+}
+
+// General styling
+body {
+	--color-light: #f3ebe4;
+	--color-light-rgb: 243, 235, 228;
+	main {
+		padding: 0;
+		background-color: #fff;
+	}
+	.site-header {
+		box-shadow: var(--no-box-shadow-bottom);
+		padding-inline: var(--main-padding-inline);
+		padding: 2.5rem 1rem;
+		&:before {
+			background-color: white;
+			backdrop-filter: blur(0rem);
+		}
+
+		.home-link {
+			&::after {
+				background-color: $color-blue;
+			}
+
+			.logo {
+				fill: #000000;
+			}
+		}
+
+		.header-menu,
+		.contact-menu {
+			.menu-item {
+				.menu-item-link {
+					color: #000;
+					transition: color 0.1s ease-in-out;
+					@media screen and (hover: hover) and (pointer: fine) {
+						&:hover {
+							color: $color-blue;
+						}
+					}
+				}
+
+				&.active-menu-item,
+				&.has-active-menu-item {
+					.menu-item-link {
+						color: $color-blue;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			.header-menu {
+				.nav-menu {
+					background-color: $color-dark-gray;
+				}
+			}
+		}
+
+		.mobile-menu-button {
+			.menu-icon {
+				.menu-icon-stroke {
+					stroke: rgb(32, 32, 32);
+				}
+			}
+		}
+	}
+	.site-footer {
+		padding-top: 0;
+		background-color: wihte;
+	}
+
+	.highlight-circle {
+		&::after {
+			transform: translate(-50%, -50%) rotate(-3deg);
+			left: 50%;
+			width: 105%;
+			height: 110%;
+			border-color: $color-blue;
+			@media screen and (max-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
+
+main:has(.project-wrapper.oetztal-magazin) {
+	font-family: Inter, Relevant, Arial, Helvetica, sans-serif;
+	padding-bottom: 0rem;
+	overflow: hidden;
+	background-color: white;
+	padding-top: 2rem;
+}
+
+// Layout Styling
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pb-0 {
+	padding-bottom: 0;
+}
+// Text styling
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 18px;
+$font-size-large: 24px;
+$font-size-larger: 30px;
+$font-size-huge: 36px;
+
+$line-height: 1.5;
+$small-line-height: 1.35;
+$smaller-line-height: 1;
+
+.meta-headline {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: $font-size-larger;
+	margin-bottom: 0;
+	color: white;
+	text-transform: uppercase;
+}
+.text-is-large {
+	font-family: "AS Oetztal HL", serif;
+	font-size: clamp(1.4rem, 2.75vw, 1.875rem);
+	font-weight: 300;
+	line-height: 1.5;
+}
+.is-text {
+	font-size: $font-size;
+	line-height: $small-line-height;
+	margin: 0.625rem 0 2.5rem;
+	font-weight: 300;
+
+	@include minquery($screen-m) {
+		font-size: $font-size-big;
+	}
+}
+
+.is-bold {
+	font-weight: 600;
+}
+
+.is-uppercase {
+	text-transform: uppercase;
+}
+.centered {
+	justify-content: center;
+}
+.small-title {
+	font-size: $font-size-big;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 10%;
+}
+.is-indented {
+	margin-left: 0;
+
+	@include minquery($screen-m) {
+		margin-left: 2rem;
+	}
+}
+.section-name {
+	display: none;
+	position: absolute;
+	left: 1rem;
+	top: 21%;
+
+	@include minquery($screen-m) {
+		display: block;
+		font-size: $font-size;
+		position: absolute;
+		z-index: 4;
+		text-transform: uppercase;
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		height: fit-content;
+	}
+
+	@include minquery($screen-l) {
+		font-size: $font-size-big;
+	}
+}
+
+// Paddings and Margins
+
+.has-padding-lr {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+
+	@include minquery($screen-l) {
+		padding-left: 3.25rem;
+		padding-right: 3.25rem;
+	}
+
+	@include minquery($screen-xl) {
+		padding-left: 5.875rem;
+		padding-right: 5.875rem;
+	}
+}
+
+// Project styling
+
+.oetztal-magazin {
+	// Override shared .project-section flex-row layout so stacked .row children
+	// don't sit side-by-side on desktop.
+	.project-section {
+		display: block !important;
+		width: 100% !important;
+		flex-direction: column !important;
+	}
+
+	.section-1 {
+		display: block;
+		position: relative;
+		padding: 0;
+
+		.hero-stack {
+			display: flex;
+			flex-direction: column;
+
+			// Overlap layout only on desktop — tablet stays stacked like mobile
+			@include minquery($screen-lg) {
+				display: grid;
+				grid-template-areas: "stack";
+			}
+		}
+
+		.hero-media {
+			position: relative;
+
+			@include minquery($screen-lg) {
+				grid-area: stack;
+				align-self: start;
+			}
+
+			&::after {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				height: 32%;
+				background: linear-gradient(
+					to bottom,
+					rgba(255, 255, 255, 0) 0%,
+					rgba(255, 255, 255, 0.55) 55%,
+					#fff 100%
+				);
+				pointer-events: none;
+				z-index: 1;
+			}
+
+			.hero-image {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		// Mobile: stacked. Tablet: slight pull-up. Desktop: full overlap on black topo.
+		.hero-intro {
+			position: relative;
+			z-index: 2;
+			width: 100%;
+			padding-top: 0rem;
+			padding-bottom: 2.5rem;
+			margin-top: -4rem;
+			@include minquery($screen-m) {
+				margin-top: -18%;
+				padding-top: 2.25rem;
+				padding-bottom: 3rem;
+			}
+
+			@include minquery($screen-l) {
+				margin-top: -35%;
+			}
+
+			@include minquery($screen-lg) {
+				grid-area: stack;
+				align-self: end;
+				margin-top: 0;
+				padding-top: 2.75rem;
+				padding-bottom: 12.5%;
+			}
+
+			.text-is-large {
+				margin: 0;
+			}
+		}
+	}
+
+	.section-3 {
+		display: block;
+		padding: 3rem 0 3rem;
+		.animated-banner {
+			margin-top: 0;
+		}
+		.banner-label {
+			display: none;
+		}
+		.animated-banner-track {
+			gap: 4rem;
+
+			@include minquery($screen-m) {
+				gap: 7rem;
+			}
+		}
+	}
+
+	.section-4 {
+		display: block;
+		padding-top: 0;
+
+		// Only direct children — not the absolute video placeholder inside `.video`
+		> .image,
+		> .video {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	.section-5 {
+		display: block;
+
+		.carousel-container {
+			width: 100%;
+		}
+
+		.carousel {
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.carousel-track {
+			display: flex;
+			transition: transform 0.3s ease;
+			will-change: transform;
+		}
+
+		.carousel-slide {
+			flex: 0 0 100%;
+			width: 100%;
+
+			.carousel-image,
+			img {
+				width: 100%;
+				height: auto;
+				display: block;
+				object-fit: contain;
+			}
+		}
+
+		.carousel-navigation {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 1.25rem;
+			margin-top: 1.25rem;
+		}
+
+		.carousel-prev,
+		.carousel-next {
+			appearance: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			width: 26px;
+			height: 20px;
+			background-color: #000;
+			-webkit-mask: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center / contain;
+			mask: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center / contain;
+			cursor: pointer;
+			transition: transform 0.2s ease;
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+		}
+
+		.carousel-prev {
+			transform: scaleX(-1);
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scaleX(-1) scale(1.1);
+				}
+			}
+		}
+	}
+	.section-6 {
+		display: block;
+		.row {
+			gap: 5rem;
+			padding: 3rem 0;
+			justify-content: center;
+			@include minquery($screen-m) {
+				gap: 0;
+				padding-right: 0;
+				padding-left: 0;
+			}
+		}
+		.quote-image {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+	}
+
+	.section-7 {
+		display: block;
+
+		.row {
+			align-items: center;
+			gap: 2.5rem;
+			padding: 3rem 0;
+			@include minquery($screen-m) {
+				gap: 0;
+				padding-right: 0;
+				padding-left: 0;
+			}
+
+			.is-text {
+				font-size: 18px;
+				font-family: "AS Oetztal HL", serif;
+				font-weight: 300;
+				line-height: 1.45;
+				margin: 0;
+				color: white;
+				text-wrap: balance;
+				max-width: 400px;
+			}
+		}
+	}
+
+	.section-8 {
+		display: block;
+		padding-top: 0;
+		padding-bottom: 0;
+
+		> .video {
+			display: block;
+			width: 100%;
+		}
+	}
+	.section-9 {
+		display: block;
+		width: 100%;
+
+		.text-is-large {
+			margin: 0 !important;
+			text-transform: uppercase;
+		}
+		.is-indented {
+			display: block;
+			transform: translateX(3rem);
+		}
+
+		.mt {
+			margin-top: 1rem;
+
+			@include minquery($screen-m) {
+				margin-top: 2.5rem;
+			}
+			@include minquery($screen-l) {
+				margin-top: 5rem;
+			}
+		}
+
+		.quote-image {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+	.section-10 {
+		img {
+			width: 100%;
+		}
+	}
+
+	.section-11 {
+		display: block;
+		.gap-row {
+			gap: 2.5rem;
+
+			@include minquery($screen-m) {
+				gap: 0;
+			}
+		}
+		.mt {
+			margin-top: 3rem;
+
+			@include minquery($screen-m) {
+				margin-top: 5rem;
+			}
+			@include minquery($screen-l) {
+				margin-top: 8rem;
+			}
+		}
+
+		.text-is-large {
+			margin: 0 !important;
+			text-transform: uppercase !important;
+		}
+
+		.is-indented {
+			display: block;
+			margin-left: 3rem !important;
+		}
+
+		.quote-image,
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.section-12 {
+		display: block;
+		padding-top: 0;
+		background: linear-gradient(to bottom, #fff 40%, $color-brown 40%);
+
+		.carousel-container {
+			width: 100%;
+		}
+
+		.carousel {
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.carousel-track {
+			display: flex;
+			transition: transform 0.3s ease;
+			will-change: transform;
+		}
+
+		.carousel-slide {
+			flex: 0 0 100%;
+			width: 100%;
+
+			.carousel-image,
+			img {
+				width: 100%;
+				height: auto;
+				display: block;
+				object-fit: contain;
+			}
+		}
+
+		.carousel-navigation {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 1.25rem;
+			margin-top: 1.25rem;
+		}
+
+		.carousel-prev,
+		.carousel-next {
+			appearance: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			width: 26px;
+			height: 20px;
+			background-color: #fff;
+			-webkit-mask: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center / contain;
+			mask: url("../../../../../resources/media/burton/arrow-swiper.svg")
+				no-repeat center / contain;
+			cursor: pointer;
+			transition: transform 0.2s ease;
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+		}
+
+		.carousel-prev {
+			transform: scaleX(-1);
+
+			@media (hover: hover) {
+				&:hover {
+					transform: scaleX(-1) scale(1.1);
+				}
+			}
+		}
+	}
+
+	.section-13 {
+		display: block;
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+
+		@include minquery($screen-m) {
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+
+		.image-grid {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 1.25rem;
+
+			@include minquery($screen-m) {
+				gap: 5rem;
+			}
+		}
+
+		.grid-image,
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.section-14 {
+		display: block;
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+
+		@include minquery($screen-m) {
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+
+		.row {
+			gap: 2rem;
+			margin: 0 0.25rem 0;
+
+			@include minquery($screen-m) {
+				margin: 0;
+			}
+		}
+	}
+	.project-button {
+		background-color: $color-gold;
+		border-color: $color-gold;
+		color: #000;
+		text-align: center;
+		justify-content: center;
+
+		&:hover {
+			background-color: $color-gold;
+			border-color: $color-gold;
+		}
+	}
+}

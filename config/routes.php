@@ -54,3 +54,7 @@ declare(strict_types=1);
 \Router::addRoute('/projekte/manz', 'ProjectController');
 \Router::addRoute('/projekte/pleasure', 'ProjectController');
 \Router::addRoute('/projekte/kaiserweis/kids', 'ProjectController');
+\Router::addRoute('/projekte/kaiserweis', 'ProjectController');
+\Router::addRoute('/projekte/oetztal-magazin', 'ProjectController');
+\Router::addRoute('/projekte/garda-trentino', 'ProjectController');
+\Router::addRoute('/projekte/garda-trentino-cd', 'ProjectController');
