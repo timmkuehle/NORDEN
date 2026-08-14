@@ -17,7 +17,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <?php new Image(
     	null,
     	'hero-image',
-    	'/content/resources/media/kaiserweis/premium-box/01_Headerbild_Kaiserwinkl_Kössen.jpg',
+    	'/content/resources/media/kaiserweis/premium-box/01_Headerbild_Kaiserwinkl_Koessen.jpg',
     	'Kaiserweis Hero',
     	true
     ); ?>
@@ -112,10 +112,10 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<?php new Image(
   	null,
   	'look-and-feel',
-  	'/content/resources/media/kaiserweis/premium-box/04_Premium-Käsebox_Fotogarfie_Desktop.jpg',
+  	'/content/resources/media/kaiserweis/premium-box/04_Premium-Kaesebox_Fotogarfie_Desktop.jpg',
   	'Premium Box',
   	true,
-  	'/content/resources/media/kaiserweis/premium-box/04_Premium-Käsebox_Fotogarfie_Mobile.jpg'
+  	'/content/resources/media/kaiserweis/premium-box/04_Premium-Kaesebox_Fotogarfie_Mobile.jpg'
   ); ?>		
 		</div>
 	</div>
@@ -147,7 +147,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<?php new Image(
   	null,
   	'look-and-feel',
-  	'/content/resources/media/kaiserweis/premium-box/07_Farben_Käsebox_Premium.png',
+  	'/content/resources/media/kaiserweis/premium-box/07_Farben_Kaesebox_Premium.png',
   	'Farben',
   	true
   ); ?>	
@@ -169,7 +169,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<?php new Image(
   	null,
   	'look-and-feel',
-  	'/content/resources/media/kaiserweis/premium-box/09_Premium-Käsebox_Fotogarfie_Detail_1.jpg',
+  	'/content/resources/media/kaiserweis/premium-box/09_Premium-Kaesebox_Fotogarfie_Detail_1.jpg',
   	'Detail 1',
   	true
   ); ?>	
@@ -198,7 +198,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<?php new Image(
   	null,
   	'look-and-feel',
-  	'/content/resources/media/kaiserweis/premium-box/10_Mockup_Käsekarte_1.jpg',
+  	'/content/resources/media/kaiserweis/premium-box/10_Mockup_Kaesekarte_1.jpg',
   	'Mockup 1',
   	true
   ); ?>	
@@ -207,7 +207,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<?php new Image(
   	null,
   	'look-and-feel',
-  	'/content/resources/media/kaiserweis/premium-box/10_Mockup_Käsekarte_2.jpg',
+  	'/content/resources/media/kaiserweis/premium-box/10_Mockup_Kaesekarte_2.jpg',
   	'Detail 1',
   	true
   ); ?>	
@@ -231,7 +231,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <?php new Image(
   	null,
   	'grafik',
-  	'/content/resources/media/kaiserweis/premium-box/06_Grafik_PremiumKäsebox_Berge_2.png',
+  	'/content/resources/media/kaiserweis/premium-box/06_Grafik_PremiumKaesebox_Berge_2.png',
   	'Grafik',
   	true
   ); ?>	

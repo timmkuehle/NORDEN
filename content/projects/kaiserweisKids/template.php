@@ -195,7 +195,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
  	null,
  	'project-button',
  	'Zum Premium Käse Kisterl',
- 	'/projekte/kaiserweis-kids'
+ 	'/projekte/kaiserweis'
  ); ?>
 	</div>
 </div>
