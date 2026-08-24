@@ -152,11 +152,7 @@ main:has(.project-wrapper.kaiserweis-kids) {
 	padding-bottom: 5rem;
 	overflow: hidden;
 	background-color: white;
-	padding-top: 5rem;
-
-	@include minquery($screen-l) {
-		padding-top: 2rem;
-	}
+	padding-top: 2rem;
 }
 
 // Layout Styling

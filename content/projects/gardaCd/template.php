@@ -112,7 +112,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     	null,
     	'project-button',
     	'MEHR ZUR TYPOGRAFIE',
-    	'/projekte/pleasure'
+    	'/projekte/garda-trentino'
     ); ?>
 			</div>
 
@@ -511,7 +511,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 ); ?>
 <?php new Button(
 	null,
-	'project-button disabled',
+	'project-button disabledy',
 	'ROCK MASTER',
 	'/projekte/garda-trentino'
 ); ?>

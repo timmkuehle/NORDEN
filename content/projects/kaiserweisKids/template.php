@@ -17,9 +17,10 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <?php new Image(
     	null,
     	'hero-image',
-    	'/content/resources/media/kaiserweis/kids-box/01_Header_KUUSK_KäseBoxen_Kidsbox.svg',
+    	'/content/resources/media/kaiserweis/kids-box/01_Header_KUUSK_KäseBoxen_Kidsbox_Desktop.svg',
     	'Kaiserweis Kids Hero',
-    	true
+    	true,
+		'/content/resources/media/kaiserweis/kids-box/01_Header_KUUSK_KäseBoxen_Kidsbox_Mobile.svg',
     ); ?>
     </section>
 
