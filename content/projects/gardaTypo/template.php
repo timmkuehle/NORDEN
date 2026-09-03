@@ -150,7 +150,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 				null,
 				'project-button',
 				'TypoGraphy in use',
-				'/projekte/garda-trentino'
+				'/projekte/garda-trentino-cd'
 			); ?>
 			</div>
 			<div class="col s16 m6 l5">

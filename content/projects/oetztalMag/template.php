@@ -91,7 +91,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 					<?php new Image(
      	null,
      	'carousel-image',
-     	'/content/resources/media/oetztalMag/03_inhaltsseiten/01_Slider/IMG_0937.png',
+     	'/content/resources/media/oetztalMag/03_inhaltsseiten/01_Slider/1_IMG_0937.jpg',
      	'Ötztal Magazin Inhaltsseite 1',
      	true
      ); ?>
@@ -100,7 +100,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 					<?php new Image(
      	null,
      	'carousel-image',
-     	'/content/resources/media/oetztalMag/03_inhaltsseiten/01_Slider/IMG_0828.png',
+     	'/content/resources/media/oetztalMag/03_inhaltsseiten/01_Slider/2_IMG_0828.jpg',
      	'Ötztal Magazin Inhaltsseite 2',
      	true
      ); ?>
@@ -109,7 +109,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 					<?php new Image(
      	null,
      	'carousel-image',
-     	'/content/resources/media/oetztalMag/03_inhaltsseiten/01_Slider/IMG_0788.png',
+     	'/content/resources/media/oetztalMag/03_inhaltsseiten/01_Slider/3_IMG_0788.jpg',
      	'Ötztal Magazin Inhaltsseite 3',
      	true
      ); ?>
@@ -118,7 +118,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 					<?php new Image(
      	null,
      	'carousel-image',
-     	'/content/resources/media/oetztalMag/03_inhaltsseiten/01_Slider/IMG_0800.png',
+     	'/content/resources/media/oetztalMag/03_inhaltsseiten/01_Slider/4_IMG_0800.jpg',
      	'Ötztal Magazin Inhaltsseite 4',
      	true
      ); ?>
@@ -138,7 +138,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<?php new Image(
   	null,
   	'image',
-  	'/content/resources/media/oetztalMag/03_inhaltsseiten/IMG_0816.png',
+  	'/content/resources/media/oetztalMag/03_inhaltsseiten/IMG_0816.jpg',
   	'Ötztal Magazin',
   	true
   ); ?>
@@ -220,7 +220,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <?php new Image(
 	null,
 	'quote-image',
-	'/content/resources/media/oetztalMag/06_Absatzformate-Layout/02_IMG_0830.png',
+	'/content/resources/media/oetztalMag/06_Absatzformate-Layout/02_IMG_0830.jpg',
 	'Ötztal Zitat',
 	true
 ); ?>

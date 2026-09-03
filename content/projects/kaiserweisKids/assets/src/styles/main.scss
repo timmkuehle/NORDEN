@@ -322,11 +322,20 @@ $smaller-line-height: 1;
 
 	}
 	.section-6 {
+		display: block;
+		width: 100%;
+		overflow-x: hidden;
+
 		.svg-banner {
+			display: block;
+			width: 100%;
+			max-width: 100%;
+			height: auto;
 			transform: scale(2.25);
+			transform-origin: center center;
 
 			@include minquery($screen-m) {
-				transform: scale(1);
+				transform: scale(1.05);
 			}
 		}
 	}
