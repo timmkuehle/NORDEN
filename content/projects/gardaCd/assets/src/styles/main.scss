@@ -148,7 +148,7 @@ body {
 	}
 	.site-footer {
 		padding-top: 0;
-		background-color: #004F5B;
+		background-color: #004f5b;
 	}
 
 	.highlight-circle {
@@ -317,8 +317,21 @@ $smaller-line-height: 1;
 		}
 	}
 	.section-2 {
+		.row {
+			justify-content: center;
+			gap: 5rem;
+
+			@include minquery($screen-m) {
+				justify-content: space-between;
+				gap: 2rem;
+			}
+			.logo-black {
+				margin-top: 3rem;
+			}
+		}
 		.text-is-large {
 			font-weight: 500;
+			margin-top: 0;
 		}
 	}
 	.section-3 {
@@ -453,6 +466,9 @@ $smaller-line-height: 1;
 			font-weight: 800;
 			text-transform: uppercase;
 			color: #c0cfbc;
+		}
+		.is-text {
+			max-width: 55ch;
 		}
 		.video {
 			margin-top: 4rem;
@@ -616,7 +632,7 @@ $smaller-line-height: 1;
 		.sub-headline {
 			color: $color-light-blue;
 			font-weight: 800;
-			color: #c0cfbc;
+			color: #7ba9a9;
 			text-transform: uppercase;
 		}
 	}
@@ -673,6 +689,9 @@ $smaller-line-height: 1;
 			text-transform: uppercase;
 			color: #c0cfbc;
 		}
+		.is-text {
+			max-width: 55ch;
+		}
 		.image {
 			margin-top: 5rem;
 			width: 100%;
@@ -699,8 +718,12 @@ $smaller-line-height: 1;
 	}
 
 	.section-19 {
-		padding-bottom: 15rem;
+		padding-bottom: 10rem;
 		background-image: linear-gradient(to bottom, $color-beige 45%, white);
+		
+		@include minquery($screen-m) {
+			padding-bottom: 15rem;
+		}
 		.meta-headline {
 			position: absolute;
 			top: 65%;
@@ -751,7 +774,13 @@ $smaller-line-height: 1;
 			}
 		}
 	}
-
+	.section-22 {
+		padding-bottom: 0;
+		.is-text {
+			margin-top: 5rem;
+			max-width: 55ch;
+		}
+	}
 	.section-24 {
 		position: relative;
 		background-image: url("/content/resources/media/gardaCd/11_Design_in_use/04_B2B_Anwendungen/02_GARDA_Toolbox_Pattern-1.svg");
@@ -759,19 +788,20 @@ $smaller-line-height: 1;
 		background-size: cover;
 		.image {
 			margin-top: 5rem;
+			margin-bottom: 0;
 
 			@include minquery($screen-m) {
 				margin-top: 10rem;
 			}
 		}
+		.is-text {
+			max-width: 55ch;
+			margin-top: 7rem;
+		}
 		.image-2 {
+			margin-top: 4rem;
 			position: relative;
 			z-index: 1;
-			margin-top: 5rem;
-
-			@include minquery($screen-m) {
-				margin-top: 10rem;
-			}
 		}
 
 		.overlay {
@@ -800,16 +830,16 @@ $smaller-line-height: 1;
 			gap: 1.5rem;
 			flex-direction: row;
 		}
-	
+
 		@include minquery($screen-l) {
 			gap: 5rem;
 		}
 		@include minquery($screen-xl) {
 			gap: 7.5rem;
-		}	
+		}
 		@include minquery($screen-xxl) {
 			gap: 7.5rem;
-		}	
+		}
 	}
 
 	.project-button {

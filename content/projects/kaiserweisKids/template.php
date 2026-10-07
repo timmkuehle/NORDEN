@@ -1,7 +1,7 @@
 <?php
-$seoTitle = 'Kaiserweis Kids Käse Boxen Packaging Design | NORDEN';
+$seoTitle = 'Kaiserweis Kids Käsebox – Verpackungsdesign | NORDEN';
 $seoDescription =
-	'Für die Käsregion Kaiserweis entwickelte NORDEN zwei sehr unterschiedlich Käse Boxen. Zum einen, eine farbenfrohe für Kinder, mit Fokus auf Spiel und Spaß. Auf der anderen Seite eine traditionelle Holzkiste für Erwachsene. Regionalität spielt dabei eine große Rolle.';
+	'Verpackungsdesign von NORDEN: Die Kaiserweis Kids Käsebox verbindet regionalen Genuss mit verspielten Illustrationen und Kinderkunst aus der Region.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
@@ -20,15 +20,31 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     	'/content/resources/media/kaiserweis/kids-box/01_Header_KUUSK_KäseBoxen_Kidsbox_Desktop.svg',
     	'Kaiserweis Kids Hero',
     	true,
-		'/content/resources/media/kaiserweis/kids-box/01_Header_KUUSK_KäseBoxen_Kidsbox_Mobile.svg',
+    	'/content/resources/media/kaiserweis/kids-box/01_Header_KUUSK_KäseBoxen_Kidsbox_Mobile.svg'
     ); ?>
     </section>
 
     <section class="project-section has-padding-lr section-2 bg-col-white">
-       <div class="row">
+	<div class="row">
        <div class="col s16 m12 l11">
-					<p class="text-is-large">Die Region Kaiserwinkl und das Kufsteinerland sind bekannt für ihr regionale Vielfalt und die handwerkliche Herstellung von Genussmitteln geprägt durch die alpine, bäuerliche Struktur ist so die <span class="bold">Kaiserweis Käseregion</span> mit dem bekannten Heumilchkäse entstanden.</p>
-				</div>
+			<p class="text-is-large">Regionaler Genuss, spielerisch verpackt. Die Käseregion Kaiserweis verbindet Kaiserwinkl und Kufsteinerland mit ihrer handwerklichen Käsetradition. Für ihren Heumilchkäse haben wir eine Verpackung gestaltet, die schon beim Aufmachen neugierig macht: die Kids Käsebox.</p>
+		</div>
+		<div class="col s16 m2 push-m2 push-l2 l3">
+		<div class="buttons">
+        <?php new Button(
+        	null,
+        	'project-button',
+        	'Kidsbox',
+        	'/projekte/kaiserweis/kids'
+        ); ?>
+		 <?php new Button(
+   	null,
+   	'project-button secondary-button',
+   	'Premium Kistl',
+   	'/projekte/kaiserweis'
+   ); ?>
+        </div>
+		</div>
        </div>
     </section>
 
@@ -67,8 +83,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="project-section section-5 bg-col-white">
 	<div class="row centered  has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
-            <h4 class="small-title">Unsere Käse Boxen</h3>
-			<p class="is-text is-indented">Wir durften die Käsregion Kaiserweis bei einem spannenden Packaging Projekt unterstützen. Und dabei zwei sehr unterschiedlich Kastl entwickeln. Zum einen, eine farbenfrohe für Kinder, mit Fokus auf Spiel und Spaß. Auf der anderen Seite eine traditionelle Holzkiste für Erwachsene. Regionalität spielt dabei eine große Rolle.</p>
+            <h4 class="small-title">ZWEI BOXEN. EINE HERKUNFT.</h4>
+			<p class="is-text is-indented">Für Kaiserweis haben wir zwei Verpackungen mit eigenem Charakter entwickelt: eine verspielte Käsebox für Kinder und ein traditionelles Holzkisterl für Erwachsene. Zwei unterschiedliche Zugänge, die dieselbe Geschichte erzählen – von regionaler Herkunft, gutem Handwerk und der Freude am Genießen.</p>
 		</div>
 	</div>
     <?php new Image(
@@ -96,15 +112,16 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	'look-and-feel',
 	'/content/resources/media/kaiserweis/kids-box/03_Grafikelemente/03_KUUSK_LookFeel_Kidsbox.png',
 	'Look and Feel',
-	true
+	true,
+	'/content/resources/media/kaiserweis/kids-box/03_Grafikelemente/03_KUUSK_LookFeel_Kidsbox_Mobile.png'
 ); ?>
 </section>
 
 <section class="project-section section-8 bg-col-white">
 	<div class="row centered has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
-            <h4 class="small-title">VON KINDERN UND FÜR KINDER</h3>
-			<p class="is-text is-indented">Wir durften die Käsregion Kaiserweis bei einem spannenden Packaging Projekt unterstützen. Und dabei zwei sehr unterschiedlich Kastl entwickeln. Zum einen, eine farbenfrohe für Kinder, mit Fokus auf Spiel und Spaß. Wichtig war bei zweitem vor allem der Austausch mit Kindern und deren Feedback, sowie das ein-beziehen der künstlerischen Arbeiten in das endgültige Produkt.</p>
+            <h4 class="small-title">FÜR KINDER. MIT KINDERN.</h4>
+			<p class="is-text is-indented">Eine Bühne für kleine Zeichentalente: Bei einem Zeichenwettbewerb an den Schulen der Region konnten alle Kinder ihre Bilder einreichen. Ausgewählte Arbeiten fanden ihren Platz auf der Innenseite des Deckels – und machen die Kids Käsebox beim Öffnen zur kleinen Galerie.</p>
 		</div>
 	</div>
 </section>
@@ -126,8 +143,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="project-section section-10 bg-col-white">
 	<div class="row centered has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
-            <h4 class="small-title">VON KINDERN UND FÜR KINDER</h3>
-			<p class="is-text is-indented">Wir durften die Käsregion Kaiserweis bei einem spannenden Packaging Projekt unterstützen. Und dabei zwei sehr unterschiedlich Kastl entwickeln. Zum einen, eine farbenfrohe für Kinder, mit Fokus auf Spiel und Spaß. Wichtig war bei zweitem vor allem der Austausch mit Kindern und deren Feedback, sowie das ein-beziehen der künstlerischen Arbeiten in das endgültige Produkt.</p>
+            <h4 class="small-title">KÄSE MIT CHARAKTER.</h4>
+			<p class="is-text is-indented">Eine neugierige Maus, ein Käse auf zwei Beinen und jede Menge kleine Details: Unsere Illustrationen geben der Kids Käsebox ihre eigene kleine Welt. Die lockere Linienführung verbindet die Figuren und lässt viel Raum für ihren Charakter. So wird die Verpackung selbst zur Einladung, genauer hinzuschauen und auf Entdeckungsreise zu gehen.</p>
 		</div>
 	</div>
 </section>
@@ -138,7 +155,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<?php new Image(
   	null,
   	'mockup-1',
-	  '/content/resources/media/kaiserweis/kids-box/04_Mockup/03_KidsBox_Mockup.jpg',
+  	'/content/resources/media/kaiserweis/kids-box/04_Mockup/03_KidsBox_Mockup.jpg',
   	'Mockup 1',
   	true
   ); ?>
@@ -152,7 +169,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			<?php new Image(
    	null,
    	'mockup-2',
-	   '/content/resources/media/kaiserweis/kids-box/04_Mockup/01_KidsBox_Mockup_1.jpg',
+   	'/content/resources/media/kaiserweis/kids-box/04_Mockup/01_KidsBox_Mockup_1.jpg',
 
    	'Mockup 2',
    	true

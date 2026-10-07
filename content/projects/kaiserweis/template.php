@@ -1,7 +1,7 @@
 <?php
-$seoTitle = 'Kaiserweis Käse Boxen Packaging Design | NORDEN';
+$seoTitle = 'Kaiserweis Premium-Käsekistl – Verpackungsdesign | NORDEN';
 $seoDescription =
-	'Für die Käsregion Kaiserweis entwickelte NORDEN zwei sehr unterschiedlich Käse Boxen. Zum einen, eine farbenfrohe für Kinder, mit Fokus auf Spiel und Spaß. Auf der anderen Seite eine traditionelle Holzkiste für Erwachsene. Regionalität spielt dabei eine große Rolle.';
+	'Verpackungsdesign von NORDEN für das Kaiserweis Premium-Käsekistl: Holzkiste mit Siebdruck und Käsekarten auf Naturpapier. Regionaler Genuss, natürlich verpackt.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
@@ -26,7 +26,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <section class="project-section has-padding-lr section-2 bg-col-white">
        <div class="row">
        <div class="col s16 m12 l11">
-			<p class="text-is-large">Die Region Kaiserwinkl und das Kufsteinerland sind bekannt für ihr regionale Vielfalt und die handwerkliche Herstellung von Genussmitteln. Geprägt durch die alpine, bäuerliche Struktur ist so die <span class="bold">Kaiserweis Käseregion</span> mit dem bekannten Heumilchkäse entstanden. </p>
+			<p class="text-is-large">Regionaler Genuss. Spürbar gut verpackt. Unter der Genussmarke Kaiserweis bringen das Kufsteinerland und der Kaiserwinkl ihre regionalen Spezialitäten gemeinsam zur Geltung – allen voran den heimischen Käse. Für das Premium-Käsekistl haben wir ein Verpackungsdesign entwickelt, das diese Herkunft nach außen trägt: mit Holz, Siebdruck und Naturpapier.</p>
 		</div>
 		<div class="col s16 m2 push-m2 push-l2 l3">
 		<div class="buttons">
@@ -82,8 +82,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="project-section section-5 bg-col-white">
 	<div class="row centered  has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
-            <h4 class="small-title">Unsere Käse Boxen</h3>
-			<p class="is-text is-indented">Wir durften die Käsregion Kaiserweis bei einem spannenden Packaging Projekt unterstützen. Und dabei zwei sehr unterschiedlich Kastl entwickeln. Zum einen, eine farbenfrohe für Kinder, mit Fokus auf Spiel und Spaß. Auf der anderen Seite eine traditionelle Holzkiste für Erwachsene. Regionalität spielt dabei eine große Rolle.</p>
+            <h4 class="small-title">ZWEI BOXEN. EINE HERKUNFT.</h4>
+			<p class="is-text is-indented">Für Kaiserweis entstanden zwei Verpackungen mit eigenem Charakter: die verspielte Kids Käsebox und das Premium-Käsekistl. Hier stehen natürliche Materialien und eine reduzierte Gestaltung im Mittelpunkt – passend zur regionalen Käsekultur.</p>
 		</div>
 	</div>
 </section>
@@ -101,7 +101,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="project-section section-8 bg-col-white">
 	<div class="row centered has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
-			<p class="is-text is-indented">Als zweite Variante entstand eine Premium Box für Erwachsene, bei der der Fokus klar auf Qualität, Herkunft und Regionalität lag. Schon die Verpackung aus echtem Holz vermittelt Wertigkeit und Handwerkskunst.</p>
+		<h4 class="small-title">HOLZ MIT CHARAKTER.</h4>
+			<p class="is-text is-indented">Für das Premium-Käsekistl haben wir uns bewusst für eine Holzkiste entschieden. Ihre sichtbare Maserung und natürliche Haptik sind Teil der Gestaltung. So wird die Verbindung zu Herkunft und Handwerk schon beim Anfassen spürbar.</p>
 		</div>
 	</div>
 </section>
@@ -136,7 +137,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 
 	<div class="row flex-end has-padding-lr">
 		<div class="col s16 m9 l8 xl8">
-			<p class="is-textd">Eine schlanke serifenlose Schrift wirkt modern, klar und hochwertig und unterstreicht damit den Premium-Charakter der Käsebox. Die Gelbtöne greifen die natürliche Farbe von Käse auf und vermitteln Wärme, Genuss und Qualität. Ergänzt wird dies durch eine Holzbox mit Siebdruck, die für Natürlichkeit, Handwerk und Exklusivität steht und das hochwertige Gesamtbild perfekt abrundet.</p>
+			<p class="is-text">Schlanke Typografie trifft auf markante Berggrafik. Warme Gelbtöne, Schwarz und die natürliche Holzoberfläche bestimmen den Auftritt. Die Gestaltung bleibt bewusst zurückhaltend und gibt dem Material Raum.</p>
 		</div>
 	</div>
 </section>
@@ -175,9 +176,10 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
   ); ?>	
 		</div>
 		<div class="col s16 m8 l6 xl5">
+		<h4 class="small-title">DIREKT AUFS HOLZ.</h4>
 			<p class="is-text">
-			Mithilfe von Siebdruck wurde die Grafik in einem österreichischen Druckerei regional auf die Box gedruckt.
-			</p>
+			Die Grafik wurde in einer österreichischen Druckerei im Siebdruck direkt auf das Holz aufgebracht. Feine Rasterpunkte und kräftige Flächen treffen auf die individuelle Maserung – Druck und Material werden zu einem gemeinsamen Bild.
+		</p>
 		</div>
 	</div>
 </section>
@@ -185,9 +187,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 <section class="project-section section-14 bg-col-white has-padding-lr">
 	<div class="row">
 		<div class="col s16 m8 l8">
-			<h4 class="small-title">Käsearten</h4>
+			<h4 class="small-title">GUTER GESCHMACK. AUF KARTEN.</h4>
 			<p class="is-text">
-			Wir durften die Käsregion Kaiserweis bei einem spannenden Packaging Projekt unterstützen. Und dabei zwei sehr unterschiedlich Kastl entwickeln. Zum einen, eine farbenfrohe für Kinder, mit Fokus auf Spiel und Spaß. Wichtig war bei zweitem vor allem der Austausch mit Kindern und deren Feedback, sowie das ein-beziehen der künstlerischen Arbeiten in das endgültige Produkt.			</p>
+			Ein Postkarten-Set stellt die unterschiedlichen Käsesorten und ihre Besonderheiten vor. Gedruckt auf Naturpapier, führen die Karten die natürliche Anmutung des Kistls fort. Landschaftsfotografie, Käseillustrationen und kurze Beschreibungen machen Lust aufs Entdecken und Probieren.		</p>
 		</div>
 	</div>
 </section>
@@ -219,21 +221,21 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<div class="col s0 m8"></div>
 	<div class="col s16 m8 l8">
 		<?php new Button(
-			null,
-			'project-button',
-			'Zur Kids Käsebox',
-			'/projekte/kaiserweis/kids'
-		); ?>
+  	null,
+  	'project-button',
+  	'Zur Kids Käsebox',
+  	'/projekte/kaiserweis/kids'
+  ); ?>
 	</div>
 </div>
 
 <div class="project-section section-16">
 <?php new Image(
-  	null,
-  	'grafik',
-  	'/content/resources/media/kaiserweis/premium-box/06_Grafik_PremiumKaesebox_Berge_2.png',
-  	'Grafik',
-  	true
-  ); ?>	
+	null,
+	'grafik',
+	'/content/resources/media/kaiserweis/premium-box/06_Grafik_PremiumKaesebox_Berge_2.png',
+	'Grafik',
+	true
+); ?>	
 </div>
 </div>

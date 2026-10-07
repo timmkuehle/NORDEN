@@ -1,7 +1,7 @@
 <?php
-$seoTitle = 'Ötztal Magazin | NORDEN';
+$seoTitle = 'Ötztal Magazin – Konzeption & Editorial Design | NORDEN';
 $seoDescription =
-	'Für das Ötztal Magazin entwickelte NORDEN ein neues Design für die Printausgabe.';
+	'Von NORDEN konzipiert und gestaltet: das Ötztal Magazin. Jährlich umgesetzt mit redaktionellem Gespür, starken Bildern und individuell gestalteten Geschichten.';
 
 if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	$NORDEN_TEMPLATE_META = [
@@ -28,8 +28,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		</div>
 		<div class="hero-intro has-padding-lr">
 			<div class="row">
-				<div class="col s16 m16 l12 xl8">
-					<p class="text-is-large">Wieviel das Ötztal zu bieten hat, zeigt sich eindrucksvoll im jährlich erscheinenden ÖTZTAL MAGAZIN. Es erzählt auf fast 100 Seiten Geschichten aus Natur, Kultur, Tourismus und Alltag – eindrücklich, nah und über alle Jahreszeiten hinweg. Ein Magazin, das das Ötztal in all seinen Facetten zeigt. Ein Magazin das Bewegt. </p>
+				<div class="col s16 m16 l12">
+					<p class="text-is-large">Ein Tal voller Geschichten. Und Raum, sie zu erzählen. Das Ötztal Magazin verbindet eindrucksvolle Fotografie mit Geschichten über Natur, Kultur und die Menschen der Region. Von uns konzipiert und gestaltet, begleiten wir es Jahr für Jahr in der Umsetzung. Großzügiger Weißraum, klare Typografie und individuell gestaltete Beiträge geben jeder Geschichte ihren Platz – und dem Magazin damit seine unverwechselbare Handschrift.</p>
 				</div>
 			</div>
 		</div>
@@ -74,16 +74,14 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
      	true,
      	false
      ); ?>
-	     <?php new Image(
-      	null,
-      	'image',
-      	'/content/resources/media/oetztalMag/02_cover/03_oetzt-mag-facts.svg',
-      	'Ötztal Magazin Image',
-      	false
-      ); ?>
 </section>
 
 <section class="project-section section-5 has-padding-lr">
+	<div class="row">
+		<div class=" col s16 m10 l8 xl6 text-over-carousel">
+			<p class="is-text">Offenes Volumenpapier verleiht dem Magazin eine besondere Haptik und greift in seiner Farbigkeit den Ton der Marke auf. Es verbindet einen hochwertigen Auftritt mit geringem Gewicht – ideal für den Versand.</p>
+		</div>
+	</div>
 	<div class="carousel-container">
 		<div class="carousel" aria-label="Inhaltsseiten carousel">
 			<div class="carousel-track">
@@ -132,9 +130,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	</div>
 </section>
 
-<section class="project-section section-6 has-padding-lr">
+<section class="project-section section-6">
     <div class="row">
-        <div class="col s16 m9 l8 xl8">
+        <div class="col s16 m9 l7">
 		<?php new Image(
   	null,
   	'image',
@@ -144,7 +142,18 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
   ); ?>
         </div>
 
-		<div class="col s14 m6 l7">
+		<div class="col s14 m6 l7 xl6 push-xl1">
+				<h4 class="small-title">RAUM FÜR GUTE GESCHICHTEN</h4>
+					<p class="is-text">Großzügige Bildstrecken, ruhige Flächen und bewusst gesetzter Weißraum prägen das Magazin. Fotografien bekommen Platz, ihre Wirkung zu entfalten. Texte laden zum Vertiefen ein. Die Gestaltung verbindet beides, setzt Akzente und schafft immer wieder Momente zum Innehalten.</p>
+
+		</div>
+    </div>
+
+	<div class="row">
+		<div class="col s16 m9 l8">
+
+		</div>
+		<div class="col s14 m7 l7 push-xl1">
 		<?php new Image(
   	null,
   	'quote-image',
@@ -153,15 +162,14 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
   	true
   ); ?>
 		</div>
-    </div>
+	</div>
 </section>
 
 <section class="project-section section-7 bg-col-brown has-padding-lr">
 	<div class="row">
 		<div class="col s16 m6">
 			<p class="is-text col-white">
-			Das markante Magazin-Icon entstand aus dem „M“ des Wortes „Magazin“. Die Farben Rot, Hellblau und Dunkelblau leiten sich aus den jeweiligen Logofarben von Ötztal, Sölden und Gurgl ab und repräsentieren somit das gesamte Ötztal.
-			</p>
+			Aus dem „M“ von Magazin entsteht ein eigenständiges Zeichen. Es vereint die Markenfarben von Ötztal, Sölden und Gurgl – und bringt die gemeinsame Herkunft auf einen Blick zum Ausdruck.			</p>
 		</div>
 		<div class="col s16 m8 push-m2">
 		<?php new Video(
@@ -227,33 +235,43 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 </section>
 
 <section class="project-section section-11">
-		<div class="row has-padding-lr">
-			<div class="col s16 m14 l11">
-				<p class="text-is-large col-red">Absatz-</p>
-				<p class="is-indented text-is-large col-red">Formate</p>
-			</div>
+	<div class="row has-padding-lr">
+		<div class="col s16 m14 l11">
+		<p class="text-is-large col-red">Absatz-</p>
+		<p class="is-indented text-is-large col-red">Formate</p>
 		</div>
-
-		<div class="row has-padding-lr mt gap-row">
-			<div class="col s16 m8">
-				<?php new Image(
-    	null,
-    	'quote-image',
-    	'/content/resources/media/oetztalMag/06_Absatzformate-Layout/03_Absatzformate.svg',
-    	'Ötztal Absatzformate',
-    	true
-    ); ?>
-			</div>
-			<div class="col s16 m8">
-				<?php new Image(
-    	null,
-    	'quote-image',
-    	'/content/resources/media/oetztalMag/06_Absatzformate-Layout/04_oetzt_mag_layout_grid.gif',
-    	'Ötztal Layout Grid',
-    	true
-    ); ?>
-			</div>
 	</div>
+<div class="row has-padding-lr">
+	<div class="col s16 m8">
+		<?php new Image(
+  	null,
+  	'absatzformate-image',
+  	'/content/resources/media/oetztalMag/06_Absatzformate-Layout/03_Absatzformate.svg',
+  	'Ötztal Absatzformate',
+  	true
+  ); ?>
+	</div>
+
+	<div class="col s16 m8 l7 push-l1">
+ 		<h4 class="small-title">KLARE STRUKTUR. INDIVIDUELLE GESTALTUNG.</h4>
+	</div>
+</div>
+
+<div class="row has-padding-lr">
+	<div class="col s16 m8">
+	<?php new Image(
+ 	null,
+ 	'quote-image',
+ 	'/content/resources/media/oetztalMag/06_Absatzformate-Layout/04_oetzt_mag_layout_grid.gif',
+ 	'Ötztal Layout Grid',
+ 	true
+ ); ?>
+
+	</div>
+	<div class="col s16 m8 l6 push-l1">
+		<p class="is-text">Großzügige Bildstrecken, ruhige Flächen und bewusst gesetzter Weißraum prägen das Magazin. Fotografien bekommen Platz, ihre Wirkung zu entfalten. Texte laden zum Vertiefen ein. Die Gestaltung verbindet beides, setzt Akzente und schafft immer wieder Momente zum Innehalten.</p>
+	</div>
+</div>
 </section>
 
 <section class="project-section section-12">

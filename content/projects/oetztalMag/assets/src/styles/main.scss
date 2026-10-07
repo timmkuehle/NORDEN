@@ -364,7 +364,7 @@ $smaller-line-height: 1;
 				align-self: end;
 				margin-top: 0;
 				padding-top: 2.75rem;
-				padding-bottom: 12.5%;
+				padding-bottom: 8.5%;
 			}
 
 			.text-is-large {
@@ -394,7 +394,7 @@ $smaller-line-height: 1;
 	.section-4 {
 		display: block;
 		padding-top: 0;
-
+		padding-bottom: 0;
 		// Only direct children — not the absolute video placeholder inside `.video`
 		> .image,
 		> .video {
@@ -405,6 +405,11 @@ $smaller-line-height: 1;
 
 	.section-5 {
 		display: block;
+		padding-top: 0;
+		.text-over-carousel {
+			margin-bottom: 2rem;
+			font-family: "AS Oetztal HL", serif;
+		}
 
 		.carousel-container {
 			width: 100%;
@@ -477,18 +482,40 @@ $smaller-line-height: 1;
 	}
 	.section-6 {
 		display: block;
+
+		.small-title {
+			font-family: "AS Oetztal HL", serif;
+			color: #7d5753;
+			letter-spacing: 0.5em;
+			font-weight: 600;
+			margin-bottom: 1rem !important;
+		}
+		.is-text {
+			font-weight: 300;
+			font-family: "AS Oetztal HL", serif;
+			line-height: 150%;
+		}
 		.row {
 			gap: 5rem;
-			padding: 3rem 0;
+			padding-top: 3rem;
 			justify-content: center;
 			@include minquery($screen-m) {
 				gap: 0;
 				padding-right: 0;
 				padding-left: 0;
 			}
+			:first-of-type {
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+			:last-of-type {
+				padding-top: 0;
+				margin-top: 0;
+			}
 		}
 		.quote-image {
 			width: 100%;
+			max-width: 25rem;
 			height: auto;
 			display: block;
 		}
@@ -568,6 +595,35 @@ $smaller-line-height: 1;
 
 	.section-11 {
 		display: block;
+
+		.row {
+			&:nth-child(2) {
+				align-items: flex-end;
+			}
+			&:nth-child(3) {
+				align-items: flex-start;
+			}
+		}
+		.absatzformate-image {
+			margin-top: 4rem;
+			width: 100%;
+			height: auto;
+			display: block;
+			margin-bottom: 1rem;
+		}
+		.small-title {
+			font-family: "AS Oetztal HL", serif;
+			color: #7d5753;
+			letter-spacing: 0.5em;
+			font-weight: 600;
+			margin-bottom: 1rem !important;
+			line-height: 130%;
+		}
+		.is-text {
+			font-weight: 300;
+			font-family: "AS Oetztal HL", serif;
+			line-height: 150%;
+		}
 		.gap-row {
 			gap: 2.5rem;
 
