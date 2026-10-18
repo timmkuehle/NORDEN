@@ -16,7 +16,6 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 			<div class="row address">
 				<a href="https://maps.app.goo.gl/12PomVjPgj3omDMZ8" rel="noopenernoreferrer">Kaiser-Franz-Joseph-Str. 10<br>6020 Innsbruck / Austria</a>
 			</div>
-			<span class="row">+43 512935681</span>
 			<p class="row links">
 				<a href="mailto:mail@norden.co">
 					<span class="prefix">></span>
@@ -31,7 +30,6 @@ new \SiteHeader(null, null, true, null, null, null, [], []);
 		<footer class="contact-footer minimal-footer">
 			<div class="contact-links">
 				<a href="mailto:mail@norden.co" class="contact-link">Say hi</a>
-				<a href="tel:+43512935681" class="contact-link">Give us a call</a>
 			</div>
 			<?php new \FooterMenu(null, null); ?>
 			<div class="some-links">
