@@ -374,7 +374,7 @@ $smaller-line-height: 1;
 		background: linear-gradient(to top, white 80%, $color-beige);
 		position: relative;
 		.row {
-			justify-content: center;
+			justify-content: flex-start;
 			gap: 5rem;
 
 			@include minquery($screen-m) {
@@ -382,7 +382,7 @@ $smaller-line-height: 1;
 			}
 
 			@include minquery($screen-l) {
-				justify-content: flex-start;
+				justify-content: center;
 			}
 
 			.is-headline {
@@ -397,17 +397,13 @@ $smaller-line-height: 1;
 			.sub-headline {
 				color: $color-light-blue;
 			}
-			.hide-desktop {
-				@include minquery($screen-l) {
-					display: none;
-					width: 0;
-				}
-			}
+			.hide-mobile {
+				display: none;
+				width: 0;
 
-			// Drop the mobile/tablet push once the image is gone
-			.push-m1 {
 				@include minquery($screen-l) {
-					left: 0;
+					display: block;
+					width: auto;
 				}
 			}
 		}

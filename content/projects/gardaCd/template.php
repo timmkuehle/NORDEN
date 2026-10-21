@@ -81,7 +81,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<section class="project-section section-4">
 		<div class="meta-headline">Graphic elements</div>
 			<div class="row  has-padding-lr">
-				<div class="col s10 m6 l4 xl3 hide-desktop">
+				<div class="col s10 m6 l4 xl3 hide-mobile">
 				<?php new Image(
     	null,
     	'image',
@@ -90,7 +90,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     	false
     ); ?>
 				</div>
-				<div class="col s16 m8 l7 xl6 push-m1">
+				<div class="col s16 m8 l7 xl6 push-l1">
 					<h3 class="is-headline col-turquoise"><span>M</span>ountains & <span>W</span>ater</h3>
 					<p class="is-text">Die Landschaft als Inspiration: Markante Bergkanten und weiche Wasserbewegungen verschmelzen zu einem grafischen System. Als Zeichen, Muster oder großflächige Elemente machen sie den Charakter von Garda Trentino sichtbar.</p>
 				
