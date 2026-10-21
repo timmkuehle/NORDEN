@@ -102,7 +102,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<div class="row centered has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
 		<h4 class="small-title">HOLZ MIT CHARAKTER.</h4>
-			<p class="is-text is-indented">Für das Premium-Käsekistl haben wir uns bewusst für eine Holzkiste entschieden. Ihre sichtbare Maserung und natürliche Haptik sind Teil der Gestaltung. So wird die Verbindung zu Herkunft und Handwerk schon beim Anfassen spürbar.</p>
+			<p class="is-text">Für das Premium-Käsekistl haben wir uns bewusst für eine Holzkiste entschieden. Ihre sichtbare Maserung und natürliche Haptik sind Teil der Gestaltung. So wird die Verbindung zu Herkunft und Handwerk schon beim Anfassen spürbar.</p>
 		</div>
 	</div>
 </section>

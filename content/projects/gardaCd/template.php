@@ -502,9 +502,7 @@ Folder, Karten und Magazine verbinden großzügige Fotografie mit flexiblen Layo
 	false
 ); ?>
 
-	<div class="is-text">
-	Vom kompakten Markenzeichen bis zur großflächigen Inszenierung: Das Gestaltungssystem funktioniert in unterschiedlichsten Größen und Umgebungen. Fahnen, Eventauftritte und Fahrzeuge zeigen, wie sich die gemeinsame Idee im Raum entfaltet – und die Marke vor Ort erlebbar wird.
-</div>
+
 <?php new Image(
 	null,
 	'image-2',

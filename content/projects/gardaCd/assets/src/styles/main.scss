@@ -811,10 +811,11 @@ $smaller-line-height: 1;
 		background-size: cover;
 		.image {
 			margin-top: 5rem;
-			margin-bottom: 0;
 
 			@include minquery($screen-m) {
 				margin-top: 10rem;
+				margin-bottom: 5rem;
+
 			}
 		}
 		.is-text {

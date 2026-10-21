@@ -333,7 +333,12 @@ $smaller-line-height: 1;
 		}
 		.white-logo {
 			max-width: 12rem;
-			margin-bottom: 5rem;
+			margin-top: 5rem;
+
+			@include minquery($screen-l) {
+				max-width: 20rem;
+
+			}
 		}
 	}
 
