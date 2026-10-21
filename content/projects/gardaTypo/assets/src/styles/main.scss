@@ -334,10 +334,10 @@ $smaller-line-height: 1;
 		.white-logo {
 			max-width: 12rem;
 			margin-top: 5rem;
-
+			margin-bottom: 5rem;
 			@include minquery($screen-l) {
 				max-width: 20rem;
-
+				margin-bottom: 0;
 			}
 		}
 	}
@@ -416,7 +416,14 @@ $smaller-line-height: 1;
 	}
 
 	.section-9 {
-		background: linear-gradient(to bottom, $color-turquoise, $color-beige);
+		// Solid beige base so the soft gradient can't leave a 1px seam
+		// against the following section (interpolation ≠ exact $color-beige).
+		background-color: $color-beige;
+		background-image: linear-gradient(
+			to bottom,
+			$color-turquoise,
+			transparent
+		);
 	}
 	.section-10 {
 		.row {

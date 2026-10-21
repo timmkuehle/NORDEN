@@ -761,10 +761,15 @@ $smaller-line-height: 1;
 		position: relative;
 		.deco-image {
 			position: absolute;
-			width: 150px;
+			width: 100px;
 			height: auto;
 			top: -4rem;
 			right: 0;
+
+			@include minquery($screen-m) {
+				width: 150px;
+
+			}
 		}
 	}
 
