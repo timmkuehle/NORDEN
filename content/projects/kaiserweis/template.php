@@ -26,7 +26,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <section class="project-section has-padding-lr section-2 bg-col-white">
        <div class="row">
        <div class="col s16 m12 l11">
-			<p class="text-is-large">Regionaler Genuss. Spürbar gut verpackt. Unter der Genussmarke Kaiserweis bringen das Kufsteinerland und der Kaiserwinkl ihre regionalen Spezialitäten gemeinsam zur Geltung – allen voran den heimischen Käse. Für das Premium-Käsekistl haben wir ein Verpackungsdesign entwickelt, das diese Herkunft nach außen trägt: mit Holz, Siebdruck und Naturpapier.</p>
+			<p class="text-is-large">Regionaler Genuss. Spürbar gut verpackt. Unter der Genussmarke Kaiserweis vereinen das Kufsteinerland und der Kaiserwinkl ihre regionalen Spezialitäten. Für das Premium-Käsekistl entwickelten wir ein Verpackungsdesign aus Holz, Siebdruck und Naturpapier, das die Herkunft sichtbar macht.</p>
 		</div>
 		<div class="col s16 m2 push-m2 push-l2 l3">
 		<div class="buttons">
@@ -83,7 +83,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<div class="row centered  has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
             <h4 class="small-title">ZWEI BOXEN. EINE HERKUNFT.</h4>
-			<p class="is-text is-indented">Für Kaiserweis entstanden zwei Verpackungen mit eigenem Charakter: die verspielte Kids Käsebox und das Premium-Käsekistl. Hier stehen natürliche Materialien und eine reduzierte Gestaltung im Mittelpunkt – passend zur regionalen Käsekultur.</p>
+			<p class="is-text">Für Kaiserweis entstanden zwei Verpackungen mit eigenem Charakter: die verspielte Kids Käsebox und das Premium-Käsekistl. Natürliche Materialien und eine reduzierte Gestaltung unterstreichen die regionale Käsekultur.</p>
 		</div>
 	</div>
 </section>
@@ -177,9 +177,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		</div>
 		<div class="col s16 m8 l6 xl5">
 		<h4 class="small-title">DIREKT AUFS HOLZ.</h4>
-			<p class="is-text">
-			Die Grafik wurde in einer österreichischen Druckerei im Siebdruck direkt auf das Holz aufgebracht. Feine Rasterpunkte und kräftige Flächen treffen auf die individuelle Maserung – Druck und Material werden zu einem gemeinsamen Bild.
-		</p>
+			<p class="is-text">Die Grafik wurde im Siebdruck direkt auf das Holz aufgebracht. Feine Rasterpunkte und kräftige Flächen treffen auf die individuelle Maserung und verbinden Druck und Material zu einem Gesamtbild.</p>
 		</div>
 	</div>
 </section>
@@ -189,7 +187,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<div class="col s16 m8 l8">
 			<h4 class="small-title">GUTER GESCHMACK. AUF KARTEN.</h4>
 			<p class="is-text">
-			Ein Postkarten-Set stellt die unterschiedlichen Käsesorten und ihre Besonderheiten vor. Gedruckt auf Naturpapier, führen die Karten die natürliche Anmutung des Kistls fort. Landschaftsfotografie, Käseillustrationen und kurze Beschreibungen machen Lust aufs Entdecken und Probieren.		</p>
+			Ein Postkarten-Set stellt die Käsesorten und ihre Besonderheiten vor. Naturpapier, Landschaftsfotografie, Käseillustrationen und kurze Beschreibungen greifen die natürliche Anmutung des Kistls auf und machen Lust aufs Entdecken und Probieren.</p>
 		</div>
 	</div>
 </section>

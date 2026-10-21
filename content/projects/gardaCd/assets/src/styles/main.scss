@@ -380,20 +380,35 @@ $smaller-line-height: 1;
 			@include minquery($screen-m) {
 				gap: 0rem;
 			}
+
+			@include minquery($screen-l) {
+				justify-content: flex-start;
+			}
+
 			.is-headline {
-				margin-bottom: 3rem;
+
 				font-style: italic;
 				font-weight: 800;
 
-				@include minquery($screen-m) {
-					margin-bottom: 5rem;
-				}
 				span {
 					color: $color-light-blue;
 				}
 			}
 			.sub-headline {
 				color: $color-light-blue;
+			}
+			.hide-desktop {
+				@include minquery($screen-l) {
+					display: none;
+					width: 0;
+				}
+			}
+
+			// Drop the mobile/tablet push once the image is gone
+			.push-m1 {
+				@include minquery($screen-l) {
+					left: 0;
+				}
 			}
 		}
 	}
@@ -446,7 +461,14 @@ $smaller-line-height: 1;
 				justify-content: flex-start;
 				flex-wrap: nowrap;
 			}
+			.is-headline {
+				font-style: italic;
+				font-weight: 800;
 
+				span {
+					color: $color-light-blue;
+				}
+			}
 			.sub-headline {
 				font-weight: 800;
 				color: #c0cfbc;
@@ -639,8 +661,14 @@ $smaller-line-height: 1;
 
 	.section-14 {
 		background-color: #c0cfbc;
+		padding-top: 4rem;
 		.is-headline {
-			margin-top: 0;
+			font-style: italic;
+			font-weight: 800;
+
+			span {
+				color: $color-light-blue;
+			}
 		}
 
 		.sub-2 {
@@ -660,13 +688,13 @@ $smaller-line-height: 1;
 	}
 	.section-16 {
 		.image {
-			padding: 5rem 0;
+			padding: 5rem 0 1rem;
 
 			@include minquery($screen-l) {
-				padding: 7.5rem 0;
+				padding: 7.5rem 0 0rem;
 			}
 			@include minquery($screen-xl) {
-				padding: 10rem 0;
+				padding: 10rem 0 0rem;
 			}
 		}
 	}
@@ -720,7 +748,7 @@ $smaller-line-height: 1;
 	.section-19 {
 		padding-bottom: 10rem;
 		background-image: linear-gradient(to bottom, $color-beige 45%, white);
-		
+
 		@include minquery($screen-m) {
 			padding-bottom: 15rem;
 		}
@@ -775,11 +803,6 @@ $smaller-line-height: 1;
 		}
 	}
 	.section-22 {
-		padding-bottom: 0;
-		.is-text {
-			margin-top: 5rem;
-			max-width: 55ch;
-		}
 	}
 	.section-24 {
 		position: relative;

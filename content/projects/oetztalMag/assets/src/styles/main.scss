@@ -406,6 +406,7 @@ $smaller-line-height: 1;
 	.section-5 {
 		display: block;
 		padding-top: 0;
+		padding-bottom: 0;
 		.text-over-carousel {
 			margin-bottom: 2rem;
 			font-family: "AS Oetztal HL", serif;
@@ -453,8 +454,8 @@ $smaller-line-height: 1;
 			border: none;
 			padding: 0;
 			margin: 0;
-			width: 26px;
-			height: 20px;
+			width: 20px;
+			height: 14px;
 			background-color: #000;
 			-webkit-mask: url("../../../../../resources/media/burton/arrow-swiper.svg")
 				no-repeat center / contain;
@@ -482,7 +483,7 @@ $smaller-line-height: 1;
 	}
 	.section-6 {
 		display: block;
-
+		padding-bottom: 5rem;
 		.small-title {
 			font-family: "AS Oetztal HL", serif;
 			color: #7d5753;
@@ -496,11 +497,9 @@ $smaller-line-height: 1;
 			line-height: 150%;
 		}
 		.row {
-			gap: 5rem;
 			padding-top: 3rem;
 			justify-content: center;
 			@include minquery($screen-m) {
-				gap: 0;
 				padding-right: 0;
 				padding-left: 0;
 			}
@@ -512,10 +511,37 @@ $smaller-line-height: 1;
 				padding-top: 0;
 				margin-top: 0;
 			}
+
+			// Mobile: title/text → image → quote
+			&:first-child {
+				.col:first-child {
+					order: 2;
+				}
+				.col:last-child {
+					order: 1;
+				}
+
+				@include minquery($screen-m) {
+					.col:first-child,
+					.col:last-child {
+						order: initial;
+					}
+				}
+			}
+
+			&:last-child {
+				.col:first-child {
+					display: none;
+
+					@include minquery($screen-m) {
+						display: block;
+					}
+				}
+			}
 		}
 		.quote-image {
 			width: 100%;
-			max-width: 25rem;
+			max-width: 20rem;
 			height: auto;
 			display: block;
 		}
@@ -594,14 +620,56 @@ $smaller-line-height: 1;
 	}
 
 	.section-11 {
-		display: block;
-
+		// Beat `.project-section { display: block !important }` so flex `order` works
+		display: flex !important;
+		flex-direction: column;
+		.quote-image {
+			border: 1px solid #b20933;
+			margin-top: 1rem;
+		}
 		.row {
-			&:nth-child(2) {
-				align-items: flex-end;
-			}
+			// Mobile: absatzformate image → quote image → small title → text
+			&:nth-child(2),
 			&:nth-child(3) {
-				align-items: flex-start;
+				display: contents;
+			}
+
+			&:nth-child(2) {
+				.col:first-child {
+					order: 1;
+				}
+				.col:last-child {
+					order: 3;
+				}
+			}
+
+			&:nth-child(3) {
+				.col:first-child {
+					order: 2;
+				}
+				.col:last-child {
+					order: 4;
+				}
+			}
+
+			@include minquery($screen-m) {
+				&:nth-child(2),
+				&:nth-child(3) {
+					display: flex;
+
+					.col:first-child,
+					.col:last-child {
+						order: initial;
+					}
+				}
+
+				&:nth-child(2) {
+					align-items: flex-end;
+				}
+
+				&:nth-child(3) {
+					align-items: flex-start;
+				}
 			}
 		}
 		.absatzformate-image {
@@ -609,7 +677,12 @@ $smaller-line-height: 1;
 			width: 100%;
 			height: auto;
 			display: block;
-			margin-bottom: 1rem;
+			margin-bottom: 2.5rem;
+
+			@include minquery($screen-m) {
+				margin-bottom: 1rem;
+
+			}
 		}
 		.small-title {
 			font-family: "AS Oetztal HL", serif;
@@ -618,6 +691,10 @@ $smaller-line-height: 1;
 			font-weight: 600;
 			margin-bottom: 1rem !important;
 			line-height: 130%;
+			margin-top: 4rem;
+			@include minquery($screen-m) {
+				margin-top: 0;
+			}
 		}
 		.is-text {
 			font-weight: 300;

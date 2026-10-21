@@ -41,15 +41,15 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<div class="row">
 			<div class="col s10 m16 l4 xl4 center">
 			<?php new Image(
-   	null,
-   	'logo-black',
-   	'/content/resources/media/gardaCd/00_Garda logo black.svg',
-   	'Garda Logo Black',
-   	false
-   ); ?>
+				null,
+				'logo-black',
+				'/content/resources/media/gardaCd/00_Garda logo black.svg',
+				'Garda Logo Black',
+				false
+			); ?>
 			</div>
 			<div class="col s16 m16 l12 xl11">
-				<p class="text-is-large">Mountains & Water. Alpine Sportlichkeit trifft auf Dolce Vita. Für die nördliche Region des Gardasees – Garda Trentino –  haben wir die visuelle Markenstrategie entwickelt und in ein umfassendes Corporate Design übersetzt. Die Leitidee liegt im Zusammenspiel der Gegensätze: Berge und Wasser, kantig und rund, hart und weich. Aus ihrer Verbindung entsteht eine eigenständige Formensprache, die den jungen, sportlichen Charakter der Region zum Ausdruck bringt. Von der Konzeption bis zur Implementierung haben wir diesen Gedanken über alle Kontaktpunkte der Marke hinweg lebendig gemacht.</p>
+				<p class="text-is-large">Mountains & Water: Alpine Sportlichkeit trifft auf Dolce Vita. Für Garda Trentino entwickelten wir eine visuelle Markenstrategie und ein Corporate Design, das Gegensätze wie Berge und Wasser, kantige und runde Formen vereint. So wird der junge, sportliche Charakter der Region über alle Kontaktpunkte hinweg erlebbar.</p>
 			</div>
 		</div>
 	</section>
@@ -81,7 +81,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<section class="project-section section-4">
 		<div class="meta-headline">Graphic elements</div>
 			<div class="row  has-padding-lr">
-				<div class="col s10 m6 l4 xl3">
+				<div class="col s10 m6 l4 xl3 hide-desktop">
 				<?php new Image(
     	null,
     	'image',
@@ -92,7 +92,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 				</div>
 				<div class="col s16 m8 l7 xl6 push-m1">
 					<h3 class="is-headline col-turquoise"><span>M</span>ountains & <span>W</span>ater</h3>
-					<p class="is-text">Die Landschaft gibt die Formen vor: markante Kanten der Berge, weiche Bewegungen des Wassers. Wir haben diese Gegensätze zu einem grafischen System verbunden. Als einzelne Zeichen, flächige Muster oder großformatige Elemente prägen sie den Auftritt und machen den Charakter von Garda Trentino sichtbar.</p>
+					<p class="is-text">Die Landschaft als Inspiration: Markante Bergkanten und weiche Wasserbewegungen verschmelzen zu einem grafischen System. Als Zeichen, Muster oder großflächige Elemente machen sie den Charakter von Garda Trentino sichtbar.</p>
 				
 				</div>
 			</div>
@@ -145,7 +145,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			<div class="col s16 m16 l8">
 			<h3 class="is-headline col-turquoise">Spray Colors</h3>
 
-				<p class="is-text">Tiefes Petrol, sanfte Wasser- und Grüntöne, ein warmer heller Grund: Die Farbwelt nimmt die Landschaft von Garda Trentino auf. Leuchtendes Gelb setzt gezielte Akzente und lenkt den Blick. So verbinden sich natürliche Ruhe und sportliche Energie.</p>
+				<p class="is-text">Petrol, Wasser- und Grüntöne prägen die Farbwelt, leuchtendes Gelb setzt sportliche Akzente. Inspiriert von der Landschaft Garda Trentinos, verbindet sie natürliche Ruhe mit dynamischer Energie.</p>
 			</div>
 
 			<div class="col s16 m16 l16">
@@ -166,7 +166,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 
 	<h3 class="is-headline col-turquoise">DIE MARKE IN BEWEGUNG</h3>
 	<div class="sub-headline">EXTENDED</div>
-<p class="is-text">Im Motion Design entfaltet das Zusammenspiel der Gegensätze seine Dynamik. Typografie, Berg- und Wellenmotive greifen ineinander und verbinden sich mit der Bildwelt der Region. So wird Mountains & Water auch in Bewegung zum wiedererkennbaren Bestandteil der Marke.</p>
+<p class="is-text">Im Motion Design verschmelzen Typografie, Berg- und Wellenmotive mit der Bildwelt der Region. So wird Mountains & Water dynamisch erlebbar und zum wiedererkennbaren Bestandteil der Marke.</p>
 	<div class="row">
 		<div class="col s16 m13 l12">
 		<?php new Video(
@@ -195,7 +195,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			<div class="col s16 m12 l9 xl8">
 				<h3 class="is-headline col-turquoise">Layout konzept</h3>
 				<div class="sub-headline">EIN SYSTEM – VIELE MÖGLICHKEITEN</div>
-				<p class="is-text">Prägnante Headlines, großzügige Bildflächen und klar gegliederte Informationen bilden die Basis des Layouts. Berg- und Wellenformen setzen Akzente, verbinden Flächen und schaffen Wiedererkennung. Das System lässt sich flexibel auf unterschiedliche Themen und Formate übertragen – und gibt der Kommunikation über alle Medien hinweg eine gemeinsame Handschrift.</p>
+				<p class="is-text">Prägnante Headlines, großzügige Bildflächen und klare Strukturen prägen das Layout. Berg- und Wellenformen schaffen Wiedererkennung und verbinden die Gestaltung zu einer flexiblen, medienübergreifenden Handschrift.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -235,7 +235,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			<div class="col s16 m16 l8">
 				<h3 class="is-headline col-turquoise">PIKTOGRAMM-KONZEPT</h3>
 				<div class="sub-headline">KLEINE ZEICHEN – KLARE IDENTITÄT</div>
-				<div class="is-text">Kantige und runde Formen verbinden die Piktogramme mit der Typografie und der Leitidee Mountains & Water. So geben sie Orientierung und machen die Marke bis ins Detail erkennbar.</div>
+				<div class="is-text">Die Piktogramme übersetzen Mountains & Water in kompakte Bildzeichen. Kantige Konturen, weiche Rundungen und leichte Asymmetrien greifen die Formensprache der Marke auf und machen Sportarten, Angebote und Informationen schnell erfassbar.</div>
 			</div>
 			<div class="col s16 m16 l8">
 			<?php new Image(
@@ -295,7 +295,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			<div class="col s16 m10 l9 xl8">
 				<h3 class="is-headline col-turquoise">Social Media</h3>
 				<div class="sub-headline">ABWECHSLUNG MIT WIEDERERKENNUNG</div>
-				<div class="is-text">Für Social Media haben wir das Gestaltungssystem in flexible Vorlagen übersetzt. Bilder, Headlines und grafische Muster lassen sich für unterschiedliche Inhalte kombinieren – vom Veranstaltungstipp bis zur Toureninformation. So bleibt der Auftritt abwechslungsreich und klar als Garda Trentino erkennbar.</div>
+				<div class="is-text">Flexible Social-Media-Vorlagen kombinieren Bilder, Headlines und grafische Muster für unterschiedliche Inhalte. So bleibt der Auftritt abwechslungsreich und klar als Garda Trentino erkennbar.</div>
 			</div>
 
 			<div class="col s16">
@@ -315,7 +315,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<div class="col s16 m10 l9 xl8">
 			<h3 class="is-headline col-turquoise">Screendesign</h3>
 			<div class="sub-headline col-white sub-2">DIGITAL WEITERGEDACHT</div>
-			<div class="is-text">Für die B2B- und B2C-Websites haben wir den Markenauftritt ins Screendesign übertragen. Großzügige Bilder schaffen Atmosphäre, klare Typografie und Farbflächen strukturieren die Inhalte. Die gemeinsame Formensprache verbindet die unterschiedlichen Angebote für Gäste und Partner zu einem durchgängigen digitalen Auftritt.</div>
+			<div class="is-text">Großzügige Bilder, klare Typografie und Farbflächen übertragen den Markenauftritt ins Screendesign. Die gemeinsame Formensprache verbindet die B2B- und B2C-Websites zu einem einheitlichen digitalen Auftritt.</div>
 		</div>
 
 			<div class="col s16">
@@ -355,9 +355,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 
 	<h3 class="is-headline col-turquoise">Design in use</h3>
 	<div class="sub-headline">Print</div>
-<div class="is-text">
-In Foldern, Karten und Magazinen wird das Gestaltungssystem zum täglichen Werkzeug der Markenkommunikation. Unterschiedliche Themen und Informationsmengen finden darin ebenso Platz wie großzügige Fotografie. Jede Anwendung erhält ihren eigenen Schwerpunkt und bleibt Teil des gemeinsamen Auftritts.
-</div>
+<p class="is-text">
+Folder, Karten und Magazine verbinden großzügige Fotografie mit flexiblen Layouts. Auch auf Shirts, Caps und Accessoires machen Berg- und Wellenformen die Identität von Garda Trentino sichtbar. Von Printmedien über Merchandise bis hin zu Fahnen, Events und Fahrzeugen sorgt das Gestaltungssystem für einen durchgängigen Markenauftritt und macht die Marke in unterschiedlichsten Größen und Umgebungen erlebbar.
+</p>
 	<?php new Image(
  	null,
  	'image',
@@ -476,11 +476,7 @@ In Foldern, Karten und Magazinen wird das Gestaltungssystem zum täglichen Werkz
 	'Garda Wall',
 	false
 ); ?>
-<div class="row has-padding-lr">
-	<div class="is-text">
-	Auf Shirts, Caps und Accessoires werden Berg- und Wellenformen zu eigenständigen Motiven. Mal als kleines Detail, mal als großflächiges Muster bringen sie die Identität der Region auf unterschiedliche Materialien und Produkte. Sportlich, unkompliziert und gemacht für den Alltag.
-	</div>
-</div>
+
 </section>
 
 <section class="project-section section-23 pb-0">

@@ -33,7 +33,9 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<section class="project-section section-2 has-padding-lr bg-col-turquoise" >
 		<div class="row">
 			<div class="col s16 m16 ">
-				<p class="text-is-large col-white">Für Garda Trentino, die nördliche Region des Gardasees, haben wir eine individuelle Headline-Schrift als zentrales Erkennungsmerkmal des Markenauftritts entwickelt. Sie übersetzt die Leitidee Mountains & Water in Typografie: kantig und rund, hart und weich, alpine Sportlichkeit und Dolce Vita. Aus diesem Zusammenspiel entsteht ein eigenständiger Ausdruck, der Garda Trentino schon im Schriftbild unverwechselbar macht – über alle Medien und Touchpoints hinweg.</p>
+				<p class="text-is-large col-white">Für Garda Trentino entwickelten wir eine individuelle Headline-Schrift als zentrales Markenelement. Sie übersetzt Mountains & Water in Typografie und vereint kantige und runde Formen, alpine Sportlichkeit und Dolce Vita. So entsteht ein unverwechselbarer Ausdruck über alle Medien hinweg.</p>
+				<p class="col-white">— Font creation in cooperation with TypeTogether</p>
+
 			</div>
 		</div>
 	</section>
@@ -52,9 +54,6 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
   	null,
   	'—' // no separators
   ); ?>
-  	<div class="is-text col-gold">
-		<p>— Font creation in cooperation with TypeTogether</p>
-	</div>
 	</section>
 
 	<section class="project-section section-4 has-padding-lr bg-col-turquoise">
@@ -66,16 +65,16 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		</div>
 		<div class="row">
 			<div class="col s16 m8 l7">
+	
+			<p class="is-text col-white">Berge und Wasser, kantig und rund, hart und weich: Die Schrift vereint die Gegensätze von Garda Trentino. Ihre geneigte, kompakte Form bringt sportliche Dynamik ins Schriftbild, während weiche Kurven auf markante Kanten treffen. Inspiriert von den bildhaften Buchstabeninnenräumen des bestehenden Garda-Logos entsteht eine eigenständige typografische Identität mit spürbarer Verbindung zur Marke.</p>
 			<?php new Image(
-			null,
-			'white-logo',
-			'/content/resources/media/gardaTypo/00_Garda_logo_white.svg',
-			'Garda Logo',
-			false
-		); ?>
-			<p class="is-text col-white">Berge und Wasser, kantig und rund, hart und weich: Die Schrift lebt vom Zusammenspiel der Gegensätze, die Garda Trentino prägen. Ihre geneigte, kompakte Grundform bringt sportliche Dynamik ins Schriftbild. Weiche Kurven treffen auf markante Kanten.</p>
-			<p class="is-text col-white">Eine weitere Verbindung schafft das bestehende Garda-Logo: Seine bildhaft gestalteten Buchstabeninnenräume haben uns inspiriert, auch innerhalb der Schrift mit Form und Gegenform zu spielen. So entsteht eine eigene typografische Identität, deren Verbindung zur Marke spürbar bleibt.</p>
-			</div>
+   	null,
+   	'white-logo',
+   	'/content/resources/media/gardaTypo/00_Garda_logo_white.svg',
+   	'Garda Logo',
+   	false
+   ); ?>
+		</div>
 			<div class="col s16 m8 l8 push-l1">
 			<?php new Image(
    	null,
@@ -112,7 +111,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 			</div>
 			<div class="col s16 m9 l8 xl7 push-m1 push-l1">
 				<div class="meta-headline">EINE SCHRIFT – VIELE FACETTEN</div>
-				<p class="is-text col-black">Für ausgewählte Buchstaben stehen mehrere Zeichenvarianten zur Verfügung: mal klar und kompakt, mal fließend, mal ausladend. Sie lassen sich gezielt kombinieren und geben jeder Headline ihren eigenen Rhythmus. So kann die Schrift je nach Wort und Anwendung unterschiedliche Akzente setzen – und behält dabei ihren unverwechselbaren Charakter.</p>
+				<p class="is-text col-black">Ausgewählte Buchstaben gibt es in mehreren Varianten – von klar und kompakt bis fließend und ausladend. Gezielt kombiniert, verleihen sie Headlines einen individuellen Rhythmus und setzen unterschiedliche Akzente, ohne den unverwechselbaren Charakter der Schrift zu verlieren.</p>
 			</div>
 		</div>
 	</section>
@@ -131,7 +130,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<div class="row">
 			<div class="col s16 m14 l8 xl6">
 				<div class="meta-headline">CHARAKTER, DER SICH DURCHZIEHT.</div>
-				<p class="is-text">In Headlines, auf Titelseiten und in digitalen Anwendungen wird die Schrift zum prägenden Element des Markenauftritts. Ihre individuellen Zeichen schaffen Wiedererkennung und machen Worte selbst zum Gestaltungsmittel. Die ergänzende Montserrat bringt Ruhe und Klarheit in längere Texte und Informationen. Gemeinsam bilden sie die typografische Basis für Garda Trentino.</p>
+				<p class="is-text">In Headlines, auf Titelseiten und in digitalen Anwendungen prägt die Schrift den Markenauftritt und macht Worte selbst zum Gestaltungsmittel. Die ergänzende Montserrat sorgt für Ruhe und Klarheit in längeren Texten. Gemeinsam bilden sie die typografische Basis von Garda Trentino.</p>
 			</div>
 			<div class="col s16">
 				<?php new Image(

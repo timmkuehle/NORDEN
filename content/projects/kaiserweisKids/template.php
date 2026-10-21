@@ -27,7 +27,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
     <section class="project-section has-padding-lr section-2 bg-col-white">
 	<div class="row">
        <div class="col s16 m12 l11">
-			<p class="text-is-large">Regionaler Genuss, spielerisch verpackt. Die Käseregion Kaiserweis verbindet Kaiserwinkl und Kufsteinerland mit ihrer handwerklichen Käsetradition. Für ihren Heumilchkäse haben wir eine Verpackung gestaltet, die schon beim Aufmachen neugierig macht: die Kids Käsebox.</p>
+			<p class="text-is-large">Regionaler Genuss, spielerisch verpackt. Kaiserweis vereint die Käsetradition von Kaiserwinkl und Kufsteinerland. Für den Heumilchkäse gestalteten wir die Kids Käsebox, die schon beim Öffnen neugierig macht.</p>
 		</div>
 		<div class="col s16 m2 push-m2 push-l2 l3">
 		<div class="buttons">
@@ -84,7 +84,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<div class="row centered  has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
             <h4 class="small-title">ZWEI BOXEN. EINE HERKUNFT.</h4>
-			<p class="is-text is-indented">Für Kaiserweis haben wir zwei Verpackungen mit eigenem Charakter entwickelt: eine verspielte Käsebox für Kinder und ein traditionelles Holzkisterl für Erwachsene. Zwei unterschiedliche Zugänge, die dieselbe Geschichte erzählen – von regionaler Herkunft, gutem Handwerk und der Freude am Genießen.</p>
+			<p class="is-text is-indented">Für Kaiserweis entwickelten wir zwei Verpackungen mit eigenem Charakter: eine verspielte Käsebox für Kinder und ein traditionelles Holzkisterl für Erwachsene. Beide erzählen von regionaler Herkunft, gutem Handwerk und der Freude am Genießen.</p>
 		</div>
 	</div>
     <?php new Image(
@@ -121,7 +121,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<div class="row centered has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
             <h4 class="small-title">FÜR KINDER. MIT KINDERN.</h4>
-			<p class="is-text is-indented">Eine Bühne für kleine Zeichentalente: Bei einem Zeichenwettbewerb an den Schulen der Region konnten alle Kinder ihre Bilder einreichen. Ausgewählte Arbeiten fanden ihren Platz auf der Innenseite des Deckels – und machen die Kids Käsebox beim Öffnen zur kleinen Galerie.</p>
+			<p class="is-text is-indented">Eine neugierige Maus, ein Käse auf zwei Beinen und viele Details: Unsere Illustrationen erwecken die Kids Käsebox zum Leben und laden mit ihrer lockeren Linienführung kleine Entdecker zum genaueren Hinsehen ein.</p>
 		</div>
 	</div>
 </section>
@@ -144,7 +144,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 	<div class="row centered has-padding-lr">
 		<div class="col s16 m10 l9 xl8">
             <h4 class="small-title">KÄSE MIT CHARAKTER.</h4>
-			<p class="is-text is-indented">Eine neugierige Maus, ein Käse auf zwei Beinen und jede Menge kleine Details: Unsere Illustrationen geben der Kids Käsebox ihre eigene kleine Welt. Die lockere Linienführung verbindet die Figuren und lässt viel Raum für ihren Charakter. So wird die Verpackung selbst zur Einladung, genauer hinzuschauen und auf Entdeckungsreise zu gehen.</p>
+			<p class="is-text is-indented">Ein Zeichenwettbewerb an den Schulen der Region gab Kindern die Möglichkeit, ihre Bilder einzureichen. Ausgewählte Arbeiten schmücken die Innenseite des Deckels und machen die Kids Käsebox beim Öffnen zur kleinen Galerie.</p>
 		</div>
 	</div>
 </section>

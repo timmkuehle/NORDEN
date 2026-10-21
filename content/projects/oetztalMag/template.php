@@ -29,7 +29,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 		<div class="hero-intro has-padding-lr">
 			<div class="row">
 				<div class="col s16 m16 l12">
-					<p class="text-is-large">Ein Tal voller Geschichten. Und Raum, sie zu erzählen. Das Ötztal Magazin verbindet eindrucksvolle Fotografie mit Geschichten über Natur, Kultur und die Menschen der Region. Von uns konzipiert und gestaltet, begleiten wir es Jahr für Jahr in der Umsetzung. Großzügiger Weißraum, klare Typografie und individuell gestaltete Beiträge geben jeder Geschichte ihren Platz – und dem Magazin damit seine unverwechselbare Handschrift.</p>
+					<p class="text-is-large">Ein Tal voller Geschichten. Das Ötztal Magazin verbindet eindrucksvolle Fotografie mit Geschichten über Natur, Kultur und die Menschen der Region. Großzügiger Weißraum, klare Typografie und individuell gestaltete Beiträge prägen die von uns entwickelte, unverwechselbare Handschrift.</p>
 				</div>
 			</div>
 		</div>
@@ -131,8 +131,8 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 </section>
 
 <section class="project-section section-6">
-    <div class="row">
-        <div class="col s16 m9 l7">
+    <div class="row has-padding-lr">
+        <div class="col s11 m9 l7">
 		<?php new Image(
   	null,
   	'image',
@@ -142,25 +142,24 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
   ); ?>
         </div>
 
-		<div class="col s14 m6 l7 xl6 push-xl1">
-				<h4 class="small-title">RAUM FÜR GUTE GESCHICHTEN</h4>
-					<p class="is-text">Großzügige Bildstrecken, ruhige Flächen und bewusst gesetzter Weißraum prägen das Magazin. Fotografien bekommen Platz, ihre Wirkung zu entfalten. Texte laden zum Vertiefen ein. Die Gestaltung verbindet beides, setzt Akzente und schafft immer wieder Momente zum Innehalten.</p>
-
+		<div class="col s16 m6 l7 xl6 push-xl1">
+			<h4 class="small-title">RAUM FÜR GUTE GESCHICHTEN</h4>
+			<p class="is-text">Großzügige Bildstrecken, ruhige Flächen und Weißraum prägen das Magazin. Fotografien entfalten ihre Wirkung, Texte laden zum Vertiefen ein. Die Gestaltung verbindet beides und schafft Momente zum Innehalten.</p><br>
+			<p class="is-text">Offenes Volumenpapier sorgt für eine besondere Haptik und greift die Markenfarbe auf. Es verbindet einen hochwertigen Auftritt mit geringem Gewicht – ideal für den Versand.</p>
 		</div>
     </div>
 
 	<div class="row">
 		<div class="col s16 m9 l8">
-
 		</div>
-		<div class="col s14 m7 l7 push-xl1">
+		<div class="col s10 m7 l7 push-xl1">
 		<?php new Image(
-  	null,
-  	'quote-image',
-  	'/content/resources/media/oetztalMag/03_inhaltsseiten/Zitat.svg',
-  	'Ötztal Zitat',
-  	true
-  ); ?>
+			null,
+			'quote-image',
+			'/content/resources/media/oetztalMag/03_inhaltsseiten/Zitat.svg',
+			'Ötztal Zitat',
+			true
+		); ?>
 		</div>
 	</div>
 </section>
@@ -269,7 +268,7 @@ if (isset($NORDEN_TEMPLATE_META_ONLY) && $NORDEN_TEMPLATE_META_ONLY) {
 
 	</div>
 	<div class="col s16 m8 l6 push-l1">
-		<p class="is-text">Großzügige Bildstrecken, ruhige Flächen und bewusst gesetzter Weißraum prägen das Magazin. Fotografien bekommen Platz, ihre Wirkung zu entfalten. Texte laden zum Vertiefen ein. Die Gestaltung verbindet beides, setzt Akzente und schafft immer wieder Momente zum Innehalten.</p>
+		<p class="is-text">Großzügige Bildstrecken, ruhige Flächen und Weißraum prägen das Magazin. Fotografien entfalten ihre Wirkung, Texte laden zum Vertiefen ein. Die Gestaltung verbindet beides, setzt gezielte Akzente und schafft Momente zum Innehalten.</p>
 	</div>
 </div>
 </section>
