@@ -144,6 +144,16 @@ class ClientModel {
             'link' => 'https://www.etsy.com/shop/MURIhandcraftedgoods/',
             'logo' => '/content/resources/clientLogos/Muri.svg'
         ],
+        [
+            'name' => 'maishofen',
+            'nicename' => 'Maishofen',
+            'logo' => '/content/resources/clientLogos/Maishofen.svg'
+        ],
+        [
+            'name' => 'Sylt',
+            'nicename' => 'Sylt',
+            'logo' => '/content/resources/clientLogos/Sylt.svg'
+        ],
     ];
 
     /**

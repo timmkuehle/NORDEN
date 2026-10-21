@@ -23,28 +23,30 @@ class ClientLogoStrip extends PHTMLComponent {
 				isset($client['logo']) &&
 				file_exists($file = BASE_DIR . sanitize_uri($client['logo']))
 			) {
+				$is_internal =
+					isset($client['project_slug']) && $client['project_slug'];
 				$title = isset($client['nicename'])
-					? 'Website ansehen: ' . $client['nicename']
-					: 'Kunden-Website ansehen';
-
-				$is_internal = isset($client['project_slug']) && $client['project_slug'];
-				$href = $is_internal
-					? BASE_URL . sanitize_uri($client['project_slug'])
-					: ($client['link'] ?? '#');
-				$title = $is_internal
-					? (isset($client['nicename'])
+					? ($is_internal
 						? 'Projekt ansehen: ' . $client['nicename']
-						: 'Projekt ansehen')
-					: $title; ?>
-                <a class="client-logo-link"
-					<?php if (!$is_internal): ?>target="_blank"<?php endif; ?>
-					href="<?php echo $href; ?>">
+						: $client['nicename'])
+					: ($is_internal
+						? 'Projekt ansehen'
+						: 'Kunde');
+				$tag = $is_internal ? 'a' : 'span';
+				$href = $is_internal
+					? ' href="' .
+						BASE_URL .
+						sanitize_uri($client['project_slug']) .
+						'"'
+					: '';
+				?>
+                <<?php echo $tag; ?> class="client-logo-link"<?php echo $href; ?>>
                     <?php if (pathinfo($file, PATHINFO_EXTENSION) === 'svg') {
                     	new Svg(null, null, $client['logo'], $title);
                     } else {
                     	new Image(null, null, $client['logo'], $title);
                     } ?>
-                </a>
+                </<?php echo $tag; ?>>
         <?php
 			}
 		}

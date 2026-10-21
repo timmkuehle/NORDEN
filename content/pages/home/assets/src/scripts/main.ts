@@ -8,12 +8,18 @@ type SeasonVideoSources = {
 
 function getSeasonForDate(date: Date = new Date()): Season {
   const month = date.getMonth() + 1; // 1..12
+  const day = date.getDate();
 
-  // Meteorological seasons (northern hemisphere)
+  // Winter starts 20 Oct (through end of February)
+  if (month === 10 && day >= 20) return 'winter';
+  if (month === 11 || month === 12 || month <= 2) return 'winter';
+
+  // Spring: 1 Mar – 31 May
   if (month >= 3 && month <= 5) return 'spring';
+  // Summer: 1 Jun – 31 Aug
   if (month >= 6 && month <= 8) return 'summer';
-  if (month >= 9 && month <= 11) return 'autumn';
-  return 'winter';
+  // Autumn: 1 Sep – 19 Oct
+  return 'autumn';
 }
 
 function getHomeSeasonVideoSources(date: Date = new Date()): SeasonVideoSources {
