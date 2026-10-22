@@ -28,31 +28,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-          cache: npm
 
       - name: Install dependencies
-        run: npm ci
-
-      - name: Cache image derivatives
-        id: webp-cache
-        uses: actions/cache@v4
-        with:
-          path: webp-cache.tar
-          key: webp-${{ hashFiles('content/resources/media/**/*.jpg', 'content/resources/media/**/*.jpeg', 'content/resources/media/**/*.png', 'scripts/resources/constants.js') }}
-
-      - name: Restore image derivatives
-        if: steps.webp-cache.outputs.cache-hit == 'true'
-        run: tar -xf webp-cache.tar
+        run: npm i
 
       - name: Build project
         run: npm run build
 
       - name: Process resources
         run: npm run resources
-
-      - name: Pack image derivatives
-        if: steps.webp-cache.outputs.cache-hit != 'true'
-        run: find content/resources/media -name '*w.webp' -print0 | tar -cf webp-cache.tar --null -T -
 
       - name: Setup .htaccess
         run: echo "$STAGING_HTACCESS" > .htaccess
@@ -68,6 +52,9 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H $SSH_HOST > ~/.ssh/known_hosts
 
+      - name: Clear destination directory
+        run: ssh $SSH_USER@$SSH_HOST "shopt -s dotglob; rm -rf $SSH_DEST_DIR/*"
+
       - name: Deploy to staging server
         run: |
           rsync -avz --delete --delete-excluded \
@@ -80,7 +67,6 @@ jobs:
           --exclude='tsconfig.json' \
           --exclude='webpack.config.js' \
           --exclude='scripts' \
-          --exclude='webp-cache.tar' \
           --exclude='content/assets/src' \
           --exclude='content/*/*/assets/src' \
           --exclude='core/error/assets/src' \
