@@ -49,7 +49,6 @@ class ClientModel {
             'name' => 'bike-republic',
             'nicename' => 'Bike Republic',
             'link' => 'https://bikerepublic.soelden.com/',
-            'project_slug' => '/projekte/soelden/bike-republic',
             'logo' => '/content/resources/clientLogos/Bike_Republic.svg'
         ],
         [
@@ -84,6 +83,8 @@ class ClientModel {
             'name' => 'garda-trentino',
             'nicename' => 'Garda Trentino',
             'link' => 'https://www.gardatrentino.it/de',
+            'project_slug' => '/projekte/garda-trentino-cd',
+
             'logo' => '/content/resources/clientLogos/Garda_Logowhite.svg'
         ],
         [
