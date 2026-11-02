@@ -34,9 +34,6 @@
         © Ski Austria – J. Zeller, © Burton, © F. Manz, © G. Berger</p>
         <h3>Texte:</h3>
         <p>NORDEN GmbH</p>
-        <h3>Programmierung</h3>
-        <p>Werbeagentur Tino Schlenker <br>
-        <a href="https://tinoschlenker.de/" target="_blank" rel="noopener noreferrer">tinoschlenker.de</a> <br>Museumstraße 10 <br> 6020 Innsbruck / Austria</p>
     </div>
     <div class="slot end"></div>
 </section>
